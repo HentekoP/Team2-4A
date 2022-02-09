@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class Break : MonoBehaviour
 {
+    public AudioClip sound1;
+    AudioSource audioSource;
+
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        if(collision.gameObject.name == "Plane")
+        {
+            audioSource.PlayOneShot(sound1);
+        }
     }
 }
