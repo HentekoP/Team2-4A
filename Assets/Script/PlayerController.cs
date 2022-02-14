@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    Transform target;
     private CharacterController _cController;
     public float Rotation = 180f;
-    float step;
     float moveSpeed = 3f;
-    float x;
-    float y;
     Transform _transform;
-    Vector3 _vector;
+    Transform target;
+    Vector3 _vector = Vector3.zero;
+    float x, z;
+    float x2;
     void Start()
     {
         target = GameObject.Find("BlueSuitFree01").transform;
@@ -21,13 +20,16 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        _vector.x = Input.GetAxis("Horizontal") * moveSpeed;
-        _vector.z = Input.GetAxis("Vertical") * -moveSpeed;
-        x = Input.GetAxis("Horizontal2");
-        y = Input.GetAxis("Vertical2");
+        x = Input.GetAxis("Horizontal");
+        z = Input.GetAxis("Vertical");
 
-        _transform.LookAt(_transform.position + new Vector3(_vector.x, 0, _vector.z));
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(x * Rotation, y * Rotation, 0), step);
+        x2 = Input.GetAxis("Horizontal2");
+        _vector = new Vector3(x, 0, -z);
+        _vector = _transform.TransformDirection(_vector);
+        _vector *= moveSpeed;
         _cController.Move(_vector * Time.deltaTime);
+
+        target.Rotate(new Vector3(0, x2, 0));
+
     }
 }
