@@ -24,5 +24,14 @@ public class Next_scene : MonoBehaviour
                 SceneManager.LoadScene("Title");
             }
         }
+        if (Input.GetButtonDown("Menu"))
+        {
+            if (Debug.isDebugBuild)
+            {
+                UnityEditor.EditorApplication.isPlaying = false;  //デバッグ用
+            }
+
+            Application.Quit();
+        }
     }
 }
