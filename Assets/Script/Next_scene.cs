@@ -28,7 +28,7 @@ public class Next_scene : MonoBehaviour
         {
             if (Debug.isDebugBuild)
             {
-                UnityEditor.EditorApplication.isPlaying = false;  //デバッグ用
+                //UnityEditor.EditorApplication.isPlaying = false;  //デバッグ用
             }
 
             Application.Quit();
