@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_b_g_m" kind="class"><name>BGM</name>
+    <member refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" kind="variable"><name>BGM_title</name></member>
+    <member refid="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" kind="variable"><name>BGM_main</name></member>
+    <member refid="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" kind="variable"><name>source</name></member>
+    <member refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" kind="variable"><name>beforeScene</name></member>
+    <member refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" kind="function"><name>Start</name></member>
+    <member refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" kind="function"><name>OnActiveSceneChanged</name></member>
+  </compound>
   <compound refid="class_break" kind="class"><name>Break</name>
     <member refid="class_break_1aa05ccada815c815f94f1946932daf8f8" kind="variable"><name>sound1</name></member>
     <member refid="class_break_1a89e042560a48afa59f783a6274448636" kind="variable"><name>audioSource</name></member>
@@ -7,10 +15,11 @@
     <member refid="class_break_1af6fa48c121a36a1a770ac3f4cabecd9e" kind="function"><name>OnCollisionEnter</name></member>
   </compound>
   <compound refid="classhammer" kind="class"><name>hammer</name>
-    <member refid="classhammer_1ae6e32245d2cc357d2400c7ffa2e882ed" kind="variable"><name>effectPrefab</name></member>
-    <member refid="classhammer_1aeaafcb7c3c974010ac05d8449509c8c5" kind="variable"><name>effectPrefab2</name></member>
-    <member refid="classhammer_1a589f0a3c417b8785e5534c4273467e35" kind="variable"><name>objectHP</name></member>
-    <member refid="classhammer_1af2a890345076da0c5a8d94ea1b5c9357" kind="function"><name>OnTriggerEnter</name></member>
+    <member refid="classhammer_1a1391473d3b1eed32de1ad71ba96df097" kind="function"><name>OnCollisionEnter</name></member>
+  </compound>
+  <compound refid="classkowareru" kind="class"><name>kowareru</name>
+    <member refid="classkowareru_1a5e160834cc870a152e1f73c475500a71" kind="function"><name>Start</name></member>
+    <member refid="classkowareru_1aee2519b385fb600d1aade82736ba45f0" kind="function"><name>Update</name></member>
   </compound>
   <compound refid="class_model_customizer" kind="class"><name>ModelCustomizer</name>
   </compound>
@@ -21,6 +30,23 @@
     <member refid="class_model_customizer_inspector_1a715929d27c3ce47e971c8566c0574434" kind="variable"><name>start</name></member>
     <member refid="class_model_customizer_inspector_1a251f5670056ccfb8b12151030943a959" kind="variable"><name>material</name></member>
     <member refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" kind="function"><name>OnInspectorGUI</name></member>
+  </compound>
+  <compound refid="class_next__scene" kind="class"><name>Next_scene</name>
+    <member refid="class_next__scene_1a0b13c41dde4edb0d25e4090d5624f413" kind="function"><name>Start</name></member>
+    <member refid="class_next__scene_1af5c0b18a3ef8e871a9848ae16d10436f" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" kind="variable"><name>_cController</name></member>
+    <member refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" kind="variable"><name>moveSpeed</name></member>
+    <member refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" kind="variable"><name>_transform</name></member>
+    <member refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" kind="variable"><name>target</name></member>
+    <member refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" kind="variable"><name>_vector</name></member>
+    <member refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" kind="variable"><name>x</name></member>
+    <member refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" kind="variable"><name>z</name></member>
+    <member refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" kind="variable"><name>x2</name></member>
+    <member refid="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" kind="variable"><name>Rotation</name></member>
+    <member refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" kind="function"><name>Start</name></member>
+    <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kind="function"><name>Update</name></member>
   </compound>
   <compound refid="class_rigidbody_player_controller" kind="class"><name>RigidbodyPlayerController</name>
     <member refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kind="variable"><name>m_controlType</name></member>
@@ -33,6 +59,10 @@
     <member refid="class_rigidbody_player_controller_1a3135b5e29655bd0deb0fc22464da93e6" kind="function"><name>Start</name></member>
     <member refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" kind="function"><name>Update</name></member>
     <member refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" kind="function"><name>IsGrounded</name></member>
+  </compound>
+  <compound refid="class_slide_show" kind="class"><name>SlideShow</name>
+    <member refid="class_slide_show_1a989ea6677e14d72bcb3987055596709a" kind="function"><name>Start</name></member>
+    <member refid="class_slide_show_1a4b46cd7f0200c58a941348751abca90e" kind="function"><name>Update</name></member>
   </compound>
   <compound refid="namespace_system" kind="namespace"><name>System</name>
   </compound>
@@ -48,11 +78,15 @@
   </compound>
   <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
   </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
   <compound refid="_model_customizer_inspector_8cs" kind="file"><name>ModelCustomizerInspector.cs</name>
   </compound>
   <compound refid="_model_customizer_8cs" kind="file"><name>ModelCustomizer.cs</name>
   </compound>
   <compound refid="hammer_8cs" kind="file"><name>hammer.cs</name>
+  </compound>
+  <compound refid="kowareru_8cs" kind="file"><name>kowareru.cs</name>
   </compound>
   <compound refid="_rigidbody_player_controller_8cs" kind="file"><name>RigidbodyPlayerController.cs</name>
     <member refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kind="enum"><name>ControlType</name></member>
@@ -60,7 +94,15 @@
     <member refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a6bc362dbf494c61ea117fe3c71ca48a5" kind="enumvalue"><name>Move</name></member>
     <member refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a02ee96aec20e4c5d3ca080ade0a26dd1" kind="enumvalue"><name>MoveWithSmoothTurn</name></member>
   </compound>
+  <compound refid="_b_g_m_8cs" kind="file"><name>BGM.cs</name>
+  </compound>
   <compound refid="_break_8cs" kind="file"><name>Break.cs</name>
+  </compound>
+  <compound refid="_next__scene_8cs" kind="file"><name>Next_scene.cs</name>
+  </compound>
+  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
+  </compound>
+  <compound refid="_slide_show_8cs" kind="file"><name>SlideShow.cs</name>
   </compound>
   <compound refid="dir_5f1360e3a6f8ddc684d31c013c60350c" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets</name>
   </compound>

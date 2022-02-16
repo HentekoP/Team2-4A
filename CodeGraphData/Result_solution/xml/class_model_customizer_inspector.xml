@@ -102,36 +102,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="13">
+      <node id="21">
         <label>Editor</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>ModelCustomizerInspector</label>
         <link refid="class_model_customizer_inspector"/>
-        <childnode refid="13" relation="public-inheritance">
+        <childnode refid="21" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="15">
+      <node id="23">
         <label>Editor</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>ModelCustomizerInspector</label>
         <link refid="class_model_customizer_inspector"/>
-        <childnode refid="15" relation="public-inheritance">
+        <childnode refid="23" relation="public-inheritance">
         </childnode>
-        <childnode refid="16" relation="usage">
+        <childnode refid="24" relation="usage">
           <edgelabel>customizer</edgelabel>
         </childnode>
       </node>
-      <node id="16">
+      <node id="24">
         <label>ModelCustomizer</label>
         <link refid="class_model_customizer"/>
-        <childnode refid="17" relation="public-inheritance">
+        <childnode refid="25" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="17">
+      <node id="25">
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>

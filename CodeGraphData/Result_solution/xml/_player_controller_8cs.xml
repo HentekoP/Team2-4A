@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_player_controller_8cs" kind="file">
+    <compoundname>PlayerController.cs</compoundname>
+    <innerclass refid="class_player_controller" prot="public">PlayerController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_player_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_player_controller" kindref="compound">PlayerController</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>CharacterController<sp/><ref refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" kindref="member">_cController</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" kindref="member">Rotation</ref><sp/>=<sp/>180f;</highlight></codeline>
+<codeline lineno="9" refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" kindref="member">moveSpeed</ref><sp/>=<sp/>3f;</highlight></codeline>
+<codeline lineno="10" refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Transform<sp/><ref refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" kindref="member">_transform</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Transform<sp/><ref refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" kindref="member">target</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3<sp/><ref refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" kindref="member">_vector</ref><sp/>=<sp/>Vector3.zero;</highlight></codeline>
+<codeline lineno="13" refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" kindref="member">x</ref>,<sp/><ref refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" kindref="member">x2</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" kindref="member">target</ref><sp/>=<sp/>GameObject.Find(</highlight><highlight class="stringliteral">&quot;BlueSuitFree01&quot;</highlight><highlight class="normal">).transform;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" kindref="member">_cController</ref><sp/>=<sp/>GetComponent&lt;CharacterController&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" kindref="member">_transform</ref><sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21" refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" kindref="member">x</ref><sp/>=<sp/>Input.GetAxis(</highlight><highlight class="stringliteral">&quot;Horizontal&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" kindref="member">z</ref><sp/>=<sp/>Input.GetAxis(</highlight><highlight class="stringliteral">&quot;Vertical&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" kindref="member">x2</ref><sp/>=<sp/>Input.GetAxis(</highlight><highlight class="stringliteral">&quot;Horizontal2&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" kindref="member">_vector</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(<ref refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" kindref="member">x</ref>,<sp/>0,<sp/>-z);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_vector<sp/>=<sp/>_transform.TransformDirection(<ref refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" kindref="member">_vector</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_vector<sp/>*=<sp/><ref refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" kindref="member">moveSpeed</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_cController.Move(_vector<sp/>*<sp/>Time.deltaTime);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>target.Rotate(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0,<sp/>x2,<sp/>0));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/PlayerController.cs"/>
+  </compounddef>
+</doxygen>

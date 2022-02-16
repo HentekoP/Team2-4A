@@ -3,59 +3,15 @@
   <compounddef id="classhammer" kind="class" prot="public">
     <compoundname>hammer</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classhammer_1ae6e32245d2cc357d2400c7ffa2e882ed" prot="public" static="no" mutable="no">
-        <type>GameObject</type>
-        <definition>GameObject hammer.effectPrefab</definition>
-        <argsstring></argsstring>
-        <name>effectPrefab</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="7" bodyend="-1"/>
-        <referencedby refid="classhammer_1af2a890345076da0c5a8d94ea1b5c9357" compoundref="hammer_8cs" startline="12" endline="38">OnTriggerEnter</referencedby>
-      </memberdef>
-      <memberdef kind="variable" id="classhammer_1aeaafcb7c3c974010ac05d8449509c8c5" prot="public" static="no" mutable="no">
-        <type>GameObject</type>
-        <definition>GameObject hammer.effectPrefab2</definition>
-        <argsstring></argsstring>
-        <name>effectPrefab2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="9" bodyend="-1"/>
-        <referencedby refid="classhammer_1af2a890345076da0c5a8d94ea1b5c9357" compoundref="hammer_8cs" startline="12" endline="38">OnTriggerEnter</referencedby>
-      </memberdef>
-      <memberdef kind="variable" id="classhammer_1a589f0a3c417b8785e5534c4273467e35" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int hammer.objectHP</definition>
-        <argsstring></argsstring>
-        <name>objectHP</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="10" bodyend="-1"/>
-        <referencedby refid="classhammer_1af2a890345076da0c5a8d94ea1b5c9357" compoundref="hammer_8cs" startline="12" endline="38">OnTriggerEnter</referencedby>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classhammer_1af2a890345076da0c5a8d94ea1b5c9357" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classhammer_1a1391473d3b1eed32de1ad71ba96df097" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void hammer.OnTriggerEnter</definition>
-        <argsstring>(Collider other)</argsstring>
-        <name>OnTriggerEnter</name>
+        <definition>void hammer.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
         <param>
-          <type>Collider</type>
-          <declname>other</declname>
+          <type>Collision</type>
+          <declname>collision</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -63,10 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="12" bodyend="38"/>
-        <references refid="classhammer_1ae6e32245d2cc357d2400c7ffa2e882ed" compoundref="hammer_8cs" startline="7">effectPrefab</references>
-        <references refid="classhammer_1aeaafcb7c3c974010ac05d8449509c8c5" compoundref="hammer_8cs" startline="9">effectPrefab2</references>
-        <references refid="classhammer_1a589f0a3c417b8785e5534c4273467e35" compoundref="hammer_8cs" startline="10">objectHP</references>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="10" bodyend="14"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -74,33 +27,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="4">
+      <node id="8">
         <label>hammer</label>
         <link refid="classhammer"/>
-        <childnode refid="5" relation="public-inheritance">
+        <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="9">
         <label>MonoBehaviour</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="6">
+      <node id="10">
         <label>hammer</label>
         <link refid="classhammer"/>
-        <childnode refid="7" relation="public-inheritance">
+        <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="7">
+      <node id="11">
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="5" bodyend="39"/>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/hammer.cs" bodystart="5" bodyend="16"/>
     <listofallmembers>
-      <member refid="classhammer_1ae6e32245d2cc357d2400c7ffa2e882ed" prot="public" virt="non-virtual"><scope>hammer</scope><name>effectPrefab</name></member>
-      <member refid="classhammer_1aeaafcb7c3c974010ac05d8449509c8c5" prot="public" virt="non-virtual"><scope>hammer</scope><name>effectPrefab2</name></member>
-      <member refid="classhammer_1a589f0a3c417b8785e5534c4273467e35" prot="public" virt="non-virtual"><scope>hammer</scope><name>objectHP</name></member>
-      <member refid="classhammer_1af2a890345076da0c5a8d94ea1b5c9357" prot="private" virt="non-virtual"><scope>hammer</scope><name>OnTriggerEnter</name></member>
+      <member refid="classhammer_1a1391473d3b1eed32de1ad71ba96df097" prot="private" virt="non-virtual"><scope>hammer</scope><name>OnCollisionEnter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
