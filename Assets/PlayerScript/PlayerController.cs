@@ -1,47 +1,111 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject camera;
-    private CharacterController _cController;
+    private CharacterController cCon;
+    private Vector3 velocity;
     private Animator animator;
-    public float Rotation = 180f;
-    float moveSpeed = 3f;
-    Transform _transform;
-    Transform target;
-    Vector3 _vector = Vector3.zero;
-    float x, z;
-    float x2;
+    [SerializeField]
+    private float walkSpeed = 5f;
+    [SerializeField]
+    private float runSpeed = 10f;
+    private bool runFlag = false;
+    private Transform myCamera;
+    [SerializeField]
+    private float cameraRotateLimit = 30f;
+    [SerializeField]
+    private bool cameraRotForward = true;
+    private Quaternion initCameraRot;
+    [SerializeField]
+    private float rotateSpeed = 2f;
+    private float xRotate;
+    private float yRotate;
+    [SerializeField]
+    private float RstickSpeed = 2f;
+    private Quaternion charaRotate;
+    private Quaternion cameraRotate;
+    private bool charaRotFlag = false;
     void Start()
     {
-        target = GameObject.Find("BlueSuitFree01").transform;
-        _cController = GetComponent<CharacterController>();
-        _transform = transform;
+        cCon = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        myCamera = GetComponentInChildren<Camera>().transform;
+        initCameraRot = myCamera.localRotation;
+        charaRotate = transform.localRotation;
+        cameraRotate = myCamera.localRotation;
     }
     void Update()
     {
-        x = Input.GetAxis("Horizontal");
-        z = Input.GetAxis("Vertical");
+        RotateChara();
+        RotateCamera();
 
-        x2 = Input.GetAxis("Horizontal2");
-        if (_cController.isGrounded)
-        {
-            _vector = new Vector3(x, 0, -z);
-            if (_vector.magnitude > 0.1f)
+        
+            velocity = Vector3.zero;
+            velocity = (transform.forward * -(Input.GetAxis("Vertical")) + transform.right * Input.GetAxis("Horizontal")).normalized;
+
+        float speed = 0f;
+            if (Input.GetButton("Run"))
             {
-                animator.SetFloat("speed", _vector.magnitude);
-                _transform.LookAt(_transform.position + _vector);
+                runFlag = true;
+                speed = runSpeed;
             }
             else
             {
-                animator.SetFloat("speed", 0f);
+                runFlag = false;
+                speed = walkSpeed;
+            }
+            velocity *= speed;
+
+        if (velocity.magnitude > 0f || charaRotFlag)
+        {
+            if (runFlag = true && charaRotFlag)
+            {
+                animator.SetFloat("speed", 2.1f);
+            }
+            else
+            {
+                animator.SetFloat("speed", 1f);
             }
         }
-        _cController.Move(_vector * moveSpeed * Time.deltaTime);
-        target.Rotate(new Vector3(0, x2, 0));
+        else
+        {
+            animator.SetFloat("speed", 0f);
+        }
 
+
+
+        velocity.y += Physics.gravity.y * Time.deltaTime;
+        Debug.Log(velocity);
+        cCon.Move(velocity * Time.deltaTime);
+    }
+    void RotateChara()
+    {
+        float yRotate = Input.GetAxis("Horizontal2") * RstickSpeed;
+        charaRotate *= Quaternion.Euler(0f, yRotate, 0f);
+        if(yRotate != 0f)
+        {
+            charaRotFlag = true;
+        }
+        else
+        {
+            charaRotFlag = false;
+        }
+        transform.localRotation = Quaternion.Slerp(transform.localRotation, charaRotate, rotateSpeed * Time.deltaTime);
+
+    }
+    void RotateCamera()
+    {
+        float xRotate = Input.GetAxis("Vertical2") * RstickSpeed;
+        if (cameraRotForward)
+        {
+            xRotate *= -1;
+        }
+        cameraRotate *= Quaternion.Euler(xRotate, 0f, 0f);
+        var resultYRot = Mathf.Clamp(Mathf.DeltaAngle(initCameraRot.eulerAngles.x, cameraRotate.eulerAngles.x), -cameraRotateLimit, cameraRotateLimit);
+        cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
+        myCamera.localRotation = Quaternion.Slerp(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
     }
 }
