@@ -5,14 +5,15 @@ using UnityEngine;
 public class hammer : MonoBehaviour
 
 {
-
+    public Rigidbody rig;
     void OnCollisionEnter(Collision collision)
     {
-       
-        var rb = GetComponent<Rigidbody>();
-        rb.isKinematic = false;
 
+
+        rig = collision.gameObject.GetComponent<Rigidbody>();
+        rig.isKinematic = false;
         Debug.Log("Hit");
+       
         
     }
 

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_play_manager" kind="class" prot="public">
+    <compoundname>PlayManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_play_manager_1aec20255af505105b87af78c870ec7eef" prot="public" static="no" mutable="no">
+        <type>Animator[]</type>
+        <definition>Animator [] PlayManager.playerGroup</definition>
+        <argsstring></argsstring>
+        <name>playerGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_play_manager_1a1e0f23fa0255e4dbed4764819e4676d0" compoundref="_play_manager_8cs" startline="37" endline="74">OnGUI</referencedby>
+        <referencedby refid="class_play_manager_1acfcb25d23aee0aa6b810d5ee3b390e99" compoundref="_play_manager_8cs" startline="11" endline="34">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_play_manager_1adcdb2eacb0e9a30ba211ca4c5c8b1e29" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] PlayManager.animClipNameGroup</definition>
+        <argsstring></argsstring>
+        <name>animClipNameGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_play_manager_1a1e0f23fa0255e4dbed4764819e4676d0" compoundref="_play_manager_8cs" startline="37" endline="74">OnGUI</referencedby>
+        <referencedby refid="class_play_manager_1acfcb25d23aee0aa6b810d5ee3b390e99" compoundref="_play_manager_8cs" startline="11" endline="34">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_play_manager_1a8ac52109170f54cc6445895ce210bcb3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayManager.currentNumber</definition>
+        <argsstring></argsstring>
+        <name>currentNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_play_manager_1a1e0f23fa0255e4dbed4764819e4676d0" compoundref="_play_manager_8cs" startline="37" endline="74">OnGUI</referencedby>
+        <referencedby refid="class_play_manager_1acfcb25d23aee0aa6b810d5ee3b390e99" compoundref="_play_manager_8cs" startline="11" endline="34">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_play_manager_1acfcb25d23aee0aa6b810d5ee3b390e99" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" bodystart="11" bodyend="34"/>
+        <references refid="class_play_manager_1adcdb2eacb0e9a30ba211ca4c5c8b1e29" compoundref="_play_manager_8cs" startline="7">animClipNameGroup</references>
+        <references refid="class_play_manager_1a8ac52109170f54cc6445895ce210bcb3" compoundref="_play_manager_8cs" startline="8">currentNumber</references>
+        <references refid="class_play_manager_1aec20255af505105b87af78c870ec7eef" compoundref="_play_manager_8cs" startline="6">playerGroup</references>
+      </memberdef>
+      <memberdef kind="function" id="class_play_manager_1a1e0f23fa0255e4dbed4764819e4676d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayManager.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" bodystart="37" bodyend="74"/>
+        <references refid="class_play_manager_1adcdb2eacb0e9a30ba211ca4c5c8b1e29" compoundref="_play_manager_8cs" startline="7">animClipNameGroup</references>
+        <references refid="class_play_manager_1a8ac52109170f54cc6445895ce210bcb3" compoundref="_play_manager_8cs" startline="8">currentNumber</references>
+        <references refid="class_play_manager_1aec20255af505105b87af78c870ec7eef" compoundref="_play_manager_8cs" startline="6">playerGroup</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="34">
+        <label>PlayManager</label>
+        <link refid="class_play_manager"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="36">
+        <label>PlayManager</label>
+        <link refid="class_play_manager"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts/PlayManager.cs" bodystart="4" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_play_manager_1adcdb2eacb0e9a30ba211ca4c5c8b1e29" prot="private" virt="non-virtual"><scope>PlayManager</scope><name>animClipNameGroup</name></member>
+      <member refid="class_play_manager_1a8ac52109170f54cc6445895ce210bcb3" prot="private" virt="non-virtual"><scope>PlayManager</scope><name>currentNumber</name></member>
+      <member refid="class_play_manager_1a1e0f23fa0255e4dbed4764819e4676d0" prot="private" virt="non-virtual"><scope>PlayManager</scope><name>OnGUI</name></member>
+      <member refid="class_play_manager_1aec20255af505105b87af78c870ec7eef" prot="public" virt="non-virtual"><scope>PlayManager</scope><name>playerGroup</name></member>
+      <member refid="class_play_manager_1acfcb25d23aee0aa6b810d5ee3b390e99" prot="private" virt="non-virtual"><scope>PlayManager</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

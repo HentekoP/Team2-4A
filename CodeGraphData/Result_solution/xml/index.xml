@@ -36,7 +36,10 @@
     <member refid="class_next__scene_1af5c0b18a3ef8e871a9848ae16d10436f" kind="function"><name>Update</name></member>
   </compound>
   <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1acc8bc9405e191d35aa1ebf5fad7c286a" kind="variable"><name>camera</name></member>
+    <member refid="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" kind="variable"><name>Rotation</name></member>
     <member refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" kind="variable"><name>_cController</name></member>
+    <member refid="class_player_controller_1af24a8820ce6558138208255b27d948d3" kind="variable"><name>animator</name></member>
     <member refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" kind="variable"><name>moveSpeed</name></member>
     <member refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" kind="variable"><name>_transform</name></member>
     <member refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" kind="variable"><name>target</name></member>
@@ -44,9 +47,15 @@
     <member refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" kind="variable"><name>x</name></member>
     <member refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" kind="variable"><name>z</name></member>
     <member refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" kind="variable"><name>x2</name></member>
-    <member refid="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" kind="variable"><name>Rotation</name></member>
     <member refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" kind="function"><name>Start</name></member>
     <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_play_manager" kind="class"><name>PlayManager</name>
+    <member refid="class_play_manager_1aec20255af505105b87af78c870ec7eef" kind="variable"><name>playerGroup</name></member>
+    <member refid="class_play_manager_1adcdb2eacb0e9a30ba211ca4c5c8b1e29" kind="variable"><name>animClipNameGroup</name></member>
+    <member refid="class_play_manager_1a8ac52109170f54cc6445895ce210bcb3" kind="variable"><name>currentNumber</name></member>
+    <member refid="class_play_manager_1acfcb25d23aee0aa6b810d5ee3b390e99" kind="function"><name>Start</name></member>
+    <member refid="class_play_manager_1a1e0f23fa0255e4dbed4764819e4676d0" kind="function"><name>OnGUI</name></member>
   </compound>
   <compound refid="class_rigidbody_player_controller" kind="class"><name>RigidbodyPlayerController</name>
     <member refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kind="variable"><name>m_controlType</name></member>
@@ -88,6 +97,10 @@
   </compound>
   <compound refid="kowareru_8cs" kind="file"><name>kowareru.cs</name>
   </compound>
+  <compound refid="_play_manager_8cs" kind="file"><name>PlayManager.cs</name>
+  </compound>
+  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
+  </compound>
   <compound refid="_rigidbody_player_controller_8cs" kind="file"><name>RigidbodyPlayerController.cs</name>
     <member refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kind="enum"><name>ControlType</name></member>
     <member refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a6b12be2513bab07567150f54467bc568" kind="enumvalue"><name>Turn</name></member>
@@ -99,8 +112,6 @@
   <compound refid="_break_8cs" kind="file"><name>Break.cs</name>
   </compound>
   <compound refid="_next__scene_8cs" kind="file"><name>Next_scene.cs</name>
-  </compound>
-  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
   </compound>
   <compound refid="_slide_show_8cs" kind="file"><name>SlideShow.cs</name>
   </compound>
@@ -114,9 +125,17 @@
   </compound>
   <compound refid="dir_0eff0152b9b5b420979f1d063ee800e6" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses</name>
   </compound>
+  <compound refid="dir_bc0fb0a91b6c569f99b2104657616d1d" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack</name>
+  </compound>
   <compound refid="dir_26b9c094313dbf41d6ba8b90051c399a" kind="dir"><name>C:/Users/Noguc</name>
   </compound>
+  <compound refid="dir_d947f384a09badac22f72ba2c11189a9" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript</name>
+  </compound>
+  <compound refid="dir_1b739dd75175b9919857634c17997f6b" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene</name>
+  </compound>
   <compound refid="dir_30da43626a7ce90a2823a7f0e92af196" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/Script</name>
+  </compound>
+  <compound refid="dir_1cd6d01b06ef30f262bacc6e3626afce" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/MoveMotionPack/SampleScene/Scripts</name>
   </compound>
   <compound refid="dir_8c021aaed8f0583e06aebe03b4e169cb" kind="dir"><name>C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Scripts</name>
   </compound>
