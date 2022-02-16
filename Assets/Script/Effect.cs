@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Effect : MonoBehaviour
 {
-    public ParticleSystem efe;
-
+    //    public ParticleSystem efe;
+    public GameObject particleObject;
     void OnCollisionEnter(Collision collision)
     {
         Playeffect(collision);
@@ -13,7 +13,8 @@ public class Effect : MonoBehaviour
 
     void Playeffect(Collision collision)
     {
-        efe.transform.position = collision.contacts[0].point;
-        efe.Play();
+        Instantiate(particleObject, this.transform.position, Quaternion.identity);
+        particleObject.transform.position = collision.contacts[0].point;
+        //particleObject.Play();
     }
 }
