@@ -8,7 +8,10 @@ public class Effect : MonoBehaviour
     public GameObject particleObject;
     void OnCollisionEnter(Collision collision)
     {
-        Playeffect(collision);
+        if (collision.gameObject.name == "Plane")
+        {
+            Playeffect(collision);
+        }
     }
 
     void Playeffect(Collision collision)
