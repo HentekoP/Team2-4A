@@ -297,7 +297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.81
+      value: 0.504
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -724,8 +724,10 @@ MonoBehaviour:
   runSpeed: 6.5
   cameraRotateLimit: 80
   cameraRotForward: 1
-  rotateSpeed: 3
-  RstickSpeed: 1.5
+  rotateSpeed: 2
+  RstickSpeed: 1
+  jumpPower: 5
+  dashJumpPower: 6
 --- !u!4 &1059899652 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e,
@@ -746,7 +748,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!143 &1059899655
 CharacterController:
@@ -765,7 +767,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.09, z: 0}
 --- !u!1 &1486635922
 GameObject:
   m_ObjectHideFlags: 0
