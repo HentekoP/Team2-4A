@@ -13494,8 +13494,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &555936204
-SphereCollider:
+--- !u!64 &555936204
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13504,9 +13504,10 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3.63
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!4 &555936205
 Transform:
   m_ObjectHideFlags: 0
@@ -13549,7 +13550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c088bcc629a5f4992455b9db92dde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bc: {fileID: 555936204}
+  bc: {fileID: 0}
   rig: {fileID: 555936206}
 --- !u!1 &557876804 stripped
 GameObject:
