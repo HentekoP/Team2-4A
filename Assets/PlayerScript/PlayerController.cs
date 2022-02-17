@@ -41,10 +41,8 @@ public class PlayerController : MonoBehaviour
     {
         RotateChara();
         RotateCamera();
-
-        
-            velocity = Vector3.zero;
-            velocity = (transform.forward * -(Input.GetAxis("Vertical")) + transform.right * Input.GetAxis("Horizontal")).normalized;
+        velocity = new Vector3(Input.GetAxis("Horizontal"),0f,-(Input.GetAxis("Vertical")));
+        velocity = transform.TransformDirection(velocity);
 
         float speed = 0f;
             if (Input.GetButton("Run"))
@@ -58,27 +56,22 @@ public class PlayerController : MonoBehaviour
                 speed = walkSpeed;
             }
             velocity *= speed;
-
-        if (velocity.magnitude > 0f || charaRotFlag)
+        if (velocity.magnitude > 3f)
         {
-            if (runFlag && !charaRotFlag)
+            if (runFlag)
             {
                 animator.SetFloat("speed", 4.1f);
             }
             else
             {
-                animator.SetFloat("speed", 3f);
+                animator.SetFloat("speed", 3.1f);
             }
         }
         else
         {
             animator.SetFloat("speed", 0f);
         }
-
-
-
         velocity.y += Physics.gravity.y * Time.deltaTime;
-        Debug.Log(velocity);
         cCon.Move(velocity * Time.deltaTime);
     }
     void RotateChara()
