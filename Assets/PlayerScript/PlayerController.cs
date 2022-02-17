@@ -9,9 +9,9 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
     private Animator animator;
     [SerializeField]
-    private float walkSpeed = 5f;
+    private float walkSpeed = 3.5f;
     [SerializeField]
-    private float runSpeed = 10f;
+    private float runSpeed = 6.5f;
     private bool runFlag = false;
     private Transform myCamera;
     [SerializeField]
@@ -61,13 +61,13 @@ public class PlayerController : MonoBehaviour
 
         if (velocity.magnitude > 0f || charaRotFlag)
         {
-            if (runFlag = true && charaRotFlag)
+            if (runFlag && !charaRotFlag)
             {
-                animator.SetFloat("speed", 2.1f);
+                animator.SetFloat("speed", 4.1f);
             }
             else
             {
-                animator.SetFloat("speed", 1f);
+                animator.SetFloat("speed", 3f);
             }
         }
         else
