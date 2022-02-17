@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rigidbody_player_controller" kind="class" prot="public">
+    <compoundname>RigidbodyPlayerController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" prot="private" static="no" mutable="no">
+        <type><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref></type>
+        <definition>ControlType RigidbodyPlayerController.m_controlType</definition>
+        <argsstring></argsstring>
+        <name>m_controlType</name>
+        <initializer>= <ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a02ee96aec20e4c5d3ca080ade0a26dd1" kindref="member">ControlType.MoveWithSmoothTurn</ref></initializer>
+        <briefdescription>
+<para>操作系のタイプ</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidbodyPlayerController.m_movingSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_movingSpeed</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+<para>動く速さ</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidbodyPlayerController.m_turnSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_turnSpeed</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+<para>ターンの速さ</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1ae6f498040cd91eb35d33f3d0708e3131" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidbodyPlayerController.m_jumpPower</definition>
+        <argsstring></argsstring>
+        <name>m_jumpPower</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+<para>ジャンプ力</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1afadf383dc592ed148c25b98a1c48cfa1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RigidbodyPlayerController.m_isGroundedLength</definition>
+        <argsstring></argsstring>
+        <name>m_isGroundedLength</name>
+        <initializer>= 1.1f</initializer>
+        <briefdescription>
+<para>接地判定の際、中心 (Pivot) からどれくらいの距離を「接地している」と判定するかの長さ</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" compoundref="_rigidbody_player_controller_8cs" startline="129" endline="138">IsGrounded</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator RigidbodyPlayerController.m_anim</definition>
+        <argsstring></argsstring>
+        <name>m_anim</name>
+        <briefdescription>
+<para>キャラクターの Animator</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody RigidbodyPlayerController.m_rb</definition>
+        <argsstring></argsstring>
+        <name>m_rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_rigidbody_player_controller_1a3135b5e29655bd0deb0fc22464da93e6" compoundref="_rigidbody_player_controller_8cs" startline="29" endline="32">Start</referencedby>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rigidbody_player_controller_1a3135b5e29655bd0deb0fc22464da93e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RigidbodyPlayerController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="29" bodyend="32"/>
+        <references refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" compoundref="_rigidbody_player_controller_8cs" startline="26">m_rb</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RigidbodyPlayerController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="34" bodyend="123"/>
+        <references refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" compoundref="_rigidbody_player_controller_8cs" startline="129" endline="138">IsGrounded</references>
+        <references refid="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" compoundref="_rigidbody_player_controller_8cs" startline="24">m_anim</references>
+        <references refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" compoundref="_rigidbody_player_controller_8cs" startline="14">m_controlType</references>
+        <references refid="class_rigidbody_player_controller_1ae6f498040cd91eb35d33f3d0708e3131" compoundref="_rigidbody_player_controller_8cs" startline="20">m_jumpPower</references>
+        <references refid="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" compoundref="_rigidbody_player_controller_8cs" startline="16">m_movingSpeed</references>
+        <references refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" compoundref="_rigidbody_player_controller_8cs" startline="26">m_rb</references>
+        <references refid="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" compoundref="_rigidbody_player_controller_8cs" startline="18">m_turnSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RigidbodyPlayerController.IsGrounded</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrounded</name>
+        <briefdescription>
+<para>地面に接触しているか判定する </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="129" bodyend="138"/>
+        <references refid="class_rigidbody_player_controller_1afadf383dc592ed148c25b98a1c48cfa1" compoundref="_rigidbody_player_controller_8cs" startline="22">m_isGroundedLength</references>
+        <referencedby refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" compoundref="_rigidbody_player_controller_8cs" startline="34" endline="123">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Rigidbody を使ってプレイヤーを動かすコンポーネント 入力を受け取り、それに従ってオブジェクトを動かす ControlType を設定することで、オールドタイプ（ラジコン型）と現代的なタイプの操作系を切り替えられる </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="38">
+        <label>RigidbodyPlayerController</label>
+        <link refid="class_rigidbody_player_controller"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="40">
+        <label>RigidbodyPlayerController</label>
+        <link refid="class_rigidbody_player_controller"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="11" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>IsGrounded</name></member>
+      <member refid="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_anim</name></member>
+      <member refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_controlType</name></member>
+      <member refid="class_rigidbody_player_controller_1afadf383dc592ed148c25b98a1c48cfa1" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_isGroundedLength</name></member>
+      <member refid="class_rigidbody_player_controller_1ae6f498040cd91eb35d33f3d0708e3131" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_jumpPower</name></member>
+      <member refid="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_movingSpeed</name></member>
+      <member refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_rb</name></member>
+      <member refid="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>m_turnSpeed</name></member>
+      <member refid="class_rigidbody_player_controller_1a3135b5e29655bd0deb0fc22464da93e6" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>Start</name></member>
+      <member refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" prot="private" virt="non-virtual"><scope>RigidbodyPlayerController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

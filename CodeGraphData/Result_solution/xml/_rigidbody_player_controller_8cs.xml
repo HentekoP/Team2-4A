@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_rigidbody_player_controller_8cs" kind="file">
+    <compoundname>RigidbodyPlayerController.cs</compoundname>
+    <innerclass refid="class_rigidbody_player_controller" prot="public">RigidbodyPlayerController</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" prot="public" static="no">
+        <name>ControlType</name>
+        <enumvalue id="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a6b12be2513bab07567150f54467bc568" prot="public">
+          <name>Turn</name>
+          <briefdescription>
+<para>初代バイオハザードのようなラジコン操作</para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a6bc362dbf494c61ea117fe3c71ca48a5" prot="public">
+          <name>Move</name>
+          <briefdescription>
+<para>カメラを基準とした方向に移動する</para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a02ee96aec20e4c5d3ca080ade0a26dd1" prot="public">
+          <name>MoveWithSmoothTurn</name>
+          <briefdescription>
+<para>カメラを基準とした方向に移動する。方向転換の際には滑らかに回転する</para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" line="142" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs" bodystart="141" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[RequireComponent(typeof(Rigidbody))]</highlight></codeline>
+<codeline lineno="11" refid="class_rigidbody_player_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_rigidbody_player_controller" kindref="compound">RigidbodyPlayerController</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref><sp/><ref refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kindref="member">m_controlType</ref><sp/>=<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a02ee96aec20e4c5d3ca080ade0a26dd1" kindref="member">ControlType.MoveWithSmoothTurn</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" kindref="member">m_movingSpeed</ref><sp/>=<sp/>5f;</highlight></codeline>
+<codeline lineno="18" refid="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" kindref="member">m_turnSpeed</ref><sp/>=<sp/>3f;</highlight></codeline>
+<codeline lineno="20" refid="class_rigidbody_player_controller_1ae6f498040cd91eb35d33f3d0708e3131" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1ae6f498040cd91eb35d33f3d0708e3131" kindref="member">m_jumpPower</ref><sp/>=<sp/>5f;</highlight></codeline>
+<codeline lineno="22" refid="class_rigidbody_player_controller_1afadf383dc592ed148c25b98a1c48cfa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1afadf383dc592ed148c25b98a1c48cfa1" kindref="member">m_isGroundedLength</ref><sp/>=<sp/>1.1f;</highlight></codeline>
+<codeline lineno="24" refid="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/>Animator<sp/><ref refid="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" kindref="member">m_anim</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Rigidbody<sp/><ref refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" kindref="member">m_rb</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_rigidbody_player_controller_1a3135b5e29655bd0deb0fc22464da93e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1a3135b5e29655bd0deb0fc22464da93e6" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" kindref="member">m_rb</ref><sp/>=<sp/>GetComponent&lt;Rigidbody&gt;();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1a2189244f20d355fc7cf36d576c91353d" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>方向の入力を取得し、方向を求める</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v<sp/>=<sp/>Input.GetAxisRaw(</highlight><highlight class="stringliteral">&quot;Vertical&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h<sp/>=<sp/>Input.GetAxisRaw(</highlight><highlight class="stringliteral">&quot;Horizontal&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ControlType<sp/>と入力に応じてキャラクターを動かす</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kindref="member">m_controlType</ref><sp/>==<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref>.Turn)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>左右で回転させる</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(h<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.Rotate(this.transform.up,<sp/>h<sp/>*<sp/><ref refid="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" kindref="member">m_turnSpeed</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>上下で前後移動する。ジャンプした時の<sp/>y<sp/>軸方向の速度は保持する。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>velo<sp/>=<sp/>this.transform.forward<sp/>*<sp/><ref refid="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" kindref="member">m_movingSpeed</ref><sp/>*<sp/>v;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>velo.y<sp/>=<sp/>m_rb.velocity.y;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_rb.velocity<sp/>=<sp/>velo;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kindref="member">m_controlType</ref><sp/>==<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref>.Move<sp/>||<sp/><ref refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kindref="member">m_controlType</ref><sp/>==<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref>.MoveWithSmoothTurn)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>入力方向のベクトルを組み立てる</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>dir<sp/>=<sp/>Vector3.forward<sp/>*<sp/>v<sp/>+<sp/>Vector3.right<sp/>*<sp/>h;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dir<sp/>==<sp/>Vector3.zero)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>方向の入力がニュートラルの時は、y<sp/>軸方向の速度を保持するだけ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_rb.velocity<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0f,<sp/><ref refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" kindref="member">m_rb</ref>.velocity.y,<sp/>0f);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラを基準に入力が上下=奥/手前,<sp/>左右=左右にキャラクターを向ける</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dir<sp/>=<sp/>Camera.main.transform.TransformDirection(dir);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>メインカメラを基準に入力方向のベクトルを変換する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dir.y<sp/>=<sp/>0;<sp/><sp/></highlight><highlight class="comment">//<sp/>y<sp/>軸方向はゼロにして水平方向のベクトルにする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kindref="member">m_controlType</ref><sp/>==<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref>.Move)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.forward<sp/>=<sp/>dir;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>入力した方向にオブジェクトを向ける</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a61927fcfc498f342de108560088ed6f9" kindref="member">m_controlType</ref><sp/>==<sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref>.MoveWithSmoothTurn)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>入力方向に滑らかに回転させる</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Quaternion<sp/>targetRotation<sp/>=<sp/>Quaternion.LookRotation(dir);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.rotation<sp/>=<sp/>Quaternion.Slerp(this.transform.rotation,<sp/>targetRotation,<sp/>Time.deltaTime<sp/>*<sp/><ref refid="class_rigidbody_player_controller_1ae881dadcc2b14b8ba031ee5fc3c61acb" kindref="member">m_turnSpeed</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>velo<sp/>=<sp/>dir.normalized<sp/>*<sp/><ref refid="class_rigidbody_player_controller_1aa0fac43eac4d26da33d46c9e6db7b9a9" kindref="member">m_movingSpeed</ref>;<sp/></highlight><highlight class="comment">//<sp/>入力した方向に移動する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>velo.y<sp/>=<sp/>m_rb.velocity.y;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ジャンプした時の<sp/>y<sp/>軸方向の速度を保持する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_rb.velocity<sp/>=<sp/>velo;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>計算した速度ベクトルをセットする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Animator<sp/>Controller<sp/>のパラメータをセットする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" kindref="member">m_anim</ref>)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>攻撃ボタンを押された時の処理</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetButtonDown(</highlight><highlight class="stringliteral">&quot;Fire1&quot;</highlight><highlight class="normal">)<sp/>&amp;&amp;<sp/><ref refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" kindref="member">IsGrounded</ref>())</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_anim.SetTrigger(</highlight><highlight class="stringliteral">&quot;Attack&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>水平方向の速度を<sp/>Speed<sp/>にセットする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>velocity<sp/>=<sp/>m_rb.velocity;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>velocity.y<sp/>=<sp/>0f;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_anim.SetFloat(</highlight><highlight class="stringliteral">&quot;Speed&quot;</highlight><highlight class="normal">,<sp/>velocity.magnitude);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>地上/空中の状況に応じて<sp/>IsGrounded<sp/>をセットする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a93b2b101ac157822f1e642d060492dd3" kindref="member">m_rb</ref>.velocity.y<sp/>&lt;=<sp/>0f<sp/>&amp;&amp;<sp/><ref refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" kindref="member">IsGrounded</ref>())</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_anim.SetBool(</highlight><highlight class="stringliteral">&quot;IsGrounded&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" kindref="member">IsGrounded</ref>())</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_anim.SetBool(</highlight><highlight class="stringliteral">&quot;IsGrounded&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ジャンプの入力を取得し、接地している時に押されていたらジャンプする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetButtonDown(</highlight><highlight class="stringliteral">&quot;Jump&quot;</highlight><highlight class="normal">)<sp/>&amp;&amp;<sp/><ref refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" kindref="member">IsGrounded</ref>())</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_rb.AddForce(Vector3.up<sp/>*<sp/><ref refid="class_rigidbody_player_controller_1ae6f498040cd91eb35d33f3d0708e3131" kindref="member">m_jumpPower</ref>,<sp/>ForceMode.Impulse);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Animator<sp/>Controller<sp/>のパラメータをセットする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_rigidbody_player_controller_1a3f421c43e4b8efcd5a99d86c796d8145" kindref="member">m_anim</ref>)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_anim.SetBool(</highlight><highlight class="stringliteral">&quot;IsGrounded&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_rigidbody_player_controller_1adbf6663bd53e484a1e5a27f403e80979" kindref="member">IsGrounded</ref>()</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Physics.Linecast()<sp/>を使って足元から線を張り、そこに何かが衝突していたら<sp/>true<sp/>とする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CapsuleCollider<sp/>col<sp/>=<sp/>GetComponent&lt;CapsuleCollider&gt;();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>start<sp/>=<sp/>this.transform.position<sp/>+<sp/>col.center;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>start:<sp/>体の中心</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>end<sp/>=<sp/>start<sp/>+<sp/>Vector3.down<sp/>*<sp/><ref refid="class_rigidbody_player_controller_1afadf383dc592ed148c25b98a1c48cfa1" kindref="member">m_isGroundedLength</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>end:<sp/>start<sp/>から真下の地点</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.DrawLine(start,<sp/>end);<sp/></highlight><highlight class="comment">//<sp/>動作確認用に<sp/>Scene<sp/>ウィンドウ上で線を表示する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isGrounded<sp/>=<sp/>Physics.Linecast(start,<sp/>end);<sp/></highlight><highlight class="comment">//<sp/>引いたラインに何かがぶつかっていたら<sp/>true<sp/>とする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isGrounded;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4" kindref="member">ControlType</ref></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a6b12be2513bab07567150f54467bc568" kindref="member">Turn</ref>,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a6bc362dbf494c61ea117fe3c71ca48a5" kindref="member">Move</ref>,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_rigidbody_player_controller_8cs_1a8005f1f182fd0248a710ca64f72508d4a02ee96aec20e4c5d3ca080ade0a26dd1" kindref="member">MoveWithSmoothTurn</ref>,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/RigidbodyPlayerController.cs"/>
+  </compounddef>
+</doxygen>

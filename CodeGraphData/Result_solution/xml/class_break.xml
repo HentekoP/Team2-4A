@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_break" kind="class" prot="public">
+    <compoundname>Break</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_break_1aa05ccada815c815f94f1946932daf8f8" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip Break.sound1</definition>
+        <argsstring></argsstring>
+        <name>sound1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_break_1af6fa48c121a36a1a770ac3f4cabecd9e" compoundref="_break_8cs" startline="15" endline="21">OnCollisionEnter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_break_1a89e042560a48afa59f783a6274448636" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Break.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_break_1a9ee36077dd21504eb4fa80ae66b5d59c" compoundref="_break_8cs" startline="10" endline="13">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_break_1a9ee36077dd21504eb4fa80ae66b5d59c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Break.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_break_1a89e042560a48afa59f783a6274448636" compoundref="_break_8cs" startline="8">audioSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_break_1af6fa48c121a36a1a770ac3f4cabecd9e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Break.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" bodystart="15" bodyend="21"/>
+        <references refid="class_break_1aa05ccada815c815f94f1946932daf8f8" compoundref="_break_8cs" startline="7">sound1</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>Break</label>
+        <link refid="class_break"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>Break</label>
+        <link refid="class_break"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/Break.cs" bodystart="5" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_break_1a89e042560a48afa59f783a6274448636" prot="private" virt="non-virtual"><scope>Break</scope><name>audioSource</name></member>
+      <member refid="class_break_1af6fa48c121a36a1a770ac3f4cabecd9e" prot="private" virt="non-virtual"><scope>Break</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_break_1aa05ccada815c815f94f1946932daf8f8" prot="public" virt="non-virtual"><scope>Break</scope><name>sound1</name></member>
+      <member refid="class_break_1a9ee36077dd21504eb4fa80ae66b5d59c" prot="private" virt="non-virtual"><scope>Break</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

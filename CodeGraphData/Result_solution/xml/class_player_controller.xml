@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_controller" kind="class" prot="public">
+    <compoundname>PlayerController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_controller_1acc8bc9405e191d35aa1ebf5fad7c286a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.camera</definition>
+        <argsstring></argsstring>
+        <name>camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <initializer>= 180f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_controller_1aa8b59cd839e344468acd898589a615b2" prot="private" static="no" mutable="no">
+        <type>CharacterController</type>
+        <definition>CharacterController PlayerController._cController</definition>
+        <argsstring></argsstring>
+        <name>_cController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" compoundref="_player_controller_8cs" startline="17" endline="23">Start</referencedby>
+        <referencedby refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" compoundref="_player_controller_8cs" startline="24" endline="46">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1af24a8820ce6558138208255b27d948d3" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator PlayerController.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" compoundref="_player_controller_8cs" startline="17" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" compoundref="_player_controller_8cs" startline="24" endline="46">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform PlayerController._transform</definition>
+        <argsstring></argsstring>
+        <name>_transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" compoundref="_player_controller_8cs" startline="17" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform PlayerController.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" compoundref="_player_controller_8cs" startline="17" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 PlayerController._vector</definition>
+        <argsstring></argsstring>
+        <name>_vector</name>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" compoundref="_player_controller_8cs" startline="24" endline="46">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a9f390b4561978a6e3025fc8156912896" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" compoundref="_player_controller_8cs" startline="24" endline="46">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" compoundref="_player_controller_8cs" startline="24" endline="46">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.x2</definition>
+        <argsstring></argsstring>
+        <name>x2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" compoundref="_player_controller_8cs" startline="24" endline="46">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="17" bodyend="23"/>
+        <references refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" compoundref="_player_controller_8cs" startline="8">_cController</references>
+        <references refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" compoundref="_player_controller_8cs" startline="12">_transform</references>
+        <references refid="class_player_controller_1af24a8820ce6558138208255b27d948d3" compoundref="_player_controller_8cs" startline="9">animator</references>
+        <references refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" compoundref="_player_controller_8cs" startline="13">target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="24" bodyend="46"/>
+        <references refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" compoundref="_player_controller_8cs" startline="8">_cController</references>
+        <references refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" compoundref="_player_controller_8cs" startline="14">_vector</references>
+        <references refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" compoundref="_player_controller_8cs" startline="11">moveSpeed</references>
+        <references refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" compoundref="_player_controller_8cs" startline="15">x</references>
+        <references refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" compoundref="_player_controller_8cs" startline="16">x2</references>
+        <references refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" compoundref="_player_controller_8cs" startline="15">z</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/PlayerScript/PlayerController.cs" bodystart="5" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_player_controller_1aa8b59cd839e344468acd898589a615b2" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_cController</name></member>
+      <member refid="class_player_controller_1a6854587cf5ae7d4e71ca1acfe72363da" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_transform</name></member>
+      <member refid="class_player_controller_1a0938b2cc9a3c3b6b12a71c9eb6079031" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_vector</name></member>
+      <member refid="class_player_controller_1af24a8820ce6558138208255b27d948d3" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>animator</name></member>
+      <member refid="class_player_controller_1acc8bc9405e191d35aa1ebf5fad7c286a" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>camera</name></member>
+      <member refid="class_player_controller_1abb12e85ca1b12efdbc8684bff2e19c4c" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>moveSpeed</name></member>
+      <member refid="class_player_controller_1ae4459332ab113f232071bcfb3c7d6db3" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>Rotation</name></member>
+      <member refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>Start</name></member>
+      <member refid="class_player_controller_1abe5acd3c95f8415d6fc566d880f33250" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>target</name></member>
+      <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>Update</name></member>
+      <member refid="class_player_controller_1a9f390b4561978a6e3025fc8156912896" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>x</name></member>
+      <member refid="class_player_controller_1a182d2c0a89f3bfa060b307f8f2ca35ac" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>x2</name></member>
+      <member refid="class_player_controller_1ad498f3429869fe89a8259a5fada6ab5c" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

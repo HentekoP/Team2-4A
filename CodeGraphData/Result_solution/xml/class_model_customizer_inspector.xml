@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_model_customizer_inspector" kind="class" prot="public">
+    <compoundname>ModelCustomizerInspector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_model_customizer_inspector_1a1acdfb6b2b61299144cf0f6838faff95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_model_customizer" kindref="compound">ModelCustomizer</ref></type>
+        <definition>ModelCustomizer ModelCustomizerInspector.customizer</definition>
+        <argsstring></argsstring>
+        <name>customizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" compoundref="_model_customizer_inspector_8cs" startline="19" endline="72">OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_customizer_inspector_1a943ae79c08b87eab7acc0e19823e694e" prot="private" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] ModelCustomizerInspector.bools</definition>
+        <argsstring></argsstring>
+        <name>bools</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" compoundref="_model_customizer_inspector_8cs" startline="19" endline="72">OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_customizer_inspector_1a4940b07faae952074e9e9e01c86b8281" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] ModelCustomizerInspector.names</definition>
+        <argsstring></argsstring>
+        <name>names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" compoundref="_model_customizer_inspector_8cs" startline="19" endline="72">OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_customizer_inspector_1a715929d27c3ce47e971c8566c0574434" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ModelCustomizerInspector.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" compoundref="_model_customizer_inspector_8cs" startline="19" endline="72">OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_customizer_inspector_1a251f5670056ccfb8b12151030943a959" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material ModelCustomizerInspector.material</definition>
+        <argsstring></argsstring>
+        <name>material</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" compoundref="_model_customizer_inspector_8cs" startline="19" endline="72">OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ModelCustomizerInspector.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="19" bodyend="72"/>
+        <references refid="class_model_customizer_inspector_1a943ae79c08b87eab7acc0e19823e694e" compoundref="_model_customizer_inspector_8cs" startline="14">bools</references>
+        <references refid="class_model_customizer_inspector_1a1acdfb6b2b61299144cf0f6838faff95" compoundref="_model_customizer_inspector_8cs" startline="13">customizer</references>
+        <references refid="class_model_customizer_inspector_1a251f5670056ccfb8b12151030943a959" compoundref="_model_customizer_inspector_8cs" startline="17">material</references>
+        <references refid="class_model_customizer_inspector_1a4940b07faae952074e9e9e01c86b8281" compoundref="_model_customizer_inspector_8cs" startline="15">names</references>
+        <references refid="class_model_customizer_inspector_1a715929d27c3ce47e971c8566c0574434" compoundref="_model_customizer_inspector_8cs" startline="16">start</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>Editor</label>
+      </node>
+      <node id="20">
+        <label>ModelCustomizerInspector</label>
+        <link refid="class_model_customizer_inspector"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>Editor</label>
+      </node>
+      <node id="22">
+        <label>ModelCustomizerInspector</label>
+        <link refid="class_model_customizer_inspector"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>customizer</edgelabel>
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ModelCustomizer</label>
+        <link refid="class_model_customizer"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" bodystart="11" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_model_customizer_inspector_1a943ae79c08b87eab7acc0e19823e694e" prot="private" virt="non-virtual"><scope>ModelCustomizerInspector</scope><name>bools</name></member>
+      <member refid="class_model_customizer_inspector_1a1acdfb6b2b61299144cf0f6838faff95" prot="private" virt="non-virtual"><scope>ModelCustomizerInspector</scope><name>customizer</name></member>
+      <member refid="class_model_customizer_inspector_1a251f5670056ccfb8b12151030943a959" prot="private" virt="non-virtual"><scope>ModelCustomizerInspector</scope><name>material</name></member>
+      <member refid="class_model_customizer_inspector_1a4940b07faae952074e9e9e01c86b8281" prot="private" virt="non-virtual"><scope>ModelCustomizerInspector</scope><name>names</name></member>
+      <member refid="class_model_customizer_inspector_1a3ddca75ebcbdafb7ec1f970f7d1d6db4" prot="public" virt="non-virtual"><scope>ModelCustomizerInspector</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_model_customizer_inspector_1a715929d27c3ce47e971c8566c0574434" prot="private" virt="non-virtual"><scope>ModelCustomizerInspector</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
