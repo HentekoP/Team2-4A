@@ -28,6 +28,10 @@ public class PlayerController : MonoBehaviour
     private Quaternion charaRotate;
     private Quaternion cameraRotate;
     private bool charaRotFlag = false;
+    [SerializeField]
+    private float jumpPower = 5f;
+    [SerializeField]
+    private float dashJumpPower = 6f;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -41,12 +45,11 @@ public class PlayerController : MonoBehaviour
     {
         RotateChara();
         RotateCamera();
-
         
-            velocity = Vector3.zero;
-            velocity = (transform.forward * -(Input.GetAxis("Vertical")) + transform.right * Input.GetAxis("Horizontal")).normalized;
+            velocity = new Vector3(Input.GetAxis("Horizontal"), 0f, -(Input.GetAxis("Vertical")));
+            velocity = transform.TransformDirection(velocity);
 
-        float speed = 0f;
+            float speed = 0f;
             if (Input.GetButton("Run"))
             {
                 runFlag = true;
@@ -58,27 +61,35 @@ public class PlayerController : MonoBehaviour
                 speed = walkSpeed;
             }
             velocity *= speed;
-
-        if (velocity.magnitude > 0f || charaRotFlag)
-        {
-            if (runFlag && !charaRotFlag)
+            if (velocity.magnitude > 3f)
             {
-                animator.SetFloat("speed", 4.1f);
+                if (runFlag)
+                {
+                    animator.SetFloat("speed", 4.1f);
+                }
+                else
+                {
+                    animator.SetFloat("speed", 3.1f);
+                }
             }
             else
             {
-                animator.SetFloat("speed", 3f);
+                animator.SetFloat("speed", 0f);
             }
+            if (Input.GetButton("Jump"))
+            {
+                if(runFlag && velocity.magnitude > 0f)
+                {
+                    velocity.y += dashJumpPower;
+            }
+                else
+                {
+                    velocity.y += jumpPower;
+            }
+            
         }
-        else
-        {
-            animator.SetFloat("speed", 0f);
-        }
-
-
-
+        animator.SetBool("jump", false);
         velocity.y += Physics.gravity.y * Time.deltaTime;
-        Debug.Log(velocity);
         cCon.Move(velocity * Time.deltaTime);
     }
     void RotateChara()
