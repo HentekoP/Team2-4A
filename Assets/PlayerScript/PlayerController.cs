@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
     private float jumpPower = 5f;
     [SerializeField]
     private float dashJumpPower = 6f;
+    private bool jump;
+    private bool jumpFlg = false;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -45,50 +47,67 @@ public class PlayerController : MonoBehaviour
     {
         RotateChara();
         RotateCamera();
-        
-            velocity = new Vector3(Input.GetAxis("Horizontal"), 0f, -(Input.GetAxis("Vertical")));
-            velocity = transform.TransformDirection(velocity);
 
-            float speed = 0f;
-            if (Input.GetButton("Run"))
+        velocity = new Vector3(Input.GetAxis("Horizontal"), 0f, -(Input.GetAxis("Vertical")));
+        velocity = transform.TransformDirection(velocity);
+
+        float speed = 0f;
+        if (Input.GetButton("Run"))
+        {
+            runFlag = true;
+            speed = runSpeed;
+        }
+        else
+        {
+            runFlag = false;
+            speed = walkSpeed;
+        }
+        velocity *= speed;
+        if (velocity.magnitude > 3f)
+        {
+            if (runFlag)
             {
-                runFlag = true;
-                speed = runSpeed;
+                animator.SetFloat("speed", 4.1f);
             }
             else
             {
-                runFlag = false;
-                speed = walkSpeed;
+                animator.SetFloat("speed", 3.1f);
             }
-            velocity *= speed;
-            if (velocity.magnitude > 3f)
-            {
-                if (runFlag)
-                {
-                    animator.SetFloat("speed", 4.1f);
-                }
-                else
-                {
-                    animator.SetFloat("speed", 3.1f);
-                }
-            }
-            else
-            {
-                animator.SetFloat("speed", 0f);
-            }
+        }
+        else
+        {
+            animator.SetFloat("speed", 0f);
+        }
+        
             if (Input.GetButton("Jump"))
             {
-                if(runFlag && velocity.magnitude > 0f)
+                jump = true;
+                if (runFlag && velocity.magnitude > 0f)
                 {
                     velocity.y += dashJumpPower;
-            }
+                }
                 else
                 {
                     velocity.y += jumpPower;
+                }
+
             }
-            
+            else
+            {
+                    jump = false;
+            }
+        
+        
+        
+        if (jump == true)
+        {
+            animator.SetBool("jump", true);
         }
-        animator.SetBool("jump", false);
+        else
+        {
+
+            animator.SetBool("jump", false);
+        }
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
     }
@@ -96,7 +115,7 @@ public class PlayerController : MonoBehaviour
     {
         float yRotate = Input.GetAxis("Horizontal2") * RstickSpeed;
         charaRotate *= Quaternion.Euler(0f, yRotate, 0f);
-        if(yRotate != 0f)
+        if (yRotate != 0f)
         {
             charaRotFlag = true;
         }
@@ -118,5 +137,9 @@ public class PlayerController : MonoBehaviour
         var resultYRot = Mathf.Clamp(Mathf.DeltaAngle(initCameraRot.eulerAngles.x, cameraRotate.eulerAngles.x), -cameraRotateLimit, cameraRotateLimit);
         cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
         myCamera.localRotation = Quaternion.Slerp(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
+
     }
 }
+
+
+
