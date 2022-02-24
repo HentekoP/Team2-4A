@@ -4,17 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class hammer : MonoBehaviour
-{ 
-
+{
+    Rigidbody m_Rigidbody;
     //private Vector3 mouse;
     private Vector3 target;
     private bool isHit;
 
     public MeshCollider bc;
     public Rigidbody rig;
+    public float m_Thrust = 20f;
 
     void Start()
     {
+        m_Rigidbody = GetComponent<Rigidbody>();
         isHit = false;
     }
 
@@ -57,7 +59,7 @@ public class hammer : MonoBehaviour
 
         rig = collision.gameObject.GetComponent<Rigidbody>();
         rig.isKinematic = false;
-
+        m_Rigidbody.AddForce(transform.up * m_Thrust);
 
         Debug.Log("Hit");
 
