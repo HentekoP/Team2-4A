@@ -63,7 +63,7 @@ public class Title : MonoBehaviour
             {
                 if (Menu_Num == 0)
                 {
-                    SceneManager.LoadScene("game");
+                    SceneManager.LoadScene("Ooishi");
                 }
                 else if (Menu_Num == 1)
                 {

@@ -94,7 +94,7 @@ public class Breake_Block : MonoBehaviour
             Breake_p++;
         }
 
-        if (Breake_p > 3)
+        if (Breake_p > 2)
         {
             rb.isKinematic = false;
         }
