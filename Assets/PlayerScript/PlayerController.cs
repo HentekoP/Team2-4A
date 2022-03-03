@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float dashJumpPower = 6f;
     private bool jump;
+    private bool Attack;
     private bool jumpFlg = false;
     void Start()
     {
@@ -107,6 +108,16 @@ public class PlayerController : MonoBehaviour
         {
 
             animator.SetBool("jump", false);
+        }
+
+        if(Attack == true)
+        {
+            animator.SetBool("Attack", true);
+
+        }
+        else
+        {
+            animator.SetBool("Attack", false);
         }
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
