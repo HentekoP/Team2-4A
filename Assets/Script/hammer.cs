@@ -10,9 +10,11 @@ public class hammer : MonoBehaviour
     private Vector3 target;
     private bool isHit;
 
+    private Animator animator;
     public MeshCollider bc;
     public Rigidbody rig;
-
+    private bool jump;
+    private bool Attack;
     void Start()
     {
         isHit = false;
@@ -26,6 +28,8 @@ public class hammer : MonoBehaviour
         if (Input.GetButtonDown("x") && isHit == false)
         {
             StartCoroutine("RodHit");
+           
+
         }
 
     }
@@ -39,6 +43,8 @@ public class hammer : MonoBehaviour
         {
             
             bc.enabled = true;
+           animator.SetBool("Attack", true);
+
             yield return new WaitForSeconds(0.001f);
         }
 
@@ -46,7 +52,7 @@ public class hammer : MonoBehaviour
         {
            
             bc.enabled = false;
-
+            animator.SetBool("Attack", false);
             yield return new WaitForSeconds(0.001f);
         }
         isHit = false;
