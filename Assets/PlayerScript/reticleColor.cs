@@ -14,7 +14,7 @@ public class reticleColor : MonoBehaviour
 
     [SerializeField]
     private GameObject bombPrefab;
-    int bombcount = 1;
+    int bombcount = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +46,6 @@ public class reticleColor : MonoBehaviour
             }
             if(bombcount < 0)
             {
-                Destroy(bombPrefab);
             }
             if ((hitTag.Equals("Block")))
             {
