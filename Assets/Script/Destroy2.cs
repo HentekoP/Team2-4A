@@ -21,17 +21,17 @@ public class Destroy2 : MonoBehaviour
 
         var rb = GetComponent<Rigidbody>();
 
-        //// 地面に衝突したら自オブジェクト削除
-        //if (collision.gameObject.name == "Plane")
-        //{
-        //    Destroy(gameObject, 1f);
+        // 地面に衝突したら自オブジェクト削除
+        if (collision.gameObject.name == "Plane")
+        {
+            Destroy(gameObject, 1f);
 
-        //    // Playerと衝突したら、自オブジェクトとPlayerオブジェクトを削除
-        //}
-        //if (collision.gameObject.tag == "Block")
-        //{
-        //    rb.isKinematic = false;
-        //    // Playerと衝突したら、自オブジェクトとPlayerオブジェクトを削除
-        //}
+            // Playerと衝突したら、自オブジェクトとPlayerオブジェクトを削除
+        }
+        if (collision.gameObject.tag == "Block")
+        {
+            rb.isKinematic = false;
+            // Playerと衝突したら、自オブジェクトとPlayerオブジェクトを削除
+        }
     }
 }
