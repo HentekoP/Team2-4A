@@ -177,6 +177,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7462036371361415008, guid: fdcb9ed1362252149adf704add149826,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fdcb9ed1362252149adf704add149826,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -251,6 +256,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Homehakaaai
+      objectReference: {fileID: 0}
+    - target: {fileID: -594094835925579944, guid: fdcb9ed1362252149adf704add149826,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -492420421572216379, guid: fdcb9ed1362252149adf704add149826,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 334586307858616193, guid: fdcb9ed1362252149adf704add149826,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2502203975881118265, guid: fdcb9ed1362252149adf704add149826,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695666576454475813, guid: fdcb9ed1362252149adf704add149826,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdcb9ed1362252149adf704add149826, type: 3}
@@ -16806,7 +16836,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -19055,7 +19085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bc: {fileID: 1288042129}
   rig: {fileID: 1288042127}
-  m_Thrust: 20
 --- !u!64 &1288042129
 MeshCollider:
   m_ObjectHideFlags: 0
