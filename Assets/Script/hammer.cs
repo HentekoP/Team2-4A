@@ -11,13 +11,14 @@ public class hammer : MonoBehaviour
     private bool isHit;
 
     private Animator animator;
-    public MeshCollider bc;
+    public SphereCollider bc;
     public Rigidbody rig;
     private bool jump;
     private bool Attack;
     void Start()
     {
         isHit = false;
+        bc.enabled = true;
     }
 
     void Update()
@@ -28,7 +29,7 @@ public class hammer : MonoBehaviour
         if (Input.GetButtonDown("x") && isHit == false)
         {
             StartCoroutine("RodHit");
-           
+            bc.enabled = false;
 
         }
 
@@ -43,7 +44,7 @@ public class hammer : MonoBehaviour
         {
             
             bc.enabled = true;
-           animator.SetBool("Attack", true);
+           //animator.SetBool("Attack", true);
 
             yield return new WaitForSeconds(0.001f);
         }
@@ -52,10 +53,10 @@ public class hammer : MonoBehaviour
         {
            
             bc.enabled = false;
-            animator.SetBool("Attack", false);
+           // animator.SetBool("Attack", false);
             yield return new WaitForSeconds(0.001f);
         }
-        isHit = false;
+        
     }
     void OnCollisionEnter(Collision collision)
     {
