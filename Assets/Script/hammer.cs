@@ -58,18 +58,7 @@ public class hammer : MonoBehaviour
         }
         
     }
-    void OnCollisionEnter(Collision collision)
-    {
-
-
-        rig = collision.gameObject.GetComponent<Rigidbody>();
-        rig.isKinematic = false;
-
-
-        Debug.Log("Hit");
-
-
-    }
+   
 }
 
 
