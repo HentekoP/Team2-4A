@@ -191,8 +191,8 @@ public class Title : MonoBehaviour
                 }
                 else
                 {
-                    UnityEditor.EditorApplication.isPlaying = false;  //デバッグ用
-                    //Application.Quit();
+                    //UnityEditor.EditorApplication.isPlaying = false;  //デバッグ用
+                    Application.Quit();
                 }
             }
         }
