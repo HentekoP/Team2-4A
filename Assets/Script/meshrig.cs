@@ -15,22 +15,30 @@ public class meshrig : MonoBehaviour
     void Start()
     {
         isHit = true;
+        rig.isKinematic = true;
 
     }
 
+     void FixedUpdate()
+    {
+        //rig.isKinematic = true;
+    }
 
     void OnCollisionEnter(Collision collision)
     {
 
 
         rig = collision.gameObject.GetComponent<Rigidbody>();
-        //if ()
-        //{
-        //         rig.isKinematic = false;
-        //}
-
-        rig.isKinematic = false;
-
+        if (rig)
+        {
+            rig.isKinematic = false;
+        }
+        else
+        
+               rig.isKinematic = true;
+       
+            
+        
         Debug.Log("Hit");
 
 
