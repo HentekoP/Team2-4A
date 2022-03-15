@@ -14,15 +14,17 @@ public class reticleColor : MonoBehaviour
     private GameObject bombPrefab;
     float Raycastlength = 0;
     float ColorTP;
-    int bombcount = 5;
+    int bombcount = 3;
     bool pushcount = false;
     GameObject cd;
     GameObject cd2;
+    GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
         cd = transform.GetChild(0).gameObject;
         cd2 = transform.GetChild(1).gameObject;
+        Player = GameObject.Find("BlueSuitFree01");
     }
 
     // Update is called once per frame
@@ -36,7 +38,7 @@ public class reticleColor : MonoBehaviour
         {
             Raycastlength = 2.5f;
         }
-        else
+        else 
         {
             ColorTP = 0f;
         }
@@ -49,15 +51,16 @@ public class reticleColor : MonoBehaviour
         {
             string hitTag = hit.collider.tag;
 
-            pos = hit.normal / 3 + hit.collider.transform.position;
+            pos = hit.normal / 4.5f + hit.collider.transform.position;
 
             if (pushcount == false)
             {
                 if (Input.GetButton("x") && bombcount > 0)
                 {
                     pushcount = true;
-                    Instantiate(bombPrefab, pos,Quaternion.Euler(0,transform.rotation.y,0));
+                    Instantiate(bombPrefab,pos, Player.transform.localRotation);
                     bombcount -=1;
+                    Debug.Log(bombcount);
                 }
             }
             else
