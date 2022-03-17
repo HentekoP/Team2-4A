@@ -12,10 +12,12 @@ public class meshrig : MonoBehaviour
     public SphereCollider bc;
     public Rigidbody rig;
 
+
+  
     void Start()
     {
-        isHit = true;
-        rig.isKinematic = true;
+        //isHit = true;
+        //rig.isKinematic = true;
 
     }
 
@@ -24,6 +26,8 @@ public class meshrig : MonoBehaviour
         //rig.isKinematic = true;
     }
 
+    
+
     void OnCollisionEnter(Collision collision)
     {
 
@@ -31,11 +35,11 @@ public class meshrig : MonoBehaviour
         rig = collision.gameObject.GetComponent<Rigidbody>();
         if (rig)
         {
-            rig.isKinematic = false;
+           // rig.isKinematic = false;
         }
         else
         
-               rig.isKinematic = true;
+             //  rig.isKinematic = true;
        
             
         
@@ -43,5 +47,12 @@ public class meshrig : MonoBehaviour
 
 
     }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        rig.isKinematic = false;
+    }
 }
+
+
 
