@@ -11,6 +11,8 @@ public class hamaa2 : MonoBehaviour
 
     public SphereCollider bc;
     public Rigidbody rig;
+    public float forceHeight;
+    public float forcePower;
 
     void Start()
     {
