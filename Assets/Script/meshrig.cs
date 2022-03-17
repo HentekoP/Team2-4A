@@ -35,7 +35,7 @@ public class meshrig : MonoBehaviour
         rig = collision.gameObject.GetComponent<Rigidbody>();
         if (rig)
         {
-           // rig.isKinematic = false;
+          //  Invoke("hazureru", 1);
         }
         else
         
@@ -49,6 +49,12 @@ public class meshrig : MonoBehaviour
     }
 
     private void OnCollisionExit(Collision collision)
+    {
+        rig.isKinematic = false;
+        Invoke("hazureru", 1);
+    }
+
+    void hazureru()
     {
         rig.isKinematic = false;
     }
