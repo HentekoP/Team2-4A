@@ -15,6 +15,7 @@ public class Break : MonoBehaviour
             obj.transform.position = rand;
             obj.transform.localScale = Vector3.one * 0.3f;
             obj.GetComponent<Renderer>().material.color = randColor;
+            Debug.Log(obj.transform.position);
         }
     }
 
