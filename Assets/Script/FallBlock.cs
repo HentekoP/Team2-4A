@@ -7,11 +7,14 @@ public class FallBlock : MonoBehaviour
     // 変数の定義（データを入れる箱を作る）
     private Rigidbody rb;
 
-    void Start()
+   private void Start()
     {
+
+        //this.gameObject.transform.DetachChildren();
         // 代入（箱の中にデータを入れる）
         rb = GetComponent<Rigidbody>();
     }
+
 
     private void OnCollisionEnter(Collision other)
     {
@@ -24,10 +27,17 @@ public class FallBlock : MonoBehaviour
         }
     }
 
+
+
     void Fall()
     {
         // （ポイント）isKinematicを無効化する
-        rb.isKinematic = false;
-        Debug.Log("落としているけど上は落ちてないよ。。");
+        if (gameObject.CompareTag("otosu"))//もし落とすタグのついてるオブジェクトが
+        {
+            rb.isKinematic = false;
+            this.gameObject.transform.DetachChildren();
+        }
+        
+        //rb.isKinematic = false;
     }
 }
