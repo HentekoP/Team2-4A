@@ -8,6 +8,8 @@ public class ItemSelect : MonoBehaviour
     GameObject bomb1;
 
     public static int ItemNumber = 0;
+    bool bomb1Flg = true;
+    bool HammerFlg = true;
     bool pushflg = false;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +21,9 @@ public class ItemSelect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButton("R1"))
+        bomb1Flg = reticleColor.GetBombFlg();
+        HammerFlg = hamaaa.GetHammerFlag();
+        if (Input.GetButton("R1"))
         {
             if (pushflg == false)
             {
@@ -42,12 +46,26 @@ public class ItemSelect : MonoBehaviour
         switch (ItemNumber)
         {
             case 0:
-                hammer.SetActive(true);
+                if (HammerFlg == true)
+                {
+                    hammer.SetActive(true);
+                }
+                else
+                {
+                    hammer.SetActive(false);
+                }
                 bomb1.SetActive(false);
                 break;
             case 1:
                 hammer.SetActive(false);
-                bomb1.SetActive(true);
+                if (bomb1Flg == true)
+                {
+                    bomb1.SetActive(true);
+                }
+                else
+                {
+                    bomb1.SetActive(false);
+                }
                 break;
             case 2:
                 hammer.SetActive(false);
