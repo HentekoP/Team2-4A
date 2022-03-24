@@ -13,7 +13,7 @@ public class meshrig : MonoBehaviour
     public Rigidbody rig;
 
 
-  
+
     void Start()
     {
         //isHit = true;
@@ -21,42 +21,49 @@ public class meshrig : MonoBehaviour
 
     }
 
-     void FixedUpdate()
+    void FixedUpdate()
     {
         //rig.isKinematic = true;
     }
 
-    
+
 
     void OnCollisionEnter(Collision collision)
     {
 
-
-        rig = collision.gameObject.GetComponent<Rigidbody>();
-        if (rig)
+        if (gameObject.CompareTag("iskinematicoff"))
         {
-          //  Invoke("hazureru", 1);
+            rig = collision.gameObject.GetComponent<Rigidbody>();
+            if (rig)
+            {
+                //  Invoke("hazureru", 1);
+            }
+            else
+
+                //  rig.isKinematic = true;
+
+
+
+                Debug.Log("Hit");
+
+
         }
-        else
-        
-             //  rig.isKinematic = true;
-       
-            
-        
-        Debug.Log("Hit");
+
+        void OnCollisionExit(Collision collision2 )
+        {
+            if (collision.gameObject.tag == "iskinematicoff")
+            {
+                Invoke("hazureru", 1);
+
+            }
 
 
-    }
+        }
 
-    private void OnCollisionExit(Collision collision)
-    {
-        rig.isKinematic = false;
-        Invoke("hazureru", 1);
-    }
-
-    void hazureru()
-    {
-        rig.isKinematic = false;
+        void hazureru()
+        {
+            rig.isKinematic = false;
+        }
     }
 }
 
