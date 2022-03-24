@@ -10,9 +10,12 @@ public class Bom : MonoBehaviour
 
     void Update()
     {
-        if (/* && */Input.GetButtonDown("joystick button 12"))
+        float tri = Input.GetAxis("RT");
+
+        if (tri == 1.0f /* && Input.GetButtonDown("joystick button 12")*/)
         {
             ExprosionFlg = true;
+            Debug.Log("R trigger:" + tri);
         }
 
         if (ExprosionFlg == true)
@@ -32,6 +35,7 @@ public class Bom : MonoBehaviour
 
     void Exprosion()
     {
+        exp.transform.position = obj.transform.position;
         exp.Play();
         Destroy(obj);
     }
