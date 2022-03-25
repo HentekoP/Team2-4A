@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemSelect : MonoBehaviour
 {
     GameObject hammer;
     GameObject bomb1;
+
+    public RectTransform rect;
 
     public static int ItemNumber = 0;
     bool bomb1Flg = true;
@@ -16,6 +19,7 @@ public class ItemSelect : MonoBehaviour
     {
         hammer = transform.GetChild(0).gameObject;
         bomb1 = transform.GetChild(1).gameObject;
+        rect = GetComponent<RectTransform>();
     }
 
     // Update is called once per frame
@@ -46,6 +50,7 @@ public class ItemSelect : MonoBehaviour
         switch (ItemNumber)
         {
             case 0:
+                rect.localPosition = new Vector3(-332, -465, 0);
                 if (HammerFlg == true)
                 {
                     hammer.SetActive(true);
@@ -57,6 +62,7 @@ public class ItemSelect : MonoBehaviour
                 bomb1.SetActive(false);
                 break;
             case 1:
+                rect.localPosition = new Vector3(-241, -465, 0);
                 hammer.SetActive(false);
                 if (bomb1Flg == true)
                 {
@@ -68,6 +74,7 @@ public class ItemSelect : MonoBehaviour
                 }
                 break;
             case 2:
+                rect.localPosition = new Vector3(-161, -465, 0);
                 hammer.SetActive(false);
                 bomb1.SetActive(false);
                 break;

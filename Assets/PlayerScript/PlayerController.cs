@@ -20,11 +20,11 @@ public class PlayerController : MonoBehaviour
     private bool cameraRotForward = true;
     private Quaternion initCameraRot;
     [SerializeField]
-    private float rotateSpeed = 2f;
+    private float rotateSpeed = 150f;
     private float xRotate;
     private float yRotate;
     [SerializeField]
-    private float RstickSpeed = 2f;
+    private float RstickSpeed = 1f;
     private Quaternion charaRotate;
     private Quaternion cameraRotate;
     private bool charaRotFlag = false;
