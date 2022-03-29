@@ -41,7 +41,8 @@ public class reticleColor : MonoBehaviour
         }
         else 
         {
-            ColorTP = 0f;
+            Raycastlength = 0f;
+            ColorTP = 0.0001f;
         }
         RaycastHit hit;
 
