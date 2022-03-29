@@ -14,15 +14,9 @@ public class Next_scene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("A"))
+        if (Input.GetButtonDown("Back"))
         {
-            if (SceneManager.GetActiveScene().name == "Title") {
-                SceneManager.LoadScene("game");
-            }
-            else if (SceneManager.GetActiveScene().name == "game")
-            {
-                SceneManager.LoadScene("Title");
-            }
+            SceneManager.LoadScene("Title");
         }
         if (Input.GetButtonDown("Menu"))
         {

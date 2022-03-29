@@ -4,20 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class hammer : MonoBehaviour
-{
-    Rigidbody m_Rigidbody;
+{ 
+
     //private Vector3 mouse;
     private Vector3 target;
     private bool isHit;
 
-    public MeshCollider bc;
+    private Animator animator;
+    public SphereCollider bc;
     public Rigidbody rig;
-    public float m_Thrust = 20f;
-
+    private bool jump;
+    private bool Attack;
     void Start()
     {
-        m_Rigidbody = GetComponent<Rigidbody>();
         isHit = false;
+        bc.enabled = true;
     }
 
     void Update()
@@ -28,6 +29,8 @@ public class hammer : MonoBehaviour
         if (Input.GetButtonDown("x") && isHit == false)
         {
             StartCoroutine("RodHit");
+            bc.enabled = false;
+
         }
 
     }
@@ -41,6 +44,8 @@ public class hammer : MonoBehaviour
         {
             
             bc.enabled = true;
+           //animator.SetBool("Attack", true);
+
             yield return new WaitForSeconds(0.001f);
         }
 
@@ -48,23 +53,12 @@ public class hammer : MonoBehaviour
         {
            
             bc.enabled = false;
-
+           // animator.SetBool("Attack", false);
             yield return new WaitForSeconds(0.001f);
         }
-        isHit = false;
+        
     }
-    void OnCollisionEnter(Collision collision)
-    {
-
-
-        rig = collision.gameObject.GetComponent<Rigidbody>();
-        rig.isKinematic = false;
-        m_Rigidbody.AddForce(transform.up * m_Thrust);
-
-        Debug.Log("Hit");
-
-
-    }
+   
 }
 
 
