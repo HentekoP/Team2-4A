@@ -11,12 +11,24 @@ public class hamaaa : MonoBehaviour
     public int objectHP;
     private static bool HammerFlg = true;
     //private void OnTriggerEnter(Collider other)
+
+    // SE用
+    AudioSource audioSource;
+    public AudioClip sound1;
+    public AudioClip sound2;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void Update()
     {
         if (HammerFlg = true)
         {
             if (Input.GetButtonDown("x"))
-            {
+            {      
+
                 Debug.Log("Xボタンを押してるよ");
                 if (GameObject.FindGameObjectWithTag("hammer"))
                 {
@@ -24,7 +36,10 @@ public class hamaaa : MonoBehaviour
                     // ★★追加
                     // オブジェクトのHPを１ずつ減少させる。
                     objectHP -= 1;
-
+                    
+                    // SE用
+                    audioSource.PlayOneShot(sound1);
+                    
                     // ★★追加
                     // もしもHPが0よりも大きい場合には（条件）
                     if (objectHP > 0)
@@ -48,6 +63,23 @@ public class hamaaa : MonoBehaviour
             }
         }
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Block")
+        {
+            // SE用
+            audioSource.PlayOneShot(sound2);
+            Playeffect(collision);
+        }
+    }
+
+    void Playeffect(Collision collision)
+    {
+        Instantiate(effectPrefab, this.transform.position, Quaternion.identity);
+        effectPrefab.transform.position = collision.contacts[0].point;
+    }
+
     public static bool GetHammerFlag()
     {
         return HammerFlg;
