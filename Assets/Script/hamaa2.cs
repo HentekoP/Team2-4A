@@ -37,7 +37,7 @@ public class hamaa2 : MonoBehaviour
     IEnumerator RodHit()
     {
         isHit = true;
-        bc.enabled = true;
+      //  bc.enabled = true;
         for (int i = 0; i < 10; i++)
         {
             
@@ -59,7 +59,7 @@ public class hamaa2 : MonoBehaviour
             
         }
         isHit = false;
-        bc.enabled = false;
+      //  bc.enabled = false;
     }
 
 

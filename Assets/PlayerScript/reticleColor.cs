@@ -41,13 +41,12 @@ public class reticleColor : MonoBehaviour
         }
         else 
         {
-            Raycastlength = 0f;
+            Raycastlength = 2.5f;
             ColorTP = 0.0001f;
         }
         RaycastHit hit;
 
         Ray ray = new Ray(transform.position, transform.forward);
-
 
         if (Physics.Raycast(ray, out hit, Raycastlength))
         {
@@ -87,10 +86,13 @@ public class reticleColor : MonoBehaviour
 
             if ((hitTag.Equals("bomb")))
             {
+                ColorTP = 1.0f;
                 if (Input.GetButtonDown("x"))
                 {
-                    ColorTP = 1.0f;
-                    bomb1Flg = true;
+                    if (bomb1Flg == false)
+                    {
+                        bomb1Flg = true;
+                    }
                     Destroy(hit.collider.gameObject);
                     bombcount++;
                 }
