@@ -13,7 +13,7 @@ public class hamaaa : MonoBehaviour
     //private void OnTriggerEnter(Collider other)
     private void Update()
     {
-        if (HammerFlg = true)
+        if (HammerFlg == true)
         {
             if (Input.GetButtonDown("x"))
             {

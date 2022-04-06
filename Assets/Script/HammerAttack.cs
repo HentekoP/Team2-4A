@@ -4,27 +4,34 @@ using UnityEngine;
 
 public class HammerAttack : MonoBehaviour
 {
-    private CharacterController cCon;
-    private Vector3 velocity;
-    private Animator animator;
-    private bool hammer;
-    private bool hammerFlag = false;
-    [SerializeField] Animator AnimationImage = null;
-    private bool isHit;
+    Animation anim;
+    CapsuleCollider capsule;
+
     void Start()
     {
-        cCon = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animation>();
+        capsule = GetComponent<CapsuleCollider>();
+
+        capsule.enabled = false;
+        anim.Play("Hammer");
     }
+
     void Update()
     {
         if (Input.GetButtonDown("x"))
         {
-            Debug.Log("アニメ再生してほしい。");
-            hammerFlag = true;
-            animator.SetBool("hammer", true);
-        }else{ 
-            animator.SetBool("hammer", false); 
+            anim.Play("attack");
         }
+    }
+
+    public void SwingStart()
+    {
+        capsule.enabled = true;
+    }
+
+    public void SwingEnd()
+    {
+        anim.Play("NormalSword");
+        capsule.enabled = false;
     }
 }
