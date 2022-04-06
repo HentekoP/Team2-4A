@@ -12,7 +12,7 @@ public class Bom : MonoBehaviour
     {
         float tri = Input.GetAxis("RT");
 
-        if (tri == 1.0f /* && Input.GetButtonDown("joystick button 12")*/)
+        if (tri == 1.0f)
         {
             ExprosionFlg = true;
             Debug.Log("R trigger:" + tri);
@@ -39,9 +39,4 @@ public class Bom : MonoBehaviour
         exp.Play();
         Destroy(obj);
     }
-    //void Update()
-    //{
-    //    if (Input.GetButton("R2"))
-    //        Debug.Log("thisone");
-    //}
 }

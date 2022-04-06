@@ -76,15 +76,26 @@ public class reticleColor : MonoBehaviour
                     bomb1Flg = false;
                 }
             }
-                if ((hitTag.Equals("Block")))
+            if ((hitTag.Equals("Block")))
+            {
+                ColorTP = 1.0f;
+            }
+            else
+            {
+                ColorTP = 0.2f;
+            }
+
+            if ((hitTag.Equals("bomb")))
+            {
+                if (Input.GetButtonDown("x"))
                 {
                     ColorTP = 1.0f;
+                    bomb1Flg = true;
+                    Destroy(hit.collider.gameObject);
+                    bombcount++;
                 }
-                else
-                {
-                    ColorTP = 0.2f;
-                }
-            
+            }
+
         }
         else
         {
