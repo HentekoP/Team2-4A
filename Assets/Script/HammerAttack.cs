@@ -31,7 +31,7 @@ public class HammerAttack : MonoBehaviour
 
     public void SwingEnd()
     {
-        anim.Play("NormalSword");
+        anim.Play("Hammer");
         capsule.enabled = false;
     }
 }
