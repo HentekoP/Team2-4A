@@ -10,16 +10,16 @@ public class ItemSelect : MonoBehaviour
 
 
     public static int ItemNumber = 0;
+    public GameObject bombButton;
     bool bomb1Flg = true;
     bool HammerFlg = true;
     bool pushflg = false;
-    public GameObject obj;
+    bool ButtunFlg = true;
     // Start is called before the first frame update
     void Start()
     {
         hammer = transform.GetChild(0).gameObject;
         bomb1 = transform.GetChild(1).gameObject;
-        //rect = GetComponent<RectTransform>();
     }
 
     // Update is called once per frame
@@ -27,6 +27,7 @@ public class ItemSelect : MonoBehaviour
     {
         bomb1Flg = reticleColor.GetBombFlg();
         HammerFlg = hamaaa.GetHammerFlag();
+        ButtunFlg = reticleColor.GetButtonFlg();
         if (Input.GetButton("R1"))
         {
             if (pushflg == false)
@@ -50,7 +51,6 @@ public class ItemSelect : MonoBehaviour
         switch (ItemNumber)
         {
             case 0:
-                //rect.localPosition = new Vector3(-332, -465, 0);
                 if (HammerFlg == true)
                 {
                     hammer.SetActive(true);
@@ -60,24 +60,37 @@ public class ItemSelect : MonoBehaviour
                     hammer.SetActive(false);
                 }
                 bomb1.SetActive(false);
+                bombButton.SetActive(false);
                 break;
             case 1:
-                //rect.localPosition = new Vector3(-241, -465, 0);
                 hammer.SetActive(false);
                 if (bomb1Flg == true)
                 {
                     bomb1.SetActive(true);
+                    bombButton.SetActive(false);
                 }
                 else
                 {
                     bomb1.SetActive(false);
+                    if (ButtunFlg == true)
+                    {
+                        bombButton.SetActive(true);
+                    }
+                    else
+                    {
+                        bombButton.SetActive(false);
+                    }
                 }
                 break;
             case 2:
-                //rect.localPosition = new Vector3(-161, -465, 0);
                 hammer.SetActive(false);
                 bomb1.SetActive(false);
+                bombButton.SetActive(false);
                 break;
         }
+    }
+    public static int ItemNumberFlg()
+    {
+        return ItemNumber;
     }
 }
