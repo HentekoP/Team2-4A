@@ -13,25 +13,28 @@ public class HammerAttack : MonoBehaviour
         capsule = GetComponent<CapsuleCollider>();
 
         capsule.enabled = false;
-        anim.Play("Hammer");
+        Debug.Log("animationなんてないはずがない。");
+        anim.Play("NormalHammer");
     }
 
     void Update()
     {
         if (Input.GetButtonDown("x"))
         {
-            anim.Play("attack");
+            anim.Play("SwingHammer");
         }
     }
 
     public void SwingStart()
     {
         capsule.enabled = true;
+        Debug.Log("今読み込んだよ");
     }
 
     public void SwingEnd()
     {
-        anim.Play("Hammer");
+        Debug.Log("今から終わるよ");
+        anim.Play("NormalHammer");
         capsule.enabled = false;
     }
 }
