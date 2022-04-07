@@ -37,6 +37,7 @@ public class Bom : MonoBehaviour
     {
         exp.transform.position = obj.transform.position;
         exp.Play();
-        Destroy(obj);
+        //Destroy(obj);
+        obj.SetActive(false);
     }
 }
