@@ -7,7 +7,7 @@ public class DemoController : MonoBehaviour
 {
     //public GameObject rayPosition;
     private float rayDistance;
-
+    float f;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,26 +17,49 @@ public class DemoController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var direction = transform.forward;
-        Vector3 rayPosition = transform.position + new Vector3(0.0f,0.0f,0.0f);
-        Ray _ray = new Ray(rayPosition, direction);
-        RaycastHit hit_info;
-        Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
+        f = Input.GetAxis("RT");
 
         if (Input.GetButton("x"))
         {
+            Ataru();
 
-            if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
-            {
-                hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
-
-            }
-
+        }
+        if (f == 1.0)
+        {
+            bakuhatu();
         }
         
     }
 
-  
+  void Ataru()
+    {
+        var direction = transform.forward;
+        Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+        Ray _ray = new Ray(rayPosition, direction);
+        RaycastHit hit_info;
+        Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
+
+        if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
+        {
+            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
+
+        }
+    }
+
+    void bakuhatu()
+    {
+        var direction = transform.forward;
+        Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+        Ray _ray = new Ray(rayPosition, direction);
+        RaycastHit hit_info;
+        Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
+
+        if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
+        {
+            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
+
+        }
+    }
 
 
 
