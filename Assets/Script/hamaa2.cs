@@ -34,33 +34,33 @@ public class hamaa2 : MonoBehaviour
 
     
 
-    IEnumerator RodHit()
-    {
-        isHit = true;
-      //  bc.enabled = true;
-        for (int i = 0; i < 10; i++)
-        {
+    //IEnumerator RodHit()
+    //{
+    //    isHit = true;
+    //  //  bc.enabled = true;
+    //    for (int i = 0; i < 10; i++)
+    //    {
             
-            transform.Rotate(0, 0, 9);
+    //        transform.Rotate(0, 0, 9);
 
             
         
-            yield return new WaitForSeconds(0.0000000000000000000000000000000000001f);
+    //        yield return new WaitForSeconds(0.0000000000000000000000000000000000001f);
             
-        }
+    //    }
 
-        for (int j = 0; j < 30; j++)
-        {
+    //    for (int j = 0; j < 30; j++)
+    //    {
             
-            transform.Rotate(0, 0, -3);
+    //        transform.Rotate(0, 0, -3);
 
             
-            yield return new WaitForSeconds(0.000000000000000000000000000000000001f);
+    //        yield return new WaitForSeconds(0.000000000000000000000000000000000001f);
             
-        }
-        isHit = false;
-      //  bc.enabled = false;
-    }
+    //    }
+    //    isHit = false;
+    //  //  bc.enabled = false;
+    //}
 
 
     void OnCollisionEnter(Collision collision)
