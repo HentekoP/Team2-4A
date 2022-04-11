@@ -36,11 +36,11 @@ public class BreakSE : MonoBehaviour
         //}
         if (Input.GetButtonDown("x"))
         {
-            if (hammerScript.objectHP > 1)
+            if (hammerScript.objectHP > 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
             {
                 audioSource.PlayOneShot(sound4);
             }
-            if(hammerScript.objectHP == 1 && GameObject.FindWithTag("hammer") == true)
+            if(hammerScript.objectHP == 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
             {
                 audioSource.PlayOneShot(sound3);
 
