@@ -7,7 +7,6 @@ public class BreakSE : MonoBehaviour
     public AudioClip sound1;
     public AudioClip sound2;
     public AudioClip sound3;
-    public AudioClip sound4;
     public AudioClip sound5;
 
     AudioSource audioSource;
@@ -30,16 +29,8 @@ public class BreakSE : MonoBehaviour
             audioSource.PlayOneShot(sound2);
         }
 
-        //if(hammerScript.objectHP >= 0)
-        //{
-        //    audioSource.PlayOneShot(sound3);
-        //}
         if (Input.GetButtonDown("x"))
         {
-            if (hammerScript.objectHP > 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
-            {
-                audioSource.PlayOneShot(sound4);
-            }
             if(hammerScript.objectHP == 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
             {
                 audioSource.PlayOneShot(sound3);
