@@ -14,8 +14,7 @@ public class hamaaa : MonoBehaviour
 
     // SE用
     AudioSource audioSource;
-    public AudioClip sound1;
-    public AudioClip sound2;
+    public AudioClip sound;
 
     void Start()
     {
@@ -24,7 +23,7 @@ public class hamaaa : MonoBehaviour
 
     private void Update()
     {
-        if (HammerFlg = true)
+        if (HammerFlg == true)
         {
             if (Input.GetButtonDown("x"))
             {      
@@ -36,9 +35,6 @@ public class hamaaa : MonoBehaviour
                     // ★★追加
                     // オブジェクトのHPを１ずつ減少させる。
                     objectHP -= 1;
-                    
-                    // SE用
-                    audioSource.PlayOneShot(sound1);
                     
                     // ★★追加
                     // もしもHPが0よりも大きい場合には（条件）
@@ -55,7 +51,8 @@ public class hamaaa : MonoBehaviour
                         GameObject[] objects = GameObject.FindGameObjectsWithTag("hammer");//オブジェクトのタグを見る
                         foreach (GameObject hammer in objects)
                         {
-                            Destroy(hammer);
+                            //Destroy(hammer);
+                            GameObject.FindGameObjectWithTag("hammer").SetActive(false);
                             HammerFlg = false;
                         }
                     }
@@ -69,7 +66,7 @@ public class hamaaa : MonoBehaviour
         if(collision.gameObject.tag == "Block")
         {
             // SE用
-            audioSource.PlayOneShot(sound2);
+            audioSource.PlayOneShot(sound);
             Playeffect(collision);
         }
     }
