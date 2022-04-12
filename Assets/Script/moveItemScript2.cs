@@ -30,7 +30,7 @@ public class moveItemScript2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(player.transform.position, player.transform.transform.forward, out hit, Mathf.Infinity, mask))
+        if (Physics.Raycast(player.transform.position, player.transform.transform.forward, out hit, 2.2f, mask))
         {
 
             if (grab) // ものを持っているとき
@@ -52,6 +52,7 @@ public class moveItemScript2 : MonoBehaviour
                     rb_item1.useGravity = true;
                     rb_item1.isKinematic = false;
                     item1.layer = LayerMask.NameToLayer("Default"); //「Default」レイヤーをつける
+                    item1.gameObject.transform.parent = null;
                 }
 
             }
