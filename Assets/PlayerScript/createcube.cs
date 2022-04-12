@@ -24,9 +24,9 @@ public class createcube : MonoBehaviour
     }
     void CreateBlockObject()
     {
-        int row = 10;
-        int High = 10;
-        int column = 20;
+        int row = 5;
+        int High = 5;
+        int column = 10;
         float xoffset = 0.9f;
         float yoffset = 0.3f;
         float zoffset = 0.9f;
