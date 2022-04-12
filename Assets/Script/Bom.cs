@@ -8,14 +8,18 @@ public class Bom : MonoBehaviour
     public GameObject obj;
     public bool ExprosionFlg = false;
 
+
     void Update()
     {
         float tri = Input.GetAxis("RT");
 
         if (tri == 1.0f)
         {
+           
             ExprosionFlg = true;
             Debug.Log("R trigger:" + tri);
+
+            
         }
 
         if (ExprosionFlg == true)
