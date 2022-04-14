@@ -41,7 +41,7 @@ public class DemoController : MonoBehaviour
 
         if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
         {
-            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 10);
+            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 15);
 
         }
     }
