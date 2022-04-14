@@ -17,7 +17,7 @@ public class Walk : MonoBehaviour
         source = GetComponents<AudioSource>()[0];
     }
 
-    public void Play()
+    public void Playwalk()
     {
         if (randomizePitch)
             source.pitch = 1.0f + Random.Range(-pitchRange, pitchRange);
