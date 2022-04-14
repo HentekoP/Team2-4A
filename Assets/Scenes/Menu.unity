@@ -1550,7 +1550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186928888}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.156, y: -0.5, z: 0.315}
+  m_LocalPosition: {x: -0.156, y: 0.59, z: 0.315}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 850987287}
@@ -1574,7 +1574,7 @@ TextMesh:
   m_FontSize: 30
   m_FontStyle: 1
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: d5eaa68df95799b4d8533270d1b6611a, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4278190080
@@ -1596,7 +1596,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 226d369ca68e9754cbc9bc8b1ad07d9e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13670,7 +13670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1c6b6447145834b8ec3149b9b57bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
+  bombButton: {fileID: 0}
 --- !u!114 &1761217488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13685,6 +13685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aimPointImage: {fileID: 0}
   bombPrefab: {fileID: 0}
+  BombButton: {fileID: 0}
 --- !u!81 &1761217489
 AudioListener:
   m_ObjectHideFlags: 0
