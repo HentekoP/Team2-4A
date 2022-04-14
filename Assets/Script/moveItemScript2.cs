@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class moveItemScript2 : MonoBehaviour
 {
     public GameObject player;
-    public Text itemText;
+    public Text itemText1, itemText2;
 
     LayerMask mask;
     GameObject item1;
@@ -22,9 +22,10 @@ public class moveItemScript2 : MonoBehaviour
     void Start()
     {
 
-        mask = ~(1 << 8 | 1 << 9);
+        mask = 1 << 8;
         grab = false;
-        itemText.text = "";
+        itemText1.text = "";
+        itemText2.text = "";
     }
 
     // Update is called once per frame
@@ -51,7 +52,7 @@ public class moveItemScript2 : MonoBehaviour
                     col_item1.isTrigger = false;
                     rb_item1.useGravity = true;
                     rb_item1.isKinematic = false;
-                    item1.layer = LayerMask.NameToLayer("Default"); //「Default」レイヤーをつける
+                    item1.layer = LayerMask.NameToLayer("Cube"); //「Default」レイヤーをつける
                     item1.gameObject.transform.parent = null;
                 }
 
@@ -59,7 +60,8 @@ public class moveItemScript2 : MonoBehaviour
             else
             { // 持ってない時
 
-                itemText.text = hit.collider.name; // オブジェクトの名前を表示
+                itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
+                itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
 
                 if (Input.GetButtonDown("x") && hit.collider.tag == "Item") // アイテムを持ち上げる
                 {
@@ -68,7 +70,7 @@ public class moveItemScript2 : MonoBehaviour
                     sc_item1 = item1.GetComponent<CubeScript2>();
                     sc_item1.grab = true;
 
-                    sc_item1.transform.rotation = Quaternion.Euler(Vector3.zero); // 回転をリセット
+                    //sc_item1.transform.rotation = Quaternion.Euler(Vector3.zero); // 回転をリセット
 
                     // リジッドボディ
                     rb_item1 = item1.GetComponent<Rigidbody>();
@@ -82,13 +84,16 @@ public class moveItemScript2 : MonoBehaviour
                     //item_up = item1.transform.up; // 持ったときのアイテムの上方向を記憶
                     item1.layer = LayerMask.NameToLayer("Cube"); //「Cube」レイヤーをつける
 
-                    itemText.text = "";
+                    itemText1.text = "";
+                    itemText2.text = "";
 
                 }
             }
         }
         else
         {
+            itemText1.text = null; // オブジェクトの名前を非表示
+            itemText2.text = null; // オブジェクトの名前を非表示
             if (grab)
             {
                 sc_item1.ray = false;
