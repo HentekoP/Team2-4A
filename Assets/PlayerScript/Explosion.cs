@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    public float BombPower = 100f;
-    public float BombRadius = 30f;
+    public float BombPower = 0.01f;
+    public float BombRadius = 15f;
     GameObject Bomb;
     void Start()
     {
@@ -15,18 +15,18 @@ public class Explosion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Bomb = GameObject.Find("Old-timerbombprefab");
-        Vector3 explosionPos = Bomb.transform.position;
+        Bomb = GameObject.Find("Old-timerbombprefab(Clone)");
+        Vector3 explosionPos =transform.position;
 
         Collider[] hitColliders = Physics.OverlapSphere(explosionPos, BombRadius);
-        for (int i = 0; i < hitColliders.Length; i++)
+        foreach(Collider hit in hitColliders)
         {
-            var rb = hitColliders[i].GetComponent<Rigidbody>();
-            if (Input.GetAxis("RT") == 1.0f)
+            Rigidbody rb = GetComponent<Rigidbody>();
+            if (rb != null)
             {
-                if (rb)
+                if (Input.GetAxis("RT") == 1.0f)
                 {
-                    rb.AddExplosionForce(BombPower, explosionPos, BombRadius, 1f, ForceMode.Impulse);
+                    rb.AddExplosionForce(BombPower, explosionPos, BombRadius, 3f, ForceMode.Impulse);
                 }
             }
         }
