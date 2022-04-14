@@ -8,19 +8,33 @@ public class Bom : MonoBehaviour
     public GameObject obj;
     public bool ExprosionFlg = false;
 
+    GameObject Bomb;
+
+    RaycastHit hit;
+
+    void Start()
+    {
+        Bomb = GameObject.Find("prefaberbombprefab(Clone)");
+    }
 
     void Update()
     {
         float tri = Input.GetAxis("RT");
 
-        if (tri == 1.0f)
-        {
-           
-            ExprosionFlg = true;
-            Debug.Log("R trigger:" + tri);
+        Ray ray = new Ray(obj.transform.position, transform.TransformDirection(Vector3.up));
 
-            
-        }
+            if (tri == 1.0f)
+            {
+                ExprosionFlg = true;
+                Debug.Log("R trigger:" + tri);
+
+                if (Physics.SphereCast(ray, 1f, out hit, 50f))
+                {
+                    Debug.Log(hit.collider.gameObject.name);
+                }
+
+            }
+        
 
         if (ExprosionFlg == true)
         {

@@ -66,7 +66,6 @@ public class reticleColor : MonoBehaviour
                         pushcount = true;
                         Instantiate(bombPrefab, pos, Player.transform.localRotation);
                         bombcount -= 1;
-                        Debug.Log(bombcount);
                     }
                 }
                 else
