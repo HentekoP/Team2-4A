@@ -6,6 +6,7 @@ using UnityEngine;
 public class Walk : MonoBehaviour
 {
     [SerializeField] AudioClip[] clips;
+    [SerializeField] AudioClip[] se;
     [SerializeField] bool randomizePitch = true;
     [SerializeField] float pitchRange = 0.1f;
 
@@ -23,5 +24,15 @@ public class Walk : MonoBehaviour
             source.pitch = 1.0f + Random.Range(-pitchRange, pitchRange);
 
         source.PlayOneShot(clips[Random.Range(0, clips.Length)]);
+    }
+
+    public void Playjump()
+    {
+        source.PlayOneShot(se[0]);
+    }
+    
+    public void Playlanding()
+    {
+        source.PlayOneShot(se[1]);
     }
 }
