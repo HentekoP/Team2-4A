@@ -12,7 +12,8 @@ public class reticleColor : MonoBehaviour
 
     [SerializeField]
     private GameObject bombPrefab;
-    private static bool bomb1Flg = true;
+    public static bool bomb1Flg = true;
+    int ItemNumber = 0;
     float Raycastlength = 0;
     float ColorTP;
     int bombcount = 1;
@@ -20,6 +21,8 @@ public class reticleColor : MonoBehaviour
     GameObject cd;
     GameObject cd2;
     GameObject Player;
+    public GameObject BombButton;
+    static bool buttonFlg = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,8 @@ public class reticleColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ItemNumber = ItemSelect.ItemNumberFlg();
+        RaycastHit hit;
         if (cd.activeSelf == true)
         {
             Raycastlength = 1.4f;
@@ -44,7 +49,6 @@ public class reticleColor : MonoBehaviour
             Raycastlength = 2.5f;
             ColorTP = 0.0001f;
         }
-        RaycastHit hit;
 
         Ray ray = new Ray(transform.position, transform.forward);
 
@@ -57,12 +61,11 @@ public class reticleColor : MonoBehaviour
             {
                 if (pushcount == false)
                 {
-                    if (Input.GetButton("x") && bombcount > 0)
+                    if (Input.GetButtonDown("x") && bombcount > 0)
                     {
                         pushcount = true;
                         Instantiate(bombPrefab, pos, Player.transform.localRotation);
                         bombcount -= 1;
-                        Debug.Log(bombcount);
                     }
                 }
                 else
@@ -75,38 +78,56 @@ public class reticleColor : MonoBehaviour
                     bomb1Flg = false;
                 }
             }
-            if ((hitTag.Equals("Block")))
+            if (cd.activeSelf == true || cd2.activeSelf == true)
             {
-                ColorTP = 1.0f;
-            }
-            else
-            {
-                ColorTP = 0.2f;
-            }
-
-            if ((hitTag.Equals("bomb")))
-            {
-                ColorTP = 1.0f;
-                if (Input.GetButtonDown("x"))
+                if ((hitTag.Equals("Block")))
                 {
-                    if (bomb1Flg == false)
-                    {
-                        bomb1Flg = true;
-                    }
-                    Destroy(hit.collider.gameObject);
-                    bombcount++;
+                    ColorTP = 1.0f;
+                }
+                else
+                {
+                    ColorTP = 0.2f;
                 }
             }
 
+            if ((ItemNumber == 1 && bomb1Flg == false) || ItemNumber == 2)
+            {
+                if ((hitTag.Equals("bomb")))
+                {
+                    ColorTP = 1.0f;
+                    if (Input.GetButtonDown("x"))
+                    {
+                        Debug.Log("thisone");
+                        if (bomb1Flg == false)
+                        {
+                            bomb1Flg = true;
+                        }
+                        Destroy(hit.collider.gameObject);
+                        bombcount++;
+                    }
+                }
+            }
         }
         else
         {
             ColorTP = 0.2f;
         }
         aimPointImage.color = new Color(1.0f, 1.0f, 1.0f, ColorTP);
+        if(BombButton.activeSelf == true)
+        {
+            var clones = GameObject.FindGameObjectsWithTag("bomb");
+            if (Input.GetAxis("RT") == 1.0)
+            {
+                buttonFlg = false;
+            }
+        }
     }
     public static bool GetBombFlg()
     {
         return bomb1Flg;
+    }
+    public static bool GetButtonFlg()
+    {
+        return buttonFlg;
     }
 }

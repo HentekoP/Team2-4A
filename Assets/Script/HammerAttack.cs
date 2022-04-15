@@ -7,10 +7,14 @@ public class HammerAttack : MonoBehaviour
     Animation anim;
     CapsuleCollider capsule;
 
+    public AudioClip swingSE;
+    AudioSource audioSource;
+
     void Start()
     {
         anim = GetComponent<Animation>();
         capsule = GetComponent<CapsuleCollider>();
+        audioSource = GetComponent<AudioSource>();
 
         capsule.enabled = false;
         Debug.Log("animationなんてないはずがない。");
@@ -36,5 +40,10 @@ public class HammerAttack : MonoBehaviour
         Debug.Log("今から終わるよ");
         anim.Play("SwingSword");
         capsule.enabled = false;
+    }
+
+    public void SE()
+    {
+        audioSource.PlayOneShot(swingSE);
     }
 }

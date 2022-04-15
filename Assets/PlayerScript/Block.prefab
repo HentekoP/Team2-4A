@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2837791290712254301}
   - component: {fileID: 8042979785285829093}
   - component: {fileID: 3631128209654130233}
+  - component: {fileID: 3152187149031821356}
   m_Layer: 0
   m_Name: Block
   m_TagString: Block
@@ -107,7 +108,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -123,3 +124,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aea1a8a301191b045b56712a346e95b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3152187149031821356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670261095821322873}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8873fb1ea9ad40d4abf51458ceceb7bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BombPower: 1000
+  BombRadius: 1000
