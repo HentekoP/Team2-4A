@@ -7,6 +7,7 @@ public class Bom : MonoBehaviour
     public ParticleSystem exp;
     public GameObject obj;
     public bool ExprosionFlg = false;
+    public float hitforce;
 
     GameObject Bomb;
 
@@ -21,16 +22,16 @@ public class Bom : MonoBehaviour
     {
         float tri = Input.GetAxis("RT");
 
-        Ray ray = new Ray(obj.transform.position, transform.TransformDirection(Vector3.up));
+        Ray ray = new Ray(obj.transform.position, obj.transform.TransformDirection(Vector3.up));
 
             if (tri == 1.0f)
             {
                 ExprosionFlg = true;
                 Debug.Log("R trigger:" + tri);
 
-                if (Physics.SphereCast(ray, 1f, out hit, 50f))
+                if (Physics.SphereCast(ray, 30f, out hit, 30f))
                 {
-                    Debug.Log(hit.collider.gameObject.name);
+                    hit.collider.GetComponent<DestroyedPieceController>().cause_damage(ray.direction * hitforce);
                 }
 
             }
