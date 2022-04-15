@@ -7,7 +7,6 @@ public class Bom : MonoBehaviour
     public ParticleSystem exp;
     public GameObject obj;
     public bool ExprosionFlg = false;
-
     GameObject Bomb;
 
     RaycastHit hit;
@@ -23,7 +22,7 @@ public class Bom : MonoBehaviour
 
         Ray ray = new Ray(obj.transform.position, transform.TransformDirection(Vector3.up));
 
-            if (tri == 1.0f)
+            if (tri == 1.0f && reticleColor.bomb1Flg == false)
             {
                 ExprosionFlg = true;
                 Debug.Log("R trigger:" + tri);
