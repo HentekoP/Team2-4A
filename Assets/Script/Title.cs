@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Title : MonoBehaviour
 {
     public RectTransform Title_cursor;
-    int Menu_Num = 0;   //メニュー選択時の番号　0:スタート 1:終了
+    public int Menu_Num = 0;   //メニュー選択時の番号　0:スタート 1:終了
     bool Push_Flg = false; //連続入力防止用スイッチ
 
     //　非同期動作で使用するAsyncOperation
