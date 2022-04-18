@@ -14,7 +14,8 @@ public class hamaaa : MonoBehaviour
 
     // SE用
     AudioSource audioSource;
-    public AudioClip sound;
+    public AudioClip wall;
+    public AudioClip glass;
 
     void Start()
     {
@@ -65,16 +66,26 @@ public class hamaaa : MonoBehaviour
     {
         if(collision.gameObject.tag == "Block")
         {
-            // SE用
-            audioSource.PlayOneShot(sound);
-            Playeffect(collision);
+            PlayeffectA(collision);
+            audioSource.PlayOneShot(wall);
+        }
+        if (collision.gameObject.tag == "Glass")
+        {
+            PlayeffectB(collision);
+            audioSource.PlayOneShot(glass);
         }
     }
 
-    void Playeffect(Collision collision)
+    void PlayeffectA(Collision collision)
     {
         Instantiate(effectPrefab, this.transform.position, Quaternion.identity);
         effectPrefab.transform.position = collision.contacts[0].point;
+    }
+
+    void PlayeffectB(Collision collision)
+    {
+        Instantiate(effectPrefab2, this.transform.position, Quaternion.identity);
+        effectPrefab2.transform.position = collision.contacts[0].point;
     }
 
     public static bool GetHammerFlag()

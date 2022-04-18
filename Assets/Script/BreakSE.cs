@@ -24,7 +24,7 @@ public class BreakSE : MonoBehaviour
     {
         tri = Input.GetAxis("RT");
 
-        if (tri == 1.0f && GameObject.FindWithTag("bomb") == true && reticleColor.bomb1Flg == false)
+        if (tri == 1.0f && GameObject.FindWithTag("bomb") == true && reticleColor.bomb1Flg == false && GameObject.FindWithTag("Switch") == true)
         {
             audioSource.PlayOneShot(Bom);
         }
@@ -36,14 +36,6 @@ public class BreakSE : MonoBehaviour
                 audioSource.PlayOneShot(HammerDestroyed);
 
             }
-        }
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.name == "Plane")
-        {
-            audioSource.PlayOneShot(Block);
         }
     }
 }
