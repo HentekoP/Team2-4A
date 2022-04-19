@@ -15,9 +15,10 @@ public class Explosion : MonoBehaviour
     {
         
     }
-    private void OnParticleCollision(GameObject other)
+    void OnParticleCollision(GameObject other)
     {
         Debug.Log("ばくはーつ");
-        rb.AddForce(Random.onUnitSphere * 150f);
+        rb.isKinematic = false;
+        rb.AddForce(Random.onUnitSphere * 15000f);
     }
 }
