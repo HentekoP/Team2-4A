@@ -66,26 +66,19 @@ public class hamaaa : MonoBehaviour
     {
         if(collision.gameObject.tag == "Block")
         {
-            PlayeffectA(collision);
+            Playeffect(collision);
             audioSource.PlayOneShot(wall);
         }
-        if (collision.gameObject.tag == "Glass")
+        else if (collision.gameObject.tag == "Glass")
         {
-            PlayeffectB(collision);
             audioSource.PlayOneShot(glass);
         }
     }
 
-    void PlayeffectA(Collision collision)
+    void Playeffect(Collision collision)
     {
         Instantiate(effectPrefab, this.transform.position, Quaternion.identity);
         effectPrefab.transform.position = collision.contacts[0].point;
-    }
-
-    void PlayeffectB(Collision collision)
-    {
-        Instantiate(effectPrefab2, this.transform.position, Quaternion.identity);
-        effectPrefab2.transform.position = collision.contacts[0].point;
     }
 
     public static bool GetHammerFlag()
