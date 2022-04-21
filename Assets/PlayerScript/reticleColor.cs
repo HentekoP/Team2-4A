@@ -12,7 +12,7 @@ public class reticleColor : MonoBehaviour
 
     [SerializeField]
     private GameObject bombPrefab;
-    private static bool bomb1Flg = true;
+    public static bool bomb1Flg = true;
     int ItemNumber = 0;
     float Raycastlength = 0;
     float ColorTP;

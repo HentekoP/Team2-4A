@@ -110,15 +110,15 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("jump", false);
         }
 
-        if(Attack == true)
-        {
-            animator.SetBool("Attack", true);
+        //if(Attack == true)
+        //{
+        //    animator.SetBool("Attack", true);
 
-        }
-        else
-        {
-            animator.SetBool("Attack", false);
-        }
+        //}
+        //else
+        //{
+        //    animator.SetBool("Attack", false);
+        //}
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
     }

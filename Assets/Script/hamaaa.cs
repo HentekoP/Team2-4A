@@ -14,7 +14,8 @@ public class hamaaa : MonoBehaviour
 
     // SE用
     AudioSource audioSource;
-    public AudioClip sound;
+    public AudioClip wall;
+    public AudioClip glass;
 
     void Start()
     {
@@ -65,9 +66,12 @@ public class hamaaa : MonoBehaviour
     {
         if(collision.gameObject.tag == "Block")
         {
-            // SE用
-            audioSource.PlayOneShot(sound);
             Playeffect(collision);
+            audioSource.PlayOneShot(wall);
+        }
+        else if (collision.gameObject.tag == "Glass")
+        {
+            audioSource.PlayOneShot(glass);
         }
     }
 
