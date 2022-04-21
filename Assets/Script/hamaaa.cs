@@ -9,7 +9,7 @@ public class hamaaa : MonoBehaviour
     // 2種類目のエフェクトを入れるための箱
     public GameObject effectPrefab2;
     public int objectHP;
-    private static bool HammerFlg = true;
+    public static bool HammerFlg = true;
     //private void OnTriggerEnter(Collider other)
 
     // SE用

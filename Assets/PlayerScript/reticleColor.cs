@@ -61,7 +61,7 @@ public class reticleColor : MonoBehaviour
             {
                 if (pushcount == false)
                 {
-                    if (Input.GetButtonDown("x") && bombcount > 0)
+                    if (Input.GetButtonDown("x") && bombcount > 0 && (hitTag.Equals("Block")))
                     {
                         pushcount = true;
                         Instantiate(bombPrefab, pos, Player.transform.localRotation);
@@ -97,7 +97,6 @@ public class reticleColor : MonoBehaviour
                     ColorTP = 1.0f;
                     if (Input.GetButtonDown("x"))
                     {
-                        Debug.Log("thisone");
                         if (bomb1Flg == false)
                         {
                             bomb1Flg = true;

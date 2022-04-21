@@ -31,9 +31,10 @@ public class BreakSE : MonoBehaviour
 
         if (Input.GetButtonDown("x"))
         {
-            if(hammerScript.objectHP == 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
+            if(hammerScript.objectHP == 0 && hamaaa.HammerFlg ==false)
             {
                 audioSource.PlayOneShot(HammerDestroyed);
+                hamaaa.HammerFlg = true;
 
             }
         }
