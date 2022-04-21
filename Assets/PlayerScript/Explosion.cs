@@ -20,7 +20,7 @@ public class Explosion : MonoBehaviour
     {
         Debug.Log("ばくはーつ");
        // rb.isKinematic = false;
-        rb.GetComponent<DestroyedPieceController>().cause_damage(Random.onUnitSphere * 15);
-        rb.AddForce(Random.onUnitSphere * 15000f);
+        rb.GetComponent<DestroyedPieceController>().cause_damage(Random.onUnitSphere * 45);
+        rb.AddForce(Random.onUnitSphere * 95000f);
     }
 }
