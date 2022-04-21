@@ -5,6 +5,7 @@ using UnityEngine;
 public class Explosion : MonoBehaviour
 {
     Rigidbody rb;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -18,7 +19,8 @@ public class Explosion : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         Debug.Log("ばくはーつ");
-        rb.isKinematic = false;
+       // rb.isKinematic = false;
+        rb.GetComponent<DestroyedPieceController>().cause_damage(Random.onUnitSphere * 15);
         rb.AddForce(Random.onUnitSphere * 15000f);
     }
 }
