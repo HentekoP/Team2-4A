@@ -22,13 +22,12 @@ public class DemoController : MonoBehaviour
         if (Input.GetButton("x"))
         {
             Ataru();
-            Attack();
 
         }
-        //if (f == 1.0)
-        //{
-        //    bakuhatu();
-        //}
+        if (f == 1.0)
+        {
+           bakuhatu();
+        }
         
     }
 
@@ -47,13 +46,10 @@ public class DemoController : MonoBehaviour
         }
     }
 
-     IEnumerator Attack()
-    {
+    
+    
 
-    }
-
-
-    /*void bakuhatu()
+    void bakuhatu()
     {
         var direction = transform.forward;
         Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
@@ -69,7 +65,7 @@ public class DemoController : MonoBehaviour
     }
 
 
-    */
+    
 }
 
 
