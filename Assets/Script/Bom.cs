@@ -18,7 +18,7 @@ public class Bom : MonoBehaviour
     {
         float tri = Input.GetAxis("RT");
 
-            if (tri == 1.0f && reticleColor.bomb1Flg == false && GameObject.FindWithTag("Switch") == true)
+            if (tri == 1.0f && reticleColor.bomb1Flg == false  )
         {
             ExprosionFlg = true;
             Debug.Log("R trigger:" + tri);
