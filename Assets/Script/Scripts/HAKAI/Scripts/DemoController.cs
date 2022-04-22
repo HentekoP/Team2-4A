@@ -13,6 +13,7 @@ public class DemoController : MonoBehaviour
     float f;
     int a = 0;
     // Start is called before the first frame update
+    public float span = 3f;
     void Start()
     {
         rayDistance = 1.0f;
@@ -34,13 +35,27 @@ public class DemoController : MonoBehaviour
         if (Input.GetButton("x"))
         {
 
-            StartCoroutine("hummer1");
+            hakai();
+            StartCoroutine("hakaii");
                
         }
 
 
 
+        void hakai()
+        {
+            var direction = transform.forward;
+            Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+            Ray _ray = new Ray(rayPosition, direction);
+            RaycastHit hit_info;
+            Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
 
+            if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
+            {
+                hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
+
+            }
+        }
 
        
 
@@ -63,23 +78,27 @@ public class DemoController : MonoBehaviour
         }
     }
 
-    private IEnumerator hummer1()
+    IEnumerator hakaii()
     {
-        Debug.Log("スタート");
-        yield return new WaitForSeconds(1.0f);
-        var direction = transform.forward;
-        Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
-        Ray _ray = new Ray(rayPosition, direction);
-        RaycastHit hit_info;
-        Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
-
-        if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
+        while (true)
         {
-            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
+            yield return new WaitForSeconds(span);
+            Debug.LogFormat("{0}秒経過", span);
+            var direction = transform.forward;
+            Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+            Ray _ray = new Ray(rayPosition, direction);
+            RaycastHit hit_info;
+            Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
 
+            if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
+            {
+                hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
+
+            }
         }
-        yield return new WaitForSeconds(3.0f);
     }
+    
+
 }
 
 
