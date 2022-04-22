@@ -9,12 +9,13 @@ public class hamaaa : MonoBehaviour
     // 2種類目のエフェクトを入れるための箱
     public GameObject effectPrefab2;
     public int objectHP;
-    private static bool HammerFlg = true;
+    public static bool HammerFlg = true;
     //private void OnTriggerEnter(Collider other)
 
     // SE用
     AudioSource audioSource;
-    public AudioClip sound;
+    public AudioClip wall;
+    public AudioClip glass;
 
     void Start()
     {
@@ -65,9 +66,12 @@ public class hamaaa : MonoBehaviour
     {
         if(collision.gameObject.tag == "Block")
         {
-            // SE用
-            audioSource.PlayOneShot(sound);
             Playeffect(collision);
+            audioSource.PlayOneShot(wall);
+        }
+        else if (collision.gameObject.tag == "Glass")
+        {
+            audioSource.PlayOneShot(glass);
         }
     }
 

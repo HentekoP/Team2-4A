@@ -26,7 +26,7 @@ public class DemoController : MonoBehaviour
         }
         if (f == 1.0)
         {
-            bakuhatu();
+           bakuhatu();
         }
         
     }
@@ -46,6 +46,9 @@ public class DemoController : MonoBehaviour
         }
     }
 
+    
+    
+
     void bakuhatu()
     {
         var direction = transform.forward;
@@ -62,7 +65,7 @@ public class DemoController : MonoBehaviour
     }
 
 
-
+    
 }
 
 

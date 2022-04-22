@@ -25,8 +25,14 @@ public class Title : MonoBehaviour
     public RectTransform End_cursor;
     public bool End_flg = false;
 
+    [SerializeField] AudioClip[] se;
+    protected AudioSource source;
+
     private void Start()
     {
+        // アタッチしたオーディオソースのうち1番目を使用する
+        source = GetComponents<AudioSource>()[0];
+
         EndUI.SetActive(false);
     }
 
@@ -44,6 +50,7 @@ public class Title : MonoBehaviour
                 {
                     Push_Flg = true;
                     Menu_Num++;
+                    source.PlayOneShot(se[0]);
 
                     //一番下より下入力をした場合
                     if (Menu_Num >= 2)
@@ -63,6 +70,7 @@ public class Title : MonoBehaviour
                 {
                     Push_Flg = true;
                     Menu_Num--;
+                    source.PlayOneShot(se[0]);
 
                     //一番上より上入力をした場合
                     if (Menu_Num <= -1)
@@ -84,6 +92,8 @@ public class Title : MonoBehaviour
 
             if (Input.GetButtonDown("A"))
             {
+                source.PlayOneShot(se[1]);
+
                 if (Menu_Num == 0)
                 {
                     NextScene();
@@ -184,6 +194,8 @@ public class Title : MonoBehaviour
 
             if (Input.GetButtonDown("A"))
             {
+                source.PlayOneShot(se[1]);
+
                 if (End_Menu_Num == 0)
                 {
                     EndUI.SetActive(false);

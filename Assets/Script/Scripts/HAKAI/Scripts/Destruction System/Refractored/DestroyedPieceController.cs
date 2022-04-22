@@ -33,13 +33,13 @@ public class DestroyedPieceController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-       
+
         if (!_configured)
         {
             var neighbour = collision.gameObject.GetComponent<DestroyedPieceController>();
             if (neighbour)
             {
-                if(!connected_to.Contains(neighbour))
+                if (!connected_to.Contains(neighbour))
                     connected_to.Add(neighbour);
             }
         }

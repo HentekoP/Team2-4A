@@ -4,31 +4,22 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    public float BombPower = 0.01f;
-    public float BombRadius = 15f;
-    GameObject Bomb;
+    Rigidbody rb;
+
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Bomb = GameObject.Find("Old-timerbombprefab(Clone)");
-        Vector3 explosionPos =transform.position;
-
-        Collider[] hitColliders = Physics.OverlapSphere(explosionPos, BombRadius);
-        foreach(Collider hit in hitColliders)
-        {
-            Rigidbody rb = GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                if (Input.GetAxis("RT") == 1.0f)
-                {
-                    rb.AddExplosionForce(BombPower, explosionPos, BombRadius, 3f, ForceMode.Impulse);
-                }
-            }
-        }
+    }
+    void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("ばくはーつ");
+       // rb.isKinematic = false;
+        rb.GetComponent<DestroyedPieceController>().cause_damage(Random.onUnitSphere * 15);
+        rb.AddForce(Random.onUnitSphere * 15000f);
     }
 }

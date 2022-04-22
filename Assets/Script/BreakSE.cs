@@ -24,26 +24,19 @@ public class BreakSE : MonoBehaviour
     {
         tri = Input.GetAxis("RT");
 
-        if (tri == 1.0f && GameObject.FindWithTag("bomb") == true && reticleColor.bomb1Flg == false)
+        if (tri == 1.0f && GameObject.FindWithTag("bomb") == true && reticleColor.bomb1Flg == false && GameObject.FindWithTag("Switch") == true)
         {
             audioSource.PlayOneShot(Bom);
         }
 
         if (Input.GetButtonDown("x"))
         {
-            if(hammerScript.objectHP == 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
+            if(hammerScript.objectHP == 0 && hamaaa.HammerFlg ==false)
             {
                 audioSource.PlayOneShot(HammerDestroyed);
+                hamaaa.HammerFlg = true;
 
             }
-        }
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.name == "Plane")
-        {
-            audioSource.PlayOneShot(Block);
         }
     }
 }

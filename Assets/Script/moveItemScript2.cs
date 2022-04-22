@@ -18,6 +18,9 @@ public class moveItemScript2 : MonoBehaviour
     Rigidbody rb_item1;
     Collider col_item1;
 
+    [SerializeField] AudioClip[] se;
+    protected AudioSource source;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,9 @@ public class moveItemScript2 : MonoBehaviour
         grab = false;
         itemText1.text = "";
         itemText2.text = "";
+
+        // アタッチしたオーディオソースのうち1番目を使用する
+        source = GetComponents<AudioSource>()[0];
     }
 
     // Update is called once per frame
@@ -69,6 +75,7 @@ public class moveItemScript2 : MonoBehaviour
                     item1 = hit.collider.gameObject;
                     sc_item1 = item1.GetComponent<CubeScript2>();
                     sc_item1.grab = true;
+                    source.PlayOneShot(se[0]);
 
                     //sc_item1.transform.rotation = Quaternion.Euler(Vector3.zero); // 回転をリセット
 

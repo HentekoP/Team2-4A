@@ -9,8 +9,6 @@ public class Bom : MonoBehaviour
     public bool ExprosionFlg = false;
     GameObject Bomb;
 
-    RaycastHit hit;
-
     void Start()
     {
         Bomb = GameObject.Find("prefaberbombprefab(Clone)");
@@ -20,19 +18,10 @@ public class Bom : MonoBehaviour
     {
         float tri = Input.GetAxis("RT");
 
-        Ray ray = new Ray(obj.transform.position, transform.TransformDirection(Vector3.up));
-
-            if (tri == 1.0f && reticleColor.bomb1Flg == false)
+            if (tri == 1.0f && reticleColor.bomb1Flg == false )
         {
             ExprosionFlg = true;
             Debug.Log("R trigger:" + tri);
-
-            if (Physics.SphereCast(ray, 15f, out hit, 50f))
-                {
-                hit.collider.GetComponent<DestroyedPieceController>().cause_damage(ray.direction * 150);
-                Debug.Log(hit.collider.gameObject.tag);
-            }
-
         }
         
 

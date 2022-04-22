@@ -8,9 +8,13 @@ public class ItemSelect : MonoBehaviour
     GameObject hammer;
     GameObject bomb1;
 
+    [SerializeField]
+    private GameObject Select;
 
     public static int ItemNumber = 0;
     public GameObject bombButton;
+    public GameObject ButtonSelect;
+    public GameObject bombSelect;
     bool bomb1Flg = true;
     bool HammerFlg = true;
     bool pushflg = false;
@@ -20,6 +24,7 @@ public class ItemSelect : MonoBehaviour
     {
         hammer = transform.GetChild(0).gameObject;
         bomb1 = transform.GetChild(1).gameObject;
+        ButtonSelect.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,6 +56,7 @@ public class ItemSelect : MonoBehaviour
         switch (ItemNumber)
         {
             case 0:
+                Select.transform.localPosition = new Vector3(-437f, -443f, 0f);
                 if (HammerFlg == true)
                 {
                     hammer.SetActive(true);
@@ -63,26 +69,33 @@ public class ItemSelect : MonoBehaviour
                 bombButton.SetActive(false);
                 break;
             case 1:
+                Select.transform.localPosition = new Vector3(-337.4f, -443f, 0f);
                 hammer.SetActive(false);
                 if (bomb1Flg == true)
                 {
                     bomb1.SetActive(true);
+                    bombSelect.SetActive(true);
                     bombButton.SetActive(false);
+                    ButtonSelect.SetActive(false);
                 }
                 else
                 {
                     bomb1.SetActive(false);
+                    bombSelect.SetActive(false);
                     if (ButtunFlg == true)
                     {
                         bombButton.SetActive(true);
+                        ButtonSelect.SetActive(true);
                     }
                     else
                     {
                         bombButton.SetActive(false);
+                        ButtonSelect.SetActive(false);
                     }
                 }
                 break;
             case 2:
+                Select.transform.localPosition = new Vector3(-237.6f, -443f, 0f);
                 hammer.SetActive(false);
                 bomb1.SetActive(false);
                 bombButton.SetActive(false);
