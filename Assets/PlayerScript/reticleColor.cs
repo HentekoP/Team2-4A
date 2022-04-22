@@ -13,10 +13,11 @@ public class reticleColor : MonoBehaviour
     [SerializeField]
     private GameObject bombPrefab;
     public static bool bomb1Flg = true;
+    public Text TextFrame;
     int ItemNumber = 0;
     float Raycastlength = 0;
     float ColorTP;
-    int bombcount = 1;
+    static int bombcount = 3;
     bool pushcount = false;
     GameObject cd;
     GameObject cd2;
@@ -120,6 +121,8 @@ public class reticleColor : MonoBehaviour
                 buttonFlg = false;
             }
         }
+        TextFrame.text = string.Format("{0:0}", bombcount);
+        
     }
     public static bool GetBombFlg()
     {
@@ -128,5 +131,9 @@ public class reticleColor : MonoBehaviour
     public static bool GetButtonFlg()
     {
         return buttonFlg;
+    }
+    public static int GetbombCount()
+    {
+        return bombcount;
     }
 }
