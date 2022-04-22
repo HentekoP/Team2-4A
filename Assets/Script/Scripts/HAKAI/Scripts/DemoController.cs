@@ -33,8 +33,8 @@ public class DemoController : MonoBehaviour
 
         if (Input.GetButton("x"))
         {
-           
-                Ataru();
+
+            StartCoroutine("hummer1");
                
         }
 
@@ -42,21 +42,7 @@ public class DemoController : MonoBehaviour
 
 
 
-        void Ataru()
-        {
-            var direction = transform.forward;
-            Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
-            Ray _ray = new Ray(rayPosition, direction);
-            RaycastHit hit_info;
-            Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
-
-            if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
-            {
-                hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 15);
-
-            }
-        }
-
+       
 
 
 
@@ -75,7 +61,24 @@ public class DemoController : MonoBehaviour
 
             }
         }
+    }
 
+    private IEnumerator hummer1()
+    {
+        Debug.Log("スタート");
+        yield return new WaitForSeconds(1.0f);
+        var direction = transform.forward;
+        Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+        Ray _ray = new Ray(rayPosition, direction);
+        RaycastHit hit_info;
+        Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
+
+        if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
+        {
+            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
+
+        }
+        yield return new WaitForSeconds(3.0f);
     }
 }
 

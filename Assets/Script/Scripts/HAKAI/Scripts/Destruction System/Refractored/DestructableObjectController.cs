@@ -84,7 +84,6 @@ public class DestructableObjectController : MonoBehaviour
         foreach( var piece in destroyed_pieces)
         {
             piece.make_static();
-            
         }
     }
 }
