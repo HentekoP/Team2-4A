@@ -46,4 +46,14 @@ public class HammerAttack : MonoBehaviour
     {
         audioSource.PlayOneShot(swingSE);
     }
+
+    public void hakaikaisi()
+    {
+        DemoController.flg = true;
+    }
+
+    public void hakaiowari()
+    {
+        DemoController.flg = false;
+    }
 }
