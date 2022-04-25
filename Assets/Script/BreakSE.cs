@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BreakSE : MonoBehaviour
 {
-    public AudioClip Block;
     public AudioClip Bom;
     public AudioClip HammerDestroyed;
     public AudioClip sound5;
@@ -29,7 +28,7 @@ public class BreakSE : MonoBehaviour
             audioSource.PlayOneShot(Bom);
         }
 
-        if (Input.GetButtonDown("x"))
+        if (Input.GetButtonDown("X"))
         {
             if(hammerScript.objectHP == 0 && hamaaa.HammerFlg ==false)
             {
