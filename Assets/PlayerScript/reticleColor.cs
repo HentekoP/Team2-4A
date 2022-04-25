@@ -48,7 +48,6 @@ public class reticleColor : MonoBehaviour
         else 
         {
             Raycastlength = 2.5f;
-            ColorTP = 0.0001f;
         }
 
         Ray ray = new Ray(transform.position, transform.forward);
@@ -57,7 +56,7 @@ public class reticleColor : MonoBehaviour
         {
             string hitTag = hit.collider.tag;
 
-            pos = hit.normal / 4.5f + hit.collider.transform.position;
+            pos = hit.normal / 2f + hit.collider.transform.position;
             if (cd2.activeSelf == true && bomb1Flg == true)
             {
                 if (pushcount == false)
@@ -93,7 +92,7 @@ public class reticleColor : MonoBehaviour
 
             if ((ItemNumber == 1 && bomb1Flg == false) || ItemNumber == 2)
             {
-                if ((hitTag.Equals("bomb")))
+                if (hit.collider.tag == "bomb")
                 {
                     ColorTP = 1.0f;
                     if (Input.GetButtonDown("x"))
@@ -112,17 +111,15 @@ public class reticleColor : MonoBehaviour
         {
             ColorTP = 0.2f;
         }
-        aimPointImage.color = new Color(1.0f, 1.0f, 1.0f, ColorTP);
         if(BombButton.activeSelf == true)
         {
-            var clones = GameObject.FindGameObjectsWithTag("bomb");
             if (Input.GetAxis("RT") == 1.0)
             {
                 buttonFlg = false;
             }
         }
         TextFrame.text = string.Format("{0:0}", bombcount);
-        
+        aimPointImage.color = new Color(1.0f, 1.0f, 1.0f, ColorTP);
     }
     public static bool GetBombFlg()
     {

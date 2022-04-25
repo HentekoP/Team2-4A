@@ -43,10 +43,10 @@ public class DestroyedPieceController : MonoBehaviour
                     connected_to.Add(neighbour);
             }
         }
-        else if (collision.gameObject.CompareTag("Floor"))
-        {
-            VFXController.Instance.spawn_dust_cloud(transform.position);
-        }
+        //else if (collision.gameObject.CompareTag("Floor"))
+        //{
+        //    VFXController.Instance.spawn_dust_cloud(transform.position);
+        //}
     }
 
     public void make_static()
