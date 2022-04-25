@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
@@ -80,25 +81,31 @@ public class DemoController : MonoBehaviour
 
     IEnumerator hakaii()
     {
-        while (true)
+      
+        
+            hakai();
+            yield return new WaitForSeconds(5.0f);
+           // yield return new WaitForSeconds(span);
+
+            yield break;
+        
+    }
+
+
+    void hakai()
+    {
+        var direction = transform.forward;
+        Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+        Ray _ray = new Ray(rayPosition, direction);
+        RaycastHit hit_info;
+        Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
+
+        if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
         {
-            yield return new WaitForSeconds(span);
-            Debug.LogFormat("{0}秒経過", span);
-            var direction = transform.forward;
-            Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
-            Ray _ray = new Ray(rayPosition, direction);
-            RaycastHit hit_info;
-            Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
+            hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
 
-            if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
-            {
-                hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
-
-            }
         }
     }
-    
-
 }
 
 
