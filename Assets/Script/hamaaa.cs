@@ -26,7 +26,7 @@ public class hamaaa : MonoBehaviour
     {
         if (HammerFlg == true)
         {
-            if (Input.GetButtonDown("x"))
+            if (Input.GetButtonDown("X"))
             {      
 
                 Debug.Log("Xボタンを押してるよ");

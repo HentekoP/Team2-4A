@@ -45,7 +45,7 @@ public class moveItemScript2 : MonoBehaviour
                 //item1.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal); // アイテムの上方向をレイが当たったところの表面の法線方向にする
                 //item1.transform.position += item1.transform.localScale.y / 1.98f * hit.normal; // アイテムが埋まらないように、表面方向に少し動かす
 
-                if (Input.GetButtonDown("x") && sc_item1.ray && !sc_item1.trigStay && sc_item1.grab) // アイテムを置く
+                if (Input.GetButtonDown("X") && sc_item1.ray && !sc_item1.trigStay && sc_item1.grab) // アイテムを置く
                 {
                     grab = false;
                     sc_item1.grab = false;
@@ -63,7 +63,7 @@ public class moveItemScript2 : MonoBehaviour
                 itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
                 itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
 
-                if (Input.GetButtonDown("x") && hit.collider.tag == "Item") // アイテムを持ち上げる
+                if (Input.GetButtonDown("X") && hit.collider.tag == "Item") // アイテムを持ち上げる
                 {
                     grab = true;
                     item1 = hit.collider.gameObject;

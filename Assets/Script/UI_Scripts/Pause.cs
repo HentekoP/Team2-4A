@@ -9,11 +9,18 @@ public class Pause : MonoBehaviour
     public GameObject Pause_Panel;
     public RectTransform Pause_Cursor;
 
-    public int Menu_Num = 0;   //メニュー選択時の番号　0:ゲームに戻る 1:ステージ選択画面に戻る 2:ゲーム終了
-    bool Push_Flg = false; //連続入力防止用スイッチ
+    //メニュー選択時の番号　0:ゲームに戻る 1:ステージ選択画面に戻る 2:ゲーム終了
+    public int Menu_Num = 0;
+    //連続入力防止用スイッチ
+    bool Push_Flg = false;
+    //ポーズメニュー選択用スイッチ
+    bool Select_flg = false;
 
     [SerializeField] private GameObject Pause_EndPanel; //エンド画面
-    public int Pause_EndNum = 0;   //メニュー選択時の番号　0:戻る 1:終了
+
+    //メニュー選択時の番号　0:戻る 1:終了
+    public int Pause_EndNum = 0; 
+    
     public RectTransform Pause_EndCursor;
     public bool End_flg = false;
 
@@ -25,10 +32,16 @@ public class Pause : MonoBehaviour
 
     private void Update()
     {
+        //メニューボタンを押したら
         if (Input.GetButtonDown("Menu"))
         {
-            Pause_Start();
+            Pause_Start();  //ポーズ画面に飛ぶようにする
         }
+        if (Select_flg)
+        {
+            Pause_Select();
+        }
+
     }
 
     void Pause_Start()
@@ -42,12 +55,12 @@ public class Pause : MonoBehaviour
         {
             Time.timeScale = 0f;
             //　ポーズUIが表示されてなければ通常通り進行
-
-            Pause_Select();
+            Select_flg = true;
         }
         else
         {
             Time.timeScale = 1f;
+            Select_flg = false;
         }
     }
 
@@ -72,9 +85,9 @@ public class Pause : MonoBehaviour
                     if (Menu_Num >= 3)
                     {
                         Menu_Num = 0;   //メニュー番号を一番上に変更
-                        Pause_Cursor.position += new Vector3(0, 220, 0); //メニューの最初に移動
+                        Pause_Cursor.position += new Vector3(0, 600, 0); //メニューの最初に移動
                     }
-                    Pause_Cursor.position += new Vector3(0, -110, 0);   //カーソルを下に移動
+                    Pause_Cursor.position += new Vector3(0, -200, 0);   //カーソルを下に移動
 
                     Debug.Log("P" + Menu_Num);
                 }
@@ -91,9 +104,9 @@ public class Pause : MonoBehaviour
                     if (Menu_Num <= -1)
                     {
                         Menu_Num = 2;   //メニュー番号を一番下に変更
-                        Pause_Cursor.position += new Vector3(0, -220, 0);   //メニューの最後に移動
+                        Pause_Cursor.position += new Vector3(0, -600, 0);   //メニューの最後に移動
                     }
-                    Pause_Cursor.position += new Vector3(0, 110, 0);    //カーソルを上に移動
+                    Pause_Cursor.position += new Vector3(0, 200, 0);    //カーソルを上に移動
 
                     Debug.Log("P" + Menu_Num);
                 }
@@ -111,9 +124,11 @@ public class Pause : MonoBehaviour
                 {
                     case 0:
                         Pause_Panel.SetActive(!Pause_Panel.activeSelf);
+                        Time.timeScale = 1f;
                         break;
                     case 1:
                         SceneManager.LoadSceneAsync("Menu");
+                        Time.timeScale = 1f;
                         break;
                     case 2:
                         End_flg = true;
@@ -151,15 +166,15 @@ public class Pause : MonoBehaviour
                 if (Push_Flg == false)
                 {
                     Push_Flg = true;
-                    Pause_EndNum--;
+                    Pause_EndNum++;
 
                     //一番下より下入力をした場合
-                    if (Pause_EndNum <= -1)
+                    if (Pause_EndNum >= 2)
                     {
-                        Pause_EndNum = 1;   //メニュー番号を一番左に変更
-                        Pause_EndCursor.position += new Vector3(-780, 0, 0); //メニューの最初に移動
+                        Pause_EndNum = 0;   //メニュー番号を一番左に変更
+                        Pause_EndCursor.position += new Vector3(-600, 360, 0); //メニューの最初に移動
                     }
-                    Pause_EndCursor.position += new Vector3(390, 0, 0);   //カーソルを下に移動
+                    Pause_EndCursor.position += new Vector3(300, -180, 0);   //カーソルを右に移動
 
                     Debug.Log("E" + Pause_EndNum);
                 }
@@ -170,15 +185,15 @@ public class Pause : MonoBehaviour
                 if (Push_Flg == false)
                 {
                     Push_Flg = true;
-                    Pause_EndNum++;
+                    Pause_EndNum--;
 
                     //一番上より上入力をした場合
-                    if (Pause_EndNum >= 2)
+                    if (Pause_EndNum <= -1)
                     {
-                        Pause_EndNum = 0;   //メニュー番号を一番右に変更
-                        Pause_EndCursor.position += new Vector3(780, 0, 0);   //メニューの最後に移動
+                        Pause_EndNum = 1;   //メニュー番号を一番右に変更
+                        Pause_EndCursor.position += new Vector3(600, -360, 0);   //メニューの最後に移動
                     }
-                    Pause_EndCursor.position += new Vector3(-390, 0, 0);    //カーソルを上に移動
+                    Pause_EndCursor.position += new Vector3(-300, 180, 0);    //カーソルを上に移動
 
                     Debug.Log("E" + Pause_EndNum);
                 }

@@ -23,7 +23,7 @@ public class HammerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("x"))
+        if (Input.GetButtonDown("X"))
         {
             anim.Play("SwingHammer");
         }

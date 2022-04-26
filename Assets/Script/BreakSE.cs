@@ -29,7 +29,7 @@ public class BreakSE : MonoBehaviour
             audioSource.PlayOneShot(Bom);
         }
 
-        if (Input.GetButtonDown("x"))
+        if (Input.GetButtonDown("X"))
         {
             if(hammerScript.objectHP == 1 && GameObject.FindWithTag("hammer").activeInHierarchy == true)
             {

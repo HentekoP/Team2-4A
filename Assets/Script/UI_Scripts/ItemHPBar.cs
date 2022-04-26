@@ -29,7 +29,7 @@ public class ItemHPBar : MonoBehaviour
     void Update()
     {
         var hp = Item.gameObject.GetComponent<hamaaa>();
-        if (Input.GetButtonDown("x"))
+        if (Input.GetButtonDown("X"))
         {
             currentHp = currentHp - 1;
         }
