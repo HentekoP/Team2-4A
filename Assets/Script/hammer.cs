@@ -26,7 +26,7 @@ public class hammer : MonoBehaviour
         // mouse = Input.mousePosition;
         //target = Camera.main.ScreenToWorldPoint(new Vector3(mouse.x, mouse.y, 10));
         //this.transform.position = target;
-        if (Input.GetButtonDown("x") && isHit == false)
+        if (Input.GetButtonDown("X") && isHit == false)
         {
             StartCoroutine("RodHit");
             bc.enabled = false;
