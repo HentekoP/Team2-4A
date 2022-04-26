@@ -8,7 +8,7 @@ public class Pause : MonoBehaviour
 {
     public GameObject Pause_Panel;
     public RectTransform Pause_Cursor;
-
+    public AudioSource audioSource;
     //メニュー選択時の番号　0:ゲームに戻る 1:ステージ選択画面に戻る 2:ゲーム終了
     public int Menu_Num = 0;
     //連続入力防止用スイッチ
@@ -53,12 +53,14 @@ public class Pause : MonoBehaviour
         //　ポーズUIが表示されてる時は停止
         if (Pause_Panel.activeSelf)
         {
+            audioSource.Pause();
             Time.timeScale = 0f;
             //　ポーズUIが表示されてなければ通常通り進行
             Select_flg = true;
         }
         else
         {
+            audioSource.UnPause();
             Time.timeScale = 1f;
             Select_flg = false;
         }
