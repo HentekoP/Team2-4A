@@ -26,7 +26,7 @@ public class hamaaa : MonoBehaviour
     {
         if (HammerFlg == true)
         {
-            if (Input.GetButtonDown("x"))
+            if (Input.GetButtonDown("X"))
             {      
 
                 Debug.Log("Xボタンを押してるよ");
@@ -64,12 +64,12 @@ public class hamaaa : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Block")
+        if(collision.gameObject.tag == "Block" && DemoController.flg == true)
         {
             Playeffect(collision);
             audioSource.PlayOneShot(wall);
         }
-        else if (collision.gameObject.tag == "Glass")
+        else if (collision.gameObject.tag == "Glass" && DemoController.flg == true)
         {
             audioSource.PlayOneShot(glass);
         }
