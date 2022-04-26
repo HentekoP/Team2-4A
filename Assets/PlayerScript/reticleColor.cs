@@ -113,7 +113,12 @@ public class reticleColor : MonoBehaviour
         }
         if(BombButton.activeSelf == true)
         {
+<<<<<<< HEAD
             if (Input.GetAxis("RT") == 1.0)
+=======
+            var clones = GameObject.FindGameObjectsWithTag("bomb");
+            if (/*Input.GetAxis("RT") == 1.0*/GameObject.FindWithTag("bomb") == false && (Input.GetButtonDown("L1") || Input.GetButtonDown("R1")))
+>>>>>>> Asuma
             {
                 buttonFlg = false;
             }
