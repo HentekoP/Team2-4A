@@ -95,7 +95,7 @@ public class reticleColor : MonoBehaviour
                 if (hit.collider.tag == "bomb")
                 {
                     ColorTP = 1.0f;
-                    if (Input.GetButtonDown("x"))
+                    if (Input.GetButtonDown("X"))
                     {
                         if (bomb1Flg == false)
                         {
@@ -119,6 +119,14 @@ public class reticleColor : MonoBehaviour
             }
         }
         TextFrame.text = string.Format("{0:0}", bombcount);
+        if (bombcount <= 0 && buttonFlg == false)
+        {
+            TextFrame.enabled = false;
+        }
+        else
+        {
+            TextFrame.enabled = true;
+        }
         aimPointImage.color = new Color(1.0f, 1.0f, 1.0f, ColorTP);
     }
     public static bool GetBombFlg()
