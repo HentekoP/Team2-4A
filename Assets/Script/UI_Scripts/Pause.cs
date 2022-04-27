@@ -8,7 +8,7 @@ public class Pause : MonoBehaviour
 {
     public GameObject Pause_Panel;
     public RectTransform Pause_Cursor;
-    public AudioSource audioSource;
+
     //メニュー選択時の番号　0:ゲームに戻る 1:ステージ選択画面に戻る 2:ゲーム終了
     public int Menu_Num = 0;
     //連続入力防止用スイッチ
@@ -24,10 +24,15 @@ public class Pause : MonoBehaviour
     public RectTransform Pause_EndCursor;
     public bool End_flg = false;
 
+    public AudioSource BGM; //BGM停止用
+    AudioSource SE; //SE用
+    [SerializeField] AudioClip[] se;
+
     private void Start()
     {
         Pause_Panel.SetActive(false);
         Pause_EndPanel.SetActive(false);
+        SE = GetComponents<AudioSource>()[0];
     }
 
     private void Update()
@@ -53,14 +58,16 @@ public class Pause : MonoBehaviour
         //　ポーズUIが表示されてる時は停止
         if (Pause_Panel.activeSelf)
         {
-            audioSource.Pause();
+            BGM.Pause();
+            SE.PlayOneShot(se[0]);
+
             Time.timeScale = 0f;
             //　ポーズUIが表示されてなければ通常通り進行
             Select_flg = true;
         }
         else
         {
-            audioSource.UnPause();
+            BGM.UnPause();
             Time.timeScale = 1f;
             Select_flg = false;
         }
@@ -82,6 +89,7 @@ public class Pause : MonoBehaviour
                 {
                     Push_Flg = true;
                     Menu_Num++;
+                    SE.PlayOneShot(se[1]);
 
                     //一番下より下入力をした場合
                     if (Menu_Num >= 3)
@@ -101,6 +109,7 @@ public class Pause : MonoBehaviour
                 {
                     Push_Flg = true;
                     Menu_Num--;
+                    SE.PlayOneShot(se[1]);
 
                     //一番上より上入力をした場合
                     if (Menu_Num <= -1)
@@ -125,10 +134,12 @@ public class Pause : MonoBehaviour
                 switch (Menu_Num)
                 {
                     case 0:
+                        BGM.UnPause();
                         Pause_Panel.SetActive(!Pause_Panel.activeSelf);
                         Time.timeScale = 1f;
                         break;
                     case 1:
+                        SE.PlayOneShot(se[2]);
                         SceneManager.LoadSceneAsync("Menu");
                         Time.timeScale = 1f;
                         break;
@@ -169,6 +180,7 @@ public class Pause : MonoBehaviour
                 {
                     Push_Flg = true;
                     Pause_EndNum++;
+                    SE.PlayOneShot(se[1]);
 
                     //一番下より下入力をした場合
                     if (Pause_EndNum >= 2)
@@ -188,6 +200,7 @@ public class Pause : MonoBehaviour
                 {
                     Push_Flg = true;
                     Pause_EndNum--;
+                    SE.PlayOneShot(se[1]);
 
                     //一番上より上入力をした場合
                     if (Pause_EndNum <= -1)
