@@ -38,7 +38,6 @@ public class DemoController : MonoBehaviour
         {
 
             hakai();
-            StartCoroutine("hakaii");
                
         }
 
