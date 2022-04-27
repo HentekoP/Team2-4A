@@ -38,7 +38,13 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     [SerializeField]
     private Image GameOver;
+    public Text YouDead;
+    public Text Continue;
+    public Text BombDead;
+    public Text Yes;
+    public Text No;
     public float GameOverCount = 0.2f;
+    public static bool ContinueFlg;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -49,6 +55,12 @@ public class PlayerController : MonoBehaviour
         cameraRotate = myCamera.localRotation;
         rb = GetComponent<Rigidbody>();
         GameOver.enabled = false;
+        YouDead.enabled = false;
+        Continue.enabled = false;
+        BombDead.enabled = false;
+        Yes.enabled = false;
+        No.enabled = false;
+        ContinueFlg = false;
     }
     void Update()
     {
@@ -127,7 +139,9 @@ public class PlayerController : MonoBehaviour
         //}
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
+        
     }
+    
     void RotateChara()
     {
         float yRotate = Input.GetAxis("Horizontal2") * RstickSpeed;
@@ -166,7 +180,7 @@ public class PlayerController : MonoBehaviour
     }
     IEnumerator GameOverCoroutine()
     {
-        yield return new WaitForSecondsRealtime(2f);
+        yield return new WaitForSecondsRealtime(1.5f);
         GameOverCount = 0.6f;
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
         yield return new WaitForSecondsRealtime(0.1f);
@@ -181,6 +195,19 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.1f);
         GameOverCount = 1f;
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.5f);
+        YouDead.enabled = true;
+        BombDead.enabled = true;
+        yield return new WaitForSecondsRealtime(1f);
+        ContinueFlg = true;
+        Continue.enabled = true;
+        Yes.enabled = true;
+        No.enabled = true;
+        
+    }
+    public static bool continueflg()
+    {
+        return ContinueFlg;
     }
 }
 

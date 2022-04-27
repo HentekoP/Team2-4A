@@ -12,24 +12,27 @@ public class reticleColor : MonoBehaviour
 
     [SerializeField]
     private GameObject bombPrefab;
-    public static bool bomb1Flg = true;
+    public static bool bomb1Flg;
     public Text TextFrame;
     int ItemNumber = 0;
     float Raycastlength = 0;
     float ColorTP;
-    static int bombcount = 3;
+    static int bombcount;
     bool pushcount = false;
     GameObject cd;
     GameObject cd2;
     GameObject Player;
     public GameObject BombButton;
-    static bool buttonFlg = true;
+    static bool buttonFlg;
     // Start is called before the first frame update
     void Start()
     {
         cd = transform.GetChild(0).gameObject;
         cd2 = transform.GetChild(1).gameObject;
         Player = GameObject.Find("BlueSuitFree01");
+        bombcount = 3;
+        buttonFlg = true;
+        bomb1Flg = true;
     }
 
     // Update is called once per frame
