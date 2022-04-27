@@ -11,7 +11,7 @@ public class ItemSelect : MonoBehaviour
     [SerializeField]
     private GameObject Select;
 
-    public static int ItemNumber = 0;
+    public static int ItemNumber;
     public GameObject bombButton;
     public GameObject ButtonSelect;
     public GameObject bombSelect;
@@ -25,6 +25,7 @@ public class ItemSelect : MonoBehaviour
         hammer = transform.GetChild(0).gameObject;
         bomb1 = transform.GetChild(1).gameObject;
         ButtonSelect.SetActive(false);
+        ItemNumber = 0;
     }
 
     // Update is called once per frame
