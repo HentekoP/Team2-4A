@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private float xRotate;
     private float yRotate;
     [SerializeField]
-    private float RstickSpeed = 1f;
+    private float RstickSpeed = 1.8f;
     private Quaternion charaRotate;
     private Quaternion cameraRotate;
     private bool charaRotFlag = false;
@@ -35,6 +35,10 @@ public class PlayerController : MonoBehaviour
     private bool jump;
     private bool Attack;
     private bool jumpFlg = false;
+    Rigidbody rb;
+    [SerializeField]
+    private Image GameOver;
+    public float GameOverCount = 0.2f;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -43,6 +47,8 @@ public class PlayerController : MonoBehaviour
         initCameraRot = myCamera.localRotation;
         charaRotate = transform.localRotation;
         cameraRotate = myCamera.localRotation;
+        rb = GetComponent<Rigidbody>();
+        GameOver.enabled = false;
     }
     void Update()
     {
@@ -149,6 +155,32 @@ public class PlayerController : MonoBehaviour
         cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
         myCamera.localRotation = Quaternion.Slerp(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
 
+    }
+    void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("オマエはもう、死んでいる");
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        GameOver.enabled = true;
+        StartCoroutine(GameOverCoroutine());
+        Time.timeScale = 0f;
+    }
+    IEnumerator GameOverCoroutine()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        GameOverCount = 0.6f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 0.7f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 0.8f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 0.9f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 1f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
     }
 }
 
