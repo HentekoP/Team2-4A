@@ -113,7 +113,8 @@ public class reticleColor : MonoBehaviour
         }
         if(BombButton.activeSelf == true)
         {
-            if (Input.GetAxis("RT") == 1.0)
+            var clones = GameObject.FindGameObjectsWithTag("bomb");
+            if (GameObject.FindWithTag("bomb") == false && (Input.GetButtonDown("L1") || Input.GetButtonDown("R1")))
             {
                 buttonFlg = false;
             }
