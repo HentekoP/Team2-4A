@@ -59,6 +59,7 @@ public class Pause : MonoBehaviour
         }
         else
         {
+            Pause_EndPanel.SetActive(false);
             Time.timeScale = 1f;
             Select_flg = false;
         }
@@ -125,10 +126,12 @@ public class Pause : MonoBehaviour
                     case 0:
                         Pause_Panel.SetActive(!Pause_Panel.activeSelf);
                         Time.timeScale = 1f;
+                        Select_flg = false;
                         break;
                     case 1:
                         SceneManager.LoadSceneAsync("Menu");
                         Time.timeScale = 1f;
+                        Select_flg = false;
                         break;
                     case 2:
                         End_flg = true;
