@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour
     public Text No;
     public float GameOverCount = 0.2f;
     public static bool ContinueFlg;
+    public GameObject BGM;
+    public AudioSource Dead;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -173,6 +175,7 @@ public class PlayerController : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         Debug.Log("オマエはもう、死んでいる");
+        BGM.SetActive(false);
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
         GameOver.enabled = true;
         StartCoroutine(GameOverCoroutine());
@@ -181,6 +184,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator GameOverCoroutine()
     {
         yield return new WaitForSecondsRealtime(1.5f);
+        Dead.Play();
         GameOverCount = 0.6f;
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
         yield return new WaitForSecondsRealtime(0.1f);
@@ -195,10 +199,10 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.1f);
         GameOverCount = 1f;
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(1f);
         YouDead.enabled = true;
         BombDead.enabled = true;
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(4f);
         ContinueFlg = true;
         Continue.enabled = true;
         Yes.enabled = true;
