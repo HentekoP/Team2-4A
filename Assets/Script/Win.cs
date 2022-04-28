@@ -1,41 +1,47 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-//public class Win : MonoBehaviour
-//{
-//    private int ChildCount;
+public class Win : MonoBehaviour
+{
+    private float ChildCount;
 
-//    public int destroycounts;
-//    int clearcount;
-//    int DestroyPieceCount = 0;
+    public float destroycounts;
+    float clearcount;
+    public static int DestroyPieceCount = 0;
 
-//    private bool countFlg;
+    public static bool countFlg;
 
-//    void Start()
-//    {
-//        ChildCount = this.transform.childCount;
-//        clearcount = ChildCount * destroycounts;
-//    }
+    private Rigidbody[] Child_rigidbody;
 
-//    void Update()
-//    {
-//        countFlg = true;
+    void Start()
+    {
+        ChildCount = this.transform.childCount;
+        clearcount = ChildCount * destroycounts;
+        Child_rigidbody = GetComponentsInChildren<Rigidbody>();
+        Debug.Log(clearcount);
+    }
 
-//        if(countFlg == false)
-//        {
-//            DestroyPieceCount++;
-//        }
+    void Update()
+    {
+        for (int i = 0; i < ChildCount; i++) {
+            if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
+            {
+                DestroyPieceCount++;
 
-//        if (clearcount =< DestroyPieceCount)
-//        {
-//            Debug.Log("クリア！");
-//        }
-//    }
-//}
+            }
+        }
+        if (clearcount <= DestroyPieceCount)
+        {
+            //Debug.Log("クリア！");
+        }
 
-///////////////////////////////////////////////////////////////////////////////////////////
-////
-////現在はすべて雛形とする
-////
-///////////////////////////////////////////////////////////////////////////////////////////
+        Debug.Log(DestroyPieceCount);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//
+//現在はすべて雛形とする
+//
+/////////////////////////////////////////////////////////////////////////////////////////
