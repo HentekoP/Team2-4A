@@ -9,9 +9,10 @@ public class DestructableObjectController : MonoBehaviour
 
     private List<DestroyedPieceController> destroyed_pieces = new List<DestroyedPieceController>();
 
+    static int i;
     private void Awake()//ゲームがスタートされると
     {
-        for (int i = 0; i < transform.childCount; i++)
+        for (i = 0; i < transform.childCount; i++)
         {
             var child = transform.GetChild(i);
             var _dpc = child.gameObject.AddComponent<DestroyedPieceController>();
@@ -23,7 +24,6 @@ public class DestructableObjectController : MonoBehaviour
             _mc.convex = true;
             destroyed_pieces.Add(_dpc);
         }
-
         for (int _i = 0; _i < 4; _i++)
         {
             root_dest_pieces[_i] = roots[_i].GetComponent<DestroyedPieceController>();
@@ -85,5 +85,9 @@ public class DestructableObjectController : MonoBehaviour
         {
             piece.make_static();
         }
+    }
+    public static int ObjectAllCount()
+    {
+        return i;
     }
 }
