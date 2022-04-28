@@ -18,6 +18,8 @@ public class DestroyedPieceController : MonoBehaviour
     private bool _configured = false;
     private bool _connections_found = false;
 
+    public static bool count = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,11 +69,13 @@ public class DestroyedPieceController : MonoBehaviour
         is_dirty = true;
         _rigidbody.AddForce(force, ForceMode.Impulse);
         VFXController.Instance.spawn_dust_cloud(transform.position);
+        count = false;
     }
 
     public void drop()
     {
         is_connected = false;
         _rigidbody.isKinematic = false;
+        count = false;
     }
 }

@@ -1,31 +1,47 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-//public class Win : MonoBehaviour
-//{
-//    private int ChildCount;
+public class Win : MonoBehaviour
+{
+    private float ChildCount;
 
-//    public int destroycounts;
-//    int clearcount;
+    public float destroycounts;
+    float clearcount;
+    public static int DestroyPieceCount = 0;
 
-//    void Start()
-//    {
-//        ChildCount = this.transform.childCount;
-//        clearcount = ChildCount * destroycounts;
-//    }
+    public static bool countFlg;
 
-//    void Update()
-//    {
-//        if(clearcount == )
-//        {
-//            Debug.Log("クリア！");
-//        }
-//    }
-//}
+    private Rigidbody[] Child_rigidbody;
 
-///////////////////////////////////////////////////////////////////////////////////////////
-////
-////現在はすべて雛形とする
-////
-///////////////////////////////////////////////////////////////////////////////////////////
+    void Start()
+    {
+        ChildCount = this.transform.childCount;
+        clearcount = ChildCount * destroycounts;
+        Child_rigidbody = GetComponentsInChildren<Rigidbody>();
+        Debug.Log(clearcount);
+    }
+
+    void Update()
+    {
+        for (int i = 0; i < ChildCount; i++) {
+            if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
+            {
+                DestroyPieceCount++;
+
+            }
+        }
+        if (clearcount <= DestroyPieceCount)
+        {
+            //Debug.Log("クリア！");
+        }
+
+        Debug.Log(DestroyPieceCount);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//
+//現在はすべて雛形とする
+//
+/////////////////////////////////////////////////////////////////////////////////////////
