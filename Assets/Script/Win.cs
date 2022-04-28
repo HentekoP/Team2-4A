@@ -8,6 +8,9 @@
 
 //    public int destroycounts;
 //    int clearcount;
+//    int DestroyPieceCount = 0;
+
+//    private bool countFlg;
 
 //    void Start()
 //    {
@@ -17,7 +20,14 @@
 
 //    void Update()
 //    {
-//        if(clearcount == )
+//        countFlg = true;
+
+//        if(countFlg == false)
+//        {
+//            DestroyPieceCount++;
+//        }
+
+//        if (clearcount =< DestroyPieceCount)
 //        {
 //            Debug.Log("クリア！");
 //        }
