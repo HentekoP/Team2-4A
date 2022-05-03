@@ -54,6 +54,7 @@ public class DestructableObjectController : MonoBehaviour
                 if (piece && !piece.visited)
                 {
                     piece.drop();
+                    //piece.PieceCount();
                 }
             }
         }

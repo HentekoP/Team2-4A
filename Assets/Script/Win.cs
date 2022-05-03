@@ -9,34 +9,38 @@ public class Win : MonoBehaviour
     public float destroycounts;
     float clearcount;
     public static int DestroyPieceCount = 0;
+    public static int DestroyPieceCount1 = 0;
 
-    public static bool countFlg;
+    //public static bool countFlg;
 
-    private Rigidbody[] Child_rigidbody;
+    //private Rigidbody[] Child_rigidbody;
 
     void Start()
     {
         ChildCount = this.transform.childCount;
         clearcount = ChildCount * destroycounts;
-        Child_rigidbody = GetComponentsInChildren<Rigidbody>();
+        //Child_rigidbody = GetComponentsInChildren<Rigidbody>();
         Debug.Log(clearcount);
     }
 
     void Update()
     {
-        for (int i = 0; i < ChildCount; i++) {
-            if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
-            {
-                DestroyPieceCount++;
+        //for (int i = 0; i < ChildCount; i++) {
+        //    if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
+        //    {
+        //        DestroyPieceCount++;
 
-            }
-        }
-        if (clearcount <= DestroyPieceCount)
+        //    }
+        //}
+        //if (clearcount <= DestroyPieceCount)
+        //{
+        //    //Debug.Log("クリア！");
+        //}
+        if (DestroyPieceCount1 < DestroyPieceCount)
         {
-            //Debug.Log("クリア！");
+            Debug.Log(DestroyPieceCount);
+            DestroyPieceCount1 = DestroyPieceCount;
         }
-
-        Debug.Log(DestroyPieceCount);
     }
 }
 
