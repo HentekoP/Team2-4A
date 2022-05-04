@@ -32,7 +32,7 @@ public class DemoController : MonoBehaviour
 
 
 
-        if (Input.GetButton("x"))
+        if (Input.GetButton("X"))
         {
 
             hakai();
