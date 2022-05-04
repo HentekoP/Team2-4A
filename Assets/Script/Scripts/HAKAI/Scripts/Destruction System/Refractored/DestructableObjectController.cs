@@ -17,9 +17,8 @@ public class DestructableObjectController : MonoBehaviour
             var child = transform.GetChild(i);
             var _dpc = child.gameObject.AddComponent<DestroyedPieceController>();
             var _rigidbody = child.gameObject.AddComponent<Rigidbody>();//rigidboidy追加してisKinematicとuseGravityをfalseにしてアタッチ
-            _rigidbody.isKinematic = false;
-            _rigidbody.useGravity = false;
-
+            //_rigidbody.isKinematic = false;
+            //_rigidbody.useGravity = false;
             var _mc = child.gameObject.AddComponent<MeshCollider>();  //MeshColliderを追加してアタッチ
             _mc.convex = true;
             destroyed_pieces.Add(_dpc);
@@ -54,7 +53,13 @@ public class DestructableObjectController : MonoBehaviour
                 if (piece && !piece.visited)
                 {
                     piece.drop();
-                    //piece.PieceCount();
+                }
+
+                if (piece.Cflg == false)
+                {
+                    piece.Count();
+                    Debug.Log(piece.PieceCount);
+
                 }
             }
         }

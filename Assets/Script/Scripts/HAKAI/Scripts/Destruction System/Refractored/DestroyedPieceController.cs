@@ -18,6 +18,10 @@ public class DestroyedPieceController : MonoBehaviour
     private bool _configured = false;
     private bool _connections_found = false;
 
+    public bool Cflg = true;
+
+    public int PieceCount = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +62,7 @@ public class DestroyedPieceController : MonoBehaviour
         transform.localScale = _starting_scale;
         transform.position = _starting_pos;
         transform.rotation = _starting_orientation;
+        Cflg = true;
     }
 
     public void cause_damage(Vector3 force)
@@ -67,13 +72,19 @@ public class DestroyedPieceController : MonoBehaviour
         is_dirty = true;
         _rigidbody.AddForce(force, ForceMode.Impulse);
         VFXController.Instance.spawn_dust_cloud(transform.position);
-        //Count.Cflg = false;
+        Cflg = false;
     }
 
     public void drop()
     {
         is_connected = false;
         _rigidbody.isKinematic = false;
-        ////Count.Cflg = false;
+        Cflg = false;
+    }
+
+    public void Count()
+    {
+        PieceCount++;
+        Cflg = true;
     }
 }

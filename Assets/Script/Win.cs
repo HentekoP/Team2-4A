@@ -13,29 +13,31 @@ public class Win : MonoBehaviour
 
     //public static bool countFlg;
 
-    //private Rigidbody[] Child_rigidbody;
+    private Rigidbody[] Child_rigidbody;
 
     void Start()
     {
         ChildCount = this.transform.childCount;
         clearcount = ChildCount * destroycounts;
-        //Child_rigidbody = GetComponentsInChildren<Rigidbody>();
         Debug.Log(clearcount);
     }
 
     void Update()
     {
-        //for (int i = 0; i < ChildCount; i++) {
-        //    if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
-        //    {
-        //        DestroyPieceCount++;
-
-        //    }
-        //}
-        //if (clearcount <= DestroyPieceCount)
-        //{
-        //    //Debug.Log("クリア！");
-        //}
+        for (int i = 0; i < ChildCount; i++)
+        {
+            if (/*Child_rigidbody[i].isKinematic == false && */Count.Cflg == false)
+            {
+                DestroyPieceCount++;
+                Count.Dflg = false;
+                Count.Cflg = true;
+                Debug.Log(Child_rigidbody[1].isKinematic);
+            }
+        }
+        if (clearcount <= DestroyPieceCount)
+        {
+            //Debug.Log("クリア！");
+        }
         if (DestroyPieceCount1 < DestroyPieceCount)
         {
             Debug.Log(DestroyPieceCount);
