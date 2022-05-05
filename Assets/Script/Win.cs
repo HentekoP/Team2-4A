@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour
 {
@@ -8,40 +9,19 @@ public class Win : MonoBehaviour
 
     public float destroycounts;
     float clearcount;
-    public static int DestroyPieceCount = 0;
-
-    public static bool countFlg;
-
-    private Rigidbody[] Child_rigidbody;
 
     void Start()
     {
         ChildCount = this.transform.childCount;
-        clearcount = ChildCount * destroycounts;
-        Child_rigidbody = GetComponentsInChildren<Rigidbody>();
+        clearcount = ChildCount * destroycounts/* * 4*/;
         Debug.Log(clearcount);
     }
 
     void Update()
     {
-        for (int i = 0; i < ChildCount; i++) {
-            if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
-            {
-                DestroyPieceCount++;
-
-            }
-        }
-        if (clearcount <= DestroyPieceCount)
+        if (clearcount <= DestroyedPieceController.DestroyPieceCount)
         {
-            //Debug.Log("クリア！");
+            SceneManager.LoadScene("Result");
         }
-
-        Debug.Log(DestroyPieceCount);
     }
 }
-
-/////////////////////////////////////////////////////////////////////////////////////////
-//
-//現在はすべて雛形とする
-//
-/////////////////////////////////////////////////////////////////////////////////////////
