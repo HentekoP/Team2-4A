@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private float xRotate;
     private float yRotate;
     [SerializeField]
-    private float RstickSpeed = 1f;
+    private float RstickSpeed = 1.8f;
     private Quaternion charaRotate;
     private Quaternion cameraRotate;
     private bool charaRotFlag = false;
@@ -35,6 +35,18 @@ public class PlayerController : MonoBehaviour
     private bool jump;
     private bool Attack;
     private bool jumpFlg = false;
+    Rigidbody rb;
+    [SerializeField]
+    private Image GameOver;
+    public Text YouDead;
+    public Text Continue;
+    public Text BombDead;
+    public Text Yes;
+    public Text No;
+    public float GameOverCount = 0.2f;
+    public static bool ContinueFlg;
+    public GameObject BGM;
+    public AudioSource Dead;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -43,6 +55,14 @@ public class PlayerController : MonoBehaviour
         initCameraRot = myCamera.localRotation;
         charaRotate = transform.localRotation;
         cameraRotate = myCamera.localRotation;
+        rb = GetComponent<Rigidbody>();
+        GameOver.enabled = false;
+        YouDead.enabled = false;
+        Continue.enabled = false;
+        BombDead.enabled = false;
+        Yes.enabled = false;
+        No.enabled = false;
+        ContinueFlg = false;
     }
     void Update()
     {
@@ -121,7 +141,9 @@ public class PlayerController : MonoBehaviour
         //}
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
+        
     }
+    
     void RotateChara()
     {
         float yRotate = Input.GetAxis("Horizontal2") * RstickSpeed;
@@ -149,6 +171,47 @@ public class PlayerController : MonoBehaviour
         cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
         myCamera.localRotation = Quaternion.Slerp(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
 
+    }
+    void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("オマエはもう、死んでいる");
+        BGM.SetActive(false);
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        GameOver.enabled = true;
+        StartCoroutine(GameOverCoroutine());
+        Time.timeScale = 0f;
+    }
+    IEnumerator GameOverCoroutine()
+    {
+        yield return new WaitForSecondsRealtime(1.5f);
+        Dead.Play();
+        GameOverCount = 0.6f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 0.7f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 0.8f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 0.9f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(0.1f);
+        GameOverCount = 1f;
+        GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
+        yield return new WaitForSecondsRealtime(1f);
+        YouDead.enabled = true;
+        BombDead.enabled = true;
+        yield return new WaitForSecondsRealtime(4f);
+        ContinueFlg = true;
+        Continue.enabled = true;
+        Yes.enabled = true;
+        No.enabled = true;
+        
+    }
+    public static bool continueflg()
+    {
+        return ContinueFlg;
     }
 }
 

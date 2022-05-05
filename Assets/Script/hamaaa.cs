@@ -64,12 +64,12 @@ public class hamaaa : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Block")
+        if(collision.gameObject.tag == "Block" && DemoController.flg == true)
         {
             Playeffect(collision);
             audioSource.PlayOneShot(wall);
         }
-        else if (collision.gameObject.tag == "Glass")
+        else if (collision.gameObject.tag == "Glass" && DemoController.flg == true)
         {
             audioSource.PlayOneShot(glass);
         }

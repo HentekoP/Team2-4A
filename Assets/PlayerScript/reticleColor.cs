@@ -12,24 +12,27 @@ public class reticleColor : MonoBehaviour
 
     [SerializeField]
     private GameObject bombPrefab;
-    public static bool bomb1Flg = true;
+    public static bool bomb1Flg;
     public Text TextFrame;
     int ItemNumber = 0;
     float Raycastlength = 0;
     float ColorTP;
-    static int bombcount = 3;
+    static int bombcount;
     bool pushcount = false;
     GameObject cd;
     GameObject cd2;
     GameObject Player;
     public GameObject BombButton;
-    static bool buttonFlg = true;
+    static bool buttonFlg;
     // Start is called before the first frame update
     void Start()
     {
         cd = transform.GetChild(0).gameObject;
         cd2 = transform.GetChild(1).gameObject;
         Player = GameObject.Find("BlueSuitFree01");
+        bombcount = 3;
+        buttonFlg = true;
+        bomb1Flg = true;
     }
 
     // Update is called once per frame
@@ -48,7 +51,6 @@ public class reticleColor : MonoBehaviour
         else 
         {
             Raycastlength = 2.5f;
-            ColorTP = 0.0001f;
         }
 
         Ray ray = new Ray(transform.position, transform.forward);
@@ -57,7 +59,7 @@ public class reticleColor : MonoBehaviour
         {
             string hitTag = hit.collider.tag;
 
-            pos = hit.normal / 4.5f + hit.collider.transform.position;
+            pos = hit.normal / 2f + hit.collider.transform.position;
             if (cd2.activeSelf == true && bomb1Flg == true)
             {
                 if (pushcount == false)
@@ -93,10 +95,10 @@ public class reticleColor : MonoBehaviour
 
             if ((ItemNumber == 1 && bomb1Flg == false) || ItemNumber == 2)
             {
-                if ((hitTag.Equals("bomb")))
+                if (hit.collider.tag == "bomb")
                 {
                     ColorTP = 1.0f;
-                    if (Input.GetButtonDown("x"))
+                    if (Input.GetButtonDown("X"))
                     {
                         if (bomb1Flg == false)
                         {
@@ -112,17 +114,24 @@ public class reticleColor : MonoBehaviour
         {
             ColorTP = 0.2f;
         }
-        aimPointImage.color = new Color(1.0f, 1.0f, 1.0f, ColorTP);
         if(BombButton.activeSelf == true)
         {
             var clones = GameObject.FindGameObjectsWithTag("bomb");
-            if (Input.GetAxis("RT") == 1.0)
+            if (GameObject.FindWithTag("bomb") == false && (Input.GetButtonDown("L1") || Input.GetButtonDown("R1")))
             {
                 buttonFlg = false;
             }
         }
         TextFrame.text = string.Format("{0:0}", bombcount);
-        
+        if (bombcount <= 0 && buttonFlg == false)
+        {
+            TextFrame.enabled = false;
+        }
+        else
+        {
+            TextFrame.enabled = true;
+        }
+        aimPointImage.color = new Color(1.0f, 1.0f, 1.0f, ColorTP);
     }
     public static bool GetBombFlg()
     {

@@ -14,6 +14,8 @@ public class DemoController : MonoBehaviour
     int a = 0;
     // Start is called before the first frame update
     public float span = 3f;
+
+    public static bool flg = false;
     void Start()
     {
         rayDistance = 1.0f;
@@ -32,11 +34,10 @@ public class DemoController : MonoBehaviour
 
 
 
-        if (Input.GetButton("X"))
+        if (flg == true)
         {
 
             hakai();
-            StartCoroutine("hakaii");
                
         }
 
@@ -76,29 +77,7 @@ public class DemoController : MonoBehaviour
 
             }
         }
-    }
-
-    IEnumerator hakaii()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(span);
-            Debug.LogFormat("{0}秒経過", span);
-            var direction = transform.forward;
-            Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
-            Ray _ray = new Ray(rayPosition, direction);
-            RaycastHit hit_info;
-            Debug.DrawRay(rayPosition, direction * rayDistance, Color.red);
-
-            if (Physics.Raycast(_ray, out hit_info, 1, 1 << LayerMask.NameToLayer("Destructible"), QueryTriggerInteraction.Ignore))
-            {
-                hit_info.collider.GetComponent<DestroyedPieceController>().cause_damage(_ray.direction * 150);
-
-            }
-        }
-    }
-    
-
+    }    
 }
 
 
