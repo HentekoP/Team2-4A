@@ -13,14 +13,14 @@ public class DestructableObjectController : MonoBehaviour
 
     DestroyedPieceController PieceCount;
 
-    private void Awake()//ゲームがスタートされると
+    private void Awake()//ゲームがスタートされるとすべての子供たちにアタッチする
     {
         for (i = 0; i < transform.childCount; i++)
         {
             var child = transform.GetChild(i);
             var _dpc = child.gameObject.AddComponent<DestroyedPieceController>();
             var _rigidbody = child.gameObject.AddComponent<Rigidbody>();//rigidboidy追加してisKinematicとuseGravityをfalseにしてアタッチ
-            //_rigidbody.isKinematic = false;
+           // _rigidbody.isKinematic = false;
             //_rigidbody.useGravity = false;
             var _mc = child.gameObject.AddComponent<MeshCollider>();  //MeshColliderを追加してアタッチ
             _mc.convex = true;
