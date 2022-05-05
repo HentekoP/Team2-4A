@@ -65,6 +65,7 @@ public class DestroyedPieceController : MonoBehaviour
     public void cause_damage(Vector3 force)
     {
         is_connected = false;
+       // Debug.Log(is_connected);
         _rigidbody.isKinematic = false;
         is_dirty = true;
         _rigidbody.AddForce(force, ForceMode.Impulse);
@@ -75,6 +76,7 @@ public class DestroyedPieceController : MonoBehaviour
     public void drop()
     {
         is_connected = false;
+       // Debug.Log(is_connected);
         _rigidbody.isKinematic = false;
         count = false;
     }
