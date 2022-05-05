@@ -10,6 +10,9 @@ public class DestructableObjectController : MonoBehaviour
     private List<DestroyedPieceController> destroyed_pieces = new List<DestroyedPieceController>();
 
     static int i;
+
+    DestroyedPieceController PieceCount;
+
     private void Awake()//ゲームがスタートされると
     {
         for (i = 0; i < transform.childCount; i++)
@@ -55,12 +58,13 @@ public class DestructableObjectController : MonoBehaviour
                     piece.drop();
                 }
 
-                if (piece.Cflg == false)
+                if (piece.is_connected == false && piece.Cflg == true)
                 {
-                    piece.Count();
-                    Debug.Log(piece.PieceCount);
-
+                    DestroyedPieceController.DestroyPieceCount++;
+                    piece.Cflg = false;
+                    Debug.Log(/*"入った"*/DestroyedPieceController.DestroyPieceCount);
                 }
+
             }
         }
     }
@@ -80,6 +84,9 @@ public class DestructableObjectController : MonoBehaviour
         }
         else
             return;
+        foreach (var count in destroyed_pieces)
+        {
+        }
     }
 
     private IEnumerator run_physics_steps(int step_count)
