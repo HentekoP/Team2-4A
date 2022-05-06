@@ -60,9 +60,11 @@ public class DestructableObjectController : MonoBehaviour
 
                 if (piece.is_connected == false && piece.Cflg == true)
                 {
+                
                     DestroyedPieceController.DestroyPieceCount++;
                     piece.Cflg = false;
                     Debug.Log(/*"入った"*/DestroyedPieceController.DestroyPieceCount);
+
                 }
 
             }
