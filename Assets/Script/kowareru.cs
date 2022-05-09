@@ -9,12 +9,13 @@ public class kowareru : MonoBehaviour
 
     private void Start()
     {
-            rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
+        //StartCoroutine("HAKAI");
     }
 
      void Update()
     {
-       if (rb.isKinematic == true)
+       if (rb.isKinematic == false)
        {
             StartCoroutine("HAKAI");
        }
@@ -24,6 +25,10 @@ public class kowareru : MonoBehaviour
     private IEnumerator HAKAI()
     {
         yield return new WaitForSeconds(3.0f);
-        Destroy(gameObject);
+        if (rb.isKinematic == false)
+        {
+             Destroy(gameObject);
+        }
+       
     }
 }
