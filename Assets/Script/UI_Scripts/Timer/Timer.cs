@@ -12,7 +12,7 @@ public class Timer : MonoBehaviour
 
     int s1,s2,s3;
     public float totalTime;
-    int seconds;
+    static int seconds;
 
     private void Start()
     {
@@ -35,5 +35,9 @@ public class Timer : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("Result");
         }
+    }
+    public static int EndTime()
+    {
+        return seconds;
     }
 }
