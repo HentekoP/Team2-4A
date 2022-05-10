@@ -6,7 +6,7 @@ public class Bom : MonoBehaviour
 {
     public ParticleSystem exp;
     public GameObject obj;
-    public bool ExprosionFlg = false;
+    static bool ExprosionFlg = false;
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class Bom : MonoBehaviour
     {
         float tri = Input.GetAxis("RT");
 
-        if (tri == 1.0f && reticleColor.bomb1Flg == false && GameObject.FindWithTag("Switch") == true)
+        if (tri == 1.0f && GameObject.FindWithTag("Switch") == true)
         {
             ExprosionFlg = true;
             Debug.Log("R trigger:" + tri);
@@ -42,5 +42,9 @@ public class Bom : MonoBehaviour
     {
         Instantiate(exp, this.transform.localPosition, Quaternion.identity);
         Destroy(obj);
+    }
+    public static bool ExpFlg()
+    {
+        return ExprosionFlg;
     }
 }
