@@ -11,11 +11,12 @@ public class Win : MonoBehaviour
     public float destroycounts;
     float clearcount;
     public GameObject clear;
+    public static bool change = false;
 
     void Start()
     {
         ChildCount = this.transform.childCount;
-        clearcount = ChildCount * destroycounts/* * 4*/;
+        clearcount = ChildCount * destroycounts;
         Debug.Log(clearcount);
         clear.SetActive(false);
     }
@@ -24,9 +25,14 @@ public class Win : MonoBehaviour
     {
         if (clearcount <= DestroyedPieceController.DestroyPieceCount)
         {
-            //SceneManager.LoadScene("Result");
-            clear.SetActive(true);
+            Time.timeScale = 0f;
 
+            clear.SetActive(true);
+            if (change == true)
+            {
+                SceneManager.LoadScene("Result");
+                Time.timeScale = 1f;
+            }
         }
     }
 }
