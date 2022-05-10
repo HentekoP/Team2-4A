@@ -23,15 +23,15 @@ public class Win : MonoBehaviour
 
     void Update()
     {
-        if (clearcount <= DestroyedPieceController.DestroyPieceCount)
+        if ((clearcount <= DestroyedPieceController.DestroyPieceCount))
         {
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
 
             clear.SetActive(true);
             if (change == true)
             {
-                SceneManager.LoadScene("Result");
-                Time.timeScale = 1f;
+                SceneManager.LoadSceneAsync("Result");
+                //Time.timeScale = 1f;
             }
         }
     }

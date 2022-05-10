@@ -13,17 +13,19 @@ public class Timer : MonoBehaviour
     int s1,s2,s3;
     public float totalTime;
     static int seconds;
+    public GameObject clear;
 
     private void Start()
     {
         s1 = 0;
         s2 = 0;
         s3 = 0;
+        seconds = (int)totalTime;
     }
 
     private void Update()
     {
-        if (seconds >= 0) {
+        if (seconds > 0) {
             totalTime -= Time.deltaTime;
             seconds = (int)totalTime;
             s3 = seconds / 100;
@@ -33,7 +35,18 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadSceneAsync("Result");
+            s3 = 0;
+            s2 = 0;
+            s1 = 0;
+            timerText.text = "<sprite=" + s3 + "><sprite=" + s2 + "><sprite=" + s1 + ">";
+
+            Time.timeScale = 0f;
+            clear.SetActive(true);
+            if (Win.change == true)
+            {
+                SceneManager.LoadSceneAsync("Result");
+                Time.timeScale = 1f;
+            }
         }
     }
     public static int EndTime()
