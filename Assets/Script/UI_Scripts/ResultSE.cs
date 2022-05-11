@@ -10,5 +10,6 @@ public class ResultSE : MonoBehaviour
     void PlaySE()
     {
         SE.PlayOneShot(clip);
+        Resultrturn.alphaflg = true;
     }
 }

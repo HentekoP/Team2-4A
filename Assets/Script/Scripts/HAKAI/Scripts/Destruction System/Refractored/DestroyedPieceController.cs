@@ -32,7 +32,7 @@ public class DestroyedPieceController : MonoBehaviour
         transform.localScale *= 1.02f;
 
         _rigidbody = GetComponent<Rigidbody>();
-
+        is_connected = true;
         Cflg = true;
         DestroyPieceCount = 0;
     }

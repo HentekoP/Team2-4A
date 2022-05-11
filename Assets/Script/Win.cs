@@ -11,7 +11,7 @@ public class Win : MonoBehaviour
     public float destroycounts;
     float clearcount;
     public GameObject clear;
-    public static bool change = false;
+    public static bool change;
 
     void Start()
     {
@@ -19,6 +19,7 @@ public class Win : MonoBehaviour
         clearcount = ChildCount * destroycounts;
         Debug.Log(clearcount);
         clear.SetActive(false);
+        change = false;
     }
 
     void Update()
@@ -31,7 +32,7 @@ public class Win : MonoBehaviour
             if (change == true)
             {
                 SceneManager.LoadSceneAsync("Result");
-                //Time.timeScale = 1f;
+                Time.timeScale = 1f;
             }
         }
     }
