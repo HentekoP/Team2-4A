@@ -14,6 +14,7 @@ public class Timer : MonoBehaviour
     public float totalTime;
     static int seconds;
     public GameObject clear;
+    bool clearflg;
 
     private void Start()
     {
@@ -25,8 +26,12 @@ public class Timer : MonoBehaviour
 
     private void Update()
     {
+        clearflg = Win.GetClearFlg();
         if (seconds > 0) {
-            totalTime -= Time.deltaTime;
+            if (clearflg == false)
+            {
+                totalTime -= Time.deltaTime;
+            }
             seconds = (int)totalTime;
             s3 = seconds / 100;
             s2 = (seconds / 10) % 10;

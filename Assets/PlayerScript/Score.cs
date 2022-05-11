@@ -10,6 +10,7 @@ public class Score : MonoBehaviour
     public TextMeshProUGUI TSText2;
     public TextMeshProUGUI BSText;
     public TextMeshProUGUI BSText2;
+    public TextMeshProUGUI TotalSText;
 
     int TimeScore;
     int BombScore;
@@ -17,6 +18,11 @@ public class Score : MonoBehaviour
     float s1;
     float s2;
     float s3;
+    float t1;
+    float t2;
+    float t3;
+    float t4;
+    float t5;
     
     // Start is called before the first frame update
     void Start()
@@ -39,15 +45,52 @@ public class Score : MonoBehaviour
             TSText.text = "<sprite=" + s3 + "><sprite=" + s2 + "><sprite=" + s1 + ">";
             TSText2.text = "<sprite=" + s3 + "><sprite=" + s2 + "><sprite=" + s1 + "><sprite=0><sprite=0>";
         }
-        else
+        else if (s2 > 0)
         {
             TSText.text = "<sprite=" + s2 + "><sprite=" + s1 + ">";
             TSText2.text = "<sprite=" + s2 + "><sprite=" + s1 + "><sprite=0><sprite=0>";
         }
-        BSText.text = "<sprite=" + BombScore + ">";
-        BSText2.text = "<sprite=" + BombScore + "><sprite=0><sprite=0><sprite=0>";
-
-        TotalScore = TimeScore + BombScore;
+        else
+        {
+            TSText.text = "<sprite=" + s1 + ">";
+            TSText2.text = "<sprite=0>";
+        }
+        if (BombScore > 0)
+        {
+            BSText.text = "<sprite=" + BombScore + ">";
+            BSText2.text = "<sprite=" + BombScore + "><sprite=0><sprite=0><sprite=0>";
+        }
+        else
+        {
+            BSText2.text = "<sprite=0>";
+        }
+        TotalScore = (TimeScore * 100) + (BombScore * 1000);
+        if (TotalScore > 10000)
+        {
+            t5 = TotalScore / 10000;
+            t4 = (TotalScore / 1000) % 10;
+            t3 = (TotalScore / 100) % 100;
+        }else if(TotalScore < 10000 && TotalScore > 1000){
+            t4 = (TotalScore / 1000);
+            t3 = (TotalScore / 100) % 10;
+        }else if (TotalScore < 1000&& TotalScore > 100)
+        {
+            t3 = TotalScore / 100;
+        }
+        if (t5 > 0)
+        {
+            TotalSText.text = "<sprite=" + t5 + "><sprite=" + t4 + "><sprite=" + t3 + "><sprite=0><sprite=0>";
+        }else if(t4 > 0)
+        {
+            TotalSText.text = "<sprite=" + t4 + "><sprite=" + t3 + "><sprite=0><sprite=0>";
+        }else if(t3 > 0)
+        {
+            TotalSText.text = "<sprite=" + t3 + "><sprite=0><sprite=0>";
+        }
+        else
+        {
+            TotalSText.text = "<sprite=0>";
+        }
     }
     public static int GetTotalScore()
     {
