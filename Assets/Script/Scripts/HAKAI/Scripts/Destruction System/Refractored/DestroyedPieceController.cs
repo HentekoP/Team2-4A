@@ -18,7 +18,8 @@ public class DestroyedPieceController : MonoBehaviour
     private bool _configured = false;
     private bool _connections_found = false;
 
-    public static bool count = true;
+    public bool Cflg;
+    public static int DestroyPieceCount;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,9 @@ public class DestroyedPieceController : MonoBehaviour
         transform.localScale *= 1.02f;
 
         _rigidbody = GetComponent<Rigidbody>();
+
+        Cflg = true;
+        DestroyPieceCount = 0;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -65,17 +69,17 @@ public class DestroyedPieceController : MonoBehaviour
     public void cause_damage(Vector3 force)
     {
         is_connected = false;
+       // Debug.Log(is_connected);
         _rigidbody.isKinematic = false;
         is_dirty = true;
         _rigidbody.AddForce(force, ForceMode.Impulse);
         VFXController.Instance.spawn_dust_cloud(transform.position);
-        count = false;
     }
 
     public void drop()
     {
         is_connected = false;
+       // Debug.Log(is_connected);
         _rigidbody.isKinematic = false;
-        count = false;
     }
 }

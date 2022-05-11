@@ -4,18 +4,31 @@ using UnityEngine;
 
 public class kowareru : MonoBehaviour
 {
+    Rigidbody rb;
     // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        //StartCoroutine("HAKAI");
+    }
+
+     void Update()
+    {
+       if (rb.isKinematic == false)
+       {
+            StartCoroutine("HAKAI");
+       }
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator HAKAI()
     {
-        var rb = GetComponent<Rigidbody>();
-
-        //isKinematicをオンにする
-        rb.isKinematic = true;
+        yield return new WaitForSeconds(3.0f);
+        if (rb.isKinematic == false)
+        {
+             Destroy(gameObject);
+        }
+       
     }
 }

@@ -24,6 +24,8 @@ public class reticleColor : MonoBehaviour
     GameObject Player;
     public GameObject BombButton;
     static bool buttonFlg;
+    public static bool BombIns;
+    bool ExpFlg;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,12 +35,14 @@ public class reticleColor : MonoBehaviour
         bombcount = 3;
         buttonFlg = true;
         bomb1Flg = true;
+        BombIns = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         ItemNumber = ItemSelect.ItemNumberFlg();
+        ExpFlg = Bom.ExpFlg();
         RaycastHit hit;
         if (cd.activeSelf == true)
         {
@@ -68,6 +72,11 @@ public class reticleColor : MonoBehaviour
                     {
                         pushcount = true;
                         Instantiate(bombPrefab, pos, Player.transform.localRotation);
+                        BombIns = true;
+                        if(buttonFlg == false)
+                        {
+                            buttonFlg = true;
+                        }
                         bombcount -= 1;
                     }
                 }
@@ -117,7 +126,7 @@ public class reticleColor : MonoBehaviour
         if(BombButton.activeSelf == true)
         {
             var clones = GameObject.FindGameObjectsWithTag("bomb");
-            if (GameObject.FindWithTag("bomb") == false && (Input.GetButtonDown("L1") || Input.GetButtonDown("R1")))
+            if (GameObject.FindWithTag("bomb") == false && (Input.GetButtonDown("L1") || Input.GetButtonDown("R1"))&&bombcount <= 0)
             {
                 buttonFlg = false;
             }
@@ -144,5 +153,9 @@ public class reticleColor : MonoBehaviour
     public static int GetbombCount()
     {
         return bombcount;
+    }
+    public static bool BombInstantiate()
+    {
+        return BombIns;
     }
 }

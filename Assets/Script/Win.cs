@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Win : MonoBehaviour
 {
@@ -8,40 +10,36 @@ public class Win : MonoBehaviour
 
     public float destroycounts;
     float clearcount;
-    public static int DestroyPieceCount = 0;
-
-    public static bool countFlg;
-
-    private Rigidbody[] Child_rigidbody;
+    public GameObject clear;
+    public static bool change = false;
+    static bool clearflg;
 
     void Start()
     {
         ChildCount = this.transform.childCount;
         clearcount = ChildCount * destroycounts;
-        Child_rigidbody = GetComponentsInChildren<Rigidbody>();
         Debug.Log(clearcount);
+        clear.SetActive(false);
+        clearflg = false;
     }
 
     void Update()
     {
-        for (int i = 0; i < ChildCount; i++) {
-            if (Child_rigidbody[i].isKinematic == false && DestroyedPieceController.count == false)
-            {
-                DestroyPieceCount++;
+        if ((clearcount <= DestroyedPieceController.DestroyPieceCount))
+        {
+            //Time.timeScale = 0f;
 
+            clear.SetActive(true);
+            clearflg = true;
+            if (change == true)
+            {
+                SceneManager.LoadSceneAsync("Result");
+                //Time.timeScale = 1f;
             }
         }
-        if (clearcount <= DestroyPieceCount)
-        {
-            //Debug.Log("クリア！");
-        }
-
-        Debug.Log(DestroyPieceCount);
+    }
+    public static bool GetClearFlg()
+    {
+        return clearflg;
     }
 }
-
-/////////////////////////////////////////////////////////////////////////////////////////
-//
-//現在はすべて雛形とする
-//
-/////////////////////////////////////////////////////////////////////////////////////////

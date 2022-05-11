@@ -6,58 +6,37 @@ using UnityEngine.SceneManagement;
 
 public class Result : MonoBehaviour
 {
-    public GameObject stamp_S, stamp_A, stamp_B, stamp_C;
-    public int Rank;
-    float x = 10, y = 10;
+    int rank;
+    int TotalScore;
+    int time;
+    public Animator animator;
 
     void Start()
     {
-        stamp_S.SetActive(false);
-        stamp_A.SetActive(false);
-        stamp_B.SetActive(false);
-        stamp_C.SetActive(false);
+        rank = 0;
     }
 
-    void Update()
-    {
-        RankSelect();
-        if (Input.GetButtonDown("Y"))
+    void Update () {
+        TotalScore = Score.GetTotalScore();
+        time = Timer.EndTime();
+        //GetComponentを用いてAnimatorコンポーネントを取り出す.
+        animator = GetComponent<Animator>();
+ 
+        if(TotalScore >= 10000)
         {
-            SceneManager.LoadSceneAsync("Menu");
-        }
-    }
-
-    void RankSelect()
-    {
-        switch (Rank)
+            rank = 1;
+        }else if (8000 <= TotalScore && TotalScore < 10000)
         {
-            case 1:
-                stamp_S.SetActive(true);
-                //stamp_Animation(stamp_S);
-                break;
-            case 2:
-                stamp_A.SetActive(true);
-                //stamp_Animation(stamp_A);
-                break;
-            case 3:
-                stamp_B.SetActive(true);
-                //stamp_Animation(stamp_B);
-                break;
-            case 4:
-                stamp_C.SetActive(true);
-                //stamp_Animation(stamp_C);
-                break;
-            default:
-                break;
+            rank = 2;
+        }else if(4000 <= TotalScore && TotalScore < 8000)
+        {
+            rank = 3;
+        }else if(TotalScore < 4000)
+        {
+            rank = 4;
         }
-    }
 
-    //void stamp_Animation(GameObject obj)
-    //{
-    //    var tr = obj.gameObject.GetComponent<Transform>();
-    //    while (tr.localScale.x >= 1.0f && tr.localScale.y >= 1.0f)
-    //    {
-    //        tr.localScale -= new Vector3(0.1f, 0.1f, 0);
-    //    }
-    //}
+        //intパラメーターの値を設定する.
+        animator.SetInteger("rank", rank);
+	}
 }

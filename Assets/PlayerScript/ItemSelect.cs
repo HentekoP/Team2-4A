@@ -19,6 +19,7 @@ public class ItemSelect : MonoBehaviour
     bool HammerFlg = true;
     bool pushflg = false;
     bool ButtunFlg = true;
+    bool BombIns = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +35,7 @@ public class ItemSelect : MonoBehaviour
         bomb1Flg = reticleColor.GetBombFlg();
         HammerFlg = hamaaa.GetHammerFlag();
         ButtunFlg = reticleColor.GetButtonFlg();
+        BombIns = reticleColor.BombInstantiate();
         if (Input.GetButton("R1"))
         {
             if (pushflg == false)
@@ -68,6 +70,21 @@ public class ItemSelect : MonoBehaviour
                 }
                 bomb1.SetActive(false);
                 bombButton.SetActive(false);
+                if (BombIns == true)
+                {
+                    if (ButtunFlg == true)
+                    {
+                        ButtonSelect.SetActive(true);
+                    }
+                    else
+                    {
+                        ButtonSelect.SetActive(false);
+                    }
+                }
+                else
+                {
+                    ButtonSelect.SetActive(false);
+                }
                 break;
             case 1:
                 Select.transform.localPosition = new Vector3(-337.4f, -443f, 0f);
@@ -76,13 +93,35 @@ public class ItemSelect : MonoBehaviour
                 {
                     bomb1.SetActive(true);
                     bombSelect.SetActive(true);
-                    bombButton.SetActive(false);
-                    ButtonSelect.SetActive(false);
                 }
                 else
                 {
                     bomb1.SetActive(false);
                     bombSelect.SetActive(false);
+                }
+                bombButton.SetActive(false);
+                if (BombIns == true)
+                {
+                    if (ButtunFlg == true)
+                    {
+                        ButtonSelect.SetActive(true);
+                    }
+                    else
+                    {
+                        ButtonSelect.SetActive(false);
+                    }
+                }
+                else
+                {
+                    ButtonSelect.SetActive(false);
+                }
+                break;
+            case 2:
+                Select.transform.localPosition = new Vector3(-237.6f, -443f, 0f);
+                hammer.SetActive(false);
+                bomb1.SetActive(false);
+                if (BombIns == true)
+                {
                     if (ButtunFlg == true)
                     {
                         bombButton.SetActive(true);
@@ -94,12 +133,10 @@ public class ItemSelect : MonoBehaviour
                         ButtonSelect.SetActive(false);
                     }
                 }
-                break;
-            case 2:
-                Select.transform.localPosition = new Vector3(-237.6f, -443f, 0f);
-                hammer.SetActive(false);
-                bomb1.SetActive(false);
-                bombButton.SetActive(false);
+                else
+                {
+                    ButtonSelect.SetActive(false);
+                }
                 break;
         }
     }

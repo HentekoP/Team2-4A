@@ -10,16 +10,18 @@ public class DestructableObjectController : MonoBehaviour
     private List<DestroyedPieceController> destroyed_pieces = new List<DestroyedPieceController>();
 
     static int i;
-    private void Awake()//ゲームがスタートされると
+
+    DestroyedPieceController PieceCount;
+
+    private void Awake()//ゲームがスタートされるとすべての子供たちにアタッチする
     {
         for (i = 0; i < transform.childCount; i++)
         {
             var child = transform.GetChild(i);
             var _dpc = child.gameObject.AddComponent<DestroyedPieceController>();
             var _rigidbody = child.gameObject.AddComponent<Rigidbody>();//rigidboidy追加してisKinematicとuseGravityをfalseにしてアタッチ
-            _rigidbody.isKinematic = false;
-            _rigidbody.useGravity = false;
-
+           // _rigidbody.isKinematic = false;
+            //_rigidbody.useGravity = false;
             var _mc = child.gameObject.AddComponent<MeshCollider>();  //MeshColliderを追加してアタッチ
             _mc.convex = true;
             destroyed_pieces.Add(_dpc);
@@ -55,6 +57,16 @@ public class DestructableObjectController : MonoBehaviour
                 {
                     piece.drop();
                 }
+
+                if (piece.is_connected == false && piece.Cflg == true)
+                {
+                
+                    DestroyedPieceController.DestroyPieceCount++;
+                    piece.Cflg = false;
+                    Debug.Log(/*"入った"*/DestroyedPieceController.DestroyPieceCount);
+
+                }
+
             }
         }
     }
@@ -74,6 +86,9 @@ public class DestructableObjectController : MonoBehaviour
         }
         else
             return;
+        foreach (var count in destroyed_pieces)
+        {
+        }
     }
 
     private IEnumerator run_physics_steps(int step_count)
