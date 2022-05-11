@@ -13,6 +13,7 @@ public class Score : MonoBehaviour
 
     int TimeScore;
     int BombScore;
+    static int TotalScore;
     float s1;
     float s2;
     float s3;
@@ -20,7 +21,9 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TimeScore = 0;
+        BombScore = 0;
+        TotalScore = 0;
     }
 
     // Update is called once per frame
@@ -43,5 +46,11 @@ public class Score : MonoBehaviour
         }
         BSText.text = "<sprite=" + BombScore + ">";
         BSText2.text = "<sprite=" + BombScore + "><sprite=0><sprite=0><sprite=0>";
+
+        TotalScore = TimeScore + BombScore;
+    }
+    public static int GetTotalScore()
+    {
+        return TotalScore;
     }
 }
