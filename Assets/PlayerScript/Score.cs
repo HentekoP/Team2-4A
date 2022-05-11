@@ -64,19 +64,12 @@ public class Score : MonoBehaviour
         {
             BSText2.text = "<sprite=0>";
         }
-        TotalScore = (TimeScore * 100) + (BombScore * 1000);
-        if (TotalScore > 10000)
-        {
-            t5 = TotalScore / 10000;
-            t4 = (TotalScore / 1000) % 10;
-            t3 = (TotalScore / 100) % 100;
-        }else if(TotalScore < 10000 && TotalScore > 1000){
-            t4 = (TotalScore / 1000);
-            t3 = (TotalScore / 100) % 10;
-        }else if (TotalScore < 1000&& TotalScore > 100)
-        {
-            t3 = TotalScore / 100;
-        }
+
+        TotalScore = TimeScore + (BombScore * 10);
+        Debug.Log(TotalScore);
+        t5 = TotalScore / 100;
+        t4 = (TotalScore / 10) % 10;
+        t3 = TotalScore - (t5 * 100) - (t4 * 10);
         if (t5 > 0)
         {
             TotalSText.text = "<sprite=" + t5 + "><sprite=" + t4 + "><sprite=" + t3 + "><sprite=0><sprite=0>";
@@ -91,6 +84,7 @@ public class Score : MonoBehaviour
         {
             TotalSText.text = "<sprite=0>";
         }
+        TotalScore = TotalScore * 100;
     }
     public static int GetTotalScore()
     {
