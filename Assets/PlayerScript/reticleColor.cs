@@ -24,7 +24,7 @@ public class reticleColor : MonoBehaviour
     GameObject Player;
     public GameObject BombButton;
     static bool buttonFlg;
-    static bool BombIns;
+    public static bool BombIns;
     bool ExpFlg;
     // Start is called before the first frame update
     void Start()
@@ -72,6 +72,7 @@ public class reticleColor : MonoBehaviour
                     {
                         pushcount = true;
                         Instantiate(bombPrefab, pos, Player.transform.localRotation);
+                        BombIns = true;
                         if(buttonFlg == false)
                         {
                             buttonFlg = true;

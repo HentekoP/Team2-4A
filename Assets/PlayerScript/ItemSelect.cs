@@ -70,9 +70,16 @@ public class ItemSelect : MonoBehaviour
                 }
                 bomb1.SetActive(false);
                 bombButton.SetActive(false);
-                if (ButtunFlg == true)
+                if (BombIns == true)
                 {
-                    ButtonSelect.SetActive(true);
+                    if (ButtunFlg == true)
+                    {
+                        ButtonSelect.SetActive(true);
+                    }
+                    else
+                    {
+                        ButtonSelect.SetActive(false);
+                    }
                 }
                 else
                 {
@@ -93,9 +100,16 @@ public class ItemSelect : MonoBehaviour
                     bombSelect.SetActive(false);
                 }
                 bombButton.SetActive(false);
-                if (ButtunFlg == true)
+                if (BombIns == true)
                 {
-                    ButtonSelect.SetActive(true);
+                    if (ButtunFlg == true)
+                    {
+                        ButtonSelect.SetActive(true);
+                    }
+                    else
+                    {
+                        ButtonSelect.SetActive(false);
+                    }
                 }
                 else
                 {
@@ -106,14 +120,21 @@ public class ItemSelect : MonoBehaviour
                 Select.transform.localPosition = new Vector3(-237.6f, -443f, 0f);
                 hammer.SetActive(false);
                 bomb1.SetActive(false);
-                if (ButtunFlg == true)
+                if (BombIns == true)
                 {
-                    bombButton.SetActive(true);
-                    ButtonSelect.SetActive(true);
+                    if (ButtunFlg == true)
+                    {
+                        bombButton.SetActive(true);
+                        ButtonSelect.SetActive(true);
+                    }
+                    else
+                    {
+                        bombButton.SetActive(false);
+                        ButtonSelect.SetActive(false);
+                    }
                 }
                 else
                 {
-                    bombButton.SetActive(false);
                     ButtonSelect.SetActive(false);
                 }
                 break;
