@@ -14,12 +14,8 @@ public class Result : MonoBehaviour
 
     void Start()
     {
-        rturnflg = false;
-    }
-
-    void Start()
-    {
         rank = 0;
+        rturnflg = false;
     }
 
     void Update () {
