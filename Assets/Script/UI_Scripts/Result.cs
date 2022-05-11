@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Result : MonoBehaviour
 {
-    public int rank;
-    public Animator animator;
+	public int rank;
+	public Animator animator;
 
-    void Update () {
-        
-        //GetComponentを用いてAnimatorコンポーネントを取り出す.
-        animator = GetComponent<Animator>();
+	void Update () {
+		
+		//GetComponentを用いてAnimatorコンポーネントを取り出す.
+		animator = GetComponent<Animator>();
  
-        //intパラメーターの値を設定する.
-        animator.SetInteger("rank", rank);
+		//intパラメーターの値を設定する.
+		animator.SetInteger("rank", rank);
 	}
 }
