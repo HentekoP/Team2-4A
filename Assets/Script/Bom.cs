@@ -19,6 +19,7 @@ public class Bom : MonoBehaviour
         if (tri == 1.0f && GameObject.FindWithTag("Switch") == true)
         {
             ExprosionFlg = true;
+            reticleColor.BombIns = false;
             Debug.Log("R trigger:" + tri);
         }
         
