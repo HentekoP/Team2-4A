@@ -44,14 +44,6 @@ public class Timer : MonoBehaviour
             s2 = 0;
             s1 = 0;
             timerText.text = "<sprite=" + s3 + "><sprite=" + s2 + "><sprite=" + s1 + ">";
-
-            Time.timeScale = 0f;
-            clear.SetActive(true);
-            if (Win.change == true)
-            {
-                SceneManager.LoadSceneAsync("Result");
-                Time.timeScale = 1f;
-            }
         }
     }
     public static int EndTime()

@@ -13,7 +13,7 @@ public class moveItemScript2 : MonoBehaviour
     RaycastHit hit;
 
     CubeScript2 sc_item1;
-    public bool grab;
+    public static bool grab;
     Vector3 item_up;
     Rigidbody rb_item1;
     Collider col_item1;
@@ -106,5 +106,9 @@ public class moveItemScript2 : MonoBehaviour
                 sc_item1.ray = false;
             }
         }
+    }
+    public static bool GetGrabFlg()
+    {
+        return grab;
     }
 }

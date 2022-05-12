@@ -10,10 +10,12 @@ public class Result : MonoBehaviour
     int TotalScore;
     int time;
     public Animator animator;
+    public static bool rturnflg;
 
     void Start()
     {
         rank = 0;
+        rturnflg = false;
     }
 
     void Update () {
@@ -38,5 +40,10 @@ public class Result : MonoBehaviour
 
         //intパラメーターの値を設定する.
         animator.SetInteger("rank", rank);
+
+        if(rturnflg == true && Input.GetButton("A"))
+        {
+            SceneManager.LoadSceneAsync("Menu");
+        }
 	}
 }
