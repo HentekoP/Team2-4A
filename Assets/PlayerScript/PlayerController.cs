@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
+        
         RotateChara();
         RotateCamera();
 
@@ -101,27 +102,23 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("speed", 0f);
         }
-        
-            if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump"))
+        {
+            jump = true;
+            if (runFlag && velocity.magnitude > 0f)
             {
-                jump = true;
-                if (runFlag && velocity.magnitude > 0f)
-                {
-                    velocity.y += dashJumpPower;
-                }
-                else
-                {
-                    velocity.y += jumpPower;
-                }
-
+                velocity.y += dashJumpPower;
             }
             else
             {
-                    jump = false;
+                velocity.y += jumpPower;
             }
-        
-        
-        
+
+        }
+        else
+        {
+            jump = false;
+        }
         if (jump == true)
         {
             animator.SetBool("jump", true);
