@@ -24,16 +24,16 @@ public class Result : MonoBehaviour
         //GetComponentを用いてAnimatorコンポーネントを取り出す.
         animator = GetComponent<Animator>();
  
-        if(TotalScore >= 10000)
+        if(TotalScore >= 9500)
         {
             rank = 1;
-        }else if (8000 <= TotalScore && TotalScore < 10000)
+        }else if (7500 <= TotalScore && TotalScore < 9500)
         {
             rank = 2;
-        }else if(4000 <= TotalScore && TotalScore < 8000)
+        }else if(4000 <= TotalScore && TotalScore < 7500)
         {
             rank = 3;
-        }else if(TotalScore < 4000)
+        }else if(TotalScore < 4000 || time == 0)
         {
             rank = 4;
         }
