@@ -15,12 +15,12 @@ public class PlayerController : MonoBehaviour
     private bool runFlag = false;
     private Transform myCamera;
     [SerializeField]
-    private float cameraRotateLimit = 30f;
+    private float cameraRotateLimit = 75f;
     [SerializeField]
     private bool cameraRotForward = true;
     private Quaternion initCameraRot;
     [SerializeField]
-    private float rotateSpeed = 150f;
+    private float rotateSpeed = 1000f;
     private float xRotate;
     private float yRotate;
     [SerializeField]
@@ -43,10 +43,11 @@ public class PlayerController : MonoBehaviour
     public Text BombDead;
     public Text Yes;
     public Text No;
-    public float GameOverCount = 0.2f;
+    public float GameOverCount = 0.5f;
     public static bool ContinueFlg;
     public GameObject BGM;
     public AudioSource Dead;
+    private GameObject CharaHead;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -63,6 +64,7 @@ public class PlayerController : MonoBehaviour
         Yes.enabled = false;
         No.enabled = false;
         ContinueFlg = false;
+        CharaHead = GameObject.Find("HeadF");
     }
     void Update()
     {
@@ -126,19 +128,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-
             animator.SetBool("jump", false);
         }
 
-        //if(Attack == true)
-        //{
-        //    animator.SetBool("Attack", true);
-
-        //}
-        //else
-        //{
-        //    animator.SetBool("Attack", false);
-        //}
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
         
@@ -170,7 +162,6 @@ public class PlayerController : MonoBehaviour
         var resultYRot = Mathf.Clamp(Mathf.DeltaAngle(initCameraRot.eulerAngles.x, cameraRotate.eulerAngles.x), -cameraRotateLimit, cameraRotateLimit);
         cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
         myCamera.localRotation = Quaternion.Slerp(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
-
     }
     void OnParticleCollision(GameObject other)
     {
