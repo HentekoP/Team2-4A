@@ -50,9 +50,14 @@ public class Score : MonoBehaviour
             TSText.text = "<sprite=" + s2 + "><sprite=" + s1 + ">";
             TSText2.text = "<sprite=" + s2 + "><sprite=" + s1 + "><sprite=0><sprite=0>";
         }
-        else
+        else if(s1 > 0)
         {
             TSText.text = "<sprite=" + s1 + ">";
+            TSText2.text = "<sprite=" + s1 + "><sprite=0><sprite=0>";
+        }
+        else
+        {
+            TSText.text = "<sprite=0>";
             TSText2.text = "<sprite=0>";
         }
         if (BombScore > 0)
