@@ -630,10 +630,19 @@ MonoBehaviour:
   runSpeed: 6.5
   cameraRotateLimit: 80
   cameraRotForward: 1
-  rotateSpeed: 1000
-  RstickSpeed: 1.8
+  rotateSpeed: 500
+  RstickSpeed: 0.9
   jumpPower: 5
   dashJumpPower: 6
+  GameOver: {fileID: 0}
+  YouDead: {fileID: 0}
+  Continue: {fileID: 0}
+  BombDead: {fileID: 0}
+  Yes: {fileID: 0}
+  No: {fileID: 0}
+  GameOverCount: 0.2
+  BGM: {fileID: 0}
+  Dead: {fileID: 0}
 --- !u!143 &112294054
 CharacterController:
   m_ObjectHideFlags: 0
