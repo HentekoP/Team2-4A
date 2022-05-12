@@ -13,6 +13,7 @@ public class Win : MonoBehaviour
     public GameObject clear;
     public static bool change;
     static bool clearflg;
+    int EndTime;
 
     void Start()
     {
@@ -26,7 +27,8 @@ public class Win : MonoBehaviour
 
     void Update()
     {
-        if ((clearcount <= DestroyedPieceController.DestroyPieceCount))
+        EndTime = Timer.EndTime();
+        if ((clearcount <= DestroyedPieceController.DestroyPieceCount) || EndTime == 0)
         {
             //Time.timeScale = 0f;
             clearflg = true;
