@@ -7,13 +7,14 @@ public class moveItemScript2 : MonoBehaviour
 {
     public GameObject player;
     public Text itemText1, itemText2;
+    public Image stage_1;
 
     LayerMask mask;
     GameObject item1;
     RaycastHit hit;
 
     CubeScript2 sc_item1;
-    public bool grab;
+    public static bool grab;
     Vector3 item_up;
     Rigidbody rb_item1;
     Collider col_item1;
@@ -32,6 +33,8 @@ public class moveItemScript2 : MonoBehaviour
 
         // アタッチしたオーディオソースのうち1番目を使用する
         source = GetComponents<AudioSource>()[0];
+
+        stage_1.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,6 +45,9 @@ public class moveItemScript2 : MonoBehaviour
 
             if (grab) // ものを持っているとき
             {
+
+                stage_1.gameObject.SetActive(false);
+
                 sc_item1.ray = true;
 
                 Debug.DrawRay(player.transform.position, player.transform.transform.forward * hit.distance, Color.yellow);
@@ -66,8 +72,9 @@ public class moveItemScript2 : MonoBehaviour
             else
             { // 持ってない時
 
-                itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
-                itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
+                stage_1.gameObject.SetActive(true);
+                //itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
+                //itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
 
                 if (Input.GetButtonDown("X") && hit.collider.tag == "Item") // アイテムを持ち上げる
                 {
@@ -99,12 +106,18 @@ public class moveItemScript2 : MonoBehaviour
         }
         else
         {
-            itemText1.text = null; // オブジェクトの名前を非表示
-            itemText2.text = null; // オブジェクトの名前を非表示
+
+            stage_1.gameObject.SetActive(false);
+            //itemText1.text = null; // オブジェクトの名前を非表示
+            //itemText2.text = null; // オブジェクトの名前を非表示
             if (grab)
             {
                 sc_item1.ray = false;
             }
         }
+    }
+    public static bool GetGrabFlg()
+    {
+        return grab;
     }
 }

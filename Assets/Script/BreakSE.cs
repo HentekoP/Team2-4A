@@ -23,7 +23,7 @@ public class BreakSE : MonoBehaviour
     {
         tri = Input.GetAxis("RT");
 
-        if (tri == 1.0f && GameObject.FindWithTag("bomb") == true && reticleColor.bomb1Flg == false && GameObject.FindWithTag("Switch") == true)
+        if (tri == 1.0f && GameObject.FindWithTag("bomb") == true  && GameObject.FindWithTag("Switch") == true)
         {
             audioSource.PlayOneShot(Bom);
         }
