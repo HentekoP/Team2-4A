@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     public static bool ContinueFlg;
     public GameObject BGM;
     public AudioSource Dead;
-    private GameObject CharaHead;
+    public static bool GameOverFlg;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
         Yes.enabled = false;
         No.enabled = false;
         ContinueFlg = false;
-        CharaHead = GameObject.Find("HeadF");
+        GameOverFlg = false;
     }
     void Update()
     {
@@ -163,6 +163,7 @@ public class PlayerController : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         Debug.Log("オマエはもう、死んでいる");
+        GameOverFlg = true;
         BGM.SetActive(false);
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
         GameOver.enabled = true;
@@ -200,6 +201,10 @@ public class PlayerController : MonoBehaviour
     public static bool continueflg()
     {
         return ContinueFlg;
+    }
+    public static bool GetGameOverFlg()
+    {
+        return GameOverFlg;
     }
 }
 

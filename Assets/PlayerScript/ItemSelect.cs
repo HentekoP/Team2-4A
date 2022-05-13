@@ -15,6 +15,9 @@ public class ItemSelect : MonoBehaviour
     public GameObject bombButton;
     public GameObject ButtonSelect;
     public GameObject bombSelect;
+    public GameObject SwingText;
+    public GameObject SettiText;
+    public GameObject ExpText;
     bool bomb1Flg = true;
     bool HammerFlg = true;
     bool pushflg = false;
@@ -26,6 +29,9 @@ public class ItemSelect : MonoBehaviour
         hammer = transform.GetChild(0).gameObject;
         bomb1 = transform.GetChild(1).gameObject;
         ButtonSelect.SetActive(false);
+        SwingText.SetActive(false);
+        SettiText.SetActive(false); 
+        ExpText.SetActive(false);
         ItemNumber = 0;
     }
 
@@ -63,13 +69,18 @@ public class ItemSelect : MonoBehaviour
                 if (HammerFlg == true)
                 {
                     hammer.SetActive(true);
+                    SwingText.SetActive(true);
                 }
                 else
                 {
                     hammer.SetActive(false);
+                    SwingText.SetActive(false);
+
                 }
                 bomb1.SetActive(false);
                 bombButton.SetActive(false);
+                SettiText.SetActive(false);
+                ExpText.SetActive(false);
                 if (BombIns == true)
                 {
                     if (ButtunFlg == true)
@@ -93,13 +104,17 @@ public class ItemSelect : MonoBehaviour
                 {
                     bomb1.SetActive(true);
                     bombSelect.SetActive(true);
+                    SettiText.SetActive(true);
                 }
                 else
                 {
                     bomb1.SetActive(false);
                     bombSelect.SetActive(false);
+                    SettiText.SetActive(false);
                 }
                 bombButton.SetActive(false);
+                SwingText.SetActive(false);
+                ExpText.SetActive(false);
                 if (BombIns == true)
                 {
                     if (ButtunFlg == true)
@@ -120,17 +135,21 @@ public class ItemSelect : MonoBehaviour
                 Select.transform.localPosition = new Vector3(-237.6f, -443f, 0f);
                 hammer.SetActive(false);
                 bomb1.SetActive(false);
+                SettiText.SetActive(false);
+                SwingText.SetActive(false);
                 if (BombIns == true)
                 {
                     if (ButtunFlg == true)
                     {
                         bombButton.SetActive(true);
                         ButtonSelect.SetActive(true);
+                        ExpText.SetActive(true);
                     }
                     else
                     {
                         bombButton.SetActive(false);
                         ButtonSelect.SetActive(false);
+                        ExpText.SetActive(false);
                     }
                 }
                 else
