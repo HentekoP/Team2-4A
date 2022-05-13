@@ -26,6 +26,7 @@ public class reticleColor : MonoBehaviour
     static bool buttonFlg;
     public static bool BombIns;
     bool ExpFlg;
+    public GameObject KaisyuText;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,7 @@ public class reticleColor : MonoBehaviour
         buttonFlg = true;
         bomb1Flg = true;
         BombIns = false;
+        KaisyuText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -102,11 +104,12 @@ public class reticleColor : MonoBehaviour
                 }
             }
 
-            if ((ItemNumber == 1 && bomb1Flg == false) || ItemNumber == 2)
+            if (ItemNumber == 1 || ItemNumber == 2)
             {
                 if (hit.collider.tag == "bomb")
                 {
                     ColorTP = 1.0f;
+                    KaisyuText.SetActive(true);
                     if (Input.GetButtonDown("X"))
                     {
                         if (bomb1Flg == false)
@@ -116,6 +119,10 @@ public class reticleColor : MonoBehaviour
                         Destroy(hit.collider.gameObject);
                         bombcount++;
                     }
+                }
+                else
+                {
+                    KaisyuText.SetActive(false);
                 }
             }
         }
