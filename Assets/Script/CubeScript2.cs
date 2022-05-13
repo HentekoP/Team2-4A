@@ -28,6 +28,7 @@ public class CubeScript2 : MonoBehaviour
         if ((grab & !ray) || (grab && ray && trigStay))
         {
             meshRenderer.material.SetColor("_BaseColor", Color.red);
+
             //meshRenderer.material.SetColor("_BaseColor", defaultColor_Transparent);           
         }
         else
