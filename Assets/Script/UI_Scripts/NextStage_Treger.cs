@@ -26,7 +26,8 @@ public class NextStage_Treger : MonoBehaviour
         {
             source.PlayOneShot(se[0]);
 
-            SceneManager.LoadSceneAsync("game");
+            SceneManager.LoadScene("game");
+           
         }
     }
 }

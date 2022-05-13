@@ -27,6 +27,8 @@ public class Pause : MonoBehaviour
     public AudioSource BGM;
     AudioSource SE;
     public AudioClip[] se;
+    bool Clear;
+    bool GameOver;
 
     private void Start()
     {
@@ -35,18 +37,22 @@ public class Pause : MonoBehaviour
         SE = GetComponent<AudioSource>();
     }
 
-    private void Update()
+    void Update()
     {
-        //メニューボタンを押したら
-        if (Input.GetButtonDown("Menu"))
+        Clear = Win.GetClearFlg();
+        GameOver = PlayerController.GetGameOverFlg();
+        if (Clear == false && GameOver == false)
         {
-            Pause_Start();  //ポーズ画面に飛ぶようにする
+            //メニューボタンを押したら
+            if (Input.GetButtonDown("Menu"))
+            {
+                Pause_Start();  //ポーズ画面に飛ぶようにする
+            }
+            if (Select_flg)
+            {
+                Pause_Select();
+            }
         }
-        if (Select_flg)
-        {
-            Pause_Select();
-        }
-
     }
 
     void Pause_Start()

@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class DestructableObjectController : MonoBehaviour
 {
-    public GameObject[] roots = new GameObject[4];
-    [HideInInspector] public DestroyedPieceController[] root_dest_pieces = new DestroyedPieceController[4];
+    public GameObject[] roots = new GameObject[17];
+    [HideInInspector] public DestroyedPieceController[] root_dest_pieces = new DestroyedPieceController[17];
 
     private List<DestroyedPieceController> destroyed_pieces = new List<DestroyedPieceController>();
 
     static int i;
+    bool loadsene = true;
 
     DestroyedPieceController PieceCount;
 
@@ -20,17 +21,19 @@ public class DestructableObjectController : MonoBehaviour
             var child = transform.GetChild(i);
             var _dpc = child.gameObject.AddComponent<DestroyedPieceController>();
             var _rigidbody = child.gameObject.AddComponent<Rigidbody>();//rigidboidy追加してisKinematicとuseGravityをfalseにしてアタッチ
-           // _rigidbody.isKinematic = false;
+            //_rigidbody.isKinematic = false;
             //_rigidbody.useGravity = false;
             var _mc = child.gameObject.AddComponent<MeshCollider>();  //MeshColliderを追加してアタッチ
             _mc.convex = true;
             destroyed_pieces.Add(_dpc);
         }
         for (int _i = 0; _i < 4; _i++)
+
         {
             root_dest_pieces[_i] = roots[_i].GetComponent<DestroyedPieceController>();
         }
-        StartCoroutine(run_physics_steps(10));//物理演算を10回実行するルーチン
+        
+        StartCoroutine(run_physics_steps(1));//物理演算を10回実行するルーチン
 
     }
 
