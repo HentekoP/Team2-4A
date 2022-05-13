@@ -89,6 +89,9 @@ public class Score : MonoBehaviour
         {
             TotalSText.text = "<sprite=0>";
         }
+
+        HighScore.NowScore = TotalScore;
+
         TotalScore = TotalScore * 100;
     }
     public static int GetTotalScore()

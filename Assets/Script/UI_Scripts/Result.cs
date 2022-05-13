@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Result : MonoBehaviour
 {
-    int rank;
+    static int rank;
     int TotalScore;
     int time;
     public Animator animator;
@@ -37,6 +37,8 @@ public class Result : MonoBehaviour
         {
             rank = 4;
         }
+
+        HighScore.HighestRank = rank;
 
         //intパラメーターの値を設定する.
         animator.SetInteger("rank", rank);
