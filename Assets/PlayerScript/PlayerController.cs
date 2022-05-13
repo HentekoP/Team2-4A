@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     public static bool ContinueFlg;
     public GameObject BGM;
     public AudioSource Dead;
-    private GameObject CharaHead;
+    public static bool GameOverFlg;
     void Start()
     {
         cCon = GetComponent<CharacterController>();
@@ -64,10 +64,11 @@ public class PlayerController : MonoBehaviour
         Yes.enabled = false;
         No.enabled = false;
         ContinueFlg = false;
-        CharaHead = GameObject.Find("HeadF");
+        GameOverFlg = false;
     }
     void Update()
     {
+        
         RotateChara();
         RotateCamera();
 
@@ -101,27 +102,23 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("speed", 0f);
         }
-        
-            if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump"))
+        {
+            jump = true;
+            if (runFlag && velocity.magnitude > 0f)
             {
-                jump = true;
-                if (runFlag && velocity.magnitude > 0f)
-                {
-                    velocity.y += dashJumpPower;
-                }
-                else
-                {
-                    velocity.y += jumpPower;
-                }
-
+                velocity.y += dashJumpPower;
             }
             else
             {
-                    jump = false;
+                velocity.y += jumpPower;
             }
-        
-        
-        
+
+        }
+        else
+        {
+            jump = false;
+        }
         if (jump == true)
         {
             animator.SetBool("jump", true);
@@ -166,6 +163,7 @@ public class PlayerController : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         Debug.Log("オマエはもう、死んでいる");
+        GameOverFlg = true;
         BGM.SetActive(false);
         GameOver.color = new Color(255f, 0f, 0f, GameOverCount);
         GameOver.enabled = true;
@@ -203,6 +201,10 @@ public class PlayerController : MonoBehaviour
     public static bool continueflg()
     {
         return ContinueFlg;
+    }
+    public static bool GetGameOverFlg()
+    {
+        return GameOverFlg;
     }
 }
 
