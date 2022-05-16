@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class moveItemScript2 : MonoBehaviour
 {
     public GameObject player;
+    public GameObject point;
     public Text itemText1, itemText2;
     public Image stage_1;
 
@@ -40,7 +41,7 @@ public class moveItemScript2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(player.transform.position, player.transform.transform.forward, out hit, 2.2f, mask))
+        if (Physics.Raycast(player.transform.position, player.transform.transform.forward, out hit, 2.2f, mask) || Physics.Raycast(point.transform.position, point.transform.transform.forward, out hit, 2.2f, mask))
         {
 
             if (grab) // ものを持っているとき
@@ -52,6 +53,17 @@ public class moveItemScript2 : MonoBehaviour
 
                 Debug.DrawRay(player.transform.position, player.transform.transform.forward * hit.distance, Color.yellow);
                 item1.gameObject.transform.parent = this.gameObject.transform;
+
+                item1.transform.localPosition = new Vector3(0.5f, 0.0f, 1.0f);
+
+                // ローカル座標を基準に、回転を取得
+                Vector3 localAngle = item1.transform.localEulerAngles;
+                localAngle.x = -90.0f; // ローカル座標を基準に、x軸を軸にした回転を10度に変更
+                localAngle.y = 0.0f; // ローカル座標を基準に、y軸を軸にした回転を10度に変更
+                localAngle.z = 0.0f; // ローカル座標を基準に、z軸を軸にした回転を10度に変更
+                item1.transform.localEulerAngles = localAngle; // 回転角度を設定
+
+
                 //item1.transform.position = hit.point; // アイテムをレイの当たったところに移動
                 ////item1.transform.rotation = Quaternion.FromToRotation(item_up, hit.normal);
                 //item1.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal); // アイテムの上方向をレイが当たったところの表面の法線方向にする
@@ -76,7 +88,7 @@ public class moveItemScript2 : MonoBehaviour
                 //itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
                 //itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
 
-                if (Input.GetButtonDown("X") && hit.collider.tag == "Item") // アイテムを持ち上げる
+                if (Input.GetButtonDown("X") && (hit.collider.tag == "Item" || hit.collider.tag == "Item2")) // アイテムを持ち上げる
                 {
                     grab = true;
                     item1 = hit.collider.gameObject;

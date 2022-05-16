@@ -21,7 +21,7 @@ public class Title : MonoBehaviour
 
 
     [SerializeField] private GameObject EndUI; //エンド画面
-    int End_Menu_Num = 0;   //メニュー選択時の番号　0:タイトル 1:終了
+    int End_Menu_Num = 0;   //メニュー選択時の番号　0:タイトル 1:終了　2:クレジット
     public RectTransform End_cursor;
     public bool End_flg = false;
 
@@ -53,10 +53,15 @@ public class Title : MonoBehaviour
                     source.PlayOneShot(se[0]);
 
                     //一番下より下入力をした場合
-                    if (Menu_Num >= 2)
+                    if (Menu_Num == 2)
+                    {
+                        //creditの部分に移動
+                        Title_cursor.position += new Vector3(0, -105, 0);   //カーソルを下に移動
+                    }
+                    if (Menu_Num >= 3)
                     {
                         Menu_Num = 0;   //メニュー番号を一番上に変更
-                        Title_cursor.position += new Vector3(0, 220, 0); //メニューの最初に移動
+                        Title_cursor.position += new Vector3(0, 435, 0); //メニューの最初に移動
                     }
                     Title_cursor.position += new Vector3(0, -110, 0);   //カーソルを下に移動
 
@@ -73,10 +78,16 @@ public class Title : MonoBehaviour
                     source.PlayOneShot(se[0]);
 
                     //一番上より上入力をした場合
+                    if (Menu_Num == 1)
+                    {
+                        //creditの部分に移動
+                        Title_cursor.position += new Vector3(0, 105, 0);   //カーソルを下に移動
+                    }
+
                     if (Menu_Num <= -1)
                     {
-                        Menu_Num = 1;   //メニュー番号を一番下に変更
-                        Title_cursor.position += new Vector3(0, -220, 0);   //メニューの最後に移動
+                        Menu_Num = 2;   //メニュー番号を一番下に変更
+                        Title_cursor.position += new Vector3(0, -435, 0);   //メニューの最後に移動
                     }
                     Title_cursor.position += new Vector3(0, 110, 0);    //カーソルを上に移動
 
@@ -98,9 +109,13 @@ public class Title : MonoBehaviour
                 {
                     NextScene();
                 }
-                else
+                else if(Menu_Num == 1)
                 {
                     End_flg = true;
+                }
+                else
+                {
+                    SceneManager.LoadScene("SpecalThanxs");
                 }
             }
         }
