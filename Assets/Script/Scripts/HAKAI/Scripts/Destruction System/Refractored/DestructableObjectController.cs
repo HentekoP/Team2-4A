@@ -67,6 +67,7 @@ public class DestructableObjectController : MonoBehaviour
                     DestroyedPieceController.DestroyPieceCount++;
                     piece.Cflg = false;
                     Debug.Log(/*"入った"*/DestroyedPieceController.DestroyPieceCount);
+                    
 
                 }
 

@@ -17,6 +17,7 @@ public class kowareru : MonoBehaviour
     {
        if (rb.isKinematic == false)
        {
+            
             StartCoroutine("HAKAI");
        }
         
@@ -28,6 +29,7 @@ public class kowareru : MonoBehaviour
         if (rb.isKinematic == false &&Win.GetClearFlg()==false)
         {
              Destroy(gameObject);
+            Debug.Log(gameObject);
         }
        
     }

@@ -45,7 +45,7 @@ public class Result : MonoBehaviour
 
         if(rturnflg == true && Input.GetButton("A"))
         {
-            SceneManager.LoadSceneAsync("Menu");
+            SceneManager.LoadScene("Menu");
         }
 	}
 }
