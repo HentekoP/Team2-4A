@@ -22,11 +22,18 @@ public class NextStage_Treger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && grab == true)
+        if (other.CompareTag("Item") && grab == true)
         {
             source.PlayOneShot(se[0]);
 
             SceneManager.LoadScene("game");
+           
+        }
+        if (other.CompareTag("Item2") && grab == true)
+        {
+            source.PlayOneShot(se[0]);
+
+            SceneManager.LoadScene("game2");
            
         }
     }
