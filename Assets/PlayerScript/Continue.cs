@@ -16,6 +16,7 @@ public class Continue : MonoBehaviour
     public AudioClip Select;
     public AudioClip Decision;
     AudioSource audioSource;
+    //int StageNumber = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class Continue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //StageNumber = NextStage_Treger.GetStageNumber();
         CFlg = PlayerController.continueflg();
         if (CFlg == true && Buttonflg == false)
         {
@@ -90,7 +92,15 @@ public class Continue : MonoBehaviour
     IEnumerator gameCoroutine()
     {
         yield return new WaitForSecondsRealtime(1.6f);
-        SceneManager.LoadScene("game");
+        //if (StageNumber == 1)
+        //{
+        //    SceneManager.LoadScene("game");
+        //}else if(StageNumber == 2)
+        //{
+        //    SceneManager.LoadScene("game2");
+        //}
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
         Time.timeScale = 1f;
     }
     IEnumerator MenuCoroutine()

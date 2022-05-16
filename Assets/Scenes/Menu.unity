@@ -1062,8 +1062,8 @@ MonoBehaviour:
   runSpeed: 6.5
   cameraRotateLimit: 75
   cameraRotForward: 1
-  rotateSpeed: 500
-  RstickSpeed: 0.9
+  rotateSpeed: 1000
+  RstickSpeed: 1.5
   jumpPower: 5
   dashJumpPower: 6
   GameOver: {fileID: 0}
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   Yes: {fileID: 0}
   No: {fileID: 0}
   GameOverCount: 0.2
-  BGM: {fileID: 0}
+  BGM: {fileID: 1410762194}
   Dead: {fileID: 0}
 --- !u!143 &112294054
 CharacterController:
@@ -1092,7 +1092,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.95, z: 0}
 --- !u!54 &112294055
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4473,8 +4473,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447870719}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.938, y: 0.38, z: 20.4982}
-  m_LocalScale: {x: 0.9999, y: 0.5, z: 1.4416499}
+  m_LocalPosition: {x: -16.938, y: 1.29, z: 20.4982}
+  m_LocalScale: {x: 0.9999, y: 2, z: 1.4416499}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -8520,36 +8520,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1578833547}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &919800076
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 919800077}
-  m_Layer: 10
-  m_Name: point
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &919800077
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919800076}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1761217486}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &923105722
 GameObject:
   m_ObjectHideFlags: 0
@@ -8740,8 +8710,8 @@ GameObject:
   - component: {fileID: 932187233}
   - component: {fileID: 932187232}
   m_Layer: 8
-  m_Name: "Borad (\u4F9D\u983C2)"
-  m_TagString: Item
+  m_Name: "Borad(\u4F9D\u983C2)"
+  m_TagString: Item2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8973,6 +8943,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 650043941}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &947947673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947947674}
+  m_Layer: 10
+  m_Name: point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &947947674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947947673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1761217486}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &948957617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4633411911301862, guid: 293e268728ae1704b931bbef9043c082,
@@ -17196,7 +17196,7 @@ Transform:
   m_LocalPosition: {x: -0.04, y: 1.777, z: 0.309}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 919800077}
+  - {fileID: 947947674}
   m_Father: {fileID: 112294057}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17207,7 +17207,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761217485}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f1c6b6447145834b8ec3149b9b57bb4, type: 3}
   m_Name: 
@@ -17300,6 +17300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1761217485}
+  point: {fileID: 947947673}
   itemText1: {fileID: 1848623659}
   itemText2: {fileID: 413156017}
   stage_1: {fileID: 35197535}
