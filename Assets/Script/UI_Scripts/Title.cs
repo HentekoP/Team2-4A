@@ -56,12 +56,12 @@ public class Title : MonoBehaviour
                     if (Menu_Num == 2)
                     {
                         //creditの部分に移動
-                        Title_cursor.position += new Vector3(0, -115, 0);   //カーソルを下に移動
+                        Title_cursor.position += new Vector3(0, -105, 0);   //カーソルを下に移動
                     }
                     if (Menu_Num >= 3)
                     {
                         Menu_Num = 0;   //メニュー番号を一番上に変更
-                        Title_cursor.position += new Vector3(0, 445, 0); //メニューの最初に移動
+                        Title_cursor.position += new Vector3(0, 435, 0); //メニューの最初に移動
                     }
                     Title_cursor.position += new Vector3(0, -110, 0);   //カーソルを下に移動
 
@@ -81,13 +81,13 @@ public class Title : MonoBehaviour
                     if (Menu_Num == 1)
                     {
                         //creditの部分に移動
-                        Title_cursor.position += new Vector3(0, 115, 0);   //カーソルを下に移動
+                        Title_cursor.position += new Vector3(0, 105, 0);   //カーソルを下に移動
                     }
 
                     if (Menu_Num <= -1)
                     {
                         Menu_Num = 2;   //メニュー番号を一番下に変更
-                        Title_cursor.position += new Vector3(0, -445, 0);   //メニューの最後に移動
+                        Title_cursor.position += new Vector3(0, -435, 0);   //メニューの最後に移動
                     }
                     Title_cursor.position += new Vector3(0, 110, 0);    //カーソルを上に移動
 
