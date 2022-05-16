@@ -104,7 +104,7 @@ public class reticleColor : MonoBehaviour
                 }
             }
 
-            if (ItemNumber == 1 || ItemNumber == 2)
+            if (ItemNumber == 1 && bomb1Flg == false|| ItemNumber == 2)
             {
                 if (hit.collider.tag == "bomb")
                 {

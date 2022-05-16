@@ -145,7 +145,7 @@ public class PlayerController : MonoBehaviour
         {
             charaRotFlag = false;
         }
-        transform.localRotation = Quaternion.Slerp(transform.localRotation, charaRotate, rotateSpeed * Time.deltaTime);
+        transform.localRotation = Quaternion.RotateTowards(transform.localRotation, charaRotate, rotateSpeed * Time.deltaTime);
 
     }
     void RotateCamera()
@@ -158,7 +158,7 @@ public class PlayerController : MonoBehaviour
         cameraRotate *= Quaternion.Euler(xRotate, 0f, 0f);
         var resultYRot = Mathf.Clamp(Mathf.DeltaAngle(initCameraRot.eulerAngles.x, cameraRotate.eulerAngles.x), -cameraRotateLimit, cameraRotateLimit);
         cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
-        myCamera.localRotation = Quaternion.Slerp(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
+        myCamera.localRotation = Quaternion.RotateTowards(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
     }
     void OnParticleCollision(GameObject other)
     {
