@@ -9,6 +9,7 @@ public class moveItemScript2 : MonoBehaviour
     public GameObject point;
     public Text itemText1, itemText2;
     public Image stage_1;
+    public Image stage_2;
 
     LayerMask mask;
     GameObject item1;
@@ -36,6 +37,7 @@ public class moveItemScript2 : MonoBehaviour
         source = GetComponents<AudioSource>()[0];
 
         stage_1.gameObject.SetActive(false);
+        stage_2.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -48,6 +50,7 @@ public class moveItemScript2 : MonoBehaviour
             {
 
                 stage_1.gameObject.SetActive(false);
+                stage_2.gameObject.SetActive(false);
 
                 sc_item1.ray = true;
 
@@ -83,8 +86,15 @@ public class moveItemScript2 : MonoBehaviour
             }
             else
             { // 持ってない時
-
-                stage_1.gameObject.SetActive(true);
+                if (hit.collider.CompareTag("Item")) {
+                    stage_1.gameObject.SetActive(true);
+                    stage_2.gameObject.SetActive(false);
+                }
+                else if(hit.collider.CompareTag("Item2"))
+                {
+                    stage_2.gameObject.SetActive(true);
+                    stage_1.gameObject.SetActive(false);
+                }
                 //itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
                 //itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
 
@@ -120,6 +130,7 @@ public class moveItemScript2 : MonoBehaviour
         {
 
             stage_1.gameObject.SetActive(false);
+            stage_2.gameObject.SetActive(false);
             //itemText1.text = null; // オブジェクトの名前を非表示
             //itemText2.text = null; // オブジェクトの名前を非表示
             if (grab)
