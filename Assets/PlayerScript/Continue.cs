@@ -20,6 +20,7 @@ public class Continue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SceneManager.GetActiveScene();
         pushflg = false;
         Buttonflg = false;
         SEflg = false;
