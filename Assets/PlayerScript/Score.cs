@@ -90,7 +90,13 @@ public class Score : MonoBehaviour
             TotalSText.text = "<sprite=0>";
         }
 
-        HighScore.NowScore = TotalScore;
+        if (SceneChange.Instance.referer == "game") {
+            HighScore.NowScore = TotalScore;
+        }
+
+        if (SceneChange.Instance.referer == "game2") {
+            HighScore_Stage2.NowScore = TotalScore;
+        }
 
         TotalScore = TotalScore * 100;
     }
