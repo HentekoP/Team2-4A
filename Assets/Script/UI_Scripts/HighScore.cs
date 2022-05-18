@@ -11,7 +11,7 @@ public class HighScore : MonoBehaviour
     float t1;
     float t2;
     float t3;
-    public int HighestScore = 0;
+    public static int HighestScore = 0;
     public static int NowScore;
 
     public GameObject rankimage_S;
