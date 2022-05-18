@@ -68,7 +68,12 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        
+        if (SelectMenu.Select_flg)
+        {
+            RstickSpeed = 0;
+        }
+        else
+            RstickSpeed = 1.8f;
         RotateChara();
         RotateCamera();
 
@@ -206,6 +211,8 @@ public class PlayerController : MonoBehaviour
     {
         return GameOverFlg;
     }
+
+
 }
 
 

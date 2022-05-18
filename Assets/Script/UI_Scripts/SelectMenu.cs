@@ -14,7 +14,7 @@ public class SelectMenu : MonoBehaviour
     //連続入力防止用スイッチ
     bool Push_Flg = false;
     //ポーズメニュー選択用スイッチ
-    bool Select_flg = false;
+    public static bool Select_flg = false;
 
     [SerializeField] private GameObject Pause_EndPanel; //エンド画面
 
@@ -28,11 +28,13 @@ public class SelectMenu : MonoBehaviour
     AudioSource SE;
     public AudioClip[] se;
 
+
     private void Start()
     {
         Pause_Panel.SetActive(false);
         Pause_EndPanel.SetActive(false);
         SE = GetComponent<AudioSource>();
+        
     }
 
     private void Update()
@@ -58,17 +60,21 @@ public class SelectMenu : MonoBehaviour
         //　ポーズUIが表示されてる時は停止
         if (Pause_Panel.activeSelf)
         {
+            
             BGM.Pause();
             SE.PlayOneShot(se[0]);
             Time.timeScale = 0f;
             //　ポーズUIが表示されてなければ通常通り進行
+          
             Select_flg = true;
         }
         else
         {
             BGM.UnPause();
             Pause_EndPanel.SetActive(false);
+            
             Time.timeScale = 1f;
+           
             Select_flg = false;
         }
     }
