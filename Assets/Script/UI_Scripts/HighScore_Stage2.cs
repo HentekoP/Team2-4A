@@ -19,7 +19,7 @@ public class HighScore_Stage2 : MonoBehaviour
     public GameObject Stage2_rankimage_B;
     public GameObject Stage2_rankimage_C;
 
-    public static int HighestRank = 0;
+    public int HighestRank = 0;
 
     void Start()
     {
@@ -49,6 +49,23 @@ public class HighScore_Stage2 : MonoBehaviour
         else
         {
             HighSText.text = "<sprite=0>";
+        }
+
+        if (HighestScore >= 95)
+        {
+            HighestRank = 1;
+        }
+        else if (75 <= HighestScore && HighestScore < 95)
+        {
+            HighestRank = 2;
+        }
+        else if (40 <= HighestScore && HighestScore < 75)
+        {
+            HighestRank = 3;
+        }
+        else if (HighestScore < 40 && HighestScore != 0)
+        {
+            HighestRank = 4;
         }
 
         switch (HighestRank)

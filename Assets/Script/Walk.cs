@@ -26,13 +26,4 @@ public class Walk : MonoBehaviour
         source.PlayOneShot(clips[Random.Range(0, clips.Length)]);
     }
 
-    public void Playjump()
-    {
-        source.PlayOneShot(se[0]);
-    }
-    
-    public void Playlanding()
-    {
-        source.PlayOneShot(se[1]);
-    }
 }
