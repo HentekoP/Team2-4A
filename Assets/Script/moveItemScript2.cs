@@ -7,7 +7,7 @@ public class moveItemScript2 : MonoBehaviour
 {
     public GameObject player;
     public GameObject point;
-    public Text itemText1, itemText2;
+    public GameObject itemText1, itemText2;
     public Image stage_1;
     public Image stage_2;
 
@@ -30,14 +30,14 @@ public class moveItemScript2 : MonoBehaviour
 
         mask = 1 << 8;
         grab = false;
-        itemText1.text = "";
-        itemText2.text = "";
 
         // アタッチしたオーディオソースのうち1番目を使用する
         source = GetComponents<AudioSource>()[0];
 
         stage_1.gameObject.SetActive(false);
         stage_2.gameObject.SetActive(false);
+        itemText1.gameObject.SetActive(false);
+        itemText2.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,7 +51,8 @@ public class moveItemScript2 : MonoBehaviour
 
                 stage_1.gameObject.SetActive(false);
                 stage_2.gameObject.SetActive(false);
-
+                itemText1.gameObject.SetActive(false);
+                itemText2.gameObject.SetActive(true);
                 sc_item1.ray = true;
 
                 Debug.DrawRay(player.transform.position, player.transform.transform.forward * hit.distance, Color.yellow);
@@ -89,11 +90,15 @@ public class moveItemScript2 : MonoBehaviour
                 if (hit.collider.CompareTag("Item")) {
                     stage_1.gameObject.SetActive(true);
                     stage_2.gameObject.SetActive(false);
+                    itemText1.gameObject.SetActive(true);
+                    itemText2.gameObject.SetActive(false);
                 }
                 else if(hit.collider.CompareTag("Item2"))
                 {
                     stage_2.gameObject.SetActive(true);
                     stage_1.gameObject.SetActive(false);
+                    itemText1.gameObject.SetActive(true);
+                    itemText2.gameObject.SetActive(false);
                 }
                 //itemText1.text =  hit.collider.name; // オブジェクトの名前を表示
                 //itemText2.text =  hit.collider.name; // オブジェクトの名前を表示
@@ -119,10 +124,6 @@ public class moveItemScript2 : MonoBehaviour
 
                     //item_up = item1.transform.up; // 持ったときのアイテムの上方向を記憶
                     item1.layer = LayerMask.NameToLayer("Cube"); //「Cube」レイヤーをつける
-
-                    itemText1.text = "";
-                    itemText2.text = "";
-
                 }
             }
         }
@@ -131,6 +132,9 @@ public class moveItemScript2 : MonoBehaviour
 
             stage_1.gameObject.SetActive(false);
             stage_2.gameObject.SetActive(false);
+            itemText1.gameObject.SetActive(false);
+            itemText2.gameObject.SetActive(false);
+
             //itemText1.text = null; // オブジェクトの名前を非表示
             //itemText2.text = null; // オブジェクトの名前を非表示
             if (grab)
