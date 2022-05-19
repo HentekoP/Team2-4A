@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -591,6 +591,7 @@ MonoBehaviour:
   rankimage_A: {fileID: 1010729994}
   rankimage_B: {fileID: 446987549}
   rankimage_C: {fileID: 923105722}
+  HighestRank: 0
 --- !u!4 &36462097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4322541131246098, guid: 98ed76314c8d820429b556f5a446e393,
@@ -1169,7 +1170,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5a9383dda6cabc047b7a297602e93eb4, type: 3}
   - {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
   se:
-  - {fileID: 8300000, guid: 9d1fab0d1a1b11a4285f15674043fb51, type: 3}
   - {fileID: 8300000, guid: 162d01fe1fb7eee4f9bd85bf684d3fa9, type: 3}
   randomizePitch: 1
   pitchRange: 0.1
@@ -3642,7 +3642,7 @@ GameObject:
   - component: {fileID: 347786521}
   m_Layer: 0
   m_Name: SNAPS_Level
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -15836,6 +15836,7 @@ MonoBehaviour:
   Stage2_rankimage_A: {fileID: 44922722}
   Stage2_rankimage_B: {fileID: 2070308335}
   Stage2_rankimage_C: {fileID: 1188271956}
+  HighestRank: 0
 --- !u!1001 &1603657523
 PrefabInstance:
   m_ObjectHideFlags: 0
