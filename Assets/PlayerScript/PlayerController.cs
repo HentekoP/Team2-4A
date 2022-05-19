@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private float xRotate;
     private float yRotate;
     [SerializeField]
-    private float RstickSpeed = 1.8f;
+    private float RstickSpeed = 1.85f;
     private Quaternion charaRotate;
     private Quaternion cameraRotate;
     private bool charaRotFlag = false;
