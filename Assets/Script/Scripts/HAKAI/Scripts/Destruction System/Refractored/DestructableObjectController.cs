@@ -14,7 +14,7 @@ public class DestructableObjectController : MonoBehaviour
 
     DestroyedPieceController PieceCount;
 
-    public AudioClip SE;
+    //public AudioClip SE;
     public AudioSource source;
 
     private void Awake()//ゲームがスタートされるとすべての子供たちにアタッチする
@@ -37,7 +37,7 @@ public class DestructableObjectController : MonoBehaviour
         }
         
         StartCoroutine(run_physics_steps(1));//物理演算を10回実行するルーチン
-        source.GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -66,7 +66,8 @@ public class DestructableObjectController : MonoBehaviour
 
                 if (piece.is_connected == false && piece.Cflg == true)
                 {
-                    source.PlayOneShot(SE);
+                    source.Play();
+
                     DestroyedPieceController.DestroyPieceCount++;
                     piece.Cflg = false;
                     Debug.Log(/*"入った"*/DestroyedPieceController.DestroyPieceCount);
