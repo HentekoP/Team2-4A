@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private float xRotate;
     private float yRotate;
     [SerializeField]
-    private float RstickSpeed = 1.8f;
+    private float RstickSpeed = 1.85f;
     private Quaternion charaRotate;
     private Quaternion cameraRotate;
     private bool charaRotFlag = false;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     private float dashJumpPower = 6f;
     private bool jump;
     private bool Attack;
-    private bool jumpFlg = false;
+    public static bool jumpFlg;
     Rigidbody rb;
     [SerializeField]
     private Image GameOver;
@@ -65,6 +65,7 @@ public class PlayerController : MonoBehaviour
         No.enabled = false;
         ContinueFlg = false;
         GameOverFlg = false;
+        jumpFlg = false;
     }
     void Update()
     {
@@ -72,7 +73,7 @@ public class PlayerController : MonoBehaviour
         RotateChara();
         RotateCamera();
 
-        velocity = new Vector3(Input.GetAxis("Horizontal"), 0f, -(Input.GetAxis("Vertical")));
+        velocity = new Vector3(Input.GetAxis("Horizontal1"), 0f, (Input.GetAxis("Vertical1")));
         velocity = transform.TransformDirection(velocity);
 
         float speed = 0f;
@@ -205,6 +206,10 @@ public class PlayerController : MonoBehaviour
     public static bool GetGameOverFlg()
     {
         return GameOverFlg;
+    }
+    public static bool GetjumpFlg()
+    {
+        return jumpFlg;
     }
 }
 

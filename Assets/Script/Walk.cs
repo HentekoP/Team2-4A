@@ -26,13 +26,12 @@ public class Walk : MonoBehaviour
         source.PlayOneShot(clips[Random.Range(0, clips.Length)]);
     }
 
-    public void Playjump()
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        source.PlayOneShot(se[0]);
-    }
-    
-    public void Playlanding()
-    {
-        source.PlayOneShot(se[1]);
+        //Sphereにぶつかれば、パーティクルを発生させる
+        if (hit.gameObject.tag == "Ground" && PlayerController.GetjumpFlg() == true)
+        {
+            source.PlayOneShot(se[0]);
+        }
     }
 }

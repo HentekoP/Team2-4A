@@ -38,16 +38,6 @@ public class Result : MonoBehaviour
             rank = 4;
         }
 
-        if (SceneChange.Instance.referer == "game")
-        {
-            HighScore.HighestRank = rank;
-        }
-
-        if (SceneChange.Instance.referer == "game2")
-        {
-            HighScore_Stage2.HighestRank = rank;
-        }
-
         //intパラメーターの値を設定する.
         animator.SetInteger("rank", rank);
 
