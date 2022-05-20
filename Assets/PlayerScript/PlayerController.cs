@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     private float dashJumpPower = 6f;
     private bool jump;
     private bool Attack;
-    private bool jumpFlg = false;
+    public static bool jumpFlg;
     Rigidbody rb;
     [SerializeField]
     private Image GameOver;
@@ -65,19 +65,15 @@ public class PlayerController : MonoBehaviour
         No.enabled = false;
         ContinueFlg = false;
         GameOverFlg = false;
+        jumpFlg = false;
     }
     void Update()
     {
-        if (SelectMenu.Select_flg)
-        {
-            RstickSpeed = 0;
-        }
-        else
-            RstickSpeed = 1.8f;
+        
         RotateChara();
         RotateCamera();
 
-        velocity = new Vector3(Input.GetAxis("Horizontal"), 0f, -(Input.GetAxis("Vertical")));
+        velocity = new Vector3(Input.GetAxis("Horizontal1"), 0f, (Input.GetAxis("Vertical1")));
         velocity = transform.TransformDirection(velocity);
 
         float speed = 0f;
@@ -211,8 +207,10 @@ public class PlayerController : MonoBehaviour
     {
         return GameOverFlg;
     }
-
-
+    public static bool GetjumpFlg()
+    {
+        return jumpFlg;
+    }
 }
 
 
