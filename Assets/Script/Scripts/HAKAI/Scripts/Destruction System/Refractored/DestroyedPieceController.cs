@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DestroyedPieceController : MonoBehaviour
@@ -20,12 +21,12 @@ public class DestroyedPieceController : MonoBehaviour
     public bool Cflg;
     public static int DestroyPieceCount;
 
-
+    // Start is called before the first frame update
     void Start()
     {
-        connected_to = new List<DestroyedPieceController>();//まず最初にオブジェクトを固定するためにrigidbodyの設定を変更する
+        connected_to = new List<DestroyedPieceController>();//接続されているものが何か
         _starting_pos = transform.position;
-        _starting_orientation = transform.rotation;// 
+        _starting_orientation = transform.rotation;//オブジェクトの各情報
         _starting_scale = transform.localScale;
 
         transform.localScale *= 1.02f;
@@ -36,7 +37,7 @@ public class DestroyedPieceController : MonoBehaviour
         DestroyPieceCount = 0;
     }
 
-    private void OnCollisionEnter(Collision collision) //もし他のオブジェクトにDestroyedPieceControllerがついているオブジェクトが触れていたらconnected_toリストに載せる
+    private void OnCollisionEnter(Collision collision)
     {
 
         if (!_configured)
@@ -48,10 +49,13 @@ public class DestroyedPieceController : MonoBehaviour
                     connected_to.Add(neighbour);
             }
         }
-
+        //else if (collision.gameObject.CompareTag("Floor"))
+        //{
+        //    VFXController.Instance.spawn_dust_cloud(transform.position);
+        //}
     }
 
-    public void make_static()//下のコンポーネントをアタッチする処理
+    public void make_static()
     {
         _configured = true;
         _rigidbody.isKinematic = true;
@@ -62,20 +66,20 @@ public class DestroyedPieceController : MonoBehaviour
         transform.rotation = _starting_orientation;
     }
 
-    public void cause_damage(Vector3 force) //ハンマーや起爆したときに衝撃を与えてis_connectedを切断し崩れるようにする
+    public void cause_damage(Vector3 force)
     {
         is_connected = false;
-        // Debug.Log(is_connected);
+       // Debug.Log(is_connected);
         _rigidbody.isKinematic = false;
         is_dirty = true;
-        _rigidbody.AddForce(force, ForceMode.Impulse); //崩れたら少し衝撃を与える
-        // VFXController.Instance.spawn_dust_cloud(transform.position);
+        _rigidbody.AddForce(force, ForceMode.Impulse);
+        VFXController.Instance.spawn_dust_cloud(transform.position);
     }
 
     public void drop()
     {
         is_connected = false;
-        // Debug.Log(is_connected);
+       // Debug.Log(is_connected);
         _rigidbody.isKinematic = false;
     }
 }

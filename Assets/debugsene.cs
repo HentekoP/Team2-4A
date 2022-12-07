@@ -16,7 +16,7 @@ public class debugsene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene("game2");
+            SceneManager.LoadScene("game");
         }
     }
 }
