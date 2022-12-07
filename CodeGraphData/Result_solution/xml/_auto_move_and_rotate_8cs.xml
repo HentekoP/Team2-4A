@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_auto_move_and_rotate_8cs" kind="file">
+    <compoundname>AutoMoveAndRotate.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate" prot="public">UnityStandardAssets::Utility::AutoMoveAndRotate</innerclass>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" prot="public">UnityStandardAssets::Utility::AutoMoveAndRotate::Vector3andSpace</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_utility">UnityStandardAssets::Utility</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.Utility</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate" kindref="compound">AutoMoveAndRotate</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ac1c663ec1f1d0f5f3659506a9738bd32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" kindref="compound">Vector3andSpace</ref><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ac1c663ec1f1d0f5f3659506a9738bd32" kindref="member">moveUnitsPerSecond</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a44e784fd8e9253c3ae420024be95b0e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" kindref="compound">Vector3andSpace</ref><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a44e784fd8e9253c3ae420024be95b0e2" kindref="member">rotateDegreesPerSecond</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a976e08503afdbe2ecc8167b224bc63de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a976e08503afdbe2ecc8167b224bc63de" kindref="member">ignoreTimescale</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a6cbd6fae7fee37df42072e3b8e1ebb9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a6cbd6fae7fee37df42072e3b8e1ebb9c" kindref="member">m_LastRealTime</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ae9dbefc1930f3f071a52e64dabff8189" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ae9dbefc1930f3f071a52e64dabff8189" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LastRealTime<sp/>=<sp/>Time.realtimeSinceStartup;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>is<sp/>called<sp/>once<sp/>per<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a291401d868f8dc0cb1c89b2318b69822" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a291401d868f8dc0cb1c89b2318b69822" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaTime<sp/>=<sp/>Time.deltaTime;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ignoreTimescale)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>deltaTime<sp/>=<sp/>(Time.realtimeSinceStartup<sp/>-<sp/>m_LastRealTime);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LastRealTime<sp/>=<sp/>Time.realtimeSinceStartup;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.Translate(moveUnitsPerSecond.value*deltaTime,<sp/>moveUnitsPerSecond.space);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.Rotate(rotateDegreesPerSecond.value*deltaTime,<sp/>moveUnitsPerSecond.space);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="35" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" kindref="compound">Vector3andSpace</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space_1aab8bd7cedeb6c93b687a5693aeda36de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space_1aab8bd7cedeb6c93b687a5693aeda36de" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space_1a2530d3818ba403e264d03c0d06014f5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Space<sp/>space<sp/>=<sp/>Space.Self;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_car_self_righting_8cs" kind="file">
+    <compoundname>CarSelfRighting.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting" prot="public">UnityStandardAssets::Vehicles::Car::CarSelfRighting</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_vehicles_1_1_car">UnityStandardAssets::Vehicles::Car</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.Vehicles.Car</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting" kindref="compound">CarSelfRighting</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Automatically<sp/>put<sp/>the<sp/>car<sp/>the<sp/>right<sp/>way<sp/>up,<sp/>if<sp/>it<sp/>has<sp/>come<sp/>to<sp/>rest<sp/>upside-down.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ae996d811cde750debe65ba9934442083" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m_WaitTime<sp/>=<sp/>3f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>time<sp/>to<sp/>wait<sp/>before<sp/>self<sp/>righting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a0f3c7c3b27b3d41f39aacb6be8bf8877" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m_VelocityThreshold<sp/>=<sp/>1f;<sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>velocity<sp/>below<sp/>which<sp/>the<sp/>car<sp/>is<sp/>considered<sp/>stationary<sp/>for<sp/>self-righting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a2b193fca7d04d16bddb0d9eae53be890" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a2b193fca7d04d16bddb0d9eae53be890" kindref="member">m_LastOkTime</ref>;<sp/></highlight><highlight class="comment">//<sp/>the<sp/>last<sp/>time<sp/>that<sp/>the<sp/>car<sp/>was<sp/>in<sp/>an<sp/>OK<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a216aabdca915b91fe3c585afc5325e23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Rigidbody<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a216aabdca915b91fe3c585afc5325e23" kindref="member">m_Rigidbody</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ad3ebe7a28d609d087e9c9b505135439d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ad3ebe7a28d609d087e9c9b505135439d" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Rigidbody<sp/>=<sp/>GetComponent&lt;Rigidbody&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a8fd732fd85a2d502e07fc06fc8c71ff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a8fd732fd85a2d502e07fc06fc8c71ff7" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>is<sp/>the<sp/>car<sp/>is<sp/>the<sp/>right<sp/>way<sp/>up</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(transform.up.y<sp/>&gt;<sp/>0f<sp/>||<sp/>m_Rigidbody.velocity.magnitude<sp/>&gt;<sp/>m_VelocityThreshold)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LastOkTime<sp/>=<sp/>Time.time;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Time.time<sp/>&gt;<sp/>m_LastOkTime<sp/>+<sp/>m_WaitTime)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RightCar();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>the<sp/>car<sp/>back<sp/>the<sp/>right<sp/>way<sp/>up:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a85928236aa20e15a257ce54ad9359263" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a85928236aa20e15a257ce54ad9359263" kindref="member">RightCar</ref>()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>correct<sp/>orientation<sp/>for<sp/>the<sp/>car,<sp/>and<sp/>lift<sp/>it<sp/>off<sp/>the<sp/>ground<sp/>a<sp/>little</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.position<sp/>+=<sp/>Vector3.up;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.rotation<sp/>=<sp/>Quaternion.LookRotation(transform.forward);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs"/>
+  </compounddef>
+</doxygen>

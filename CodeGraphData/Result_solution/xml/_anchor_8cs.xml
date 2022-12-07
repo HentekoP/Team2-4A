@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_anchor_8cs" kind="file">
+    <compoundname>Anchor.cs</compoundname>
+    <innernamespace refid="namespace_project_1_1_scripts_1_1_fractures">Project::Scripts::Fractures</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UNITY_EDITOR</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_project_1_1_scripts_1_1_fractures" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Project.Scripts.Fractures</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[Flags]</highlight></codeline>
+<codeline lineno="10" refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19ba6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19ba945d5e233cf7d6240f6b783b36a374ff" kindref="member">Left</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19ba92b09c7c48c520c3c55e497875da437c" kindref="member">Right</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19ba2ad9d63b69c4a10a5cc9cad923133bc4" kindref="member">Bottom</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19baa4ffdcf0dc1f31b9acaf295d75b51d00" kindref="member">Top</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19ba5835bab1ade0060909e31a06af2e2cde" kindref="member">Front</ref><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19ba0557fa923dcee4d0f86b1409f5c2167f" kindref="member">Back</ref><sp/>=<sp/>32</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UNITY_EDITOR</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>[CustomPropertyDrawer(typeof(<ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref>))]</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AnchorDrawer<sp/>:<sp/>PropertyDrawer</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnGUI(Rect<sp/>position,<sp/>SerializedProperty<sp/>property,<sp/>GUIContent<sp/>label)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label<sp/>=<sp/>EditorGUI.BeginProperty(position,<sp/>label,<sp/>property);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>property.intValue<sp/>=<sp/>(int)(<ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref>)EditorGUI.EnumFlagsField(position,<sp/>label,<sp/>(<ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref>)property.intValue);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUI.EndProperty();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Anchor.cs"/>
+  </compounddef>
+</doxygen>

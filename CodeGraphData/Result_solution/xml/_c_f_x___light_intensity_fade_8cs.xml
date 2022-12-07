@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_f_x___light_intensity_fade_8cs" kind="file">
+    <compoundname>CFX_LightIntensityFade.cs</compoundname>
+    <innerclass refid="class_c_f_x___light_intensity_fade" prot="public">CFX_LightIntensityFade</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Cartoon<sp/>FX<sp/><sp/>-<sp/>(c)<sp/>2015,<sp/>Jean<sp/>Moreno</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Decreases<sp/>a<sp/>light&apos;s<sp/>intensity<sp/>over<sp/>time.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">[RequireComponent(typeof(Light))]</highlight></codeline>
+<codeline lineno="9" refid="class_c_f_x___light_intensity_fade" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_f_x___light_intensity_fade" kindref="compound">CFX_LightIntensityFade</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Duration<sp/>of<sp/>the<sp/>effect.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_c_f_x___light_intensity_fade_1a89ccd5a4c2f8edc526d4f2c0ce0e0a9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a89ccd5a4c2f8edc526d4f2c0ce0e0a9c" kindref="member">duration</ref><sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Delay<sp/>of<sp/>the<sp/>effect.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_c_f_x___light_intensity_fade_1aad612fec2f31341eb0bd10445e2d00be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1aad612fec2f31341eb0bd10445e2d00be" kindref="member">delay</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18" refid="class_c_f_x___light_intensity_fade_1a32876af8e1dabdf92235be933a518290" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a32876af8e1dabdf92235be933a518290" kindref="member">finalIntensity</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Base<sp/>intensity,<sp/>automatically<sp/>taken<sp/>from<sp/>light<sp/>parameters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_c_f_x___light_intensity_fade_1a09d82f2218fc41464dd843339239cfa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a09d82f2218fc41464dd843339239cfa0" kindref="member">baseIntensity</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>&lt;c&gt;true&lt;/c&gt;,<sp/>light<sp/>will<sp/>destructs<sp/>itself<sp/>on<sp/>completion<sp/>of<sp/>the<sp/>effect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_c_f_x___light_intensity_fade_1a2afc0f55cb6a90b703e034a1fd6ad301" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a2afc0f55cb6a90b703e034a1fd6ad301" kindref="member">autodestruct</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="class_c_f_x___light_intensity_fade_1a6f7fe36cb3a1594c63b61bede0ce8f41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a6f7fe36cb3a1594c63b61bede0ce8f41" kindref="member">p_lifetime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="27" refid="class_c_f_x___light_intensity_fade_1a775594de2c39a9098354f1ce67afdc5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a775594de2c39a9098354f1ce67afdc5e" kindref="member">p_delay</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="class_c_f_x___light_intensity_fade_1a57a85edd6bdfb561c0e8afd0b74a4cd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1a57a85edd6bdfb561c0e8afd0b74a4cd3" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_f_x___light_intensity_fade_1a09d82f2218fc41464dd843339239cfa0" kindref="member">baseIntensity</ref><sp/>=<sp/>GetComponent&lt;Light&gt;().intensity;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34" refid="class_c_f_x___light_intensity_fade_1af30f1eb5baed59b5ecdec2b4b3972ece" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1af30f1eb5baed59b5ecdec2b4b3972ece" kindref="member">OnEnable</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_f_x___light_intensity_fade_1a6f7fe36cb3a1594c63b61bede0ce8f41" kindref="member">p_lifetime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_f_x___light_intensity_fade_1a775594de2c39a9098354f1ce67afdc5e" kindref="member">p_delay</ref><sp/>=<sp/><ref refid="class_c_f_x___light_intensity_fade_1aad612fec2f31341eb0bd10445e2d00be" kindref="member">delay</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_c_f_x___light_intensity_fade_1aad612fec2f31341eb0bd10445e2d00be" kindref="member">delay</ref><sp/>&gt;<sp/>0)<sp/>GetComponent&lt;Light&gt;().enabled<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41" refid="class_c_f_x___light_intensity_fade_1afcb9b94435abb41520833a83d214ed3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___light_intensity_fade_1afcb9b94435abb41520833a83d214ed3a" kindref="member">Update</ref><sp/>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_c_f_x___light_intensity_fade_1a775594de2c39a9098354f1ce67afdc5e" kindref="member">p_delay</ref><sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_f_x___light_intensity_fade_1a775594de2c39a9098354f1ce67afdc5e" kindref="member">p_delay</ref><sp/>-=<sp/>Time.deltaTime;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_c_f_x___light_intensity_fade_1a775594de2c39a9098354f1ce67afdc5e" kindref="member">p_delay</ref><sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetComponent&lt;Light&gt;().enabled<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_c_f_x___light_intensity_fade_1a6f7fe36cb3a1594c63b61bede0ce8f41" kindref="member">p_lifetime</ref>/<ref refid="class_c_f_x___light_intensity_fade_1a89ccd5a4c2f8edc526d4f2c0ce0e0a9c" kindref="member">duration</ref><sp/>&lt;<sp/>1.0f)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetComponent&lt;Light&gt;().intensity<sp/>=<sp/>Mathf.Lerp(<ref refid="class_c_f_x___light_intensity_fade_1a09d82f2218fc41464dd843339239cfa0" kindref="member">baseIntensity</ref>,<sp/><ref refid="class_c_f_x___light_intensity_fade_1a32876af8e1dabdf92235be933a518290" kindref="member">finalIntensity</ref>,<sp/><ref refid="class_c_f_x___light_intensity_fade_1a6f7fe36cb3a1594c63b61bede0ce8f41" kindref="member">p_lifetime</ref>/<ref refid="class_c_f_x___light_intensity_fade_1a89ccd5a4c2f8edc526d4f2c0ce0e0a9c" kindref="member">duration</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_f_x___light_intensity_fade_1a6f7fe36cb3a1594c63b61bede0ce8f41" kindref="member">p_lifetime</ref><sp/>+=<sp/>Time.deltaTime;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_c_f_x___light_intensity_fade_1a2afc0f55cb6a90b703e034a1fd6ad301" kindref="member">autodestruct</ref>)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GameObject.Destroy(this.gameObject);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs"/>
+  </compounddef>
+</doxygen>

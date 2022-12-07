@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_break_s_e_8cs" kind="file">
+    <compoundname>BreakSE.cs</compoundname>
+    <innerclass refid="class_break_s_e" prot="public">BreakSE</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_break_s_e" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_break_s_e" kindref="compound">BreakSE</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_break_s_e_1a9df60b307ff10504f6e9e42b1b1e715a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioClip<sp/><ref refid="class_break_s_e_1a9df60b307ff10504f6e9e42b1b1e715a" kindref="member">Bom</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_break_s_e_1a5be3bd9c117922e61ee93d455a8ffbdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioClip<sp/><ref refid="class_break_s_e_1a5be3bd9c117922e61ee93d455a8ffbdc" kindref="member">HammerDestroyed</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_break_s_e_1a61c976b475edb79fa20c9438a1cf4b39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioClip<sp/><ref refid="class_break_s_e_1a61c976b475edb79fa20c9438a1cf4b39" kindref="member">sound5</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_break_s_e_1a12c4c57dbfee76ec8501b8b8a42d205c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AudioSource<sp/><ref refid="class_break_s_e_1a12c4c57dbfee76ec8501b8b8a42d205c" kindref="member">audioSource</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_break_s_e_1ac88b739e98d28c95ce8351f8b51488d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classhamaaa" kindref="compound">hamaaa</ref><sp/><ref refid="class_break_s_e_1ac88b739e98d28c95ce8351f8b51488d3" kindref="member">hammerScript</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_break_s_e_1abd2c0a9242dc1556c9440107f4e6bdc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_break_s_e_1abd2c0a9242dc1556c9440107f4e6bdc9" kindref="member">tri</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_break_s_e_1a13734cfeaad0326c4cda5d8fa23a7a89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_break_s_e_1a13734cfeaad0326c4cda5d8fa23a7a89" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_break_s_e_1a12c4c57dbfee76ec8501b8b8a42d205c" kindref="member">audioSource</ref><sp/>=<sp/>GetComponent&lt;AudioSource&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_break_s_e_1a80c54678b15567a049d5c5a5959a7852" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_break_s_e_1a80c54678b15567a049d5c5a5959a7852" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_break_s_e_1abd2c0a9242dc1556c9440107f4e6bdc9" kindref="member">tri</ref><sp/>=<sp/>Input.GetAxis(</highlight><highlight class="stringliteral">&quot;RT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_break_s_e_1abd2c0a9242dc1556c9440107f4e6bdc9" kindref="member">tri</ref><sp/>==<sp/>1.0f<sp/>&amp;&amp;<sp/>GameObject.FindWithTag(</highlight><highlight class="stringliteral">&quot;bomb&quot;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/><sp/>&amp;&amp;<sp/>GameObject.FindWithTag(</highlight><highlight class="stringliteral">&quot;Switch&quot;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audioSource.PlayOneShot(<ref refid="class_break_s_e_1a9df60b307ff10504f6e9e42b1b1e715a" kindref="member">Bom</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetButtonDown(</highlight><highlight class="stringliteral">&quot;X&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_break_s_e_1ac88b739e98d28c95ce8351f8b51488d3" kindref="member">hammerScript</ref>.<ref refid="classhamaaa_1af10fe064dbe2243f82aa23cc4eaacec7" kindref="member">objectHP</ref><sp/>==<sp/>0<sp/>&amp;&amp;<sp/><ref refid="classhamaaa" kindref="compound">hamaaa</ref>.<ref refid="classhamaaa_1a719bae466f602be426edd67326fd61ed" kindref="member">HammerFlg</ref><sp/>==</highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audioSource.PlayOneShot(<ref refid="class_break_s_e_1a5be3bd9c117922e61ee93d455a8ffbdc" kindref="member">HammerDestroyed</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hamaaa.HammerFlg<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BreakSE.cs"/>
+  </compounddef>
+</doxygen>

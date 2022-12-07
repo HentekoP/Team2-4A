@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_camera_switch_8cs" kind="file">
+    <compoundname>CameraSwitch.cs</compoundname>
+    <innerclass refid="class_camera_switch" prot="public">CameraSwitch</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_camera_switch" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_camera_switch" kindref="compound">CameraSwitch</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject[]<sp/><ref refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" kindref="member">objects</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_camera_switch_1a30a949eb90a53466e83ebf30bf2adb0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Text<sp/><ref refid="class_camera_switch_1a30a949eb90a53466e83ebf30bf2adb0c" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" kindref="member">m_CurrentActiveObject</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_camera_switch_1abc567cfbb3e122ac433d1cac7d781430" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_switch_1abc567cfbb3e122ac433d1cac7d781430" kindref="member">OnEnable</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text.text<sp/>=<sp/><ref refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" kindref="member">objects</ref>[<ref refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" kindref="member">m_CurrentActiveObject</ref>].name;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_camera_switch_1ac83bb226cfbf6c5cfc89a4b69a6935b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_camera_switch_1ac83bb226cfbf6c5cfc89a4b69a6935b6" kindref="member">NextCamera</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nextactiveobject<sp/>=<sp/><ref refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" kindref="member">m_CurrentActiveObject</ref><sp/>+<sp/>1<sp/>&gt;=<sp/>objects.Length<sp/>?<sp/>0<sp/>:<sp/><ref refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" kindref="member">m_CurrentActiveObject</ref><sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>objects.Length;<sp/>i++)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" kindref="member">objects</ref>[i].SetActive(i<sp/>==<sp/>nextactiveobject);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" kindref="member">m_CurrentActiveObject</ref><sp/>=<sp/>nextactiveobject;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text.text<sp/>=<sp/><ref refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" kindref="member">objects</ref>[<ref refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" kindref="member">m_CurrentActiveObject</ref>].name;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs"/>
+  </compounddef>
+</doxygen>

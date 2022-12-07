@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_camera2_d_follow_8cs" kind="file">
+    <compoundname>Camera2DFollow.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow" prot="public">UnityStandardAssets::_2D::Camera2DFollow</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1__2_d">UnityStandardAssets::_2D</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_unity_standard_assets_1_1__2_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets._2D</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow" kindref="compound">Camera2DFollow</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a7a5c331fd4d80f160c325f872cacea11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a7a5c331fd4d80f160c325f872cacea11" kindref="member">target</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a47713bd9650a293b93861d1ff0128dd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>damping<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a997bd2b2df46706d19618dd6a5ba9699" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lookAheadFactor<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="11" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a8e35cbc4c1ea8f013391cc4780924b57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lookAheadReturnSpeed<sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="12" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a387c9b01976bc3fd0537da5cd6d33fe0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lookAheadMoveThreshold<sp/>=<sp/>0.1f;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a11765705c976a95ef99a28ac2e0f5b9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a11765705c976a95ef99a28ac2e0f5b9b" kindref="member">m_OffsetZ</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1afd7952907b496d601e6cdfbe7918320b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1afd7952907b496d601e6cdfbe7918320b" kindref="member">m_LastTargetPosition</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a903158868201c2bfd58e0b06a57bee93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a903158868201c2bfd58e0b06a57bee93" kindref="member">m_CurrentVelocity</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a083a2c20ad19dc2e97597e9f21eb694b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a083a2c20ad19dc2e97597e9f21eb694b" kindref="member">m_LookAheadPos</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>for<sp/>initialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a688f7509312f87182d87ec1e69fc8b0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a688f7509312f87182d87ec1e69fc8b0a" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LastTargetPosition<sp/>=<sp/>target.position;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_OffsetZ<sp/>=<sp/>(transform.position<sp/>-<sp/>target.position).z;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.parent<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>is<sp/>called<sp/>once<sp/>per<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1af7d735aded26edffb89d8177bc668166" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1af7d735aded26edffb89d8177bc668166" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>only<sp/>update<sp/>lookahead<sp/>pos<sp/>if<sp/>accelerating<sp/>or<sp/>changed<sp/>direction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>xMoveDelta<sp/>=<sp/>(target.position<sp/>-<sp/>m_LastTargetPosition).x;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateLookAheadTarget<sp/>=<sp/>Mathf.Abs(xMoveDelta)<sp/>&gt;<sp/>lookAheadMoveThreshold;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(updateLookAheadTarget)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LookAheadPos<sp/>=<sp/>lookAheadFactor*Vector3.right*Mathf.Sign(xMoveDelta);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LookAheadPos<sp/>=<sp/>Vector3.MoveTowards(m_LookAheadPos,<sp/>Vector3.zero,<sp/>Time.deltaTime*lookAheadReturnSpeed);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>aheadTargetPos<sp/>=<sp/>target.position<sp/>+<sp/>m_LookAheadPos<sp/>+<sp/>Vector3.forward*m_OffsetZ;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>newPos<sp/>=<sp/>Vector3.SmoothDamp(transform.position,<sp/>aheadTargetPos,<sp/>ref<sp/>m_CurrentVelocity,<sp/>damping);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.position<sp/>=<sp/>newPos;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LastTargetPosition<sp/>=<sp/>target.position;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs"/>
+  </compounddef>
+</doxygen>

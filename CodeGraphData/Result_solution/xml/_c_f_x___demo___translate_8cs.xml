@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_c_f_x___demo___translate_8cs" kind="file">
+    <compoundname>CFX_Demo_Translate.cs</compoundname>
+    <innerclass refid="class_c_f_x___demo___translate" prot="public">CFX_Demo_Translate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Cartoon<sp/>FX<sp/><sp/>-<sp/>(c)<sp/>2015,<sp/>Jean<sp/>Moreno</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_c_f_x___demo___translate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_f_x___demo___translate" kindref="compound">CFX_Demo_Translate</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_c_f_x___demo___translate_1a82cbe70d7263e031856e2e30897a4689" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___demo___translate_1a82cbe70d7263e031856e2e30897a4689" kindref="member">speed</ref><sp/>=<sp/>30.0f;</highlight></codeline>
+<codeline lineno="9" refid="class_c_f_x___demo___translate_1ad21edddd8d923cf379e118bf3614f7d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_c_f_x___demo___translate_1ad21edddd8d923cf379e118bf3614f7d8" kindref="member">rotation</ref><sp/>=<sp/>Vector3.forward;</highlight></codeline>
+<codeline lineno="10" refid="class_c_f_x___demo___translate_1a5508c41c85a44e0c708f14401c6205f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_c_f_x___demo___translate_1a5508c41c85a44e0c708f14401c6205f9" kindref="member">axis</ref><sp/>=<sp/>Vector3.forward;</highlight></codeline>
+<codeline lineno="11" refid="class_c_f_x___demo___translate_1a6905f0cdcd977129af2dc26ba1d69cf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___demo___translate_1a6905f0cdcd977129af2dc26ba1d69cf0" kindref="member">gravity</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" kindref="member">dir</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14" refid="class_c_f_x___demo___translate_1a1a88040388960ad9364d30021e9ff46d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___demo___translate_1a1a88040388960ad9364d30021e9ff46d" kindref="member">Start</ref><sp/>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" kindref="member">dir</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(<ref refid="_fracture_this_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref>.Range(0.0f,360.0f),Random.Range(0.0f,360.0f),<ref refid="_fracture_this_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref>.Range(0.0f,360.0f));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dir.Scale(<ref refid="class_c_f_x___demo___translate_1ad21edddd8d923cf379e118bf3614f7d8" kindref="member">rotation</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.localEulerAngles<sp/>=<sp/><ref refid="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" kindref="member">dir</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21" refid="class_c_f_x___demo___translate_1a099e68931a8f49a23a8d3d5983fe577a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_f_x___demo___translate_1a099e68931a8f49a23a8d3d5983fe577a" kindref="member">Update</ref><sp/>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.Translate(<ref refid="class_c_f_x___demo___translate_1a5508c41c85a44e0c708f14401c6205f9" kindref="member">axis</ref><sp/>*<sp/><ref refid="class_c_f_x___demo___translate_1a82cbe70d7263e031856e2e30897a4689" kindref="member">speed</ref><sp/>*<sp/>Time.deltaTime,<sp/>Space.Self);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs"/>
+  </compounddef>
+</doxygen>
