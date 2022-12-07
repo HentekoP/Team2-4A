@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_delaunay_triangulation" kind="class" prot="public">
+    <compoundname>GK::DelaunayTriangulation</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_k_1_1_delaunay_triangulation_1a05beff9aba2f2507d42dea67622edd57" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; Vector2 &gt;</type>
+        <definition>readonly List&lt;Vector2&gt; GK.DelaunayTriangulation.Vertices</definition>
+        <argsstring></argsstring>
+        <name>Vertices</name>
+        <briefdescription>
+<para>List of vertices that make up the triangulation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_delaunay_triangulation_1a23b5551ce8e48602d7f26a0449660c64" compoundref="_delaunay_triangulation_8cs" startline="41" endline="44">GK.DelaunayTriangulation.DelaunayTriangulation</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_triangulation_1a095c7896d596e753f2d228eb4b84251d" compoundref="_delaunay_triangulation_8cs" startline="54" endline="73">GK.DelaunayTriangulation.Verify</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_delaunay_triangulation_1a72c60f87cbd6f47f53edd526f8788a07" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; int &gt;</type>
+        <definition>readonly List&lt;int&gt; GK.DelaunayTriangulation.Triangles</definition>
+        <argsstring></argsstring>
+        <name>Triangles</name>
+        <briefdescription>
+<para>List of triangles that make up the triangulation. The elements index the Vertices array. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_delaunay_triangulation_1a23b5551ce8e48602d7f26a0449660c64" compoundref="_delaunay_triangulation_8cs" startline="41" endline="44">GK.DelaunayTriangulation.DelaunayTriangulation</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_triangulation_1a095c7896d596e753f2d228eb4b84251d" compoundref="_delaunay_triangulation_8cs" startline="54" endline="73">GK.DelaunayTriangulation.Verify</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_triangulation_1a23b5551ce8e48602d7f26a0449660c64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GK.DelaunayTriangulation.DelaunayTriangulation</definition>
+        <argsstring>()</argsstring>
+        <name>DelaunayTriangulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" bodystart="41" bodyend="44"/>
+        <references refid="class_g_k_1_1_delaunay_triangulation_1a72c60f87cbd6f47f53edd526f8788a07" compoundref="_delaunay_triangulation_8cs" startline="39">GK.DelaunayTriangulation.Triangles</references>
+        <references refid="class_g_k_1_1_delaunay_triangulation_1a05beff9aba2f2507d42dea67622edd57" compoundref="_delaunay_triangulation_8cs" startline="33">GK.DelaunayTriangulation.Vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_triangulation_1ae620c2275a618e6d7bcfd6a530e23e14" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.DelaunayTriangulation.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_triangulation_1a095c7896d596e753f2d228eb4b84251d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GK.DelaunayTriangulation.Verify</definition>
+        <argsstring>()</argsstring>
+        <name>Verify</name>
+        <briefdescription>
+<para>Verify that this is an actual Delaunay triangulation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" bodystart="54" bodyend="73"/>
+        <references refid="class_g_k_1_1_geom_1aa32e892d2e16b49ce09168ec780f57f5" compoundref="_geom_8cs" startline="65" endline="78">GK.Geom.InsideCircumcircle</references>
+        <references refid="class_g_k_1_1_delaunay_triangulation_1a72c60f87cbd6f47f53edd526f8788a07" compoundref="_delaunay_triangulation_8cs" startline="39">GK.DelaunayTriangulation.Triangles</references>
+        <references refid="class_g_k_1_1_delaunay_triangulation_1a05beff9aba2f2507d42dea67622edd57" compoundref="_delaunay_triangulation_8cs" startline="33">GK.DelaunayTriangulation.Vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayTriangulation.cs" bodystart="28" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_delaunay_triangulation_1ae620c2275a618e6d7bcfd6a530e23e14" prot="package" virt="non-virtual"><scope>GK::DelaunayTriangulation</scope><name>Clear</name></member>
+      <member refid="class_g_k_1_1_delaunay_triangulation_1a23b5551ce8e48602d7f26a0449660c64" prot="package" virt="non-virtual"><scope>GK::DelaunayTriangulation</scope><name>DelaunayTriangulation</name></member>
+      <member refid="class_g_k_1_1_delaunay_triangulation_1a72c60f87cbd6f47f53edd526f8788a07" prot="public" virt="non-virtual"><scope>GK::DelaunayTriangulation</scope><name>Triangles</name></member>
+      <member refid="class_g_k_1_1_delaunay_triangulation_1a095c7896d596e753f2d228eb4b84251d" prot="public" virt="non-virtual"><scope>GK::DelaunayTriangulation</scope><name>Verify</name></member>
+      <member refid="class_g_k_1_1_delaunay_triangulation_1a05beff9aba2f2507d42dea67622edd57" prot="public" virt="non-virtual"><scope>GK::DelaunayTriangulation</scope><name>Vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

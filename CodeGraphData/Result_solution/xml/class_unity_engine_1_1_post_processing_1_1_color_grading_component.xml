@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_color_grading_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ColorGradingComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::ColorGradingComponent::Uniforms</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a47f6f9ef47432ef92eaf0f50a62cbbca" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.ColorGradingComponent.k_InternalLogLutSize</definition>
+        <argsstring></argsstring>
+        <name>k_InternalLogLutSize</name>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2ec5f0cd56b5ddfb30d77fe7d364ac4e" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.ColorGradingComponent.k_CurvePrecision</definition>
+        <argsstring></argsstring>
+        <name>k_CurvePrecision</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ad92888374d8c7a1f096df618e2e30428" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityEngine.PostProcessing.ColorGradingComponent.k_CurveStep</definition>
+        <argsstring></argsstring>
+        <name>k_CurveStep</name>
+        <initializer>= 1f / k_CurvePrecision</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9a4bc1c63cebb8bace5167bc03bf4282" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.ColorGradingComponent.m_GradingCurves</definition>
+        <argsstring></argsstring>
+        <name>m_GradingCurves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2e635890623551fe9e57b30bcaba73a6" prot="private" static="no" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] UnityEngine.PostProcessing.ColorGradingComponent.m_pixels</definition>
+        <argsstring></argsstring>
+        <name>m_pixels</name>
+        <initializer>= new Color[<ref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2ec5f0cd56b5ddfb30d77fe7d364ac4e" kindref="member">k_CurvePrecision</ref> * 2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1acc86c87eda1936a230afa7c7afad7be9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.ColorGradingComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a162bff0d2c5c8a3df92bfccec1847b58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.ColorGradingComponent.StandardIlluminantY</definition>
+        <argsstring>(float x)</argsstring>
+        <name>StandardIlluminantY</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1afbc5e9ca28f3f388c360838fec54b554" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.PostProcessing.ColorGradingComponent.CIExyToLMS</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>CIExyToLMS</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="57" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a772be961926234e3c23af30fb2e56642" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.PostProcessing.ColorGradingComponent.CalculateColorBalance</definition>
+        <argsstring>(float temperature, float tint)</argsstring>
+        <name>CalculateColorBalance</name>
+        <param>
+          <type>float</type>
+          <declname>temperature</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="70" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5ae9ab234c5389df03873ed1d57c9cc0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TextureFormat</type>
+        <definition>TextureFormat UnityEngine.PostProcessing.ColorGradingComponent.GetCurveFormat</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurveFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="226" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="226" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b45534c882ec1bb39aea31224adc880" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.ColorGradingComponent.GetCurveTexture</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurveTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="234" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="234" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a25d1905dd67f35815468477a03717786" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ColorGradingComponent.IsLogLutValid</definition>
+        <argsstring>(RenderTexture lut)</argsstring>
+        <name>IsLogLutValid</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>lut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="277" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ac095cfec399cf1e26fbde543fbed98a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RenderTextureFormat</type>
+        <definition>RenderTextureFormat UnityEngine.PostProcessing.ColorGradingComponent.GetLutFormat</definition>
+        <argsstring>()</argsstring>
+        <name>GetLutFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="282" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="282" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b686d69a9a79fbff52554fbb8c1a70e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.ColorGradingComponent.GenerateLut</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateLut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="290" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="290" bodyend="397"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a87af0e41310076a6abb3a1476c0ee089" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color UnityEngine.PostProcessing.ColorGradingComponent.NormalizeColor</definition>
+        <argsstring>(Color c)</argsstring>
+        <name>NormalizeColor</name>
+        <param>
+          <type>Color</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="87" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a4926ef30ea700919ea542218c9666e35" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.ClampVector</definition>
+        <argsstring>(Vector3 v, float min, float max)</argsstring>
+        <name>ClampVector</name>
+        <param>
+          <type>Vector3</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="103" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetLiftValue</definition>
+        <argsstring>(Color lift)</argsstring>
+        <name>GetLiftValue</name>
+        <param>
+          <type>Color</type>
+          <declname>lift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="112" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetGammaValue</definition>
+        <argsstring>(Color gamma)</argsstring>
+        <name>GetGammaValue</name>
+        <param>
+          <type>Color</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="127" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetGainValue</definition>
+        <argsstring>(Color gain)</argsstring>
+        <name>GetGainValue</name>
+        <param>
+          <type>Color</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="147" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.ColorGradingComponent.CalculateLiftGammaGain</definition>
+        <argsstring>(Color lift, Color gamma, Color gain, out Vector3 outLift, out Vector3 outGamma, out Vector3 outGain)</argsstring>
+        <name>CalculateLiftGammaGain</name>
+        <param>
+          <type>Color</type>
+          <declname>lift</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outLift</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outGamma</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outGain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="162" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetSlopeValue</definition>
+        <argsstring>(Color slope)</argsstring>
+        <name>GetSlopeValue</name>
+        <param>
+          <type>Color</type>
+          <declname>slope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="169" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="169" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetPowerValue</definition>
+        <argsstring>(Color power)</argsstring>
+        <name>GetPowerValue</name>
+        <param>
+          <type>Color</type>
+          <declname>power</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="184" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.PostProcessing.ColorGradingComponent.GetOffsetValue</definition>
+        <argsstring>(Color offset)</argsstring>
+        <name>GetOffsetValue</name>
+        <param>
+          <type>Color</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="204" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="204" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.ColorGradingComponent.CalculateSlopePowerOffset</definition>
+        <argsstring>(Color slope, Color power, Color offset, out Vector3 outSlope, out Vector3 outPower, out Vector3 outOffset)</argsstring>
+        <name>CalculateSlopePowerOffset</name>
+        <param>
+          <type>Color</type>
+          <declname>slope</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>power</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outSlope</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outPower</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>outOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="219" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="219" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ColorGradingComponent.Prepare</definition>
+        <argsstring>(Material uberMaterial)</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4_1adcf0697959b318bf65a96ce47ee26732">Prepare</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>uberMaterial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="399" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="399" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1abf942f421fab142504cd5be46b804815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.ColorGradingComponent.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="421" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="421" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a888398f3d7e4eeb2809dd9f66b185622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ColorGradingComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c">OnDisable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="428" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="428" bodyend="434"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="571">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="570">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="569">
+        <label>PostProcessingComponentRenderTexture&lt; ColorGradingModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="570" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="568">
+        <label>UnityEngine.PostProcessing.ColorGradingComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component"/>
+        <childnode refid="569" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="575">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="576" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="597">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="584">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="594">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="592">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="578">
+        <label>IDisposable</label>
+      </node>
+      <node id="586">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="574">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="575" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="573">
+        <label>PostProcessingComponentRenderTexture&lt; ColorGradingModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="587">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="596">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="590">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="580">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="572">
+        <label>UnityEngine.PostProcessing.ColorGradingComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component"/>
+        <childnode refid="573" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="579">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="580" relation="public-inheritance">
+        </childnode>
+        <childnode refid="581" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="584" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="585" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="586" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="587" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="588" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="589" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="590" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="591" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="592" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="594" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="595" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="596" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="582">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="576">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="577" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="579" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="595">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="577">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="585">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="593">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="583">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="589">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="581">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="591">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="588">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ColorGradingComponent.cs" bodystart="5" bodyend="435"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1acc86c87eda1936a230afa7c7afad7be9" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a772be961926234e3c23af30fb2e56642" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CalculateColorBalance</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5b5248a23b4acc1ea1b5897d13fb1896" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CalculateLiftGammaGain</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a3233c060966fe59cc49a5fc241119748" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CalculateSlopePowerOffset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1afbc5e9ca28f3f388c360838fec54b554" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>CIExyToLMS</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a4926ef30ea700919ea542218c9666e35" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>ClampVector</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b686d69a9a79fbff52554fbb8c1a70e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GenerateLut</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a5ae9ab234c5389df03873ed1d57c9cc0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetCurveFormat</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a1b45534c882ec1bb39aea31224adc880" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetCurveTexture</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a49b829055865dc106c6e19cce8aedb00" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetGainValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a24d6c535749a5f5dc47e98607d4c9816" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetGammaValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a04daf0a2a8a42ead0163935f90d3f1f9" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetLiftValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ac095cfec399cf1e26fbde543fbed98a4" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetLutFormat</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2819904531cd17c52080489f09b36db6" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetOffsetValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9f7481136a36d81b1eea1faa04250bda" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetPowerValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ae2018d90179b6aa3f02e04e8884cc2bf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>GetSlopeValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a25d1905dd67f35815468477a03717786" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>IsLogLutValid</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2ec5f0cd56b5ddfb30d77fe7d364ac4e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>k_CurvePrecision</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1ad92888374d8c7a1f096df618e2e30428" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>k_CurveStep</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a47f6f9ef47432ef92eaf0f50a62cbbca" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>k_InternalLogLutSize</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a9a4bc1c63cebb8bace5167bc03bf4282" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>m_GradingCurves</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a2e635890623551fe9e57b30bcaba73a6" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>m_pixels</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a87af0e41310076a6abb3a1476c0ee089" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>NormalizeColor</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a888398f3d7e4eeb2809dd9f66b185622" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1abf942f421fab142504cd5be46b804815" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>OnGUI</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>Prepare</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a162bff0d2c5c8a3df92bfccec1847b58" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingComponent</scope><name>StandardIlluminantY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

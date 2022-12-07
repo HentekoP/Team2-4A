@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::TimedObjectActivator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries" prot="public">UnityStandardAssets::Utility::TimedObjectActivator::Entries</innerclass>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry" prot="public">UnityStandardAssets::Utility::TimedObjectActivator::Entry</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090" prot="public" static="no">
+        <name>Action</name>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090aa13367a8e2a3f3bf4f3409079e3fdf87" prot="public">
+          <name>Activate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090a109fec06829bd79d222cfc8af52aaaf1" prot="public">
+          <name>Deactivate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090a0e181f89f47654b86f3beb42f5cc08b8" prot="public">
+          <name>Destroy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090ae86156c21b26d74e8a2ac9822b188b53" prot="public">
+          <name>ReloadLevel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090ac3755e61202abd74da5885d2e9c9160e" prot="public">
+          <name>Call</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a9a83bb800381f78d7701ebb24cc58b7a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries" kindref="compound">Entries</ref></type>
+        <definition>Entries UnityStandardAssets.Utility.TimedObjectActivator.entries</definition>
+        <argsstring></argsstring>
+        <name>entries</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries" kindref="compound">Entries</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1ac80433e7d7fffe0799f31e9907e1db67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.TimedObjectActivator.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="42" bodyend="63"/>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry_1a84fbb4ec57c08061063377bd6df0270d" compoundref="_timed_object_activator_8cs" startline="27">UnityStandardAssets.Utility.TimedObjectActivator.Entry.action</references>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry_1a7b892e6433f3ab2fe212b171b57e9a75" compoundref="_timed_object_activator_8cs" startline="28">UnityStandardAssets.Utility.TimedObjectActivator.Entry.delay</references>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry_1a3e9d41eb28d6b3d02c23f535acdcd42b" compoundref="_timed_object_activator_8cs" startline="26">UnityStandardAssets.Utility.TimedObjectActivator.Entry.target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1aa49671cb4daa576e09b294d9118f950b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityStandardAssets.Utility.TimedObjectActivator.Activate</definition>
+        <argsstring>(Entry entry)</argsstring>
+        <name>Activate</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry" kindref="compound">Entry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="66" bodyend="70"/>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry_1a7b892e6433f3ab2fe212b171b57e9a75" compoundref="_timed_object_activator_8cs" startline="28">UnityStandardAssets.Utility.TimedObjectActivator.Entry.delay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a80dcfdf19c38cac04b61739985542c6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityStandardAssets.Utility.TimedObjectActivator.Deactivate</definition>
+        <argsstring>(Entry entry)</argsstring>
+        <name>Deactivate</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry" kindref="compound">Entry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="73" bodyend="77"/>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry_1a7b892e6433f3ab2fe212b171b57e9a75" compoundref="_timed_object_activator_8cs" startline="28">UnityStandardAssets.Utility.TimedObjectActivator.Entry.delay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a8729302c65dbc0234700d179a08b15a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityStandardAssets.Utility.TimedObjectActivator.ReloadLevel</definition>
+        <argsstring>(Entry entry)</argsstring>
+        <name>ReloadLevel</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry" kindref="compound">Entry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="80" bodyend="84"/>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry_1a7b892e6433f3ab2fe212b171b57e9a75" compoundref="_timed_object_activator_8cs" startline="28">UnityStandardAssets.Utility.TimedObjectActivator.Entry.delay</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2464">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2463">
+        <label>UnityStandardAssets.Utility.TimedObjectActivator</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator"/>
+        <childnode refid="2464" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2467">
+        <label>UnityStandardAssets.Utility.TimedObjectActivator.Entries</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries"/>
+        <childnode refid="2468" relation="usage">
+          <edgelabel>entries</edgelabel>
+        </childnode>
+      </node>
+      <node id="2466">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2468">
+        <label>UnityStandardAssets.Utility.TimedObjectActivator.Entry</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry"/>
+      </node>
+      <node id="2465">
+        <label>UnityStandardAssets.Utility.TimedObjectActivator</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator"/>
+        <childnode refid="2466" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2467" relation="usage">
+          <edgelabel>entries</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectActivator.cs" bodystart="11" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a4fd60b3607bc774ff633811e0b2b2090" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectActivator</scope><name>Action</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1aa49671cb4daa576e09b294d9118f950b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectActivator</scope><name>Activate</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1ac80433e7d7fffe0799f31e9907e1db67" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectActivator</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a80dcfdf19c38cac04b61739985542c6e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectActivator</scope><name>Deactivate</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a9a83bb800381f78d7701ebb24cc58b7a" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectActivator</scope><name>entries</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1a8729302c65dbc0234700d179a08b15a4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectActivator</scope><name>ReloadLevel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

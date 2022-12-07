@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_explosion" kind="class" prot="public">
+    <compoundname>Explosion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_explosion_1a34c72938b5ef7d73c7f6d75d86d2f1bd" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody Explosion.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_explosion_1a8a667287455f1af9fcde062b8b3f19ea" compoundref="_explosion_8cs" startline="11" endline="16">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_explosion_1aa0bf3d90183cc65484e657a7d6ab0bd6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Explosion.countflg</definition>
+        <argsstring></argsstring>
+        <name>countflg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_explosion_1a8a667287455f1af9fcde062b8b3f19ea" compoundref="_explosion_8cs" startline="11" endline="16">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_explosion_1a2678654fb241f1fb689f7f07e2bc2d12" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float Explosion.counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_explosion_1adf31ca986e991c260ff6c61203cb92bb" compoundref="_explosion_8cs" startline="30" endline="33">ObjectCount</referencedby>
+        <referencedby refid="class_explosion_1a8a667287455f1af9fcde062b8b3f19ea" compoundref="_explosion_8cs" startline="11" endline="16">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_explosion_1a8a667287455f1af9fcde062b8b3f19ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Explosion.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="11" bodyend="16"/>
+        <references refid="class_explosion_1a2678654fb241f1fb689f7f07e2bc2d12" compoundref="_explosion_8cs" startline="8">counter</references>
+        <references refid="class_explosion_1aa0bf3d90183cc65484e657a7d6ab0bd6" compoundref="_explosion_8cs" startline="9">countflg</references>
+        <references refid="class_explosion_1a34c72938b5ef7d73c7f6d75d86d2f1bd" compoundref="_explosion_8cs" startline="7">rb</references>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_1a37933876d132407ba41494820f02303a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Explosion.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_explosion_1adf0a1bb7a5b2bdffdfe1acfc56377343" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Explosion.OnParticleCollision</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnParticleCollision</name>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_explosion_1adf31ca986e991c260ff6c61203cb92bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Explosion.ObjectCount</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_explosion_1a2678654fb241f1fb689f7f07e2bc2d12" compoundref="_explosion_8cs" startline="8">counter</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="923">
+        <label>Explosion</label>
+        <link refid="class_explosion"/>
+        <childnode refid="924" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="924">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="925">
+        <label>Explosion</label>
+        <link refid="class_explosion"/>
+        <childnode refid="926" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="926">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Explosion.cs" bodystart="5" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_explosion_1a2678654fb241f1fb689f7f07e2bc2d12" prot="private" virt="non-virtual"><scope>Explosion</scope><name>counter</name></member>
+      <member refid="class_explosion_1aa0bf3d90183cc65484e657a7d6ab0bd6" prot="private" virt="non-virtual"><scope>Explosion</scope><name>countflg</name></member>
+      <member refid="class_explosion_1adf31ca986e991c260ff6c61203cb92bb" prot="public" virt="non-virtual"><scope>Explosion</scope><name>ObjectCount</name></member>
+      <member refid="class_explosion_1adf0a1bb7a5b2bdffdfe1acfc56377343" prot="private" virt="non-virtual"><scope>Explosion</scope><name>OnParticleCollision</name></member>
+      <member refid="class_explosion_1a34c72938b5ef7d73c7f6d75d86d2f1bd" prot="private" virt="non-virtual"><scope>Explosion</scope><name>rb</name></member>
+      <member refid="class_explosion_1a8a667287455f1af9fcde062b8b3f19ea" prot="private" virt="non-virtual"><scope>Explosion</scope><name>Start</name></member>
+      <member refid="class_explosion_1a37933876d132407ba41494820f02303a" prot="private" virt="non-virtual"><scope>Explosion</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

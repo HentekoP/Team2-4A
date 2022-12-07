@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_editor_resources" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::EditorResources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_editor_resources_1a7fda5ef867d2761166c9d26564e57d3a" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string UnityEditor.PostProcessing.EditorResources.m_EditorResourcesPath</definition>
+        <argsstring></argsstring>
+        <name>m_EditorResourcesPath</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_editor_resources_1a5afab9721240fde7eefba6f2cb86720c" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string UnityEditor.PostProcessing.EditorResources.editorResourcesPath</definition>
+        <argsstring></argsstring>
+        <name>editorResourcesPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_resources_1a077e0e26320ef8d84710b4048dc73017" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T UnityEditor.PostProcessing.EditorResources.Load&lt; T &gt;</definition>
+        <argsstring>(string name)</argsstring>
+        <name>Load&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_resources_1aff4f544fa0a0adb9195930978d51730e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UnityEditor.PostProcessing.EditorResources.SearchForEditorResourcesPath</definition>
+        <argsstring>(out string path)</argsstring>
+        <name>SearchForEditorResourcesPath</name>
+        <param>
+          <type>out string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" bodystart="35" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorResources.cs" bodystart="7" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_resources_1a5afab9721240fde7eefba6f2cb86720c" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorResources</scope><name>editorResourcesPath</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_resources_1a077e0e26320ef8d84710b4048dc73017" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorResources</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_resources_1a7fda5ef867d2761166c9d26564e57d3a" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorResources</scope><name>m_EditorResourcesPath</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_resources_1aff4f544fa0a0adb9195930978d51730e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorResources</scope><name>SearchForEditorResourcesPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

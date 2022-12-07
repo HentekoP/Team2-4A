@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_win_8cs" kind="file">
+    <compoundname>Win.cs</compoundname>
+    <innerclass refid="class_win" prot="public">Win</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.SceneManagement;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_win" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_win" kindref="compound">Win</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_win_1a7bc9418c16353181294bfef34b887c49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_win_1a7bc9418c16353181294bfef34b887c49" kindref="member">ChildCount</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_win_1aa505a77da62f39d8ad551557894b6260" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_win_1aa505a77da62f39d8ad551557894b6260" kindref="member">destroycounts</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_win_1a2c90394f42065c60751b15da37350448" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_win_1a2c90394f42065c60751b15da37350448" kindref="member">clearcount</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_win_1adff601f1eda5af1b54f0db131f7b4003" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_win_1adff601f1eda5af1b54f0db131f7b4003" kindref="member">clear</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_win_1af5ee5a1b3fad0f7ca5a495dc8809e637" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_win_1af5ee5a1b3fad0f7ca5a495dc8809e637" kindref="member">change</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_win_1a56b52238808f24836f7afe7e4e4948b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_win_1a56b52238808f24836f7afe7e4e4948b1" kindref="member">clearflg</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_win_1a647d21be6293fb7e8b35fa6a3206faec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_win_1a647d21be6293fb7e8b35fa6a3206faec" kindref="member">EndTime</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_win_1a1b162a3751c0a50af642f582e615689c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_win_1a1b162a3751c0a50af642f582e615689c" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_win_1a7bc9418c16353181294bfef34b887c49" kindref="member">ChildCount</ref><sp/>=<sp/>this.transform.childCount;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_win_1a2c90394f42065c60751b15da37350448" kindref="member">clearcount</ref><sp/>=<sp/><ref refid="class_win_1a7bc9418c16353181294bfef34b887c49" kindref="member">ChildCount</ref><sp/>*<sp/><ref refid="class_win_1aa505a77da62f39d8ad551557894b6260" kindref="member">destroycounts</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(<ref refid="class_win_1a2c90394f42065c60751b15da37350448" kindref="member">clearcount</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clear.SetActive(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_win_1af5ee5a1b3fad0f7ca5a495dc8809e637" kindref="member">change</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_win_1a56b52238808f24836f7afe7e4e4948b1" kindref="member">clearflg</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_win_1afae6a660060aac0073b2a82bbb7403c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_win_1afae6a660060aac0073b2a82bbb7403c9" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_win_1a647d21be6293fb7e8b35fa6a3206faec" kindref="member">EndTime</ref><sp/>=<sp/>Timer.EndTime();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="class_win_1a2c90394f42065c60751b15da37350448" kindref="member">clearcount</ref><sp/>&lt;=<sp/><ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref>.<ref refid="class_destroyed_piece_controller_1ade0b2b38d67d5ddeab81f04da1f79602" kindref="member">DestroyPieceCount</ref>)<sp/>||<sp/><ref refid="class_win_1a647d21be6293fb7e8b35fa6a3206faec" kindref="member">EndTime</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Time.timeScale<sp/>=<sp/>0f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_win_1a56b52238808f24836f7afe7e4e4948b1" kindref="member">clearflg</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clear.SetActive(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_win_1af5ee5a1b3fad0f7ca5a495dc8809e637" kindref="member">change</ref><sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.LoadSceneAsync(</highlight><highlight class="stringliteral">&quot;Result&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Time.timeScale<sp/>=<sp/>1f;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_win_1ab3cc5e2b43be3f92d33598a7df263836" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_win_1ab3cc5e2b43be3f92d33598a7df263836" kindref="member">GetClearFlg</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_win_1a56b52238808f24836f7afe7e4e4948b1" kindref="member">clearflg</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Win.cs"/>
+  </compounddef>
+</doxygen>

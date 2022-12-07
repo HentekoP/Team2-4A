@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_post_processing_model" kind="class" prot="public" abstract="yes">
+    <compoundname>UnityEngine::PostProcessing::PostProcessingModel</compoundname>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.AmbientOcclusionModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.AntialiasingModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_bloom_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.BloomModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.BuiltinDebugViewsModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.ChromaticAberrationModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.ColorGradingModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.DepthOfFieldModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_dithering_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.DitheringModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.EyeAdaptationModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_fog_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.FogModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_grain_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.GrainModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.MotionBlurModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.ScreenSpaceReflectionModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.UserLutModel</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_vignette_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.VignetteModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a54cb22df6419de36ba9d6d171beb9fde" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.PostProcessingModel.m_Enabled</definition>
+        <argsstring></argsstring>
+        <name>m_Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.PostProcessingModel.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityEngine.PostProcessing.PostProcessingModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_dithering_model_1a32230e9d0e5db63630764379fe5eb09e">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_fog_model_1ac02075eb4d6e2eaa462eb33ab53c4753">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1af9a480ba07bbcd8c4863610c30e2e1f7">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model_1a10912d80b3a86b38f88a0bfee52ff948">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model_1a04196279454910f3f9c840378a80b8c7">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_grain_model_1ab4dbacfe4c524d5e483285e361897d30">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1aed85b9c87b7fd8c5844d44ff7883309c">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1acd50412ffa1f482d1d7561c48cc7f731">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a7598645b887ddf177a33787cd06ca751">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model_1a055eae23b68fd6d5b6ab1d98c306e814">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_bloom_model_1afe5c14fd79a06f6ca4c0f96ae056ec07">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1ad9e1b645a461131af7abfc318a45d9b0">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model_1abf314aab69e370e9f092e17e69a57066">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1aeed2830b0c1b3a6ef09c0aea26b0b206">Reset</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a64a6bc1783ee8f2f66e4eb6c13385eed">Reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEngine.PostProcessing.PostProcessingModel.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a2cdf5183a4882e9ae3439b22fe935f12">OnValidate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" bodystart="24" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1964">
+        <label>UnityEngine.PostProcessing.PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1975">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1977">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1971">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1965">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1978">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1966">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1974">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1979">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1970">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1968">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1976">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1967">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1969">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1973">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1972">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="1964" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingModel.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a54cb22df6419de36ba9d6d171beb9fde" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingModel</scope><name>m_Enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d" prot="public" virt="pure-virtual"><scope>UnityEngine::PostProcessing::PostProcessingModel</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

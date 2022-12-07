@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_wheel_effects_8cs" kind="file">
+    <compoundname>WheelEffects.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects" prot="public">UnityStandardAssets::Vehicles::Car::WheelEffects</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_vehicles_1_1_car">UnityStandardAssets::Vehicles::Car</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.Vehicles.Car</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>[RequireComponent(typeof<sp/>(AudioSource))]</highlight></codeline>
+<codeline lineno="7" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects" kindref="compound">WheelEffects</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a7dae6272aafa910b5564965402cdcd02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a7dae6272aafa910b5564965402cdcd02" kindref="member">SkidTrailPrefab</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ae5c9788f8d181cb9bea3fd8193cfc864" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ae5c9788f8d181cb9bea3fd8193cfc864" kindref="member">skidTrailsDetachedParent</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1abeb266551c5df3ce36ba0c29ac266b91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ParticleSystem<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1abeb266551c5df3ce36ba0c29ac266b91" kindref="member">skidParticles</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1abfedceb8b0de3e0697b8fb1d17305b10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skidding<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a2b2dc67086259e7afa83ddbe6c7b49ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PlayingAudio<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a5ac6401d9c684321ea644e83ab4b1b94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>AudioSource<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a5ac6401d9c684321ea644e83ab4b1b94" kindref="member">m_AudioSource</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ab1090cbc6f30b13daf616e1ec9595a00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ab1090cbc6f30b13daf616e1ec9595a00" kindref="member">m_SkidTrail</ref>;</highlight></codeline>
+<codeline lineno="18" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ab9f454440f35e50883cfeccd2636dcaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>WheelCollider<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ab9f454440f35e50883cfeccd2636dcaf" kindref="member">m_WheelCollider</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a614dacffed935b5108d2437ed3e85263" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a614dacffed935b5108d2437ed3e85263" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidParticles<sp/>=<sp/>transform.root.GetComponentInChildren&lt;ParticleSystem&gt;();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(skidParticles<sp/>==<sp/>null)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogWarning(</highlight><highlight class="stringliteral">&quot;<sp/>no<sp/>particle<sp/>system<sp/>found<sp/>on<sp/>car<sp/>to<sp/>generate<sp/>smoke<sp/>particles&quot;</highlight><highlight class="normal">,<sp/>gameObject);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidParticles.Stop();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_WheelCollider<sp/>=<sp/>GetComponent&lt;WheelCollider&gt;();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_AudioSource<sp/>=<sp/>GetComponent&lt;AudioSource&gt;();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PlayingAudio<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(skidTrailsDetachedParent<sp/>==<sp/>null)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidTrailsDetachedParent<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GameObject(</highlight><highlight class="stringliteral">&quot;Skid<sp/>Trails<sp/>-<sp/>Detached&quot;</highlight><highlight class="normal">).transform;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1afbc2fa43f99d1e731ab5c9a56e42044d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1afbc2fa43f99d1e731ab5c9a56e42044d" kindref="member">EmitTyreSmoke</ref>()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidParticles.transform.position<sp/>=<sp/>transform.position<sp/>-<sp/>transform.up*m_WheelCollider.radius;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidParticles.Emit(1);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!skidding)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(StartSkidTrail());</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1af16e9f0215c11c3c24d864af1d56e12f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1af16e9f0215c11c3c24d864af1d56e12f" kindref="member">PlayAudio</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_AudioSource.Play();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PlayingAudio<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ac046bd08e627cccabe903ef56be362ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1ac046bd08e627cccabe903ef56be362ba" kindref="member">StopAudio</ref>()</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_AudioSource.Stop();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PlayingAudio<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1af35549ebfbe30fa74e4de989ac5c68bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IEnumerator<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1af35549ebfbe30fa74e4de989ac5c68bf" kindref="member">StartSkidTrail</ref>()</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidding<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SkidTrail<sp/>=<sp/>Instantiate(SkidTrailPrefab);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(m_SkidTrail<sp/>==<sp/>null)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SkidTrail.parent<sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SkidTrail.localPosition<sp/>=<sp/>-Vector3.up*m_WheelCollider.radius;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a6b5900b1b096260190be7f95ae9c698a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects_1a6b5900b1b096260190be7f95ae9c698a" kindref="member">EndSkidTrail</ref>()</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!skidding)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skidding<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SkidTrail.parent<sp/>=<sp/>skidTrailsDetachedParent;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_destroy" kindref="compound">Destroy</ref>(m_SkidTrail.gameObject,<sp/>10);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"/>
+  </compounddef>
+</doxygen>

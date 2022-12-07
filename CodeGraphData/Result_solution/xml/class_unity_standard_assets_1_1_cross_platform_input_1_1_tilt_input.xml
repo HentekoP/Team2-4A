@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::CrossPlatformInput::TiltInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping" prot="public">UnityStandardAssets::CrossPlatformInput::TiltInput::AxisMapping</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a33494fd997ae63aea22ffb585244f187" prot="public" static="no">
+        <name>AxisOptions</name>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a33494fd997ae63aea22ffb585244f187ab8587f332713f2facfcf4519ace9485b" prot="public">
+          <name>ForwardAxis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a33494fd997ae63aea22ffb585244f187a96496b3cd12539f92ebfcab10dbc0e64" prot="public">
+          <name>SidewaysAxis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a825e259327ff4204d651876bb30d22f9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping" kindref="compound">AxisMapping</ref></type>
+        <definition>AxisMapping UnityStandardAssets.CrossPlatformInput.TiltInput.mapping</definition>
+        <argsstring></argsstring>
+        <name>mapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1ad83fbef4affa001aab207586dd91e2e7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a33494fd997ae63aea22ffb585244f187" kindref="member">AxisOptions</ref></type>
+        <definition>AxisOptions UnityStandardAssets.CrossPlatformInput.TiltInput.tiltAroundAxis</definition>
+        <argsstring></argsstring>
+        <name>tiltAroundAxis</name>
+        <initializer>= AxisOptions.ForwardAxis</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a92a6ef18b52f2409658b7a50037ac831" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.CrossPlatformInput.TiltInput.fullTiltAngle</definition>
+        <argsstring></argsstring>
+        <name>fullTiltAngle</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1aac904601039bbf6561ee00f0d492c941" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.CrossPlatformInput.TiltInput.centreAngleOffset</definition>
+        <argsstring></argsstring>
+        <name>centreAngleOffset</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1ab31eebbc939a08dba1bbda14b75d1498" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+        <definition>CrossPlatformInputManager.VirtualAxis UnityStandardAssets.CrossPlatformInput.TiltInput.m_SteerAxis</definition>
+        <argsstring></argsstring>
+        <name>m_SteerAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1aa7335a4f6c00d866ef0e4ba28a2785ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TiltInput.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a31e3f64d3b99ef46ee1ecd209d18c787" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TiltInput.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="56" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a07f227c591fc54fd128d5d7be71c6871" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TiltInput.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2456">
+        <label>UnityStandardAssets.CrossPlatformInput.TiltInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input"/>
+        <childnode refid="2457" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2457">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2460">
+        <label>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager"/>
+        <childnode refid="2461" relation="usage">
+          <edgelabel>s_HardwareInput</edgelabel>
+          <edgelabel>s_TouchInput</edgelabel>
+          <edgelabel>activeInput</edgelabel>
+        </childnode>
+      </node>
+      <node id="2461">
+        <label>UnityStandardAssets.CrossPlatformInput.VirtualInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input"/>
+      </node>
+      <node id="2458">
+        <label>UnityStandardAssets.CrossPlatformInput.TiltInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input"/>
+        <childnode refid="2459" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2460" relation="usage">
+          <edgelabel>m_SteerAxis</edgelabel>
+        </childnode>
+        <childnode refid="2462" relation="usage">
+          <edgelabel>mapping</edgelabel>
+        </childnode>
+      </node>
+      <node id="2462">
+        <label>UnityStandardAssets.CrossPlatformInput.TiltInput.AxisMapping</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping"/>
+      </node>
+      <node id="2459">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" bodystart="10" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a33494fd997ae63aea22ffb585244f187" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>AxisOptions</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1aac904601039bbf6561ee00f0d492c941" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>centreAngleOffset</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a92a6ef18b52f2409658b7a50037ac831" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>fullTiltAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1ab31eebbc939a08dba1bbda14b75d1498" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>m_SteerAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a825e259327ff4204d651876bb30d22f9" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>mapping</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a07f227c591fc54fd128d5d7be71c6871" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>OnDisable</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1aa7335a4f6c00d866ef0e4ba28a2785ba" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>OnEnable</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1ad83fbef4affa001aab207586dd91e2e7" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>tiltAroundAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1a31e3f64d3b99ef46ee1ecd209d18c787" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TiltInput</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

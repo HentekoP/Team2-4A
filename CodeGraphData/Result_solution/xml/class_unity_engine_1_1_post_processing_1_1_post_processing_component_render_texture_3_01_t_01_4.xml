@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponent&lt; T &gt;</basecompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_bloom_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.BloomComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.ChromaticAberrationComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.ColorGradingComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.DepthOfFieldComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_dithering_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.DitheringComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.EyeAdaptationComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_fxaa_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.FxaaComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_grain_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.GrainComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_taa_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.TaaComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.UserLutComponent</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_engine_1_1_post_processing_1_1_vignette_component" prot="public" virt="non-virtual">UnityEngine.PostProcessing.VignetteComponent</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4_1adcf0697959b318bf65a96ce47ee26732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;.Prepare</definition>
+        <argsstring>(Material material)</argsstring>
+        <name>Prepare</name>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_vignette_component_1a7f8b6fca0970717decfc4148d42c43be">Prepare</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1a1d6e06b6268b29af5a7903889feeff4b">Prepare</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component_1acbf442cadd4fcb16e9008ecfd32698fa">Prepare</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_grain_component_1a6a1c8bf2f8d860c91df6cf012c63c27a">Prepare</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_dithering_component_1af47fb039901b2434cfe5cd377cf559be">Prepare</reimplementedby>
+        <reimplementedby refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component_1a6028831311ad34f0f563fa5715c139dc">Prepare</reimplementedby>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingComponent.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingComponent.cs" bodystart="55" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1908">
+        <label>UnityEngine.PostProcessing.UserLutComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1902">
+        <label>UnityEngine.PostProcessing.DepthOfFieldComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1898">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="1899">
+        <label>UnityEngine.PostProcessing.BloomComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1904">
+        <label>UnityEngine.PostProcessing.EyeAdaptationComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1907">
+        <label>UnityEngine.PostProcessing.TaaComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_taa_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1906">
+        <label>UnityEngine.PostProcessing.GrainComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1897">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="1898" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1909">
+        <label>UnityEngine.PostProcessing.VignetteComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1901">
+        <label>UnityEngine.PostProcessing.ColorGradingComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1896">
+        <label>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="1897" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1903">
+        <label>UnityEngine.PostProcessing.DitheringComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1900">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1905">
+        <label>UnityEngine.PostProcessing.FxaaComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fxaa_component"/>
+        <childnode refid="1896" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1912">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="1913" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="1934">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="1915" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1921">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1931">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1929">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1915">
+        <label>IDisposable</label>
+      </node>
+      <node id="1923">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1911">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="1912" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1924">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1933">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1927">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1917">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1916">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="1917" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1918" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="1921" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="1922" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="1923" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="1924" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="1925" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="1926" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="1927" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="1928" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="1929" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="1930" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="1931" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="1932" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="1933" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="1910">
+        <label>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="1911" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1919">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1913">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="1914" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="1916" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="1934" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="1932">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1914">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="1915" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1922">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1930">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1920">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1926">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1918">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1928">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1925">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="1919" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1920" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingComponent.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingComponent.cs" bodystart="52" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2ede55be3b7f31c1628341f5d0fe7b77" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4_1adcf0697959b318bf65a96ce47ee26732" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

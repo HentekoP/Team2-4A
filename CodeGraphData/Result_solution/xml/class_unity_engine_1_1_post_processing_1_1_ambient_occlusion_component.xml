@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::AmbientOcclusionComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::AmbientOcclusionComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0" prot="private" static="no">
+        <name>OcclusionSource</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0a8ff61f00665b2125149bf524b747994f" prot="public">
+          <name>DepthTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0aa318ee4404eb66a237e9396490d1ce20" prot="public">
+          <name>DepthNormalsTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0a628adbb6c98e56748110061187f57243" prot="public">
+          <name>GBuffer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a0394e96a1c17573f8e7d249b62eda9a1" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.AmbientOcclusionComponent.k_BlitShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_BlitShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Blit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1aab5afd366640d5f65987898bdd3d5ac5" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.AmbientOcclusionComponent.k_ShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_ShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Ambient Occlusion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a3d271f1950fca25d561790449e95f9b0" prot="private" static="no" mutable="no">
+        <type>readonly RenderTargetIdentifier[]</type>
+        <definition>readonly RenderTargetIdentifier [] UnityEngine.PostProcessing.AmbientOcclusionComponent.m_MRT</definition>
+        <argsstring></argsstring>
+        <name>m_MRT</name>
+        <initializer>=
+        {
+            BuiltinRenderTextureType.GBuffer0, 
+            BuiltinRenderTextureType.CameraTarget 
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a383c6904f750ce5bfe1fd0d69a851fe9" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0" kindref="member">OcclusionSource</ref></type>
+        <definition>OcclusionSource UnityEngine.PostProcessing.AmbientOcclusionComponent.occlusionSource</definition>
+        <argsstring></argsstring>
+        <name>occlusionSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a818d8d0378085206d92f401ae73c7234" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.AmbientOcclusionComponent.ambientOnlySupported</definition>
+        <argsstring></argsstring>
+        <name>ambientOnlySupported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5fa0bbd6818c812f5ffb524b6467fb5c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.AmbientOcclusionComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1ad75fa4a0898e2d84ffaa842433864c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.AmbientOcclusionComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18">GetCameraFlags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a912e17f44f887c19511e31cb4211551c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.AmbientOcclusionComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a40c2e1160a63cb63a910d9e232515001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.AmbientOcclusionComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5f64f7638a6a441cf4bdaeb54dbf1601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.AmbientOcclusionComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="93" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="72">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="69">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>PostProcessingComponentCommandBuffer&lt; AmbientOcclusionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="76">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="77" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="98">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="93">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>IDisposable</label>
+      </node>
+      <node id="87">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="73">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>PostProcessingComponentCommandBuffer&lt; AmbientOcclusionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="91">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="81">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="80">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="90" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="91" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="83">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="77">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="78" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="98" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="96">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="94">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="90">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="92">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" bodystart="7" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5fa0bbd6818c812f5ffb524b6467fb5c" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a818d8d0378085206d92f401ae73c7234" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>ambientOnlySupported</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a40c2e1160a63cb63a910d9e232515001" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1ad75fa4a0898e2d84ffaa842433864c79" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a912e17f44f887c19511e31cb4211551c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a0394e96a1c17573f8e7d249b62eda9a1" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>k_BlitShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1aab5afd366640d5f65987898bdd3d5ac5" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>k_ShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a3d271f1950fca25d561790449e95f9b0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>m_MRT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1acd3f992f84c91d742f1f7715065fede0" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>OcclusionSource</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a383c6904f750ce5bfe1fd0d69a851fe9" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>occlusionSource</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_component_1a5f64f7638a6a441cf4bdaeb54dbf1601" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionComponent</scope><name>PopulateCommandBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

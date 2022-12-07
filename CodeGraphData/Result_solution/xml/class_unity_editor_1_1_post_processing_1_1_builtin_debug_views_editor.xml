@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingModelEditor</basecompoundref>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1_1_depth_settings" prot="private">UnityEditor::PostProcessing::BuiltinDebugViewsEditor::DepthSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1_1_motion_vectors_settings" prot="private">UnityEditor::PostProcessing::BuiltinDebugViewsEditor::MotionVectorsSettings</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a8d9e2dd834ed889aff02e635e452f7b4" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.BuiltinDebugViewsEditor.m_Mode</definition>
+        <argsstring></argsstring>
+        <name>m_Mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a3a17b342fbe1f3fef769523cb0c2d66e" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1_1_depth_settings" kindref="compound">DepthSettings</ref></type>
+        <definition>DepthSettings UnityEditor.PostProcessing.BuiltinDebugViewsEditor.m_Depth</definition>
+        <argsstring></argsstring>
+        <name>m_Depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a10008c45ab1472475ed6f7aa71bc9201" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1_1_motion_vectors_settings" kindref="compound">MotionVectorsSettings</ref></type>
+        <definition>MotionVectorsSettings UnityEditor.PostProcessing.BuiltinDebugViewsEditor.m_MotionVectors</definition>
+        <argsstring></argsstring>
+        <name>m_MotionVectors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a25ae9660ff2582094d46a5647ee1a5cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.BuiltinDebugViewsEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="30" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a5707f6b766ba9c6ada9a266ecc69948b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.BuiltinDebugViewsEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850">OnInspectorGUI</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="50" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a9aeed14b04739e7f01b5f80d6c192b7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.BuiltinDebugViewsEditor.CheckActiveEffect</definition>
+        <argsstring>(bool expr, string name)</argsstring>
+        <name>CheckActiveEffect</name>
+        <param>
+          <type>bool</type>
+          <declname>expr</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="100" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="361">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+      </node>
+      <node id="360">
+        <label>UnityEditor.PostProcessing.BuiltinDebugViewsEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor"/>
+        <childnode refid="361" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="383">
+        <label>Editor</label>
+      </node>
+      <node id="369">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="363">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+        <childnode refid="364" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="382" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+      </node>
+      <node id="385">
+        <label>UnityEditor.PostProcessing.BuiltinDebugViewsEditor.MotionVectorsSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1_1_motion_vectors_settings"/>
+      </node>
+      <node id="379">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="377">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="371">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="372">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="381">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="375">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="365">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="382">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+        <childnode refid="366" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="370" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="371" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="372" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="373" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="374" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="375" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="376" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="377" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="379" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="380" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="381" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="367">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="380">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="370">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="378">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="368">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="384">
+        <label>UnityEditor.PostProcessing.BuiltinDebugViewsEditor.DepthSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1_1_depth_settings"/>
+      </node>
+      <node id="374">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="366">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="362">
+        <label>UnityEditor.PostProcessing.BuiltinDebugViewsEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor"/>
+        <childnode refid="363" relation="public-inheritance">
+        </childnode>
+        <childnode refid="384" relation="usage">
+          <edgelabel>m_Depth</edgelabel>
+        </childnode>
+        <childnode refid="385" relation="usage">
+          <edgelabel>m_MotionVectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="376">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="373">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" bodystart="9" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>alwaysEnabled</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a9aeed14b04739e7f01b5f80d6c192b7f" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>CheckActiveEffect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>inspector</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a3a17b342fbe1f3fef769523cb0c2d66e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>m_Depth</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>m_EnabledProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a8d9e2dd834ed889aff02e635e452f7b4" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>m_Mode</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a10008c45ab1472475ed6f7aa71bc9201" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>m_MotionVectors</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>m_SettingsProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a25ae9660ff2582094d46a5647ee1a5cf" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a5707f6b766ba9c6ada9a266ecc69948b" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>OnPreEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>Repaint</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>serializedProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BuiltinDebugViewsEditor</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

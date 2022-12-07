@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::PostProcessingProfile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad21016c8b236981e27e7917098595a21" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model" kindref="compound">BuiltinDebugViewsModel</ref></type>
+        <definition>BuiltinDebugViewsModel UnityEngine.PostProcessing.PostProcessingProfile.debugViews</definition>
+        <argsstring></argsstring>
+        <name>debugViews</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model" kindref="compound">BuiltinDebugViewsModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ac565d57ea6217a5e0682ec4cdd75e5ec" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_fog_model" kindref="compound">FogModel</ref></type>
+        <definition>FogModel UnityEngine.PostProcessing.PostProcessingProfile.fog</definition>
+        <argsstring></argsstring>
+        <name>fog</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_fog_model" kindref="compound">FogModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a9f2fbda75210eafd49f0c756d1bdf47a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model" kindref="compound">AntialiasingModel</ref></type>
+        <definition>AntialiasingModel UnityEngine.PostProcessing.PostProcessingProfile.antialiasing</definition>
+        <argsstring></argsstring>
+        <name>antialiasing</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model" kindref="compound">AntialiasingModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abdfdf91a7ab89617d586fa5ec9c7434e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model" kindref="compound">AmbientOcclusionModel</ref></type>
+        <definition>AmbientOcclusionModel UnityEngine.PostProcessing.PostProcessingProfile.ambientOcclusion</definition>
+        <argsstring></argsstring>
+        <name>ambientOcclusion</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model" kindref="compound">AmbientOcclusionModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a0801f9884ec8e0a1d36984e961a59148" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model" kindref="compound">ScreenSpaceReflectionModel</ref></type>
+        <definition>ScreenSpaceReflectionModel UnityEngine.PostProcessing.PostProcessingProfile.screenSpaceReflection</definition>
+        <argsstring></argsstring>
+        <name>screenSpaceReflection</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model" kindref="compound">ScreenSpaceReflectionModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a35da8dc82f4a0cee7430e98ae5ff50c5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model" kindref="compound">DepthOfFieldModel</ref></type>
+        <definition>DepthOfFieldModel UnityEngine.PostProcessing.PostProcessingProfile.depthOfField</definition>
+        <argsstring></argsstring>
+        <name>depthOfField</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model" kindref="compound">DepthOfFieldModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a702fc13e8b128cc3293735074ba5f166" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model" kindref="compound">MotionBlurModel</ref></type>
+        <definition>MotionBlurModel UnityEngine.PostProcessing.PostProcessingProfile.motionBlur</definition>
+        <argsstring></argsstring>
+        <name>motionBlur</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model" kindref="compound">MotionBlurModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a3feb8cd137ced7ae9ad37c47d7979626" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model" kindref="compound">EyeAdaptationModel</ref></type>
+        <definition>EyeAdaptationModel UnityEngine.PostProcessing.PostProcessingProfile.eyeAdaptation</definition>
+        <argsstring></argsstring>
+        <name>eyeAdaptation</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model" kindref="compound">EyeAdaptationModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1adcc626840ab5197eb860273f74bfa776" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_bloom_model" kindref="compound">BloomModel</ref></type>
+        <definition>BloomModel UnityEngine.PostProcessing.PostProcessingProfile.bloom</definition>
+        <argsstring></argsstring>
+        <name>bloom</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_bloom_model" kindref="compound">BloomModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a5578a3856b86fc10fbcca1565934e22f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model" kindref="compound">ColorGradingModel</ref></type>
+        <definition>ColorGradingModel UnityEngine.PostProcessing.PostProcessingProfile.colorGrading</definition>
+        <argsstring></argsstring>
+        <name>colorGrading</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model" kindref="compound">ColorGradingModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad7bc8c3d05a8c92bb48c3766181ddd93" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model" kindref="compound">UserLutModel</ref></type>
+        <definition>UserLutModel UnityEngine.PostProcessing.PostProcessingProfile.userLut</definition>
+        <argsstring></argsstring>
+        <name>userLut</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model" kindref="compound">UserLutModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a142138c77a670d153c04da81fc8dcff5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model" kindref="compound">ChromaticAberrationModel</ref></type>
+        <definition>ChromaticAberrationModel UnityEngine.PostProcessing.PostProcessingProfile.chromaticAberration</definition>
+        <argsstring></argsstring>
+        <name>chromaticAberration</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model" kindref="compound">ChromaticAberrationModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ab2048238d01e1b60a859755167fae28a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_grain_model" kindref="compound">GrainModel</ref></type>
+        <definition>GrainModel UnityEngine.PostProcessing.PostProcessingProfile.grain</definition>
+        <argsstring></argsstring>
+        <name>grain</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_grain_model" kindref="compound">GrainModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abee3b27a6acda75032c825ce759f2838" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_vignette_model" kindref="compound">VignetteModel</ref></type>
+        <definition>VignetteModel UnityEngine.PostProcessing.PostProcessingProfile.vignette</definition>
+        <argsstring></argsstring>
+        <name>vignette</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_vignette_model" kindref="compound">VignetteModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1aa72f3687adc37b27032d21e3649001e3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_dithering_model" kindref="compound">DitheringModel</ref></type>
+        <definition>DitheringModel UnityEngine.PostProcessing.PostProcessingProfile.dithering</definition>
+        <argsstring></argsstring>
+        <name>dithering</name>
+        <initializer>= new <ref refid="class_unity_engine_1_1_post_processing_1_1_dithering_model" kindref="compound">DitheringModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2035">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2034">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2035" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2041">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2051">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2049">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2043">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2044">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2053">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2047">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2037">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2036">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2037" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2038" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="2041" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="2042" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="2043" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="2044" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="2045" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="2046" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="2047" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="2048" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="2049" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="2050" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="2051" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="2052" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="2053" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2039">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2052">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2042">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2050">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2040">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2046">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2038">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2048">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2045">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="2039" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2040" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/PostProcessingProfile.cs" bodystart="5" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abdfdf91a7ab89617d586fa5ec9c7434e" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>ambientOcclusion</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a9f2fbda75210eafd49f0c756d1bdf47a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>antialiasing</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1adcc626840ab5197eb860273f74bfa776" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>bloom</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a142138c77a670d153c04da81fc8dcff5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>chromaticAberration</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a5578a3856b86fc10fbcca1565934e22f" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>colorGrading</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad21016c8b236981e27e7917098595a21" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>debugViews</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a35da8dc82f4a0cee7430e98ae5ff50c5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>depthOfField</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1aa72f3687adc37b27032d21e3649001e3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>dithering</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a3feb8cd137ced7ae9ad37c47d7979626" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>eyeAdaptation</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ac565d57ea6217a5e0682ec4cdd75e5ec" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>fog</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ab2048238d01e1b60a859755167fae28a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>grain</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a702fc13e8b128cc3293735074ba5f166" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>motionBlur</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1a0801f9884ec8e0a1d36984e961a59148" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>screenSpaceReflection</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1ad7bc8c3d05a8c92bb48c3766181ddd93" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>userLut</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile_1abee3b27a6acda75032c825ce759f2838" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::PostProcessingProfile</scope><name>vignette</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

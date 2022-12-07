@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_voronoi_diagram" kind="class" prot="public">
+    <compoundname>GK::VoronoiDiagram</compoundname>
+    <innerclass refid="struct_g_k_1_1_voronoi_diagram_1_1_edge" prot="public">GK::VoronoiDiagram::Edge</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36" prot="public" static="no">
+        <name>EdgeType</name>
+        <enumvalue id="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36a4803e6b9e63dabf04de980788d6a13c4" prot="public">
+          <name>Line</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36a010eeb4dea00caf86ccbe581c268cd66" prot="public">
+          <name>RayCCW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36a2082ee67d653ea1684ae4f90f19b794b" prot="public">
+          <name>RayCW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36a4b77e2a9d8e9cfc299f504b32d6e3d2b" prot="public">
+          <name>Segment</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum representing a type of voronoi edge. A &quot;line&quot; is an infinite line in both directions (only valid for Voronoi diagrams with 2 vertices or ones with all collinear points), a &quot;ray&quot; is a voronoi edge starting at a given vertex and extending infinitely in one direction, a &quot;segment&quot; is a regular line segment. </para>        </briefdescription>
+        <detaileddescription>
+<para>There are two different varietes of edges, clock-wise and counter-clockwise. Regular edges are all clockwise, but rays can be either, so use the type to indicate which it is. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="84" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_diagram_1a54517a204afb13c35cb5121bfb652320" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_g_k_1_1_delaunay_triangulation" kindref="compound">DelaunayTriangulation</ref></type>
+        <definition>readonly DelaunayTriangulation GK.VoronoiDiagram.Triangulation</definition>
+        <argsstring></argsstring>
+        <name>Triangulation</name>
+        <briefdescription>
+<para>The voronoi diagram is calculated from a Delaunay triangulation. This is a reference to the &quot;source&quot; triangulation, in case you need it again. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" compoundref="_voronoi_diagram_8cs" startline="57" endline="63">GK.VoronoiDiagram.VoronoiDiagram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_diagram_1ad9cf2d20ec6a5dd210953ee57a938f4f" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; Vector2 &gt;</type>
+        <definition>readonly List&lt;Vector2&gt; GK.VoronoiDiagram.Sites</definition>
+        <argsstring></argsstring>
+        <name>Sites</name>
+        <briefdescription>
+<para>The sites of the voronoi triangulation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_clipper_1af13d0cee1f46e189bfb7d7387e2a9f6c" compoundref="_voronoi_clipper_8cs" startline="46" endline="127">GK.VoronoiClipper.ClipSite</referencedby>
+        <referencedby refid="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" compoundref="_voronoi_diagram_8cs" startline="57" endline="63">GK.VoronoiDiagram.VoronoiDiagram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_diagram_1aa0d2f38a05fab9ca4b424fe4e7deccc0" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; Vector2 &gt;</type>
+        <definition>readonly List&lt;Vector2&gt; GK.VoronoiDiagram.Vertices</definition>
+        <argsstring></argsstring>
+        <name>Vertices</name>
+        <briefdescription>
+<para>The vertices of the voronoi diagram </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" compoundref="_voronoi_diagram_8cs" startline="57" endline="63">GK.VoronoiDiagram.VoronoiDiagram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_diagram_1af042bc5daf7793a33e6264126bb25b7f" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_g_k_1_1_voronoi_diagram_1_1_edge" kindref="compound">Edge</ref> &gt;</type>
+        <definition>readonly List&lt;Edge&gt; GK.VoronoiDiagram.Edges</definition>
+        <argsstring></argsstring>
+        <name>Edges</name>
+        <briefdescription>
+<para>The edges of the voronoi diagram, grouped by site and ordered counter-clockwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" compoundref="_voronoi_diagram_8cs" startline="57" endline="63">GK.VoronoiDiagram.VoronoiDiagram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_diagram_1a7b421c8775a13d402177b028a46dc33f" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; int &gt;</type>
+        <definition>readonly List&lt;int&gt; GK.VoronoiDiagram.FirstEdgeBySite</definition>
+        <argsstring></argsstring>
+        <name>FirstEdgeBySite</name>
+        <briefdescription>
+<para>The first edge of every site. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" compoundref="_voronoi_diagram_8cs" startline="57" endline="63">GK.VoronoiDiagram.VoronoiDiagram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GK.VoronoiDiagram.VoronoiDiagram</definition>
+        <argsstring>()</argsstring>
+        <name>VoronoiDiagram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="57" bodyend="63"/>
+        <references refid="class_g_k_1_1_voronoi_diagram_1af042bc5daf7793a33e6264126bb25b7f" compoundref="_voronoi_diagram_8cs" startline="50">GK.VoronoiDiagram.Edges</references>
+        <references refid="class_g_k_1_1_voronoi_diagram_1a7b421c8775a13d402177b028a46dc33f" compoundref="_voronoi_diagram_8cs" startline="55">GK.VoronoiDiagram.FirstEdgeBySite</references>
+        <references refid="class_g_k_1_1_voronoi_diagram_1ad9cf2d20ec6a5dd210953ee57a938f4f" compoundref="_voronoi_diagram_8cs" startline="39">GK.VoronoiDiagram.Sites</references>
+        <references refid="class_g_k_1_1_voronoi_diagram_1a54517a204afb13c35cb5121bfb652320" compoundref="_voronoi_diagram_8cs" startline="34">GK.VoronoiDiagram.Triangulation</references>
+        <references refid="class_g_k_1_1_voronoi_diagram_1aa0d2f38a05fab9ca4b424fe4e7deccc0" compoundref="_voronoi_diagram_8cs" startline="44">GK.VoronoiDiagram.Vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_diagram_1a2594499233159053c56256358f4abaee" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.VoronoiDiagram.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="65" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2802">
+        <label>GK.DelaunayTriangulation</label>
+        <link refid="class_g_k_1_1_delaunay_triangulation"/>
+      </node>
+      <node id="2801">
+        <label>GK.VoronoiDiagram</label>
+        <link refid="class_g_k_1_1_voronoi_diagram"/>
+        <childnode refid="2802" relation="usage">
+          <edgelabel>Triangulation</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="28" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_voronoi_diagram_1a2594499233159053c56256358f4abaee" prot="package" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>Clear</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1af042bc5daf7793a33e6264126bb25b7f" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>Edges</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>EdgeType</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1a7b421c8775a13d402177b028a46dc33f" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>FirstEdgeBySite</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1ad9cf2d20ec6a5dd210953ee57a938f4f" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>Sites</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1a54517a204afb13c35cb5121bfb652320" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>Triangulation</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1aa0d2f38a05fab9ca4b424fe4e7deccc0" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>Vertices</name></member>
+      <member refid="class_g_k_1_1_voronoi_diagram_1ad32e2ece291d655b50d0f868a7d83a15" prot="package" virt="non-virtual"><scope>GK::VoronoiDiagram</scope><name>VoronoiDiagram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

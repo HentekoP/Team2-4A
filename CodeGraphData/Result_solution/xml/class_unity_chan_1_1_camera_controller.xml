@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_camera_controller" kind="class" prot="public">
+    <compoundname>UnityChan::CameraController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_camera_controller_1aa1607a953b46c09659e821f07a054317" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityChan.CameraController.focus</definition>
+        <argsstring></argsstring>
+        <name>focus</name>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_camera_controller_1acdd6852364cbc835ed56a8201c58001f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UnityChan.CameraController.focusObj</definition>
+        <argsstring></argsstring>
+        <name>focusObj</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_camera_controller_1a76e4c58385749e03a423dbee6e0c144c" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="48" endline="59">UnityChan.CameraController.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_camera_controller_1acc64fd77ee8b98956980f81b80e45239" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityChan.CameraController.oldPos</definition>
+        <argsstring></argsstring>
+        <name>oldPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_camera_controller_1a8d521505a17abb3045337f425ff6a9cc" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="96" endline="132">UnityChan.CameraController.mouseDragEvent</referencedby>
+        <referencedby refid="class_unity_chan_1_1_camera_controller_1a3e2d99be685cfb9b4b886e5759be7544" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="80" endline="94">UnityChan.CameraController.mouseEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_camera_controller_1a228ddb8a7d202b5b8ec983454d5625a8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.CameraController.showInstWindow</definition>
+        <argsstring></argsstring>
+        <name>showInstWindow</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_camera_controller_1abfd6901d27a0cc86ee80281f6867a74d" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="69" endline="78">UnityChan.CameraController.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a328bfec46c60112517cde1e549597a71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.setupFocusObject</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setupFocusObject</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a76e4c58385749e03a423dbee6e0c144c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="48" bodyend="59"/>
+        <references refid="class_unity_chan_1_1_camera_controller_1acdd6852364cbc835ed56a8201c58001f" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="33">UnityChan.CameraController.focusObj</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a12540c4b6164f25ac04c577b23fdfd85" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1abfd6901d27a0cc86ee80281f6867a74d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="69" bodyend="78"/>
+        <references refid="class_unity_chan_1_1_camera_controller_1a228ddb8a7d202b5b8ec983454d5625a8" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="35">UnityChan.CameraController.showInstWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a3e2d99be685cfb9b4b886e5759be7544" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.mouseEvent</definition>
+        <argsstring>()</argsstring>
+        <name>mouseEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="80" bodyend="94"/>
+        <references refid="class_unity_chan_1_1_camera_controller_1acc64fd77ee8b98956980f81b80e45239" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="37">UnityChan.CameraController.oldPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a8d521505a17abb3045337f425ff6a9cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.mouseDragEvent</definition>
+        <argsstring>(Vector3 mousePos)</argsstring>
+        <name>mouseDragEvent</name>
+        <param>
+          <type>Vector3</type>
+          <declname>mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="96" bodyend="132"/>
+        <references refid="class_unity_chan_1_1_camera_controller_1acc64fd77ee8b98956980f81b80e45239" compoundref="unity-chan_9_2_unity-chan_9_01_model_2_scripts_2_camera_controller_8cs" startline="37">UnityChan.CameraController.oldPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a95f1b806c21419047372376891cad335" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.cameraTranslate</definition>
+        <argsstring>(Vector3 vec)</argsstring>
+        <name>cameraTranslate</name>
+        <param>
+          <type>Vector3</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="147" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1aa199ea2148e7fcd97f20c8008044cacf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.mouseWheelEvent</definition>
+        <argsstring>(float delta)</argsstring>
+        <name>mouseWheelEvent</name>
+        <param>
+          <type>float</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="135" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_camera_controller_1a7b48863add2a55a9252a3d41c60cf56e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.CameraController.cameraRotate</definition>
+        <argsstring>(Vector3 eulerAngle)</argsstring>
+        <name>cameraRotate</name>
+        <param>
+          <type>Vector3</type>
+          <declname>eulerAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="161" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="161" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="403">
+        <label>UnityChan.CameraController</label>
+        <link refid="class_unity_chan_1_1_camera_controller"/>
+        <childnode refid="404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="405">
+        <label>UnityChan.CameraController</label>
+        <link refid="class_unity_chan_1_1_camera_controller"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" bodystart="28" bodyend="174"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_camera_controller_1a7b48863add2a55a9252a3d41c60cf56e" prot="public" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>cameraRotate</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a95f1b806c21419047372376891cad335" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>cameraTranslate</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1aa1607a953b46c09659e821f07a054317" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>focus</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1acdd6852364cbc835ed56a8201c58001f" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>focusObj</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a8d521505a17abb3045337f425ff6a9cc" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>mouseDragEvent</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a3e2d99be685cfb9b4b886e5759be7544" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>mouseEvent</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1aa199ea2148e7fcd97f20c8008044cacf" prot="public" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>mouseWheelEvent</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1acc64fd77ee8b98956980f81b80e45239" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>oldPos</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1abfd6901d27a0cc86ee80281f6867a74d" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>OnGUI</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a328bfec46c60112517cde1e549597a71" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>setupFocusObject</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a228ddb8a7d202b5b8ec983454d5625a8" prot="public" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>showInstWindow</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a76e4c58385749e03a423dbee6e0c144c" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>Start</name></member>
+      <member refid="class_unity_chan_1_1_camera_controller_1a12540c4b6164f25ac04c577b23fdfd85" prot="private" virt="non-virtual"><scope>UnityChan::CameraController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

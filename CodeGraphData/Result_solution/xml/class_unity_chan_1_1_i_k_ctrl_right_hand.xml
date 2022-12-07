@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_i_k_ctrl_right_hand" kind="class" prot="public">
+    <compoundname>UnityChan::IKCtrlRightHand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1a3220c3993ad5894c4088be46c9513bdb" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator UnityChan.IKCtrlRightHand.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ab1b9e7ed5b5683fb3d1e1b0096948ab4" compoundref="_i_k_ctrl_right_hand_8cs" startline="22" endline="25">UnityChan.IKCtrlRightHand.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1a0b789233b849bac03e66a2f9e24deba1" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.IKCtrlRightHand.targetObj</definition>
+        <argsstring></argsstring>
+        <name>targetObj</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.IKCtrlRightHand.isIkActive</definition>
+        <argsstring></argsstring>
+        <name>isIkActive</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1afc734d8d848e35512602b55a944b00a2" compoundref="_i_k_ctrl_right_hand_8cs" startline="36" endline="44">UnityChan.IKCtrlRightHand.OnAnimatorIK</referencedby>
+        <referencedby refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ac8dae3d9eaccc6ccbd194913623aa79f" compoundref="_i_k_ctrl_right_hand_8cs" startline="46" endline="50">UnityChan.IKCtrlRightHand.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.IKCtrlRightHand.mixWeight</definition>
+        <argsstring></argsstring>
+        <name>mixWeight</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1afc734d8d848e35512602b55a944b00a2" compoundref="_i_k_ctrl_right_hand_8cs" startline="36" endline="44">UnityChan.IKCtrlRightHand.OnAnimatorIK</referencedby>
+        <referencedby refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a285884b10d3d742292222bee0a113685" compoundref="_i_k_ctrl_right_hand_8cs" startline="27" endline="34">UnityChan.IKCtrlRightHand.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1ab1b9e7ed5b5683fb3d1e1b0096948ab4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.IKCtrlRightHand.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="22" bodyend="25"/>
+        <references refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a3220c3993ad5894c4088be46c9513bdb" compoundref="_i_k_ctrl_right_hand_8cs" startline="17">UnityChan.IKCtrlRightHand.anim</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1a285884b10d3d742292222bee0a113685" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.IKCtrlRightHand.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="27" bodyend="34"/>
+        <references refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" compoundref="_i_k_ctrl_right_hand_8cs" startline="20">UnityChan.IKCtrlRightHand.mixWeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1afc734d8d848e35512602b55a944b00a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.IKCtrlRightHand.OnAnimatorIK</definition>
+        <argsstring>(int layerIndex)</argsstring>
+        <name>OnAnimatorIK</name>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="36" bodyend="44"/>
+        <references refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" compoundref="_i_k_ctrl_right_hand_8cs" startline="19">UnityChan.IKCtrlRightHand.isIkActive</references>
+        <references refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" compoundref="_i_k_ctrl_right_hand_8cs" startline="20">UnityChan.IKCtrlRightHand.mixWeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_i_k_ctrl_right_hand_1ac8dae3d9eaccc6ccbd194913623aa79f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.IKCtrlRightHand.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="46" bodyend="50"/>
+        <references refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" compoundref="_i_k_ctrl_right_hand_8cs" startline="19">UnityChan.IKCtrlRightHand.isIkActive</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1328">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1327">
+        <label>UnityChan.IKCtrlRightHand</label>
+        <link refid="class_unity_chan_1_1_i_k_ctrl_right_hand"/>
+        <childnode refid="1328" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1330">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1329">
+        <label>UnityChan.IKCtrlRightHand</label>
+        <link refid="class_unity_chan_1_1_i_k_ctrl_right_hand"/>
+        <childnode refid="1330" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a3220c3993ad5894c4088be46c9513bdb" prot="private" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>anim</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ab1b9e7ed5b5683fb3d1e1b0096948ab4" prot="private" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>Awake</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" prot="public" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>isIkActive</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" prot="public" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>mixWeight</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1afc734d8d848e35512602b55a944b00a2" prot="private" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>OnAnimatorIK</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ac8dae3d9eaccc6ccbd194913623aa79f" prot="private" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>OnGUI</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a0b789233b849bac03e66a2f9e24deba1" prot="public" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>targetObj</name></member>
+      <member refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a285884b10d3d742292222bee0a113685" prot="private" virt="non-virtual"><scope>UnityChan::IKCtrlRightHand</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

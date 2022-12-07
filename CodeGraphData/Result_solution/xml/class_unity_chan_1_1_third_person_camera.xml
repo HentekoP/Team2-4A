@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_third_person_camera" kind="class" prot="public">
+    <compoundname>UnityChan::ThirdPersonCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_third_person_camera_1ae70c7156d901e52b17f22787efb5fa8b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.ThirdPersonCamera.smooth</definition>
+        <argsstring></argsstring>
+        <name>smooth</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a8735e01ce856626667d31e3986590959" compoundref="_third_person_camera_8cs" startline="75" endline="81">UnityChan.ThirdPersonCamera.setCameraPositionJumpView</referencedby>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a137baf1ccbbb4542dbf39d50f7b8cd63" compoundref="_third_person_camera_8cs" startline="53" endline="65">UnityChan.ThirdPersonCamera.setCameraPositionNormalView</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_third_person_camera_1a724ce3084d4024840697128c1890873f" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.ThirdPersonCamera.standardPos</definition>
+        <argsstring></argsstring>
+        <name>standardPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a0eecfee44597c8b66adea4db24131d51" compoundref="_third_person_camera_8cs" startline="22" endline="36">UnityChan.ThirdPersonCamera.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_third_person_camera_1a3bc6405a1ac9c8655bfb99274ce843b5" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.ThirdPersonCamera.frontPos</definition>
+        <argsstring></argsstring>
+        <name>frontPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a0eecfee44597c8b66adea4db24131d51" compoundref="_third_person_camera_8cs" startline="22" endline="36">UnityChan.ThirdPersonCamera.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_third_person_camera_1ac42e6e9b3a920a4635676b3fe24a3060" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.ThirdPersonCamera.jumpPos</definition>
+        <argsstring></argsstring>
+        <name>jumpPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a0eecfee44597c8b66adea4db24131d51" compoundref="_third_person_camera_8cs" startline="22" endline="36">UnityChan.ThirdPersonCamera.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_third_person_camera_1ad0c666a70047494f3f92018f3b27a87b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.ThirdPersonCamera.bQuickSwitch</definition>
+        <argsstring></argsstring>
+        <name>bQuickSwitch</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1af6441e92d95b7d846cbc82e907de5916" compoundref="_third_person_camera_8cs" startline="67" endline="73">UnityChan.ThirdPersonCamera.setCameraPositionFrontView</referencedby>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a8735e01ce856626667d31e3986590959" compoundref="_third_person_camera_8cs" startline="75" endline="81">UnityChan.ThirdPersonCamera.setCameraPositionJumpView</referencedby>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1a137baf1ccbbb4542dbf39d50f7b8cd63" compoundref="_third_person_camera_8cs" startline="53" endline="65">UnityChan.ThirdPersonCamera.setCameraPositionNormalView</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_third_person_camera_1a0eecfee44597c8b66adea4db24131d51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.ThirdPersonCamera.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="22" bodyend="36"/>
+        <references refid="class_unity_chan_1_1_third_person_camera_1a3bc6405a1ac9c8655bfb99274ce843b5" compoundref="_third_person_camera_8cs" startline="15">UnityChan.ThirdPersonCamera.frontPos</references>
+        <references refid="class_unity_chan_1_1_third_person_camera_1ac42e6e9b3a920a4635676b3fe24a3060" compoundref="_third_person_camera_8cs" startline="16">UnityChan.ThirdPersonCamera.jumpPos</references>
+        <references refid="class_unity_chan_1_1_third_person_camera_1a724ce3084d4024840697128c1890873f" compoundref="_third_person_camera_8cs" startline="14">UnityChan.ThirdPersonCamera.standardPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_third_person_camera_1ac1158d9a5dda0a072bdb5229105745cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.ThirdPersonCamera.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="38" bodyend="51"/>
+        <references refid="class_unity_chan_1_1_third_person_camera_1af6441e92d95b7d846cbc82e907de5916" compoundref="_third_person_camera_8cs" startline="67" endline="73">UnityChan.ThirdPersonCamera.setCameraPositionFrontView</references>
+        <references refid="class_unity_chan_1_1_third_person_camera_1a8735e01ce856626667d31e3986590959" compoundref="_third_person_camera_8cs" startline="75" endline="81">UnityChan.ThirdPersonCamera.setCameraPositionJumpView</references>
+        <references refid="class_unity_chan_1_1_third_person_camera_1a137baf1ccbbb4542dbf39d50f7b8cd63" compoundref="_third_person_camera_8cs" startline="53" endline="65">UnityChan.ThirdPersonCamera.setCameraPositionNormalView</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_third_person_camera_1a137baf1ccbbb4542dbf39d50f7b8cd63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.ThirdPersonCamera.setCameraPositionNormalView</definition>
+        <argsstring>()</argsstring>
+        <name>setCameraPositionNormalView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="53" bodyend="65"/>
+        <references refid="class_unity_chan_1_1_third_person_camera_1ad0c666a70047494f3f92018f3b27a87b" compoundref="_third_person_camera_8cs" startline="19">UnityChan.ThirdPersonCamera.bQuickSwitch</references>
+        <references refid="class_unity_chan_1_1_third_person_camera_1ae70c7156d901e52b17f22787efb5fa8b" compoundref="_third_person_camera_8cs" startline="13">UnityChan.ThirdPersonCamera.smooth</references>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1ac1158d9a5dda0a072bdb5229105745cd" compoundref="_third_person_camera_8cs" startline="38" endline="51">UnityChan.ThirdPersonCamera.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_third_person_camera_1af6441e92d95b7d846cbc82e907de5916" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.ThirdPersonCamera.setCameraPositionFrontView</definition>
+        <argsstring>()</argsstring>
+        <name>setCameraPositionFrontView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="67" bodyend="73"/>
+        <references refid="class_unity_chan_1_1_third_person_camera_1ad0c666a70047494f3f92018f3b27a87b" compoundref="_third_person_camera_8cs" startline="19">UnityChan.ThirdPersonCamera.bQuickSwitch</references>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1ac1158d9a5dda0a072bdb5229105745cd" compoundref="_third_person_camera_8cs" startline="38" endline="51">UnityChan.ThirdPersonCamera.FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_third_person_camera_1a8735e01ce856626667d31e3986590959" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.ThirdPersonCamera.setCameraPositionJumpView</definition>
+        <argsstring>()</argsstring>
+        <name>setCameraPositionJumpView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="75" bodyend="81"/>
+        <references refid="class_unity_chan_1_1_third_person_camera_1ad0c666a70047494f3f92018f3b27a87b" compoundref="_third_person_camera_8cs" startline="19">UnityChan.ThirdPersonCamera.bQuickSwitch</references>
+        <references refid="class_unity_chan_1_1_third_person_camera_1ae70c7156d901e52b17f22787efb5fa8b" compoundref="_third_person_camera_8cs" startline="13">UnityChan.ThirdPersonCamera.smooth</references>
+        <referencedby refid="class_unity_chan_1_1_third_person_camera_1ac1158d9a5dda0a072bdb5229105745cd" compoundref="_third_person_camera_8cs" startline="38" endline="51">UnityChan.ThirdPersonCamera.FixedUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2443">
+        <label>UnityChan.ThirdPersonCamera</label>
+        <link refid="class_unity_chan_1_1_third_person_camera"/>
+        <childnode refid="2444" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2444">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2445">
+        <label>UnityChan.ThirdPersonCamera</label>
+        <link refid="class_unity_chan_1_1_third_person_camera"/>
+        <childnode refid="2446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2446">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" bodystart="11" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_third_person_camera_1ad0c666a70047494f3f92018f3b27a87b" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>bQuickSwitch</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1ac1158d9a5dda0a072bdb5229105745cd" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1a3bc6405a1ac9c8655bfb99274ce843b5" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>frontPos</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1ac42e6e9b3a920a4635676b3fe24a3060" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>jumpPos</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1af6441e92d95b7d846cbc82e907de5916" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>setCameraPositionFrontView</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1a8735e01ce856626667d31e3986590959" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>setCameraPositionJumpView</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1a137baf1ccbbb4542dbf39d50f7b8cd63" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>setCameraPositionNormalView</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1ae70c7156d901e52b17f22787efb5fa8b" prot="public" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>smooth</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1a724ce3084d4024840697128c1890873f" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>standardPos</name></member>
+      <member refid="class_unity_chan_1_1_third_person_camera_1a0eecfee44597c8b66adea4db24131d51" prot="private" virt="non-virtual"><scope>UnityChan::ThirdPersonCamera</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

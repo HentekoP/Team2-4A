@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer" kind="class" prot="private">
+    <compoundname>GK::VoronoiCalculator::PTComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComparer&lt; PointTriangle &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a263ef200f45802057a6912fbec7007c0" prot="public" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; GK.VoronoiCalculator.PTComparer.verts</definition>
+        <argsstring></argsstring>
+        <name>verts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="290" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="290" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a5358b3430f42bf70cea63e758a76381f" compoundref="_voronoi_calculator_8cs" startline="342" endline="345">GK.VoronoiCalculator.PTComparer.Centroid</referencedby>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a337ba5debb9532c7c344d33e5ddd604b" compoundref="_voronoi_calculator_8cs" startline="306" endline="340">GK.VoronoiCalculator.PTComparer.CompareAngles</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1afe879aef5fc46c19dd0cbd19f0a67ec3" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; GK.VoronoiCalculator.PTComparer.tris</definition>
+        <argsstring></argsstring>
+        <name>tris</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="291" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="291" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a5358b3430f42bf70cea63e758a76381f" compoundref="_voronoi_calculator_8cs" startline="342" endline="345">GK.VoronoiCalculator.PTComparer.Centroid</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a05bbb2326561000a795e72a36b91fa36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GK.VoronoiCalculator.PTComparer.Compare</definition>
+        <argsstring>(PointTriangle pt0, PointTriangle pt1)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type><ref refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" kindref="compound">PointTriangle</ref></type>
+          <declname>pt0</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" kindref="compound">PointTriangle</ref></type>
+          <declname>pt1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="293" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="293" bodyend="304"/>
+        <references refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a337ba5debb9532c7c344d33e5ddd604b" compoundref="_voronoi_calculator_8cs" startline="306" endline="340">GK.VoronoiCalculator.PTComparer.CompareAngles</references>
+        <references refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle_1a1ca206396138e6e13c93dd025e1857bf" compoundref="_voronoi_calculator_8cs" startline="275">GK.VoronoiCalculator.PointTriangle.Point</references>
+        <references refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle_1a0fae3e7772b4fa13135f6ec9638cffaf" compoundref="_voronoi_calculator_8cs" startline="276">GK.VoronoiCalculator.PointTriangle.Triangle</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a337ba5debb9532c7c344d33e5ddd604b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GK.VoronoiCalculator.PTComparer.CompareAngles</definition>
+        <argsstring>(PointTriangle pt0, PointTriangle pt1)</argsstring>
+        <name>CompareAngles</name>
+        <param>
+          <type><ref refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" kindref="compound">PointTriangle</ref></type>
+          <declname>pt0</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" kindref="compound">PointTriangle</ref></type>
+          <declname>pt1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="306" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="306" bodyend="340"/>
+        <references refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a5358b3430f42bf70cea63e758a76381f" compoundref="_voronoi_calculator_8cs" startline="342" endline="345">GK.VoronoiCalculator.PTComparer.Centroid</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a263ef200f45802057a6912fbec7007c0" compoundref="_voronoi_calculator_8cs" startline="290">GK.VoronoiCalculator.PTComparer.verts</references>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a05bbb2326561000a795e72a36b91fa36" compoundref="_voronoi_calculator_8cs" startline="293" endline="304">GK.VoronoiCalculator.PTComparer.Compare</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a5358b3430f42bf70cea63e758a76381f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 GK.VoronoiCalculator.PTComparer.Centroid</definition>
+        <argsstring>(PointTriangle pt)</argsstring>
+        <name>Centroid</name>
+        <param>
+          <type><ref refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" kindref="compound">PointTriangle</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="342" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="342" bodyend="345"/>
+        <references refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1afe879aef5fc46c19dd0cbd19f0a67ec3" compoundref="_voronoi_calculator_8cs" startline="291">GK.VoronoiCalculator.PTComparer.tris</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a263ef200f45802057a6912fbec7007c0" compoundref="_voronoi_calculator_8cs" startline="290">GK.VoronoiCalculator.PTComparer.verts</references>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a337ba5debb9532c7c344d33e5ddd604b" compoundref="_voronoi_calculator_8cs" startline="306" endline="340">GK.VoronoiCalculator.PTComparer.CompareAngles</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2060">
+        <label>GK.VoronoiCalculator.PTComparer</label>
+        <link refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer"/>
+        <childnode refid="2061" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2061">
+        <label>IComparer&lt; PointTriangle &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2062">
+        <label>GK.VoronoiCalculator.PTComparer</label>
+        <link refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer"/>
+        <childnode refid="2063" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2063">
+        <label>IComparer&lt; PointTriangle &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="289" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="289" bodyend="346"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a5358b3430f42bf70cea63e758a76381f" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator::PTComparer</scope><name>Centroid</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a05bbb2326561000a795e72a36b91fa36" prot="public" virt="non-virtual"><scope>GK::VoronoiCalculator::PTComparer</scope><name>Compare</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a337ba5debb9532c7c344d33e5ddd604b" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator::PTComparer</scope><name>CompareAngles</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1afe879aef5fc46c19dd0cbd19f0a67ec3" prot="public" virt="non-virtual"><scope>GK::VoronoiCalculator::PTComparer</scope><name>tris</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer_1a263ef200f45802057a6912fbec7007c0" prot="public" virt="non-virtual"><scope>GK::VoronoiCalculator::PTComparer</scope><name>verts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

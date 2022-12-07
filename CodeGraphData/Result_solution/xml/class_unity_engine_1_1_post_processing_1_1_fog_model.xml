@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_fog_model" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::FogModel</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingModel</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_fog_model_1_1_settings" prot="public">UnityEngine::PostProcessing::FogModel::Settings</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_fog_model_1a53731991fbd1ad53793f4dbea503f476" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_fog_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.FogModel.m_Settings</definition>
+        <argsstring></argsstring>
+        <name>m_Settings</name>
+        <initializer>= <ref refid="struct_unity_engine_1_1_post_processing_1_1_fog_model_1_1_settings_1a0d0b889397232348949b1b3357cef242" kindref="member">Settings.defaultSettings</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_fog_model_1a2c7449e70d9d2940455a8fe97644c112" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_fog_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.FogModel.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_fog_model_1ac02075eb4d6e2eaa462eb33ab53c4753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.FogModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1071">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1072" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1072">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1073">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1074" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1075" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1074">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1075">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="1074" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1075" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/FogModel.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_model_1a53731991fbd1ad53793f4dbea503f476" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogModel</scope><name>m_Settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_model_1ac02075eb4d6e2eaa462eb33ab53c4753" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogModel</scope><name>Reset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_model_1a2c7449e70d9d2940455a8fe97644c112" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogModel</scope><name>settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

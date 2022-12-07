@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt" kind="class" prot="public">
+    <compoundname>Project::Scripts::Weapon::FireGunAlt</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a3916c83705f2f605cdc7f47b23195d47" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Project.Scripts.Weapon.FireGunAlt.barrelEnd</definition>
+        <argsstring></argsstring>
+        <name>barrelEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a705166f295b0066bc9bce6bc7edb2e55" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Project.Scripts.Weapon.FireGunAlt.force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <initializer>= 1000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a0cf04c5868f3c53f1cb0d28abe9c1742" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Project.Scripts.Weapon.FireGunAlt.hitRadius</definition>
+        <argsstring></argsstring>
+        <name>hitRadius</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1ad9613d2c42275e44323915178a134437" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Project.Scripts.Weapon.FireGunAlt.laserLine</definition>
+        <argsstring></argsstring>
+        <name>laserLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a1a5278f25cd2f70f35eaf55f5dff4eb9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Weapon.FireGunAlt.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a139a6dc553f87fceba6efa2d39b6ad73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject Project.Scripts.Weapon.FireGunAlt.BuildLaserLine</definition>
+        <argsstring>()</argsstring>
+        <name>BuildLaserLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="19" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a56667a968d5aeeeaee0a225ce0c9999a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Weapon.FireGunAlt.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a88e07bd01ae7c6936eabc9d2e87cb988" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Weapon.FireGunAlt.FireLaser</definition>
+        <argsstring>()</argsstring>
+        <name>FireLaser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="48" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1026">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1025">
+        <label>Project.Scripts.Weapon.FireGunAlt</label>
+        <link refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt"/>
+        <childnode refid="1026" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1028">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1027">
+        <label>Project.Scripts.Weapon.FireGunAlt</label>
+        <link refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt"/>
+        <childnode refid="1028" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Weapon/FireGunAlt.cs" bodystart="7" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a1a5278f25cd2f70f35eaf55f5dff4eb9" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>Awake</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a3916c83705f2f605cdc7f47b23195d47" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>barrelEnd</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a139a6dc553f87fceba6efa2d39b6ad73" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>BuildLaserLine</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a88e07bd01ae7c6936eabc9d2e87cb988" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>FireLaser</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a705166f295b0066bc9bce6bc7edb2e55" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>force</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a0cf04c5868f3c53f1cb0d28abe9c1742" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>hitRadius</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1ad9613d2c42275e44323915178a134437" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>laserLine</name></member>
+      <member refid="class_project_1_1_scripts_1_1_weapon_1_1_fire_gun_alt_1a56667a968d5aeeeaee0a225ce0c9999a" prot="private" virt="non-virtual"><scope>Project::Scripts::Weapon::FireGunAlt</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

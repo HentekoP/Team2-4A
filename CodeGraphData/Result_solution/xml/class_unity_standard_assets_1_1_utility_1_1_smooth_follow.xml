@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::SmoothFollow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a8d7d8cdae94a9a77567b040f93fd7e98" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Utility.SmoothFollow.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a050a28a81b51e08f2b8f2397db0ce1bb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.SmoothFollow.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a7a98b8841a32e166b8724ebba0190e15" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.SmoothFollow.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a117510234fa4fa563826bcaad2e6a10a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.SmoothFollow.rotationDamping</definition>
+        <argsstring></argsstring>
+        <name>rotationDamping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1ae3334caaac0423c18618f4f48181f9a9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.SmoothFollow.heightDamping</definition>
+        <argsstring></argsstring>
+        <name>heightDamping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a949f6bac40f089c249a7b9bfb3103b74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.SmoothFollow.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1af7192ff7aa1f41e9b7f92fa37259f402" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.SmoothFollow.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="28" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2339">
+        <label>UnityStandardAssets.Utility.SmoothFollow</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow"/>
+        <childnode refid="2340" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2340">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2341">
+        <label>UnityStandardAssets.Utility.SmoothFollow</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow"/>
+        <childnode refid="2342" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2342">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/SmoothFollow.cs" bodystart="6" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a050a28a81b51e08f2b8f2397db0ce1bb" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>distance</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a7a98b8841a32e166b8724ebba0190e15" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>height</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1ae3334caaac0423c18618f4f48181f9a9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>heightDamping</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1af7192ff7aa1f41e9b7f92fa37259f402" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>LateUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a117510234fa4fa563826bcaad2e6a10a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>rotationDamping</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a949f6bac40f089c249a7b9bfb3103b74" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_smooth_follow_1a8d7d8cdae94a9a77567b040f93fd7e98" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::SmoothFollow</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

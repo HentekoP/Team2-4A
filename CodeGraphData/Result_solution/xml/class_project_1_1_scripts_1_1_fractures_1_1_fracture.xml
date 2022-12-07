@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_1_1_scripts_1_1_fractures_1_1_fracture" kind="class" prot="public">
+    <compoundname>Project::Scripts::Fractures::Fracture</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a1441219811f878ef3126030e4ced6ffa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_graph_manager" kindref="compound">ChunkGraphManager</ref></type>
+        <definition>static ChunkGraphManager Project.Scripts.Fractures.Fracture.FractureGameObject</definition>
+        <argsstring>(GameObject gameObject, Anchor anchor, int seed, int totalChunks, Material insideMaterial, Material outsideMaterial, float jointBreakForce, float density)</argsstring>
+        <name>FractureGameObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref></type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totalChunks</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>insideMaterial</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>outsideMaterial</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jointBreakForce</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>density</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="10" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1ad0bd7b826de7b7283c83cb58e980a55c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Project.Scripts.Fractures.Fracture.AnchorChunks</definition>
+        <argsstring>(GameObject gameObject, Anchor anchor)</argsstring>
+        <name>AnchorChunks</name>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref></type>
+          <declname>anchor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="53" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1ae85b15efe21db4116d77e837e90c3805" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>static List&lt;GameObject&gt; Project.Scripts.Fractures.Fracture.BuildChunks</definition>
+        <argsstring>(Material insideMaterial, Material outsideMaterial, List&lt; Mesh &gt; meshes, float chunkMass)</argsstring>
+        <name>BuildChunks</name>
+        <param>
+          <type>Material</type>
+          <declname>insideMaterial</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>outsideMaterial</declname>
+        </param>
+        <param>
+          <type>List&lt; Mesh &gt;</type>
+          <declname>meshes</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>chunkMass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a6143a7060339e6be0e43200ab98e695a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Mesh &gt;</type>
+        <definition>static List&lt;Mesh&gt; Project.Scripts.Fractures.Fracture.FractureMeshesInNvblast</definition>
+        <argsstring>(int totalChunks, NvMesh nvMesh)</argsstring>
+        <name>FractureMeshesInNvblast</name>
+        <param>
+          <type>int</type>
+          <declname>totalChunks</declname>
+        </param>
+        <param>
+          <type><ref refid="class_nv_mesh" kindref="compound">NvMesh</ref></type>
+          <declname>nvMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="79" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1aba81af9680057769d42d93c8172f9461" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Collider &gt;</type>
+        <definition>static IEnumerable&lt;Collider&gt; Project.Scripts.Fractures.Fracture.GetAnchoredColliders</definition>
+        <argsstring>(Anchor anchor, Transform meshTransform, Bounds bounds)</argsstring>
+        <name>GetAnchoredColliders</name>
+        <param>
+          <type><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref></type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>meshTransform</declname>
+        </param>
+        <param>
+          <type>Bounds</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="100" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a4a42f45f933ef7abf48ba3b5b372ef25" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh Project.Scripts.Fractures.Fracture.ExtractChunkMesh</definition>
+        <argsstring>(NvFractureTool fractureTool, int index)</argsstring>
+        <name>ExtractChunkMesh</name>
+        <param>
+          <type><ref refid="class_nv_fracture_tool" kindref="compound">NvFractureTool</ref></type>
+          <declname>fractureTool</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="152" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="152" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a51b451a06458446b13fcf95d5f81b8ea" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh Project.Scripts.Fractures.Fracture.GetWorldMesh</definition>
+        <argsstring>(GameObject gameObject)</argsstring>
+        <name>GetWorldMesh</name>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="162" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a9365034abcc4e5fe0428d2a76fb4ecd7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Project.Scripts.Fractures.Fracture.ValidateMesh</definition>
+        <argsstring>(Mesh mesh)</argsstring>
+        <name>ValidateMesh</name>
+        <param>
+          <type>Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="178" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="178" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a0656612321b3f5de795642c46b8526a1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject Project.Scripts.Fractures.Fracture.BuildChunk</definition>
+        <argsstring>(Material insideMaterial, Material outsideMaterial, Mesh mesh, float mass)</argsstring>
+        <name>BuildChunk</name>
+        <param>
+          <type>Material</type>
+          <declname>insideMaterial</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>outsideMaterial</declname>
+        </param>
+        <param>
+          <type>Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="201" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="201" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a5415d781c6ecabf3c3a36d96c9ae1451" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Project.Scripts.Fractures.Fracture.ConnectTouchingChunks</definition>
+        <argsstring>(GameObject chunk, float jointBreakForce, float touchRadius=.01f)</argsstring>
+        <name>ConnectTouchingChunks</name>
+        <param>
+          <type>GameObject</type>
+          <declname>chunk</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jointBreakForce</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>touchRadius</declname>
+          <defval>.01f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="225" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="225" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/Fracture.cs" bodystart="8" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1ad0bd7b826de7b7283c83cb58e980a55c" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>AnchorChunks</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a0656612321b3f5de795642c46b8526a1" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>BuildChunk</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1ae85b15efe21db4116d77e837e90c3805" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>BuildChunks</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a5415d781c6ecabf3c3a36d96c9ae1451" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>ConnectTouchingChunks</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a4a42f45f933ef7abf48ba3b5b372ef25" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>ExtractChunkMesh</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a1441219811f878ef3126030e4ced6ffa" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>FractureGameObject</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a6143a7060339e6be0e43200ab98e695a" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>FractureMeshesInNvblast</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1aba81af9680057769d42d93c8172f9461" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>GetAnchoredColliders</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a51b451a06458446b13fcf95d5f81b8ea" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>GetWorldMesh</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_1a9365034abcc4e5fe0428d2a76fb4ecd7" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::Fracture</scope><name>ValidateMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::ParticleSystemDestroyer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1aa3a334590fac10160cfead516a72e25b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.ParticleSystemDestroyer.minDuration</definition>
+        <argsstring></argsstring>
+        <name>minDuration</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1a8cfb6e6979b64567e06ab8da46415793" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.ParticleSystemDestroyer.maxDuration</definition>
+        <argsstring></argsstring>
+        <name>maxDuration</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1ae1101d42ec76be117b88b5b94642381e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.ParticleSystemDestroyer.m_MaxLifetime</definition>
+        <argsstring></argsstring>
+        <name>m_MaxLifetime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1afeb180fa70ad60cf7eb9c0993eb211c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Utility.ParticleSystemDestroyer.m_EarlyStop</definition>
+        <argsstring></argsstring>
+        <name>m_EarlyStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1adc594f53ba658b1d640de36d38952700" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityStandardAssets.Utility.ParticleSystemDestroyer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="21" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1ab6c9ecc82e2626fbd5b6d14d219a0935" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.ParticleSystemDestroyer.Stop</definition>
+        <argsstring>()</argsstring>
+        <name>Stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="56" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1635">
+        <label>UnityStandardAssets.Utility.ParticleSystemDestroyer</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer"/>
+        <childnode refid="1636" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1636">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1637">
+        <label>UnityStandardAssets.Utility.ParticleSystemDestroyer</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer"/>
+        <childnode refid="1638" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1638">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ParticleSystemDestroyer.cs" bodystart="8" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1afeb180fa70ad60cf7eb9c0993eb211c5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ParticleSystemDestroyer</scope><name>m_EarlyStop</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1ae1101d42ec76be117b88b5b94642381e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ParticleSystemDestroyer</scope><name>m_MaxLifetime</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1a8cfb6e6979b64567e06ab8da46415793" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::ParticleSystemDestroyer</scope><name>maxDuration</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1aa3a334590fac10160cfead516a72e25b" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::ParticleSystemDestroyer</scope><name>minDuration</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1adc594f53ba658b1d640de36d38952700" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ParticleSystemDestroyer</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer_1ab6c9ecc82e2626fbd5b6d14d219a0935" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::ParticleSystemDestroyer</scope><name>Stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

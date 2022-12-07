@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::PostProcessingModelEditor</compoundname>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_ambient_occlusion_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.AmbientOcclusionModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_antialiasing_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.AntialiasingModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.BloomModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.BuiltinDebugViewsEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.ColorGradingModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_default_post_fx_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.DefaultPostFxModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.DepthOfFieldModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_dithering_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.DitheringModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_eye_adaptation_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.EyeAdaptationModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_fog_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.FogModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.GrainModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.MotionBlurModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_user_lut_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.UserLutModelEditor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_vignette_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.VignetteModelEditor</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" kindref="compound">PostProcessingModel</ref></type>
+        <definition>PostProcessingModel UnityEditor.PostProcessing.PostProcessingModelEditor.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingModelEditor.serializedProperty</definition>
+        <argsstring></argsstring>
+        <name>serializedProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingModelEditor.m_SettingsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_SettingsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingModelEditor.m_EnabledProperty</definition>
+        <argsstring></argsstring>
+        <name>m_EnabledProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.PostProcessingModelEditor.alwaysEnabled</definition>
+        <argsstring></argsstring>
+        <name>alwaysEnabled</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile" kindref="compound">PostProcessingProfile</ref></type>
+        <definition>PostProcessingProfile UnityEditor.PostProcessing.PostProcessingModelEditor.profile</definition>
+        <argsstring></argsstring>
+        <name>profile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" static="no" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector" kindref="compound">PostProcessingInspector</ref></type>
+        <definition>PostProcessingInspector UnityEditor.PostProcessing.PostProcessingModelEditor.inspector</definition>
+        <argsstring></argsstring>
+        <name>inspector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingModelEditor.OnPreEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingModelEditor.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="34" bodyend="51"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1ad3b4bb7526a79a1fe31e79a866aa94f1" compoundref="_editor_g_u_i_helper_8cs" startline="44" endline="88">UnityEditor.PostProcessing.EditorGUIHelper.Header</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEditor.PostProcessing.PostProcessingModelEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_default_post_fx_model_editor_1a68eb49101de308934dcd63dbe26b4704">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_fog_model_editor_1af4c50497dc8b6d6fa9a1f117be43c18b">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_user_lut_model_editor_1af7261e180a19f86a6379cd13d76fec2e">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1aecebb5c4de2fcd7df84dfa52ca8f6e4d">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a734cf645dac2b322e98d85ad7652dd2a">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_ambient_occlusion_model_editor_1a7985bbb79187976b1e90cdb401800e2f">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vignette_model_editor_1aa8b2441f6cd3fcd3f34c88d03a24be18">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_eye_adaptation_model_editor_1a9d480e9449494f870ac0ce711fce6091">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_antialiasing_model_editor_1a197f83799bb72c6f98ac55c058daa2d0">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a9e243b49c284dfd0018e7eb8c03b0076">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a25ae9660ff2582094d46a5647ee1a5cf">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a82b863023f5322483c601ce1bcc254d1">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9304ac2ec59d4c192e9783635da1592e">OnEnable</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a3cc4895e7a3e5aa942b94c6f4ff1126a">OnEnable</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEditor.PostProcessing.PostProcessingModelEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aab4148dee7ad4938498e7f12556ebac6">OnDisable</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEditor.PostProcessing.PostProcessingModelEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_dithering_model_editor_1a32cce7225dccf96fea7c0d1bc9ff8384">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_default_post_fx_model_editor_1a2f43028e13c460b608aab5c846551016">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_fog_model_editor_1a31db175fb963bd4313e4d49a73d39f47">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_user_lut_model_editor_1aebca737810782e9837ddd81529ac8542">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a89570fe2538ade6f875dac77284e76c4">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a16d6393fb53a11e086f8caac90166b25">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_ambient_occlusion_model_editor_1a088ca4292c297130b6d86b22357c1c41">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vignette_model_editor_1ad058e20158c114d74518f6b0268789d6">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_eye_adaptation_model_editor_1a4cf6a60dd7701b19aeda57e557f44cee">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_antialiasing_model_editor_1a6309384162ac175322d6dcc44d0c2e0d">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a8ae605305e02f59af174837e93ff5b02">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor_1a5707f6b766ba9c6ada9a266ecc69948b">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1afa95d659e07fb98f2c08129dc2a51ca1">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1ab747616bf4f9492da7e18ea96f9f0360">OnInspectorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a72e18f9836c9d26b8ee326d7f9e0f855">OnInspectorGUI</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="61" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingModelEditor.Repaint</definition>
+        <argsstring>()</argsstring>
+        <name>Repaint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a01a98d872ec60a232699f60ffd7fabb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingModelEditor.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="53" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingModelEditor.FindSetting&lt; T, TValue &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, TValue &gt;&gt; expr)</argsstring>
+        <name>FindSetting&lt; T, TValue &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, TValue &gt;&gt;</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingModelEditor.FindSetting&lt; T, TValue &gt;</definition>
+        <argsstring>(SerializedProperty prop, Expression&lt; Func&lt; T, TValue &gt;&gt; expr)</argsstring>
+        <name>FindSetting&lt; T, TValue &gt;</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; T, TValue &gt;&gt;</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1984">
+        <label>UnityEditor.PostProcessing.BloomModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1990">
+        <label>UnityEditor.PostProcessing.DitheringModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_dithering_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1981">
+        <label>UnityEditor.PostProcessing.PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+      </node>
+      <node id="1993">
+        <label>UnityEditor.PostProcessing.GrainModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1988">
+        <label>UnityEditor.PostProcessing.ChromaticaAberrationModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_chromatica_aberration_model_editor"/>
+        <childnode refid="1987" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1992">
+        <label>UnityEditor.PostProcessing.FogModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_fog_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1997">
+        <label>UnityEditor.PostProcessing.VignetteModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_vignette_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1994">
+        <label>UnityEditor.PostProcessing.MotionBlurModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1982">
+        <label>UnityEditor.PostProcessing.AmbientOcclusionModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_ambient_occlusion_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1983">
+        <label>UnityEditor.PostProcessing.AntialiasingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_antialiasing_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1987">
+        <label>UnityEditor.PostProcessing.DefaultPostFxModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_default_post_fx_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1995">
+        <label>UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1991">
+        <label>UnityEditor.PostProcessing.EyeAdaptationModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_eye_adaptation_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1986">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1989">
+        <label>UnityEditor.PostProcessing.DepthOfFieldModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1985">
+        <label>UnityEditor.PostProcessing.BuiltinDebugViewsEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_builtin_debug_views_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1996">
+        <label>UnityEditor.PostProcessing.UserLutModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_user_lut_model_editor"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2018">
+        <label>Editor</label>
+      </node>
+      <node id="2004">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1998">
+        <label>UnityEditor.PostProcessing.PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+        <childnode refid="1999" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="2017" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+      </node>
+      <node id="2014">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2012">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2006">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2007">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2016">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2010">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2000">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2017">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="2018" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1999">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2000" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2001" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="2004" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="2005" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="2006" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="2007" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="2008" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="2009" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="2010" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="2011" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="2012" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="2013" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="2014" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="2015" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="2016" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2002">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2015">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2005">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2013">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2003">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2009">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2001">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2011">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2008">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingModelEditor.cs" bodystart="8" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>alwaysEnabled</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>inspector</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>m_EnabledProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>m_SettingsProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>OnPreEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>Repaint</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a01a98d872ec60a232699f60ffd7fabb7" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>Reset</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>serializedProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingModelEditor</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

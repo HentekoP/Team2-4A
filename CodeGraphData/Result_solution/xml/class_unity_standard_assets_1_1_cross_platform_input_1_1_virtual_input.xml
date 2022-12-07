@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input" kind="class" prot="public" abstract="yes">
+    <compoundname>UnityStandardAssets::CrossPlatformInput::VirtualInput</compoundname>
+    <derivedcompoundref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input" prot="public" virt="non-virtual">UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input" prot="public" virt="non-virtual">UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1afa1db3ff31769359a2ba5de88d860e45" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.CrossPlatformInput.VirtualInput.virtualMousePosition</definition>
+        <argsstring></argsstring>
+        <name>virtualMousePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1abb0e84e118d732a626c67adb78b26eff" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref> &gt;</type>
+        <definition>Dictionary&lt;string, CrossPlatformInputManager.VirtualAxis&gt; UnityStandardAssets.CrossPlatformInput.VirtualInput.m_VirtualAxes</definition>
+        <argsstring></argsstring>
+        <name>m_VirtualAxes</name>
+        <initializer>=
+            new Dictionary&lt;string, <ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1adbc824b5db08f6929aee3be874bc76cb" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_button" kindref="compound">CrossPlatformInputManager.VirtualButton</ref> &gt;</type>
+        <definition>Dictionary&lt;string, CrossPlatformInputManager.VirtualButton&gt; UnityStandardAssets.CrossPlatformInput.VirtualInput.m_VirtualButtons</definition>
+        <argsstring></argsstring>
+        <name>m_VirtualButtons</name>
+        <initializer>=
+            new Dictionary&lt;string, <ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_button" kindref="compound">CrossPlatformInputManager.VirtualButton</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1abe7ea4edf0c3003a5a19969530cd855e" prot="protected" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; UnityStandardAssets.CrossPlatformInput.VirtualInput.m_AlwaysUseVirtual</definition>
+        <argsstring></argsstring>
+        <name>m_AlwaysUseVirtual</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ab5744afc94aa095e2f8149bc44920360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.VirtualInput.AxisExists</definition>
+        <argsstring>(string name)</argsstring>
+        <name>AxisExists</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a5d70deed210f91fc144d9a62cab4c535" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.VirtualInput.ButtonExists</definition>
+        <argsstring>(string name)</argsstring>
+        <name>ButtonExists</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1aa530866e5a5597cee5f56a80b5074914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.RegisterVirtualAxis</definition>
+        <argsstring>(CrossPlatformInputManager.VirtualAxis axis)</argsstring>
+        <name>RegisterVirtualAxis</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="33" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a6073a4d0dc59419c956d3454217f07c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.RegisterVirtualButton</definition>
+        <argsstring>(CrossPlatformInputManager.VirtualButton button)</argsstring>
+        <name>RegisterVirtualButton</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_button" kindref="compound">CrossPlatformInputManager.VirtualButton</ref></type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="54" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a97ed9f03493198eab55eb47e9fa77801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.UnRegisterVirtualAxis</definition>
+        <argsstring>(string name)</argsstring>
+        <name>UnRegisterVirtualAxis</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1aff127b39add01c4d34a6b5a396d42ea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.UnRegisterVirtualButton</definition>
+        <argsstring>(string name)</argsstring>
+        <name>UnRegisterVirtualButton</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="85" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1af19a8841bf61b55baa6d791a82f67cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+        <definition>CrossPlatformInputManager.VirtualAxis UnityStandardAssets.CrossPlatformInput.VirtualInput.VirtualAxisReference</definition>
+        <argsstring>(string name)</argsstring>
+        <name>VirtualAxisReference</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a7eec67e6da5890b0d14ec6e9f1adb43d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetVirtualMousePositionX</definition>
+        <argsstring>(float f)</argsstring>
+        <name>SetVirtualMousePositionX</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1acf54ec0ee9e7e54bb603538e49ff3d61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetVirtualMousePositionY</definition>
+        <argsstring>(float f)</argsstring>
+        <name>SetVirtualMousePositionY</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a2f5097b2d04f3af6db5a1bad128fbaa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetVirtualMousePositionZ</definition>
+        <argsstring>(float f)</argsstring>
+        <name>SetVirtualMousePositionZ</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1acc3057ff75396039d6b27f518f2c0806" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract float</type>
+        <definition>abstract float UnityStandardAssets.CrossPlatformInput.VirtualInput.GetAxis</definition>
+        <argsstring>(string name, bool raw)</argsstring>
+        <name>GetAxis</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a810b166597117356c6be8a77c5f60b87">GetAxis</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a021064294312ef214f3219f87bfd10b8">GetAxis</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>raw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a74f82647d8ca8e17d4f89d94c19a891c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool UnityStandardAssets.CrossPlatformInput.VirtualInput.GetButton</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetButton</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1abae28eb1ca17a873cc6eed480085e0fb">GetButton</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a02d4acfbb8bac5f80d9d7ce07fd72dd0">GetButton</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ae7cfad86082449cfd335b337450241a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool UnityStandardAssets.CrossPlatformInput.VirtualInput.GetButtonDown</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetButtonDown</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a6017fdff87802b504aafd55969807ae7">GetButtonDown</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a8bf6e39ee25d772a7ee72ab9ea04b50b">GetButtonDown</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a91fa118a5b6f1e66d6551a385b664d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool UnityStandardAssets.CrossPlatformInput.VirtualInput.GetButtonUp</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetButtonUp</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1af86223b3eb0b0d81c794dbbee4f1c8fa">GetButtonUp</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1aa8563558050d14bdec8b9e1ceae8464c">GetButtonUp</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="124" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1aff10ff821f722ce82e9a48b5406e836e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetButtonDown</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetButtonDown</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a56ecd8af7bf3e3d66fd1a171ad59343b">SetButtonDown</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a2736a0b9d786fa766fbce1379814b58d">SetButtonDown</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a03e5f4e3650d7322569b5b39f53a8522" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetButtonUp</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetButtonUp</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1acc7c93e48c46057a72b426b2bc9b9f4e">SetButtonUp</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a04b2283a162114fadb2a3e21120d1907">SetButtonUp</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1abd4920b94dff2454bac3daa6c355c71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetAxisPositive</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetAxisPositive</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a045d6d8118178037cca1552c087f4598">SetAxisPositive</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a0efb94b84448d95df8004db34a1bfc49">SetAxisPositive</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ad3af2e79617bf02ba1d9dd51162a404a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetAxisNegative</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetAxisNegative</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1ab657b9df7411909f1319c7ecf918689c">SetAxisNegative</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1aa80b3a8e7565ebc452fe3d304dba52a0">SetAxisNegative</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ad2b9d1001a194fd34c26086a39e25849" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetAxisZero</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetAxisZero</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a94bfadda9797a34c9d66b30dd6449c2c">SetAxisZero</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a4a4fe09e6913d9a1396d8efac1c166a5">SetAxisZero</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ab0bef7a37bb6e5962d7d2dffea4d083f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityStandardAssets.CrossPlatformInput.VirtualInput.SetAxis</definition>
+        <argsstring>(string name, float value)</argsstring>
+        <name>SetAxis</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a1597873a4a9309a388a3e9239e2632d7">SetAxis</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1a62844904d698bdeb2a5305d3ddd1a3f0">SetAxis</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a204a66311a817e49ca0f137a2aa584d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract Vector3</type>
+        <definition>abstract Vector3 UnityStandardAssets.CrossPlatformInput.VirtualInput.MousePosition</definition>
+        <argsstring>()</argsstring>
+        <name>MousePosition</name>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input_1a18dc43a362728639b76870ef6e141576">MousePosition</reimplementedby>
+        <reimplementedby refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input_1ab85ef8caaf3f7346d06f75c22cb98b73">MousePosition</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="132" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2790">
+        <label>UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input"/>
+        <childnode refid="2789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2789">
+        <label>UnityStandardAssets.CrossPlatformInput.VirtualInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input"/>
+      </node>
+      <node id="2791">
+        <label>UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input"/>
+        <childnode refid="2789" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" bodystart="8" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ab5744afc94aa095e2f8149bc44920360" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>AxisExists</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a5d70deed210f91fc144d9a62cab4c535" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>ButtonExists</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1acc3057ff75396039d6b27f518f2c0806" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>GetAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a74f82647d8ca8e17d4f89d94c19a891c" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>GetButton</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ae7cfad86082449cfd335b337450241a7" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>GetButtonDown</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a91fa118a5b6f1e66d6551a385b664d07" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>GetButtonUp</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1abe7ea4edf0c3003a5a19969530cd855e" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>m_AlwaysUseVirtual</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1abb0e84e118d732a626c67adb78b26eff" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>m_VirtualAxes</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1adbc824b5db08f6929aee3be874bc76cb" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>m_VirtualButtons</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a204a66311a817e49ca0f137a2aa584d2" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>MousePosition</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1aa530866e5a5597cee5f56a80b5074914" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>RegisterVirtualAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a6073a4d0dc59419c956d3454217f07c3" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>RegisterVirtualButton</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ab0bef7a37bb6e5962d7d2dffea4d083f" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ad3af2e79617bf02ba1d9dd51162a404a" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetAxisNegative</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1abd4920b94dff2454bac3daa6c355c71d" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetAxisPositive</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1ad2b9d1001a194fd34c26086a39e25849" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetAxisZero</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1aff10ff821f722ce82e9a48b5406e836e" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetButtonDown</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a03e5f4e3650d7322569b5b39f53a8522" prot="public" virt="pure-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetButtonUp</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a7eec67e6da5890b0d14ec6e9f1adb43d" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetVirtualMousePositionX</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1acf54ec0ee9e7e54bb603538e49ff3d61" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetVirtualMousePositionY</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a2f5097b2d04f3af6db5a1bad128fbaa1" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>SetVirtualMousePositionZ</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1a97ed9f03493198eab55eb47e9fa77801" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>UnRegisterVirtualAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1aff127b39add01c4d34a6b5a396d42ea1" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>UnRegisterVirtualButton</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1af19a8841bf61b55baa6d791a82f67cdd" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>VirtualAxisReference</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input_1afa1db3ff31769359a2ba5de88d860e45" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::VirtualInput</scope><name>virtualMousePosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_spring_manager" kind="class" prot="public">
+    <compoundname>UnityChan::SpringManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_manager_1a90ea660417f2d7f5bd06ce4d49412f1b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringManager.dynamicRatio</definition>
+        <argsstring></argsstring>
+        <name>dynamicRatio</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a7f85d97ce41857ebbd60e0aebfd0b102" compoundref="_spring_manager_8cs" startline="48" endline="58">UnityChan.SpringManager.LateUpdate</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a70460cb850c41f39cb6809b177fdeec5" compoundref="_spring_manager_8cs" startline="35" endline="46">UnityChan.SpringManager.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_manager_1a080ad5aa982f5d4f708593b298420784" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringManager.stiffnessForce</definition>
+        <argsstring></argsstring>
+        <name>stiffnessForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_manager_1a187359f84369bf3d45980e0c48a207fc" prot="public" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve UnityChan.SpringManager.stiffnessCurve</definition>
+        <argsstring></argsstring>
+        <name>stiffnessCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_manager_1aae79ccebff3f3bf9d425faf2dd37bbd8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringManager.dragForce</definition>
+        <argsstring></argsstring>
+        <name>dragForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_manager_1a2062f9f5b7eda55257bc55e68aa99ec0" prot="public" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve UnityChan.SpringManager.dragCurve</definition>
+        <argsstring></argsstring>
+        <name>dragCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_manager_1a7a51c94189186fe8132889bf8058187c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_chan_1_1_spring_bone" kindref="compound">SpringBone</ref>[]</type>
+        <definition>SpringBone [] UnityChan.SpringManager.springBones</definition>
+        <argsstring></argsstring>
+        <name>springBones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a7f85d97ce41857ebbd60e0aebfd0b102" compoundref="_spring_manager_8cs" startline="48" endline="58">UnityChan.SpringManager.LateUpdate</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a24c24351c8ce27430197adf3f87ab04e" compoundref="_spring_manager_8cs" startline="66" endline="81">UnityChan.SpringManager.UpdateParameter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_manager_1a9db79f5979d6e12c6508f81e081791ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_manager_1a70460cb850c41f39cb6809b177fdeec5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="35" bodyend="46"/>
+        <references refid="class_unity_chan_1_1_spring_manager_1a90ea660417f2d7f5bd06ce4d49412f1b" compoundref="_spring_manager_8cs" startline="21">UnityChan.SpringManager.dynamicRatio</references>
+        <references refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_manager_1a7f85d97ce41857ebbd60e0aebfd0b102" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringManager.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="48" bodyend="58"/>
+        <references refid="class_unity_chan_1_1_spring_manager_1a90ea660417f2d7f5bd06ce4d49412f1b" compoundref="_spring_manager_8cs" startline="21">UnityChan.SpringManager.dynamicRatio</references>
+        <references refid="class_unity_chan_1_1_spring_manager_1a7a51c94189186fe8132889bf8058187c" compoundref="_spring_manager_8cs" startline="28">UnityChan.SpringManager.springBones</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringManager.UpdateParameters</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="60" bodyend="64"/>
+        <references refid="class_unity_chan_1_1_spring_manager_1a2062f9f5b7eda55257bc55e68aa99ec0" compoundref="_spring_manager_8cs" startline="27">UnityChan.SpringManager.dragCurve</references>
+        <references refid="class_unity_chan_1_1_spring_manager_1aae79ccebff3f3bf9d425faf2dd37bbd8" compoundref="_spring_manager_8cs" startline="26">UnityChan.SpringManager.dragForce</references>
+        <references refid="class_unity_chan_1_1_spring_manager_1a187359f84369bf3d45980e0c48a207fc" compoundref="_spring_manager_8cs" startline="25">UnityChan.SpringManager.stiffnessCurve</references>
+        <references refid="class_unity_chan_1_1_spring_manager_1a080ad5aa982f5d4f708593b298420784" compoundref="_spring_manager_8cs" startline="24">UnityChan.SpringManager.stiffnessForce</references>
+        <references refid="class_unity_chan_1_1_spring_manager_1a24c24351c8ce27430197adf3f87ab04e" compoundref="_spring_manager_8cs" startline="66" endline="81">UnityChan.SpringManager.UpdateParameter</references>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a9db79f5979d6e12c6508f81e081791ce" compoundref="_spring_manager_8cs" startline="30" endline="33">UnityChan.SpringManager.Start</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a70460cb850c41f39cb6809b177fdeec5" compoundref="_spring_manager_8cs" startline="35" endline="46">UnityChan.SpringManager.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_manager_1a24c24351c8ce27430197adf3f87ab04e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringManager.UpdateParameter</definition>
+        <argsstring>(string fieldName, float baseValue, AnimationCurve curve)</argsstring>
+        <name>UpdateParameter</name>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseValue</declname>
+        </param>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="66" bodyend="81"/>
+        <references refid="class_unity_chan_1_1_spring_manager_1a7a51c94189186fe8132889bf8058187c" compoundref="_spring_manager_8cs" startline="28">UnityChan.SpringManager.springBones</references>
+        <referencedby refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" compoundref="_spring_manager_8cs" startline="60" endline="64">UnityChan.SpringManager.UpdateParameters</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2370">
+        <label>UnityChan.SpringManager</label>
+        <link refid="class_unity_chan_1_1_spring_manager"/>
+        <childnode refid="2371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2371">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2372">
+        <label>UnityChan.SpringManager</label>
+        <link refid="class_unity_chan_1_1_spring_manager"/>
+        <childnode refid="2373" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2374" relation="usage">
+          <edgelabel>springBones</edgelabel>
+        </childnode>
+      </node>
+      <node id="2374">
+        <label>UnityChan.SpringBone</label>
+        <link refid="class_unity_chan_1_1_spring_bone"/>
+        <childnode refid="2373" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2372" relation="usage">
+          <edgelabel>managerRef</edgelabel>
+        </childnode>
+        <childnode refid="2375" relation="usage">
+          <edgelabel>colliders</edgelabel>
+        </childnode>
+      </node>
+      <node id="2373">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2375">
+        <label>UnityChan.SpringCollider</label>
+        <link refid="class_unity_chan_1_1_spring_collider"/>
+        <childnode refid="2373" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" bodystart="17" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_spring_manager_1a2062f9f5b7eda55257bc55e68aa99ec0" prot="public" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>dragCurve</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1aae79ccebff3f3bf9d425faf2dd37bbd8" prot="public" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>dragForce</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a90ea660417f2d7f5bd06ce4d49412f1b" prot="public" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>dynamicRatio</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a7f85d97ce41857ebbd60e0aebfd0b102" prot="private" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>LateUpdate</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a7a51c94189186fe8132889bf8058187c" prot="public" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>springBones</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a9db79f5979d6e12c6508f81e081791ce" prot="private" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>Start</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a187359f84369bf3d45980e0c48a207fc" prot="public" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>stiffnessCurve</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a080ad5aa982f5d4f708593b298420784" prot="public" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>stiffnessForce</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a70460cb850c41f39cb6809b177fdeec5" prot="private" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>Update</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a24c24351c8ce27430197adf3f87ab04e" prot="private" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>UpdateParameter</name></member>
+      <member refid="class_unity_chan_1_1_spring_manager_1a08cc175cceb080da25f2ea1cbb235431" prot="private" virt="non-virtual"><scope>UnityChan::SpringManager</scope><name>UpdateParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

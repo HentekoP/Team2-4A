@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_item_h_p_bar" kind="class" prot="public">
+    <compoundname>ItemHPBar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ItemHPBar.maxHp</definition>
+        <argsstring></argsstring>
+        <name>maxHp</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_item_h_p_bar_1abf5f7bc8277a6bcb1ee3ee2bd86e4de3" compoundref="_item_h_p_bar_8cs" startline="17" endline="26">Start</referencedby>
+        <referencedby refid="class_item_h_p_bar_1a39b9065a26e5997f063c8cdfb9715cb3" compoundref="_item_h_p_bar_8cs" startline="29" endline="47">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ItemHPBar.currentHp</definition>
+        <argsstring></argsstring>
+        <name>currentHp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_item_h_p_bar_1abf5f7bc8277a6bcb1ee3ee2bd86e4de3" compoundref="_item_h_p_bar_8cs" startline="17" endline="26">Start</referencedby>
+        <referencedby refid="class_item_h_p_bar_1a39b9065a26e5997f063c8cdfb9715cb3" compoundref="_item_h_p_bar_8cs" startline="29" endline="47">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_h_p_bar_1a0eb7e8dc9438ea8a4aefbf2673ff69ca" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemHPBar.Item</definition>
+        <argsstring></argsstring>
+        <name>Item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_h_p_bar_1a37b1e129e0fdea3eaaa17815f71d8b8a" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider ItemHPBar.slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_item_h_p_bar_1abf5f7bc8277a6bcb1ee3ee2bd86e4de3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemHPBar.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="17" bodyend="26"/>
+        <references refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" compoundref="_item_h_p_bar_8cs" startline="13">currentHp</references>
+        <references refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" compoundref="_item_h_p_bar_8cs" startline="11">maxHp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_h_p_bar_1a39b9065a26e5997f063c8cdfb9715cb3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemHPBar.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="29" bodyend="47"/>
+        <references refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" compoundref="_item_h_p_bar_8cs" startline="13">currentHp</references>
+        <references refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" compoundref="_item_h_p_bar_8cs" startline="11">maxHp</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1339">
+        <label>ItemHPBar</label>
+        <link refid="class_item_h_p_bar"/>
+        <childnode refid="1340" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1340">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1341">
+        <label>ItemHPBar</label>
+        <link refid="class_item_h_p_bar"/>
+        <childnode refid="1342" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1342">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs" bodystart="8" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" prot="private" virt="non-virtual"><scope>ItemHPBar</scope><name>currentHp</name></member>
+      <member refid="class_item_h_p_bar_1a0eb7e8dc9438ea8a4aefbf2673ff69ca" prot="public" virt="non-virtual"><scope>ItemHPBar</scope><name>Item</name></member>
+      <member refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" prot="private" virt="non-virtual"><scope>ItemHPBar</scope><name>maxHp</name></member>
+      <member refid="class_item_h_p_bar_1a37b1e129e0fdea3eaaa17815f71d8b8a" prot="public" virt="non-virtual"><scope>ItemHPBar</scope><name>slider</name></member>
+      <member refid="class_item_h_p_bar_1abf5f7bc8277a6bcb1ee3ee2bd86e4de3" prot="private" virt="non-virtual"><scope>ItemHPBar</scope><name>Start</name></member>
+      <member refid="class_item_h_p_bar_1a39b9065a26e5997f063c8cdfb9715cb3" prot="private" virt="non-virtual"><scope>ItemHPBar</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

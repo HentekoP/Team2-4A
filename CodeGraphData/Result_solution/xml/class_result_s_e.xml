@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_result_s_e" kind="class" prot="public">
+    <compoundname>ResultSE</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_result_s_e_1af71718690010a25c1f66031803bad402" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource ResultSE.SE</definition>
+        <argsstring></argsstring>
+        <name>SE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_result_s_e_1a6a185a1ae2960282a141168f48e231fc" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip ResultSE.clip</definition>
+        <argsstring></argsstring>
+        <name>clip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_result_s_e_1a75159fa4eed566ca8f6a80b5d79dc2a0" compoundref="_result_s_e_8cs" startline="10" endline="14">PlaySE</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_result_s_e_1a75159fa4eed566ca8f6a80b5d79dc2a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResultSE.PlaySE</definition>
+        <argsstring>()</argsstring>
+        <name>PlaySE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" bodystart="10" bodyend="14"/>
+        <references refid="class_result_s_e_1a6a185a1ae2960282a141168f48e231fc" compoundref="_result_s_e_8cs" startline="8">clip</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2118">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2117">
+        <label>ResultSE</label>
+        <link refid="class_result_s_e"/>
+        <childnode refid="2118" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2120">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2119">
+        <label>ResultSE</label>
+        <link refid="class_result_s_e"/>
+        <childnode refid="2120" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ResultSE.cs" bodystart="5" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_result_s_e_1a6a185a1ae2960282a141168f48e231fc" prot="public" virt="non-virtual"><scope>ResultSE</scope><name>clip</name></member>
+      <member refid="class_result_s_e_1a75159fa4eed566ca8f6a80b5d79dc2a0" prot="private" virt="non-virtual"><scope>ResultSE</scope><name>PlaySE</name></member>
+      <member refid="class_result_s_e_1af71718690010a25c1f66031803bad402" prot="public" virt="non-virtual"><scope>ResultSE</scope><name>SE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

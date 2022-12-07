@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::PostProcessingInspector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a5746e3a6012bffaf9eaa59b53b3460ab" prot="private" static="yes" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEditor.PostProcessing.PostProcessingInspector.s_PreviewTitle</definition>
+        <argsstring></argsstring>
+        <name>s_PreviewTitle</name>
+        <initializer>= new GUIContent(&quot;Monitors&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a357d23457893e8471fdc25fb47dc6a5c" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile" kindref="compound">PostProcessingProfile</ref></type>
+        <definition>PostProcessingProfile UnityEditor.PostProcessing.PostProcessingInspector.m_ConcreteTarget</definition>
+        <argsstring></argsstring>
+        <name>m_ConcreteTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a4bfedf98778fdbf75f93f79d65c59bdc" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int UnityEditor.PostProcessing.PostProcessingInspector.m_CurrentMonitorID</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentMonitorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a95749af46df26c3932a587113daf1aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.PostProcessingInspector.IsInteractivePreviewOpened</definition>
+        <argsstring></argsstring>
+        <name>IsInteractivePreviewOpened</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a3eb98204f024d39913f64e643ff10387" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor" kindref="compound">PostProcessingMonitor</ref> &gt;</type>
+        <definition>List&lt;PostProcessingMonitor&gt; UnityEditor.PostProcessing.PostProcessingInspector.m_Monitors</definition>
+        <argsstring></argsstring>
+        <name>m_Monitors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a01789a90acdd50fdc8365d3fc94221f0" prot="private" static="no" mutable="no">
+        <type>GUIContent[]</type>
+        <definition>GUIContent [] UnityEditor.PostProcessing.PostProcessingInspector.m_MonitorNames</definition>
+        <argsstring></argsstring>
+        <name>m_MonitorNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1af1f3e3749327ff3d6ed7437a4f8598fa" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" kindref="compound">PostProcessingModelEditor</ref>, <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" kindref="compound">PostProcessingModel</ref> &gt;</type>
+        <definition>Dictionary&lt;PostProcessingModelEditor, PostProcessingModel&gt; UnityEditor.PostProcessing.PostProcessingInspector.m_CustomEditors</definition>
+        <argsstring></argsstring>
+        <name>m_CustomEditors</name>
+        <initializer>= new Dictionary&lt;<ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" kindref="compound">PostProcessingModelEditor</ref>, <ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" kindref="compound">PostProcessingModel</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1aadc4fca01a20c6d55b98235af10ca43b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingInspector.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="33" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1afd7338d0e419910b9393d87fe0a4421c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingInspector.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="117" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a6d5fd0d0e6067f67dd298d5e45a78c4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingInspector.OnFrameEnd</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>OnFrameEnd</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="139" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a8fbf38f6c6365ae3a4905a077761ebcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.PostProcessingInspector.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="150" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="150" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a42ae8ca761c76f9b17ec24d81c18fd27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override GUIContent</type>
+        <definition>override GUIContent UnityEditor.PostProcessing.PostProcessingInspector.GetPreviewTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetPreviewTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="178" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a18c9095836c4ebb4131e0e15f63b4b11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool UnityEditor.PostProcessing.PostProcessingInspector.HasPreviewGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HasPreviewGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="183" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="183" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a1ef98fbdba8a625de358aac76370fdd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.PostProcessingInspector.OnPreviewSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreviewSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="188" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a08cf912416a9603599f2837e298e3ce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.PostProcessingInspector.OnInteractivePreviewGUI</definition>
+        <argsstring>(Rect r, GUIStyle background)</argsstring>
+        <name>OnInteractivePreviewGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>background</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="200" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="200" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1961">
+        <label>Editor</label>
+      </node>
+      <node id="1960">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="1961" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1963">
+        <label>Editor</label>
+      </node>
+      <node id="1962">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="1963" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingInspector.cs" bodystart="12" bodyend="207"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a42ae8ca761c76f9b17ec24d81c18fd27" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>GetPreviewTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a18c9095836c4ebb4131e0e15f63b4b11" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>HasPreviewGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a95749af46df26c3932a587113daf1aa2" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>IsInteractivePreviewOpened</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a357d23457893e8471fdc25fb47dc6a5c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>m_ConcreteTarget</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a4bfedf98778fdbf75f93f79d65c59bdc" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>m_CurrentMonitorID</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1af1f3e3749327ff3d6ed7437a4f8598fa" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>m_CustomEditors</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a01789a90acdd50fdc8365d3fc94221f0" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>m_MonitorNames</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a3eb98204f024d39913f64e643ff10387" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>m_Monitors</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1afd7338d0e419910b9393d87fe0a4421c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1aadc4fca01a20c6d55b98235af10ca43b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a6d5fd0d0e6067f67dd298d5e45a78c4b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>OnFrameEnd</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a8fbf38f6c6365ae3a4905a077761ebcd" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a08cf912416a9603599f2837e298e3ce8" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>OnInteractivePreviewGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a1ef98fbdba8a625de358aac76370fdd6" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>OnPreviewSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector_1a5746e3a6012bffaf9eaa59b53b3460ab" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingInspector</scope><name>s_PreviewTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

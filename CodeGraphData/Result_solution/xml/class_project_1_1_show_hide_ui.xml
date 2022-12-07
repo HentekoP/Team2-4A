@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_1_1_show_hide_ui" kind="class" prot="public">
+    <compoundname>Project::ShowHideUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_project_1_1_show_hide_ui_1a1e06a4f8e0dda2cdd42623cd16801180" prot="private" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode Project.ShowHideUi.keyCode</definition>
+        <argsstring></argsstring>
+        <name>keyCode</name>
+        <initializer>= KeyCode.H</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_project_1_1_show_hide_ui_1a71fcde84fc10d173e32665dd34dac3ba" compoundref="_show_hide_ui_8cs" startline="10" endline="16">Project.ShowHideUi.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_show_hide_ui_1a6d34f1063b12c1f4bfaae490d767cba4" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Project.ShowHideUi.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_project_1_1_show_hide_ui_1a71fcde84fc10d173e32665dd34dac3ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.ShowHideUi.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" bodystart="10" bodyend="16"/>
+        <references refid="class_project_1_1_show_hide_ui_1a1e06a4f8e0dda2cdd42623cd16801180" compoundref="_show_hide_ui_8cs" startline="7">Project.ShowHideUi.keyCode</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2295">
+        <label>Project.ShowHideUi</label>
+        <link refid="class_project_1_1_show_hide_ui"/>
+        <childnode refid="2296" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2296">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2297">
+        <label>Project.ShowHideUi</label>
+        <link refid="class_project_1_1_show_hide_ui"/>
+        <childnode refid="2298" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2298">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/ShowHideUi.cs" bodystart="5" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_project_1_1_show_hide_ui_1a6d34f1063b12c1f4bfaae490d767cba4" prot="private" virt="non-virtual"><scope>Project::ShowHideUi</scope><name>container</name></member>
+      <member refid="class_project_1_1_show_hide_ui_1a1e06a4f8e0dda2cdd42623cd16801180" prot="private" virt="non-virtual"><scope>Project::ShowHideUi</scope><name>keyCode</name></member>
+      <member refid="class_project_1_1_show_hide_ui_1a71fcde84fc10d173e32665dd34dac3ba" prot="private" virt="non-virtual"><scope>Project::ShowHideUi</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

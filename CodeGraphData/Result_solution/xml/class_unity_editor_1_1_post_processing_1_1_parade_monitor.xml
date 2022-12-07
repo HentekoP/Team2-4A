@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_parade_monitor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::ParadeMonitor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingMonitor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a099dcbf41e23ffee0c1221da71f931ab" prot="private" static="yes" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEditor.PostProcessing.ParadeMonitor.s_MonitorTitle</definition>
+        <argsstring></argsstring>
+        <name>s_MonitorTitle</name>
+        <initializer>= new GUIContent(&quot;Parade&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a06d42ea3147de5f7337fadc2a40c7d5d" prot="private" static="no" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader UnityEditor.PostProcessing.ParadeMonitor.m_ComputeShader</definition>
+        <argsstring></argsstring>
+        <name>m_ComputeShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a12da0f3ede09786fb572dae472904844" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer UnityEditor.PostProcessing.ParadeMonitor.m_Buffer</definition>
+        <argsstring></argsstring>
+        <name>m_Buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a50924ea080a398e56ad1e6500b1c8eb6" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityEditor.PostProcessing.ParadeMonitor.m_Material</definition>
+        <argsstring></argsstring>
+        <name>m_Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a4c6c1ac0bc9e7dc63deccb8bb832ad74" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEditor.PostProcessing.ParadeMonitor.m_WaveformTexture</definition>
+        <argsstring></argsstring>
+        <name>m_WaveformTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a2844277789f86e376b1213ac34154590" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.ParadeMonitor.m_MonitorAreaRect</definition>
+        <argsstring></argsstring>
+        <name>m_MonitorAreaRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a7a87bc93bba5712ec443d5eab80af2d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.ParadeMonitor.ParadeMonitor</definition>
+        <argsstring>()</argsstring>
+        <name>ParadeMonitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a44b7cab29094f27567876326ed95532b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ParadeMonitor.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a89c45fe9fe5a185eb55ef522cba5dec5">Dispose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a2dd290573b4cffc742c71023f6cf8e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool UnityEditor.PostProcessing.ParadeMonitor.IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1ab308a1c99994f4708f5502ddc640dc0a">IsSupported</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a6cc2ec9d06d49a5449f5bff20e43d27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override GUIContent</type>
+        <definition>override GUIContent UnityEditor.PostProcessing.ParadeMonitor.GetMonitorTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetMonitorTitle</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a4fb67dcd17b84d422c69f98159e20545">GetMonitorTitle</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1acd49021b355e14e3fe60feefe350a504" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ParadeMonitor.OnMonitorSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnMonitorSettings</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a40e1d68334826b54634a87837cc4ef89">OnMonitorSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="45" bodyend="62"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1ad5293b51f5f04334286514d676de5475" compoundref="_fx_styles_8cs" startline="28">UnityEditor.PostProcessing.FxStyles.playIcon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1add0c2d3325871b1df9e4e49302f0a426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ParadeMonitor.OnMonitorGUI</definition>
+        <argsstring>(Rect r)</argsstring>
+        <name>OnMonitorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a51ecfadbfa10eb105e8c708b4d7064c4">OnMonitorGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="64" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a8e49f6f541ec218ac719b87773deaae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ParadeMonitor.OnFrameData</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>OnFrameData</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a490e202a0b1d45fdbc073d6000a7e220">OnFrameData</reimplements>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="185" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="185" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a944b162fd302b994b57b543c3a074032" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ParadeMonitor.CreateBuffer</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>CreateBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="204" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a1f4259106444355818aa996fc249523c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ParadeMonitor.ComputeWaveform</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>ComputeWaveform</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="209" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="209" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1620">
+        <label>IDisposable</label>
+      </node>
+      <node id="1618">
+        <label>UnityEditor.PostProcessing.ParadeMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor"/>
+        <childnode refid="1619" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1619">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="1620" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1626">
+        <label>Editor</label>
+      </node>
+      <node id="1624">
+        <label>UnityEngine</label>
+      </node>
+      <node id="1623">
+        <label>IDisposable</label>
+      </node>
+      <node id="1621">
+        <label>UnityEditor.PostProcessing.ParadeMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor"/>
+        <childnode refid="1622" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1625">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="1626" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1622">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="1623" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1624" relation="usage">
+          <edgelabel>m_MonitorSettings</edgelabel>
+        </childnode>
+        <childnode refid="1625" relation="usage">
+          <edgelabel>m_BaseEditor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/ParadeMonitor.cs" bodystart="7" bodyend="256"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a1f4259106444355818aa996fc249523c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>ComputeWaveform</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a944b162fd302b994b57b543c3a074032" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>CreateBuffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a44b7cab29094f27567876326ed95532b" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>Dispose</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a6cc2ec9d06d49a5449f5bff20e43d27d" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>GetMonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a7772670b4fd34e76a0cb35d372ed1718" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>Init</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a2dd290573b4cffc742c71023f6cf8e96" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>IsSupported</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a2553b93b6efa7231ed205cc06d6495f8" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_BaseEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a12da0f3ede09786fb572dae472904844" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_Buffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a06d42ea3147de5f7337fadc2a40c7d5d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_ComputeShader</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a50924ea080a398e56ad1e6500b1c8eb6" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_Material</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a2844277789f86e376b1213ac34154590" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_MonitorAreaRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1aafb8128cac56dbe0e784e1f55f8525a9" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_MonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a4c6c1ac0bc9e7dc63deccb8bb832ad74" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>m_WaveformTexture</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a8e49f6f541ec218ac719b87773deaae6" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>OnFrameData</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1add0c2d3325871b1df9e4e49302f0a426" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>OnMonitorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1acd49021b355e14e3fe60feefe350a504" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>OnMonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a7a87bc93bba5712ec443d5eab80af2d4" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>ParadeMonitor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a099dcbf41e23ffee0c1221da71f931ab" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ParadeMonitor</scope><name>s_MonitorTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

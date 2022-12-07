@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::BuiltinDebugViewsModel</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingModel</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_depth_settings" prot="public">UnityEngine::PostProcessing::BuiltinDebugViewsModel::DepthSettings</innerclass>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_motion_vectors_settings" prot="public">UnityEngine::PostProcessing::BuiltinDebugViewsModel::MotionVectorsSettings</innerclass>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings" prot="public">UnityEngine::PostProcessing::BuiltinDebugViewsModel::Settings</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36" prot="public" static="no">
+        <name>Mode</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a675056ad1441b6375b2c5abd48c27ef1" prot="public">
+          <name>Depth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a4ab971a51f0335cbf8d9c2c65d379e99" prot="public">
+          <name>Normals</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a51182b90d78579c0d7f1e3576da58593" prot="public">
+          <name>MotionVectors</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36ac8a11fb76942933fc111aea6941c334d" prot="public">
+          <name>AmbientOcclusion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a6f4522393bf70b6f1983e1c854ac4198" prot="public">
+          <name>EyeAdaptation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a306c971657f646e6917d739a98015485" prot="public">
+          <name>FocusPlane</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a76d11ed02db1943de229ca9a98c97a10" prot="public">
+          <name>PreGradingLog</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36a40be628b838bf4f45286ea7ed51061ce" prot="public">
+          <name>LogLut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36ae1e79f82484ebab47b03f7b5787b371a" prot="public">
+          <name>UserLut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="66" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a98c1f77c739ba8308d7b94f3ba872857" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.BuiltinDebugViewsModel.m_Settings</definition>
+        <argsstring></argsstring>
+        <name>m_Settings</name>
+        <initializer>= <ref refid="struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings_1a3f6924d1e6965becf46634057007e552" kindref="member">Settings.defaultSettings</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1acf518ba511401f5769463ceef698999a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.BuiltinDebugViewsModel.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a0df7ee63e0c3191da3075438efb41636" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.BuiltinDebugViewsModel.willInterrupt</definition>
+        <argsstring></argsstring>
+        <name>willInterrupt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1ad9e1b645a461131af7abfc318a45d9b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.BuiltinDebugViewsModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="123" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a3c07a09b1bb7cfe08523d945fc982f1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.BuiltinDebugViewsModel.IsModeActive</definition>
+        <argsstring>(Mode mode)</argsstring>
+        <name>IsModeActive</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36" kindref="member">Mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="387">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="386">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="389">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="388">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+        <childnode refid="390" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="390">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+        <childnode refid="390" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" bodystart="6" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a3c07a09b1bb7cfe08523d945fc982f1d" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>IsModeActive</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a98c1f77c739ba8308d7b94f3ba872857" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>m_Settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a55c35be6eba5f7bb9476323f3c30de36" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>Mode</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1ad9e1b645a461131af7abfc318a45d9b0" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>Reset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1acf518ba511401f5769463ceef698999a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model_1a0df7ee63e0c3191da3075438efb41636" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BuiltinDebugViewsModel</scope><name>willInterrupt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

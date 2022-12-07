@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_title" kind="class" prot="public">
+    <compoundname>Title</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_title_1ac95d5c6afd8a40570fb94a7476e2a8f1" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform Title.Title_cursor</definition>
+        <argsstring></argsstring>
+        <name>Title_cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1a8ca0f5309a8d68e28b952727e3af7e08" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Title.Menu_Num</definition>
+        <argsstring></argsstring>
+        <name>Menu_Num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" compoundref="_title_8cs" startline="39" endline="127">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1a6175ab59d878ca2453106d1b9cd3924a" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform Title.End_cursor</definition>
+        <argsstring></argsstring>
+        <name>End_cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1a1200e8ffea11346ac7a256dde913e75a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Title.End_flg</definition>
+        <argsstring></argsstring>
+        <name>End_flg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" compoundref="_title_8cs" startline="152" endline="226">Title_End</referencedby>
+        <referencedby refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" compoundref="_title_8cs" startline="39" endline="127">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_title_1a639dc3b32d06840978866e7708c5bc53" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Title.Push_Flg</definition>
+        <argsstring></argsstring>
+        <name>Push_Flg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" compoundref="_title_8cs" startline="152" endline="226">Title_End</referencedby>
+        <referencedby refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" compoundref="_title_8cs" startline="39" endline="127">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1a56885cab8d7a55bc6c656cec72c5b887" prot="private" static="no" mutable="no">
+        <type>AsyncOperation</type>
+        <definition>AsyncOperation Title.async</definition>
+        <argsstring></argsstring>
+        <name>async</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_title_1ad8dc4b98c110eb3df39f2b99ace46b22" compoundref="_title_8cs" startline="138" endline="150">LoadData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1a9457cc2e10a75124caf0de575e4648a0" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Title.loadUI</definition>
+        <argsstring></argsstring>
+        <name>loadUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1ac06f8b557a3faa08043c4110bb7152ca" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider Title.slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1ac66574a7bbeb6b42c55889ad80915f33" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Title.EndUI</definition>
+        <argsstring></argsstring>
+        <name>EndUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" compoundref="_title_8cs" startline="152" endline="226">Title_End</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1a1228ecad2fe875b26a83da34fe752fff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Title.End_Menu_Num</definition>
+        <argsstring></argsstring>
+        <name>End_Menu_Num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" compoundref="_title_8cs" startline="152" endline="226">Title_End</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_title_1ac170063510349272afa65a0a31f6942d" prot="private" static="no" mutable="no">
+        <type>AudioClip[]</type>
+        <definition>AudioClip [] Title.se</definition>
+        <argsstring></argsstring>
+        <name>se</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" compoundref="_title_8cs" startline="152" endline="226">Title_End</referencedby>
+        <referencedby refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" compoundref="_title_8cs" startline="39" endline="127">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_title_1a626060b10c34e551c00376ce1179152f" prot="protected" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Title.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_title_1adb21c32bc899c57bcafc29adcdf766c3" compoundref="_title_8cs" startline="31" endline="37">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_title_1adb21c32bc899c57bcafc29adcdf766c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Title.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="31" bodyend="37"/>
+        <references refid="class_title_1a626060b10c34e551c00376ce1179152f" compoundref="_title_8cs" startline="29">source</references>
+      </memberdef>
+      <memberdef kind="function" id="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Title.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="39" bodyend="127"/>
+        <references refid="class_title_1a1200e8ffea11346ac7a256dde913e75a" compoundref="_title_8cs" startline="26">End_flg</references>
+        <references refid="class_title_1a8ca0f5309a8d68e28b952727e3af7e08" compoundref="_title_8cs" startline="10">Menu_Num</references>
+        <references refid="class_title_1a8d292cac9f1aee65be1310a12c65c524" compoundref="_title_8cs" startline="129" endline="136">NextScene</references>
+        <references refid="class_title_1a639dc3b32d06840978866e7708c5bc53" compoundref="_title_8cs" startline="11">Push_Flg</references>
+        <references refid="class_title_1ac170063510349272afa65a0a31f6942d" compoundref="_title_8cs" startline="28">se</references>
+        <references refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" compoundref="_title_8cs" startline="152" endline="226">Title_End</references>
+      </memberdef>
+      <memberdef kind="function" id="class_title_1ad8dc4b98c110eb3df39f2b99ace46b22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Title.LoadData</definition>
+        <argsstring>()</argsstring>
+        <name>LoadData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="138" bodyend="150"/>
+        <references refid="class_title_1a56885cab8d7a55bc6c656cec72c5b887" compoundref="_title_8cs" startline="14">async</references>
+      </memberdef>
+      <memberdef kind="function" id="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Title.Title_End</definition>
+        <argsstring>()</argsstring>
+        <name>Title_End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="152" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="152" bodyend="226"/>
+        <references refid="class_title_1a1200e8ffea11346ac7a256dde913e75a" compoundref="_title_8cs" startline="26">End_flg</references>
+        <references refid="class_title_1a1228ecad2fe875b26a83da34fe752fff" compoundref="_title_8cs" startline="24">End_Menu_Num</references>
+        <references refid="class_title_1ac66574a7bbeb6b42c55889ad80915f33" compoundref="_title_8cs" startline="23">EndUI</references>
+        <references refid="class_title_1a639dc3b32d06840978866e7708c5bc53" compoundref="_title_8cs" startline="11">Push_Flg</references>
+        <references refid="class_title_1ac170063510349272afa65a0a31f6942d" compoundref="_title_8cs" startline="28">se</references>
+        <referencedby refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" compoundref="_title_8cs" startline="39" endline="127">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_title_1a8d292cac9f1aee65be1310a12c65c524" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Title.NextScene</definition>
+        <argsstring>()</argsstring>
+        <name>NextScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="129" bodyend="136"/>
+        <referencedby refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" compoundref="_title_8cs" startline="39" endline="127">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2477">
+        <label>Title</label>
+        <link refid="class_title"/>
+        <childnode refid="2478" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2478">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2479">
+        <label>Title</label>
+        <link refid="class_title"/>
+        <childnode refid="2480" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2480">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Title.cs" bodystart="7" bodyend="228"/>
+    <listofallmembers>
+      <member refid="class_title_1a56885cab8d7a55bc6c656cec72c5b887" prot="private" virt="non-virtual"><scope>Title</scope><name>async</name></member>
+      <member refid="class_title_1a6175ab59d878ca2453106d1b9cd3924a" prot="public" virt="non-virtual"><scope>Title</scope><name>End_cursor</name></member>
+      <member refid="class_title_1a1200e8ffea11346ac7a256dde913e75a" prot="public" virt="non-virtual"><scope>Title</scope><name>End_flg</name></member>
+      <member refid="class_title_1a1228ecad2fe875b26a83da34fe752fff" prot="private" virt="non-virtual"><scope>Title</scope><name>End_Menu_Num</name></member>
+      <member refid="class_title_1ac66574a7bbeb6b42c55889ad80915f33" prot="private" virt="non-virtual"><scope>Title</scope><name>EndUI</name></member>
+      <member refid="class_title_1ad8dc4b98c110eb3df39f2b99ace46b22" prot="private" virt="non-virtual"><scope>Title</scope><name>LoadData</name></member>
+      <member refid="class_title_1a9457cc2e10a75124caf0de575e4648a0" prot="private" virt="non-virtual"><scope>Title</scope><name>loadUI</name></member>
+      <member refid="class_title_1a8ca0f5309a8d68e28b952727e3af7e08" prot="public" virt="non-virtual"><scope>Title</scope><name>Menu_Num</name></member>
+      <member refid="class_title_1a8d292cac9f1aee65be1310a12c65c524" prot="public" virt="non-virtual"><scope>Title</scope><name>NextScene</name></member>
+      <member refid="class_title_1a639dc3b32d06840978866e7708c5bc53" prot="private" virt="non-virtual"><scope>Title</scope><name>Push_Flg</name></member>
+      <member refid="class_title_1ac170063510349272afa65a0a31f6942d" prot="private" virt="non-virtual"><scope>Title</scope><name>se</name></member>
+      <member refid="class_title_1ac06f8b557a3faa08043c4110bb7152ca" prot="private" virt="non-virtual"><scope>Title</scope><name>slider</name></member>
+      <member refid="class_title_1a626060b10c34e551c00376ce1179152f" prot="protected" virt="non-virtual"><scope>Title</scope><name>source</name></member>
+      <member refid="class_title_1adb21c32bc899c57bcafc29adcdf766c3" prot="private" virt="non-virtual"><scope>Title</scope><name>Start</name></member>
+      <member refid="class_title_1ac95d5c6afd8a40570fb94a7476e2a8f1" prot="public" virt="non-virtual"><scope>Title</scope><name>Title_cursor</name></member>
+      <member refid="class_title_1a532bcc28bfee8b3355e024ae8a8fcdfc" prot="private" virt="non-virtual"><scope>Title</scope><name>Title_End</name></member>
+      <member refid="class_title_1ad0d94dc5c7c78d3acc72cd84e84801dc" prot="private" virt="non-virtual"><scope>Title</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

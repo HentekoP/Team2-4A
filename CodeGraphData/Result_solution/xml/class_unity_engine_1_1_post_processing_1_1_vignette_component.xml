@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_vignette_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::VignetteComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_vignette_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::VignetteComponent::Uniforms</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_vignette_component_1a74f4203a32fb845ba8aec4d7b204c80f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.VignetteComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/VignetteComponent.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/VignetteComponent.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_vignette_component_1a7f8b6fca0970717decfc4148d42c43be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.VignetteComponent.Prepare</definition>
+        <argsstring>(Material uberMaterial)</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4_1adcf0697959b318bf65a96ce47ee26732">Prepare</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>uberMaterial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/VignetteComponent.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/VignetteComponent.cs" bodystart="23" bodyend="44"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_vignette_component_1_1_uniforms_1a14ed1617cf76e2908a0d90fd52536fcb" compoundref="_vignette_component_8cs" startline="9">UnityEngine.PostProcessing.VignetteComponent.Uniforms._Vignette_Settings</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2727">
+        <label>PostProcessingComponentRenderTexture&lt; VignetteModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="2728" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2729">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="2728">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="2729" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2726">
+        <label>UnityEngine.PostProcessing.VignetteComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_component"/>
+        <childnode refid="2727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2731">
+        <label>PostProcessingComponentRenderTexture&lt; VignetteModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="2732" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2733">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="2734" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="2755">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="2736" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2742">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2752">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2750">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2736">
+        <label>IDisposable</label>
+      </node>
+      <node id="2744">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2732">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="2733" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2745">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2754">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2748">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2738">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2730">
+        <label>UnityEngine.PostProcessing.VignetteComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_component"/>
+        <childnode refid="2731" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2737">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2738" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2739" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="2742" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="2743" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="2744" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="2745" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="2746" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="2747" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="2748" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="2749" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="2750" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="2751" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="2752" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="2753" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="2754" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2740">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2734">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="2735" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="2737" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="2755" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="2753">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2735">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="2736" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2743">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2751">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2741">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2747">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2739">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2749">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2746">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/VignetteComponent.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/VignetteComponent.cs" bodystart="3" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_vignette_component_1a74f4203a32fb845ba8aec4d7b204c80f" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_vignette_component_1a7f8b6fca0970717decfc4148d42c43be" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteComponent</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

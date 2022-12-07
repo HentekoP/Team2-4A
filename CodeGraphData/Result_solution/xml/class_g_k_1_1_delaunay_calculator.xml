@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_delaunay_calculator" kind="class" prot="public">
+    <compoundname>GK::DelaunayCalculator</compoundname>
+    <innerclass refid="struct_g_k_1_1_delaunay_calculator_1_1_triangle_node" prot="private">GK::DelaunayCalculator::TriangleNode</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_k_1_1_delaunay_calculator_1a2b0f7616bbd1c64b1513a3ab5fb0f437" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GK.DelaunayCalculator.highest</definition>
+        <argsstring></argsstring>
+        <name>highest</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" compoundref="_delaunay_calculator_8cs" startline="65" endline="93">GK.DelaunayCalculator.CalculateTriangulation</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a50446c39ca034e6853768be41dc53afe" compoundref="_delaunay_calculator_8cs" startline="267" endline="307">GK.DelaunayCalculator.LegalEdge</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" compoundref="_delaunay_calculator_8cs" startline="121" endline="182">GK.DelaunayCalculator.RunBowyerWatson</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" prot="private" static="no" mutable="no">
+        <type>IList&lt; Vector2 &gt;</type>
+        <definition>IList&lt;Vector2&gt; GK.DelaunayCalculator.verts</definition>
+        <argsstring></argsstring>
+        <name>verts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" compoundref="_delaunay_calculator_8cs" startline="65" endline="93">GK.DelaunayCalculator.CalculateTriangulation</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1afab581e1bd548227082aeb2fc26c5297" compoundref="_delaunay_calculator_8cs" startline="187" endline="208">GK.DelaunayCalculator.GenerateResult</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a6bc52db5f4bf2f370eae7c5f94efb550" compoundref="_delaunay_calculator_8cs" startline="95" endline="116">GK.DelaunayCalculator.Higher</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a50446c39ca034e6853768be41dc53afe" compoundref="_delaunay_calculator_8cs" startline="267" endline="307">GK.DelaunayCalculator.LegalEdge</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a138fd6416a24add342be7aff17231902" compoundref="_delaunay_calculator_8cs" startline="412" endline="427">GK.DelaunayCalculator.ToTheLeft</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_delaunay_calculator_1ac7d3ede2a5a3741f33ca4db23a9c585d" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; GK.DelaunayCalculator.indices</definition>
+        <argsstring></argsstring>
+        <name>indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adaf1c18c005c9d48639da55495e967d3" compoundref="_delaunay_calculator_8cs" startline="40" endline="43">GK.DelaunayCalculator.DelaunayCalculator</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a7304d21c5c17046efde058710d705d3f" compoundref="_delaunay_calculator_8cs" startline="214" endline="231">GK.DelaunayCalculator.ShuffleIndices</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_g_k_1_1_delaunay_calculator_1_1_triangle_node" kindref="compound">TriangleNode</ref> &gt;</type>
+        <definition>List&lt;TriangleNode&gt; GK.DelaunayCalculator.triangles</definition>
+        <argsstring></argsstring>
+        <name>triangles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adaf1c18c005c9d48639da55495e967d3" compoundref="_delaunay_calculator_8cs" startline="40" endline="43">GK.DelaunayCalculator.DelaunayCalculator</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a1f928963044723b694252d4cc109087f" compoundref="_delaunay_calculator_8cs" startline="381" endline="397">GK.DelaunayCalculator.FindTriangleNode</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1afab581e1bd548227082aeb2fc26c5297" compoundref="_delaunay_calculator_8cs" startline="187" endline="208">GK.DelaunayCalculator.GenerateResult</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a92763e8d9f39752dcab4d15e4280f429" compoundref="_delaunay_calculator_8cs" startline="243" endline="262">GK.DelaunayCalculator.LeafWithEdge</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a3465e0af0b081744f7e08d3e993f7d49" compoundref="_delaunay_calculator_8cs" startline="321" endline="376">GK.DelaunayCalculator.LegalizeEdge</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a88be12b4436aabd6a536e0fefb1bd937" compoundref="_delaunay_calculator_8cs" startline="402" endline="407">GK.DelaunayCalculator.PointInTriangle</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" compoundref="_delaunay_calculator_8cs" startline="121" endline="182">GK.DelaunayCalculator.RunBowyerWatson</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1adaf1c18c005c9d48639da55495e967d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GK.DelaunayCalculator.DelaunayCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>DelaunayCalculator</name>
+        <briefdescription>
+<para>Creates a new Delaunay triangulation calculator </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="40" bodyend="43"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1ac7d3ede2a5a3741f33ca4db23a9c585d" compoundref="_delaunay_calculator_8cs" startline="34">GK.DelaunayCalculator.indices</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1acb94977e4668185d415936dd27bc4f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_k_1_1_delaunay_triangulation" kindref="compound">DelaunayTriangulation</ref></type>
+        <definition>DelaunayTriangulation GK.DelaunayCalculator.CalculateTriangulation</definition>
+        <argsstring>(IList&lt; Vector2 &gt; verts)</argsstring>
+        <name>CalculateTriangulation</name>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>verts</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the triangulation of the supplied vertices </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>verts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of vertices to use for calculation</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The calculated Delaunay triangulation&lt;returns&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.DelaunayCalculator.CalculateTriangulation</definition>
+        <argsstring>(IList&lt; Vector2 &gt; verts, ref DelaunayTriangulation result)</argsstring>
+        <name>CalculateTriangulation</name>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_g_k_1_1_delaunay_triangulation" kindref="compound">DelaunayTriangulation</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the triangulation of the supplied vertices. </para>        </briefdescription>
+        <detaileddescription>
+<para>This overload allows you to reuse the result object, to prevent garbage from being created. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>verts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of vertices to use for calculation</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_result" kindref="compound">Result</ref> object to store the triangulation in</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="65" bodyend="93"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1afab581e1bd548227082aeb2fc26c5297" compoundref="_delaunay_calculator_8cs" startline="187" endline="208">GK.DelaunayCalculator.GenerateResult</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a6bc52db5f4bf2f370eae7c5f94efb550" compoundref="_delaunay_calculator_8cs" startline="95" endline="116">GK.DelaunayCalculator.Higher</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a2b0f7616bbd1c64b1513a3ab5fb0f437" compoundref="_delaunay_calculator_8cs" startline="31">GK.DelaunayCalculator.highest</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" compoundref="_delaunay_calculator_8cs" startline="121" endline="182">GK.DelaunayCalculator.RunBowyerWatson</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" compoundref="_delaunay_calculator_8cs" startline="32">GK.DelaunayCalculator.verts</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a6bc52db5f4bf2f370eae7c5f94efb550" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GK.DelaunayCalculator.Higher</definition>
+        <argsstring>(int pi0, int pi1)</argsstring>
+        <name>Higher</name>
+        <param>
+          <type>int</type>
+          <declname>pi0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pi1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="95" bodyend="116"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" compoundref="_delaunay_calculator_8cs" startline="32">GK.DelaunayCalculator.verts</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" compoundref="_delaunay_calculator_8cs" startline="65" endline="93">GK.DelaunayCalculator.CalculateTriangulation</referencedby>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a138fd6416a24add342be7aff17231902" compoundref="_delaunay_calculator_8cs" startline="412" endline="427">GK.DelaunayCalculator.ToTheLeft</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.DelaunayCalculator.RunBowyerWatson</definition>
+        <argsstring>()</argsstring>
+        <name>RunBowyerWatson</name>
+        <briefdescription>
+<para>Run the algorithm </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="121" bodyend="182"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a1f928963044723b694252d4cc109087f" compoundref="_delaunay_calculator_8cs" startline="381" endline="397">GK.DelaunayCalculator.FindTriangleNode</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a2b0f7616bbd1c64b1513a3ab5fb0f437" compoundref="_delaunay_calculator_8cs" startline="31">GK.DelaunayCalculator.highest</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a3465e0af0b081744f7e08d3e993f7d49" compoundref="_delaunay_calculator_8cs" startline="321" endline="376">GK.DelaunayCalculator.LegalizeEdge</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" compoundref="_delaunay_calculator_8cs" startline="65" endline="93">GK.DelaunayCalculator.CalculateTriangulation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1afab581e1bd548227082aeb2fc26c5297" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.DelaunayCalculator.GenerateResult</definition>
+        <argsstring>(ref DelaunayTriangulation result)</argsstring>
+        <name>GenerateResult</name>
+        <param>
+          <type>ref <ref refid="class_g_k_1_1_delaunay_triangulation" kindref="compound">DelaunayTriangulation</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>Filter the points array and triangle tree into a readable result. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="187" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="187" bodyend="208"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" compoundref="_delaunay_calculator_8cs" startline="32">GK.DelaunayCalculator.verts</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" compoundref="_delaunay_calculator_8cs" startline="65" endline="93">GK.DelaunayCalculator.CalculateTriangulation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a7304d21c5c17046efde058710d705d3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.DelaunayCalculator.ShuffleIndices</definition>
+        <argsstring>()</argsstring>
+        <name>ShuffleIndices</name>
+        <briefdescription>
+<para>Shuffle the indices array. Optimal runtime depends on shuffled input. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="214" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="214" bodyend="231"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1ac7d3ede2a5a3741f33ca4db23a9c585d" compoundref="_delaunay_calculator_8cs" startline="34">GK.DelaunayCalculator.indices</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a92763e8d9f39752dcab4d15e4280f429" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GK.DelaunayCalculator.LeafWithEdge</definition>
+        <argsstring>(int ti, int e0, int e1)</argsstring>
+        <name>LeafWithEdge</name>
+        <param>
+          <type>int</type>
+          <declname>ti</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e1</declname>
+        </param>
+        <briefdescription>
+<para>Find the leaf of the triangles[ti] subtree that contains a given edge. </para>        </briefdescription>
+        <detaileddescription>
+<para>We need this because when we split or flip triangles, the adjacency references don&apos;t update, so even if the adjacency triangles were leaves when the node was created, they might not be leaves later. If they aren&apos;t, they&apos;re going to be the ancestor of the correct leaf, so this method goes down the tree finding the right leaf. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="243" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="243" bodyend="262"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a3465e0af0b081744f7e08d3e993f7d49" compoundref="_delaunay_calculator_8cs" startline="321" endline="376">GK.DelaunayCalculator.LegalizeEdge</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a50446c39ca034e6853768be41dc53afe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GK.DelaunayCalculator.LegalEdge</definition>
+        <argsstring>(int k, int l, int i, int j)</argsstring>
+        <name>LegalEdge</name>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>Is the edge legal, or does it need to be flipped? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="267" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="267" bodyend="307"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a2b0f7616bbd1c64b1513a3ab5fb0f437" compoundref="_delaunay_calculator_8cs" startline="31">GK.DelaunayCalculator.highest</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" compoundref="_delaunay_calculator_8cs" startline="32">GK.DelaunayCalculator.verts</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a3465e0af0b081744f7e08d3e993f7d49" compoundref="_delaunay_calculator_8cs" startline="321" endline="376">GK.DelaunayCalculator.LegalizeEdge</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a3465e0af0b081744f7e08d3e993f7d49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.DelaunayCalculator.LegalizeEdge</definition>
+        <argsstring>(int ti0, int ti1, int pi, int li0, int li1)</argsstring>
+        <name>LegalizeEdge</name>
+        <param>
+          <type>int</type>
+          <declname>ti0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ti1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>li0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>li1</declname>
+        </param>
+        <briefdescription>
+<para>Key part of the algorithm. Flips edges if they need to be flipped, and recurses. </para>        </briefdescription>
+        <detaileddescription>
+<para>pi is the newly inserted point, creating a new triangle ti0. The adjacent triangle opposite pi in ti0 is ti1. The edge separating the two triangles is li0 and li1.</para><para>Checks if the (li0, li1) edge needs to be flipped. If it does, creates two new triangles, and recurses to check if the newly created triangles need flipping. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="321" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="321" bodyend="376"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a92763e8d9f39752dcab4d15e4280f429" compoundref="_delaunay_calculator_8cs" startline="243" endline="262">GK.DelaunayCalculator.LeafWithEdge</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a50446c39ca034e6853768be41dc53afe" compoundref="_delaunay_calculator_8cs" startline="267" endline="307">GK.DelaunayCalculator.LegalEdge</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" compoundref="_delaunay_calculator_8cs" startline="121" endline="182">GK.DelaunayCalculator.RunBowyerWatson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a1f928963044723b694252d4cc109087f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GK.DelaunayCalculator.FindTriangleNode</definition>
+        <argsstring>(int pi)</argsstring>
+        <name>FindTriangleNode</name>
+        <param>
+          <type>int</type>
+          <declname>pi</declname>
+        </param>
+        <briefdescription>
+<para>Find the leaf triangle in the triangle tree containing a certain point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="381" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="381" bodyend="397"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a88be12b4436aabd6a536e0fefb1bd937" compoundref="_delaunay_calculator_8cs" startline="402" endline="407">GK.DelaunayCalculator.PointInTriangle</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" compoundref="_delaunay_calculator_8cs" startline="121" endline="182">GK.DelaunayCalculator.RunBowyerWatson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a88be12b4436aabd6a536e0fefb1bd937" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GK.DelaunayCalculator.PointInTriangle</definition>
+        <argsstring>(int pi, int ti)</argsstring>
+        <name>PointInTriangle</name>
+        <param>
+          <type>int</type>
+          <declname>pi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ti</declname>
+        </param>
+        <briefdescription>
+<para>Convenience method to check if a point is inside a certain triangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="402" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="402" bodyend="407"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a138fd6416a24add342be7aff17231902" compoundref="_delaunay_calculator_8cs" startline="412" endline="427">GK.DelaunayCalculator.ToTheLeft</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" compoundref="_delaunay_calculator_8cs" startline="35">GK.DelaunayCalculator.triangles</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a1f928963044723b694252d4cc109087f" compoundref="_delaunay_calculator_8cs" startline="381" endline="397">GK.DelaunayCalculator.FindTriangleNode</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_delaunay_calculator_1a138fd6416a24add342be7aff17231902" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GK.DelaunayCalculator.ToTheLeft</definition>
+        <argsstring>(int pi, int li0, int li1)</argsstring>
+        <name>ToTheLeft</name>
+        <param>
+          <type>int</type>
+          <declname>pi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>li0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>li1</declname>
+        </param>
+        <briefdescription>
+<para>Is the point to the left of the edge? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="412" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="412" bodyend="427"/>
+        <references refid="class_g_k_1_1_delaunay_calculator_1a6bc52db5f4bf2f370eae7c5f94efb550" compoundref="_delaunay_calculator_8cs" startline="95" endline="116">GK.DelaunayCalculator.Higher</references>
+        <references refid="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" compoundref="_delaunay_calculator_8cs" startline="32">GK.DelaunayCalculator.verts</references>
+        <referencedby refid="class_g_k_1_1_delaunay_calculator_1a88be12b4436aabd6a536e0fefb1bd937" compoundref="_delaunay_calculator_8cs" startline="402" endline="407">GK.DelaunayCalculator.PointInTriangle</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/DelaunayCalculator.cs" bodystart="29" bodyend="551"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_delaunay_calculator_1acb94977e4668185d415936dd27bc4f82" prot="public" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>CalculateTriangulation</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1adb59a635b5aab670be74a83277256caf" prot="public" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>CalculateTriangulation</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1adaf1c18c005c9d48639da55495e967d3" prot="public" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>DelaunayCalculator</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a1f928963044723b694252d4cc109087f" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>FindTriangleNode</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1afab581e1bd548227082aeb2fc26c5297" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>GenerateResult</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a6bc52db5f4bf2f370eae7c5f94efb550" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>Higher</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a2b0f7616bbd1c64b1513a3ab5fb0f437" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>highest</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1ac7d3ede2a5a3741f33ca4db23a9c585d" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>indices</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a92763e8d9f39752dcab4d15e4280f429" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>LeafWithEdge</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a50446c39ca034e6853768be41dc53afe" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>LegalEdge</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a3465e0af0b081744f7e08d3e993f7d49" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>LegalizeEdge</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a88be12b4436aabd6a536e0fefb1bd937" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>PointInTriangle</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1ad2b6e1c2f34b5df9ebd11193cb3950bf" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>RunBowyerWatson</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a7304d21c5c17046efde058710d705d3f" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>ShuffleIndices</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a138fd6416a24add342be7aff17231902" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>ToTheLeft</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1a32d62d579d162cc87a0cefbb8a4def25" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>triangles</name></member>
+      <member refid="class_g_k_1_1_delaunay_calculator_1adc1b239723a3b82ece08916dd3cbccac" prot="private" virt="non-virtual"><scope>GK::DelaunayCalculator</scope><name>verts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

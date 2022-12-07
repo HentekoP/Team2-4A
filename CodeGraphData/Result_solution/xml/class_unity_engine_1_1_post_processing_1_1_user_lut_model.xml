@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_user_lut_model" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::UserLutModel</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingModel</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_user_lut_model_1_1_settings" prot="public">UnityEngine::PostProcessing::UserLutModel::Settings</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1af3dd88c95ec4abcaa736d22d0bd7cbe5" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_user_lut_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.UserLutModel.m_Settings</definition>
+        <argsstring></argsstring>
+        <name>m_Settings</name>
+        <initializer>= <ref refid="struct_unity_engine_1_1_post_processing_1_1_user_lut_model_1_1_settings_1a9a4da996a1688ccaa11527b45937e91b" kindref="member">Settings.defaultSettings</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1a0fb6df59627b12d97cf28efb64ae8033" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_user_lut_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.UserLutModel.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1af9a480ba07bbcd8c4863610c30e2e1f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.UserLutModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2658">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2659" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2659">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2660">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2661" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2662" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2661">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2662">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2661" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2662" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/UserLutModel.cs" bodystart="6" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::UserLutModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1af3dd88c95ec4abcaa736d22d0bd7cbe5" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::UserLutModel</scope><name>m_Settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::UserLutModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1af9a480ba07bbcd8c4863610c30e2e1f7" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::UserLutModel</scope><name>Reset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model_1a0fb6df59627b12d97cf28efb64ae8033" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::UserLutModel</scope><name>settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_readme_editor" kind="class" prot="public">
+    <compoundname>ReadmeEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_readme_editor_1a80c7b765fb2d91525b5c37674d7a50bf" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ReadmeEditor.kShowedReadmeSessionStateName</definition>
+        <argsstring></argsstring>
+        <name>kShowedReadmeSessionStateName</name>
+        <initializer>= &quot;ReadmeEditor.showedReadme&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_readme_editor_1a141c00dae39138f4809aa76a06c2a6d5" compoundref="_readme_editor_8cs" startline="22" endline="35">SelectReadmeAutomatically</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_readme_editor_1a702fa7b75adeb4d18b3a39e10fa6c636" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float ReadmeEditor.kSpace</definition>
+        <argsstring></argsstring>
+        <name>kSpace</name>
+        <initializer>= 16f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" compoundref="_readme_editor_8cs" startline="80" endline="105">OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_readme_editor_1a9f32c9a7096b0e0a88fcd2a21fd81ba1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ReadmeEditor.m_Initialized</definition>
+        <argsstring></argsstring>
+        <name>m_Initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_readme_editor_1a3453824686d13a20fff4110cb89dc1af" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.m_LinkStyle</definition>
+        <argsstring></argsstring>
+        <name>m_LinkStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_readme_editor_1ad65339ad5059312679b738ac3894b7ec" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.m_TitleStyle</definition>
+        <argsstring></argsstring>
+        <name>m_TitleStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_readme_editor_1a66d031022c8490208196c18bbed95fc7" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.m_HeadingStyle</definition>
+        <argsstring></argsstring>
+        <name>m_HeadingStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_readme_editor_1a9a508fe046d6bf05ef5a45eb071a481e" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.m_BodyStyle</definition>
+        <argsstring></argsstring>
+        <name>m_BodyStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="120" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_readme_editor_1abee3751221c65289125b0c0ede89da4c" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.LinkStyle</definition>
+        <argsstring></argsstring>
+        <name>LinkStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="110" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="110" bodyend="-1"/>
+        <referencedby refid="class_readme_editor_1aabcfd4142be749948d95375a1f7c24b9" compoundref="_readme_editor_8cs" startline="145" endline="158">LinkLabel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_readme_editor_1a4ed2a71c308454554716b431b48f81cf" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.TitleStyle</definition>
+        <argsstring></argsstring>
+        <name>TitleStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="113" bodyend="-1"/>
+        <referencedby refid="class_readme_editor_1a8f6d7cabe2f32d56480a70430df63c3f" compoundref="_readme_editor_8cs" startline="64" endline="78">OnHeaderGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_readme_editor_1a11c88689156130f9b4158cc8a4424e90" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.HeadingStyle</definition>
+        <argsstring></argsstring>
+        <name>HeadingStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="116" bodyend="-1"/>
+        <referencedby refid="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" compoundref="_readme_editor_8cs" startline="80" endline="105">OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_readme_editor_1ac097f77a0df42a5c671d894d251b5a4d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ReadmeEditor.BodyStyle</definition>
+        <argsstring></argsstring>
+        <name>BodyStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="119" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="119" bodyend="-1"/>
+        <referencedby refid="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" compoundref="_readme_editor_8cs" startline="80" endline="105">OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_readme_editor_1af58e80528476d1c8f5fa4e3fddbd93aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static ReadmeEditor.ReadmeEditor</definition>
+        <argsstring>()</argsstring>
+        <name>ReadmeEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_readme_editor_1a141c00dae39138f4809aa76a06c2a6d5" compoundref="_readme_editor_8cs" startline="22" endline="35">SelectReadmeAutomatically</references>
+      </memberdef>
+      <memberdef kind="function" id="class_readme_editor_1a141c00dae39138f4809aa76a06c2a6d5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ReadmeEditor.SelectReadmeAutomatically</definition>
+        <argsstring>()</argsstring>
+        <name>SelectReadmeAutomatically</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="22" bodyend="35"/>
+        <references refid="class_readme_editor_1a80c7b765fb2d91525b5c37674d7a50bf" compoundref="_readme_editor_8cs" startline="13">kShowedReadmeSessionStateName</references>
+        <references refid="class_readme_editor_1aecf876790e9311b07e2daf773b92b2c6" compoundref="_readme_editor_8cs" startline="37" endline="43">LoadLayout</references>
+        <references refid="class_readme_editor_1a06d56601cda78338a061e2a1d990ba91" compoundref="_readme_editor_8cs" startline="46" endline="62">SelectReadme</references>
+        <referencedby refid="class_readme_editor_1af58e80528476d1c8f5fa4e3fddbd93aa" compoundref="_readme_editor_8cs" startline="17" endline="20">ReadmeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_readme_editor_1aecf876790e9311b07e2daf773b92b2c6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ReadmeEditor.LoadLayout</definition>
+        <argsstring>()</argsstring>
+        <name>LoadLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="37" bodyend="43"/>
+        <referencedby refid="class_readme_editor_1a141c00dae39138f4809aa76a06c2a6d5" compoundref="_readme_editor_8cs" startline="22" endline="35">SelectReadmeAutomatically</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_readme_editor_1a06d56601cda78338a061e2a1d990ba91" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_readme" kindref="compound">Readme</ref></type>
+        <definition>static Readme ReadmeEditor.SelectReadme</definition>
+        <argsstring>()</argsstring>
+        <name>SelectReadme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="46" bodyend="62"/>
+        <referencedby refid="class_readme_editor_1a141c00dae39138f4809aa76a06c2a6d5" compoundref="_readme_editor_8cs" startline="22" endline="35">SelectReadmeAutomatically</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_readme_editor_1a8f6d7cabe2f32d56480a70430df63c3f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ReadmeEditor.OnHeaderGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnHeaderGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="64" bodyend="78"/>
+        <references refid="class_readme_editor_1af7d0811fc1b51682896287eeb35d42ff" compoundref="_readme_editor_8cs" startline="122" endline="143">Init</references>
+        <references refid="class_readme_editor_1a4ed2a71c308454554716b431b48f81cf" compoundref="_readme_editor_8cs" startline="113">TitleStyle</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ReadmeEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="80" bodyend="105"/>
+        <references refid="class_readme_editor_1ac097f77a0df42a5c671d894d251b5a4d" compoundref="_readme_editor_8cs" startline="119">BodyStyle</references>
+        <references refid="class_readme_editor_1a11c88689156130f9b4158cc8a4424e90" compoundref="_readme_editor_8cs" startline="116">HeadingStyle</references>
+        <references refid="class_readme_editor_1af7d0811fc1b51682896287eeb35d42ff" compoundref="_readme_editor_8cs" startline="122" endline="143">Init</references>
+        <references refid="class_readme_editor_1a702fa7b75adeb4d18b3a39e10fa6c636" compoundref="_readme_editor_8cs" startline="15">kSpace</references>
+        <references refid="class_readme_editor_1aabcfd4142be749948d95375a1f7c24b9" compoundref="_readme_editor_8cs" startline="145" endline="158">LinkLabel</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_readme_editor_1af7d0811fc1b51682896287eeb35d42ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReadmeEditor.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="122" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="122" bodyend="143"/>
+        <referencedby refid="class_readme_editor_1a8f6d7cabe2f32d56480a70430df63c3f" compoundref="_readme_editor_8cs" startline="64" endline="78">OnHeaderGUI</referencedby>
+        <referencedby refid="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" compoundref="_readme_editor_8cs" startline="80" endline="105">OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_readme_editor_1aabcfd4142be749948d95375a1f7c24b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReadmeEditor.LinkLabel</definition>
+        <argsstring>(GUIContent label, params GUILayoutOption[] options)</argsstring>
+        <name>LinkLabel</name>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>params GUILayoutOption[]</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="145" bodyend="158"/>
+        <references refid="class_readme_editor_1abee3751221c65289125b0c0ede89da4c" compoundref="_readme_editor_8cs" startline="110">LinkStyle</references>
+        <referencedby refid="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" compoundref="_readme_editor_8cs" startline="80" endline="105">OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2081">
+        <label>Editor</label>
+      </node>
+      <node id="2080">
+        <label>ReadmeEditor</label>
+        <link refid="class_readme_editor"/>
+        <childnode refid="2081" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2083">
+        <label>Editor</label>
+      </node>
+      <node id="2082">
+        <label>ReadmeEditor</label>
+        <link refid="class_readme_editor"/>
+        <childnode refid="2083" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs" bodystart="11" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_readme_editor_1ac097f77a0df42a5c671d894d251b5a4d" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>BodyStyle</name></member>
+      <member refid="class_readme_editor_1a11c88689156130f9b4158cc8a4424e90" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>HeadingStyle</name></member>
+      <member refid="class_readme_editor_1af7d0811fc1b51682896287eeb35d42ff" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>Init</name></member>
+      <member refid="class_readme_editor_1a80c7b765fb2d91525b5c37674d7a50bf" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>kShowedReadmeSessionStateName</name></member>
+      <member refid="class_readme_editor_1a702fa7b75adeb4d18b3a39e10fa6c636" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>kSpace</name></member>
+      <member refid="class_readme_editor_1aabcfd4142be749948d95375a1f7c24b9" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>LinkLabel</name></member>
+      <member refid="class_readme_editor_1abee3751221c65289125b0c0ede89da4c" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>LinkStyle</name></member>
+      <member refid="class_readme_editor_1aecf876790e9311b07e2daf773b92b2c6" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>LoadLayout</name></member>
+      <member refid="class_readme_editor_1a9a508fe046d6bf05ef5a45eb071a481e" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>m_BodyStyle</name></member>
+      <member refid="class_readme_editor_1a66d031022c8490208196c18bbed95fc7" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>m_HeadingStyle</name></member>
+      <member refid="class_readme_editor_1a9f32c9a7096b0e0a88fcd2a21fd81ba1" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>m_Initialized</name></member>
+      <member refid="class_readme_editor_1a3453824686d13a20fff4110cb89dc1af" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>m_LinkStyle</name></member>
+      <member refid="class_readme_editor_1ad65339ad5059312679b738ac3894b7ec" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>m_TitleStyle</name></member>
+      <member refid="class_readme_editor_1a8f6d7cabe2f32d56480a70430df63c3f" prot="protected" virt="non-virtual"><scope>ReadmeEditor</scope><name>OnHeaderGUI</name></member>
+      <member refid="class_readme_editor_1a6e7c6fc0a5e4781a0500de4498cd2b68" prot="public" virt="non-virtual"><scope>ReadmeEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_readme_editor_1af58e80528476d1c8f5fa4e3fddbd93aa" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>ReadmeEditor</name></member>
+      <member refid="class_readme_editor_1a06d56601cda78338a061e2a1d990ba91" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>SelectReadme</name></member>
+      <member refid="class_readme_editor_1a141c00dae39138f4809aa76a06c2a6d5" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>SelectReadmeAutomatically</name></member>
+      <member refid="class_readme_editor_1a4ed2a71c308454554716b431b48f81cf" prot="private" virt="non-virtual"><scope>ReadmeEditor</scope><name>TitleStyle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

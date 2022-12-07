@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_chat_controller" kind="class" prot="public">
+    <compoundname>ChatController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_chat_controller_1aa10d0f728b5a82ad62e48b0367c29054" prot="public" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField ChatController.TMP_ChatInput</definition>
+        <argsstring></argsstring>
+        <name>TMP_ChatInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chat_controller_1aac379e56f05d9710d7363645e887f139" prot="public" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text ChatController.TMP_ChatOutput</definition>
+        <argsstring></argsstring>
+        <name>TMP_ChatOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57" prot="public" static="no" mutable="no">
+        <type>Scrollbar</type>
+        <definition>Scrollbar ChatController.ChatScrollbar</definition>
+        <argsstring></argsstring>
+        <name>ChatScrollbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChatController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="15" bodyend="19"/>
+        <references refid="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" compoundref="_chat_controller_8cs" startline="28" endline="42">AddToChatOutput</references>
+      </memberdef>
+      <memberdef kind="function" id="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChatController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="21" bodyend="25"/>
+        <references refid="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" compoundref="_chat_controller_8cs" startline="28" endline="42">AddToChatOutput</references>
+      </memberdef>
+      <memberdef kind="function" id="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChatController.AddToChatOutput</definition>
+        <argsstring>(string newText)</argsstring>
+        <name>AddToChatOutput</name>
+        <param>
+          <type>string</type>
+          <declname>newText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="28" bodyend="42"/>
+        <referencedby refid="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" compoundref="_chat_controller_8cs" startline="21" endline="25">OnDisable</referencedby>
+        <referencedby refid="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" compoundref="_chat_controller_8cs" startline="15" endline="19">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="495">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="494">
+        <label>ChatController</label>
+        <link refid="class_chat_controller"/>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="497">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="496">
+        <label>ChatController</label>
+        <link refid="class_chat_controller"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" prot="private" virt="non-virtual"><scope>ChatController</scope><name>AddToChatOutput</name></member>
+      <member refid="class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57" prot="public" virt="non-virtual"><scope>ChatController</scope><name>ChatScrollbar</name></member>
+      <member refid="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" prot="private" virt="non-virtual"><scope>ChatController</scope><name>OnDisable</name></member>
+      <member refid="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" prot="private" virt="non-virtual"><scope>ChatController</scope><name>OnEnable</name></member>
+      <member refid="class_chat_controller_1aa10d0f728b5a82ad62e48b0367c29054" prot="public" virt="non-virtual"><scope>ChatController</scope><name>TMP_ChatInput</name></member>
+      <member refid="class_chat_controller_1aac379e56f05d9710d7363645e887f139" prot="public" virt="non-virtual"><scope>ChatController</scope><name>TMP_ChatOutput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

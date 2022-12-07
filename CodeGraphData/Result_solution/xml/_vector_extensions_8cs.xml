@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_vector_extensions_8cs" kind="file">
+    <compoundname>VectorExtensions.cs</compoundname>
+    <innerclass refid="class_g_k_1_1_vector_extensions" prot="public">GK::VectorExtensions</innerclass>
+    <innernamespace refid="namespace_g_k">GK</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="23"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">GK<sp/>{</highlight></codeline>
+<codeline lineno="28" refid="class_g_k_1_1_vector_extensions" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_k_1_1_vector_extensions" kindref="compound">VectorExtensions</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_g_k_1_1_vector_extensions_1a7ab26e4e95383092fa6b2a078b5a23f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_g_k_1_1_vector_extensions_1a7ab26e4e95383092fa6b2a078b5a23f8" kindref="member">IsReal</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f) {</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!float.IsInfinity(f)<sp/>&amp;&amp;<sp/>!</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">.IsNaN(f);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_g_k_1_1_vector_extensions_1a06ef4b4c45eab8ddb0cd20ffd42f3185" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_g_k_1_1_vector_extensions_1a06ef4b4c45eab8ddb0cd20ffd42f3185" kindref="member">IsReal</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>Vector2<sp/>v2) {</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v2.x.IsReal()<sp/>&amp;&amp;<sp/>v2.y.IsReal();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_g_k_1_1_vector_extensions_1a7b2295cda8b8f229843d4bcce6273403" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_g_k_1_1_vector_extensions_1a7b2295cda8b8f229843d4bcce6273403" kindref="member">IsReal</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>Vector3<sp/>v3) {</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v3.x.IsReal()<sp/>&amp;&amp;<sp/>v3.y.IsReal()<sp/>&amp;&amp;<sp/>v3.z.IsReal();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VectorExtensions.cs"/>
+  </compounddef>
+</doxygen>

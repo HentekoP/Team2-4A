@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_graphics_utils" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::GraphicsUtils</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a4c516ec56416acd3d25bd56ac5b050e6" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.GraphicsUtils.isLinearColorSpace</definition>
+        <argsstring></argsstring>
+        <name>isLinearColorSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1ace9285947348e24fb9e15005eba7819e" compoundref="_post_processing_behaviour_8cs" startline="185" endline="295">UnityEngine.PostProcessing.PostProcessingBehaviour.OnRenderImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1aa52e38bfebfc8b51a2d8c33de57c9a75" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.GraphicsUtils.supportsDX11</definition>
+        <argsstring></argsstring>
+        <name>supportsDX11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_unity_editor_1_1_post_processing_1_1_eye_adaptation_model_editor_1a4cf6a60dd7701b19aeda57e557f44cee" compoundref="_eye_adaptation_model_editor_8cs" startline="38" endline="84">UnityEditor.PostProcessing.EyeAdaptationModelEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac3517dcff552180f8d10dab50463518c" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.GraphicsUtils.whiteTexture</definition>
+        <argsstring></argsstring>
+        <name>whiteTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1abd61c3a628477b875d7e73af470ef03b" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Mesh</type>
+        <definition>Mesh UnityEngine.PostProcessing.GraphicsUtils.quad</definition>
+        <argsstring></argsstring>
+        <name>quad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a5a77b99429c9f200e21b492c0c83d40b" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D UnityEngine.PostProcessing.GraphicsUtils.s_WhiteTexture</definition>
+        <argsstring></argsstring>
+        <name>s_WhiteTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a7a222765c36ddcfc6548024040d90601" prot="private" static="yes" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UnityEngine.PostProcessing.GraphicsUtils.s_Quad</definition>
+        <argsstring></argsstring>
+        <name>s_Quad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac4809219f9502267065e855e62dd64de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.GraphicsUtils.Blit</definition>
+        <argsstring>(Material material, int pass)</argsstring>
+        <name>Blit</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="77" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a87526dc05f6c55d88a1bb47c614b250d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.GraphicsUtils.ClearAndBlit</definition>
+        <argsstring>(Texture source, RenderTexture destination, Material material, int pass, bool clearColor=true, bool clearDepth=false)</argsstring>
+        <name>ClearAndBlit</name>
+        <param>
+          <type>Texture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pass</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clearColor</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clearDepth</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="97" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.GraphicsUtils.Destroy</definition>
+        <argsstring>(UnityObject obj)</argsstring>
+        <name>Destroy</name>
+        <param>
+          <type><ref refid="namespace_unity_engine_1_1_post_processing_1a4d6b4edb7079fca849178803e29c49bb" kindref="member">UnityObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="124" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="124" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a05480dd987f0e42c01bae89f26bad4b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.PostProcessing.GraphicsUtils.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="139" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/GraphicsUtils.cs" bodystart="5" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac4809219f9502267065e855e62dd64de" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>Blit</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a87526dc05f6c55d88a1bb47c614b250d" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>ClearAndBlit</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a33ab867d673af33b801d7e6edafaa8e7" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>Destroy</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a05480dd987f0e42c01bae89f26bad4b8" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>Dispose</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a4c516ec56416acd3d25bd56ac5b050e6" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>isLinearColorSpace</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1abd61c3a628477b875d7e73af470ef03b" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>quad</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a7a222765c36ddcfc6548024040d90601" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>s_Quad</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1a5a77b99429c9f200e21b492c0c83d40b" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>s_WhiteTexture</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1aa52e38bfebfc8b51a2d8c33de57c9a75" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>supportsDX11</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_graphics_utils_1ac3517dcff552180f8d10dab50463518c" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::GraphicsUtils</scope><name>whiteTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

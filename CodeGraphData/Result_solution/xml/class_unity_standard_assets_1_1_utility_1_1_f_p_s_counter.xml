@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::FPSCounter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1ab3cc40b16942252b82dd145888d9dc86" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Utility.FPSCounter.fpsMeasurePeriod</definition>
+        <argsstring></argsstring>
+        <name>fpsMeasurePeriod</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1a81ad9345584bf7cfb40076c05055e819" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.FPSCounter.m_FpsAccumulator</definition>
+        <argsstring></argsstring>
+        <name>m_FpsAccumulator</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1a9538b516d01228cdb2a1d6bc6580d9e0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.FPSCounter.m_FpsNextPeriod</definition>
+        <argsstring></argsstring>
+        <name>m_FpsNextPeriod</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1ae573a66adf55d4f8db97d5cd9c8591dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.FPSCounter.m_CurrentFps</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentFps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1ae25a55bed2a737afa5f53bf2aefe9d44" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityStandardAssets.Utility.FPSCounter.display</definition>
+        <argsstring></argsstring>
+        <name>display</name>
+        <initializer>= &quot;{0} FPS&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1a6e9b69e7c11d91f0225a42e25c9ab7b0" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text UnityStandardAssets.Utility.FPSCounter.m_Text</definition>
+        <argsstring></argsstring>
+        <name>m_Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1abc26ccb04150a5da9cf759c59d44fc9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.FPSCounter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1abc934eda60e3a8102293938da3a292d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.FPSCounter.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="25" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1111">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1110">
+        <label>UnityStandardAssets.Utility.FPSCounter</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter"/>
+        <childnode refid="1111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1114">
+        <label>Text</label>
+      </node>
+      <node id="1113">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1112">
+        <label>UnityStandardAssets.Utility.FPSCounter</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter"/>
+        <childnode refid="1113" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1114" relation="usage">
+          <edgelabel>m_Text</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/FPSCounter.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1ae25a55bed2a737afa5f53bf2aefe9d44" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>display</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1ab3cc40b16942252b82dd145888d9dc86" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>fpsMeasurePeriod</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1ae573a66adf55d4f8db97d5cd9c8591dd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>m_CurrentFps</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1a81ad9345584bf7cfb40076c05055e819" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>m_FpsAccumulator</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1a9538b516d01228cdb2a1d6bc6580d9e0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>m_FpsNextPeriod</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1a6e9b69e7c11d91f0225a42e25c9ab7b0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>m_Text</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1abc26ccb04150a5da9cf759c59d44fc9a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter_1abc934eda60e3a8102293938da3a292d4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::FPSCounter</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

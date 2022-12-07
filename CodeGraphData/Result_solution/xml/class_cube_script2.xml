@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_cube_script2" kind="class" prot="public">
+    <compoundname>CubeScript2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cube_script2_1a682d50009a4b3e144c6061e728851a21" prot="private" static="no" mutable="no">
+        <type>MeshRenderer</type>
+        <definition>MeshRenderer CubeScript2.meshRenderer</definition>
+        <argsstring></argsstring>
+        <name>meshRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" compoundref="_cube_script2_8cs" startline="17" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color CubeScript2.defaultColor</definition>
+        <argsstring></argsstring>
+        <name>defaultColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" compoundref="_cube_script2_8cs" startline="17" endline="23">Start</referencedby>
+        <referencedby refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" compoundref="_cube_script2_8cs" startline="26" endline="39">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_script2_1ae1a8faa83cd14c002d22bb3895af8030" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color CubeScript2.defaultColor_Transparent</definition>
+        <argsstring></argsstring>
+        <name>defaultColor_Transparent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" compoundref="_cube_script2_8cs" startline="17" endline="23">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeScript2.ray</definition>
+        <argsstring></argsstring>
+        <name>ray</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" compoundref="_cube_script2_8cs" startline="26" endline="39">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeScript2.trigStay</definition>
+        <argsstring></argsstring>
+        <name>trigStay</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_cube_script2_1ab3c9919d62f381aeab3c59c1ca97b16d" compoundref="_cube_script2_8cs" startline="46" endline="49">OnTriggerExit</referencedby>
+        <referencedby refid="class_cube_script2_1a5331d18f26771b8398ee1cefdb5ffe2d" compoundref="_cube_script2_8cs" startline="41" endline="44">OnTriggerStay</referencedby>
+        <referencedby refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" compoundref="_cube_script2_8cs" startline="26" endline="39">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeScript2.grab</definition>
+        <argsstring></argsstring>
+        <name>grab</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" compoundref="_cube_script2_8cs" startline="26" endline="39">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeScript2.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="17" bodyend="23"/>
+        <references refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" compoundref="_cube_script2_8cs" startline="8">defaultColor</references>
+        <references refid="class_cube_script2_1ae1a8faa83cd14c002d22bb3895af8030" compoundref="_cube_script2_8cs" startline="9">defaultColor_Transparent</references>
+        <references refid="class_cube_script2_1a682d50009a4b3e144c6061e728851a21" compoundref="_cube_script2_8cs" startline="7">meshRenderer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeScript2.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="26" bodyend="39"/>
+        <references refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" compoundref="_cube_script2_8cs" startline="8">defaultColor</references>
+        <references refid="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" compoundref="_cube_script2_8cs" startline="14">grab</references>
+        <references refid="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" compoundref="_cube_script2_8cs" startline="11">ray</references>
+        <references refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" compoundref="_cube_script2_8cs" startline="12">trigStay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_script2_1a5331d18f26771b8398ee1cefdb5ffe2d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeScript2.OnTriggerStay</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerStay</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="41" bodyend="44"/>
+        <references refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" compoundref="_cube_script2_8cs" startline="12">trigStay</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_script2_1ab3c9919d62f381aeab3c59c1ca97b16d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeScript2.OnTriggerExit</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerExit</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="46" bodyend="49"/>
+        <references refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" compoundref="_cube_script2_8cs" startline="12">trigStay</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="664">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="663">
+        <label>CubeScript2</label>
+        <link refid="class_cube_script2"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="666">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="665">
+        <label>CubeScript2</label>
+        <link refid="class_cube_script2"/>
+        <childnode refid="666" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs" bodystart="5" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>defaultColor</name></member>
+      <member refid="class_cube_script2_1ae1a8faa83cd14c002d22bb3895af8030" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>defaultColor_Transparent</name></member>
+      <member refid="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" prot="public" virt="non-virtual"><scope>CubeScript2</scope><name>grab</name></member>
+      <member refid="class_cube_script2_1a682d50009a4b3e144c6061e728851a21" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>meshRenderer</name></member>
+      <member refid="class_cube_script2_1ab3c9919d62f381aeab3c59c1ca97b16d" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>OnTriggerExit</name></member>
+      <member refid="class_cube_script2_1a5331d18f26771b8398ee1cefdb5ffe2d" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>OnTriggerStay</name></member>
+      <member refid="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" prot="public" virt="non-virtual"><scope>CubeScript2</scope><name>ray</name></member>
+      <member refid="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>Start</name></member>
+      <member refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" prot="public" virt="non-virtual"><scope>CubeScript2</scope><name>trigStay</name></member>
+      <member refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" prot="private" virt="non-virtual"><scope>CubeScript2</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

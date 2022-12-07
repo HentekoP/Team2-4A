@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pause" kind="class" prot="public">
+    <compoundname>Pause</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_1a51b77879da8d703fa0f051b489dee938" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Pause.Pause_Panel</definition>
+        <argsstring></argsstring>
+        <name>Pause_Panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_pause_1aaca907c0b684b95a4217bdb7da863e32" compoundref="_pause_8cs" startline="58" endline="80">Pause_Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1ad52d55ca49046bdd62b5004e5f116492" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform Pause.Pause_Cursor</definition>
+        <argsstring></argsstring>
+        <name>Pause_Cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a2e462511a0979a925e5cd31178cc738b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pause.Menu_Num</definition>
+        <argsstring></argsstring>
+        <name>Menu_Num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a1f201249b5c9735a5514c28eba31aafd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pause.Pause_EndNum</definition>
+        <argsstring></argsstring>
+        <name>Pause_EndNum</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" compoundref="_pause_8cs" startline="168" endline="240">Pause_End</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1aa5290ff6c6e40e473b85cb636ea74b75" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform Pause.Pause_EndCursor</definition>
+        <argsstring></argsstring>
+        <name>Pause_EndCursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1ab783af4c09315f14193c5957652dd70c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.End_flg</definition>
+        <argsstring></argsstring>
+        <name>End_flg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" compoundref="_pause_8cs" startline="168" endline="240">Pause_End</referencedby>
+        <referencedby refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a44021d4c78b436343e3ea014e2d98ac1" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Pause.BGM</definition>
+        <argsstring></argsstring>
+        <name>BGM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1ae0d2036febf5a447c4b7eb3f2bb90e44" prot="public" static="no" mutable="no">
+        <type>AudioClip[]</type>
+        <definition>AudioClip [] Pause.se</definition>
+        <argsstring></argsstring>
+        <name>se</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" compoundref="_pause_8cs" startline="168" endline="240">Pause_End</referencedby>
+        <referencedby refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</referencedby>
+        <referencedby refid="class_pause_1aaca907c0b684b95a4217bdb7da863e32" compoundref="_pause_8cs" startline="58" endline="80">Pause_Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pause_1aa4f6564dcbe70dba5e69c44aa83992f4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.Push_Flg</definition>
+        <argsstring></argsstring>
+        <name>Push_Flg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" compoundref="_pause_8cs" startline="168" endline="240">Pause_End</referencedby>
+        <referencedby refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1ae40a210129f6d2c79aa291350d37381f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.Select_flg</definition>
+        <argsstring></argsstring>
+        <name>Select_flg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</referencedby>
+        <referencedby refid="class_pause_1aaca907c0b684b95a4217bdb7da863e32" compoundref="_pause_8cs" startline="58" endline="80">Pause_Start</referencedby>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="40" endline="56">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a9dbeaae7ec54fe9b3eda748fe8eba26b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Pause.Pause_EndPanel</definition>
+        <argsstring></argsstring>
+        <name>Pause_EndPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" compoundref="_pause_8cs" startline="168" endline="240">Pause_End</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a327c380a12c62bd9472e6cce28bd2375" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Pause.SE</definition>
+        <argsstring></argsstring>
+        <name>SE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_pause_1a2676d511f741a690dd8a1d6f64aef89c" compoundref="_pause_8cs" startline="33" endline="38">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a97946c57ad15d9ee5cc0b5590d34c301" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.Clear</definition>
+        <argsstring></argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="40" endline="56">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a0e2fd022a6313a642050c855ea0f9f14" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.GameOver</definition>
+        <argsstring></argsstring>
+        <name>GameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="40" endline="56">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_1a2676d511f741a690dd8a1d6f64aef89c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="33" bodyend="38"/>
+        <references refid="class_pause_1a327c380a12c62bd9472e6cce28bd2375" compoundref="_pause_8cs" startline="28">SE</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_1aab062f8945cc0bad08b554ad58357dc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="40" bodyend="56"/>
+        <references refid="class_pause_1a97946c57ad15d9ee5cc0b5590d34c301" compoundref="_pause_8cs" startline="30">Clear</references>
+        <references refid="class_pause_1a0e2fd022a6313a642050c855ea0f9f14" compoundref="_pause_8cs" startline="31">GameOver</references>
+        <references refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</references>
+        <references refid="class_pause_1aaca907c0b684b95a4217bdb7da863e32" compoundref="_pause_8cs" startline="58" endline="80">Pause_Start</references>
+        <references refid="class_pause_1ae40a210129f6d2c79aa291350d37381f" compoundref="_pause_8cs" startline="17">Select_flg</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_1aaca907c0b684b95a4217bdb7da863e32" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Pause_Start</definition>
+        <argsstring>()</argsstring>
+        <name>Pause_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="58" bodyend="80"/>
+        <references refid="class_pause_1a51b77879da8d703fa0f051b489dee938" compoundref="_pause_8cs" startline="9">Pause_Panel</references>
+        <references refid="class_pause_1ae0d2036febf5a447c4b7eb3f2bb90e44" compoundref="_pause_8cs" startline="29">se</references>
+        <references refid="class_pause_1ae40a210129f6d2c79aa291350d37381f" compoundref="_pause_8cs" startline="17">Select_flg</references>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="40" endline="56">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_1a745bca853761494afff98a2ad941058e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Pause_Select</definition>
+        <argsstring>()</argsstring>
+        <name>Pause_Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="82" bodyend="166"/>
+        <references refid="class_pause_1ab783af4c09315f14193c5957652dd70c" compoundref="_pause_8cs" startline="25">End_flg</references>
+        <references refid="class_pause_1a2e462511a0979a925e5cd31178cc738b" compoundref="_pause_8cs" startline="13">Menu_Num</references>
+        <references refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" compoundref="_pause_8cs" startline="168" endline="240">Pause_End</references>
+        <references refid="class_pause_1aa4f6564dcbe70dba5e69c44aa83992f4" compoundref="_pause_8cs" startline="15">Push_Flg</references>
+        <references refid="class_pause_1ae0d2036febf5a447c4b7eb3f2bb90e44" compoundref="_pause_8cs" startline="29">se</references>
+        <references refid="class_pause_1ae40a210129f6d2c79aa291350d37381f" compoundref="_pause_8cs" startline="17">Select_flg</references>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="40" endline="56">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_1ae3617d64908bfb74790d09b23120bddb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Pause_End</definition>
+        <argsstring>()</argsstring>
+        <name>Pause_End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="168" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="168" bodyend="240"/>
+        <references refid="class_pause_1ab783af4c09315f14193c5957652dd70c" compoundref="_pause_8cs" startline="25">End_flg</references>
+        <references refid="class_pause_1a1f201249b5c9735a5514c28eba31aafd" compoundref="_pause_8cs" startline="22">Pause_EndNum</references>
+        <references refid="class_pause_1a9dbeaae7ec54fe9b3eda748fe8eba26b" compoundref="_pause_8cs" startline="19">Pause_EndPanel</references>
+        <references refid="class_pause_1aa4f6564dcbe70dba5e69c44aa83992f4" compoundref="_pause_8cs" startline="15">Push_Flg</references>
+        <references refid="class_pause_1ae0d2036febf5a447c4b7eb3f2bb90e44" compoundref="_pause_8cs" startline="29">se</references>
+        <referencedby refid="class_pause_1a745bca853761494afff98a2ad941058e" compoundref="_pause_8cs" startline="82" endline="166">Pause_Select</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1645">
+        <label>Pause</label>
+        <link refid="class_pause"/>
+        <childnode refid="1646" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1646">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1647">
+        <label>Pause</label>
+        <link refid="class_pause"/>
+        <childnode refid="1648" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1648">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Pause.cs" bodystart="7" bodyend="241"/>
+    <listofallmembers>
+      <member refid="class_pause_1a44021d4c78b436343e3ea014e2d98ac1" prot="public" virt="non-virtual"><scope>Pause</scope><name>BGM</name></member>
+      <member refid="class_pause_1a97946c57ad15d9ee5cc0b5590d34c301" prot="private" virt="non-virtual"><scope>Pause</scope><name>Clear</name></member>
+      <member refid="class_pause_1ab783af4c09315f14193c5957652dd70c" prot="public" virt="non-virtual"><scope>Pause</scope><name>End_flg</name></member>
+      <member refid="class_pause_1a0e2fd022a6313a642050c855ea0f9f14" prot="private" virt="non-virtual"><scope>Pause</scope><name>GameOver</name></member>
+      <member refid="class_pause_1a2e462511a0979a925e5cd31178cc738b" prot="public" virt="non-virtual"><scope>Pause</scope><name>Menu_Num</name></member>
+      <member refid="class_pause_1ad52d55ca49046bdd62b5004e5f116492" prot="public" virt="non-virtual"><scope>Pause</scope><name>Pause_Cursor</name></member>
+      <member refid="class_pause_1ae3617d64908bfb74790d09b23120bddb" prot="private" virt="non-virtual"><scope>Pause</scope><name>Pause_End</name></member>
+      <member refid="class_pause_1aa5290ff6c6e40e473b85cb636ea74b75" prot="public" virt="non-virtual"><scope>Pause</scope><name>Pause_EndCursor</name></member>
+      <member refid="class_pause_1a1f201249b5c9735a5514c28eba31aafd" prot="public" virt="non-virtual"><scope>Pause</scope><name>Pause_EndNum</name></member>
+      <member refid="class_pause_1a9dbeaae7ec54fe9b3eda748fe8eba26b" prot="private" virt="non-virtual"><scope>Pause</scope><name>Pause_EndPanel</name></member>
+      <member refid="class_pause_1a51b77879da8d703fa0f051b489dee938" prot="public" virt="non-virtual"><scope>Pause</scope><name>Pause_Panel</name></member>
+      <member refid="class_pause_1a745bca853761494afff98a2ad941058e" prot="private" virt="non-virtual"><scope>Pause</scope><name>Pause_Select</name></member>
+      <member refid="class_pause_1aaca907c0b684b95a4217bdb7da863e32" prot="private" virt="non-virtual"><scope>Pause</scope><name>Pause_Start</name></member>
+      <member refid="class_pause_1aa4f6564dcbe70dba5e69c44aa83992f4" prot="private" virt="non-virtual"><scope>Pause</scope><name>Push_Flg</name></member>
+      <member refid="class_pause_1a327c380a12c62bd9472e6cce28bd2375" prot="private" virt="non-virtual"><scope>Pause</scope><name>SE</name></member>
+      <member refid="class_pause_1ae0d2036febf5a447c4b7eb3f2bb90e44" prot="public" virt="non-virtual"><scope>Pause</scope><name>se</name></member>
+      <member refid="class_pause_1ae40a210129f6d2c79aa291350d37381f" prot="private" virt="non-virtual"><scope>Pause</scope><name>Select_flg</name></member>
+      <member refid="class_pause_1a2676d511f741a690dd8a1d6f64aef89c" prot="private" virt="non-virtual"><scope>Pause</scope><name>Start</name></member>
+      <member refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" prot="private" virt="non-virtual"><scope>Pause</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::EyeAdaptationComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::EyeAdaptationComponent::Uniforms</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a098d4b83df452a696ce538455991491e" prot="private" static="no" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader UnityEngine.PostProcessing.EyeAdaptationComponent.m_EyeCompute</definition>
+        <argsstring></argsstring>
+        <name>m_EyeCompute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1aeb3658f74237024d1f0c63b64b6f4731" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer UnityEngine.PostProcessing.EyeAdaptationComponent.m_HistogramBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_HistogramBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a04792ae5a0aa1bdd7623beb6fc4eb362" prot="private" static="no" mutable="no">
+        <type>readonly RenderTexture[]</type>
+        <definition>readonly RenderTexture [] UnityEngine.PostProcessing.EyeAdaptationComponent.m_AutoExposurePool</definition>
+        <argsstring></argsstring>
+        <name>m_AutoExposurePool</name>
+        <initializer>= new RenderTexture[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1aa1c503a8338c7fbf3b1b24dfb1aeb02b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.PostProcessing.EyeAdaptationComponent.m_AutoExposurePingPing</definition>
+        <argsstring></argsstring>
+        <name>m_AutoExposurePingPing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a204527bcd277a6306c49cd93d2c2b502" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.EyeAdaptationComponent.m_CurrentAutoExposure</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentAutoExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ad6f36fd3106cd9e3f73e300831008647" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.EyeAdaptationComponent.m_DebugHistogram</definition>
+        <argsstring></argsstring>
+        <name>m_DebugHistogram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a8ce4218bc24063d4507c7c625ba0b7b6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.EyeAdaptationComponent.m_FirstFrame</definition>
+        <argsstring></argsstring>
+        <name>m_FirstFrame</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ab06dfc1c0abafdaa137671c1c5f86259" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.EyeAdaptationComponent.k_HistogramBins</definition>
+        <argsstring></argsstring>
+        <name>k_HistogramBins</name>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1aeaaeef3111b5b1a3d12fe213ace0a82e" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.EyeAdaptationComponent.k_HistogramThreadX</definition>
+        <argsstring></argsstring>
+        <name>k_HistogramThreadX</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1af9a3876cd982aff783dff0ee698bf8d4" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.EyeAdaptationComponent.k_HistogramThreadY</definition>
+        <argsstring></argsstring>
+        <name>k_HistogramThreadY</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a791d1da1d068ae9be19f47c28dbcf52a" prot="private" static="yes" mutable="no">
+        <type>uint[]</type>
+        <definition>uint [] UnityEngine.PostProcessing.EyeAdaptationComponent.s_EmptyHistogramBuffer</definition>
+        <argsstring></argsstring>
+        <name>s_EmptyHistogramBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ae4f7d376419dd90448617b828a9b1238" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.EyeAdaptationComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a461fa3fb6ad4571e4d860ed8c7c0beb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.EyeAdaptationComponent.ResetHistory</definition>
+        <argsstring>()</argsstring>
+        <name>ResetHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a1fd3a905eb93bbb912e2316baa1b1396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.EyeAdaptationComponent.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a983236f00adbfa6c477423ecf2d55eec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.EyeAdaptationComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c">OnDisable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="53" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1af6319d4a0410aedaa227fe1725e70309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>Texture UnityEngine.PostProcessing.EyeAdaptationComponent.Prepare</definition>
+        <argsstring>(RenderTexture source, Material uberMaterial)</argsstring>
+        <name>Prepare</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>uberMaterial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="78" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a3f25f90f406ea8d9ae4e51194c802a71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.EyeAdaptationComponent.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="176" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="176" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ab2514a2caec3015f80965a7bf2bf0794" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>Vector4 UnityEngine.PostProcessing.EyeAdaptationComponent.GetHistogramScaleOffsetRes</definition>
+        <argsstring>()</argsstring>
+        <name>GetHistogramScaleOffsetRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="69" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="949">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="946">
+        <label>UnityEngine.PostProcessing.EyeAdaptationComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component"/>
+        <childnode refid="947" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="948">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="949" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="947">
+        <label>PostProcessingComponentRenderTexture&lt; EyeAdaptationModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="948" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="953">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="954" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="975">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="956" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="962">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="950">
+        <label>UnityEngine.PostProcessing.EyeAdaptationComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component"/>
+        <childnode refid="951" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="970">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="956">
+        <label>IDisposable</label>
+      </node>
+      <node id="964">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="952">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="953" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="965">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="974">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="968">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="958">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="957">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="958" relation="public-inheritance">
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="962" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="963" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="964" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="966" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="967" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="969" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="970" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="971" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="972" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="973" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="974" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="960">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="954">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="955" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="975" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="973">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="955">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="956" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="963">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="971">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="961">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="967">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="959">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="951">
+        <label>PostProcessingComponentRenderTexture&lt; EyeAdaptationModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="952" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="966">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="960" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" bodystart="3" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ae4f7d376419dd90448617b828a9b1238" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ab2514a2caec3015f80965a7bf2bf0794" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>GetHistogramScaleOffsetRes</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ab06dfc1c0abafdaa137671c1c5f86259" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>k_HistogramBins</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1aeaaeef3111b5b1a3d12fe213ace0a82e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>k_HistogramThreadX</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1af9a3876cd982aff783dff0ee698bf8d4" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>k_HistogramThreadY</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1aa1c503a8338c7fbf3b1b24dfb1aeb02b" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_AutoExposurePingPing</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a04792ae5a0aa1bdd7623beb6fc4eb362" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_AutoExposurePool</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a204527bcd277a6306c49cd93d2c2b502" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_CurrentAutoExposure</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1ad6f36fd3106cd9e3f73e300831008647" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_DebugHistogram</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a098d4b83df452a696ce538455991491e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_EyeCompute</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a8ce4218bc24063d4507c7c625ba0b7b6" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_FirstFrame</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1aeb3658f74237024d1f0c63b64b6f4731" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>m_HistogramBuffer</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a983236f00adbfa6c477423ecf2d55eec" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a1fd3a905eb93bbb912e2316baa1b1396" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a3f25f90f406ea8d9ae4e51194c802a71" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>OnGUI</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1af6319d4a0410aedaa227fe1725e70309" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>Prepare</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4_1adcf0697959b318bf65a96ce47ee26732" prot="public" virt="virtual" ambiguityscope="UnityEngine::PostProcessing::PostProcessingComponentRenderTexture&lt; T &gt;."><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>Prepare</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a461fa3fb6ad4571e4d860ed8c7c0beb4" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>ResetHistory</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_component_1a791d1da1d068ae9be19f47c28dbcf52a" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::EyeAdaptationComponent</scope><name>s_EmptyHistogramBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

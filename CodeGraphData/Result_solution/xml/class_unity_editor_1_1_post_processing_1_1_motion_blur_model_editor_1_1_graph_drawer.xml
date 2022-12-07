@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer" kind="class" prot="private">
+    <compoundname>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad389031105559fb3ed06f452b487f0ec" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.k_Height</definition>
+        <argsstring></argsstring>
+        <name>k_Height</name>
+        <initializer>= 32f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad7ef3eab31e49782aad4d80640d8e557" prot="private" static="no" mutable="no">
+        <type>Texture</type>
+        <definition>Texture UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.m_BlendingIcon</definition>
+        <argsstring></argsstring>
+        <name>m_BlendingIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a7f527436e1284f21372ca686e5f199cc" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.m_LowerCenterStyle</definition>
+        <argsstring></argsstring>
+        <name>m_LowerCenterStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad6b945547a80f13451cc14d615f8a769" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.m_MiddleCenterStyle</definition>
+        <argsstring></argsstring>
+        <name>m_MiddleCenterStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a287cafbbaee30908fe947023d32b9d4d" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.m_ColorDark</definition>
+        <argsstring></argsstring>
+        <name>m_ColorDark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1aa2e6b9dd7f3199c3e5bf689a2e2ff718" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.m_ColorGray</definition>
+        <argsstring></argsstring>
+        <name>m_ColorGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a31eb9e45a17b1e744ee1528bd57cb885" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.m_RectVertices</definition>
+        <argsstring></argsstring>
+        <name>m_RectVertices</name>
+        <initializer>= new Vector3[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1aa95754e9e59413b38d73d29e42d4ed42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.GraphDrawer</definition>
+        <argsstring>()</argsstring>
+        <name>GraphDrawer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="31" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a310918df52daec4cca24d526c9dd85c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.DrawShutterGraph</definition>
+        <argsstring>(float angle)</argsstring>
+        <name>DrawShutterGraph</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="50" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a56ba4c2ab60eb19073707e2e433fec22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.DrawBlendingGraph</definition>
+        <argsstring>(float strength)</argsstring>
+        <name>DrawBlendingGraph</name>
+        <param>
+          <type>float</type>
+          <declname>strength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="94" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a83135671d1195ab3994ae0e2a7690793" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.BlendingWeight</definition>
+        <argsstring>(float strength, float time)</argsstring>
+        <name>BlendingWeight</name>
+        <param>
+          <type>float</type>
+          <declname>strength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="120" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="120" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a8fe3837dd58b3529c112d5b3ad3ceefb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.DrawDisc</definition>
+        <argsstring>(Vector2 center, float radius, Color fill)</argsstring>
+        <name>DrawDisc</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>fill</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1afc715331a239d1f1a4f55521bfcb0b60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.DrawArc</definition>
+        <argsstring>(Vector2 center, float radius, float angle, Color fill)</argsstring>
+        <name>DrawArc</name>
+        <param>
+          <type>Vector2</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>fill</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="136" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad0ea97a3ed17028866332ee392a848c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer.DrawRect</definition>
+        <argsstring>(Vector2 origin, Vector2 size, Color color)</argsstring>
+        <name>DrawRect</name>
+        <param>
+          <type>Vector2</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="148" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="148" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="17" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a83135671d1195ab3994ae0e2a7690793" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>BlendingWeight</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1afc715331a239d1f1a4f55521bfcb0b60" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>DrawArc</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a56ba4c2ab60eb19073707e2e433fec22" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>DrawBlendingGraph</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a8fe3837dd58b3529c112d5b3ad3ceefb" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>DrawDisc</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad0ea97a3ed17028866332ee392a848c5" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>DrawRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a310918df52daec4cca24d526c9dd85c8" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>DrawShutterGraph</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1aa95754e9e59413b38d73d29e42d4ed42" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>GraphDrawer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad389031105559fb3ed06f452b487f0ec" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>k_Height</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad7ef3eab31e49782aad4d80640d8e557" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>m_BlendingIcon</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a287cafbbaee30908fe947023d32b9d4d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>m_ColorDark</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1aa2e6b9dd7f3199c3e5bf689a2e2ff718" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>m_ColorGray</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a7f527436e1284f21372ca686e5f199cc" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>m_LowerCenterStyle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1ad6b945547a80f13451cc14d615f8a769" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>m_MiddleCenterStyle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer_1a31eb9e45a17b1e744ee1528bd57cb885" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</scope><name>m_RectVertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::CrossPlatformInput::TouchPad</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerDownHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerUpHandler</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a97d0cfd4e00c26253919746e84ebb7e5" prot="public" static="no">
+        <name>AxisOption</name>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a97d0cfd4e00c26253919746e84ebb7e5a130c5b3473c57faa76e2a1c54e26f88e" prot="public">
+          <name>Both</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a97d0cfd4e00c26253919746e84ebb7e5aad0df54cc6571aea4edb7176c3149ef9" prot="public">
+          <name>OnlyHorizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a97d0cfd4e00c26253919746e84ebb7e5ae9490dd647be2142274984691da814fb" prot="public">
+          <name>OnlyVertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ab4c68ac6f2b8a41c5029c105833ebfb6" prot="public" static="no">
+        <name>ControlStyle</name>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ab4c68ac6f2b8a41c5029c105833ebfb6ab51ca26c6c89cfc9bec338f7a0d3e0c8" prot="public">
+          <name>Absolute</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ab4c68ac6f2b8a41c5029c105833ebfb6a2ca9469819fb0fb61ff98e914a7ccca0" prot="public">
+          <name>Relative</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ab4c68ac6f2b8a41c5029c105833ebfb6a78076ce792c4640bf99c598c92bd69e7" prot="public">
+          <name>Swipe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a0ad06c7691faa5b86e3917bdab8d3eae" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a97d0cfd4e00c26253919746e84ebb7e5" kindref="member">AxisOption</ref></type>
+        <definition>AxisOption UnityStandardAssets.CrossPlatformInput.TouchPad.axesToUse</definition>
+        <argsstring></argsstring>
+        <name>axesToUse</name>
+        <initializer>= AxisOption.Both</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ad6ec0252344c6ee56d386f560e0b2240" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ab4c68ac6f2b8a41c5029c105833ebfb6" kindref="member">ControlStyle</ref></type>
+        <definition>ControlStyle UnityStandardAssets.CrossPlatformInput.TouchPad.controlStyle</definition>
+        <argsstring></argsstring>
+        <name>controlStyle</name>
+        <initializer>= ControlStyle.Absolute</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a585071611ca85f0bd127c0fd8e25f0eb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityStandardAssets.CrossPlatformInput.TouchPad.horizontalAxisName</definition>
+        <argsstring></argsstring>
+        <name>horizontalAxisName</name>
+        <initializer>= &quot;Horizontal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a1338b6e2123c8547d13f4adad495f9e0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityStandardAssets.CrossPlatformInput.TouchPad.verticalAxisName</definition>
+        <argsstring></argsstring>
+        <name>verticalAxisName</name>
+        <initializer>= &quot;Vertical&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a32afeb376c688e6faeec4de083d1e256" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.CrossPlatformInput.TouchPad.Xsensitivity</definition>
+        <argsstring></argsstring>
+        <name>Xsensitivity</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a2481cb2206a2127c4abe6945621752ab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.CrossPlatformInput.TouchPad.Ysensitivity</definition>
+        <argsstring></argsstring>
+        <name>Ysensitivity</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a1771088ac0b6ac64a2a4cd01ee9e4e81" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.CrossPlatformInput.TouchPad.m_StartPos</definition>
+        <argsstring></argsstring>
+        <name>m_StartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1afb4faca673ee2a4f9a2af041c4820feb" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UnityStandardAssets.CrossPlatformInput.TouchPad.m_PreviousDelta</definition>
+        <argsstring></argsstring>
+        <name>m_PreviousDelta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a7a8100793443f3133d7be118287b77e5" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.CrossPlatformInput.TouchPad.m_JoytickOutput</definition>
+        <argsstring></argsstring>
+        <name>m_JoytickOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a1320e5a84e9360b022e022d60d1a8fc8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.TouchPad.m_UseX</definition>
+        <argsstring></argsstring>
+        <name>m_UseX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a7e63a0b0e5bf4d6a5d4c2c01743e30e8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.TouchPad.m_UseY</definition>
+        <argsstring></argsstring>
+        <name>m_UseY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a6c88f43906ffa5ed79f1d2e57f8324cc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+        <definition>CrossPlatformInputManager.VirtualAxis UnityStandardAssets.CrossPlatformInput.TouchPad.m_HorizontalVirtualAxis</definition>
+        <argsstring></argsstring>
+        <name>m_HorizontalVirtualAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1adf78c6c22aa52989bfbaf093cca220a6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+        <definition>CrossPlatformInputManager.VirtualAxis UnityStandardAssets.CrossPlatformInput.TouchPad.m_VerticalVirtualAxis</definition>
+        <argsstring></argsstring>
+        <name>m_VerticalVirtualAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1afd54a6f576c97542eb7bc438cac5b886" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.TouchPad.m_Dragging</definition>
+        <argsstring></argsstring>
+        <name>m_Dragging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ac4bc67fbdd5a2a5f38cd31982c2a38bf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.CrossPlatformInput.TouchPad.m_Id</definition>
+        <argsstring></argsstring>
+        <name>m_Id</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a263a40587ae1d4dbed0b1bd90b97fd9b" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UnityStandardAssets.CrossPlatformInput.TouchPad.m_PreviousTouchPos</definition>
+        <argsstring></argsstring>
+        <name>m_PreviousTouchPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1abb84b52075a036bba75ca37b5effbe8a" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.CrossPlatformInput.TouchPad.m_Center</definition>
+        <argsstring></argsstring>
+        <name>m_Center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ae92e887afafaba0bcdcdd03f276794f2" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image UnityStandardAssets.CrossPlatformInput.TouchPad.m_Image</definition>
+        <argsstring></argsstring>
+        <name>m_Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1aae6c2d3a204b5d0407dad6cc768925d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a8b9550df5b2fb84b233b97d0713564ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a3568beab05be1e698e0ff82d8c765dd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.CreateVirtualAxes</definition>
+        <argsstring>()</argsstring>
+        <name>CreateVirtualAxes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="67" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a47c5385a2516cecf07b10883b351f84e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.UpdateVirtualAxes</definition>
+        <argsstring>(Vector3 value)</argsstring>
+        <name>UpdateVirtualAxes</name>
+        <param>
+          <type>Vector3</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="86" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a92116c2fccc64fec18ce7de797cc7fac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="111" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a6dfd7558ae11083e36a1d8c2e9192f7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="147" bodyend="154"/>
+        <references refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1a2b2ce7bfb83e8cc7f23b9f7fcf6dff5f" compoundref="_cross_platform_input_manager_8cs" startline="47" endline="50">UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.AxisExists</references>
+        <references refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1a1fe0c362a754984b83e2e228b0adf3a6" compoundref="_cross_platform_input_manager_8cs" startline="69" endline="76">UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.UnRegisterVirtualAxis</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a8b4472a5a1e14f366343555bde2a0d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.OnPointerDown</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnPointerDown</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="101" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a4dba9a8b6dfe34618e48f1b152bc1eba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.TouchPad.OnPointerUp</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnPointerUp</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="140" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="140" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2564">
+        <label>UnityStandardAssets.CrossPlatformInput.TouchPad</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad"/>
+        <childnode refid="2565" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2566" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2566">
+        <label>IPointerDownHandler</label>
+      </node>
+      <node id="2565">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2567">
+        <label>IPointerUpHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2568">
+        <label>UnityStandardAssets.CrossPlatformInput.TouchPad</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad"/>
+        <childnode refid="2569" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2570" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2571" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2572" relation="usage">
+          <edgelabel>m_VerticalVirtualAxis</edgelabel>
+          <edgelabel>m_HorizontalVirtualAxis</edgelabel>
+        </childnode>
+      </node>
+      <node id="2572">
+        <label>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager"/>
+        <childnode refid="2573" relation="usage">
+          <edgelabel>s_HardwareInput</edgelabel>
+          <edgelabel>s_TouchInput</edgelabel>
+          <edgelabel>activeInput</edgelabel>
+        </childnode>
+      </node>
+      <node id="2570">
+        <label>IPointerDownHandler</label>
+      </node>
+      <node id="2573">
+        <label>UnityStandardAssets.CrossPlatformInput.VirtualInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input"/>
+      </node>
+      <node id="2569">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2571">
+        <label>IPointerUpHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" bodystart="9" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a0ad06c7691faa5b86e3917bdab8d3eae" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>axesToUse</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a97d0cfd4e00c26253919746e84ebb7e5" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>AxisOption</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ab4c68ac6f2b8a41c5029c105833ebfb6" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>ControlStyle</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ad6ec0252344c6ee56d386f560e0b2240" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>controlStyle</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a3568beab05be1e698e0ff82d8c765dd7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>CreateVirtualAxes</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a585071611ca85f0bd127c0fd8e25f0eb" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>horizontalAxisName</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1abb84b52075a036bba75ca37b5effbe8a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_Center</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1afd54a6f576c97542eb7bc438cac5b886" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_Dragging</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a6c88f43906ffa5ed79f1d2e57f8324cc" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_HorizontalVirtualAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ac4bc67fbdd5a2a5f38cd31982c2a38bf" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_Id</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1ae92e887afafaba0bcdcdd03f276794f2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_Image</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a7a8100793443f3133d7be118287b77e5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_JoytickOutput</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1afb4faca673ee2a4f9a2af041c4820feb" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_PreviousDelta</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a263a40587ae1d4dbed0b1bd90b97fd9b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_PreviousTouchPos</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a1771088ac0b6ac64a2a4cd01ee9e4e81" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_StartPos</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a1320e5a84e9360b022e022d60d1a8fc8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_UseX</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a7e63a0b0e5bf4d6a5d4c2c01743e30e8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_UseY</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1adf78c6c22aa52989bfbaf093cca220a6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>m_VerticalVirtualAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a6dfd7558ae11083e36a1d8c2e9192f7d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>OnDisable</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1aae6c2d3a204b5d0407dad6cc768925d9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>OnEnable</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a8b4472a5a1e14f366343555bde2a0d5f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>OnPointerDown</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a4dba9a8b6dfe34618e48f1b152bc1eba" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>OnPointerUp</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a8b9550df5b2fb84b233b97d0713564ad" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a92116c2fccc64fec18ce7de797cc7fac" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>Update</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a47c5385a2516cecf07b10883b351f84e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>UpdateVirtualAxes</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a1338b6e2123c8547d13f4adad495f9e0" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>verticalAxisName</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a32afeb376c688e6faeec4de083d1e256" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>Xsensitivity</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad_1a2481cb2206a2127c4abe6945621752ab" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::TouchPad</scope><name>Ysensitivity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x___auto_stop_looped_effect" kind="class" prot="public">
+    <compoundname>CFX_AutoStopLoopedEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_f_x___auto_stop_looped_effect_1a365951dd07d458a7521e42e9ad7b2d11" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFX_AutoStopLoopedEffect.effectDuration</definition>
+        <argsstring></argsstring>
+        <name>effectDuration</name>
+        <initializer>= 2.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___auto_stop_looped_effect_1a0a06cf7bfec98467a771020a55a7b265" compoundref="_c_f_x___auto_stop_looped_effect_8cs" startline="16" endline="19">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_f_x___auto_stop_looped_effect_1a96d6e4292944a1a8c7b7acab5b7b26a0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFX_AutoStopLoopedEffect.d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___auto_stop_looped_effect_1a0a06cf7bfec98467a771020a55a7b265" compoundref="_c_f_x___auto_stop_looped_effect_8cs" startline="16" endline="19">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x___auto_stop_looped_effect_1aecd4e3941e173aa00b092b0d9f1390d0" compoundref="_c_f_x___auto_stop_looped_effect_8cs" startline="21" endline="37">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x___auto_stop_looped_effect_1a0a06cf7bfec98467a771020a55a7b265" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_AutoStopLoopedEffect.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_c_f_x___auto_stop_looped_effect_1a96d6e4292944a1a8c7b7acab5b7b26a0" compoundref="_c_f_x___auto_stop_looped_effect_8cs" startline="14">d</references>
+        <references refid="class_c_f_x___auto_stop_looped_effect_1a365951dd07d458a7521e42e9ad7b2d11" compoundref="_c_f_x___auto_stop_looped_effect_8cs" startline="13">effectDuration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___auto_stop_looped_effect_1aecd4e3941e173aa00b092b0d9f1390d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_AutoStopLoopedEffect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" bodystart="21" bodyend="37"/>
+        <references refid="class_c_f_x___auto_stop_looped_effect_1a96d6e4292944a1a8c7b7acab5b7b26a0" compoundref="_c_f_x___auto_stop_looped_effect_8cs" startline="14">d</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="449">
+        <label>CFX_AutoStopLoopedEffect</label>
+        <link refid="class_c_f_x___auto_stop_looped_effect"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="450">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="451">
+        <label>CFX_AutoStopLoopedEffect</label>
+        <link refid="class_c_f_x___auto_stop_looped_effect"/>
+        <childnode refid="452" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_c_f_x___auto_stop_looped_effect_1a96d6e4292944a1a8c7b7acab5b7b26a0" prot="private" virt="non-virtual"><scope>CFX_AutoStopLoopedEffect</scope><name>d</name></member>
+      <member refid="class_c_f_x___auto_stop_looped_effect_1a365951dd07d458a7521e42e9ad7b2d11" prot="public" virt="non-virtual"><scope>CFX_AutoStopLoopedEffect</scope><name>effectDuration</name></member>
+      <member refid="class_c_f_x___auto_stop_looped_effect_1a0a06cf7bfec98467a771020a55a7b265" prot="private" virt="non-virtual"><scope>CFX_AutoStopLoopedEffect</scope><name>OnEnable</name></member>
+      <member refid="class_c_f_x___auto_stop_looped_effect_1aecd4e3941e173aa00b092b0d9f1390d0" prot="private" virt="non-virtual"><scope>CFX_AutoStopLoopedEffect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

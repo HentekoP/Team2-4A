@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_fog_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::FogComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::FogComponent::Uniforms</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_fog_component_1aa2b40167cf4355d587e8655ab63c749f" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.FogComponent.k_ShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_ShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Fog&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_fog_component_1aea59b9db2bd9686b92d88154abc4de3c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.FogComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_fog_component_1acf525749b7d7e54b04a111681b386628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.FogComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_fog_component_1a91738868bb041aaecca8adcf75c148c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.FogComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18">GetCameraFlags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_fog_component_1a6b9fae58f8772759a33c8050ea443195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.FogComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_fog_component_1a069c63fdf3cc8cc505508db2671948ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.FogComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="44" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1041">
+        <label>UnityEngine.PostProcessing.FogComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_component"/>
+        <childnode refid="1042" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1044">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="1043">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="1044" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1042">
+        <label>PostProcessingComponentCommandBuffer&lt; FogModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="1043" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1045">
+        <label>UnityEngine.PostProcessing.FogComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_component"/>
+        <childnode refid="1046" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1048">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="1049" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="1070">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="1051" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1067">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1065">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1051">
+        <label>IDisposable</label>
+      </node>
+      <node id="1059">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1047">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="1048" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1069">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1063">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1052">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="1053" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1054" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="1057" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="1058" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="1059" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="1060" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="1061" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="1062" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="1063" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="1064" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="1065" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="1066" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="1067" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="1068" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="1069" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1049">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="1050" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="1052" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="1070" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="1068">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="1051" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1058">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1066">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>PostProcessingComponentCommandBuffer&lt; FogModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="1047" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1062">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1061">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/FogComponent.cs" bodystart="5" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1aea59b9db2bd9686b92d88154abc4de3c" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1a6b9fae58f8772759a33c8050ea443195" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1a91738868bb041aaecca8adcf75c148c3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1acf525749b7d7e54b04a111681b386628" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1aa2b40167cf4355d587e8655ab63c749f" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>k_ShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_fog_component_1a069c63fdf3cc8cc505508db2671948ac" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::FogComponent</scope><name>PopulateCommandBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

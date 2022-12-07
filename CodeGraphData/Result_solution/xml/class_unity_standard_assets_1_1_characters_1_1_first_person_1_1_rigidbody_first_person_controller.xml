@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_advanced_settings" prot="public">UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController::AdvancedSettings</innerclass>
+    <innerclass refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings" prot="public">UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController::MovementSettings</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ae17add08d6bd7515245c2b8c32de9249" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a43306bbd08aa1c9342b668ddc8f1e14f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings" kindref="compound">MovementSettings</ref></type>
+        <definition>MovementSettings UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.movementSettings</definition>
+        <argsstring></argsstring>
+        <name>movementSettings</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings" kindref="compound">MovementSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1afadd122da18d4a51464901599ac81d06" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look" kindref="compound">MouseLook</ref></type>
+        <definition>MouseLook UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.mouseLook</definition>
+        <argsstring></argsstring>
+        <name>mouseLook</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look" kindref="compound">MouseLook</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1afc9bc4a08ec8d5c7d4ff61f37193b136" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_advanced_settings" kindref="compound">AdvancedSettings</ref></type>
+        <definition>AdvancedSettings UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.advancedSettings</definition>
+        <argsstring></argsstring>
+        <name>advancedSettings</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_advanced_settings" kindref="compound">AdvancedSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aa9a76b6dff5154a4524350290699e5af" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_RigidBody</definition>
+        <argsstring></argsstring>
+        <name>m_RigidBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a6f61b402bb9c55b4b431243107d50d2f" prot="private" static="no" mutable="no">
+        <type>CapsuleCollider</type>
+        <definition>CapsuleCollider UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_Capsule</definition>
+        <argsstring></argsstring>
+        <name>m_Capsule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a48e1f9a66fb5a7e4ce9407f2f01aceda" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_YRotation</definition>
+        <argsstring></argsstring>
+        <name>m_YRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="88" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a692e1486b3056abfbee4477bdc04148d" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_GroundContactNormal</definition>
+        <argsstring></argsstring>
+        <name>m_GroundContactNormal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a22cdce87a55722572a3c87ceb67411c7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_Jump</definition>
+        <argsstring></argsstring>
+        <name>m_Jump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a7ce320e827ca275de6893c0bc764d57c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_PreviouslyGrounded</definition>
+        <argsstring></argsstring>
+        <name>m_PreviouslyGrounded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a17c0ff295e7e5f2fb8ce4e6271a9e2bf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_Jumping</definition>
+        <argsstring></argsstring>
+        <name>m_Jumping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aaaddb3904a4d245285996c84fac510e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.m_IsGrounded</definition>
+        <argsstring></argsstring>
+        <name>m_IsGrounded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a44f8e87946b0f39992018b36bf3da5e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Velocity</definition>
+        <argsstring></argsstring>
+        <name>Velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a09debe327ae26daa6c522af34326a53b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Grounded</definition>
+        <argsstring></argsstring>
+        <name>Grounded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a6e58f286b249480cee5a8124c5079ac8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Jumping</definition>
+        <argsstring></argsstring>
+        <name>Jumping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a0c791802437d2c7e8b70f0bece1bf901" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Running</definition>
+        <argsstring></argsstring>
+        <name>Running</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1adce1cb76a33e57814c0ed6e86b90b8ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ab118cb8ed62515e7470c9b21fb1bb9ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="129" bodyend="137"/>
+        <references refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1a130706ec909ffbe649c9bc8534da8fa3" compoundref="_cross_platform_input_manager_8cs" startline="119" endline="122">UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.GetButtonDown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a3e953c5448202ea9f0fee9d1c2c1816f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="140" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="140" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ab4b77271c5bd3f4393e2cec1c5efd321" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.SlopeMultiplier</definition>
+        <argsstring>()</argsstring>
+        <name>SlopeMultiplier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="190" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ae84699aa7f6f09512a8d49edb7fad578" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.StickToGroundHelper</definition>
+        <argsstring>()</argsstring>
+        <name>StickToGroundHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="197" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aed308c88c321d17737d5d89954f5b41d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.GetInput</definition>
+        <argsstring>()</argsstring>
+        <name>GetInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="212" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="212" bodyend="222"/>
+        <references refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1aac45b5560ebbc7c815dc22cba0dc1048" compoundref="_cross_platform_input_manager_8cs" startline="93" endline="96">UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.GetAxis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a2b063470b81eb16ca9728e084cde4d7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.RotateView</definition>
+        <argsstring>()</argsstring>
+        <name>RotateView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="225" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="225" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aefe47a27895ea08e670f4bd608678e2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.GroundCheck</definition>
+        <argsstring>()</argsstring>
+        <name>GroundCheck</name>
+        <briefdescription>
+<para>sphere cast down just beyond the bottom of the capsule to see if the capsule is colliding round the bottom </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="244" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="244" bodyend="263"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2126">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller"/>
+        <childnode refid="2127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2127">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2128">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller"/>
+        <childnode refid="2129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2130" relation="usage">
+          <edgelabel>movementSettings</edgelabel>
+        </childnode>
+        <childnode refid="2131" relation="usage">
+          <edgelabel>mouseLook</edgelabel>
+        </childnode>
+        <childnode refid="2132" relation="usage">
+          <edgelabel>advancedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2131">
+        <label>UnityStandardAssets.Characters.FirstPerson.MouseLook</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look"/>
+      </node>
+      <node id="2130">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.MovementSettings</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings"/>
+      </node>
+      <node id="2132">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.AdvancedSettings</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_advanced_settings"/>
+      </node>
+      <node id="2129">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" bodystart="9" bodyend="264"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1afc9bc4a08ec8d5c7d4ff61f37193b136" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>advancedSettings</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ae17add08d6bd7515245c2b8c32de9249" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>cam</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a3e953c5448202ea9f0fee9d1c2c1816f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aed308c88c321d17737d5d89954f5b41d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>GetInput</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aefe47a27895ea08e670f4bd608678e2e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>GroundCheck</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a09debe327ae26daa6c522af34326a53b" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>Grounded</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a6e58f286b249480cee5a8124c5079ac8" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>Jumping</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a6f61b402bb9c55b4b431243107d50d2f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_Capsule</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a692e1486b3056abfbee4477bdc04148d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_GroundContactNormal</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aaaddb3904a4d245285996c84fac510e2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_IsGrounded</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a22cdce87a55722572a3c87ceb67411c7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_Jump</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a17c0ff295e7e5f2fb8ce4e6271a9e2bf" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_Jumping</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a7ce320e827ca275de6893c0bc764d57c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_PreviouslyGrounded</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1aa9a76b6dff5154a4524350290699e5af" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_RigidBody</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a48e1f9a66fb5a7e4ce9407f2f01aceda" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>m_YRotation</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1afadd122da18d4a51464901599ac81d06" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>mouseLook</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a43306bbd08aa1c9342b668ddc8f1e14f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>movementSettings</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a2b063470b81eb16ca9728e084cde4d7a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>RotateView</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a0c791802437d2c7e8b70f0bece1bf901" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>Running</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ab4b77271c5bd3f4393e2cec1c5efd321" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>SlopeMultiplier</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1adce1cb76a33e57814c0ed6e86b90b8ca" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ae84699aa7f6f09512a8d49edb7fad578" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>StickToGroundHelper</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1ab118cb8ed62515e7470c9b21fb1bb9ad" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>Update</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1a44f8e87946b0f39992018b36bf3da5e5" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController</scope><name>Velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

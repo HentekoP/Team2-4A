@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pause_menu" kind="class" prot="public">
+    <compoundname>PauseMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pause_menu_1ace7aea31dcea5477ffa520161e87e036" prot="private" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle PauseMenu.m_MenuToggle</definition>
+        <argsstring></argsstring>
+        <name>m_MenuToggle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_1ab0630cce16d2dedf799a43e11853c012" compoundref="_pause_menu_8cs" startline="13" endline="16">Awake</referencedby>
+        <referencedby refid="class_pause_menu_1aa1096f3427ccbf44ae62d4a9f1fa434a" compoundref="_pause_menu_8cs" startline="39" endline="49">OnMenuStatusChange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_1a7da931512c92960dbceee1bcc4d481ec" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PauseMenu.m_TimeScaleRef</definition>
+        <argsstring></argsstring>
+        <name>m_TimeScaleRef</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_1ae49253365c2782597c1238f502d5bb23" compoundref="_pause_menu_8cs" startline="31" endline="36">MenuOff</referencedby>
+        <referencedby refid="class_pause_menu_1ae3239f2aa89bea23515df058e1fdd5de" compoundref="_pause_menu_8cs" startline="19" endline="28">MenuOn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_1ac3c71066a0112e74be342dd01efb21f2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PauseMenu.m_VolumeRef</definition>
+        <argsstring></argsstring>
+        <name>m_VolumeRef</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_1ae49253365c2782597c1238f502d5bb23" compoundref="_pause_menu_8cs" startline="31" endline="36">MenuOff</referencedby>
+        <referencedby refid="class_pause_menu_1ae3239f2aa89bea23515df058e1fdd5de" compoundref="_pause_menu_8cs" startline="19" endline="28">MenuOn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_menu_1a6ecb446133f7017028c265b30598a0a6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseMenu.m_Paused</definition>
+        <argsstring></argsstring>
+        <name>m_Paused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_pause_menu_1ae49253365c2782597c1238f502d5bb23" compoundref="_pause_menu_8cs" startline="31" endline="36">MenuOff</referencedby>
+        <referencedby refid="class_pause_menu_1ae3239f2aa89bea23515df058e1fdd5de" compoundref="_pause_menu_8cs" startline="19" endline="28">MenuOn</referencedby>
+        <referencedby refid="class_pause_menu_1aa1096f3427ccbf44ae62d4a9f1fa434a" compoundref="_pause_menu_8cs" startline="39" endline="49">OnMenuStatusChange</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_menu_1ab0630cce16d2dedf799a43e11853c012" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_pause_menu_1ace7aea31dcea5477ffa520161e87e036" compoundref="_pause_menu_8cs" startline="7">m_MenuToggle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1ae3239f2aa89bea23515df058e1fdd5de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.MenuOn</definition>
+        <argsstring>()</argsstring>
+        <name>MenuOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="19" bodyend="28"/>
+        <references refid="class_pause_menu_1a6ecb446133f7017028c265b30598a0a6" compoundref="_pause_menu_8cs" startline="10">m_Paused</references>
+        <references refid="class_pause_menu_1a7da931512c92960dbceee1bcc4d481ec" compoundref="_pause_menu_8cs" startline="8">m_TimeScaleRef</references>
+        <references refid="class_pause_menu_1ac3c71066a0112e74be342dd01efb21f2" compoundref="_pause_menu_8cs" startline="9">m_VolumeRef</references>
+        <referencedby refid="class_pause_menu_1aa1096f3427ccbf44ae62d4a9f1fa434a" compoundref="_pause_menu_8cs" startline="39" endline="49">OnMenuStatusChange</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1ad66a0552c131257182ce524f1c71ce4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pause_menu_1ae49253365c2782597c1238f502d5bb23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.MenuOff</definition>
+        <argsstring>()</argsstring>
+        <name>MenuOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="31" bodyend="36"/>
+        <references refid="class_pause_menu_1a6ecb446133f7017028c265b30598a0a6" compoundref="_pause_menu_8cs" startline="10">m_Paused</references>
+        <references refid="class_pause_menu_1a7da931512c92960dbceee1bcc4d481ec" compoundref="_pause_menu_8cs" startline="8">m_TimeScaleRef</references>
+        <references refid="class_pause_menu_1ac3c71066a0112e74be342dd01efb21f2" compoundref="_pause_menu_8cs" startline="9">m_VolumeRef</references>
+        <referencedby refid="class_pause_menu_1aa1096f3427ccbf44ae62d4a9f1fa434a" compoundref="_pause_menu_8cs" startline="39" endline="49">OnMenuStatusChange</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1aa1096f3427ccbf44ae62d4a9f1fa434a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.OnMenuStatusChange</definition>
+        <argsstring>()</argsstring>
+        <name>OnMenuStatusChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="39" bodyend="49"/>
+        <references refid="class_pause_menu_1ace7aea31dcea5477ffa520161e87e036" compoundref="_pause_menu_8cs" startline="7">m_MenuToggle</references>
+        <references refid="class_pause_menu_1a6ecb446133f7017028c265b30598a0a6" compoundref="_pause_menu_8cs" startline="10">m_Paused</references>
+        <references refid="class_pause_menu_1ae49253365c2782597c1238f502d5bb23" compoundref="_pause_menu_8cs" startline="31" endline="36">MenuOff</references>
+        <references refid="class_pause_menu_1ae3239f2aa89bea23515df058e1fdd5de" compoundref="_pause_menu_8cs" startline="19" endline="28">MenuOn</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1649">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="1650" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1650">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1651">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="1652" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1652">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" bodystart="5" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_pause_menu_1ab0630cce16d2dedf799a43e11853c012" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>Awake</name></member>
+      <member refid="class_pause_menu_1ace7aea31dcea5477ffa520161e87e036" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>m_MenuToggle</name></member>
+      <member refid="class_pause_menu_1a6ecb446133f7017028c265b30598a0a6" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>m_Paused</name></member>
+      <member refid="class_pause_menu_1a7da931512c92960dbceee1bcc4d481ec" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>m_TimeScaleRef</name></member>
+      <member refid="class_pause_menu_1ac3c71066a0112e74be342dd01efb21f2" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>m_VolumeRef</name></member>
+      <member refid="class_pause_menu_1ae49253365c2782597c1238f502d5bb23" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>MenuOff</name></member>
+      <member refid="class_pause_menu_1ae3239f2aa89bea23515df058e1fdd5de" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>MenuOn</name></member>
+      <member refid="class_pause_menu_1aa1096f3427ccbf44ae62d4a9f1fa434a" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>OnMenuStatusChange</name></member>
+      <member refid="class_pause_menu_1ad66a0552c131257182ce524f1c71ce4c" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

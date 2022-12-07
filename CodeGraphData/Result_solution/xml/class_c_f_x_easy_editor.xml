@@ -1,0 +1,1244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x_easy_editor" kind="class" prot="public">
+    <compoundname>CFXEasyEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <innerclass refid="struct_c_f_x_easy_editor_1_1_h_s_l_color" prot="private">CFXEasyEditor::HSLColor</innerclass>
+    <innerclass refid="class_c_f_x_easy_editor_1_1_particle_system_module" prot="private">CFXEasyEditor::ParticleSystemModule</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a3912a8e5f90622b7c2b672224fb4ce34" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_c_f_x_easy_editor" kindref="compound">CFXEasyEditor</ref></type>
+        <definition>CFXEasyEditor CFXEasyEditor.SingleWindow</definition>
+        <argsstring></argsstring>
+        <name>SingleWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a740d49b52755e8445a2575e0bc5aa3ac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CFXEasyEditor.SelectedParticleSystemsCount</definition>
+        <argsstring></argsstring>
+        <name>SelectedParticleSystemsCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a7edde25f492ce4e5da59b84df240aab2" compoundref="_c_f_x_easy_editor_8cs" startline="149" endline="162">UpdateSelectionCount</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1ae5f64d4747fe3d8bd9f608b4a220128f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.AffectAlpha</definition>
+        <argsstring></argsstring>
+        <name>AffectAlpha</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" compoundref="_c_f_x_easy_editor_8cs" startline="719" endline="745">applyColor</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1ab5b370beeb379033421271e7efc33577" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color CFXEasyEditor.ColorValue</definition>
+        <argsstring></argsstring>
+        <name>ColorValue</name>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" compoundref="_c_f_x_easy_editor_8cs" startline="719" endline="745">applyColor</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a9e5735efd3e565eb350baf84be7ceb1a" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color CFXEasyEditor.ColorValue2</definition>
+        <argsstring></argsstring>
+        <name>ColorValue2</name>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" compoundref="_c_f_x_easy_editor_8cs" startline="719" endline="745">applyColor</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1aff05fb92c6eaac3441a699f73ef94230" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFXEasyEditor.ScalingValue</definition>
+        <argsstring></argsstring>
+        <name>ScalingValue</name>
+        <initializer>= 2.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1ae0d04c6aefa2083ee8680c2767b3ddeb" compoundref="_c_f_x_easy_editor_8cs" startline="692" endline="716">applyScale</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1af8423804be2f3caebace3c5dbc0bc87e" compoundref="_c_f_x_easy_editor_8cs" startline="1438" endline="1480">ScaleParticleValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a704de698e6ecf6c939a0af60b8090102" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFXEasyEditor.LTScalingValue</definition>
+        <argsstring></argsstring>
+        <name>LTScalingValue</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aed35f3d61b98323d6acdf129479a0625" compoundref="_c_f_x_easy_editor_8cs" startline="1107" endline="1128">applySpeed</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a0f82ef1b1815f0b659bd317525b1d483" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFXEasyEditor.DelayValue</definition>
+        <argsstring></argsstring>
+        <name>DelayValue</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a7f2b94bfd631253ebe88e7353e2cbb94" compoundref="_c_f_x_easy_editor_8cs" startline="1152" endline="1173">applyDelay</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a6022d8abb7f4add8cdfed3af2cb60b25" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFXEasyEditor.DurationValue</definition>
+        <argsstring></argsstring>
+        <name>DurationValue</name>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aadf251373b26cda0872de161b37b7a05" compoundref="_c_f_x_easy_editor_8cs" startline="1131" endline="1149">applyDuration</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a7598d94aced4af3cf83e957bca0b9707" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.TintStartColor</definition>
+        <argsstring></argsstring>
+        <name>TintStartColor</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" compoundref="_c_f_x_easy_editor_8cs" startline="862" endline="899">addLightness</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1acc59aa69d2b8370d4b0e371075c8f83b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.TintColorModule</definition>
+        <argsstring></argsstring>
+        <name>TintColorModule</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" compoundref="_c_f_x_easy_editor_8cs" startline="862" endline="899">addLightness</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a4565e77e56d38b24c3679aaf65e02cf8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.TintColorSpeedModule</definition>
+        <argsstring></argsstring>
+        <name>TintColorSpeedModule</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" compoundref="_c_f_x_easy_editor_8cs" startline="862" endline="899">addLightness</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1aecbbd915b7b8d049b57e239700db27ff" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color CFXEasyEditor.TintColorValue</definition>
+        <argsstring></argsstring>
+        <name>TintColorValue</name>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a0d1c2e7e308b05f46cf10739984fabfa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFXEasyEditor.TintHueShiftValue</definition>
+        <argsstring></argsstring>
+        <name>TintHueShiftValue</name>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a5ace04098dcf8deb6000c05f4147652d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CFXEasyEditor.LightnessStep</definition>
+        <argsstring></argsstring>
+        <name>LightnessStep</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" compoundref="_c_f_x_easy_editor_8cs" startline="862" endline="899">addLightness</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a26faad0b477f1edb6d7652e07df92245" prot="private" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem CFXEasyEditor.sourceObject</definition>
+        <argsstring></argsstring>
+        <name>sourceObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" compoundref="_c_f_x_easy_editor_8cs" startline="612" endline="627">RefreshCurrentlyEnabledModules</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1aa48741cd03099853f783bf232dfad628" prot="private" static="no" mutable="no">
+        <type><ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>[]</type>
+        <definition>ParticleSystemModule [] CFXEasyEditor.modulesToCopy</definition>
+        <argsstring></argsstring>
+        <name>modulesToCopy</name>
+        <initializer>= new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>[]
+	{
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Initial&quot;, null),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Emission&quot;, &quot;EmissionModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Shape&quot;, &quot;ShapeModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Velocity&quot;, &quot;VelocityModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Limit Velocity&quot;, &quot;ClampVelocityModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Force&quot;, &quot;ForceModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Color over Lifetime&quot;, &quot;ColorModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Color by Speed&quot;, &quot;ColorBySpeedModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Size over Lifetime&quot;, &quot;SizeModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Size by Speed&quot;, &quot;SizeBySpeedModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Rotation over Lifetime&quot;, &quot;RotationModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Rotation by Speed&quot;, &quot;RotationBySpeedModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Collision&quot;, &quot;CollisionModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Sub Emitters&quot;, &quot;SubModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Texture Animation&quot;, &quot;UVModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Renderer&quot;, null),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Inherit Velocity&quot;, &quot;InheritVelocityModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Triggers&quot;, &quot;TriggerModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Lights&quot;, &quot;LightsModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Noise&quot;, &quot;NoiseModule&quot;),
+		new <ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref>(&quot;Trails&quot;, &quot;TrailModule&quot;),
+	}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a1a2fa2d915b1816b9bf1408e205080ed" compoundref="_c_f_x_easy_editor_8cs" startline="1176" endline="1262">CopyModules</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" compoundref="_c_f_x_easy_editor_8cs" startline="612" endline="627">RefreshCurrentlyEnabledModules</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1ac281e3ac9580e86012cd2609a8b6a8fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.basicFoldout</definition>
+        <argsstring></argsstring>
+        <name>basicFoldout</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="107" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aae66fc0969f9755df2b693afbb7b9938" compoundref="_c_f_x_easy_editor_8cs" startline="141" endline="147">OnDisable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a5a47887f97f329ce7881612316452103" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.colorFoldout</definition>
+        <argsstring></argsstring>
+        <name>colorFoldout</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="108" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aae66fc0969f9755df2b693afbb7b9938" compoundref="_c_f_x_easy_editor_8cs" startline="141" endline="147">OnDisable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1ac8e6626ede80a8475065d8f42d3c64dd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.copyFoldout</definition>
+        <argsstring></argsstring>
+        <name>copyFoldout</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="109" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aae66fc0969f9755df2b693afbb7b9938" compoundref="_c_f_x_easy_editor_8cs" startline="141" endline="147">OnDisable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a4639ffa1515074b68620d90383f4697d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.foldoutChanged</definition>
+        <argsstring></argsstring>
+        <name>foldoutChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="110" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="110" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" compoundref="_c_f_x_easy_editor_8cs" startline="612" endline="627">RefreshCurrentlyEnabledModules</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1ae4d8ed1c51ba986bed88416f2b9f8d92" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.pref_ShowAsToolbox</definition>
+        <argsstring></argsstring>
+        <name>pref_ShowAsToolbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="113" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.pref_IncludeChildren</definition>
+        <argsstring></argsstring>
+        <name>pref_IncludeChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="114" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" compoundref="_c_f_x_easy_editor_8cs" startline="862" endline="899">addLightness</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" compoundref="_c_f_x_easy_editor_8cs" startline="719" endline="745">applyColor</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a7f2b94bfd631253ebe88e7353e2cbb94" compoundref="_c_f_x_easy_editor_8cs" startline="1152" endline="1173">applyDelay</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aadf251373b26cda0872de161b37b7a05" compoundref="_c_f_x_easy_editor_8cs" startline="1131" endline="1149">applyDuration</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae0d04c6aefa2083ee8680c2767b3ddeb" compoundref="_c_f_x_easy_editor_8cs" startline="692" endline="716">applyScale</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aed35f3d61b98323d6acdf129479a0625" compoundref="_c_f_x_easy_editor_8cs" startline="1107" endline="1128">applySpeed</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a97045b321feeb162adeda9075b41c1df" compoundref="_c_f_x_easy_editor_8cs" startline="650" endline="668">loopEffect</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a5489834eb21220d336fdf38f4dfcac16" compoundref="_c_f_x_easy_editor_8cs" startline="671" endline="689">prewarmEffect</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a7edde25f492ce4e5da59b84df240aab2" compoundref="_c_f_x_easy_editor_8cs" startline="149" endline="162">UpdateSelectionCount</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a5640a258e7f4bd5320757db4ea9fee86" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.pref_HideDisabledModulesCopy</definition>
+        <argsstring></argsstring>
+        <name>pref_HideDisabledModulesCopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="115" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a87691dcb305adceb6d473bba5eb67508" compoundref="_c_f_x_easy_editor_8cs" startline="640" endline="647">GUISelectModule</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1ad1f63de737f012efecc14c6600774b1c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFXEasyEditor.needSpace</definition>
+        <argsstring></argsstring>
+        <name>needSpace</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="629" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="629" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a87691dcb305adceb6d473bba5eb67508" compoundref="_c_f_x_easy_editor_8cs" startline="640" endline="647">GUISelectModule</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a92ac4af2292d7bdc35909c3d18c3bd5f" compoundref="_c_f_x_easy_editor_8cs" startline="631" endline="638">SelectModulesSpace</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1abb4243a4b5a778f7c4cef65f0fcaa2f9" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] CFXEasyEditor.PropertiesToScale</definition>
+        <argsstring></argsstring>
+        <name>PropertiesToScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1483" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1483" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1af8423804be2f3caebace3c5dbc0bc87e" compoundref="_c_f_x_easy_editor_8cs" startline="1438" endline="1480">ScaleParticleValues</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_c_f_x_easy_editor_1a8b115b85671aee0f91d5486e3b77cae6" prot="public" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle CFXEasyEditor._LineStyle</definition>
+        <argsstring></argsstring>
+        <name>_LineStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1580" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1580" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_f_x_easy_editor_1aa0a6e418a9c0719b87423c8f8433600e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle CFXEasyEditor.LineStyle</definition>
+        <argsstring></argsstring>
+        <name>LineStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1581" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1582" bodyend="-1"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a9c8db7f90dd3491a77488c51c1e0ec58" compoundref="_c_f_x_easy_editor_8cs" startline="1567" endline="1578">GUILine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ab71ee272a5cb96d634692e555e5f6278" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CFXEasyEditor.ShowWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="117" bodyend="128"/>
+        <references refid="class_c_f_x_easy_editor_1ac281e3ac9580e86012cd2609a8b6a8fb" compoundref="_c_f_x_easy_editor_8cs" startline="107">basicFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1a5a47887f97f329ce7881612316452103" compoundref="_c_f_x_easy_editor_8cs" startline="108">colorFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1ac8e6626ede80a8475065d8f42d3c64dd" compoundref="_c_f_x_easy_editor_8cs" startline="109">copyFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1a5640a258e7f4bd5320757db4ea9fee86" compoundref="_c_f_x_easy_editor_8cs" startline="115">pref_HideDisabledModulesCopy</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1ae4d8ed1c51ba986bed88416f2b9f8d92" compoundref="_c_f_x_easy_editor_8cs" startline="113">pref_ShowAsToolbox</references>
+        <references refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" compoundref="_c_f_x_easy_editor_8cs" startline="612" endline="627">RefreshCurrentlyEnabledModules</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a7b5c9915093c92986015d1cd29e63c28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.OnFocus</definition>
+        <argsstring>()</argsstring>
+        <name>OnFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="130" bodyend="133"/>
+        <references refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" compoundref="_c_f_x_easy_editor_8cs" startline="612" endline="627">RefreshCurrentlyEnabledModules</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a003f81c96bf770e5a738066d7bce7dde" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.OnSelectionChange</definition>
+        <argsstring>()</argsstring>
+        <name>OnSelectionChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="135" bodyend="139"/>
+        <references refid="class_c_f_x_easy_editor_1a7edde25f492ce4e5da59b84df240aab2" compoundref="_c_f_x_easy_editor_8cs" startline="149" endline="162">UpdateSelectionCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1aae66fc0969f9755df2b693afbb7b9938" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="141" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="141" bodyend="147"/>
+        <references refid="class_c_f_x_easy_editor_1ac281e3ac9580e86012cd2609a8b6a8fb" compoundref="_c_f_x_easy_editor_8cs" startline="107">basicFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1a5a47887f97f329ce7881612316452103" compoundref="_c_f_x_easy_editor_8cs" startline="108">colorFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1ac8e6626ede80a8475065d8f42d3c64dd" compoundref="_c_f_x_easy_editor_8cs" startline="109">copyFoldout</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a7edde25f492ce4e5da59b84df240aab2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.UpdateSelectionCount</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateSelectionCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="149" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="149" bodyend="162"/>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1a740d49b52755e8445a2575e0bc5aa3ac" compoundref="_c_f_x_easy_editor_8cs" startline="22">SelectedParticleSystemsCount</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a003f81c96bf770e5a738066d7bce7dde" compoundref="_c_f_x_easy_editor_8cs" startline="135" endline="139">OnSelectionChange</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="164" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="164" bodyend="610"/>
+        <references refid="class_c_f_x_easy_editor_1ae5f64d4747fe3d8bd9f608b4a220128f" compoundref="_c_f_x_easy_editor_8cs" startline="25">AffectAlpha</references>
+        <references refid="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" compoundref="_c_f_x_easy_editor_8cs" startline="719" endline="745">applyColor</references>
+        <references refid="class_c_f_x_easy_editor_1a7f2b94bfd631253ebe88e7353e2cbb94" compoundref="_c_f_x_easy_editor_8cs" startline="1152" endline="1173">applyDelay</references>
+        <references refid="class_c_f_x_easy_editor_1aadf251373b26cda0872de161b37b7a05" compoundref="_c_f_x_easy_editor_8cs" startline="1131" endline="1149">applyDuration</references>
+        <references refid="class_c_f_x_easy_editor_1ae0d04c6aefa2083ee8680c2767b3ddeb" compoundref="_c_f_x_easy_editor_8cs" startline="692" endline="716">applyScale</references>
+        <references refid="class_c_f_x_easy_editor_1aed35f3d61b98323d6acdf129479a0625" compoundref="_c_f_x_easy_editor_8cs" startline="1107" endline="1128">applySpeed</references>
+        <references refid="class_c_f_x_easy_editor_1ac281e3ac9580e86012cd2609a8b6a8fb" compoundref="_c_f_x_easy_editor_8cs" startline="107">basicFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1a5a47887f97f329ce7881612316452103" compoundref="_c_f_x_easy_editor_8cs" startline="108">colorFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1ab5b370beeb379033421271e7efc33577" compoundref="_c_f_x_easy_editor_8cs" startline="26">ColorValue</references>
+        <references refid="class_c_f_x_easy_editor_1a9e5735efd3e565eb350baf84be7ceb1a" compoundref="_c_f_x_easy_editor_8cs" startline="27">ColorValue2</references>
+        <references refid="class_c_f_x_easy_editor_1ac8e6626ede80a8475065d8f42d3c64dd" compoundref="_c_f_x_easy_editor_8cs" startline="109">copyFoldout</references>
+        <references refid="class_c_f_x_easy_editor_1a1a2fa2d915b1816b9bf1408e205080ed" compoundref="_c_f_x_easy_editor_8cs" startline="1176" endline="1262">CopyModules</references>
+        <references refid="class_c_f_x_easy_editor_1a0f82ef1b1815f0b659bd317525b1d483" compoundref="_c_f_x_easy_editor_8cs" startline="34">DelayValue</references>
+        <references refid="class_c_f_x_easy_editor_1a6022d8abb7f4add8cdfed3af2cb60b25" compoundref="_c_f_x_easy_editor_8cs" startline="37">DurationValue</references>
+        <references refid="class_c_f_x_easy_editor_1a4639ffa1515074b68620d90383f4697d" compoundref="_c_f_x_easy_editor_8cs" startline="110">foldoutChanged</references>
+        <references refid="class_c_f_x_easy_editor_1a87691dcb305adceb6d473bba5eb67508" compoundref="_c_f_x_easy_editor_8cs" startline="640" endline="647">GUISelectModule</references>
+        <references refid="class_c_f_x_easy_editor_1ad56b2134751260c4072c825e43d16897" compoundref="_c_f_x_easy_editor_8cs" startline="1551" endline="1565">GUISeparator</references>
+        <references refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</references>
+        <references refid="class_c_f_x_easy_editor_1a97045b321feeb162adeda9075b41c1df" compoundref="_c_f_x_easy_editor_8cs" startline="650" endline="668">loopEffect</references>
+        <references refid="class_c_f_x_easy_editor_1a704de698e6ecf6c939a0af60b8090102" compoundref="_c_f_x_easy_editor_8cs" startline="31">LTScalingValue</references>
+        <references refid="class_c_f_x_easy_editor_1aa48741cd03099853f783bf232dfad628" compoundref="_c_f_x_easy_editor_8cs" startline="81">modulesToCopy</references>
+        <references refid="class_c_f_x_easy_editor_1a5640a258e7f4bd5320757db4ea9fee86" compoundref="_c_f_x_easy_editor_8cs" startline="115">pref_HideDisabledModulesCopy</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1ae4d8ed1c51ba986bed88416f2b9f8d92" compoundref="_c_f_x_easy_editor_8cs" startline="113">pref_ShowAsToolbox</references>
+        <references refid="class_c_f_x_easy_editor_1a5489834eb21220d336fdf38f4dfcac16" compoundref="_c_f_x_easy_editor_8cs" startline="671" endline="689">prewarmEffect</references>
+        <references refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" compoundref="_c_f_x_easy_editor_8cs" startline="612" endline="627">RefreshCurrentlyEnabledModules</references>
+        <references refid="class_c_f_x_easy_editor_1aff05fb92c6eaac3441a699f73ef94230" compoundref="_c_f_x_easy_editor_8cs" startline="30">ScalingValue</references>
+        <references refid="class_c_f_x_easy_editor_1a740d49b52755e8445a2575e0bc5aa3ac" compoundref="_c_f_x_easy_editor_8cs" startline="22">SelectedParticleSystemsCount</references>
+        <references refid="class_c_f_x_easy_editor_1a92ac4af2292d7bdc35909c3d18c3bd5f" compoundref="_c_f_x_easy_editor_8cs" startline="631" endline="638">SelectModulesSpace</references>
+        <references refid="class_c_f_x_easy_editor_1a26faad0b477f1edb6d7652e07df92245" compoundref="_c_f_x_easy_editor_8cs" startline="50">sourceObject</references>
+        <references refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</references>
+        <references refid="class_c_f_x_easy_editor_1acc59aa69d2b8370d4b0e371075c8f83b" compoundref="_c_f_x_easy_editor_8cs" startline="41">TintColorModule</references>
+        <references refid="class_c_f_x_easy_editor_1a4565e77e56d38b24c3679aaf65e02cf8" compoundref="_c_f_x_easy_editor_8cs" startline="42">TintColorSpeedModule</references>
+        <references refid="class_c_f_x_easy_editor_1aecbbd915b7b8d049b57e239700db27ff" compoundref="_c_f_x_easy_editor_8cs" startline="43">TintColorValue</references>
+        <references refid="class_c_f_x_easy_editor_1a0d1c2e7e308b05f46cf10739984fabfa" compoundref="_c_f_x_easy_editor_8cs" startline="44">TintHueShiftValue</references>
+        <references refid="class_c_f_x_easy_editor_1a7598d94aced4af3cf83e957bca0b9707" compoundref="_c_f_x_easy_editor_8cs" startline="40">TintStartColor</references>
+        <references refid="class_c_f_x_easy_editor_1a7edde25f492ce4e5da59b84df240aab2" compoundref="_c_f_x_easy_editor_8cs" startline="149" endline="162">UpdateSelectionCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.RefreshCurrentlyEnabledModules</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshCurrentlyEnabledModules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="612" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="612" bodyend="627"/>
+        <references refid="class_c_f_x_easy_editor_1a4639ffa1515074b68620d90383f4697d" compoundref="_c_f_x_easy_editor_8cs" startline="110">foldoutChanged</references>
+        <references refid="class_c_f_x_easy_editor_1aa48741cd03099853f783bf232dfad628" compoundref="_c_f_x_easy_editor_8cs" startline="81">modulesToCopy</references>
+        <references refid="class_c_f_x_easy_editor_1a26faad0b477f1edb6d7652e07df92245" compoundref="_c_f_x_easy_editor_8cs" startline="50">sourceObject</references>
+        <referencedby refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" compoundref="_c_f_x_easy_editor_8cs" startline="117" endline="128">OnEnable</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a7b5c9915093c92986015d1cd29e63c28" compoundref="_c_f_x_easy_editor_8cs" startline="130" endline="133">OnFocus</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a92ac4af2292d7bdc35909c3d18c3bd5f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.SelectModulesSpace</definition>
+        <argsstring>()</argsstring>
+        <name>SelectModulesSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="631" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="631" bodyend="638"/>
+        <references refid="class_c_f_x_easy_editor_1ad1f63de737f012efecc14c6600774b1c" compoundref="_c_f_x_easy_editor_8cs" startline="629">needSpace</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a87691dcb305adceb6d473bba5eb67508" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.GUISelectModule</definition>
+        <argsstring>(ParticleSystemModule module)</argsstring>
+        <name>GUISelectModule</name>
+        <param>
+          <type><ref refid="class_c_f_x_easy_editor_1_1_particle_system_module" kindref="compound">ParticleSystemModule</ref></type>
+          <declname>module</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="640" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="640" bodyend="647"/>
+        <references refid="class_c_f_x_easy_editor_1_1_particle_system_module_1a1d7fea661770b66612151ccd4b423358" compoundref="_c_f_x_easy_editor_8cs" startline="56">CFXEasyEditor.ParticleSystemModule.enabledInSource</references>
+        <references refid="class_c_f_x_easy_editor_1ad1f63de737f012efecc14c6600774b1c" compoundref="_c_f_x_easy_editor_8cs" startline="629">needSpace</references>
+        <references refid="class_c_f_x_easy_editor_1a5640a258e7f4bd5320757db4ea9fee86" compoundref="_c_f_x_easy_editor_8cs" startline="115">pref_HideDisabledModulesCopy</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a97045b321feeb162adeda9075b41c1df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.loopEffect</definition>
+        <argsstring>(bool setLoop)</argsstring>
+        <name>loopEffect</name>
+        <param>
+          <type>bool</type>
+          <declname>setLoop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="650" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="650" bodyend="668"/>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a5489834eb21220d336fdf38f4dfcac16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.prewarmEffect</definition>
+        <argsstring>(bool setPrewarm)</argsstring>
+        <name>prewarmEffect</name>
+        <param>
+          <type>bool</type>
+          <declname>setPrewarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="671" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="671" bodyend="689"/>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ae0d04c6aefa2083ee8680c2767b3ddeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.applyScale</definition>
+        <argsstring>()</argsstring>
+        <name>applyScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="692" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="692" bodyend="716"/>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1af8423804be2f3caebace3c5dbc0bc87e" compoundref="_c_f_x_easy_editor_8cs" startline="1438" endline="1480">ScaleParticleValues</references>
+        <references refid="class_c_f_x_easy_editor_1aff05fb92c6eaac3441a699f73ef94230" compoundref="_c_f_x_easy_editor_8cs" startline="30">ScalingValue</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.applyColor</definition>
+        <argsstring>()</argsstring>
+        <name>applyColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="719" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="719" bodyend="745"/>
+        <references refid="class_c_f_x_easy_editor_1ae5f64d4747fe3d8bd9f608b4a220128f" compoundref="_c_f_x_easy_editor_8cs" startline="25">AffectAlpha</references>
+        <references refid="class_c_f_x_easy_editor_1ab5b370beeb379033421271e7efc33577" compoundref="_c_f_x_easy_editor_8cs" startline="26">ColorValue</references>
+        <references refid="class_c_f_x_easy_editor_1a9e5735efd3e565eb350baf84be7ceb1a" compoundref="_c_f_x_easy_editor_8cs" startline="27">ColorValue2</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.tintColor</definition>
+        <argsstring>()</argsstring>
+        <name>tintColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="749" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="749" bodyend="783"/>
+        <references refid="class_c_f_x_easy_editor_1a2581686e5400746beae933c303c53652" compoundref="_c_f_x_easy_editor_8cs" startline="819" endline="846">GenericTintColorProperty</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1acc59aa69d2b8370d4b0e371075c8f83b" compoundref="_c_f_x_easy_editor_8cs" startline="41">TintColorModule</references>
+        <references refid="class_c_f_x_easy_editor_1a4565e77e56d38b24c3679aaf65e02cf8" compoundref="_c_f_x_easy_editor_8cs" startline="42">TintColorSpeedModule</references>
+        <references refid="class_c_f_x_easy_editor_1aecbbd915b7b8d049b57e239700db27ff" compoundref="_c_f_x_easy_editor_8cs" startline="43">TintColorValue</references>
+        <references refid="class_c_f_x_easy_editor_1a7598d94aced4af3cf83e957bca0b9707" compoundref="_c_f_x_easy_editor_8cs" startline="40">TintStartColor</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.hueShift</definition>
+        <argsstring>()</argsstring>
+        <name>hueShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="785" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="785" bodyend="817"/>
+        <references refid="class_c_f_x_easy_editor_1a2581686e5400746beae933c303c53652" compoundref="_c_f_x_easy_editor_8cs" startline="819" endline="846">GenericTintColorProperty</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1acc59aa69d2b8370d4b0e371075c8f83b" compoundref="_c_f_x_easy_editor_8cs" startline="41">TintColorModule</references>
+        <references refid="class_c_f_x_easy_editor_1a4565e77e56d38b24c3679aaf65e02cf8" compoundref="_c_f_x_easy_editor_8cs" startline="42">TintColorSpeedModule</references>
+        <references refid="class_c_f_x_easy_editor_1a0d1c2e7e308b05f46cf10739984fabfa" compoundref="_c_f_x_easy_editor_8cs" startline="44">TintHueShiftValue</references>
+        <references refid="class_c_f_x_easy_editor_1a7598d94aced4af3cf83e957bca0b9707" compoundref="_c_f_x_easy_editor_8cs" startline="40">TintStartColor</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a2581686e5400746beae933c303c53652" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.GenericTintColorProperty</definition>
+        <argsstring>(SerializedProperty colorProperty, float hue, bool shift)</argsstring>
+        <name>GenericTintColorProperty</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>colorProperty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="819" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="819" bodyend="846"/>
+        <references refid="struct_c_f_x_easy_editor_1_1_h_s_l_color_1a7f0d960d48856ba7273adae5c417f631" compoundref="_c_f_x_easy_editor_8cs" startline="975" endline="1015">CFXEasyEditor.HSLColor.FromRGBA</references>
+        <references refid="class_c_f_x_easy_editor_1aad1a661c7103fe152fdab57b037c7f95" compoundref="_c_f_x_easy_editor_8cs" startline="848" endline="858">TintGradient</references>
+        <referencedby refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" compoundref="_c_f_x_easy_editor_8cs" startline="785" endline="817">hueShift</referencedby>
+        <referencedby refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" compoundref="_c_f_x_easy_editor_8cs" startline="749" endline="783">tintColor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1aad1a661c7103fe152fdab57b037c7f95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.TintGradient</definition>
+        <argsstring>(SerializedProperty gradientProperty, float hue, bool shift)</argsstring>
+        <name>TintGradient</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>gradientProperty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="848" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="848" bodyend="858"/>
+        <references refid="struct_c_f_x_easy_editor_1_1_h_s_l_color_1a7f0d960d48856ba7273adae5c417f631" compoundref="_c_f_x_easy_editor_8cs" startline="975" endline="1015">CFXEasyEditor.HSLColor.FromRGBA</references>
+        <referencedby refid="class_c_f_x_easy_editor_1a2581686e5400746beae933c303c53652" compoundref="_c_f_x_easy_editor_8cs" startline="819" endline="846">GenericTintColorProperty</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.addLightness</definition>
+        <argsstring>(bool substract)</argsstring>
+        <name>addLightness</name>
+        <param>
+          <type>bool</type>
+          <declname>substract</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="862" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="862" bodyend="899"/>
+        <references refid="class_c_f_x_easy_editor_1ace8844f1f714a6ba68278cb029a05f89" compoundref="_c_f_x_easy_editor_8cs" startline="901" endline="928">GenericAddLightness</references>
+        <references refid="class_c_f_x_easy_editor_1a5ace04098dcf8deb6000c05f4147652d" compoundref="_c_f_x_easy_editor_8cs" startline="47">LightnessStep</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <references refid="class_c_f_x_easy_editor_1acc59aa69d2b8370d4b0e371075c8f83b" compoundref="_c_f_x_easy_editor_8cs" startline="41">TintColorModule</references>
+        <references refid="class_c_f_x_easy_editor_1a4565e77e56d38b24c3679aaf65e02cf8" compoundref="_c_f_x_easy_editor_8cs" startline="42">TintColorSpeedModule</references>
+        <references refid="class_c_f_x_easy_editor_1a7598d94aced4af3cf83e957bca0b9707" compoundref="_c_f_x_easy_editor_8cs" startline="40">TintStartColor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ace8844f1f714a6ba68278cb029a05f89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.GenericAddLightness</definition>
+        <argsstring>(SerializedProperty colorProperty, float lightness)</argsstring>
+        <name>GenericAddLightness</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>colorProperty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="901" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="901" bodyend="928"/>
+        <references refid="class_c_f_x_easy_editor_1ab04e5c24e97b8d5ad8123d9958bb9f10" compoundref="_c_f_x_easy_editor_8cs" startline="930" endline="940">AddLightnessGradient</references>
+        <references refid="struct_c_f_x_easy_editor_1_1_h_s_l_color_1a7f0d960d48856ba7273adae5c417f631" compoundref="_c_f_x_easy_editor_8cs" startline="975" endline="1015">CFXEasyEditor.HSLColor.FromRGBA</references>
+        <referencedby refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" compoundref="_c_f_x_easy_editor_8cs" startline="862" endline="899">addLightness</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ab04e5c24e97b8d5ad8123d9958bb9f10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.AddLightnessGradient</definition>
+        <argsstring>(SerializedProperty gradientProperty, float lightness)</argsstring>
+        <name>AddLightnessGradient</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>gradientProperty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="930" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="930" bodyend="940"/>
+        <references refid="struct_c_f_x_easy_editor_1_1_h_s_l_color_1a7f0d960d48856ba7273adae5c417f631" compoundref="_c_f_x_easy_editor_8cs" startline="975" endline="1015">CFXEasyEditor.HSLColor.FromRGBA</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ace8844f1f714a6ba68278cb029a05f89" compoundref="_c_f_x_easy_editor_8cs" startline="901" endline="928">GenericAddLightness</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1aed35f3d61b98323d6acdf129479a0625" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.applySpeed</definition>
+        <argsstring>()</argsstring>
+        <name>applySpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1107" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1107" bodyend="1128"/>
+        <references refid="class_c_f_x_easy_editor_1a704de698e6ecf6c939a0af60b8090102" compoundref="_c_f_x_easy_editor_8cs" startline="31">LTScalingValue</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1aadf251373b26cda0872de161b37b7a05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.applyDuration</definition>
+        <argsstring>()</argsstring>
+        <name>applyDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1131" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1131" bodyend="1149"/>
+        <references refid="class_c_f_x_easy_editor_1a6022d8abb7f4add8cdfed3af2cb60b25" compoundref="_c_f_x_easy_editor_8cs" startline="37">DurationValue</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a7f2b94bfd631253ebe88e7353e2cbb94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.applyDelay</definition>
+        <argsstring>()</argsstring>
+        <name>applyDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1152" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1152" bodyend="1173"/>
+        <references refid="class_c_f_x_easy_editor_1a0f82ef1b1815f0b659bd317525b1d483" compoundref="_c_f_x_easy_editor_8cs" startline="34">DelayValue</references>
+        <references refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" compoundref="_c_f_x_easy_editor_8cs" startline="114">pref_IncludeChildren</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a1a2fa2d915b1816b9bf1408e205080ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.CopyModules</definition>
+        <argsstring>(ParticleSystem source, ParticleSystem dest)</argsstring>
+        <name>CopyModules</name>
+        <param>
+          <type>ParticleSystem</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>ParticleSystem</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1176" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1176" bodyend="1262"/>
+        <references refid="class_c_f_x_easy_editor_1aa35a757760586e220b17652da4ab95f5" compoundref="_c_f_x_easy_editor_8cs" startline="1265" endline="1321">GenericModuleCopy</references>
+        <references refid="class_c_f_x_easy_editor_1aa48741cd03099853f783bf232dfad628" compoundref="_c_f_x_easy_editor_8cs" startline="81">modulesToCopy</references>
+        <references refid="class_c_f_x_easy_editor_1ad3447946c36169f98bbd41d2212870a5" compoundref="_c_f_x_easy_editor_8cs" startline="1346" endline="1435">SubModuleCopy</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1aa35a757760586e220b17652da4ab95f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.GenericModuleCopy</definition>
+        <argsstring>(SerializedProperty ss, SerializedProperty sd, bool depthBreak=true)</argsstring>
+        <name>GenericModuleCopy</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>ss</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>sd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>depthBreak</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1265" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1265" bodyend="1321"/>
+        <references refid="class_c_f_x_easy_editor_1a0ed4911a11e7dc2f213a501a96ae488c" compoundref="_c_f_x_easy_editor_8cs" startline="1324" endline="1342">copyGradient</references>
+        <referencedby refid="class_c_f_x_easy_editor_1a1a2fa2d915b1816b9bf1408e205080ed" compoundref="_c_f_x_easy_editor_8cs" startline="1176" endline="1262">CopyModules</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a0ed4911a11e7dc2f213a501a96ae488c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.copyGradient</definition>
+        <argsstring>(SerializedProperty ss, SerializedProperty sd)</argsstring>
+        <name>copyGradient</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>ss</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>sd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1324" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1324" bodyend="1342"/>
+        <referencedby refid="class_c_f_x_easy_editor_1aa35a757760586e220b17652da4ab95f5" compoundref="_c_f_x_easy_editor_8cs" startline="1265" endline="1321">GenericModuleCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ad3447946c36169f98bbd41d2212870a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.SubModuleCopy</definition>
+        <argsstring>(SerializedObject source, SerializedObject dest)</argsstring>
+        <name>SubModuleCopy</name>
+        <param>
+          <type>SerializedObject</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>SerializedObject</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1346" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1346" bodyend="1435"/>
+        <referencedby refid="class_c_f_x_easy_editor_1a1a2fa2d915b1816b9bf1408e205080ed" compoundref="_c_f_x_easy_editor_8cs" startline="1176" endline="1262">CopyModules</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1af8423804be2f3caebace3c5dbc0bc87e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.ScaleParticleValues</definition>
+        <argsstring>(ParticleSystem ps, GameObject parent)</argsstring>
+        <name>ScaleParticleValues</name>
+        <param>
+          <type>ParticleSystem</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1438" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1438" bodyend="1480"/>
+        <references refid="class_c_f_x_easy_editor_1abb4243a4b5a778f7c4cef65f0fcaa2f9" compoundref="_c_f_x_easy_editor_8cs" startline="1483">PropertiesToScale</references>
+        <references refid="class_c_f_x_easy_editor_1aff05fb92c6eaac3441a699f73ef94230" compoundref="_c_f_x_easy_editor_8cs" startline="30">ScalingValue</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae0d04c6aefa2083ee8680c2767b3ddeb" compoundref="_c_f_x_easy_editor_8cs" startline="692" endline="716">applyScale</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1ad56b2134751260c4072c825e43d16897" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFXEasyEditor.GUISeparator</definition>
+        <argsstring>()</argsstring>
+        <name>GUISeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1551" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1551" bodyend="1565"/>
+        <references refid="class_c_f_x_easy_editor_1a9c8db7f90dd3491a77488c51c1e0ec58" compoundref="_c_f_x_easy_editor_8cs" startline="1567" endline="1578">GUILine</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" compoundref="_c_f_x_easy_editor_8cs" startline="164" endline="610">OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_c_f_x_easy_editor_1a9c8db7f90dd3491a77488c51c1e0ec58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CFXEasyEditor.GUILine</definition>
+        <argsstring>(Color color, float height=2f)</argsstring>
+        <name>GUILine</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>2f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="1567" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="1567" bodyend="1578"/>
+        <references refid="class_c_f_x_easy_editor_1aa0a6e418a9c0719b87423c8f8433600e" compoundref="_c_f_x_easy_editor_8cs" startline="1582">LineStyle</references>
+        <referencedby refid="class_c_f_x_easy_editor_1ad56b2134751260c4072c825e43d16897" compoundref="_c_f_x_easy_editor_8cs" startline="1551" endline="1565">GUISeparator</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="478">
+        <label>EditorWindow</label>
+      </node>
+      <node id="477">
+        <label>CFXEasyEditor</label>
+        <link refid="class_c_f_x_easy_editor"/>
+        <childnode refid="478" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="481">
+        <label>CFXEasyEditor.ParticleSystemModule</label>
+        <link refid="class_c_f_x_easy_editor_1_1_particle_system_module"/>
+      </node>
+      <node id="480">
+        <label>EditorWindow</label>
+      </node>
+      <node id="479">
+        <label>CFXEasyEditor</label>
+        <link refid="class_c_f_x_easy_editor"/>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>modulesToCopy</edgelabel>
+        </childnode>
+        <childnode refid="479" relation="usage">
+          <edgelabel>SingleWindow</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" bodystart="9" bodyend="1595"/>
+    <listofallmembers>
+      <member refid="class_c_f_x_easy_editor_1a8b115b85671aee0f91d5486e3b77cae6" prot="public" virt="non-virtual"><scope>CFXEasyEditor</scope><name>_LineStyle</name></member>
+      <member refid="class_c_f_x_easy_editor_1a3dd9b1a13224f689b22ab17fbffa8341" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>addLightness</name></member>
+      <member refid="class_c_f_x_easy_editor_1ab04e5c24e97b8d5ad8123d9958bb9f10" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>AddLightnessGradient</name></member>
+      <member refid="class_c_f_x_easy_editor_1ae5f64d4747fe3d8bd9f608b4a220128f" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>AffectAlpha</name></member>
+      <member refid="class_c_f_x_easy_editor_1a99e715080065470e32c3b47f74cc49c0" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>applyColor</name></member>
+      <member refid="class_c_f_x_easy_editor_1a7f2b94bfd631253ebe88e7353e2cbb94" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>applyDelay</name></member>
+      <member refid="class_c_f_x_easy_editor_1aadf251373b26cda0872de161b37b7a05" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>applyDuration</name></member>
+      <member refid="class_c_f_x_easy_editor_1ae0d04c6aefa2083ee8680c2767b3ddeb" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>applyScale</name></member>
+      <member refid="class_c_f_x_easy_editor_1aed35f3d61b98323d6acdf129479a0625" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>applySpeed</name></member>
+      <member refid="class_c_f_x_easy_editor_1ac281e3ac9580e86012cd2609a8b6a8fb" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>basicFoldout</name></member>
+      <member refid="class_c_f_x_easy_editor_1a5a47887f97f329ce7881612316452103" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>colorFoldout</name></member>
+      <member refid="class_c_f_x_easy_editor_1ab5b370beeb379033421271e7efc33577" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>ColorValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1a9e5735efd3e565eb350baf84be7ceb1a" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>ColorValue2</name></member>
+      <member refid="class_c_f_x_easy_editor_1ac8e6626ede80a8475065d8f42d3c64dd" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>copyFoldout</name></member>
+      <member refid="class_c_f_x_easy_editor_1a0ed4911a11e7dc2f213a501a96ae488c" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>copyGradient</name></member>
+      <member refid="class_c_f_x_easy_editor_1a1a2fa2d915b1816b9bf1408e205080ed" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>CopyModules</name></member>
+      <member refid="class_c_f_x_easy_editor_1a0f82ef1b1815f0b659bd317525b1d483" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>DelayValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1a6022d8abb7f4add8cdfed3af2cb60b25" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>DurationValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1a4639ffa1515074b68620d90383f4697d" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>foldoutChanged</name></member>
+      <member refid="class_c_f_x_easy_editor_1ace8844f1f714a6ba68278cb029a05f89" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>GenericAddLightness</name></member>
+      <member refid="class_c_f_x_easy_editor_1aa35a757760586e220b17652da4ab95f5" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>GenericModuleCopy</name></member>
+      <member refid="class_c_f_x_easy_editor_1a2581686e5400746beae933c303c53652" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>GenericTintColorProperty</name></member>
+      <member refid="class_c_f_x_easy_editor_1a9c8db7f90dd3491a77488c51c1e0ec58" prot="public" virt="non-virtual"><scope>CFXEasyEditor</scope><name>GUILine</name></member>
+      <member refid="class_c_f_x_easy_editor_1a87691dcb305adceb6d473bba5eb67508" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>GUISelectModule</name></member>
+      <member refid="class_c_f_x_easy_editor_1ad56b2134751260c4072c825e43d16897" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>GUISeparator</name></member>
+      <member refid="class_c_f_x_easy_editor_1a6791a6175b31707f72d4a3ebfd23aabf" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>hueShift</name></member>
+      <member refid="class_c_f_x_easy_editor_1a5ace04098dcf8deb6000c05f4147652d" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>LightnessStep</name></member>
+      <member refid="class_c_f_x_easy_editor_1aa0a6e418a9c0719b87423c8f8433600e" prot="public" virt="non-virtual"><scope>CFXEasyEditor</scope><name>LineStyle</name></member>
+      <member refid="class_c_f_x_easy_editor_1a97045b321feeb162adeda9075b41c1df" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>loopEffect</name></member>
+      <member refid="class_c_f_x_easy_editor_1a704de698e6ecf6c939a0af60b8090102" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>LTScalingValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1aa48741cd03099853f783bf232dfad628" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>modulesToCopy</name></member>
+      <member refid="class_c_f_x_easy_editor_1ad1f63de737f012efecc14c6600774b1c" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>needSpace</name></member>
+      <member refid="class_c_f_x_easy_editor_1aae66fc0969f9755df2b693afbb7b9938" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>OnDisable</name></member>
+      <member refid="class_c_f_x_easy_editor_1aa33df5d9836cdb1a604040c30b2d71e0" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>OnEnable</name></member>
+      <member refid="class_c_f_x_easy_editor_1a7b5c9915093c92986015d1cd29e63c28" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>OnFocus</name></member>
+      <member refid="class_c_f_x_easy_editor_1ae1c19a03652553a018ab804009737944" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>OnGUI</name></member>
+      <member refid="class_c_f_x_easy_editor_1a003f81c96bf770e5a738066d7bce7dde" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>OnSelectionChange</name></member>
+      <member refid="class_c_f_x_easy_editor_1a5640a258e7f4bd5320757db4ea9fee86" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>pref_HideDisabledModulesCopy</name></member>
+      <member refid="class_c_f_x_easy_editor_1af6a16850b2d9b254ee95475c7ea7c19b" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>pref_IncludeChildren</name></member>
+      <member refid="class_c_f_x_easy_editor_1ae4d8ed1c51ba986bed88416f2b9f8d92" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>pref_ShowAsToolbox</name></member>
+      <member refid="class_c_f_x_easy_editor_1a5489834eb21220d336fdf38f4dfcac16" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>prewarmEffect</name></member>
+      <member refid="class_c_f_x_easy_editor_1abb4243a4b5a778f7c4cef65f0fcaa2f9" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>PropertiesToScale</name></member>
+      <member refid="class_c_f_x_easy_editor_1a6bf83c35fedee3fd6f68fc8d51d6a9e1" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>RefreshCurrentlyEnabledModules</name></member>
+      <member refid="class_c_f_x_easy_editor_1af8423804be2f3caebace3c5dbc0bc87e" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>ScaleParticleValues</name></member>
+      <member refid="class_c_f_x_easy_editor_1aff05fb92c6eaac3441a699f73ef94230" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>ScalingValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1a740d49b52755e8445a2575e0bc5aa3ac" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>SelectedParticleSystemsCount</name></member>
+      <member refid="class_c_f_x_easy_editor_1a92ac4af2292d7bdc35909c3d18c3bd5f" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>SelectModulesSpace</name></member>
+      <member refid="class_c_f_x_easy_editor_1ab71ee272a5cb96d634692e555e5f6278" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>ShowWindow</name></member>
+      <member refid="class_c_f_x_easy_editor_1a3912a8e5f90622b7c2b672224fb4ce34" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>SingleWindow</name></member>
+      <member refid="class_c_f_x_easy_editor_1a26faad0b477f1edb6d7652e07df92245" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>sourceObject</name></member>
+      <member refid="class_c_f_x_easy_editor_1ad3447946c36169f98bbd41d2212870a5" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>SubModuleCopy</name></member>
+      <member refid="class_c_f_x_easy_editor_1a04b144d9e1389b7986228b1b4a257fe2" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>tintColor</name></member>
+      <member refid="class_c_f_x_easy_editor_1acc59aa69d2b8370d4b0e371075c8f83b" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>TintColorModule</name></member>
+      <member refid="class_c_f_x_easy_editor_1a4565e77e56d38b24c3679aaf65e02cf8" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>TintColorSpeedModule</name></member>
+      <member refid="class_c_f_x_easy_editor_1aecbbd915b7b8d049b57e239700db27ff" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>TintColorValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1aad1a661c7103fe152fdab57b037c7f95" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>TintGradient</name></member>
+      <member refid="class_c_f_x_easy_editor_1a0d1c2e7e308b05f46cf10739984fabfa" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>TintHueShiftValue</name></member>
+      <member refid="class_c_f_x_easy_editor_1a7598d94aced4af3cf83e957bca0b9707" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>TintStartColor</name></member>
+      <member refid="class_c_f_x_easy_editor_1a7edde25f492ce4e5da59b84df240aab2" prot="private" virt="non-virtual"><scope>CFXEasyEditor</scope><name>UpdateSelectionCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

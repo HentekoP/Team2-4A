@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_reflection_utils" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::ReflectionUtils</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1abf615db2cb28960e27c0b79337a1e88e" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; KeyValuePair&lt; object, string &gt;, FieldInfo &gt;</type>
+        <definition>Dictionary&lt;KeyValuePair&lt;object, string&gt;, FieldInfo&gt; UnityEditor.PostProcessing.ReflectionUtils.s_FieldInfoFromPaths</definition>
+        <argsstring></argsstring>
+        <name>s_FieldInfoFromPaths</name>
+        <initializer>= new Dictionary&lt;KeyValuePair&lt;object, string&gt;, FieldInfo&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1afb51a45fa3cb4823ee4a57978c6f3742" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FieldInfo</type>
+        <definition>static FieldInfo UnityEditor.PostProcessing.ReflectionUtils.GetFieldInfoFromPath</definition>
+        <argsstring>(object source, string path)</argsstring>
+        <name>GetFieldInfoFromPath</name>
+        <param>
+          <type>object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="13" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1aa685badc9be509cd534a5b8f36b766bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UnityEditor.PostProcessing.ReflectionUtils.GetFieldPath&lt; T, TValue &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, TValue &gt;&gt; expr)</argsstring>
+        <name>GetFieldPath&lt; T, TValue &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, TValue &gt;&gt;</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="39" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a331c1ec710785e3a2e6b87ecf379c7bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object UnityEditor.PostProcessing.ReflectionUtils.GetFieldValue</definition>
+        <argsstring>(object source, string name)</argsstring>
+        <name>GetFieldValue</name>
+        <param>
+          <type>object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="71" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1af06ab5437079d8ea80ac2eeb220b5599" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object UnityEditor.PostProcessing.ReflectionUtils.GetFieldValueFromPath</definition>
+        <argsstring>(object source, ref Type baseType, string path)</argsstring>
+        <name>GetFieldValueFromPath</name>
+        <param>
+          <type>object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>ref Type</type>
+          <declname>baseType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="87" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a70d1948fae4fb73e77b7dc6e531cf034" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object UnityEditor.PostProcessing.ReflectionUtils.GetParentObject</definition>
+        <argsstring>(string path, object obj)</argsstring>
+        <name>GetParentObject</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="111" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/ReflectionUtils.cs" bodystart="9" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1afb51a45fa3cb4823ee4a57978c6f3742" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ReflectionUtils</scope><name>GetFieldInfoFromPath</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1aa685badc9be509cd534a5b8f36b766bc" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ReflectionUtils</scope><name>GetFieldPath&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a331c1ec710785e3a2e6b87ecf379c7bd" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ReflectionUtils</scope><name>GetFieldValue</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1af06ab5437079d8ea80ac2eeb220b5599" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ReflectionUtils</scope><name>GetFieldValueFromPath</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1a70d1948fae4fb73e77b7dc6e531cf034" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ReflectionUtils</scope><name>GetParentObject</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_reflection_utils_1abf615db2cb28960e27c0b79337a1e88e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ReflectionUtils</scope><name>s_FieldInfoFromPaths</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

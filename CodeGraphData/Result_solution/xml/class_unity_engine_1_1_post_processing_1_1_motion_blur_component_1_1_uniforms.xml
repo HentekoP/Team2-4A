@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms" kind="class" prot="private">
+    <compoundname>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a5f26cb1316fceca29e4f18f0e3798a88" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._VelocityScale</definition>
+        <argsstring></argsstring>
+        <name>_VelocityScale</name>
+        <initializer>= Shader.PropertyToID(&quot;_VelocityScale&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1af7b8bdcff13a1f29c111cd4db6f1832a" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._MaxBlurRadius</definition>
+        <argsstring></argsstring>
+        <name>_MaxBlurRadius</name>
+        <initializer>= Shader.PropertyToID(&quot;_MaxBlurRadius&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a5760384afcdddeccc819fc138f87841e" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._RcpMaxBlurRadius</definition>
+        <argsstring></argsstring>
+        <name>_RcpMaxBlurRadius</name>
+        <initializer>= Shader.PropertyToID(&quot;_RcpMaxBlurRadius&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a9ff77714cdf16c7150af0cc967da5fb4" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._VelocityTex</definition>
+        <argsstring></argsstring>
+        <name>_VelocityTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_VelocityTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a3947692901f911a26dc5967651c68bd4" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._MainTex</definition>
+        <argsstring></argsstring>
+        <name>_MainTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_MainTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a7cec7745e3a97578be1bdd8db79f32b0" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._Tile2RT</definition>
+        <argsstring></argsstring>
+        <name>_Tile2RT</name>
+        <initializer>= Shader.PropertyToID(&quot;_Tile2RT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1aae7f1f64d35dcd9aadad9810b3681808" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._Tile4RT</definition>
+        <argsstring></argsstring>
+        <name>_Tile4RT</name>
+        <initializer>= Shader.PropertyToID(&quot;_Tile4RT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1ad3a2cccd7d245c933779e3bc79aa3ab1" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._Tile8RT</definition>
+        <argsstring></argsstring>
+        <name>_Tile8RT</name>
+        <initializer>= Shader.PropertyToID(&quot;_Tile8RT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1aea9c5a33550748294f594d0e14a23bf4" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._TileMaxOffs</definition>
+        <argsstring></argsstring>
+        <name>_TileMaxOffs</name>
+        <initializer>= Shader.PropertyToID(&quot;_TileMaxOffs&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a6ca2deb0e26d0533cb4715b8bd469417" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._TileMaxLoop</definition>
+        <argsstring></argsstring>
+        <name>_TileMaxLoop</name>
+        <initializer>= Shader.PropertyToID(&quot;_TileMaxLoop&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a7fd428817db395c8653dccde4f07453e" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._TileVRT</definition>
+        <argsstring></argsstring>
+        <name>_TileVRT</name>
+        <initializer>= Shader.PropertyToID(&quot;_TileVRT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a37241da97573b453e2c00c9b8e4fc221" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._NeighborMaxTex</definition>
+        <argsstring></argsstring>
+        <name>_NeighborMaxTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_NeighborMaxTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1aafcb69c79b6ae1d81e4828ca54fbe695" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._LoopCount</definition>
+        <argsstring></argsstring>
+        <name>_LoopCount</name>
+        <initializer>= Shader.PropertyToID(&quot;_LoopCount&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a2e8cf0ca32808b8567d7c534b53325cd" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._TempRT</definition>
+        <argsstring></argsstring>
+        <name>_TempRT</name>
+        <initializer>= Shader.PropertyToID(&quot;_TempRT&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1ad59893e59f899e0de0e3aae6dc0fbb69" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History1LumaTex</definition>
+        <argsstring></argsstring>
+        <name>_History1LumaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History1LumaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a68541e8a0dc200d8eaaf92977594ba48" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History2LumaTex</definition>
+        <argsstring></argsstring>
+        <name>_History2LumaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History2LumaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a0e32191ae6ca1349f365ef3a74903751" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History3LumaTex</definition>
+        <argsstring></argsstring>
+        <name>_History3LumaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History3LumaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a9a849f736fa7e4324104f56d777b22c8" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History4LumaTex</definition>
+        <argsstring></argsstring>
+        <name>_History4LumaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History4LumaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1ae16f5416e725deff3f220f3884ed43ce" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History1ChromaTex</definition>
+        <argsstring></argsstring>
+        <name>_History1ChromaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History1ChromaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a9b90bfb32f1845ad126f703b1f8014a1" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History2ChromaTex</definition>
+        <argsstring></argsstring>
+        <name>_History2ChromaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History2ChromaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1af0bc1499eb9c86aeb528156c97ee4ffa" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History3ChromaTex</definition>
+        <argsstring></argsstring>
+        <name>_History3ChromaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History3ChromaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a7550867ea762fb53b7480059eeed79d0" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History4ChromaTex</definition>
+        <argsstring></argsstring>
+        <name>_History4ChromaTex</name>
+        <initializer>= Shader.PropertyToID(&quot;_History4ChromaTex&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a240c0316cb62f0ba63c76cb33b2774d5" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History1Weight</definition>
+        <argsstring></argsstring>
+        <name>_History1Weight</name>
+        <initializer>= Shader.PropertyToID(&quot;_History1Weight&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1adb2b53330d865cf090b068ef106a4491" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History2Weight</definition>
+        <argsstring></argsstring>
+        <name>_History2Weight</name>
+        <initializer>= Shader.PropertyToID(&quot;_History2Weight&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a2b13f3d2141b98661dcb875b24afa385" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History3Weight</definition>
+        <argsstring></argsstring>
+        <name>_History3Weight</name>
+        <initializer>= Shader.PropertyToID(&quot;_History3Weight&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a1492294ef172c0f81e8ab26deb3b2828" prot="package" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEngine.PostProcessing.MotionBlurComponent.Uniforms._History4Weight</definition>
+        <argsstring></argsstring>
+        <name>_History4Weight</name>
+        <initializer>= Shader.PropertyToID(&quot;_History4Weight&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1ae16f5416e725deff3f220f3884ed43ce" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History1ChromaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1ad59893e59f899e0de0e3aae6dc0fbb69" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History1LumaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a240c0316cb62f0ba63c76cb33b2774d5" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History1Weight</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a9b90bfb32f1845ad126f703b1f8014a1" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History2ChromaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a68541e8a0dc200d8eaaf92977594ba48" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History2LumaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1adb2b53330d865cf090b068ef106a4491" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History2Weight</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1af0bc1499eb9c86aeb528156c97ee4ffa" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History3ChromaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a0e32191ae6ca1349f365ef3a74903751" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History3LumaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a2b13f3d2141b98661dcb875b24afa385" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History3Weight</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a7550867ea762fb53b7480059eeed79d0" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History4ChromaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a9a849f736fa7e4324104f56d777b22c8" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History4LumaTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a1492294ef172c0f81e8ab26deb3b2828" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_History4Weight</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1aafcb69c79b6ae1d81e4828ca54fbe695" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_LoopCount</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a3947692901f911a26dc5967651c68bd4" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_MainTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1af7b8bdcff13a1f29c111cd4db6f1832a" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_MaxBlurRadius</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a37241da97573b453e2c00c9b8e4fc221" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_NeighborMaxTex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a5760384afcdddeccc819fc138f87841e" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_RcpMaxBlurRadius</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a2e8cf0ca32808b8567d7c534b53325cd" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_TempRT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a7cec7745e3a97578be1bdd8db79f32b0" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_Tile2RT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1aae7f1f64d35dcd9aadad9810b3681808" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_Tile4RT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1ad3a2cccd7d245c933779e3bc79aa3ab1" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_Tile8RT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a6ca2deb0e26d0533cb4715b8bd469417" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_TileMaxLoop</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1aea9c5a33550748294f594d0e14a23bf4" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_TileMaxOffs</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a7fd428817db395c8653dccde4f07453e" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_TileVRT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a5f26cb1316fceca29e4f18f0e3798a88" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_VelocityScale</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms_1a9ff77714cdf16c7150af0cc967da5fb4" prot="package" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</scope><name>_VelocityTex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

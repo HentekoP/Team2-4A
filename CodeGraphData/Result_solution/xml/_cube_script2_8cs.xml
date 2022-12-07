@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_cube_script2_8cs" kind="file">
+    <compoundname>CubeScript2.cs</compoundname>
+    <innerclass refid="class_cube_script2" prot="public">CubeScript2</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_cube_script2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_cube_script2" kindref="compound">CubeScript2</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_cube_script2_1a682d50009a4b3e144c6061e728851a21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MeshRenderer<sp/><ref refid="class_cube_script2_1a682d50009a4b3e144c6061e728851a21" kindref="member">meshRenderer</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Color<sp/><ref refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" kindref="member">defaultColor</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_cube_script2_1ae1a8faa83cd14c002d22bb3895af8030" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Color<sp/><ref refid="class_cube_script2_1ae1a8faa83cd14c002d22bb3895af8030" kindref="member">defaultColor_Transparent</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" kindref="member">ray</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" kindref="member">trigStay</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" kindref="member">grab</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>is<sp/>called<sp/>before<sp/>the<sp/>first<sp/>frame<sp/>update</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1a99ea56bec12d7bf2ad3f808a017d75cb" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_cube_script2_1a682d50009a4b3e144c6061e728851a21" kindref="member">meshRenderer</ref><sp/>=<sp/>GetComponent&lt;MeshRenderer&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" kindref="member">defaultColor</ref><sp/>=<sp/>meshRenderer.material.GetColor(</highlight><highlight class="stringliteral">&quot;_BaseColor&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_cube_script2_1ae1a8faa83cd14c002d22bb3895af8030" kindref="member">defaultColor_Transparent</ref><sp/>=<sp/><ref refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" kindref="member">defaultColor</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defaultColor_Transparent.a<sp/>=<sp/>0f;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>is<sp/>called<sp/>once<sp/>per<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1ad6b98402117ae8a1147bc83d81f17e8e" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" kindref="member">grab</ref><sp/>&amp;<sp/>!<ref refid="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" kindref="member">ray</ref>)<sp/>||<sp/>(<ref refid="class_cube_script2_1aa4ceba6127dde3e9b5fe7e5001f6bb45" kindref="member">grab</ref><sp/>&amp;&amp;<sp/><ref refid="class_cube_script2_1a7e8276ec22a0af256e90b4fe81f96f7c" kindref="member">ray</ref><sp/>&amp;&amp;<sp/><ref refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" kindref="member">trigStay</ref>))</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>meshRenderer.material.SetColor(</highlight><highlight class="stringliteral">&quot;_BaseColor&quot;</highlight><highlight class="normal">,<sp/>Color.red);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//meshRenderer.material.SetColor(&quot;_BaseColor&quot;,<sp/>defaultColor_Transparent);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>meshRenderer.material.SetColor(</highlight><highlight class="stringliteral">&quot;_BaseColor&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_cube_script2_1a51bb6ae16155b2474997a6529f4bf2d3" kindref="member">defaultColor</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_cube_script2_1a5331d18f26771b8398ee1cefdb5ffe2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1a5331d18f26771b8398ee1cefdb5ffe2d" kindref="member">OnTriggerStay</ref>(Collider<sp/>other)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" kindref="member">trigStay</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_cube_script2_1ab3c9919d62f381aeab3c59c1ca97b16d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_cube_script2_1ab3c9919d62f381aeab3c59c1ca97b16d" kindref="member">OnTriggerExit</ref>(Collider<sp/>other)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_cube_script2_1a52d2c415a8d2168e7f8a02d0f18536ad" kindref="member">trigStay</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/CubeScript2.cs"/>
+  </compounddef>
+</doxygen>

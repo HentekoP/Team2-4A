@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x___demo___translate" kind="class" prot="public">
+    <compoundname>CFX_Demo_Translate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_f_x___demo___translate_1a82cbe70d7263e031856e2e30897a4689" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFX_Demo_Translate.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 30.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___translate_1a099e68931a8f49a23a8d3d5983fe577a" compoundref="_c_f_x___demo___translate_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___demo___translate_1ad21edddd8d923cf379e118bf3614f7d8" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CFX_Demo_Translate.rotation</definition>
+        <argsstring></argsstring>
+        <name>rotation</name>
+        <initializer>= Vector3.forward</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___translate_1a1a88040388960ad9364d30021e9ff46d" compoundref="_c_f_x___demo___translate_8cs" startline="14" endline="19">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___demo___translate_1a5508c41c85a44e0c708f14401c6205f9" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CFX_Demo_Translate.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <initializer>= Vector3.forward</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___translate_1a099e68931a8f49a23a8d3d5983fe577a" compoundref="_c_f_x___demo___translate_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___demo___translate_1a6905f0cdcd977129af2dc26ba1d69cf0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_Demo_Translate.gravity</definition>
+        <argsstring></argsstring>
+        <name>gravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CFX_Demo_Translate.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___translate_1a1a88040388960ad9364d30021e9ff46d" compoundref="_c_f_x___demo___translate_8cs" startline="14" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x___demo___translate_1a1a88040388960ad9364d30021e9ff46d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_Demo_Translate.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="14" bodyend="19"/>
+        <references refid="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" compoundref="_c_f_x___demo___translate_8cs" startline="12">dir</references>
+        <references refid="class_c_f_x___demo___translate_1ad21edddd8d923cf379e118bf3614f7d8" compoundref="_c_f_x___demo___translate_8cs" startline="9">rotation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___demo___translate_1a099e68931a8f49a23a8d3d5983fe577a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_Demo_Translate.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_c_f_x___demo___translate_1a5508c41c85a44e0c708f14401c6205f9" compoundref="_c_f_x___demo___translate_8cs" startline="10">axis</references>
+        <references refid="class_c_f_x___demo___translate_1a82cbe70d7263e031856e2e30897a4689" compoundref="_c_f_x___demo___translate_8cs" startline="8">speed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="461">
+        <label>CFX_Demo_Translate</label>
+        <link refid="class_c_f_x___demo___translate"/>
+        <childnode refid="462" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="463">
+        <label>CFX_Demo_Translate</label>
+        <link refid="class_c_f_x___demo___translate"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_Translate.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_c_f_x___demo___translate_1a5508c41c85a44e0c708f14401c6205f9" prot="public" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>axis</name></member>
+      <member refid="class_c_f_x___demo___translate_1ad576dc09f6545a6229bc445c28d338b8" prot="private" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>dir</name></member>
+      <member refid="class_c_f_x___demo___translate_1a6905f0cdcd977129af2dc26ba1d69cf0" prot="public" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>gravity</name></member>
+      <member refid="class_c_f_x___demo___translate_1ad21edddd8d923cf379e118bf3614f7d8" prot="public" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>rotation</name></member>
+      <member refid="class_c_f_x___demo___translate_1a82cbe70d7263e031856e2e30897a4689" prot="public" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>speed</name></member>
+      <member refid="class_c_f_x___demo___translate_1a1a88040388960ad9364d30021e9ff46d" prot="private" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>Start</name></member>
+      <member refid="class_c_f_x___demo___translate_1a099e68931a8f49a23a8d3d5983fe577a" prot="private" virt="non-virtual"><scope>CFX_Demo_Translate</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

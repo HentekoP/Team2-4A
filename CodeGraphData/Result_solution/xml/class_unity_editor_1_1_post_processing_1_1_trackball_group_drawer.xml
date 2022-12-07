@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::TrackballGroupDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a63a310b81cb4ce686055ba578979cde1" prot="private" static="yes" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityEditor.PostProcessing.TrackballGroupDrawer.s_Material</definition>
+        <argsstring></argsstring>
+        <name>s_Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aa452c61074628fe1d84a8c34bf730019" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, MethodInfo &gt;</type>
+        <definition>Dictionary&lt;string, MethodInfo&gt; UnityEditor.PostProcessing.TrackballGroupDrawer.m_TrackballMethods</definition>
+        <argsstring></argsstring>
+        <name>m_TrackballMethods</name>
+        <initializer>= new Dictionary&lt;string, MethodInfo&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aeb5fd1772425fa374a9c7f63cc6a5105" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UnityEditor.PostProcessing.TrackballGroupDrawer.k_ThumbHash</definition>
+        <argsstring></argsstring>
+        <name>k_ThumbHash</name>
+        <initializer>= &quot;colorWheelThumb&quot;.GetHashCode()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="182" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a43cd4dd298a8bb194ff1f7378efeb351" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEditor.PostProcessing.TrackballGroupDrawer.k_MinWheelSize</definition>
+        <argsstring></argsstring>
+        <name>k_MinWheelSize</name>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ab960c90013932b21507e57aa9620a822" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEditor.PostProcessing.TrackballGroupDrawer.k_MaxWheelSize</definition>
+        <argsstring></argsstring>
+        <name>k_MaxWheelSize</name>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ac85e1ba72a09597c85774fe6c48c9fe3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.TrackballGroupDrawer.m_ResetState</definition>
+        <argsstring></argsstring>
+        <name>m_ResetState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aa66fc1246cd1e8e665fff0f6b4815c2f" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UnityEditor.PostProcessing.TrackballGroupDrawer.m_Size</definition>
+        <argsstring></argsstring>
+        <name>m_Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ac66ca2e0870cc15eb92e4971cd02c931" compoundref="_color_grading_model_editor_8cs" startline="430" endline="437">UnityEditor.PostProcessing.ColorGradingModelEditor.WheelSetTitle</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a8d90fa1568d3c85d649dfcc4814e7433" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.TrackballGroupDrawer.OnGUI</definition>
+        <argsstring>(Rect position, SerializedProperty property, GUIContent label)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="31" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ad37342e5aad4e98329b8d41666db6d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float UnityEditor.PostProcessing.TrackballGroupDrawer.GetPropertyHeight</definition>
+        <argsstring>(SerializedProperty property, GUIContent label)</argsstring>
+        <name>GetPropertyHeight</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="239" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="239" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a9912c3c510cc003d5127337f7b9c2c62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.TrackballGroupDrawer.OnWheelGUI</definition>
+        <argsstring>(Rect position, int size, SerializedProperty property)</argsstring>
+        <name>OnWheelGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="52" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a8ec5f5222e287f336547772a53277d60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.TrackballGroupDrawer.TryGetDisplayValue</definition>
+        <argsstring>(Color color, SerializedProperty property, out Vector3 output)</argsstring>
+        <name>TryGetDisplayValue</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="157" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="157" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ac8b29b2cb2e57601ad050c66374649bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.TrackballGroupDrawer.GetInput</definition>
+        <argsstring>(Rect bounds, Vector3 hsv, float radius)</argsstring>
+        <name>GetInput</name>
+        <param>
+          <type>Rect</type>
+          <declname>bounds</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>hsv</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="184" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a9781cb117e7c7bd3355469193b24d0e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.TrackballGroupDrawer.GetWheelHueSaturation</definition>
+        <argsstring>(float x, float y, float radius, out float hue, out float saturation)</argsstring>
+        <name>GetWheelHueSaturation</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>saturation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="229" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="229" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2582">
+        <label>UnityEditor.PostProcessing.TrackballGroupDrawer</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer"/>
+        <childnode refid="2583" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2583">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2584">
+        <label>UnityEditor.PostProcessing.TrackballGroupDrawer</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer"/>
+        <childnode refid="2585" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2585">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" bodystart="9" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ac8b29b2cb2e57601ad050c66374649bd" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>GetInput</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ad37342e5aad4e98329b8d41666db6d9a" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a9781cb117e7c7bd3355469193b24d0e2" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>GetWheelHueSaturation</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ab960c90013932b21507e57aa9620a822" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>k_MaxWheelSize</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a43cd4dd298a8bb194ff1f7378efeb351" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>k_MinWheelSize</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aeb5fd1772425fa374a9c7f63cc6a5105" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>k_ThumbHash</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1ac85e1ba72a09597c85774fe6c48c9fe3" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>m_ResetState</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aa66fc1246cd1e8e665fff0f6b4815c2f" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>m_Size</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aa452c61074628fe1d84a8c34bf730019" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>m_TrackballMethods</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a8d90fa1568d3c85d649dfcc4814e7433" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a9912c3c510cc003d5127337f7b9c2c62" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>OnWheelGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a63a310b81cb4ce686055ba578979cde1" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>s_Material</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1a8ec5f5222e287f336547772a53277d60" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::TrackballGroupDrawer</scope><name>TryGetDisplayValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

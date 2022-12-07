@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::AmbientOcclusionModel</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingModel</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1_1_settings" prot="public">UnityEngine::PostProcessing::AmbientOcclusionModel::Settings</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1abdde0f4c8184e60edc0466c88c55140f" prot="public" static="no">
+        <name>SampleCount</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1abdde0f4c8184e60edc0466c88c55140fab5b8e20937205384be7b9e0c29a28fdb" prot="public">
+          <name>Lowest</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1abdde0f4c8184e60edc0466c88c55140fa28d0edd045e05cf5af64e35ae0c4c6ef" prot="public">
+          <name>Low</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1abdde0f4c8184e60edc0466c88c55140fa87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1abdde0f4c8184e60edc0466c88c55140fa655d20c1ca69519ca647684edbb2db35" prot="public">
+          <name>High</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" bodystart="8" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1afc4ec03bcab06631864c18b6f01479c7" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.AmbientOcclusionModel.m_Settings</definition>
+        <argsstring></argsstring>
+        <name>m_Settings</name>
+        <initializer>= <ref refid="struct_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1_1_settings_1a1a2d8b2ae93f327b3365648d7abf25f1" kindref="member">Settings.defaultSettings</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1a6105dc68e0acd74c0b10137f664949b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.AmbientOcclusionModel.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1acd50412ffa1f482d1d7561c48cc7f731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.AmbientOcclusionModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="101">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="102">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="103">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" bodystart="6" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1afc4ec03bcab06631864c18b6f01479c7" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionModel</scope><name>m_Settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1acd50412ffa1f482d1d7561c48cc7f731" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionModel</scope><name>Reset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1abdde0f4c8184e60edc0466c88c55140f" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionModel</scope><name>SampleCount</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model_1a6105dc68e0acd74c0b10137f664949b0" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AmbientOcclusionModel</scope><name>settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

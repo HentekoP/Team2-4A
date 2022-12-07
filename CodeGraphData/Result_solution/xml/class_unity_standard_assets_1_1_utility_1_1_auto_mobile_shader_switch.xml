@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::AutoMobileShaderSwitch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_definition" prot="public">UnityStandardAssets::Utility::AutoMobileShaderSwitch::ReplacementDefinition</innerclass>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_list" prot="public">UnityStandardAssets::Utility::AutoMobileShaderSwitch::ReplacementList</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1a384b149e2c1890c97f906efcd884c48c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_list" kindref="compound">ReplacementList</ref></type>
+        <definition>ReplacementList UnityStandardAssets.Utility.AutoMobileShaderSwitch.m_ReplacementList</definition>
+        <argsstring></argsstring>
+        <name>m_ReplacementList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMobileShaderSwitch.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMobileShaderSwitch.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1afa51b6506ec7fb188f84cd857baeadb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.AutoMobileShaderSwitch.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMobileShaderSwitch.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMobileShaderSwitch.cs" bodystart="15" bodyend="66"/>
+        <references refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_definition_1aedda6be7e719ff5127ba07a7c194359f" compoundref="_auto_mobile_shader_switch_8cs" startline="72">UnityStandardAssets.Utility.AutoMobileShaderSwitch.ReplacementDefinition.original</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="171">
+        <label>UnityStandardAssets.Utility.AutoMobileShaderSwitch</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="175">
+        <label>UnityStandardAssets.Utility.AutoMobileShaderSwitch.ReplacementList</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_list"/>
+        <childnode refid="176" relation="usage">
+          <edgelabel>items</edgelabel>
+        </childnode>
+      </node>
+      <node id="174">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="173">
+        <label>UnityStandardAssets.Utility.AutoMobileShaderSwitch</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>m_ReplacementList</edgelabel>
+        </childnode>
+      </node>
+      <node id="176">
+        <label>UnityStandardAssets.Utility.AutoMobileShaderSwitch.ReplacementDefinition</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_definition"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMobileShaderSwitch.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMobileShaderSwitch.cs" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1a384b149e2c1890c97f906efcd884c48c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMobileShaderSwitch</scope><name>m_ReplacementList</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1afa51b6506ec7fb188f84cd857baeadb5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMobileShaderSwitch</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

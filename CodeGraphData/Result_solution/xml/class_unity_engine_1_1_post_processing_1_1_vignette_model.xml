@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_vignette_model" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::VignetteModel</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingModel</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings" prot="public">UnityEngine::PostProcessing::VignetteModel::Settings</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d" prot="public" static="no">
+        <name>Mode</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53dad35b51b639528d580362ca7042de6a0e" prot="public">
+          <name>Classic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53da6864311f985d160ad4bd46a9fbe4a4d4" prot="public">
+          <name>Masked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_vignette_model_1af91392c1733c1ce4465dcad41ffa306e" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.VignetteModel.m_Settings</definition>
+        <argsstring></argsstring>
+        <name>m_Settings</name>
+        <initializer>= <ref refid="struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings_1a7c1f4d2623dc2a4679a59de4c1d8ab11" kindref="member">Settings.defaultSettings</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a9bf7faa890c766df24f80fb30f62e761" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_vignette_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.VignetteModel.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a7598645b887ddf177a33787cd06ca751" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.VignetteModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2757">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2756">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2757" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2759">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2758">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2759" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2760" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2760">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2759" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2760" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/VignetteModel.cs" bodystart="6" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_vignette_model_1af91392c1733c1ce4465dcad41ffa306e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteModel</scope><name>m_Settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a98eb04307bcb3c902a1189d324a2f53d" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteModel</scope><name>Mode</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a7598645b887ddf177a33787cd06ca751" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::VignetteModel</scope><name>Reset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_vignette_model_1a9bf7faa890c766df24f80fb30f62e761" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::VignetteModel</scope><name>settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_face_update" kind="class" prot="public">
+    <compoundname>UnityChan::FaceUpdate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_face_update_1a307ca86b73f33da110142bb692133780" prot="public" static="no" mutable="no">
+        <type>AnimationClip[]</type>
+        <definition>AnimationClip [] UnityChan.FaceUpdate.animations</definition>
+        <argsstring></argsstring>
+        <name>animations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a196bc208082097764ad001b1bd7f7ae7" compoundref="_face_update_8cs" startline="47" endline="62">UnityChan.FaceUpdate.OnCallChangeFace</referencedby>
+        <referencedby refid="class_unity_chan_1_1_face_update_1aecf1badbe0b7a5b5b69c07c905f3962b" compoundref="_face_update_8cs" startline="18" endline="30">UnityChan.FaceUpdate.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_face_update_1ade91eda7ea84ebf99073dd003d14c7c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.FaceUpdate.delayWeight</definition>
+        <argsstring></argsstring>
+        <name>delayWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a7a0c8963e131ea84d89243baa5ece242" compoundref="_face_update_8cs" startline="34" endline="43">UnityChan.FaceUpdate.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_face_update_1a90d7dcfe869ebf3f13b3d2693286a88f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.FaceUpdate.isKeepFace</definition>
+        <argsstring></argsstring>
+        <name>isKeepFace</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a5eb43373ee89dabf07bfb6893e99710f" compoundref="_face_update_8cs" startline="64" endline="69">UnityChan.FaceUpdate.ChangeFace</referencedby>
+        <referencedby refid="class_unity_chan_1_1_face_update_1aecf1badbe0b7a5b5b69c07c905f3962b" compoundref="_face_update_8cs" startline="18" endline="30">UnityChan.FaceUpdate.OnGUI</referencedby>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a7a0c8963e131ea84d89243baa5ece242" compoundref="_face_update_8cs" startline="34" endline="43">UnityChan.FaceUpdate.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_face_update_1a5adc5104818bbf787939e88ec673ec46" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator UnityChan.FaceUpdate.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a6e2e6ef53f5b11f76c332ea185722e3a" compoundref="_face_update_8cs" startline="13" endline="16">UnityChan.FaceUpdate.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_face_update_1ac9fef0fda57b5849be0460e816b4ad80" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.FaceUpdate.current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a5eb43373ee89dabf07bfb6893e99710f" compoundref="_face_update_8cs" startline="64" endline="69">UnityChan.FaceUpdate.ChangeFace</referencedby>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a7a0c8963e131ea84d89243baa5ece242" compoundref="_face_update_8cs" startline="34" endline="43">UnityChan.FaceUpdate.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_face_update_1a6e2e6ef53f5b11f76c332ea185722e3a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.FaceUpdate.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_unity_chan_1_1_face_update_1a5adc5104818bbf787939e88ec673ec46" compoundref="_face_update_8cs" startline="9">UnityChan.FaceUpdate.anim</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_face_update_1aecf1badbe0b7a5b5b69c07c905f3962b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.FaceUpdate.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="18" bodyend="30"/>
+        <references refid="class_unity_chan_1_1_face_update_1a307ca86b73f33da110142bb692133780" compoundref="_face_update_8cs" startline="8">UnityChan.FaceUpdate.animations</references>
+        <references refid="class_unity_chan_1_1_face_update_1a90d7dcfe869ebf3f13b3d2693286a88f" compoundref="_face_update_8cs" startline="11">UnityChan.FaceUpdate.isKeepFace</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_face_update_1a7a0c8963e131ea84d89243baa5ece242" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.FaceUpdate.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="34" bodyend="43"/>
+        <references refid="class_unity_chan_1_1_face_update_1ac9fef0fda57b5849be0460e816b4ad80" compoundref="_face_update_8cs" startline="32">UnityChan.FaceUpdate.current</references>
+        <references refid="class_unity_chan_1_1_face_update_1ade91eda7ea84ebf99073dd003d14c7c9" compoundref="_face_update_8cs" startline="10">UnityChan.FaceUpdate.delayWeight</references>
+        <references refid="class_unity_chan_1_1_face_update_1a90d7dcfe869ebf3f13b3d2693286a88f" compoundref="_face_update_8cs" startline="11">UnityChan.FaceUpdate.isKeepFace</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_face_update_1a5eb43373ee89dabf07bfb6893e99710f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.FaceUpdate.ChangeFace</definition>
+        <argsstring>(string str)</argsstring>
+        <name>ChangeFace</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="64" bodyend="69"/>
+        <references refid="class_unity_chan_1_1_face_update_1ac9fef0fda57b5849be0460e816b4ad80" compoundref="_face_update_8cs" startline="32">UnityChan.FaceUpdate.current</references>
+        <references refid="class_unity_chan_1_1_face_update_1a90d7dcfe869ebf3f13b3d2693286a88f" compoundref="_face_update_8cs" startline="11">UnityChan.FaceUpdate.isKeepFace</references>
+        <referencedby refid="class_unity_chan_1_1_face_update_1a196bc208082097764ad001b1bd7f7ae7" compoundref="_face_update_8cs" startline="47" endline="62">UnityChan.FaceUpdate.OnCallChangeFace</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_face_update_1a196bc208082097764ad001b1bd7f7ae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.FaceUpdate.OnCallChangeFace</definition>
+        <argsstring>(string str)</argsstring>
+        <name>OnCallChangeFace</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="47" bodyend="62"/>
+        <references refid="class_unity_chan_1_1_face_update_1a307ca86b73f33da110142bb692133780" compoundref="_face_update_8cs" startline="8">UnityChan.FaceUpdate.animations</references>
+        <references refid="class_unity_chan_1_1_face_update_1a5eb43373ee89dabf07bfb6893e99710f" compoundref="_face_update_8cs" startline="64" endline="69">UnityChan.FaceUpdate.ChangeFace</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1005">
+        <label>UnityChan.FaceUpdate</label>
+        <link refid="class_unity_chan_1_1_face_update"/>
+        <childnode refid="1006" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1006">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1007">
+        <label>UnityChan.FaceUpdate</label>
+        <link refid="class_unity_chan_1_1_face_update"/>
+        <childnode refid="1008" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" bodystart="6" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_face_update_1a5adc5104818bbf787939e88ec673ec46" prot="private" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>anim</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1a307ca86b73f33da110142bb692133780" prot="public" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>animations</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1a5eb43373ee89dabf07bfb6893e99710f" prot="private" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>ChangeFace</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1ac9fef0fda57b5849be0460e816b4ad80" prot="private" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>current</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1ade91eda7ea84ebf99073dd003d14c7c9" prot="public" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>delayWeight</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1a90d7dcfe869ebf3f13b3d2693286a88f" prot="public" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>isKeepFace</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1a196bc208082097764ad001b1bd7f7ae7" prot="public" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>OnCallChangeFace</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1aecf1badbe0b7a5b5b69c07c905f3962b" prot="private" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>OnGUI</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1a6e2e6ef53f5b11f76c332ea185722e3a" prot="private" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>Start</name></member>
+      <member refid="class_unity_chan_1_1_face_update_1a7a0c8963e131ea84d89243baa5ece242" prot="private" virt="non-virtual"><scope>UnityChan::FaceUpdate</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

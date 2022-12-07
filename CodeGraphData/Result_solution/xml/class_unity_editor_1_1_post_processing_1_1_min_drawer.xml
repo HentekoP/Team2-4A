@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_min_drawer" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::MinDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_min_drawer_1ad2ca5ec821cabdc3ca03f592c3404949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.MinDrawer.OnGUI</definition>
+        <argsstring>(Rect position, SerializedProperty property, GUIContent label)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" bodystart="10" bodyend="28"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_min_attribute_1abb5d80c69026f677751e55a30bfc2e84" compoundref="_min_attribute_8cs" startline="5">UnityEngine.PostProcessing.MinAttribute.min</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1447">
+        <label>UnityEditor.PostProcessing.MinDrawer</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_min_drawer"/>
+        <childnode refid="1448" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1448">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1449">
+        <label>UnityEditor.PostProcessing.MinDrawer</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_min_drawer"/>
+        <childnode refid="1450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1450">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" bodystart="8" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_min_drawer_1ad2ca5ec821cabdc3ca03f592c3404949" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MinDrawer</scope><name>OnGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

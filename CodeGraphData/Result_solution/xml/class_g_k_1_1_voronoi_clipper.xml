@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_voronoi_clipper" kind="class" prot="public">
+    <compoundname>GK::VoronoiClipper</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_clipper_1ac31a5d62f6029d738abd03a98190faf4" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; GK.VoronoiClipper.pointsIn</definition>
+        <argsstring></argsstring>
+        <name>pointsIn</name>
+        <initializer>= new List&lt;Vector2&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_clipper_1af13d0cee1f46e189bfb7d7387e2a9f6c" compoundref="_voronoi_clipper_8cs" startline="46" endline="127">GK.VoronoiClipper.ClipSite</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_clipper_1a8daa7018db580c5fafb54b9cbccb4fa3" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; GK.VoronoiClipper.pointsOut</definition>
+        <argsstring></argsstring>
+        <name>pointsOut</name>
+        <initializer>= new List&lt;Vector2&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_clipper_1af13d0cee1f46e189bfb7d7387e2a9f6c" compoundref="_voronoi_clipper_8cs" startline="46" endline="127">GK.VoronoiClipper.ClipSite</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_clipper_1abdebf4e371c3c5c2e268aa53dc5bd4af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GK.VoronoiClipper.VoronoiClipper</definition>
+        <argsstring>()</argsstring>
+        <name>VoronoiClipper</name>
+        <briefdescription>
+<para>Create a new Voronoi clipper </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_clipper_1af13d0cee1f46e189bfb7d7387e2a9f6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.VoronoiClipper.ClipSite</definition>
+        <argsstring>(VoronoiDiagram diag, IList&lt; Vector2 &gt; polygon, int site, ref List&lt; Vector2 &gt; clipped)</argsstring>
+        <name>ClipSite</name>
+        <param>
+          <type><ref refid="class_g_k_1_1_voronoi_diagram" kindref="compound">VoronoiDiagram</ref></type>
+          <declname>diag</declname>
+        </param>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>polygon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>site</declname>
+        </param>
+        <param>
+          <type>ref List&lt; Vector2 &gt;</type>
+          <declname>clipped</declname>
+        </param>
+        <briefdescription>
+<para>Clip site of voronoi diagram using polygon (must be convex), returning the clipped vertices in clipped list. Modifies neither polygon nor diagram, so can be run in parallel for several sites at once. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" bodystart="46" bodyend="127"/>
+        <references refid="class_g_k_1_1_voronoi_clipper_1ac31a5d62f6029d738abd03a98190faf4" compoundref="_voronoi_clipper_8cs" startline="31">GK.VoronoiClipper.pointsIn</references>
+        <references refid="class_g_k_1_1_voronoi_clipper_1a8daa7018db580c5fafb54b9cbccb4fa3" compoundref="_voronoi_clipper_8cs" startline="32">GK.VoronoiClipper.pointsOut</references>
+        <references refid="class_g_k_1_1_voronoi_diagram_1ad9cf2d20ec6a5dd210953ee57a938f4f" compoundref="_voronoi_diagram_8cs" startline="39">GK.VoronoiDiagram.Sites</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiClipper.cs" bodystart="29" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_voronoi_clipper_1af13d0cee1f46e189bfb7d7387e2a9f6c" prot="public" virt="non-virtual"><scope>GK::VoronoiClipper</scope><name>ClipSite</name></member>
+      <member refid="class_g_k_1_1_voronoi_clipper_1ac31a5d62f6029d738abd03a98190faf4" prot="private" virt="non-virtual"><scope>GK::VoronoiClipper</scope><name>pointsIn</name></member>
+      <member refid="class_g_k_1_1_voronoi_clipper_1a8daa7018db580c5fafb54b9cbccb4fa3" prot="private" virt="non-virtual"><scope>GK::VoronoiClipper</scope><name>pointsOut</name></member>
+      <member refid="class_g_k_1_1_voronoi_clipper_1abdebf4e371c3c5c2e268aa53dc5bd4af" prot="public" virt="non-virtual"><scope>GK::VoronoiClipper</scope><name>VoronoiClipper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

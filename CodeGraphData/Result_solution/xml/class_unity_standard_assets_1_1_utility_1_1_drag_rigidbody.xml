@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::DragRigidbody</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a8a949c76f71ef2c7cb6f5bec9d237e80" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Utility.DragRigidbody.k_Spring</definition>
+        <argsstring></argsstring>
+        <name>k_Spring</name>
+        <initializer>= 50.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1ad7dd56061be26b11d851fadb5b7d80b2" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Utility.DragRigidbody.k_Damper</definition>
+        <argsstring></argsstring>
+        <name>k_Damper</name>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a8cf45ce006cae475930e2e1df9824bab" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Utility.DragRigidbody.k_Drag</definition>
+        <argsstring></argsstring>
+        <name>k_Drag</name>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1adea45dfc89287a6614dcbd40046dc164" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Utility.DragRigidbody.k_AngularDrag</definition>
+        <argsstring></argsstring>
+        <name>k_AngularDrag</name>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a5781a7d97544baf9d8c8432f7601dd67" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Utility.DragRigidbody.k_Distance</definition>
+        <argsstring></argsstring>
+        <name>k_Distance</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a62dbadb1a609be018045064c14889321" prot="private" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool UnityStandardAssets.Utility.DragRigidbody.k_AttachToCenterOfMass</definition>
+        <argsstring></argsstring>
+        <name>k_AttachToCenterOfMass</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a518c7aaa8bc85e294b40250bd67a8a2e" prot="private" static="no" mutable="no">
+        <type>SpringJoint</type>
+        <definition>SpringJoint UnityStandardAssets.Utility.DragRigidbody.m_SpringJoint</definition>
+        <argsstring></argsstring>
+        <name>m_SpringJoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a60a954748ec9833da60e1e818001476a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.DragRigidbody.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="19" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1afcf8fcc39fc12326e601ef17b4fc680e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityStandardAssets.Utility.DragRigidbody.DragObject</definition>
+        <argsstring>(float distance)</argsstring>
+        <name>DragObject</name>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="64" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a2b1e596736580deaa056d4c867d93018" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Camera</type>
+        <definition>Camera UnityStandardAssets.Utility.DragRigidbody.FindCamera</definition>
+        <argsstring>()</argsstring>
+        <name>FindCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="86" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="884">
+        <label>UnityStandardAssets.Utility.DragRigidbody</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody"/>
+        <childnode refid="885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="885">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="886">
+        <label>UnityStandardAssets.Utility.DragRigidbody</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody"/>
+        <childnode refid="887" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/DragRigidbody.cs" bodystart="7" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1afcf8fcc39fc12326e601ef17b4fc680e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>DragObject</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a2b1e596736580deaa056d4c867d93018" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>FindCamera</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1adea45dfc89287a6614dcbd40046dc164" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>k_AngularDrag</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a62dbadb1a609be018045064c14889321" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>k_AttachToCenterOfMass</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1ad7dd56061be26b11d851fadb5b7d80b2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>k_Damper</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a5781a7d97544baf9d8c8432f7601dd67" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>k_Distance</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a8cf45ce006cae475930e2e1df9824bab" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>k_Drag</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a8a949c76f71ef2c7cb6f5bec9d237e80" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>k_Spring</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a518c7aaa8bc85e294b40250bd67a8a2e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>m_SpringJoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody_1a60a954748ec9833da60e1e818001476a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::DragRigidbody</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

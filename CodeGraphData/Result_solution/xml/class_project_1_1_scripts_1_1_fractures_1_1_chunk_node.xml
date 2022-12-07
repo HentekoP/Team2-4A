@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kind="class" prot="public">
+    <compoundname>Project::Scripts::Fractures::ChunkNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a460856811b9c1b3d926fa61ae6bb723e" prot="public" static="no" mutable="no">
+        <type>HashSet&lt; <ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref> &gt;</type>
+        <definition>HashSet&lt;ChunkNode&gt; Project.Scripts.Fractures.ChunkNode.Neighbours</definition>
+        <argsstring></argsstring>
+        <name>Neighbours</name>
+        <initializer>= new HashSet&lt;<ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ab3dd4a31c466793652a1bf19a7b395e2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref>[]</type>
+        <definition>ChunkNode [] Project.Scripts.Fractures.ChunkNode.NeighboursArray</definition>
+        <argsstring></argsstring>
+        <name>NeighboursArray</name>
+        <initializer>= new <ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref>[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a094e53e9cbaf98b720e7fd0ce78ddf73" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Project.Scripts.Fractures.ChunkNode.IsStatic</definition>
+        <argsstring></argsstring>
+        <name>IsStatic</name>
+        <initializer>=&gt; rb.isKinematic</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1abaf5b9a241e3afe618eb68254adc0791" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Joint, <ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref> &gt;</type>
+        <definition>Dictionary&lt;Joint, ChunkNode&gt; Project.Scripts.Fractures.ChunkNode.JointToChunk</definition>
+        <argsstring></argsstring>
+        <name>JointToChunk</name>
+        <initializer>= new Dictionary&lt;Joint, <ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a3ea5a211a151a73cf8dd0b5162815df4" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref>, Joint &gt;</type>
+        <definition>Dictionary&lt;ChunkNode, Joint&gt; Project.Scripts.Fractures.ChunkNode.ChunkToJoint</definition>
+        <argsstring></argsstring>
+        <name>ChunkToJoint</name>
+        <initializer>= new Dictionary&lt;<ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref>, Joint&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1af28227cd9c95df52dae6ba111b4f1a1d" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody Project.Scripts.Fractures.ChunkNode.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ad15d6f1373725ae6f135f85ef8bd706e" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Project.Scripts.Fractures.ChunkNode.frozenPos</definition>
+        <argsstring></argsstring>
+        <name>frozenPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1afc9b877eb7acd45a7bc941a802534f0d" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion Project.Scripts.Fractures.ChunkNode.forzenRot</definition>
+        <argsstring></argsstring>
+        <name>forzenRot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ae9c357540a596cad1cd57e033aefc794" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Project.Scripts.Fractures.ChunkNode.frozen</definition>
+        <argsstring></argsstring>
+        <name>frozen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a506885310a926bb995f78b7b279aef2c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color Project.Scripts.Fractures.ChunkNode.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ac0ddd5eeb5b6f8fabbb22443978955d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Project.Scripts.Fractures.ChunkNode.HasBrokenLinks</definition>
+        <argsstring></argsstring>
+        <name>HasBrokenLinks</name>
+        <initializer>= Color.black</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a6c20c255bbfb2513cc1368dd6074c38a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Project.Scripts.Fractures.ChunkNode.Contains</definition>
+        <argsstring>(ChunkNode chunkNode)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref></type>
+          <declname>chunkNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a928d4cd33218b454de4c35ed72dc3b87" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="27" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a1cf7cddff2236de1ad427c5634e6c7a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.OnJointBreak</definition>
+        <argsstring>(float breakForce)</argsstring>
+        <name>OnJointBreak</name>
+        <param>
+          <type>float</type>
+          <declname>breakForce</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a608693870a5922642f87014738f4d929" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.Remove</definition>
+        <argsstring>(ChunkNode chunkNode)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node" kindref="compound">ChunkNode</ref></type>
+          <declname>chunkNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ab9984d5ca6df3cbe464468a82a72c3e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.Freeze</definition>
+        <argsstring>()</argsstring>
+        <name>Freeze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="102" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1af13572a06de2a06416e13108ee3f834c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="112" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a9995d113efb0d3715c3da86d4be68601" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="139" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a2dc798cb6f1feb626474e4728528c0f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="37" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a06f414f8e53ecd36192672990a9837ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.CleanBrokenLinks</definition>
+        <argsstring>()</argsstring>
+        <name>CleanBrokenLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="69" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a32b3bf56a5a6223208555f5b76a035bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.ChunkNode.Unfreeze</definition>
+        <argsstring>()</argsstring>
+        <name>Unfreeze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="94" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="564">
+        <label>Project.Scripts.Fractures.ChunkNode</label>
+        <link refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node"/>
+        <childnode refid="565" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="565">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="566">
+        <label>Project.Scripts.Fractures.ChunkNode</label>
+        <link refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node"/>
+        <childnode refid="567" relation="public-inheritance">
+        </childnode>
+        <childnode refid="566" relation="usage">
+          <edgelabel>NeighboursArray</edgelabel>
+        </childnode>
+      </node>
+      <node id="567">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Fractures/ChunkNode.cs" bodystart="8" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a3ea5a211a151a73cf8dd0b5162815df4" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>ChunkToJoint</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a06f414f8e53ecd36192672990a9837ed" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>CleanBrokenLinks</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a506885310a926bb995f78b7b279aef2c" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Color</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a6c20c255bbfb2513cc1368dd6074c38a" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Contains</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a928d4cd33218b454de4c35ed72dc3b87" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>FixedUpdate</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1afc9b877eb7acd45a7bc941a802534f0d" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>forzenRot</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ab9984d5ca6df3cbe464468a82a72c3e0" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Freeze</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ae9c357540a596cad1cd57e033aefc794" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>frozen</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ad15d6f1373725ae6f135f85ef8bd706e" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>frozenPos</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ac0ddd5eeb5b6f8fabbb22443978955d5" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>HasBrokenLinks</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a094e53e9cbaf98b720e7fd0ce78ddf73" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>IsStatic</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1abaf5b9a241e3afe618eb68254adc0791" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>JointToChunk</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a460856811b9c1b3d926fa61ae6bb723e" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Neighbours</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1ab3dd4a31c466793652a1bf19a7b395e2" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>NeighboursArray</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1af13572a06de2a06416e13108ee3f834c" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a9995d113efb0d3715c3da86d4be68601" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a1cf7cddff2236de1ad427c5634e6c7a9" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>OnJointBreak</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1af28227cd9c95df52dae6ba111b4f1a1d" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>rb</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a608693870a5922642f87014738f4d929" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Remove</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a2dc798cb6f1feb626474e4728528c0f9" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Setup</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_node_1a32b3bf56a5a6223208555f5b76a035bb" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::ChunkNode</scope><name>Unfreeze</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

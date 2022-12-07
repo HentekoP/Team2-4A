@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::CameraRefocus</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1af2e66852407defac8d42928618ac667f" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera UnityStandardAssets.Utility.CameraRefocus.Camera</definition>
+        <argsstring></argsstring>
+        <name>Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a1befa53fb7728dcc2fa0e4862dd60543" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.CameraRefocus.Lookatpoint</definition>
+        <argsstring></argsstring>
+        <name>Lookatpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1ab5d9f1645e7f5f07c617be54fe20bd14" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Utility.CameraRefocus.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1abb8d88872967a25a234d1346faacbd32" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.CameraRefocus.m_OrigCameraPos</definition>
+        <argsstring></argsstring>
+        <name>m_OrigCameraPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1adcb001c5f052732aaae29e3744c25801" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Utility.CameraRefocus.m_Refocus</definition>
+        <argsstring></argsstring>
+        <name>m_Refocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1ad18f0defd5d32b13fdfee175e4a5d9ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityStandardAssets.Utility.CameraRefocus.CameraRefocus</definition>
+        <argsstring>(Camera camera, Transform parent, Vector3 origCameraPos)</argsstring>
+        <name>CameraRefocus</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1af2e66852407defac8d42928618ac667f" kindref="member">Camera</ref></type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>origCameraPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a4b06686fe002ec8b589dd5e91b9251e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.CameraRefocus.ChangeCamera</definition>
+        <argsstring>(Camera camera)</argsstring>
+        <name>ChangeCamera</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1af2e66852407defac8d42928618ac667f" kindref="member">Camera</ref></type>
+          <declname>camera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a3d41f2de5bf72909ace12fab7003a2bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.CameraRefocus.ChangeParent</definition>
+        <argsstring>(Transform parent)</argsstring>
+        <name>ChangeParent</name>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1ae40dc3974276cd4f3b39dbfff2c68996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.CameraRefocus.GetFocusPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetFocusPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="36" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a96116de559e0039593ceda8a97574b6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.CameraRefocus.SetFocusPoint</definition>
+        <argsstring>()</argsstring>
+        <name>SetFocusPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/CameraRefocus.cs" bodystart="6" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1af2e66852407defac8d42928618ac667f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>Camera</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1ad18f0defd5d32b13fdfee175e4a5d9ba" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>CameraRefocus</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a4b06686fe002ec8b589dd5e91b9251e5" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>ChangeCamera</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a3d41f2de5bf72909ace12fab7003a2bc" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>ChangeParent</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1ae40dc3974276cd4f3b39dbfff2c68996" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>GetFocusPoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a1befa53fb7728dcc2fa0e4862dd60543" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>Lookatpoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1abb8d88872967a25a234d1346faacbd32" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>m_OrigCameraPos</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1adcb001c5f052732aaae29e3744c25801" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>m_Refocus</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1ab5d9f1645e7f5f07c617be54fe20bd14" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>Parent</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_camera_refocus_1a96116de559e0039593ceda8a97574b6c" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::CameraRefocus</scope><name>SetFocusPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

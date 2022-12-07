@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_1_1_scripts_1_1_utils_1_1_extensions" kind="class" prot="public">
+    <compoundname>Project::Scripts::Utils::Extensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a225f9e5d349902f10b97ee11b79471bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color Project.Scripts.Utils.Extensions.SetAlpha</definition>
+        <argsstring>(this Color color, float value)</argsstring>
+        <name>SetAlpha</name>
+        <param>
+          <type>this Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a74bfc76336c6e0f44b6e29d5c2a608b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ISet&lt; T &gt;</type>
+        <definition>static ISet&lt;T&gt; Project.Scripts.Utils.Extensions.ToSet&lt; T &gt;</definition>
+        <argsstring>(this IEnumerable&lt; T &gt; iEnumerable)</argsstring>
+        <name>ToSet&lt; T &gt;</name>
+        <param>
+          <type>this IEnumerable&lt; T &gt;</type>
+          <declname>iEnumerable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a6c6302d1eea24c35a5fc948fb0edb48a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Project.Scripts.Utils.Extensions.GetOrAddComponent&lt; T &gt;</definition>
+        <argsstring>(this Component c)</argsstring>
+        <name>GetOrAddComponent&lt; T &gt;</name>
+        <param>
+          <type>this Component</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a48d5d99849b3ee14f939a922f817e10f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Component</type>
+        <definition>static Component Project.Scripts.Utils.Extensions.GetOrAddComponent</definition>
+        <argsstring>(this GameObject go, Type componentType)</argsstring>
+        <name>GetOrAddComponent</name>
+        <param>
+          <type>this GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>componentType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a7488a9288f0ed320ba977e6abb4143ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Project.Scripts.Utils.Extensions.GetOrAddComponent&lt; T &gt;</definition>
+        <argsstring>(this GameObject go)</argsstring>
+        <name>GetOrAddComponent&lt; T &gt;</name>
+        <param>
+          <type>this GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a8e8b16d15e42ad65d476f7b794e12352" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.SetX</definition>
+        <argsstring>(this Vector3 vector3, float x)</argsstring>
+        <name>SetX</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1af848af56b86f06fbdb9fda32882e74f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.SetY</definition>
+        <argsstring>(this Vector3 vector3, float y)</argsstring>
+        <name>SetY</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1aaa39009655d29e8a28bbee15ba5964ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.SetZ</definition>
+        <argsstring>(this Vector3 vector3, float z)</argsstring>
+        <name>SetZ</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a2bc7448d21301a90c39ddb291b9a4c85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.Multiply</definition>
+        <argsstring>(this Vector3 vectorA, Vector3 vectorB)</argsstring>
+        <name>Multiply</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vectorA</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>vectorB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a6092a1ddc766541f336c041a0ad808d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.Abs</definition>
+        <argsstring>(this Vector3 vector)</argsstring>
+        <name>Abs</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1ae9dc58f15123c4e9d2333a7325482549" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Project.Scripts.Utils.Extensions.Volume</definition>
+        <argsstring>(this Mesh mesh)</argsstring>
+        <name>Volume</name>
+        <param>
+          <type>this Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="75" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1ae15d345c0006c5b4f4f228174eaabc57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>static Vector3 [] Project.Scripts.Utils.Extensions.GetVertices</definition>
+        <argsstring>(this Bounds bounds)</argsstring>
+        <name>GetVertices</name>
+        <param>
+          <type>this Bounds</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a6053502d5217cdb94cf9077159b1d973" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.Min</definition>
+        <argsstring>(this Vector3 vectorA, Vector3 vectorB)</argsstring>
+        <name>Min</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vectorA</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>vectorB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a7dde19cac991b69725a3e3a9abb1551c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.Max</definition>
+        <argsstring>(this Vector3 vectorA, Vector3 vectorB)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>vectorA</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>vectorB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a8cb59b9ede2b3e82276a4171fa6eb257" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>static Bounds Project.Scripts.Utils.Extensions.ToBounds</definition>
+        <argsstring>(this Vector3[] vertices)</argsstring>
+        <name>ToBounds</name>
+        <param>
+          <type>this Vector3[]</type>
+          <declname>vertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="112" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1afcdcbcdcfddec49b072e05cd5366d58d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>static Bounds Project.Scripts.Utils.Extensions.ToBounds</definition>
+        <argsstring>(this IEnumerable&lt; Vector3 &gt; vertices)</argsstring>
+        <name>ToBounds</name>
+        <param>
+          <type>this IEnumerable&lt; Vector3 &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a2455e47de04b1d6890571badc72e99c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 Project.Scripts.Utils.Extensions.TransformPoint</definition>
+        <argsstring>(this Transform t, Vector3 position, Transform dest)</argsstring>
+        <name>TransformPoint</name>
+        <param>
+          <type>this Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a8b3765aa18860192ade778d22776dd27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>static Bounds Project.Scripts.Utils.Extensions.TransformBounds</definition>
+        <argsstring>(this Transform from, Transform to, Bounds bounds)</argsstring>
+        <name>TransformBounds</name>
+        <param>
+          <type>this Transform</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>Bounds</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="137" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="137" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a4ac68b77ddb22745da132fed474ee8f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>static Bounds Project.Scripts.Utils.Extensions.GetCompositeMeshBounds</definition>
+        <argsstring>(this GameObject go, bool includeInactive=false, bool isSharedMesh=false)</argsstring>
+        <name>GetCompositeMeshBounds</name>
+        <param>
+          <type>this GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeInactive</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSharedMesh</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="144" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="144" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a7ff6354faecf0630b3cea6844aa08cce" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Project.Scripts.Utils.Extensions.SignedVolumeOfTriangle</definition>
+        <argsstring>(Vector3 p1, Vector3 p2, Vector3 p3)</argsstring>
+        <name>SignedVolumeOfTriangle</name>
+        <param>
+          <type>Vector3</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="64" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/Utils/Extensions.cs" bodystart="8" bodyend="171"/>
+    <listofallmembers>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a6092a1ddc766541f336c041a0ad808d0" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>Abs</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a4ac68b77ddb22745da132fed474ee8f2" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>GetCompositeMeshBounds</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a48d5d99849b3ee14f939a922f817e10f" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>GetOrAddComponent</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a6c6302d1eea24c35a5fc948fb0edb48a" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>GetOrAddComponent&lt; T &gt;</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a7488a9288f0ed320ba977e6abb4143ff" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>GetOrAddComponent&lt; T &gt;</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1ae15d345c0006c5b4f4f228174eaabc57" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>GetVertices</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a7dde19cac991b69725a3e3a9abb1551c" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>Max</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a6053502d5217cdb94cf9077159b1d973" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>Min</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a2bc7448d21301a90c39ddb291b9a4c85" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>Multiply</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a225f9e5d349902f10b97ee11b79471bd" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>SetAlpha</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a8e8b16d15e42ad65d476f7b794e12352" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>SetX</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1af848af56b86f06fbdb9fda32882e74f9" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>SetY</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1aaa39009655d29e8a28bbee15ba5964ae" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>SetZ</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a7ff6354faecf0630b3cea6844aa08cce" prot="private" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>SignedVolumeOfTriangle</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a8cb59b9ede2b3e82276a4171fa6eb257" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>ToBounds</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1afcdcbcdcfddec49b072e05cd5366d58d" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>ToBounds</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a74bfc76336c6e0f44b6e29d5c2a608b4" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>ToSet&lt; T &gt;</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a8b3765aa18860192ade778d22776dd27" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>TransformBounds</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1a2455e47de04b1d6890571badc72e99c7" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>TransformPoint</name></member>
+      <member refid="class_project_1_1_scripts_1_1_utils_1_1_extensions_1ae9dc58f15123c4e9d2333a7325482549" prot="public" virt="non-virtual"><scope>Project::Scripts::Utils::Extensions</scope><name>Volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

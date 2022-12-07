@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_change_gravity_8cs" kind="file">
+    <compoundname>ChangeGravity.cs</compoundname>
+    <innerclass refid="class_change_gravity" prot="public">ChangeGravity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_change_gravity" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_change_gravity" kindref="compound">ChangeGravity</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_change_gravity_1a855291c688ed4674387b54b066d9eaa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_change_gravity_1a855291c688ed4674387b54b066d9eaa7" kindref="member">localGravity</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_change_gravity_1a0ec1166c6290796508cff298dbca817c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Rigidbody<sp/><ref refid="class_change_gravity_1a0ec1166c6290796508cff298dbca817c" kindref="member">rBody</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>for<sp/>initialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_change_gravity_1a9072b8dec12a3b278dcc5d8fc08ad4ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_change_gravity_1a9072b8dec12a3b278dcc5d8fc08ad4ac" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_change_gravity_1a0ec1166c6290796508cff298dbca817c" kindref="member">rBody</ref><sp/>=<sp/>this.GetComponent&lt;Rigidbody&gt;();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rBody.useGravity<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//最初にrigidBodyの重力を使わなくする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_change_gravity_1ab0d30092d83ba20afe64de606fb2fa7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_change_gravity_1ab0d30092d83ba20afe64de606fb2fa7b" kindref="member">FixedUpdate</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" kindref="member">SetLocalGravity</ref>();<sp/></highlight><highlight class="comment">//重力をAddForceでかけるメソッドを呼ぶ。FixedUpdateが好ましい。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" kindref="member">SetLocalGravity</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rBody.AddForce(<ref refid="class_change_gravity_1a855291c688ed4674387b54b066d9eaa7" kindref="member">localGravity</ref>,<sp/>ForceMode.Acceleration);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs"/>
+  </compounddef>
+</doxygen>

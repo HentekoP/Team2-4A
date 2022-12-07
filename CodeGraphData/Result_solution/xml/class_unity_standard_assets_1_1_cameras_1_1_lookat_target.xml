@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Cameras::LookatTarget</compoundname>
+    <basecompoundref refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower" prot="public" virt="non-virtual">UnityStandardAssets.Cameras.AbstractTargetFollower</basecompoundref>
+    <derivedcompoundref refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam" prot="public" virt="non-virtual">UnityStandardAssets.Cameras.HandHeldCam</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1a3057cad8a1596f5f30e8b7a8214370ad" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 UnityStandardAssets.Cameras.LookatTarget.m_RotationRange</definition>
+        <argsstring></argsstring>
+        <name>m_RotationRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1acada9d4f0df4f471ccf4b7d35fafd33c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.LookatTarget.m_FollowSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_FollowSpeed</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1a9f867a9fa87deaddce4bed643d525f81" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Cameras.LookatTarget.m_FollowAngles</definition>
+        <argsstring></argsstring>
+        <name>m_FollowAngles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1adbdc3e51efa60fe7a39e2621f418d342" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion UnityStandardAssets.Cameras.LookatTarget.m_OriginalRotation</definition>
+        <argsstring></argsstring>
+        <name>m_OriginalRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1aacdbc1630067f16f95562987a39bfbda" prot="protected" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Cameras.LookatTarget.m_FollowVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_FollowVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1aec8ed1b380300e6c170fe5ae92de8984" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Cameras.LookatTarget.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1ad3381a39deed7c88e7bf42be6f61a554">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1a54d65a14298573af0540d6b1b44c1612" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Cameras.LookatTarget.FollowTarget</definition>
+        <argsstring>(float deltaTime)</argsstring>
+        <name>FollowTarget</name>
+        <reimplements refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a4b771e65860831b007dc5d9baa7c0c47">FollowTarget</reimplements>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="40" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1402">
+        <label>UnityStandardAssets.Cameras.LookatTarget</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target"/>
+        <childnode refid="1403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1405">
+        <label>UnityStandardAssets.Cameras.HandHeldCam</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam"/>
+        <childnode refid="1402" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1403">
+        <label>AbstractTargetFollower</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"/>
+        <childnode refid="1404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1404">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1406">
+        <label>UnityStandardAssets.Cameras.LookatTarget</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target"/>
+        <childnode refid="1407" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1407">
+        <label>AbstractTargetFollower</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"/>
+        <childnode refid="1408" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1408">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/LookatTarget.cs" bodystart="7" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1ab8d9909f4d7e38889612fa737e2fde73" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>FindAndTargetPlayer</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1a54d65a14298573af0540d6b1b44c1612" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>FollowTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1a9f867a9fa87deaddce4bed643d525f81" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>m_FollowAngles</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1acada9d4f0df4f471ccf4b7d35fafd33c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>m_FollowSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1aacdbc1630067f16f95562987a39bfbda" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>m_FollowVelocity</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1adbdc3e51efa60fe7a39e2621f418d342" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>m_OriginalRotation</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1a3057cad8a1596f5f30e8b7a8214370ad" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>m_RotationRange</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1aeca3a0ae0619e4809688f4e64de27660" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>m_Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1adf84672b616fcb6d90838537fbe17887" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>ManualUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a0d6288d9e007d7a5285ee5c6f9f68636" prot="public" virt="virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>SetTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target_1aec8ed1b380300e6c170fe5ae92de8984" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a1a762e4e9ced2e4cd68425a7df67496e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a92f7183b7eeef7706e72c258de60f543" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>targetRigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a0a966f5d855a7db490f2583c9771b837" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::LookatTarget</scope><name>UpdateType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

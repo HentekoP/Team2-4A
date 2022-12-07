@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_spring_bone" kind="class" prot="public">
+    <compoundname>UnityChan::SpringBone</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a81a353cf49b5119b94cc6b3e01bf8638" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.SpringBone.child</definition>
+        <argsstring></argsstring>
+        <name>child</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1aa82e67db44f7f7dacb465f60675f1f18" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityChan.SpringBone.boneAxis</definition>
+        <argsstring></argsstring>
+        <name>boneAxis</name>
+        <initializer>= new Vector3 (-1.0f, 0.0f, 0.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a2df74dd3501023c0800717e72985cac4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringBone.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1a26c9cfd58f15dedfc07c14b513c811df" compoundref="_spring_bone_8cs" startline="127" endline="133">UnityChan.SpringBone.OnDrawGizmos</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a5309adf1f1179a0dd53e8dc14c4c2525" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.SpringBone.isUseEachBoneForceSettings</definition>
+        <argsstring></argsstring>
+        <name>isUseEachBoneForceSettings</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a9b1ec35ddd49cc27bf0a4945fe443882" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringBone.stiffnessForce</definition>
+        <argsstring></argsstring>
+        <name>stiffnessForce</name>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1ab0e8846932b249b5bd13f10b8e3df92a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringBone.dragForce</definition>
+        <argsstring></argsstring>
+        <name>dragForce</name>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1abd19b7659cdc0de115be497bd78446f3" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityChan.SpringBone.springForce</definition>
+        <argsstring></argsstring>
+        <name>springForce</name>
+        <initializer>= new Vector3 (0.0f, -0.0001f, 0.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1acfd10b3856467ad58050f23b955226dc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_chan_1_1_spring_collider" kindref="compound">SpringCollider</ref>[]</type>
+        <definition>SpringCollider [] UnityChan.SpringBone.colliders</definition>
+        <argsstring></argsstring>
+        <name>colliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a444339e6a26713fbdf01c4d0370baec1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.SpringBone.debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1a26c9cfd58f15dedfc07c14b513c811df" compoundref="_spring_bone_8cs" startline="127" endline="133">UnityChan.SpringBone.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a27b6e398edb11a520201460751a661d3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringBone.threshold</definition>
+        <argsstring></argsstring>
+        <name>threshold</name>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a6fac74be764e380f316f086e90b7074a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringBone.springLength</definition>
+        <argsstring></argsstring>
+        <name>springLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1a5c7e0c2c6091c85d7ea1ae2ff0d0a084" compoundref="_spring_bone_8cs" startline="71" endline="76">UnityChan.SpringBone.Start</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a56cc5d1811618db6ca7ac247b3a798bf" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion UnityChan.SpringBone.localRotation</definition>
+        <argsstring></argsstring>
+        <name>localRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1ae6730534e5993ad79ee77a262c5d917d" compoundref="_spring_bone_8cs" startline="48" endline="55">UnityChan.SpringBone.Awake</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a711dd0ee2bb8813d4d31f4348b2b532f" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.SpringBone.trs</definition>
+        <argsstring></argsstring>
+        <name>trs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1ae6730534e5993ad79ee77a262c5d917d" compoundref="_spring_bone_8cs" startline="48" endline="55">UnityChan.SpringBone.Awake</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1ac2110aa728bc25cd89000601a7091d1f" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityChan.SpringBone.currTipPos</definition>
+        <argsstring></argsstring>
+        <name>currTipPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1a26c9cfd58f15dedfc07c14b513c811df" compoundref="_spring_bone_8cs" startline="127" endline="133">UnityChan.SpringBone.OnDrawGizmos</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1a5c7e0c2c6091c85d7ea1ae2ff0d0a084" compoundref="_spring_bone_8cs" startline="71" endline="76">UnityChan.SpringBone.Start</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a87afffbe8c40d06d6a6844f6b97c9427" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityChan.SpringBone.prevTipPos</definition>
+        <argsstring></argsstring>
+        <name>prevTipPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1a5c7e0c2c6091c85d7ea1ae2ff0d0a084" compoundref="_spring_bone_8cs" startline="71" endline="76">UnityChan.SpringBone.Start</referencedby>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1ab1688e64bd490e78ce91a396af8a3a3f" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityChan.SpringBone.org</definition>
+        <argsstring></argsstring>
+        <name>org</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" compoundref="_spring_bone_8cs" startline="78" endline="125">UnityChan.SpringBone.UpdateSpring</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_bone_1a25c91e0d61726e0695127575642f31c6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_chan_1_1_spring_manager" kindref="compound">SpringManager</ref></type>
+        <definition>SpringManager UnityChan.SpringBone.managerRef</definition>
+        <argsstring></argsstring>
+        <name>managerRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1ae6730534e5993ad79ee77a262c5d917d" compoundref="_spring_bone_8cs" startline="48" endline="55">UnityChan.SpringBone.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_bone_1ae6730534e5993ad79ee77a262c5d917d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringBone.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="48" bodyend="55"/>
+        <references refid="class_unity_chan_1_1_spring_bone_1a2c85dee0012f6c07db5fe11ce2ee049c" compoundref="_spring_bone_8cs" startline="57" endline="69">UnityChan.SpringBone.GetParentSpringManager</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a56cc5d1811618db6ca7ac247b3a798bf" compoundref="_spring_bone_8cs" startline="39">UnityChan.SpringBone.localRotation</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a25c91e0d61726e0695127575642f31c6" compoundref="_spring_bone_8cs" startline="46">UnityChan.SpringBone.managerRef</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a711dd0ee2bb8813d4d31f4348b2b532f" compoundref="_spring_bone_8cs" startline="40">UnityChan.SpringBone.trs</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_bone_1a2c85dee0012f6c07db5fe11ce2ee049c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_unity_chan_1_1_spring_manager" kindref="compound">SpringManager</ref></type>
+        <definition>SpringManager UnityChan.SpringBone.GetParentSpringManager</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>GetParentSpringManager</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="57" bodyend="69"/>
+        <referencedby refid="class_unity_chan_1_1_spring_bone_1ae6730534e5993ad79ee77a262c5d917d" compoundref="_spring_bone_8cs" startline="48" endline="55">UnityChan.SpringBone.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_bone_1a5c7e0c2c6091c85d7ea1ae2ff0d0a084" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringBone.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="71" bodyend="76"/>
+        <references refid="class_unity_chan_1_1_spring_bone_1ac2110aa728bc25cd89000601a7091d1f" compoundref="_spring_bone_8cs" startline="41">UnityChan.SpringBone.currTipPos</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a87afffbe8c40d06d6a6844f6b97c9427" compoundref="_spring_bone_8cs" startline="42">UnityChan.SpringBone.prevTipPos</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a6fac74be764e380f316f086e90b7074a" compoundref="_spring_bone_8cs" startline="38">UnityChan.SpringBone.springLength</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_bone_1a26c9cfd58f15dedfc07c14b513c811df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringBone.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="127" bodyend="133"/>
+        <references refid="class_unity_chan_1_1_spring_bone_1ac2110aa728bc25cd89000601a7091d1f" compoundref="_spring_bone_8cs" startline="41">UnityChan.SpringBone.currTipPos</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a444339e6a26713fbdf01c4d0370baec1" compoundref="_spring_bone_8cs" startline="35">UnityChan.SpringBone.debug</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a2df74dd3501023c0800717e72985cac4" compoundref="_spring_bone_8cs" startline="23">UnityChan.SpringBone.radius</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringBone.UpdateSpring</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateSpring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="78" bodyend="125"/>
+        <references refid="class_unity_chan_1_1_spring_bone_1aa82e67db44f7f7dacb465f60675f1f18" compoundref="_spring_bone_8cs" startline="22">UnityChan.SpringBone.boneAxis</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1acfd10b3856467ad58050f23b955226dc" compoundref="_spring_bone_8cs" startline="34">UnityChan.SpringBone.colliders</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1ac2110aa728bc25cd89000601a7091d1f" compoundref="_spring_bone_8cs" startline="41">UnityChan.SpringBone.currTipPos</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1ab0e8846932b249b5bd13f10b8e3df92a" compoundref="_spring_bone_8cs" startline="32">UnityChan.SpringBone.dragForce</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a56cc5d1811618db6ca7ac247b3a798bf" compoundref="_spring_bone_8cs" startline="39">UnityChan.SpringBone.localRotation</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1ab1688e64bd490e78ce91a396af8a3a3f" compoundref="_spring_bone_8cs" startline="44">UnityChan.SpringBone.org</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a87afffbe8c40d06d6a6844f6b97c9427" compoundref="_spring_bone_8cs" startline="42">UnityChan.SpringBone.prevTipPos</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a2df74dd3501023c0800717e72985cac4" compoundref="_spring_bone_8cs" startline="23">UnityChan.SpringBone.radius</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1abd19b7659cdc0de115be497bd78446f3" compoundref="_spring_bone_8cs" startline="33">UnityChan.SpringBone.springForce</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a6fac74be764e380f316f086e90b7074a" compoundref="_spring_bone_8cs" startline="38">UnityChan.SpringBone.springLength</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a9b1ec35ddd49cc27bf0a4945fe443882" compoundref="_spring_bone_8cs" startline="29">UnityChan.SpringBone.stiffnessForce</references>
+        <references refid="class_unity_chan_1_1_spring_bone_1a711dd0ee2bb8813d4d31f4348b2b532f" compoundref="_spring_bone_8cs" startline="40">UnityChan.SpringBone.trs</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2360">
+        <label>UnityChan.SpringBone</label>
+        <link refid="class_unity_chan_1_1_spring_bone"/>
+        <childnode refid="2361" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2361">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2364">
+        <label>UnityChan.SpringManager</label>
+        <link refid="class_unity_chan_1_1_spring_manager"/>
+        <childnode refid="2363" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2362" relation="usage">
+          <edgelabel>springBones</edgelabel>
+        </childnode>
+      </node>
+      <node id="2362">
+        <label>UnityChan.SpringBone</label>
+        <link refid="class_unity_chan_1_1_spring_bone"/>
+        <childnode refid="2363" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2364" relation="usage">
+          <edgelabel>managerRef</edgelabel>
+        </childnode>
+        <childnode refid="2365" relation="usage">
+          <edgelabel>colliders</edgelabel>
+        </childnode>
+      </node>
+      <node id="2363">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2365">
+        <label>UnityChan.SpringCollider</label>
+        <link refid="class_unity_chan_1_1_spring_collider"/>
+        <childnode refid="2363" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" bodystart="16" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_spring_bone_1ae6730534e5993ad79ee77a262c5d917d" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>Awake</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1aa82e67db44f7f7dacb465f60675f1f18" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>boneAxis</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a81a353cf49b5119b94cc6b3e01bf8638" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>child</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1acfd10b3856467ad58050f23b955226dc" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>colliders</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1ac2110aa728bc25cd89000601a7091d1f" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>currTipPos</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a444339e6a26713fbdf01c4d0370baec1" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>debug</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1ab0e8846932b249b5bd13f10b8e3df92a" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>dragForce</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a2c85dee0012f6c07db5fe11ce2ee049c" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>GetParentSpringManager</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a5309adf1f1179a0dd53e8dc14c4c2525" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>isUseEachBoneForceSettings</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a56cc5d1811618db6ca7ac247b3a798bf" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>localRotation</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a25c91e0d61726e0695127575642f31c6" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>managerRef</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a26c9cfd58f15dedfc07c14b513c811df" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1ab1688e64bd490e78ce91a396af8a3a3f" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>org</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a87afffbe8c40d06d6a6844f6b97c9427" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>prevTipPos</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a2df74dd3501023c0800717e72985cac4" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>radius</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1abd19b7659cdc0de115be497bd78446f3" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>springForce</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a6fac74be764e380f316f086e90b7074a" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>springLength</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a5c7e0c2c6091c85d7ea1ae2ff0d0a084" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>Start</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a9b1ec35ddd49cc27bf0a4945fe443882" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>stiffnessForce</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a27b6e398edb11a520201460751a661d3" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>threshold</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1a711dd0ee2bb8813d4d31f4348b2b532f" prot="private" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>trs</name></member>
+      <member refid="class_unity_chan_1_1_spring_bone_1aa2d82a72330b1c78af6f77e24fca2fa7" prot="public" virt="non-virtual"><scope>UnityChan::SpringBone</scope><name>UpdateSpring</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

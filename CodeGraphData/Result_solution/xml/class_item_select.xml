@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_item_select" kind="class" prot="public">
+    <compoundname>ItemSelect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_select_1ab7a7cc9e55e5eadc33c76fe3bbe708eb" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.hammer</definition>
+        <argsstring></argsstring>
+        <name>hammer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a5cae37224ae82c475ae011af3eb3bb4f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.bomb1</definition>
+        <argsstring></argsstring>
+        <name>bomb1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_item_select_1a07b63790fe443cbb6353ea3410f7f0df" compoundref="_item_select_8cs" startline="27" endline="36">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a2860970afaa11929425534fd88130e40" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.Select</definition>
+        <argsstring></argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1aad35dd29846b8fbdf51ea71dd0e1c367" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemSelect.bomb1Flg</definition>
+        <argsstring></argsstring>
+        <name>bomb1Flg</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" compoundref="_item_select_8cs" startline="39" endline="161">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1aff6600e349abee079f742eb3b2cd1584" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemSelect.HammerFlg</definition>
+        <argsstring></argsstring>
+        <name>HammerFlg</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" compoundref="_item_select_8cs" startline="39" endline="161">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a887af253f92cefa322c529934e76dac9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemSelect.pushflg</definition>
+        <argsstring></argsstring>
+        <name>pushflg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" compoundref="_item_select_8cs" startline="39" endline="161">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a96edb2324bff72fd8f6bb6334a1f5570" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemSelect.ButtunFlg</definition>
+        <argsstring></argsstring>
+        <name>ButtunFlg</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" compoundref="_item_select_8cs" startline="39" endline="161">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a053eb343ed192d5d2446b6fcceafcb99" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemSelect.BombIns</definition>
+        <argsstring></argsstring>
+        <name>BombIns</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" compoundref="_item_select_8cs" startline="39" endline="161">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_item_select_1a3ce7ecce05d61392dbae98eb3a01a212" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ItemSelect.ItemNumber</definition>
+        <argsstring></argsstring>
+        <name>ItemNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_item_select_1afaa1e39338683fb19e7e9eb9f439471b" compoundref="_item_select_8cs" startline="162" endline="165">ItemNumberFlg</referencedby>
+        <referencedby refid="class_item_select_1a07b63790fe443cbb6353ea3410f7f0df" compoundref="_item_select_8cs" startline="27" endline="36">Start</referencedby>
+        <referencedby refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" compoundref="_item_select_8cs" startline="39" endline="161">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_item_select_1a6a1c27022680593fe621c8babf5c0610" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.bombButton</definition>
+        <argsstring></argsstring>
+        <name>bombButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1ac92314037925968ec9f41ba034c8f2d1" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.ButtonSelect</definition>
+        <argsstring></argsstring>
+        <name>ButtonSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1af7acc318b795e8844cc252d87f672955" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.bombSelect</definition>
+        <argsstring></argsstring>
+        <name>bombSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1adf0a222528c72270a39d64fc8aca7f09" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.SwingText</definition>
+        <argsstring></argsstring>
+        <name>SwingText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a2cf58ae2a34d382280d32d1fb50b61bf" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.SettiText</definition>
+        <argsstring></argsstring>
+        <name>SettiText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_select_1a30e64816e450b279d37631ad106f4ae8" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ItemSelect.ExpText</definition>
+        <argsstring></argsstring>
+        <name>ExpText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_item_select_1a07b63790fe443cbb6353ea3410f7f0df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemSelect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="27" bodyend="36"/>
+        <references refid="class_item_select_1a5cae37224ae82c475ae011af3eb3bb4f" compoundref="_item_select_8cs" startline="9">bomb1</references>
+        <references refid="class_item_select_1a3ce7ecce05d61392dbae98eb3a01a212" compoundref="_item_select_8cs" startline="14">ItemNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemSelect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="39" bodyend="161"/>
+        <references refid="class_item_select_1aad35dd29846b8fbdf51ea71dd0e1c367" compoundref="_item_select_8cs" startline="21">bomb1Flg</references>
+        <references refid="class_item_select_1a053eb343ed192d5d2446b6fcceafcb99" compoundref="_item_select_8cs" startline="25">BombIns</references>
+        <references refid="class_item_select_1a96edb2324bff72fd8f6bb6334a1f5570" compoundref="_item_select_8cs" startline="24">ButtunFlg</references>
+        <references refid="class_item_select_1aff6600e349abee079f742eb3b2cd1584" compoundref="_item_select_8cs" startline="22">HammerFlg</references>
+        <references refid="class_item_select_1a3ce7ecce05d61392dbae98eb3a01a212" compoundref="_item_select_8cs" startline="14">ItemNumber</references>
+        <references refid="class_item_select_1a887af253f92cefa322c529934e76dac9" compoundref="_item_select_8cs" startline="23">pushflg</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_item_select_1afaa1e39338683fb19e7e9eb9f439471b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ItemSelect.ItemNumberFlg</definition>
+        <argsstring>()</argsstring>
+        <name>ItemNumberFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="162" bodyend="165"/>
+        <references refid="class_item_select_1a3ce7ecce05d61392dbae98eb3a01a212" compoundref="_item_select_8cs" startline="14">ItemNumber</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1344">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1343">
+        <label>ItemSelect</label>
+        <link refid="class_item_select"/>
+        <childnode refid="1344" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1346">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1345">
+        <label>ItemSelect</label>
+        <link refid="class_item_select"/>
+        <childnode refid="1346" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/ItemSelect.cs" bodystart="6" bodyend="166"/>
+    <listofallmembers>
+      <member refid="class_item_select_1a5cae37224ae82c475ae011af3eb3bb4f" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>bomb1</name></member>
+      <member refid="class_item_select_1aad35dd29846b8fbdf51ea71dd0e1c367" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>bomb1Flg</name></member>
+      <member refid="class_item_select_1a6a1c27022680593fe621c8babf5c0610" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>bombButton</name></member>
+      <member refid="class_item_select_1a053eb343ed192d5d2446b6fcceafcb99" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>BombIns</name></member>
+      <member refid="class_item_select_1af7acc318b795e8844cc252d87f672955" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>bombSelect</name></member>
+      <member refid="class_item_select_1ac92314037925968ec9f41ba034c8f2d1" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>ButtonSelect</name></member>
+      <member refid="class_item_select_1a96edb2324bff72fd8f6bb6334a1f5570" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>ButtunFlg</name></member>
+      <member refid="class_item_select_1a30e64816e450b279d37631ad106f4ae8" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>ExpText</name></member>
+      <member refid="class_item_select_1ab7a7cc9e55e5eadc33c76fe3bbe708eb" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>hammer</name></member>
+      <member refid="class_item_select_1aff6600e349abee079f742eb3b2cd1584" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>HammerFlg</name></member>
+      <member refid="class_item_select_1a3ce7ecce05d61392dbae98eb3a01a212" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>ItemNumber</name></member>
+      <member refid="class_item_select_1afaa1e39338683fb19e7e9eb9f439471b" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>ItemNumberFlg</name></member>
+      <member refid="class_item_select_1a887af253f92cefa322c529934e76dac9" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>pushflg</name></member>
+      <member refid="class_item_select_1a2860970afaa11929425534fd88130e40" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>Select</name></member>
+      <member refid="class_item_select_1a2cf58ae2a34d382280d32d1fb50b61bf" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>SettiText</name></member>
+      <member refid="class_item_select_1a07b63790fe443cbb6353ea3410f7f0df" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>Start</name></member>
+      <member refid="class_item_select_1adf0a222528c72270a39d64fc8aca7f09" prot="public" virt="non-virtual"><scope>ItemSelect</scope><name>SwingText</name></member>
+      <member refid="class_item_select_1a4cece497e18ba82a14d84716a07a8dd9" prot="private" virt="non-virtual"><scope>ItemSelect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

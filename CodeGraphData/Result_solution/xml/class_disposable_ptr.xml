@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_disposable_ptr" kind="class" prot="public" abstract="yes">
+    <compoundname>DisposablePtr</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_nv_fracture_tool" prot="public" virt="non-virtual">NvFractureTool</derivedcompoundref>
+    <derivedcompoundref refid="class_nv_mesh" prot="public" virt="non-virtual">NvMesh</derivedcompoundref>
+    <derivedcompoundref refid="class_nv_mesh_cleaner" prot="public" virt="non-virtual">NvMeshCleaner</derivedcompoundref>
+    <derivedcompoundref refid="class_nv_voronoi_sites_generator" prot="public" virt="non-virtual">NvVoronoiSitesGenerator</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr DisposablePtr.ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a17abcfeac900a891a45100f4eff218e3" compoundref="_nv_blast_ext_unity_8cs" startline="265" endline="268">NvVoronoiSitesGenerator.addSite</referencedby>
+        <referencedby refid="class_nv_mesh_cleaner_1aea677236607f1a72b377a13dd4688110" compoundref="_nv_blast_ext_unity_8cs" startline="142" endline="145">NvMeshCleaner.cleanMesh</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a525873f560729d7b6f3dbf31bc91af30" compoundref="_nv_blast_ext_unity_8cs" startline="270" endline="273">NvVoronoiSitesGenerator.clusteredSitesGeneration</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1a037f6e5c95cc66f1e89d241966e35557" compoundref="_nv_blast_ext_unity_8cs" startline="209" endline="212">NvFractureTool.finalizeFracturing</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1a894af638acc84966a125af877270a2e5" compoundref="_nv_blast_ext_unity_8cs" startline="214" endline="217">NvFractureTool.getChunkCount</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1aff37e52551dd1407de25279a8cf8bd9b" compoundref="_nv_blast_ext_unity_8cs" startline="219" endline="222">NvFractureTool.getChunkMesh</referencedby>
+        <referencedby refid="class_nv_mesh_1ab21749ad8459b78464fcd48eebe9f9d1" compoundref="_nv_blast_ext_unity_8cs" startline="90" endline="95">NvMesh.getIndexes</referencedby>
+        <referencedby refid="class_nv_mesh_1a9f9aaeb2599c1a18865520675eac8fa8" compoundref="_nv_blast_ext_unity_8cs" startline="102" endline="105">NvMesh.getIndexesCount</referencedby>
+        <referencedby refid="class_nv_mesh_1af8b029980d13b40853dc3e9daceb2410" compoundref="_nv_blast_ext_unity_8cs" startline="78" endline="83">NvMesh.getNormals</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1ae4e01c67dac742f809fe52fd2c061095" compoundref="_nv_blast_ext_unity_8cs" startline="275" endline="280">NvVoronoiSitesGenerator.getSites</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1aabebfb4d33577076d5934117babfd93a" compoundref="_nv_blast_ext_unity_8cs" startline="282" endline="285">NvVoronoiSitesGenerator.getSitesCount</referencedby>
+        <referencedby refid="class_nv_mesh_1a2d6e30a499ba7afa2e3dbb8c00d35a60" compoundref="_nv_blast_ext_unity_8cs" startline="84" endline="89">NvMesh.getUVs</referencedby>
+        <referencedby refid="class_nv_mesh_1a7bd0058fa2169436f671ea33433e7cbe" compoundref="_nv_blast_ext_unity_8cs" startline="72" endline="77">NvMesh.getVertices</referencedby>
+        <referencedby refid="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" compoundref="_nv_blast_ext_unity_8cs" startline="97" endline="100">NvMesh.getVerticesCount</referencedby>
+        <referencedby refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" compoundref="_nv_blast_8cs" startline="9" endline="13">Initialize</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a4bebc76e5ad174fe23f8fe7f993cf4e9" compoundref="_nv_blast_ext_unity_8cs" startline="254" endline="258">NvVoronoiSitesGenerator.NvVoronoiSitesGenerator</referencedby>
+        <referencedby refid="class_nv_mesh_1a29a23a1cd7c28b181ea598aa51b0ce05" compoundref="_nv_blast_ext_unity_8cs" startline="107" endline="111">NvMesh.Release</referencedby>
+        <referencedby refid="class_nv_mesh_cleaner_1a46ca34f7d8945b4087448e13b8f65c34" compoundref="_nv_blast_ext_unity_8cs" startline="147" endline="151">NvMeshCleaner.Release</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1aa95421f3fe8a579f5f4fb7c7d8362c65" compoundref="_nv_blast_ext_unity_8cs" startline="224" endline="228">NvFractureTool.Release</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1afde5930eb4fa46bf1d7103dfe1aa784f" compoundref="_nv_blast_ext_unity_8cs" startline="287" endline="291">NvVoronoiSitesGenerator.Release</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1a48e26c92c1553832a66033f2a4e44702" compoundref="_nv_blast_ext_unity_8cs" startline="194" endline="197">NvFractureTool.setRemoveIslands</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1aea4511a6f230e60ae8f838cb22e46009" compoundref="_nv_blast_ext_unity_8cs" startline="189" endline="192">NvFractureTool.setSourceMesh</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1a223215ddb3190cec111fcd30876baece" compoundref="_nv_blast_ext_unity_8cs" startline="204" endline="207">NvFractureTool.slicing</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a547681e3dfa5fadce8b5c90a1a627738" compoundref="_nv_blast_ext_unity_8cs" startline="260" endline="263">NvVoronoiSitesGenerator.uniformlyGenerateSitesInMesh</referencedby>
+        <referencedby refid="class_nv_fracture_tool_1aac77e80b2e709dd285142f9146aa9ea4" compoundref="_nv_blast_ext_unity_8cs" startline="199" endline="202">NvFractureTool.voronoiFracturing</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_disposable_ptr_1ad216e5a94eadac2f31ea533ef66b1cc2" prot="private" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr DisposablePtr._ptr</definition>
+        <argsstring></argsstring>
+        <name>_ptr</name>
+        <initializer>= IntPtr.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" compoundref="_nv_blast_8cs" startline="33" endline="45">Dispose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DisposablePtr.Initialize</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="9" bodyend="13"/>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">ptr</references>
+        <referencedby refid="class_nv_fracture_tool_1a144842c8707a59b2b2ea49e3819b6730" compoundref="_nv_blast_ext_unity_8cs" startline="183" endline="187">NvFractureTool.NvFractureTool</referencedby>
+        <referencedby refid="class_nv_mesh_1a9c1118f33089744df61c283e6e99ac4a" compoundref="_nv_blast_ext_unity_8cs" startline="60" endline="64">NvMesh.NvMesh</referencedby>
+        <referencedby refid="class_nv_mesh_cleaner_1ab2a60fa6c496384004280d98b1682cb0" compoundref="_nv_blast_ext_unity_8cs" startline="136" endline="140">NvMeshCleaner.NvMeshCleaner</referencedby>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a4bebc76e5ad174fe23f8fe7f993cf4e9" compoundref="_nv_blast_ext_unity_8cs" startline="254" endline="258">NvVoronoiSitesGenerator.NvVoronoiSitesGenerator</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_disposable_ptr_1af8ea9eba3fee0b77b6e2162c94f1816c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DisposablePtr.ResetPtr</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void DisposablePtr.Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <reimplementedby refid="class_nv_mesh_1a29a23a1cd7c28b181ea598aa51b0ce05">Release</reimplementedby>
+        <reimplementedby refid="class_nv_mesh_cleaner_1a46ca34f7d8945b4087448e13b8f65c34">Release</reimplementedby>
+        <reimplementedby refid="class_nv_fracture_tool_1aa95421f3fe8a579f5f4fb7c7d8362c65">Release</reimplementedby>
+        <reimplementedby refid="class_nv_voronoi_sites_generator_1afde5930eb4fa46bf1d7103dfe1aa784f">Release</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="20" column="1"/>
+        <referencedby refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" compoundref="_nv_blast_8cs" startline="33" endline="45">Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DisposablePtr.Dispose</definition>
+        <argsstring>(bool bDisposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>bDisposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="33" bodyend="45"/>
+        <references refid="class_disposable_ptr_1ad216e5a94eadac2f31ea533ef66b1cc2" compoundref="_nv_blast_8cs" startline="52">_ptr</references>
+        <references refid="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06">Release</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DisposablePtr.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="28" bodyend="31"/>
+        <referencedby refid="class_disposable_ptr_1a3720ca05a5e0028d4a8b86c9125ce6bb" compoundref="_nv_blast_8cs" startline="47" endline="50">~DisposablePtr</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_disposable_ptr_1a3720ca05a5e0028d4a8b86c9125ce6bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DisposablePtr.~DisposablePtr</definition>
+        <argsstring>()</argsstring>
+        <name>~DisposablePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" compoundref="_nv_blast_8cs" startline="28" endline="31">Dispose</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="817">
+        <label>NvMeshCleaner</label>
+        <link refid="class_nv_mesh_cleaner"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>NvFractureTool</label>
+        <link refid="class_nv_fracture_tool"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="814">
+        <label>IDisposable</label>
+      </node>
+      <node id="813">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="814" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="816">
+        <label>NvMesh</label>
+        <link refid="class_nv_mesh"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="818">
+        <label>NvVoronoiSitesGenerator</label>
+        <link refid="class_nv_voronoi_sites_generator"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="820">
+        <label>IDisposable</label>
+      </node>
+      <node id="819">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="820" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlast.cs" bodystart="7" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_disposable_ptr_1ad216e5a94eadac2f31ea533ef66b1cc2" prot="private" virt="non-virtual"><scope>DisposablePtr</scope><name>_ptr</name></member>
+      <member refid="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" prot="public" virt="non-virtual"><scope>DisposablePtr</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" prot="protected" virt="virtual"><scope>DisposablePtr</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" prot="protected" virt="non-virtual"><scope>DisposablePtr</scope><name>Initialize</name></member>
+      <member refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" prot="public" virt="non-virtual"><scope>DisposablePtr</scope><name>ptr</name></member>
+      <member refid="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06" prot="protected" virt="pure-virtual"><scope>DisposablePtr</scope><name>Release</name></member>
+      <member refid="class_disposable_ptr_1af8ea9eba3fee0b77b6e2162c94f1816c" prot="protected" virt="non-virtual"><scope>DisposablePtr</scope><name>ResetPtr</name></member>
+      <member refid="class_disposable_ptr_1a3720ca05a5e0028d4a8b86c9125ce6bb" prot="private" virt="non-virtual"><scope>DisposablePtr</scope><name>~DisposablePtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

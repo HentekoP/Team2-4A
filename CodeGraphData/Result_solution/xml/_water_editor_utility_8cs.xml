@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_water_editor_utility_8cs" kind="file">
+    <compoundname>WaterEditorUtility.cs</compoundname>
+    <innerclass refid="class_water_editor_utility" prot="public">WaterEditorUtility</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_water_editor_utility" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_water_editor_utility" kindref="compound">WaterEditorUtility</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>helper<sp/>functions<sp/>to<sp/>retrieve<sp/>&amp;<sp/>set<sp/>material<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_water_editor_utility_1a424b4fc328b7370bd1f90a1516268982" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_water_editor_utility_1a424b4fc328b7370bd1f90a1516268982" kindref="member">GetMaterialFloat</ref>(System.String<sp/>name,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mat.GetFloat(name);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11" refid="class_water_editor_utility_1aeee82ae8c53e1f505220b3576b0bc5c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_water_editor_utility_1aeee82ae8c53e1f505220b3576b0bc5c6" kindref="member">SetMaterialFloat</ref>(System.String<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mat.SetFloat(name,<sp/>f);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_water_editor_utility_1a54d98514839c67b732eed897ff6f1993" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Color<sp/><ref refid="class_water_editor_utility_1a54d98514839c67b732eed897ff6f1993" kindref="member">GetMaterialColor</ref>(System.String<sp/>name,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mat.GetColor(name);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18" refid="class_water_editor_utility_1ac3c2023f74d4f0ac5062f1c8d1ff4d3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_water_editor_utility_1ac3c2023f74d4f0ac5062f1c8d1ff4d3e" kindref="member">SetMaterialColor</ref>(System.String<sp/>name,<sp/>Color<sp/>color,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mat.SetColor(name,<sp/>color);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21" refid="class_water_editor_utility_1a76035407d1079982c7f1acdde8f335bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Vector4<sp/><ref refid="class_water_editor_utility_1a76035407d1079982c7f1acdde8f335bf" kindref="member">GetMaterialVector</ref>(System.String<sp/>name,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mat.GetVector(name);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24" refid="class_water_editor_utility_1a9503d38955a7dc3c9d8bec963cc83342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_water_editor_utility_1a9503d38955a7dc3c9d8bec963cc83342" kindref="member">SetMaterialVector</ref>(System.String<sp/>name,<sp/>Vector4<sp/>vector,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mat.SetVector(name,<sp/>vector);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27" refid="class_water_editor_utility_1ab1ea814c527fc45bd7337e6e06cc3547" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Texture<sp/><ref refid="class_water_editor_utility_1ab1ea814c527fc45bd7337e6e06cc3547" kindref="member">GetMaterialTexture</ref>(System.String<sp/>theName,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mat.GetTexture(theName);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30" refid="class_water_editor_utility_1a74c649bdb64faf55de67125fd8daeeac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_water_editor_utility_1a74c649bdb64faf55de67125fd8daeeac" kindref="member">SetMaterialTexture</ref>(System.String<sp/>theName,<sp/>Texture<sp/>parameter,<sp/>Material<sp/>mat)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mat.SetTexture(theName,<sp/>parameter);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34" refid="class_water_editor_utility_1a0b90e27441bd1abef7f378ee4dd92cea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Material<sp/><ref refid="class_water_editor_utility_1a0b90e27441bd1abef7f378ee4dd92cea" kindref="member">LocateValidWaterMaterial</ref>(Transform<sp/>parent)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(parent.GetComponent&lt;Renderer&gt;()<sp/>&amp;&amp;<sp/>parent.GetComponent&lt;Renderer&gt;().sharedMaterial)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parent.GetComponent&lt;Renderer&gt;().sharedMaterial;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<sp/>Transform<sp/>t<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>parent)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(t.GetComponent&lt;Renderer&gt;()<sp/>&amp;&amp;<sp/>t.GetComponent&lt;Renderer&gt;().sharedMaterial)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t.GetComponent&lt;Renderer&gt;().sharedMaterial;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46" refid="class_water_editor_utility_1a99f4e7d2c720ff28a485efe24629cd0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_water_editor_utility_1a99f4e7d2c720ff28a485efe24629cd0c" kindref="member">CurveGui</ref><sp/>(System.String<sp/>name,<sp/>SerializedObject<sp/>serObj,<sp/>Color<sp/>color)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AnimationCurve<sp/>curve<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>AnimationCurve(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Keyframe(0,<sp/>0.0f,<sp/>1.0f,<sp/>1.0f),<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Keyframe(1,<sp/>1.0f,<sp/>1.0f,<sp/>1.0f));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curve<sp/>=<sp/>EditorGUILayout.CurveField(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GUIContent<sp/>(name),<sp/>curve,<sp/>color,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rect<sp/>(0.0f,0.0f,1.0f,1.0f));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(GUI.changed)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>AnimationCurveChanged(((WaterBase)serObj.targetObject).sharedMaterial,<sp/>curve);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//((WaterBase)serObj.targetObject).gameObject.SendMessage<sp/>(&quot;AnimationCurveChanged&quot;,<sp/>SendMessageOptions.DontRequireReceiver);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/>public<sp/>static<sp/>void<sp/>AnimationCurveChanged(Material<sp/>sharedMaterial,<sp/>AnimationCurve<sp/>fresnelCurve)</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(&quot;AnimationCurveChanged&quot;);</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Texture2D<sp/>fresnel<sp/>=<sp/>(Texture2D)sharedMaterial.GetTexture(&quot;_Fresnel&quot;);</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(!fresnel)</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fresnel<sp/>=<sp/>new<sp/>Texture2D(256,1);</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>256;<sp/>i++)</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float<sp/>val<sp/>=<sp/>Mathf.Clamp01(fresnelCurve.Evaluate((float)i)/255.0f);</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(&quot;&quot;+(((float)i)/255.0f)<sp/>+&quot;:<sp/>&quot;+val);</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fresnel.SetPixel(i,<sp/>0,<sp/>new<sp/>Color(val,val,val,val));</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fresnel.Apply();</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sharedMaterial.SetTexture(&quot;_Fresnel&quot;,<sp/>fresnel);</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_nv_mesh_cleaner" kind="class" prot="public">
+    <compoundname>NvMeshCleaner</compoundname>
+    <basecompoundref refid="class_disposable_ptr" prot="public" virt="non-virtual">DisposablePtr</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_nv_mesh_cleaner_1a6af24507915cd1cb445bf42dc36d7287" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvMeshCleaner._Cleaner_Release</definition>
+        <argsstring>(IntPtr cleaner)</argsstring>
+        <name>_Cleaner_Release</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>cleaner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="128" column="1"/>
+        <referencedby refid="class_nv_mesh_cleaner_1a46ca34f7d8945b4087448e13b8f65c34" compoundref="_nv_blast_ext_unity_8cs" startline="147" endline="151">Release</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_cleaner_1a955df6eada637504c2b46f6af63e9af0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvMeshCleaner._Cleaner_cleanMesh</definition>
+        <argsstring>(IntPtr cleaner, IntPtr mesh)</argsstring>
+        <name>_Cleaner_cleanMesh</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>cleaner</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="131" column="1"/>
+        <referencedby refid="class_nv_mesh_cleaner_1aea677236607f1a72b377a13dd4688110" compoundref="_nv_blast_ext_unity_8cs" startline="142" endline="145">cleanMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_cleaner_1abd1d5b83e04008bee1ac48c2b2c9b808" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvMeshCleaner.NvBlastExtAuthoringCreateMeshCleaner</definition>
+        <argsstring>()</argsstring>
+        <name>NvBlastExtAuthoringCreateMeshCleaner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="134" column="1"/>
+        <referencedby refid="class_nv_mesh_cleaner_1ab2a60fa6c496384004280d98b1682cb0" compoundref="_nv_blast_ext_unity_8cs" startline="136" endline="140">NvMeshCleaner</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_nv_mesh_cleaner_1ab2a60fa6c496384004280d98b1682cb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NvMeshCleaner.NvMeshCleaner</definition>
+        <argsstring>()</argsstring>
+        <name>NvMeshCleaner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="136" bodyend="140"/>
+        <references refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" compoundref="_nv_blast_8cs" startline="9" endline="13">DisposablePtr.Initialize</references>
+        <references refid="class_nv_mesh_cleaner_1abd1d5b83e04008bee1ac48c2b2c9b808">NvBlastExtAuthoringCreateMeshCleaner</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_cleaner_1aea677236607f1a72b377a13dd4688110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_nv_mesh" kindref="compound">NvMesh</ref></type>
+        <definition>NvMesh NvMeshCleaner.cleanMesh</definition>
+        <argsstring>(NvMesh mesh)</argsstring>
+        <name>cleanMesh</name>
+        <param>
+          <type><ref refid="class_nv_mesh" kindref="compound">NvMesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="142" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="142" bodyend="145"/>
+        <references refid="class_nv_mesh_cleaner_1a955df6eada637504c2b46f6af63e9af0">_Cleaner_cleanMesh</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_nv_mesh_cleaner_1a46ca34f7d8945b4087448e13b8f65c34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void NvMeshCleaner.Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <reimplements refid="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06">Release</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="147" bodyend="151"/>
+        <references refid="class_nv_mesh_cleaner_1a6af24507915cd1cb445bf42dc36d7287">_Cleaner_Release</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1583">
+        <label>NvMeshCleaner</label>
+        <link refid="class_nv_mesh_cleaner"/>
+        <childnode refid="1584" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1585">
+        <label>IDisposable</label>
+      </node>
+      <node id="1584">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1585" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1586">
+        <label>NvMeshCleaner</label>
+        <link refid="class_nv_mesh_cleaner"/>
+        <childnode refid="1587" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1588">
+        <label>IDisposable</label>
+      </node>
+      <node id="1587">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1588" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="125" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_nv_mesh_cleaner_1a955df6eada637504c2b46f6af63e9af0" prot="private" virt="non-virtual"><scope>NvMeshCleaner</scope><name>_Cleaner_cleanMesh</name></member>
+      <member refid="class_nv_mesh_cleaner_1a6af24507915cd1cb445bf42dc36d7287" prot="private" virt="non-virtual"><scope>NvMeshCleaner</scope><name>_Cleaner_Release</name></member>
+      <member refid="class_nv_mesh_cleaner_1aea677236607f1a72b377a13dd4688110" prot="public" virt="non-virtual"><scope>NvMeshCleaner</scope><name>cleanMesh</name></member>
+      <member refid="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" prot="public" virt="non-virtual"><scope>NvMeshCleaner</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" prot="protected" virt="virtual"><scope>NvMeshCleaner</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" prot="protected" virt="non-virtual"><scope>NvMeshCleaner</scope><name>Initialize</name></member>
+      <member refid="class_nv_mesh_cleaner_1abd1d5b83e04008bee1ac48c2b2c9b808" prot="private" virt="non-virtual"><scope>NvMeshCleaner</scope><name>NvBlastExtAuthoringCreateMeshCleaner</name></member>
+      <member refid="class_nv_mesh_cleaner_1ab2a60fa6c496384004280d98b1682cb0" prot="public" virt="non-virtual"><scope>NvMeshCleaner</scope><name>NvMeshCleaner</name></member>
+      <member refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" prot="public" virt="non-virtual"><scope>NvMeshCleaner</scope><name>ptr</name></member>
+      <member refid="class_nv_mesh_cleaner_1a46ca34f7d8945b4087448e13b8f65c34" prot="protected" virt="virtual"><scope>NvMeshCleaner</scope><name>Release</name></member>
+      <member refid="class_disposable_ptr_1af8ea9eba3fee0b77b6e2162c94f1816c" prot="protected" virt="non-virtual"><scope>NvMeshCleaner</scope><name>ResetPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

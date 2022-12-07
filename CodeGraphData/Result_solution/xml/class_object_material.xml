@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_object_material" kind="class" prot="public">
+    <compoundname>ObjectMaterial</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_object_material_1a6ed8b816963e795989521aa7fd096d96" prot="public" static="no" mutable="no">
+        <type><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref></type>
+        <definition>MaterialTypes ObjectMaterial.MaterialType</definition>
+        <argsstring></argsstring>
+        <name>MaterialType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterial.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterial.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_object_material_1a14d7ea50ab30fe506d155179c141b341" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectMaterial.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterial.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterial.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1596">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1595">
+        <label>ObjectMaterial</label>
+        <link refid="class_object_material"/>
+        <childnode refid="1596" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1598">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1597">
+        <label>ObjectMaterial</label>
+        <link refid="class_object_material"/>
+        <childnode refid="1598" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterial.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterial.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_object_material_1a6ed8b816963e795989521aa7fd096d96" prot="public" virt="non-virtual"><scope>ObjectMaterial</scope><name>MaterialType</name></member>
+      <member refid="class_object_material_1a14d7ea50ab30fe506d155179c141b341" prot="private" virt="non-virtual"><scope>ObjectMaterial</scope><name>OnCollisionEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

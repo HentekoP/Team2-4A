@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::ScreenSpaceReflectionComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fe" prot="private" static="no">
+        <name>PassIndex</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea4e443c185877beccda3d342600c0fbd0" prot="public">
+          <name>RayTraceStep</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea39ea82782e80bc4bfbd96c733dc0e23b" prot="public">
+          <name>CompositeFinal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea8b52de510bc5497ac43abfe566be48ab" prot="public">
+          <name>Blur</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748feac4c0f029ff6db02d9518ed8bfd5820fb" prot="public">
+          <name>CompositeSSR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748feab977b89aab3ac492ed34edd82416dc42" prot="public">
+          <name>MinMipGeneration</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea3708759e69595e1aa3c16a1912a0c375" prot="public">
+          <name>HitPointToReflections</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fea2b4d95eef7a619af8440bd3bed22667b" prot="public">
+          <name>BilateralKeyPack</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fead24e43109af3ee6d200b65d6be048702" prot="public">
+          <name>BlitDepthAsCSZ</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748feafd8fe4ba186a27324e08d6736ca5b5cb" prot="public">
+          <name>PoissonBlur</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="55" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a096d2ef9820013ddb79b0bd4d23d4b0c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_HighlightSuppression</definition>
+        <argsstring></argsstring>
+        <name>k_HighlightSuppression</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a7fe586e0cf7002cdff8bcabd0576720a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_TraceBehindObjects</definition>
+        <argsstring></argsstring>
+        <name>k_TraceBehindObjects</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a405f360e417e577179cf1dde4b5402da" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_TreatBackfaceHitAsMiss</definition>
+        <argsstring></argsstring>
+        <name>k_TreatBackfaceHitAsMiss</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a10d58abd7dfda248863c117cdd480ace" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.k_BilateralUpsample</definition>
+        <argsstring></argsstring>
+        <name>k_BilateralUpsample</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a275d34901b7119d6da79847beac8fa8e" prot="private" static="no" mutable="no">
+        <type>readonly int[]</type>
+        <definition>readonly int [] UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.m_ReflectionTextures</definition>
+        <argsstring></argsstring>
+        <name>m_ReflectionTextures</name>
+        <initializer>= new int[5]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aa8700a0b57b1a9d4a9d928af7fb3fbad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aeaa198759ea4fae9a6ee5feac84730fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18">GetCameraFlags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a0d58b4de3e36450e06df20a4de6bd84c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.ScreenSpaceReflectionComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="105" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2159">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="2157">
+        <label>PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="2158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2158">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="2159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2156">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component"/>
+        <childnode refid="2157" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2163">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="2164" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="2185">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="2166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2172">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2182">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2180">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2166">
+        <label>IDisposable</label>
+      </node>
+      <node id="2161">
+        <label>PostProcessingComponentCommandBuffer&lt; ScreenSpaceReflectionModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="2162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2174">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2162">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="2163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2175">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2184">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2178">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2168">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2167">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2168" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2169" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="2172" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="2173" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="2174" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="2175" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="2176" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="2177" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="2178" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="2179" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="2180" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="2181" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="2182" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="2183" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="2184" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2160">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component"/>
+        <childnode refid="2161" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2170">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2164">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="2165" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="2167" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="2185" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="2183">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2165">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="2166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2173">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2181">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2171">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2177">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2169">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2179">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2176">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="2170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2171" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" bodystart="8" bodyend="238"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aa8700a0b57b1a9d4a9d928af7fb3fbad" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a696726c8892304b37695a69c900b2b97" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1aeaa198759ea4fae9a6ee5feac84730fa" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1ad4da13965c3b67798e594134f70505e3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a10d58abd7dfda248863c117cdd480ace" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_BilateralUpsample</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a096d2ef9820013ddb79b0bd4d23d4b0c" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_HighlightSuppression</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a7fe586e0cf7002cdff8bcabd0576720a" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_TraceBehindObjects</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a405f360e417e577179cf1dde4b5402da" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>k_TreatBackfaceHitAsMiss</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a275d34901b7119d6da79847beac8fa8e" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>m_ReflectionTextures</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a0d58b4de3e36450e06df20a4de6bd84c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a436158720e345bea4820f47196b748fe" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>PassIndex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_component_1a816b26c983d2e6b8723a049dafa72544" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::ScreenSpaceReflectionComponent</scope><name>PopulateCommandBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

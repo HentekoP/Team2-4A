@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_random_wind" kind="class" prot="public">
+    <compoundname>UnityChan::RandomWind</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_random_wind_1a33aa98bf9e8df720bb5ea6c82d4cc0d5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_chan_1_1_spring_bone" kindref="compound">SpringBone</ref>[]</type>
+        <definition>SpringBone [] UnityChan.RandomWind.springBones</definition>
+        <argsstring></argsstring>
+        <name>springBones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_random_wind_1afbced08dbe327259e514257e594cdaf1" compoundref="_random_wind_8cs" startline="20" endline="23">UnityChan.RandomWind.Start</referencedby>
+        <referencedby refid="class_unity_chan_1_1_random_wind_1a9c94377465728b32fed1fecdacf040bb" compoundref="_random_wind_8cs" startline="26" endline="36">UnityChan.RandomWind.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_random_wind_1a7910454e10aa1c600dcdc3b0af1d86cf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.RandomWind.isWindActive</definition>
+        <argsstring></argsstring>
+        <name>isWindActive</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_random_wind_1aa699f106a310ee488e1a07863debf469" compoundref="_random_wind_8cs" startline="38" endline="42">UnityChan.RandomWind.OnGUI</referencedby>
+        <referencedby refid="class_unity_chan_1_1_random_wind_1a9c94377465728b32fed1fecdacf040bb" compoundref="_random_wind_8cs" startline="26" endline="36">UnityChan.RandomWind.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_random_wind_1afbced08dbe327259e514257e594cdaf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.RandomWind.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" bodystart="20" bodyend="23"/>
+        <references refid="class_unity_chan_1_1_random_wind_1a33aa98bf9e8df720bb5ea6c82d4cc0d5" compoundref="_random_wind_8cs" startline="16">UnityChan.RandomWind.springBones</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_random_wind_1a9c94377465728b32fed1fecdacf040bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.RandomWind.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" bodystart="26" bodyend="36"/>
+        <references refid="class_unity_chan_1_1_random_wind_1a7910454e10aa1c600dcdc3b0af1d86cf" compoundref="_random_wind_8cs" startline="17">UnityChan.RandomWind.isWindActive</references>
+        <references refid="class_unity_chan_1_1_random_wind_1a33aa98bf9e8df720bb5ea6c82d4cc0d5" compoundref="_random_wind_8cs" startline="16">UnityChan.RandomWind.springBones</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_random_wind_1aa699f106a310ee488e1a07863debf469" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.RandomWind.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" bodystart="38" bodyend="42"/>
+        <references refid="class_unity_chan_1_1_random_wind_1a7910454e10aa1c600dcdc3b0af1d86cf" compoundref="_random_wind_8cs" startline="17">UnityChan.RandomWind.isWindActive</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2065">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2064">
+        <label>UnityChan.RandomWind</label>
+        <link refid="class_unity_chan_1_1_random_wind"/>
+        <childnode refid="2065" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2069">
+        <label>UnityChan.SpringManager</label>
+        <link refid="class_unity_chan_1_1_spring_manager"/>
+        <childnode refid="2067" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2068" relation="usage">
+          <edgelabel>springBones</edgelabel>
+        </childnode>
+      </node>
+      <node id="2068">
+        <label>UnityChan.SpringBone</label>
+        <link refid="class_unity_chan_1_1_spring_bone"/>
+        <childnode refid="2067" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2069" relation="usage">
+          <edgelabel>managerRef</edgelabel>
+        </childnode>
+        <childnode refid="2070" relation="usage">
+          <edgelabel>colliders</edgelabel>
+        </childnode>
+      </node>
+      <node id="2067">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2070">
+        <label>UnityChan.SpringCollider</label>
+        <link refid="class_unity_chan_1_1_spring_collider"/>
+        <childnode refid="2067" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2066">
+        <label>UnityChan.RandomWind</label>
+        <link refid="class_unity_chan_1_1_random_wind"/>
+        <childnode refid="2067" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2068" relation="usage">
+          <edgelabel>springBones</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" bodystart="14" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_random_wind_1a7910454e10aa1c600dcdc3b0af1d86cf" prot="public" virt="non-virtual"><scope>UnityChan::RandomWind</scope><name>isWindActive</name></member>
+      <member refid="class_unity_chan_1_1_random_wind_1aa699f106a310ee488e1a07863debf469" prot="private" virt="non-virtual"><scope>UnityChan::RandomWind</scope><name>OnGUI</name></member>
+      <member refid="class_unity_chan_1_1_random_wind_1a33aa98bf9e8df720bb5ea6c82d4cc0d5" prot="private" virt="non-virtual"><scope>UnityChan::RandomWind</scope><name>springBones</name></member>
+      <member refid="class_unity_chan_1_1_random_wind_1afbced08dbe327259e514257e594cdaf1" prot="private" virt="non-virtual"><scope>UnityChan::RandomWind</scope><name>Start</name></member>
+      <member refid="class_unity_chan_1_1_random_wind_1a9c94377465728b32fed1fecdacf040bb" prot="private" virt="non-virtual"><scope>UnityChan::RandomWind</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

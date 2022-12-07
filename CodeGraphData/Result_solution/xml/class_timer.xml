@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_timer" kind="class" prot="public">
+    <compoundname>Timer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_timer_1aedf4fe2e9c18610b4eb6c1b5f8375204" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI Timer.timerText</definition>
+        <argsstring></argsstring>
+        <name>timerText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_timer_1afd1cce653823fd914e49db5808fc25b8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Timer.totalTime</definition>
+        <argsstring></argsstring>
+        <name>totalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" compoundref="_timer_8cs" startline="19" endline="25">Start</referencedby>
+        <referencedby refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" compoundref="_timer_8cs" startline="27" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_timer_1a3d1270a3347ce0825c3273ddccbe960a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Timer.clear</definition>
+        <argsstring></argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_timer_1a355469636fa534b9d1c7b435953373c8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Timer.s1</definition>
+        <argsstring></argsstring>
+        <name>s1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" compoundref="_timer_8cs" startline="19" endline="25">Start</referencedby>
+        <referencedby refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" compoundref="_timer_8cs" startline="27" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_timer_1a9602f36cbf17650b6040f0453a0c2d6e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Timer.s2</definition>
+        <argsstring></argsstring>
+        <name>s2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" compoundref="_timer_8cs" startline="19" endline="25">Start</referencedby>
+        <referencedby refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" compoundref="_timer_8cs" startline="27" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_timer_1a0e7c6f38ac51cc8a1f08fc8c7b67a2fd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Timer.s3</definition>
+        <argsstring></argsstring>
+        <name>s3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" compoundref="_timer_8cs" startline="19" endline="25">Start</referencedby>
+        <referencedby refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" compoundref="_timer_8cs" startline="27" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_timer_1ad47c0bb1f4ec5a024cd2bc06f35bec60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Timer.clearflg</definition>
+        <argsstring></argsstring>
+        <name>clearflg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" compoundref="_timer_8cs" startline="27" endline="48">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_timer_1a89fc499574a0c9d798338b6165bbb8bd" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Timer.seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_timer_1a77ddb61392d88a27999db94e2081e34e" compoundref="_timer_8cs" startline="49" endline="52">EndTime</referencedby>
+        <referencedby refid="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" compoundref="_timer_8cs" startline="19" endline="25">Start</referencedby>
+        <referencedby refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" compoundref="_timer_8cs" startline="27" endline="48">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Timer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="19" bodyend="25"/>
+        <references refid="class_timer_1a355469636fa534b9d1c7b435953373c8" compoundref="_timer_8cs" startline="13">s1</references>
+        <references refid="class_timer_1a9602f36cbf17650b6040f0453a0c2d6e" compoundref="_timer_8cs" startline="13">s2</references>
+        <references refid="class_timer_1a0e7c6f38ac51cc8a1f08fc8c7b67a2fd" compoundref="_timer_8cs" startline="13">s3</references>
+        <references refid="class_timer_1a89fc499574a0c9d798338b6165bbb8bd" compoundref="_timer_8cs" startline="15">seconds</references>
+        <references refid="class_timer_1afd1cce653823fd914e49db5808fc25b8" compoundref="_timer_8cs" startline="14">totalTime</references>
+      </memberdef>
+      <memberdef kind="function" id="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Timer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="27" bodyend="48"/>
+        <references refid="class_timer_1ad47c0bb1f4ec5a024cd2bc06f35bec60" compoundref="_timer_8cs" startline="17">clearflg</references>
+        <references refid="class_timer_1a355469636fa534b9d1c7b435953373c8" compoundref="_timer_8cs" startline="13">s1</references>
+        <references refid="class_timer_1a9602f36cbf17650b6040f0453a0c2d6e" compoundref="_timer_8cs" startline="13">s2</references>
+        <references refid="class_timer_1a0e7c6f38ac51cc8a1f08fc8c7b67a2fd" compoundref="_timer_8cs" startline="13">s3</references>
+        <references refid="class_timer_1a89fc499574a0c9d798338b6165bbb8bd" compoundref="_timer_8cs" startline="15">seconds</references>
+        <references refid="class_timer_1afd1cce653823fd914e49db5808fc25b8" compoundref="_timer_8cs" startline="14">totalTime</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_timer_1a77ddb61392d88a27999db94e2081e34e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Timer.EndTime</definition>
+        <argsstring>()</argsstring>
+        <name>EndTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="49" bodyend="52"/>
+        <references refid="class_timer_1a89fc499574a0c9d798338b6165bbb8bd" compoundref="_timer_8cs" startline="15">seconds</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2473">
+        <label>Timer</label>
+        <link refid="class_timer"/>
+        <childnode refid="2474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2474">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2475">
+        <label>Timer</label>
+        <link refid="class_timer"/>
+        <childnode refid="2476" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2476">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/Timer/Timer.cs" bodystart="8" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_timer_1a3d1270a3347ce0825c3273ddccbe960a" prot="public" virt="non-virtual"><scope>Timer</scope><name>clear</name></member>
+      <member refid="class_timer_1ad47c0bb1f4ec5a024cd2bc06f35bec60" prot="private" virt="non-virtual"><scope>Timer</scope><name>clearflg</name></member>
+      <member refid="class_timer_1a77ddb61392d88a27999db94e2081e34e" prot="public" virt="non-virtual"><scope>Timer</scope><name>EndTime</name></member>
+      <member refid="class_timer_1a355469636fa534b9d1c7b435953373c8" prot="private" virt="non-virtual"><scope>Timer</scope><name>s1</name></member>
+      <member refid="class_timer_1a9602f36cbf17650b6040f0453a0c2d6e" prot="private" virt="non-virtual"><scope>Timer</scope><name>s2</name></member>
+      <member refid="class_timer_1a0e7c6f38ac51cc8a1f08fc8c7b67a2fd" prot="private" virt="non-virtual"><scope>Timer</scope><name>s3</name></member>
+      <member refid="class_timer_1a89fc499574a0c9d798338b6165bbb8bd" prot="private" virt="non-virtual"><scope>Timer</scope><name>seconds</name></member>
+      <member refid="class_timer_1ade9c690f80327bd47ebb927c59a06a0e" prot="private" virt="non-virtual"><scope>Timer</scope><name>Start</name></member>
+      <member refid="class_timer_1aedf4fe2e9c18610b4eb6c1b5f8375204" prot="public" virt="non-virtual"><scope>Timer</scope><name>timerText</name></member>
+      <member refid="class_timer_1afd1cce653823fd914e49db5808fc25b8" prot="public" virt="non-virtual"><scope>Timer</scope><name>totalTime</name></member>
+      <member refid="class_timer_1ac2c16f9aa88f2d3e7df7785545578f27" prot="private" virt="non-virtual"><scope>Timer</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

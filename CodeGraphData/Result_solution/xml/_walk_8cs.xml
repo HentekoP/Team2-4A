@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_walk_8cs" kind="file">
+    <compoundname>Walk.cs</compoundname>
+    <innerclass refid="class_walk" prot="public">Walk</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">[RequireComponent(typeof(AudioSource))]</highlight></codeline>
+<codeline lineno="6" refid="class_walk" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_walk" kindref="compound">Walk</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_walk_1abad91e179639eef42ac470a1e1a02c3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/>AudioClip[]<sp/><ref refid="class_walk_1abad91e179639eef42ac470a1e1a02c3a" kindref="member">clips</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_walk_1a995d373943b01a327f869fd1097b9d98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/>AudioClip[]<sp/><ref refid="class_walk_1a995d373943b01a327f869fd1097b9d98" kindref="member">se</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_walk_1a399512a230581b275939bb2846c852a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_walk_1a399512a230581b275939bb2846c852a1" kindref="member">randomizePitch</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" kindref="member">pitchRange</ref><sp/>=<sp/>0.1f;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_walk_1ac2e627dbb2cec8f57ddb77cf1033b2ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>AudioSource<sp/><ref refid="class_walk_1ac2e627dbb2cec8f57ddb77cf1033b2ab" kindref="member">source</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_walk_1a5a80630e1f943e9549ebfd8d05ba869b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_walk_1a5a80630e1f943e9549ebfd8d05ba869b" kindref="member">Awake</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>アタッチしたオーディオソースのうち1番目を使用する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_walk_1ac2e627dbb2cec8f57ddb77cf1033b2ab" kindref="member">source</ref><sp/>=<sp/>GetComponents&lt;AudioSource&gt;()[0];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_walk_1a53e41ca0b7118d0bf314019950389b86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_walk_1a53e41ca0b7118d0bf314019950389b86" kindref="member">Playwalk</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_walk_1a399512a230581b275939bb2846c852a1" kindref="member">randomizePitch</ref>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.pitch<sp/>=<sp/>1.0f<sp/>+<sp/>Random.Range(-<ref refid="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" kindref="member">pitchRange</ref>,<sp/><ref refid="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" kindref="member">pitchRange</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.PlayOneShot(<ref refid="class_walk_1abad91e179639eef42ac470a1e1a02c3a" kindref="member">clips</ref>[Random.Range(0,<sp/>clips.Length)]);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_walk_1af1f3445a5f28962c580d75a67a57f577" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_walk_1af1f3445a5f28962c580d75a67a57f577" kindref="member">OnControllerColliderHit</ref>(ControllerColliderHit<sp/>hit)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sphereにぶつかれば、パーティクルを発生させる</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hit.gameObject.tag<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Ground&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/><ref refid="class_player_controller" kindref="compound">PlayerController</ref>.<ref refid="class_player_controller_1acc21d66c40b1935dd7dc64f592276175" kindref="member">GetjumpFlg</ref>()<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.PlayOneShot(<ref refid="class_walk_1a995d373943b01a327f869fd1097b9d98" kindref="member">se</ref>[0]);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_object_resetter" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::ObjectResetter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1ab6ed43deeb18608cb06f674d306fb3d4" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.ObjectResetter.originalPosition</definition>
+        <argsstring></argsstring>
+        <name>originalPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1a45ba455d992a428653bc4f816db8fcee" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion UnityStandardAssets.Utility.ObjectResetter.originalRotation</definition>
+        <argsstring></argsstring>
+        <name>originalRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1afb10d4b36adfedd3b7487d284067ecf3" prot="private" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; UnityStandardAssets.Utility.ObjectResetter.originalStructure</definition>
+        <argsstring></argsstring>
+        <name>originalStructure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1a4cc58efe043a2ed96cff3522f942501f" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Utility.ObjectResetter.Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1ab0e5ac14903cec6fdbd5a4eb7449ef5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.ObjectResetter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1ab44d29e021b02f8bf2a65fdd9500669f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.ObjectResetter.DelayedReset</definition>
+        <argsstring>(float delay)</argsstring>
+        <name>DelayedReset</name>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1a9f642e892d90f0720be3d1dbff5d8d93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityStandardAssets.Utility.ObjectResetter.ResetCoroutine</definition>
+        <argsstring>(float delay)</argsstring>
+        <name>ResetCoroutine</name>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="33" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1606">
+        <label>UnityStandardAssets.Utility.ObjectResetter</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter"/>
+        <childnode refid="1607" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1608">
+        <label>UnityStandardAssets.Utility.ObjectResetter</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter"/>
+        <childnode refid="1609" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/ObjectResetter.cs" bodystart="8" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1ab44d29e021b02f8bf2a65fdd9500669f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>DelayedReset</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1ab6ed43deeb18608cb06f674d306fb3d4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>originalPosition</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1a45ba455d992a428653bc4f816db8fcee" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>originalRotation</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1afb10d4b36adfedd3b7487d284067ecf3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>originalStructure</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1a9f642e892d90f0720be3d1dbff5d8d93" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>ResetCoroutine</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1a4cc58efe043a2ed96cff3522f942501f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>Rigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_object_resetter_1ab0e5ac14903cec6fdbd5a4eb7449ef5a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::ObjectResetter</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

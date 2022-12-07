@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Cameras::TargetFieldOfView</compoundname>
+    <basecompoundref refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower" prot="public" virt="non-virtual">UnityStandardAssets.Cameras.AbstractTargetFollower</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1aa15f84cdbce521de229f10fe7649b2ed" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.TargetFieldOfView.m_FovAdjustTime</definition>
+        <argsstring></argsstring>
+        <name>m_FovAdjustTime</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1ac2ea433b168aed8af261cab7b303e8da" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.TargetFieldOfView.m_ZoomAmountMultiplier</definition>
+        <argsstring></argsstring>
+        <name>m_ZoomAmountMultiplier</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a2735a39a465559bdd92cd4aae2054484" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Cameras.TargetFieldOfView.m_IncludeEffectsInSize</definition>
+        <argsstring></argsstring>
+        <name>m_IncludeEffectsInSize</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1aede17abb6299ff82e08338b93322bbd6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.TargetFieldOfView.m_BoundSize</definition>
+        <argsstring></argsstring>
+        <name>m_BoundSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a2b51a5b17fa2bb1cdda606522439271a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.TargetFieldOfView.m_FovAdjustVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_FovAdjustVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1afa7fadca5bb90909bf14ee6682e89e5c" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera UnityStandardAssets.Cameras.TargetFieldOfView.m_Cam</definition>
+        <argsstring></argsstring>
+        <name>m_Cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1acd7c3de53146fa7c0a610a6d09e8222d" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Cameras.TargetFieldOfView.m_LastTarget</definition>
+        <argsstring></argsstring>
+        <name>m_LastTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1ad9174d33f9741be53692d172cd098297" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Cameras.TargetFieldOfView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1ad3381a39deed7c88e7bf42be6f61a554">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a60563c33f998f0c47f3eefb522cece31" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Cameras.TargetFieldOfView.FollowTarget</definition>
+        <argsstring>(float deltaTime)</argsstring>
+        <name>FollowTarget</name>
+        <reimplements refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a4b771e65860831b007dc5d9baa7c0c47">FollowTarget</reimplements>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a0a0345c051bfcde6f283cc887d608489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Cameras.TargetFieldOfView.SetTarget</definition>
+        <argsstring>(Transform newTransform)</argsstring>
+        <name>SetTarget</name>
+        <reimplements refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a0d6288d9e007d7a5285ee5c6f9f68636">SetTarget</reimplements>
+        <param>
+          <type>Transform</type>
+          <declname>newTransform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a0eb45091f3930c104d84163dc4b39bbf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float UnityStandardAssets.Cameras.TargetFieldOfView.MaxBoundsExtent</definition>
+        <argsstring>(Transform obj, bool includeEffects)</argsstring>
+        <name>MaxBoundsExtent</name>
+        <param>
+          <type>Transform</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeEffects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="51" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2420">
+        <label>UnityStandardAssets.Cameras.TargetFieldOfView</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view"/>
+        <childnode refid="2421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2421">
+        <label>AbstractTargetFollower</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"/>
+        <childnode refid="2422" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2422">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2423">
+        <label>UnityStandardAssets.Cameras.TargetFieldOfView</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view"/>
+        <childnode refid="2424" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2424">
+        <label>AbstractTargetFollower</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"/>
+        <childnode refid="2425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2425">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" bodystart="7" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1ab8d9909f4d7e38889612fa737e2fde73" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>FindAndTargetPlayer</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a60563c33f998f0c47f3eefb522cece31" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>FollowTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1aede17abb6299ff82e08338b93322bbd6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_BoundSize</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1afa7fadca5bb90909bf14ee6682e89e5c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_Cam</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1aa15f84cdbce521de229f10fe7649b2ed" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_FovAdjustTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a2b51a5b17fa2bb1cdda606522439271a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_FovAdjustVelocity</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a2735a39a465559bdd92cd4aae2054484" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_IncludeEffectsInSize</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1acd7c3de53146fa7c0a610a6d09e8222d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_LastTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1aeca3a0ae0619e4809688f4e64de27660" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1ac2ea433b168aed8af261cab7b303e8da" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>m_ZoomAmountMultiplier</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1adf84672b616fcb6d90838537fbe17887" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>ManualUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a0eb45091f3930c104d84163dc4b39bbf" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>MaxBoundsExtent</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1a0a0345c051bfcde6f283cc887d608489" prot="public" virt="virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>SetTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view_1ad9174d33f9741be53692d172cd098297" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a1a762e4e9ced2e4cd68425a7df67496e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a92f7183b7eeef7706e72c258de60f543" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>targetRigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a0a966f5d855a7db490f2583c9771b837" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::TargetFieldOfView</scope><name>UpdateType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_triangle" kind="class" prot="public">
+    <compoundname>Triangle</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_triangle_1a67032583926f444e982355097e78b822" prot="public" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; Triangle.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_mesh_cutter_1a810f71c33b1553836294f1e2052edf4f" compoundref="_mesh_cutter_8cs" startline="137" endline="245">MeshCutter.CutTriangle</referencedby>
+        <referencedby refid="class_triangle_1af2585b24c13b8e33c3e2965b87957360" compoundref="_triangle_8cs" startline="12" endline="19">Triangle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_triangle_1a8c2c72ee8ff9b2781068f02a3888ebf6" prot="public" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; Triangle.normals</definition>
+        <argsstring></argsstring>
+        <name>normals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_triangle_1af2585b24c13b8e33c3e2965b87957360" compoundref="_triangle_8cs" startline="12" endline="19">Triangle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_triangle_1ae6e93ddbc8ea3bf5f93c8ac47575d00b" prot="public" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; Triangle.uvs</definition>
+        <argsstring></argsstring>
+        <name>uvs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_triangle_1af2585b24c13b8e33c3e2965b87957360" compoundref="_triangle_8cs" startline="12" endline="19">Triangle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Triangle.submeshIndex</definition>
+        <argsstring></argsstring>
+        <name>submeshIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_mesh_data_1a3e19ec0c45916a82ded9748d0b16ee58" compoundref="_mesh_data_8cs" startline="13" endline="33">MeshData.AddTriangle</referencedby>
+        <referencedby refid="class_mesh_cutter_1a810f71c33b1553836294f1e2052edf4f" compoundref="_mesh_cutter_8cs" startline="137" endline="245">MeshCutter.CutTriangle</referencedby>
+        <referencedby refid="class_triangle_1af2585b24c13b8e33c3e2965b87957360" compoundref="_triangle_8cs" startline="12" endline="19">Triangle</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_triangle_1af2585b24c13b8e33c3e2965b87957360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Triangle.Triangle</definition>
+        <argsstring>(Vector3[] v, Vector3[] n, Vector2[] u, int s)</argsstring>
+        <name>Triangle</name>
+        <param>
+          <type>Vector3[]</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>Vector2[]</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" bodystart="12" bodyend="19"/>
+        <references refid="class_triangle_1a8c2c72ee8ff9b2781068f02a3888ebf6" compoundref="_triangle_8cs" startline="8">normals</references>
+        <references refid="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" compoundref="_triangle_8cs" startline="10">submeshIndex</references>
+        <references refid="class_triangle_1ae6e93ddbc8ea3bf5f93c8ac47575d00b" compoundref="_triangle_8cs" startline="9">uvs</references>
+        <references refid="class_triangle_1a67032583926f444e982355097e78b822" compoundref="_triangle_8cs" startline="7">vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/Triangle.cs" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_triangle_1a8c2c72ee8ff9b2781068f02a3888ebf6" prot="public" virt="non-virtual"><scope>Triangle</scope><name>normals</name></member>
+      <member refid="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" prot="public" virt="non-virtual"><scope>Triangle</scope><name>submeshIndex</name></member>
+      <member refid="class_triangle_1af2585b24c13b8e33c3e2965b87957360" prot="public" virt="non-virtual"><scope>Triangle</scope><name>Triangle</name></member>
+      <member refid="class_triangle_1ae6e93ddbc8ea3bf5f93c8ac47575d00b" prot="public" virt="non-virtual"><scope>Triangle</scope><name>uvs</name></member>
+      <member refid="class_triangle_1a67032583926f444e982355097e78b822" prot="public" virt="non-virtual"><scope>Triangle</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

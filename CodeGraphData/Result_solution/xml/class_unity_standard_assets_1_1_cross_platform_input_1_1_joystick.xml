@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::CrossPlatformInput::Joystick</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerDownHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerUpHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDragHandler</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a6d8c31bfbf3b5fb568caa04cfd87f901" prot="public" static="no">
+        <name>AxisOption</name>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a6d8c31bfbf3b5fb568caa04cfd87f901a130c5b3473c57faa76e2a1c54e26f88e" prot="public">
+          <name>Both</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a6d8c31bfbf3b5fb568caa04cfd87f901aad0df54cc6571aea4edb7176c3149ef9" prot="public">
+          <name>OnlyHorizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a6d8c31bfbf3b5fb568caa04cfd87f901ae9490dd647be2142274984691da814fb" prot="public">
+          <name>OnlyVertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a7309ba63c7e16cfb230130b0ba1f8bd4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.CrossPlatformInput.Joystick.MovementRange</definition>
+        <argsstring></argsstring>
+        <name>MovementRange</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1aa0a6ed91c54506a11323b7a9ac75af46" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a6d8c31bfbf3b5fb568caa04cfd87f901" kindref="member">AxisOption</ref></type>
+        <definition>AxisOption UnityStandardAssets.CrossPlatformInput.Joystick.axesToUse</definition>
+        <argsstring></argsstring>
+        <name>axesToUse</name>
+        <initializer>= AxisOption.Both</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a1a2343df2c18d9afa642d6131bc0e5ad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityStandardAssets.CrossPlatformInput.Joystick.horizontalAxisName</definition>
+        <argsstring></argsstring>
+        <name>horizontalAxisName</name>
+        <initializer>= &quot;Horizontal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1ab131c9265b8fa58aa7b22e3442c4aff7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UnityStandardAssets.CrossPlatformInput.Joystick.verticalAxisName</definition>
+        <argsstring></argsstring>
+        <name>verticalAxisName</name>
+        <initializer>= &quot;Vertical&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a071d826c0de37e2a2a27eeb2ec71cc9a" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.CrossPlatformInput.Joystick.m_StartPos</definition>
+        <argsstring></argsstring>
+        <name>m_StartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a86205ca99668ff1e722937c7e2b3b771" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.Joystick.m_UseX</definition>
+        <argsstring></argsstring>
+        <name>m_UseX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1afd605edd671a3c0218bb648cf5862ded" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.CrossPlatformInput.Joystick.m_UseY</definition>
+        <argsstring></argsstring>
+        <name>m_UseY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1adf60811a49a3c43f3fe20b5d4bac449a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+        <definition>CrossPlatformInputManager.VirtualAxis UnityStandardAssets.CrossPlatformInput.Joystick.m_HorizontalVirtualAxis</definition>
+        <argsstring></argsstring>
+        <name>m_HorizontalVirtualAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a7a2385c3fe1e19e73d9260bfad60fbcd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis" kindref="compound">CrossPlatformInputManager.VirtualAxis</ref></type>
+        <definition>CrossPlatformInputManager.VirtualAxis UnityStandardAssets.CrossPlatformInput.Joystick.m_VerticalVirtualAxis</definition>
+        <argsstring></argsstring>
+        <name>m_VerticalVirtualAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a78356c2f4faa1c65f79c2f1cbd0857e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1af71e5b3800d2018ebfbfab1bfce63941" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1aa19d00f5f5e09af5824e3fe2baaf3f8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.UpdateVirtualAxes</definition>
+        <argsstring>(Vector3 value)</argsstring>
+        <name>UpdateVirtualAxes</name>
+        <param>
+          <type>Vector3</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="38" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1abbf197eb0a6092bfd0dadb952782bdf6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.CreateVirtualAxes</definition>
+        <argsstring>()</argsstring>
+        <name>CreateVirtualAxes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="54" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a901431a71f698de6cf38f2aec579e0be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="105" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a156c19bc0a3fe7a4c3b954e8c2c4a90e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.OnDrag</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnDrag</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="74" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1ab7f7dbe18f7b229df10dd925534b4fbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.OnPointerUp</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnPointerUp</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a8df75692befe2a2426f6eee7a7e5765c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.CrossPlatformInput.Joystick.OnPointerDown</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnPointerDown</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1354">
+        <label>IPointerDownHandler</label>
+      </node>
+      <node id="1353">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1352">
+        <label>UnityStandardAssets.CrossPlatformInput.Joystick</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick"/>
+        <childnode refid="1353" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1355" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1356">
+        <label>IDragHandler</label>
+      </node>
+      <node id="1355">
+        <label>IPointerUpHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1362">
+        <label>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager"/>
+        <childnode refid="1363" relation="usage">
+          <edgelabel>s_HardwareInput</edgelabel>
+          <edgelabel>s_TouchInput</edgelabel>
+          <edgelabel>activeInput</edgelabel>
+        </childnode>
+      </node>
+      <node id="1359">
+        <label>IPointerDownHandler</label>
+      </node>
+      <node id="1363">
+        <label>UnityStandardAssets.CrossPlatformInput.VirtualInput</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input"/>
+      </node>
+      <node id="1358">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1357">
+        <label>UnityStandardAssets.CrossPlatformInput.Joystick</label>
+        <link refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick"/>
+        <childnode refid="1358" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1359" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1360" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1361" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1362" relation="usage">
+          <edgelabel>m_VerticalVirtualAxis</edgelabel>
+          <edgelabel>m_HorizontalVirtualAxis</edgelabel>
+        </childnode>
+      </node>
+      <node id="1361">
+        <label>IDragHandler</label>
+      </node>
+      <node id="1360">
+        <label>IPointerUpHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" bodystart="7" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1aa0a6ed91c54506a11323b7a9ac75af46" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>axesToUse</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a6d8c31bfbf3b5fb568caa04cfd87f901" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>AxisOption</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1abbf197eb0a6092bfd0dadb952782bdf6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>CreateVirtualAxes</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a1a2343df2c18d9afa642d6131bc0e5ad" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>horizontalAxisName</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1adf60811a49a3c43f3fe20b5d4bac449a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>m_HorizontalVirtualAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a071d826c0de37e2a2a27eeb2ec71cc9a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>m_StartPos</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a86205ca99668ff1e722937c7e2b3b771" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>m_UseX</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1afd605edd671a3c0218bb648cf5862ded" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>m_UseY</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a7a2385c3fe1e19e73d9260bfad60fbcd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>m_VerticalVirtualAxis</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a7309ba63c7e16cfb230130b0ba1f8bd4" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>MovementRange</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a901431a71f698de6cf38f2aec579e0be" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>OnDisable</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a156c19bc0a3fe7a4c3b954e8c2c4a90e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>OnDrag</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a78356c2f4faa1c65f79c2f1cbd0857e6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>OnEnable</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1a8df75692befe2a2426f6eee7a7e5765c" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>OnPointerDown</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1ab7f7dbe18f7b229df10dd925534b4fbf" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>OnPointerUp</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1af71e5b3800d2018ebfbfab1bfce63941" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1aa19d00f5f5e09af5824e3fe2baaf3f8f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>UpdateVirtualAxes</name></member>
+      <member refid="class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick_1ab131c9265b8fa58aa7b22e3442c4aff7" prot="public" virt="non-virtual"><scope>UnityStandardAssets::CrossPlatformInput::Joystick</scope><name>verticalAxisName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

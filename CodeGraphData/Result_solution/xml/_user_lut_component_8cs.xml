@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_user_lut_component_8cs" kind="file">
+    <compoundname>UserLutComponent.cs</compoundname>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component" prot="public">UnityEngine::PostProcessing::UserLutComponent</innerclass>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::UserLutComponent::Uniforms</innerclass>
+    <innernamespace refid="namespace_unity_engine_1_1_post_processing">UnityEngine::PostProcessing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityEngine.PostProcessing</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>sealed<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component" kindref="compound">UserLutComponent</ref><sp/>:<sp/>PostProcessingComponentRenderTexture&lt;UserLutModel&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1_1_uniforms" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1_1_uniforms" kindref="compound">Uniforms</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1_1_uniforms_1a1246b32af99354d3cf067d39b7075ee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_UserLut<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>Shader.PropertyToID(</highlight><highlight class="stringliteral">&quot;_UserLut&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1_1_uniforms_1a17fb625d749c5827af0e1d840f453d70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_UserLut_Params<sp/>=<sp/>Shader.PropertyToID(</highlight><highlight class="stringliteral">&quot;_UserLut_Params&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active</highlight></codeline>
+<codeline lineno="12" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1a44cd6587c8dd47f373ec18f8e56edcd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>settings<sp/>=<sp/>model.settings;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>model.enabled</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>settings.lut<sp/>!=<sp/>null</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>settings.contribution<sp/>&gt;<sp/>0f</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>settings.lut.height<sp/>==<sp/>(int)Mathf.Sqrt(settings.lut.width)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>!context.interrupted;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1a1d6e06b6268b29af5a7903889feeff4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1a1d6e06b6268b29af5a7903889feeff4b" kindref="member">Prepare</ref>(Material<sp/>uberMaterial)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>settings<sp/>=<sp/>model.settings;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uberMaterial.EnableKeyword(</highlight><highlight class="stringliteral">&quot;USER_LUT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uberMaterial.SetTexture(Uniforms._UserLut,<sp/>settings.lut);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uberMaterial.SetVector(Uniforms._UserLut_Params,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector4(1f<sp/>/<sp/>settings.lut.width,<sp/>1f<sp/>/<sp/>settings.lut.height,<sp/>settings.lut.height<sp/>-<sp/>1f,<sp/>settings.contribution));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1ab7f0a943efb49620ee830296108b0b9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_engine_1_1_post_processing_1_1_user_lut_component_1ab7f0a943efb49620ee830296108b0b9c" kindref="member">OnGUI</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>settings<sp/>=<sp/>model.settings;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>rect<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rect(context.viewport.x<sp/>*<sp/>Screen.width<sp/>+<sp/>8f,<sp/>8f,<sp/>settings.lut.width,<sp/>settings.lut.height);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUI.DrawTexture(rect,<sp/>settings.lut);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/UserLutComponent.cs"/>
+  </compounddef>
+</doxygen>

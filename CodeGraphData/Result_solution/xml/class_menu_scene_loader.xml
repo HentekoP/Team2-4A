@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_menu_scene_loader" kind="class" prot="public">
+    <compoundname>MenuSceneLoader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_menu_scene_loader_1ae266fd1d277baa73170d723352166b76" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MenuSceneLoader.menuUI</definition>
+        <argsstring></argsstring>
+        <name>menuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_menu_scene_loader_1a6c1473423650ef2f85dfaba3806d0c44" compoundref="_menu_scene_loader_8cs" startline="10" endline="16">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_menu_scene_loader_1a3adfb59136e4c29165226815cc80093b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MenuSceneLoader.m_Go</definition>
+        <argsstring></argsstring>
+        <name>m_Go</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_menu_scene_loader_1a6c1473423650ef2f85dfaba3806d0c44" compoundref="_menu_scene_loader_8cs" startline="10" endline="16">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_menu_scene_loader_1a6c1473423650ef2f85dfaba3806d0c44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuSceneLoader.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" bodystart="10" bodyend="16"/>
+        <references refid="class_menu_scene_loader_1a3adfb59136e4c29165226815cc80093b" compoundref="_menu_scene_loader_8cs" startline="8">m_Go</references>
+        <references refid="class_menu_scene_loader_1ae266fd1d277baa73170d723352166b76" compoundref="_menu_scene_loader_8cs" startline="6">menuUI</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1419">
+        <label>MenuSceneLoader</label>
+        <link refid="class_menu_scene_loader"/>
+        <childnode refid="1420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1420">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1421">
+        <label>MenuSceneLoader</label>
+        <link refid="class_menu_scene_loader"/>
+        <childnode refid="1422" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1422">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_menu_scene_loader_1a6c1473423650ef2f85dfaba3806d0c44" prot="private" virt="non-virtual"><scope>MenuSceneLoader</scope><name>Awake</name></member>
+      <member refid="class_menu_scene_loader_1a3adfb59136e4c29165226815cc80093b" prot="private" virt="non-virtual"><scope>MenuSceneLoader</scope><name>m_Go</name></member>
+      <member refid="class_menu_scene_loader_1ae266fd1d277baa73170d723352166b76" prot="public" virt="non-virtual"><scope>MenuSceneLoader</scope><name>menuUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

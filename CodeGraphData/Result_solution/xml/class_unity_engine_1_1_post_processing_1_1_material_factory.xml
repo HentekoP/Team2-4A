@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_material_factory" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::MaterialFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_material_factory_1a4be5533c27297ca825a61d9813196f29" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, Material &gt;</type>
+        <definition>Dictionary&lt;string, Material&gt; UnityEngine.PostProcessing.MaterialFactory.m_Materials</definition>
+        <argsstring></argsstring>
+        <name>m_Materials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_material_factory_1a3ec14c24b6c761fa0ce066d3c8df5dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.PostProcessing.MaterialFactory.MaterialFactory</definition>
+        <argsstring>()</argsstring>
+        <name>MaterialFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_material_factory_1a0805118c985df795d8b2941f30e3845d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Material</type>
+        <definition>Material UnityEngine.PostProcessing.MaterialFactory.Get</definition>
+        <argsstring>(string shaderName)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>shaderName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" bodystart="17" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_material_factory_1a5fe3244955fe950b377611e57b2f10ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MaterialFactory.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" bodystart="40" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1413">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="1414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1414">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1415">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="1416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1416">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/MaterialFactory.cs" bodystart="8" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_material_factory_1a5fe3244955fe950b377611e57b2f10ae" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MaterialFactory</scope><name>Dispose</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_material_factory_1a0805118c985df795d8b2941f30e3845d" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MaterialFactory</scope><name>Get</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_material_factory_1a4be5533c27297ca825a61d9813196f29" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MaterialFactory</scope><name>m_Materials</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_material_factory_1a3ec14c24b6c761fa0ce066d3c8df5dea" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MaterialFactory</scope><name>MaterialFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

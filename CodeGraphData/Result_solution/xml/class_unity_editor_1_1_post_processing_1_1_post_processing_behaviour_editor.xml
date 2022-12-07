@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::PostProcessingBehaviourEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a1a5ae04734974541384b554eadc97536" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingBehaviourEditor.m_Profile</definition>
+        <argsstring></argsstring>
+        <name>m_Profile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a8934c4d3ca6fe5a4023285ac1a4f3358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingBehaviourEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_post_processing_behaviour_1a34c4569526dd0e87af574653c99ab1db" compoundref="_post_processing_behaviour_8cs" startline="17">UnityEngine.PostProcessing.PostProcessingBehaviour.profile</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a5a78f117e6e64b8abe14976c202ec7f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.PostProcessingBehaviourEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a8f6e0cd46a20d6572cd586fbb9725ed9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.PostProcessingBehaviourEditor.FindSetting&lt; T, TValue &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, TValue &gt;&gt; expr)</argsstring>
+        <name>FindSetting&lt; T, TValue &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, TValue &gt;&gt;</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1773">
+        <label>Editor</label>
+      </node>
+      <node id="1772">
+        <label>UnityEditor.PostProcessing.PostProcessingBehaviourEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor"/>
+        <childnode refid="1773" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1775">
+        <label>Editor</label>
+      </node>
+      <node id="1774">
+        <label>UnityEditor.PostProcessing.PostProcessingBehaviourEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor"/>
+        <childnode refid="1775" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a8f6e0cd46a20d6572cd586fbb9725ed9" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingBehaviourEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a1a5ae04734974541384b554eadc97536" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingBehaviourEditor</scope><name>m_Profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a8934c4d3ca6fe5a4023285ac1a4f3358" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingBehaviourEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_behaviour_editor_1a5a78f117e6e64b8abe14976c202ec7f4" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingBehaviourEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

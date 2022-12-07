@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_destructable_object_controller" kind="class" prot="public">
+    <compoundname>DestructableObjectController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_destructable_object_controller_1ab52da3ff129fb7093d61b1e33a31774a" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] DestructableObjectController.roots</definition>
+        <argsstring></argsstring>
+        <name>roots</name>
+        <initializer>= new GameObject[17]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" compoundref="_destructable_object_controller_8cs" startline="20" endline="40">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_object_controller_1ac1fc4bb1d4c1831ed210e763285fbb2e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref>[]</type>
+        <definition>DestroyedPieceController [] DestructableObjectController.root_dest_pieces</definition>
+        <argsstring></argsstring>
+        <name>root_dest_pieces</name>
+        <initializer>= new <ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref>[17]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" compoundref="_destructable_object_controller_8cs" startline="20" endline="40">Awake</referencedby>
+        <referencedby refid="class_destructable_object_controller_1ae5bf61ca1cf69d321ae21a90fa8314a6" compoundref="_destructable_object_controller_8cs" startline="42" endline="76">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_object_controller_1aab6a3c4ad15379fb3a625f93ed22a102" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource DestructableObjectController.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" compoundref="_destructable_object_controller_8cs" startline="20" endline="40">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_destructable_object_controller_1a3c6aeafa6207ee3f2cf8939745cadbff" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref> &gt;</type>
+        <definition>List&lt;DestroyedPieceController&gt; DestructableObjectController.destroyed_pieces</definition>
+        <argsstring></argsstring>
+        <name>destroyed_pieces</name>
+        <initializer>= new List&lt;<ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_destructable_object_controller_1a739a3dee19ff248fb2ac64d57c12e1c1" compoundref="_destructable_object_controller_8cs" startline="78" endline="97">find_all_connected_pieces</referencedby>
+        <referencedby refid="class_destructable_object_controller_1a43d546d40a556076007ef0a7f7c1bf19" compoundref="_destructable_object_controller_8cs" startline="99" endline="109">run_physics_steps</referencedby>
+        <referencedby refid="class_destructable_object_controller_1ae5bf61ca1cf69d321ae21a90fa8314a6" compoundref="_destructable_object_controller_8cs" startline="42" endline="76">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_object_controller_1ab491b71f21d32155140d364e1312e1dc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DestructableObjectController.loadsene</definition>
+        <argsstring></argsstring>
+        <name>loadsene</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_object_controller_1a90523111bcb89d21f8c2c001f994fef8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref></type>
+        <definition>DestroyedPieceController DestructableObjectController.PieceCount</definition>
+        <argsstring></argsstring>
+        <name>PieceCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_destructable_object_controller_1a28b87e6fed7bfbe11e6f03dafc926e03" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int DestructableObjectController.i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" compoundref="_destructable_object_controller_8cs" startline="20" endline="40">Awake</referencedby>
+        <referencedby refid="class_destructable_object_controller_1aabf654f23dee43bfe3cc9948a90a348b" compoundref="_destructable_object_controller_8cs" startline="110" endline="113">ObjectAllCount</referencedby>
+        <referencedby refid="class_destructable_object_controller_1a43d546d40a556076007ef0a7f7c1bf19" compoundref="_destructable_object_controller_8cs" startline="99" endline="109">run_physics_steps</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestructableObjectController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="20" bodyend="40"/>
+        <references refid="class_destructable_object_controller_1a28b87e6fed7bfbe11e6f03dafc926e03" compoundref="_destructable_object_controller_8cs" startline="12">i</references>
+        <references refid="class_destructable_object_controller_1ac1fc4bb1d4c1831ed210e763285fbb2e" compoundref="_destructable_object_controller_8cs" startline="8">root_dest_pieces</references>
+        <references refid="class_destructable_object_controller_1ab52da3ff129fb7093d61b1e33a31774a" compoundref="_destructable_object_controller_8cs" startline="7">roots</references>
+        <references refid="class_destructable_object_controller_1a43d546d40a556076007ef0a7f7c1bf19" compoundref="_destructable_object_controller_8cs" startline="99" endline="109">run_physics_steps</references>
+        <references refid="class_destructable_object_controller_1aab6a3c4ad15379fb3a625f93ed22a102" compoundref="_destructable_object_controller_8cs" startline="18">source</references>
+      </memberdef>
+      <memberdef kind="function" id="class_destructable_object_controller_1ae5bf61ca1cf69d321ae21a90fa8314a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestructableObjectController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="42" bodyend="76"/>
+        <references refid="class_destructable_object_controller_1a3c6aeafa6207ee3f2cf8939745cadbff" compoundref="_destructable_object_controller_8cs" startline="10">destroyed_pieces</references>
+        <references refid="class_destroyed_piece_controller_1ade0b2b38d67d5ddeab81f04da1f79602" compoundref="_destroyed_piece_controller_8cs" startline="21">DestroyedPieceController.DestroyPieceCount</references>
+        <references refid="class_destructable_object_controller_1a739a3dee19ff248fb2ac64d57c12e1c1" compoundref="_destructable_object_controller_8cs" startline="78" endline="97">find_all_connected_pieces</references>
+        <references refid="class_destroyed_piece_controller_1a1d5416d83bdc2770b517361801cae42c" compoundref="_destroyed_piece_controller_8cs" startline="10">DestroyedPieceController.is_dirty</references>
+        <references refid="class_destructable_object_controller_1ac1fc4bb1d4c1831ed210e763285fbb2e" compoundref="_destructable_object_controller_8cs" startline="8">root_dest_pieces</references>
+      </memberdef>
+      <memberdef kind="function" id="class_destructable_object_controller_1a739a3dee19ff248fb2ac64d57c12e1c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestructableObjectController.find_all_connected_pieces</definition>
+        <argsstring>(DestroyedPieceController destroyed_piece)</argsstring>
+        <name>find_all_connected_pieces</name>
+        <param>
+          <type><ref refid="class_destroyed_piece_controller" kindref="compound">DestroyedPieceController</ref></type>
+          <declname>destroyed_piece</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="78" bodyend="97"/>
+        <references refid="class_destroyed_piece_controller_1a572224915673111aee7c0b3ec47de85a" compoundref="_destroyed_piece_controller_8cs" startline="8">DestroyedPieceController.connected_to</references>
+        <references refid="class_destructable_object_controller_1a3c6aeafa6207ee3f2cf8939745cadbff" compoundref="_destructable_object_controller_8cs" startline="10">destroyed_pieces</references>
+        <references refid="class_destroyed_piece_controller_1a88b9e47ab647e6552834be8019ea9237" compoundref="_destroyed_piece_controller_8cs" startline="6">DestroyedPieceController.is_connected</references>
+        <references refid="class_destroyed_piece_controller_1a4d0d418b86d7e64affb3c195af2975dc" compoundref="_destroyed_piece_controller_8cs" startline="7">DestroyedPieceController.visited</references>
+        <referencedby refid="class_destructable_object_controller_1ae5bf61ca1cf69d321ae21a90fa8314a6" compoundref="_destructable_object_controller_8cs" startline="42" endline="76">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_destructable_object_controller_1a43d546d40a556076007ef0a7f7c1bf19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator DestructableObjectController.run_physics_steps</definition>
+        <argsstring>(int step_count)</argsstring>
+        <name>run_physics_steps</name>
+        <param>
+          <type>int</type>
+          <declname>step_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="99" bodyend="109"/>
+        <references refid="class_destructable_object_controller_1a3c6aeafa6207ee3f2cf8939745cadbff" compoundref="_destructable_object_controller_8cs" startline="10">destroyed_pieces</references>
+        <references refid="class_destructable_object_controller_1a28b87e6fed7bfbe11e6f03dafc926e03" compoundref="_destructable_object_controller_8cs" startline="12">i</references>
+        <referencedby refid="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" compoundref="_destructable_object_controller_8cs" startline="20" endline="40">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_destructable_object_controller_1aabf654f23dee43bfe3cc9948a90a348b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DestructableObjectController.ObjectAllCount</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectAllCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="110" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="110" bodyend="113"/>
+        <references refid="class_destructable_object_controller_1a28b87e6fed7bfbe11e6f03dafc926e03" compoundref="_destructable_object_controller_8cs" startline="12">i</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="803">
+        <label>DestructableObjectController</label>
+        <link refid="class_destructable_object_controller"/>
+        <childnode refid="804" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="804">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="805">
+        <label>DestructableObjectController</label>
+        <link refid="class_destructable_object_controller"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+        <childnode refid="807" relation="usage">
+          <edgelabel>PieceCount</edgelabel>
+          <edgelabel>root_dest_pieces</edgelabel>
+        </childnode>
+      </node>
+      <node id="807">
+        <label>DestroyedPieceController</label>
+        <link refid="class_destroyed_piece_controller"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="806">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/Destruction System/Refractored/DestructableObjectController.cs" bodystart="5" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_destructable_object_controller_1adea213d785afcebf14406644970a617b" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>Awake</name></member>
+      <member refid="class_destructable_object_controller_1a3c6aeafa6207ee3f2cf8939745cadbff" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>destroyed_pieces</name></member>
+      <member refid="class_destructable_object_controller_1a739a3dee19ff248fb2ac64d57c12e1c1" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>find_all_connected_pieces</name></member>
+      <member refid="class_destructable_object_controller_1a28b87e6fed7bfbe11e6f03dafc926e03" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>i</name></member>
+      <member refid="class_destructable_object_controller_1ab491b71f21d32155140d364e1312e1dc" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>loadsene</name></member>
+      <member refid="class_destructable_object_controller_1aabf654f23dee43bfe3cc9948a90a348b" prot="public" virt="non-virtual"><scope>DestructableObjectController</scope><name>ObjectAllCount</name></member>
+      <member refid="class_destructable_object_controller_1a90523111bcb89d21f8c2c001f994fef8" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>PieceCount</name></member>
+      <member refid="class_destructable_object_controller_1ac1fc4bb1d4c1831ed210e763285fbb2e" prot="public" virt="non-virtual"><scope>DestructableObjectController</scope><name>root_dest_pieces</name></member>
+      <member refid="class_destructable_object_controller_1ab52da3ff129fb7093d61b1e33a31774a" prot="public" virt="non-virtual"><scope>DestructableObjectController</scope><name>roots</name></member>
+      <member refid="class_destructable_object_controller_1a43d546d40a556076007ef0a7f7c1bf19" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>run_physics_steps</name></member>
+      <member refid="class_destructable_object_controller_1aab6a3c4ad15379fb3a625f93ed22a102" prot="public" virt="non-virtual"><scope>DestructableObjectController</scope><name>source</name></member>
+      <member refid="class_destructable_object_controller_1ae5bf61ca1cf69d321ae21a90fa8314a6" prot="private" virt="non-virtual"><scope>DestructableObjectController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

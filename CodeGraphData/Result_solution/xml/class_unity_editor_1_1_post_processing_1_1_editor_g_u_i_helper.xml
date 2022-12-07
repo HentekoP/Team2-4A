@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::EditorGUIHelper</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a4719f4feec417d779454cf124aa77d35" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, GUIContent &gt;</type>
+        <definition>Dictionary&lt;string, GUIContent&gt; UnityEditor.PostProcessing.EditorGUIHelper.s_GUIContentCache</definition>
+        <argsstring></argsstring>
+        <name>s_GUIContentCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a5c674b40decc2ee5394ce61753b9d415" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static UnityEditor.PostProcessing.EditorGUIHelper.EditorGUIHelper</definition>
+        <argsstring>()</argsstring>
+        <name>EditorGUIHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a59a41f9fe5cc421253b73994e022f47d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.PostProcessing.EditorGUIHelper.CopySettings</definition>
+        <argsstring>(SerializedProperty settings)</argsstring>
+        <name>CopySettings</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="160" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1aa94e5961fa1bba6e0b6e486c38344d86" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UnityEditor.PostProcessing.EditorGUIHelper.CanPaste</definition>
+        <argsstring>(SerializedProperty settings)</argsstring>
+        <name>CanPaste</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="168" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="168" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a1690b5662412f9d0f60344c50965a58d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.PostProcessing.EditorGUIHelper.PasteSettings</definition>
+        <argsstring>(SerializedProperty settings)</argsstring>
+        <name>PasteSettings</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="184" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a15328ec30b8a62245b7afcecadebb77e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GUIContent</type>
+        <definition>static GUIContent UnityEditor.PostProcessing.EditorGUIHelper.GetContent</definition>
+        <argsstring>(string textAndTooltip)</argsstring>
+        <name>GetContent</name>
+        <param>
+          <type>string</type>
+          <declname>textAndTooltip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="21" bodyend="40"/>
+        <referencedby refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa65b499335c8d92d0f7a5c9a3cdee4b0" compoundref="_color_grading_model_editor_8cs" startline="375" endline="402">UnityEditor.PostProcessing.ColorGradingModelEditor.DoChannelMixerGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1ad3b4bb7526a79a1fe31e79a866aa94f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UnityEditor.PostProcessing.EditorGUIHelper.Header</definition>
+        <argsstring>(string title, SerializedProperty group, Action resetAction)</argsstring>
+        <name>Header</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>resetAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="44" bodyend="88"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1a4740d034349eaa1ce199392817517e1e" compoundref="_fx_styles_8cs" startline="30">UnityEditor.PostProcessing.FxStyles.paneOptionsIcon</references>
+        <referencedby refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" compoundref="_post_processing_model_editor_8cs" startline="34" endline="51">UnityEditor.PostProcessing.PostProcessingModelEditor.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1af1ac8fd49612ec41eeed8e935351de3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UnityEditor.PostProcessing.EditorGUIHelper.Header</definition>
+        <argsstring>(string title, SerializedProperty group, SerializedProperty enabledField, Action resetAction)</argsstring>
+        <name>Header</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>enabledField</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>resetAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="90" bodyend="158"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1a4740d034349eaa1ce199392817517e1e" compoundref="_fx_styles_8cs" startline="30">UnityEditor.PostProcessing.FxStyles.paneOptionsIcon</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/EditorGUIHelper.cs" bodystart="10" bodyend="193"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1aa94e5961fa1bba6e0b6e486c38344d86" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>CanPaste</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a59a41f9fe5cc421253b73994e022f47d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>CopySettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a5c674b40decc2ee5394ce61753b9d415" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>EditorGUIHelper</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a15328ec30b8a62245b7afcecadebb77e" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>GetContent</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1ad3b4bb7526a79a1fe31e79a866aa94f1" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>Header</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1af1ac8fd49612ec41eeed8e935351de3c" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>Header</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a1690b5662412f9d0f60344c50965a58d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>PasteSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a4719f4feec417d779454cf124aa77d35" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::EditorGUIHelper</scope><name>s_GUIContentCache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

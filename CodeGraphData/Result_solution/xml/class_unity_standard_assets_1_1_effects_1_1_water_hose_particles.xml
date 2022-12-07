@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Effects::WaterHoseParticles</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a868cf658ba5ed7265a4c40b82c9237e8" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Effects.WaterHoseParticles.lastSoundTime</definition>
+        <argsstring></argsstring>
+        <name>lastSoundTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a2fbf0baa3f35d1fc1063c025449ee93e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Effects.WaterHoseParticles.force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a025518b53fd99e68d71c411ffcece933" prot="private" static="no" mutable="no">
+        <type>List&lt; ParticleCollisionEvent &gt;</type>
+        <definition>List&lt;ParticleCollisionEvent&gt; UnityStandardAssets.Effects.WaterHoseParticles.m_CollisionEvents</definition>
+        <argsstring></argsstring>
+        <name>m_CollisionEvents</name>
+        <initializer>= new List&lt;ParticleCollisionEvent&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a84c3471419859b054bc2bfa7c204c8a1" prot="private" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem UnityStandardAssets.Effects.WaterHoseParticles.m_ParticleSystem</definition>
+        <argsstring></argsstring>
+        <name>m_ParticleSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1af66ef87ed539e91b4d3ec2b9705693a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Effects.WaterHoseParticles.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1abab33cac78b4b9c8501ec0cd182db2ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Effects.WaterHoseParticles.OnParticleCollision</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnParticleCollision</name>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="23" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2831">
+        <label>UnityStandardAssets.Effects.WaterHoseParticles</label>
+        <link refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles"/>
+        <childnode refid="2832" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2832">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2833">
+        <label>UnityStandardAssets.Effects.WaterHoseParticles</label>
+        <link refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles"/>
+        <childnode refid="2834" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2834">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" bodystart="7" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a2fbf0baa3f35d1fc1063c025449ee93e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Effects::WaterHoseParticles</scope><name>force</name></member>
+      <member refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a868cf658ba5ed7265a4c40b82c9237e8" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Effects::WaterHoseParticles</scope><name>lastSoundTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a025518b53fd99e68d71c411ffcece933" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Effects::WaterHoseParticles</scope><name>m_CollisionEvents</name></member>
+      <member refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1a84c3471419859b054bc2bfa7c204c8a1" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Effects::WaterHoseParticles</scope><name>m_ParticleSystem</name></member>
+      <member refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1abab33cac78b4b9c8501ec0cd182db2ba" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Effects::WaterHoseParticles</scope><name>OnParticleCollision</name></member>
+      <member refid="class_unity_standard_assets_1_1_effects_1_1_water_hose_particles_1af66ef87ed539e91b4d3ec2b9705693a6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Effects::WaterHoseParticles</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::_2D::Camera2DFollow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a7a5c331fd4d80f160c325f872cacea11" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets._2D.Camera2DFollow.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a47713bd9650a293b93861d1ff0128dd2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.Camera2DFollow.damping</definition>
+        <argsstring></argsstring>
+        <name>damping</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a997bd2b2df46706d19618dd6a5ba9699" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.Camera2DFollow.lookAheadFactor</definition>
+        <argsstring></argsstring>
+        <name>lookAheadFactor</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a8e35cbc4c1ea8f013391cc4780924b57" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.Camera2DFollow.lookAheadReturnSpeed</definition>
+        <argsstring></argsstring>
+        <name>lookAheadReturnSpeed</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a387c9b01976bc3fd0537da5cd6d33fe0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.Camera2DFollow.lookAheadMoveThreshold</definition>
+        <argsstring></argsstring>
+        <name>lookAheadMoveThreshold</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a11765705c976a95ef99a28ac2e0f5b9b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.Camera2DFollow.m_OffsetZ</definition>
+        <argsstring></argsstring>
+        <name>m_OffsetZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1afd7952907b496d601e6cdfbe7918320b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets._2D.Camera2DFollow.m_LastTargetPosition</definition>
+        <argsstring></argsstring>
+        <name>m_LastTargetPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a903158868201c2bfd58e0b06a57bee93" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets._2D.Camera2DFollow.m_CurrentVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a083a2c20ad19dc2e97597e9f21eb694b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets._2D.Camera2DFollow.m_LookAheadPos</definition>
+        <argsstring></argsstring>
+        <name>m_LookAheadPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a688f7509312f87182d87ec1e69fc8b0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets._2D.Camera2DFollow.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1af7d735aded26edffb89d8177bc668166" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets._2D.Camera2DFollow.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="29" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="395">
+        <label>UnityStandardAssets._2D.Camera2DFollow</label>
+        <link refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="397">
+        <label>UnityStandardAssets._2D.Camera2DFollow</label>
+        <link refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/Camera2DFollow.cs" bodystart="6" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a47713bd9650a293b93861d1ff0128dd2" prot="public" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>damping</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a997bd2b2df46706d19618dd6a5ba9699" prot="public" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>lookAheadFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a387c9b01976bc3fd0537da5cd6d33fe0" prot="public" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>lookAheadMoveThreshold</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a8e35cbc4c1ea8f013391cc4780924b57" prot="public" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>lookAheadReturnSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a903158868201c2bfd58e0b06a57bee93" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>m_CurrentVelocity</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1afd7952907b496d601e6cdfbe7918320b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>m_LastTargetPosition</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a083a2c20ad19dc2e97597e9f21eb694b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>m_LookAheadPos</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a11765705c976a95ef99a28ac2e0f5b9b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>m_OffsetZ</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a688f7509312f87182d87ec1e69fc8b0a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1a7a5c331fd4d80f160c325f872cacea11" prot="public" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>target</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow_1af7d735aded26edffb89d8177bc668166" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::Camera2DFollow</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

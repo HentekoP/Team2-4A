@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_depth_of_field_model_editor_8cs" kind="file">
+    <compoundname>DepthOfFieldModelEditor.cs</compoundname>
+    <innerclass refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor" prot="public">UnityEditor::PostProcessing::DepthOfFieldModelEditor</innerclass>
+    <innernamespace refid="namespace_unity_editor_1_1_post_processing">UnityEditor::PostProcessing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.PostProcessing;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityEditor.PostProcessing</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine_1_1_post_processing_1a03001cf2f893137ef8a9a57054900164" kindref="member">Settings</ref><sp/>=<sp/><ref refid="namespace_unity_engine_1_1_post_processing_1a03001cf2f893137ef8a9a57054900164" kindref="member">DepthOfFieldModel.Settings</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[PostProcessingModelEditor(typeof(<ref refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model" kindref="compound">DepthOfFieldModel</ref>))]</highlight></codeline>
+<codeline lineno="8" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor" kindref="compound">DepthOfFieldModelEditor</ref><sp/>:<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" kindref="compound">PostProcessingModelEditor</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a54f4bfc96d195d8ec91f5bb911762aec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a54f4bfc96d195d8ec91f5bb911762aec" kindref="member">m_FocusDistance</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a0e3dbe704fbfd6a7869fd503fb135142" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a0e3dbe704fbfd6a7869fd503fb135142" kindref="member">m_Aperture</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a675464b579b46bf427d3a7e6a6d54904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a675464b579b46bf427d3a7e6a6d54904" kindref="member">m_FocalLength</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a4f444dcebbaf69f9e5b1761f8a540d94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a4f444dcebbaf69f9e5b1761f8a540d94" kindref="member">m_UseCameraFov</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1ab869dacab7d005918639cf63e6514c21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1ab869dacab7d005918639cf63e6514c21" kindref="member">m_KernelSize</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a734cf645dac2b322e98d85ad7652dd2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a734cf645dac2b322e98d85ad7652dd2a" kindref="member">OnEnable</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_FocusDistance<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.focusDistance);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Aperture<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.aperture);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_FocalLength<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.focalLength);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_UseCameraFov<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.useCameraFov);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_KernelSize<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.kernelSize);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a16d6393fb53a11e086f8caac90166b25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_depth_of_field_model_editor_1a16d6393fb53a11e086f8caac90166b25" kindref="member">OnInspectorGUI</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_FocusDistance);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_Aperture,<sp/>EditorGUIHelper.GetContent(</highlight><highlight class="stringliteral">&quot;Aperture<sp/>(f-stop)&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_UseCameraFov,<sp/>EditorGUIHelper.GetContent(</highlight><highlight class="stringliteral">&quot;Use<sp/>Camera<sp/>FOV&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_UseCameraFov.boolValue)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_FocalLength,<sp/>EditorGUIHelper.GetContent(</highlight><highlight class="stringliteral">&quot;Focal<sp/>Length<sp/>(mm)&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_KernelSize);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs"/>
+  </compounddef>
+</doxygen>

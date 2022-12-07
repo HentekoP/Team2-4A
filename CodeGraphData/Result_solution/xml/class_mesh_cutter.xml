@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mesh_cutter" kind="class" prot="public">
+    <compoundname>MeshCutter</compoundname>
+    <basecompoundref refid="class_mono_singleton_3_01_t_01_4" prot="public" virt="non-virtual">MonoSingleton&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mesh_cutter_1a38bc4bc35d3d4531dac64f82e47687ef" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MeshCutter.currentlyCutting</definition>
+        <argsstring></argsstring>
+        <name>currentlyCutting</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_mesh_cutter_1a41de6ca9b5d03be431beb9a3a04f1d88" compoundref="_mesh_cutter_8cs" startline="18" endline="134">Cut</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_cutter_1ac8ca053a30df06bf04bc398074c63b57" prot="private" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh MeshCutter.originalMesh</definition>
+        <argsstring></argsstring>
+        <name>originalMesh</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_mesh_cutter_1a41de6ca9b5d03be431beb9a3a04f1d88" compoundref="_mesh_cutter_8cs" startline="18" endline="134">Cut</referencedby>
+        <referencedby refid="class_mesh_cutter_1a23cb146aaa48b409ac51d6d93437e0b3" compoundref="_mesh_cutter_8cs" startline="322" endline="368">Fill</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mesh_cutter_1a41de6ca9b5d03be431beb9a3a04f1d88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject MeshCutter.Cut</definition>
+        <argsstring>(GameObject cutObject, Vector3 cutPoint, Vector3 cutDirection, bool enableGravityForNewMesh=true, bool canNewMeshShatter=false)</argsstring>
+        <name>Cut</name>
+        <param>
+          <type>GameObject</type>
+          <declname>cutObject</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>cutPoint</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>cutDirection</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enableGravityForNewMesh</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>canNewMeshShatter</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="18" bodyend="134"/>
+        <references refid="class_mesh_cutter_1a38bc4bc35d3d4531dac64f82e47687ef" compoundref="_mesh_cutter_8cs" startline="14">currentlyCutting</references>
+        <references refid="class_mesh_cutter_1a810f71c33b1553836294f1e2052edf4f" compoundref="_mesh_cutter_8cs" startline="137" endline="245">CutTriangle</references>
+        <references refid="class_mesh_cutter_1a8a290fa20053f6fb5276bd510cdefdc6" compoundref="_mesh_cutter_8cs" startline="274" endline="294">FillCut</references>
+        <references refid="_mesh_cutter_8cs_1a71f23d2fb3a0f42457897b50415c548fa684d325a7303f52e64011467ff5c5758">LEFT</references>
+        <references refid="_mesh_cutter_8cs_1a71f23d2fb3a0f42457897b50415c548fa516a2342953891f249b58ff1c3943723">MIXED</references>
+        <references refid="class_mesh_cutter_1ac8ca053a30df06bf04bc398074c63b57" compoundref="_mesh_cutter_8cs" startline="15">originalMesh</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mesh_cutter_1a810f71c33b1553836294f1e2052edf4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutter.CutTriangle</definition>
+        <argsstring>(Plane cutPlane, Triangle triangle, List&lt; TriangleSide &gt; sides, MeshData leftMesh, MeshData rightMesh, List&lt; Vector3 &gt; newVerts)</argsstring>
+        <name>CutTriangle</name>
+        <param>
+          <type>Plane</type>
+          <declname>cutPlane</declname>
+        </param>
+        <param>
+          <type><ref refid="class_triangle" kindref="compound">Triangle</ref></type>
+          <declname>triangle</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="_mesh_cutter_8cs_1a71f23d2fb3a0f42457897b50415c548f" kindref="member">TriangleSide</ref> &gt;</type>
+          <declname>sides</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref></type>
+          <declname>leftMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref></type>
+          <declname>rightMesh</declname>
+        </param>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>newVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="137" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="137" bodyend="245"/>
+        <references refid="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" compoundref="_triangle_8cs" startline="10">Triangle.submeshIndex</references>
+        <references refid="class_mesh_cutter_1a2b52470b4b44d198a7c24a948ad3a97e" compoundref="_mesh_cutter_8cs" startline="248" endline="271">TriangleIsValid</references>
+        <references refid="class_triangle_1a67032583926f444e982355097e78b822" compoundref="_triangle_8cs" startline="7">Triangle.vertices</references>
+        <referencedby refid="class_mesh_cutter_1a41de6ca9b5d03be431beb9a3a04f1d88" compoundref="_mesh_cutter_8cs" startline="18" endline="134">Cut</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_1a2b52470b4b44d198a7c24a948ad3a97e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MeshCutter.TriangleIsValid</definition>
+        <argsstring>(Triangle _triangle, Vector3[] _newVertices, Vector3[] _newNormals)</argsstring>
+        <name>TriangleIsValid</name>
+        <param>
+          <type><ref refid="class_triangle" kindref="compound">Triangle</ref></type>
+          <declname>_triangle</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>_newVertices</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>_newNormals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="248" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="248" bodyend="271"/>
+        <referencedby refid="class_mesh_cutter_1a810f71c33b1553836294f1e2052edf4f" compoundref="_mesh_cutter_8cs" startline="137" endline="245">CutTriangle</referencedby>
+        <referencedby refid="class_mesh_cutter_1a23cb146aaa48b409ac51d6d93437e0b3" compoundref="_mesh_cutter_8cs" startline="322" endline="368">Fill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_1a8a290fa20053f6fb5276bd510cdefdc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutter.FillCut</definition>
+        <argsstring>(List&lt; Vector3 &gt; newVerts, Plane cutPlane, MeshData leftMesh, MeshData rightMesh)</argsstring>
+        <name>FillCut</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>newVerts</declname>
+        </param>
+        <param>
+          <type>Plane</type>
+          <declname>cutPlane</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref></type>
+          <declname>leftMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref></type>
+          <declname>rightMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="274" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="274" bodyend="294"/>
+        <references refid="class_mesh_cutter_1a2a0008662bf219afd26562c774a9bbd2" compoundref="_mesh_cutter_8cs" startline="297" endline="319">EvaluatePairs</references>
+        <references refid="class_mesh_cutter_1a23cb146aaa48b409ac51d6d93437e0b3" compoundref="_mesh_cutter_8cs" startline="322" endline="368">Fill</references>
+        <referencedby refid="class_mesh_cutter_1a41de6ca9b5d03be431beb9a3a04f1d88" compoundref="_mesh_cutter_8cs" startline="18" endline="134">Cut</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_1a2a0008662bf219afd26562c774a9bbd2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutter.EvaluatePairs</definition>
+        <argsstring>(List&lt; Vector3 &gt; newVerts, List&lt; Vector3 &gt; vertices, List&lt; Vector3 &gt; meshPoly)</argsstring>
+        <name>EvaluatePairs</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>newVerts</declname>
+        </param>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>meshPoly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="297" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="297" bodyend="319"/>
+        <referencedby refid="class_mesh_cutter_1a8a290fa20053f6fb5276bd510cdefdc6" compoundref="_mesh_cutter_8cs" startline="274" endline="294">FillCut</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_1a23cb146aaa48b409ac51d6d93437e0b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutter.Fill</definition>
+        <argsstring>(List&lt; Vector3 &gt; existingVerts, Plane cutPlane, MeshData leftMesh, MeshData rightMesh)</argsstring>
+        <name>Fill</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>existingVerts</declname>
+        </param>
+        <param>
+          <type>Plane</type>
+          <declname>cutPlane</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref></type>
+          <declname>leftMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref></type>
+          <declname>rightMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="322" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="322" bodyend="368"/>
+        <references refid="class_mesh_cutter_1ac8ca053a30df06bf04bc398074c63b57" compoundref="_mesh_cutter_8cs" startline="15">originalMesh</references>
+        <references refid="class_mesh_cutter_1a2b52470b4b44d198a7c24a948ad3a97e" compoundref="_mesh_cutter_8cs" startline="248" endline="271">TriangleIsValid</references>
+        <referencedby refid="class_mesh_cutter_1a8a290fa20053f6fb5276bd510cdefdc6" compoundref="_mesh_cutter_8cs" startline="274" endline="294">FillCut</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1426">
+        <label>MonoSingleton&lt; MeshCutter &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1427" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1425">
+        <label>MeshCutter</label>
+        <link refid="class_mesh_cutter"/>
+        <childnode refid="1426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1427">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1429">
+        <label>MonoSingleton&lt; MeshCutter &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>MeshCutter</label>
+        <link refid="class_mesh_cutter"/>
+        <childnode refid="1429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1430">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutter.cs" bodystart="12" bodyend="369"/>
+    <listofallmembers>
+      <member refid="class_mono_singleton_3_01_t_01_4_1aaee06c1dcfb60affd662840154379394" prot="public" virt="non-virtual"><scope>MeshCutter</scope><name>AssertIsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a04acead2ed3d970430f4c8c7716071f1" prot="protected" virt="virtual"><scope>MeshCutter</scope><name>Awake</name></member>
+      <member refid="class_mesh_cutter_1a38bc4bc35d3d4531dac64f82e47687ef" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>currentlyCutting</name></member>
+      <member refid="class_mesh_cutter_1a41de6ca9b5d03be431beb9a3a04f1d88" prot="public" virt="non-virtual"><scope>MeshCutter</scope><name>Cut</name></member>
+      <member refid="class_mesh_cutter_1a810f71c33b1553836294f1e2052edf4f" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>CutTriangle</name></member>
+      <member refid="class_mesh_cutter_1a2a0008662bf219afd26562c774a9bbd2" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>EvaluatePairs</name></member>
+      <member refid="class_mesh_cutter_1a23cb146aaa48b409ac51d6d93437e0b3" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>Fill</name></member>
+      <member refid="class_mesh_cutter_1a8a290fa20053f6fb5276bd510cdefdc6" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>FillCut</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a5637ba1f44359d4610b5eba552ef5f57" prot="public" virt="non-virtual"><scope>MeshCutter</scope><name>Instance</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a736249026f44cf1f3f4ab805e89bba47" prot="public" virt="non-virtual"><scope>MeshCutter</scope><name>IsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1af585390f9256dfc8be7c969ca9fb4d88" prot="protected" virt="virtual"><scope>MeshCutter</scope><name>OnDestroy</name></member>
+      <member refid="class_mesh_cutter_1ac8ca053a30df06bf04bc398074c63b57" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>originalMesh</name></member>
+      <member refid="class_mesh_cutter_1a2b52470b4b44d198a7c24a948ad3a97e" prot="private" virt="non-virtual"><scope>MeshCutter</scope><name>TriangleIsValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

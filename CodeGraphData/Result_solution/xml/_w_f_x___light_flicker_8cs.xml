@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_w_f_x___light_flicker_8cs" kind="file">
+    <compoundname>WFX_LightFlicker.cs</compoundname>
+    <innerclass refid="class_w_f_x___light_flicker" prot="public">WFX_LightFlicker</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[RequireComponent(typeof(Light))]</highlight></codeline>
+<codeline lineno="11" refid="class_w_f_x___light_flicker" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_w_f_x___light_flicker" kindref="compound">WFX_LightFlicker</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" kindref="member">time</ref><sp/>=<sp/>0.05f;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15" refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" kindref="member">timer</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17" refid="class_w_f_x___light_flicker_1afed26852ed8c227f22afac26b37ed729" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_w_f_x___light_flicker_1afed26852ed8c227f22afac26b37ed729" kindref="member">Start</ref><sp/>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" kindref="member">timer</ref><sp/>=<sp/><ref refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" kindref="member">time</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(</highlight><highlight class="stringliteral">&quot;Flicker&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="class_w_f_x___light_flicker_1a3087ab9c6b5649336a4c94cefa7d920f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>IEnumerator<sp/><ref refid="class_w_f_x___light_flicker_1a3087ab9c6b5649336a4c94cefa7d920f" kindref="member">Flicker</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(</highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetComponent&lt;Light&gt;().enabled<sp/>=<sp/>!GetComponent&lt;Light&gt;().enabled;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" kindref="member">timer</ref><sp/>-=<sp/>Time.deltaTime;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<ref refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" kindref="member">timer</ref><sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" kindref="member">timer</ref><sp/>=<sp/><ref refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" kindref="member">time</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs"/>
+  </compounddef>
+</doxygen>

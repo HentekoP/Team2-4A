@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_geom" kind="class" prot="public">
+    <compoundname>GK::Geom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_g_k_1_1_geom_1aaa44b0e8d79cc11c7a57376d795587f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.Geom.AreCoincident</definition>
+        <argsstring>(Vector2 a, Vector2 b)</argsstring>
+        <name>AreCoincident</name>
+        <param>
+          <type>Vector2</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Are these two vectors (approximately) coincident </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="34" bodyend="36"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a81999f0e466d1cacff09d3582ea3cb32" compoundref="_voronoi_calculator_8cs" startline="61" endline="228">GK.VoronoiCalculator.CalculateDiagram</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1ac1d0e439b78fcdf1242bde4220ea388b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.Geom.ToTheLeft</definition>
+        <argsstring>(Vector2 p, Vector2 l0, Vector2 l1)</argsstring>
+        <name>ToTheLeft</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>l0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>l1</declname>
+        </param>
+        <briefdescription>
+<para>Is point p to the left of the line from l0 to l1? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="41" bodyend="43"/>
+        <referencedby refid="class_g_k_1_1_geom_1ad2fe4105e416425778f870fe4e741d19" compoundref="_geom_8cs" startline="56" endline="60">GK.Geom.PointInTriangle</referencedby>
+        <referencedby refid="class_g_k_1_1_geom_1ada7a085fd44a846d47ae7991992626b0" compoundref="_geom_8cs" startline="48" endline="50">GK.Geom.ToTheRight</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1ada7a085fd44a846d47ae7991992626b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.Geom.ToTheRight</definition>
+        <argsstring>(Vector2 p, Vector2 l0, Vector2 l1)</argsstring>
+        <name>ToTheRight</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>l0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>l1</declname>
+        </param>
+        <briefdescription>
+<para>Is point p to the right of the line from l0 to l1? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="48" bodyend="50"/>
+        <references refid="class_g_k_1_1_geom_1ac1d0e439b78fcdf1242bde4220ea388b" compoundref="_geom_8cs" startline="41" endline="43">GK.Geom.ToTheLeft</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1ad2fe4105e416425778f870fe4e741d19" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.Geom.PointInTriangle</definition>
+        <argsstring>(Vector2 p, Vector2 c0, Vector2 c1, Vector2 c2)</argsstring>
+        <name>PointInTriangle</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Is point p inside the triangle formed by c0, c1 and c2 (assuming c1, c2 and c3 are in CCW order) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="56" bodyend="60"/>
+        <references refid="class_g_k_1_1_geom_1ac1d0e439b78fcdf1242bde4220ea388b" compoundref="_geom_8cs" startline="41" endline="43">GK.Geom.ToTheLeft</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1aa32e892d2e16b49ce09168ec780f57f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.Geom.InsideCircumcircle</definition>
+        <argsstring>(Vector2 p, Vector2 c0, Vector2 c1, Vector2 c2)</argsstring>
+        <name>InsideCircumcircle</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Is point p inside the circumcircle formed by c0, c1 and c2? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="65" bodyend="78"/>
+        <referencedby refid="class_g_k_1_1_delaunay_triangulation_1a095c7896d596e753f2d228eb4b84251d" compoundref="_delaunay_triangulation_8cs" startline="54" endline="73">GK.DelaunayTriangulation.Verify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1a73a6ec3d214eaa86d62dc09d66e920fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 GK.Geom.RotateRightAngle</definition>
+        <argsstring>(Vector2 v)</argsstring>
+        <name>RotateRightAngle</name>
+        <param>
+          <type>Vector2</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Rotate vector v left 90 degrees </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="83" bodyend="89"/>
+        <referencedby refid="class_g_k_1_1_geom_1a4e7c83330d71f9e81d827f15af3f2780" compoundref="_geom_8cs" startline="148" endline="160">GK.Geom.CircumcircleCenter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1ad52d0f2ac97701dbbec6b25d16533385" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.Geom.LineLineIntersection</definition>
+        <argsstring>(Vector2 p0, Vector2 v0, Vector2 p1, Vector2 v1, out float m0, out float m1)</argsstring>
+        <name>LineLineIntersection</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>m0</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>m1</declname>
+        </param>
+        <briefdescription>
+<para>General line/line intersection method. Each line is defined by a two vectors, a point on the line (p0 and p1 for the two lines) and a direction vector (v0 and v1 for the two lines). The returned value indicates whether the lines intersect. m0 and m1 are the coefficients of how much you have to multiply the direction vectors to get to the intersection. </para>        </briefdescription>
+        <detaileddescription>
+<para>In other words, if the intersection is located at X, then: <verbatim>X = p0 + m0 * v0
+X = p1 + m1 * v1
+</verbatim></para><para>By checking the m0/m1 values, you can check intersections for line segments and rays. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="107" bodyend="126"/>
+        <referencedby refid="class_g_k_1_1_geom_1a02a448614a8815ac73d4e5c7c25b5b4f" compoundref="_geom_8cs" startline="134" endline="142">GK.Geom.LineLineIntersection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1a02a448614a8815ac73d4e5c7c25b5b4f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 GK.Geom.LineLineIntersection</definition>
+        <argsstring>(Vector2 p0, Vector2 v0, Vector2 p1, Vector2 v1)  </argsstring>
+        <name>LineLineIntersection</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+<para>Returns the intersections of two lines. p0/p1 are points on the line, v0/v1 are the direction vectors for the lines. </para>        </briefdescription>
+        <detaileddescription>
+<para>If there are no intersections, returns a NaN vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="134" bodyend="142"/>
+        <references refid="class_g_k_1_1_geom_1ad52d0f2ac97701dbbec6b25d16533385" compoundref="_geom_8cs" startline="107" endline="126">GK.Geom.LineLineIntersection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1a4e7c83330d71f9e81d827f15af3f2780" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 GK.Geom.CircumcircleCenter</definition>
+        <argsstring>(Vector2 c0, Vector2 c1, Vector2 c2)</argsstring>
+        <name>CircumcircleCenter</name>
+        <param>
+          <type>Vector2</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Returns the center of the circumcircle defined by three points (c0, c1 and c2) on its edge. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="148" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="148" bodyend="160"/>
+        <references refid="class_g_k_1_1_geom_1a73a6ec3d214eaa86d62dc09d66e920fd" compoundref="_geom_8cs" startline="83" endline="89">GK.Geom.RotateRightAngle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1ab99d386e5ded32cbf76accca9217b719" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 GK.Geom.TriangleCentroid</definition>
+        <argsstring>(Vector2 c0, Vector2 c1, Vector2 c2)</argsstring>
+        <name>TriangleCentroid</name>
+        <param>
+          <type>Vector2</type>
+          <declname>c0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Returns the triangle centroid for triangle defined by points c0, c1 and c2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="166" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_geom_1a0310e59cbc6f28ea45335a41f5cb42cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float GK.Geom.Area</definition>
+        <argsstring>(IList&lt; Vector2 &gt; polygon)</argsstring>
+        <name>Area</name>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>polygon</declname>
+        </param>
+        <briefdescription>
+<para>Returns the signed area of a polygon. CCW polygons return a positive area, CW polygons return a negative area. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="175" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1181">
+        <label>GK.Geom</label>
+        <link refid="class_g_k_1_1_geom"/>
+        <childnode refid="1182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1182">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1183">
+        <label>GK.Geom</label>
+        <link refid="class_g_k_1_1_geom"/>
+        <childnode refid="1184" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/Geom.cs" bodystart="29" bodyend="191"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_geom_1a0310e59cbc6f28ea45335a41f5cb42cb" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>Area</name></member>
+      <member refid="class_g_k_1_1_geom_1aaa44b0e8d79cc11c7a57376d795587f8" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>AreCoincident</name></member>
+      <member refid="class_g_k_1_1_geom_1a4e7c83330d71f9e81d827f15af3f2780" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>CircumcircleCenter</name></member>
+      <member refid="class_g_k_1_1_geom_1aa32e892d2e16b49ce09168ec780f57f5" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>InsideCircumcircle</name></member>
+      <member refid="class_g_k_1_1_geom_1ad52d0f2ac97701dbbec6b25d16533385" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>LineLineIntersection</name></member>
+      <member refid="class_g_k_1_1_geom_1a02a448614a8815ac73d4e5c7c25b5b4f" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>LineLineIntersection</name></member>
+      <member refid="class_g_k_1_1_geom_1ad2fe4105e416425778f870fe4e741d19" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>PointInTriangle</name></member>
+      <member refid="class_g_k_1_1_geom_1a73a6ec3d214eaa86d62dc09d66e920fd" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>RotateRightAngle</name></member>
+      <member refid="class_g_k_1_1_geom_1ac1d0e439b78fcdf1242bde4220ea388b" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>ToTheLeft</name></member>
+      <member refid="class_g_k_1_1_geom_1ada7a085fd44a846d47ae7991992626b0" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>ToTheRight</name></member>
+      <member refid="class_g_k_1_1_geom_1ab99d386e5ded32cbf76accca9217b719" prot="public" virt="non-virtual"><scope>GK::Geom</scope><name>TriangleCentroid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

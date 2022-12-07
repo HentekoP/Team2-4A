@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_nv_fracture_tool" kind="class" prot="public">
+    <compoundname>NvFractureTool</compoundname>
+    <basecompoundref refid="class_disposable_ptr" prot="public" virt="non-virtual">DisposablePtr</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_nv_fracture_tool_1a30786918cb9f8af4154ee75deca13c32" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvFractureTool._FractureTool_Release</definition>
+        <argsstring>(IntPtr tool)</argsstring>
+        <name>_FractureTool_Release</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="157" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1aa95421f3fe8a579f5f4fb7c7d8362c65" compoundref="_nv_blast_ext_unity_8cs" startline="224" endline="228">Release</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a934a060e64221b0f7e94bc8cc10da3d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvFractureTool.NvBlastExtAuthoringCreateFractureTool</definition>
+        <argsstring>()</argsstring>
+        <name>NvBlastExtAuthoringCreateFractureTool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="160" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1a144842c8707a59b2b2ea49e3819b6730" compoundref="_nv_blast_ext_unity_8cs" startline="183" endline="187">NvFractureTool</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a98db7a1f07361ba01dfeeb965ae8c79b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvFractureTool._FractureTool_setSourceMesh</definition>
+        <argsstring>(IntPtr tool, IntPtr mesh)</argsstring>
+        <name>_FractureTool_setSourceMesh</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="163" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1aea4511a6f230e60ae8f838cb22e46009" compoundref="_nv_blast_ext_unity_8cs" startline="189" endline="192">setSourceMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a73cbbc0faf61e7d0e4b94919f7121688" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvFractureTool._FractureTool_setRemoveIslands</definition>
+        <argsstring>(IntPtr tool, bool remove)</argsstring>
+        <name>_FractureTool_setRemoveIslands</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>remove</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="166" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1a48e26c92c1553832a66033f2a4e44702" compoundref="_nv_blast_ext_unity_8cs" startline="194" endline="197">setRemoveIslands</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1aa00fc8b6c538f385702114c17483c2e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool NvFractureTool._FractureTool_voronoiFracturing</definition>
+        <argsstring>(IntPtr tool, int chunkId, IntPtr vsg)</argsstring>
+        <name>_FractureTool_voronoiFracturing</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chunkId</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>vsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="169" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1aac77e80b2e709dd285142f9146aa9ea4" compoundref="_nv_blast_ext_unity_8cs" startline="199" endline="202">voronoiFracturing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a284904ffe56afe45f66a6fdda1e8ccdf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool NvFractureTool._FractureTool_slicing</definition>
+        <argsstring>(IntPtr tool, int chunkId, [Out] SlicingConfiguration conf, bool replaceChunk)</argsstring>
+        <name>_FractureTool_slicing</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chunkId</declname>
+        </param>
+        <param>
+          <attributes>[Out]</attributes>
+          <type><ref refid="struct_slicing_configuration" kindref="compound">SlicingConfiguration</ref></type>
+          <declname>conf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>replaceChunk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="172" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1a223215ddb3190cec111fcd30876baece" compoundref="_nv_blast_ext_unity_8cs" startline="204" endline="207">slicing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a7333efbbd4b5501fa5da29dbf5c3d05b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvFractureTool._FractureTool_finalizeFracturing</definition>
+        <argsstring>(IntPtr tool)</argsstring>
+        <name>_FractureTool_finalizeFracturing</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="175" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1a037f6e5c95cc66f1e89d241966e35557" compoundref="_nv_blast_ext_unity_8cs" startline="209" endline="212">finalizeFracturing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a14ca675fdadd4c1db1db97ad0ed2627a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int NvFractureTool._FractureTool_getChunkCount</definition>
+        <argsstring>(IntPtr tool)</argsstring>
+        <name>_FractureTool_getChunkCount</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="178" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1a894af638acc84966a125af877270a2e5" compoundref="_nv_blast_ext_unity_8cs" startline="214" endline="217">getChunkCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a95943242146ac4e2b7fbd44b90522ec1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvFractureTool._FractureTool_getChunkMesh</definition>
+        <argsstring>(IntPtr tool, int chunkId, bool inside)</argsstring>
+        <name>_FractureTool_getChunkMesh</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chunkId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inside</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="181" column="1"/>
+        <referencedby refid="class_nv_fracture_tool_1aff37e52551dd1407de25279a8cf8bd9b" compoundref="_nv_blast_ext_unity_8cs" startline="219" endline="222">getChunkMesh</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_nv_fracture_tool_1a144842c8707a59b2b2ea49e3819b6730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NvFractureTool.NvFractureTool</definition>
+        <argsstring>()</argsstring>
+        <name>NvFractureTool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="183" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="183" bodyend="187"/>
+        <references refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" compoundref="_nv_blast_8cs" startline="9" endline="13">DisposablePtr.Initialize</references>
+        <references refid="class_nv_fracture_tool_1a934a060e64221b0f7e94bc8cc10da3d1">NvBlastExtAuthoringCreateFractureTool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1aea4511a6f230e60ae8f838cb22e46009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvFractureTool.setSourceMesh</definition>
+        <argsstring>(NvMesh mesh)</argsstring>
+        <name>setSourceMesh</name>
+        <param>
+          <type><ref refid="class_nv_mesh" kindref="compound">NvMesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="189" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="189" bodyend="192"/>
+        <references refid="class_nv_fracture_tool_1a98db7a1f07361ba01dfeeb965ae8c79b">_FractureTool_setSourceMesh</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a48e26c92c1553832a66033f2a4e44702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvFractureTool.setRemoveIslands</definition>
+        <argsstring>(bool remove)</argsstring>
+        <name>setRemoveIslands</name>
+        <param>
+          <type>bool</type>
+          <declname>remove</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="194" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="194" bodyend="197"/>
+        <references refid="class_nv_fracture_tool_1a73cbbc0faf61e7d0e4b94919f7121688">_FractureTool_setRemoveIslands</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1aac77e80b2e709dd285142f9146aa9ea4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NvFractureTool.voronoiFracturing</definition>
+        <argsstring>(int chunkId, NvVoronoiSitesGenerator vsg)</argsstring>
+        <name>voronoiFracturing</name>
+        <param>
+          <type>int</type>
+          <declname>chunkId</declname>
+        </param>
+        <param>
+          <type><ref refid="class_nv_voronoi_sites_generator" kindref="compound">NvVoronoiSitesGenerator</ref></type>
+          <declname>vsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="199" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="199" bodyend="202"/>
+        <references refid="class_nv_fracture_tool_1aa00fc8b6c538f385702114c17483c2e6">_FractureTool_voronoiFracturing</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a223215ddb3190cec111fcd30876baece" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NvFractureTool.slicing</definition>
+        <argsstring>(int chunkId, SlicingConfiguration conf, bool replaceChunk)</argsstring>
+        <name>slicing</name>
+        <param>
+          <type>int</type>
+          <declname>chunkId</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_slicing_configuration" kindref="compound">SlicingConfiguration</ref></type>
+          <declname>conf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>replaceChunk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="204" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="204" bodyend="207"/>
+        <references refid="class_nv_fracture_tool_1a284904ffe56afe45f66a6fdda1e8ccdf">_FractureTool_slicing</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a037f6e5c95cc66f1e89d241966e35557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvFractureTool.finalizeFracturing</definition>
+        <argsstring>()</argsstring>
+        <name>finalizeFracturing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="209" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="209" bodyend="212"/>
+        <references refid="class_nv_fracture_tool_1a7333efbbd4b5501fa5da29dbf5c3d05b">_FractureTool_finalizeFracturing</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1a894af638acc84966a125af877270a2e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NvFractureTool.getChunkCount</definition>
+        <argsstring>()</argsstring>
+        <name>getChunkCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="214" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="214" bodyend="217"/>
+        <references refid="class_nv_fracture_tool_1a14ca675fdadd4c1db1db97ad0ed2627a">_FractureTool_getChunkCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_fracture_tool_1aff37e52551dd1407de25279a8cf8bd9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_nv_mesh" kindref="compound">NvMesh</ref></type>
+        <definition>NvMesh NvFractureTool.getChunkMesh</definition>
+        <argsstring>(int chunkId, bool inside)</argsstring>
+        <name>getChunkMesh</name>
+        <param>
+          <type>int</type>
+          <declname>chunkId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inside</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="219" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="219" bodyend="222"/>
+        <references refid="class_nv_fracture_tool_1a95943242146ac4e2b7fbd44b90522ec1">_FractureTool_getChunkMesh</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_nv_fracture_tool_1aa95421f3fe8a579f5f4fb7c7d8362c65" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void NvFractureTool.Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <reimplements refid="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06">Release</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="224" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="224" bodyend="228"/>
+        <references refid="class_nv_fracture_tool_1a30786918cb9f8af4154ee75deca13c32">_FractureTool_Release</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1569">
+        <label>NvFractureTool</label>
+        <link refid="class_nv_fracture_tool"/>
+        <childnode refid="1570" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1571">
+        <label>IDisposable</label>
+      </node>
+      <node id="1570">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1571" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1572">
+        <label>NvFractureTool</label>
+        <link refid="class_nv_fracture_tool"/>
+        <childnode refid="1573" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1574">
+        <label>IDisposable</label>
+      </node>
+      <node id="1573">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1574" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="155" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="154" bodyend="229"/>
+    <listofallmembers>
+      <member refid="class_nv_fracture_tool_1a7333efbbd4b5501fa5da29dbf5c3d05b" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_finalizeFracturing</name></member>
+      <member refid="class_nv_fracture_tool_1a14ca675fdadd4c1db1db97ad0ed2627a" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_getChunkCount</name></member>
+      <member refid="class_nv_fracture_tool_1a95943242146ac4e2b7fbd44b90522ec1" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_getChunkMesh</name></member>
+      <member refid="class_nv_fracture_tool_1a30786918cb9f8af4154ee75deca13c32" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_Release</name></member>
+      <member refid="class_nv_fracture_tool_1a73cbbc0faf61e7d0e4b94919f7121688" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_setRemoveIslands</name></member>
+      <member refid="class_nv_fracture_tool_1a98db7a1f07361ba01dfeeb965ae8c79b" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_setSourceMesh</name></member>
+      <member refid="class_nv_fracture_tool_1a284904ffe56afe45f66a6fdda1e8ccdf" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_slicing</name></member>
+      <member refid="class_nv_fracture_tool_1aa00fc8b6c538f385702114c17483c2e6" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>_FractureTool_voronoiFracturing</name></member>
+      <member refid="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" prot="protected" virt="virtual"><scope>NvFractureTool</scope><name>Dispose</name></member>
+      <member refid="class_nv_fracture_tool_1a037f6e5c95cc66f1e89d241966e35557" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>finalizeFracturing</name></member>
+      <member refid="class_nv_fracture_tool_1a894af638acc84966a125af877270a2e5" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>getChunkCount</name></member>
+      <member refid="class_nv_fracture_tool_1aff37e52551dd1407de25279a8cf8bd9b" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>getChunkMesh</name></member>
+      <member refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" prot="protected" virt="non-virtual"><scope>NvFractureTool</scope><name>Initialize</name></member>
+      <member refid="class_nv_fracture_tool_1a934a060e64221b0f7e94bc8cc10da3d1" prot="private" virt="non-virtual"><scope>NvFractureTool</scope><name>NvBlastExtAuthoringCreateFractureTool</name></member>
+      <member refid="class_nv_fracture_tool_1a144842c8707a59b2b2ea49e3819b6730" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>NvFractureTool</name></member>
+      <member refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>ptr</name></member>
+      <member refid="class_nv_fracture_tool_1aa95421f3fe8a579f5f4fb7c7d8362c65" prot="protected" virt="virtual"><scope>NvFractureTool</scope><name>Release</name></member>
+      <member refid="class_disposable_ptr_1af8ea9eba3fee0b77b6e2162c94f1816c" prot="protected" virt="non-virtual"><scope>NvFractureTool</scope><name>ResetPtr</name></member>
+      <member refid="class_nv_fracture_tool_1a48e26c92c1553832a66033f2a4e44702" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>setRemoveIslands</name></member>
+      <member refid="class_nv_fracture_tool_1aea4511a6f230e60ae8f838cb22e46009" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>setSourceMesh</name></member>
+      <member refid="class_nv_fracture_tool_1a223215ddb3190cec111fcd30876baece" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>slicing</name></member>
+      <member refid="class_nv_fracture_tool_1aac77e80b2e709dd285142f9146aa9ea4" prot="public" virt="non-virtual"><scope>NvFractureTool</scope><name>voronoiFracturing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

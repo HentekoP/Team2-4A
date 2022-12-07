@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_change_gravity" kind="class" prot="public">
+    <compoundname>ChangeGravity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_change_gravity_1a855291c688ed4674387b54b066d9eaa7" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 ChangeGravity.localGravity</definition>
+        <argsstring></argsstring>
+        <name>localGravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" compoundref="_change_gravity_8cs" startline="22" endline="25">SetLocalGravity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_change_gravity_1a0ec1166c6290796508cff298dbca817c" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody ChangeGravity.rBody</definition>
+        <argsstring></argsstring>
+        <name>rBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_change_gravity_1a9072b8dec12a3b278dcc5d8fc08ad4ac" compoundref="_change_gravity_8cs" startline="11" endline="15">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_change_gravity_1a9072b8dec12a3b278dcc5d8fc08ad4ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChangeGravity.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" bodystart="11" bodyend="15"/>
+        <references refid="class_change_gravity_1a0ec1166c6290796508cff298dbca817c" compoundref="_change_gravity_8cs" startline="8">rBody</references>
+      </memberdef>
+      <memberdef kind="function" id="class_change_gravity_1ab0d30092d83ba20afe64de606fb2fa7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChangeGravity.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" compoundref="_change_gravity_8cs" startline="22" endline="25">SetLocalGravity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChangeGravity.SetLocalGravity</definition>
+        <argsstring>()</argsstring>
+        <name>SetLocalGravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" bodystart="22" bodyend="25"/>
+        <references refid="class_change_gravity_1a855291c688ed4674387b54b066d9eaa7" compoundref="_change_gravity_8cs" startline="7">localGravity</references>
+        <referencedby refid="class_change_gravity_1ab0d30092d83ba20afe64de606fb2fa7b" compoundref="_change_gravity_8cs" startline="17" endline="20">FixedUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="482">
+        <label>ChangeGravity</label>
+        <link refid="class_change_gravity"/>
+        <childnode refid="483" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="483">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="484">
+        <label>ChangeGravity</label>
+        <link refid="class_change_gravity"/>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="485">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/ChangeGravity.cs" bodystart="5" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_change_gravity_1ab0d30092d83ba20afe64de606fb2fa7b" prot="private" virt="non-virtual"><scope>ChangeGravity</scope><name>FixedUpdate</name></member>
+      <member refid="class_change_gravity_1a855291c688ed4674387b54b066d9eaa7" prot="private" virt="non-virtual"><scope>ChangeGravity</scope><name>localGravity</name></member>
+      <member refid="class_change_gravity_1a0ec1166c6290796508cff298dbca817c" prot="private" virt="non-virtual"><scope>ChangeGravity</scope><name>rBody</name></member>
+      <member refid="class_change_gravity_1a8d8013727848b9086f0db66dfe3390c5" prot="private" virt="non-virtual"><scope>ChangeGravity</scope><name>SetLocalGravity</name></member>
+      <member refid="class_change_gravity_1a9072b8dec12a3b278dcc5d8fc08ad4ac" prot="private" virt="non-virtual"><scope>ChangeGravity</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

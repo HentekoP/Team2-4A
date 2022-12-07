@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::DepthOfFieldModel</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingModel</basecompoundref>
+    <innerclass refid="struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings" prot="public">UnityEngine::PostProcessing::DepthOfFieldModel::Settings</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015" prot="public" static="no">
+        <name>KernelSize</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015a2660064e68655415da2628c2ae2f7592" prot="public">
+          <name>Small</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015a87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015a3a69b34ce86dacb205936a8094f6c743" prot="public">
+          <name>Large</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015a19a8f6992c210341d8ead9b4e2fce384" prot="public">
+          <name>VeryLarge</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" bodystart="8" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a273f44ecbe0a9ee8bbce7e7d3e2d84ff" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.DepthOfFieldModel.m_Settings</definition>
+        <argsstring></argsstring>
+        <name>m_Settings</name>
+        <initializer>= <ref refid="struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings_1a33cabc314b2e0327ed8a4927d61d4feb" kindref="member">Settings.defaultSettings</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1aa547c7750456651d57d3d4c2bfb91409" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.DepthOfFieldModel.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1aed85b9c87b7fd8c5844d44ff7883309c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.DepthOfFieldModel.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a15213e159193dba066f066b74b4e968d">Reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="758">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="759" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="759">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="760">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="761" relation="public-inheritance">
+        </childnode>
+        <childnode refid="762" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="761">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="762">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="761" relation="public-inheritance">
+        </childnode>
+        <childnode refid="762" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" bodystart="6" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1a94ada6da8010b232e32ff65d667db6a3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::DepthOfFieldModel</scope><name>enabled</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a8b92e9c86b4ffe225306853f8bfd4015" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::DepthOfFieldModel</scope><name>KernelSize</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1a273f44ecbe0a9ee8bbce7e7d3e2d84ff" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::DepthOfFieldModel</scope><name>m_Settings</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model_1acd362b51fa5958140754a1a4bdc1d768" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::DepthOfFieldModel</scope><name>OnValidate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1aed85b9c87b7fd8c5844d44ff7883309c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::DepthOfFieldModel</scope><name>Reset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model_1aa547c7750456651d57d3d4c2bfb91409" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::DepthOfFieldModel</scope><name>settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

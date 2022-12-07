@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_curve_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::CurveEditor</compoundname>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state" prot="public">UnityEditor::PostProcessing::CurveEditor::CurveState</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_menu_action" prot="package">UnityEditor::PostProcessing::CurveEditor::MenuAction</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_selection" prot="public">UnityEditor::PostProcessing::CurveEditor::Selection</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_settings" prot="public">UnityEditor::PostProcessing::CurveEditor::Settings</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6db4c5ebaf5269344e7c4aa1bf3bd9bf" prot="private" static="no">
+        <name>EditMode</name>
+        <enumvalue id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6db4c5ebaf5269344e7c4aa1bf3bd9bfa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6db4c5ebaf5269344e7c4aa1bf3bd9bfadefe967ad0373b2274fc298f19125ca7" prot="public">
+          <name>Moving</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6db4c5ebaf5269344e7c4aa1bf3bd9bfabd66d68085af15055325a27f13d036f7" prot="public">
+          <name>TangentEdit</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af0160a510fe33588a4fb9827dd4beda4" prot="private" static="no">
+        <name>Tangent</name>
+        <enumvalue id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af0160a510fe33588a4fb9827dd4beda4aefeb369cccbd560588a756610865664c" prot="public">
+          <name>In</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af0160a510fe33588a4fb9827dd4beda4a7c147cda9e49590f6abe83d118b7353b" prot="public">
+          <name>Out</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1abd5edf07120ac0632d77f9b6701311c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEditor.PostProcessing.CurveEditor.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6ea254ff1a04210c2f0dc6d9371bc7bf" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; SerializedProperty, <ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state" kindref="compound">CurveState</ref> &gt;</type>
+        <definition>Dictionary&lt;SerializedProperty, CurveState&gt; UnityEditor.PostProcessing.CurveEditor.m_Curves</definition>
+        <argsstring></argsstring>
+        <name>m_Curves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a75306519798e628fd89a316bcb1d6f4f" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.CurveEditor.m_CurveArea</definition>
+        <argsstring></argsstring>
+        <name>m_CurveArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a36de47c03952d15db6f5cff5dd504bde" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.CurveEditor.m_SelectedCurve</definition>
+        <argsstring></argsstring>
+        <name>m_SelectedCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a876faf06602e8bd7370983eacd989a35" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEditor.PostProcessing.CurveEditor.m_SelectedKeyframeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_SelectedKeyframeIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a44705367f750cdc99eaa725ced2e2f94" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6db4c5ebaf5269344e7c4aa1bf3bd9bf" kindref="member">EditMode</ref></type>
+        <definition>EditMode UnityEditor.PostProcessing.CurveEditor.m_EditMode</definition>
+        <argsstring></argsstring>
+        <name>m_EditMode</name>
+        <initializer>= EditMode.None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a0bbe29444f0cbd8504e3d4d5baac9c8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af0160a510fe33588a4fb9827dd4beda4" kindref="member">Tangent</ref></type>
+        <definition>Tangent UnityEditor.PostProcessing.CurveEditor.m_TangentEditMode</definition>
+        <argsstring></argsstring>
+        <name>m_TangentEditMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="137" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ab3267da4470907f7f7889ceda0a6db94" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.CurveEditor.m_Dirty</definition>
+        <argsstring></argsstring>
+        <name>m_Dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a03f05a0467b7483c35341ce5e066f09d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.CurveEditor.CurveEditor</definition>
+        <argsstring>()</argsstring>
+        <name>CurveEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="143" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a4d7d4ea1c4c67f295ad69970907f52be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.CurveEditor.CurveEditor</definition>
+        <argsstring>(Settings settings)</argsstring>
+        <name>CurveEditor</name>
+        <param>
+          <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_settings" kindref="compound">Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="147" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a008cf73f592affeea3d1ce10cd354922" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.Add</definition>
+        <argsstring>(params SerializedProperty[] curves)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>params SerializedProperty[]</type>
+          <declname>curves</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="156" bodyend="160"/>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1a525752786a73cecd0e5efa7ae3856e67" compoundref="_curve_editor_8cs" startline="64">UnityEditor.PostProcessing.CurveEditor.CurveState.defaultState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a209e3d94b83e305ea74d5dc37556175d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.Add</definition>
+        <argsstring>(SerializedProperty curve)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="162" bodyend="165"/>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1a525752786a73cecd0e5efa7ae3856e67" compoundref="_curve_editor_8cs" startline="64">UnityEditor.PostProcessing.CurveEditor.CurveState.defaultState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a967137bc3b57068e17ba0278b09edeb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.Add</definition>
+        <argsstring>(SerializedProperty curve, CurveState state)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state" kindref="compound">CurveState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="167" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="167" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1aca2fb79f32302e8c5cb1489634340cb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.Remove</definition>
+        <argsstring>(SerializedProperty curve)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="180" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a1546c7c7e9da11e2ec68f5e0a255d692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.RemoveAll</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="185" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a3307a1cacc6cf18d2c6016026995c985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state" kindref="compound">CurveState</ref></type>
+        <definition>CurveState UnityEditor.PostProcessing.CurveEditor.GetCurveState</definition>
+        <argsstring>(SerializedProperty curve)</argsstring>
+        <name>GetCurveState</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="190" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adda8f9c24e3ca6427dc4925149eb335f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.SetCurveState</definition>
+        <argsstring>(SerializedProperty curve, CurveState state)</argsstring>
+        <name>SetCurveState</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state" kindref="compound">CurveState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="199" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="199" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1aa582a6afdd1d913fcf3f4487aad3aa23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_selection" kindref="compound">Selection</ref></type>
+        <definition>Selection UnityEditor.PostProcessing.CurveEditor.GetSelection</definition>
+        <argsstring>()</argsstring>
+        <name>GetSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="207" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="207" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ab7f943a6c54cfc8ac566368fd75f1ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.SetKeyframe</definition>
+        <argsstring>(SerializedProperty curve, int keyframeIndex, Keyframe keyframe)</argsstring>
+        <name>SetKeyframe</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <param>
+          <type>Keyframe</type>
+          <declname>keyframe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="223" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="223" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1acdfe09e9ed98fd21d533de5b7b46f0a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.CurveEditor.OnGUI</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="230" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="230" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a39f9acccbbcd196c0b19866c32c35cb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.OnCurveGUI</definition>
+        <argsstring>(Rect rect, SerializedProperty curve, CurveState state)</argsstring>
+        <name>OnCurveGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state" kindref="compound">CurveState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="254" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="254" bodyend="495"/>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1a7251cda09c5beb75a1e896e87e94cb77" compoundref="_curve_editor_8cs" startline="56">UnityEditor.PostProcessing.CurveEditor.CurveState.color</references>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1aba264b3c6bc5d291990df358e5fe86ca" compoundref="_curve_editor_8cs" startline="53">UnityEditor.PostProcessing.CurveEditor.CurveState.editable</references>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1abb8b6af015fa2f97da6bc16a573f1bf7" compoundref="_curve_editor_8cs" startline="61">UnityEditor.PostProcessing.CurveEditor.CurveState.loopInBounds</references>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1ab2ec9070b560ab71548f0c78e34a7c5f" compoundref="_curve_editor_8cs" startline="60">UnityEditor.PostProcessing.CurveEditor.CurveState.onlyShowHandlesOnSelection</references>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1adec4e2428c2e0b45f2694c7e8fa27977" compoundref="_curve_editor_8cs" startline="59">UnityEditor.PostProcessing.CurveEditor.CurveState.showNonEditableHandles</references>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1ac636a424419e7a06a45d0f37b69418dd" compoundref="_curve_editor_8cs" startline="52">UnityEditor.PostProcessing.CurveEditor.CurveState.visible</references>
+        <references refid="struct_unity_editor_1_1_post_processing_1_1_curve_editor_1_1_curve_state_1a8fc2c4cbe944ee82c6a8742896ef6248" compoundref="_curve_editor_8cs" startline="55">UnityEditor.PostProcessing.CurveEditor.CurveState.zeroKeyConstantValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a51d3b4c9245596b4e4d515130a8575bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.OnGeneralUI</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>OnGeneralUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="497" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="497" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ab5be794aa2fa17ea16ed33e67a5bbb2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.SaveCurve</definition>
+        <argsstring>(SerializedProperty prop, AnimationCurve curve)</argsstring>
+        <name>SaveCurve</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="604" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="604" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a4d0f5edafeb168196555b2e4e0293622" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.Invalidate</definition>
+        <argsstring>()</argsstring>
+        <name>Invalidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="609" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="609" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1aa2f6bae1e5c4cbc62ecf30d3ae2c32b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.SelectKeyframe</definition>
+        <argsstring>(SerializedProperty curve, int keyframeIndex)</argsstring>
+        <name>SelectKeyframe</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="618" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="618" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a187c3f1c4c970132ed866aaf85d18af5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.ContextMenuAddKey</definition>
+        <argsstring>(Vector3 hit, bool createOnCurve)</argsstring>
+        <name>ContextMenuAddKey</name>
+        <param>
+          <type>Vector3</type>
+          <declname>hit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>createOnCurve</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="625" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="625" bodyend="652"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ac7bf9cc7c1d86208b30bd5252281a472" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.EditCreateKeyframe</definition>
+        <argsstring>(AnimationCurve curve, Vector3 position, bool createOnCurve, float zeroKeyConstantValue)</argsstring>
+        <name>EditCreateKeyframe</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>createOnCurve</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zeroKeyConstantValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="654" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="654" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a02f3c40e8d9617d9754b63011b25af27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.EditDeleteKeyframe</definition>
+        <argsstring>(AnimationCurve curve, int keyframeIndex)</argsstring>
+        <name>EditDeleteKeyframe</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="668" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="668" bodyend="671"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adbb58f379bc3183abe496632bd09e05f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.AddKeyframe</definition>
+        <argsstring>(AnimationCurve curve, Keyframe newValue)</argsstring>
+        <name>AddKeyframe</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>Keyframe</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="673" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="673" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a3260950dca4d6d935579140cba52a233" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.RemoveKeyframe</definition>
+        <argsstring>(AnimationCurve curve, int keyframeIndex)</argsstring>
+        <name>RemoveKeyframe</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="679" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="679" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af7c48e51a12779a74b4ec719ea831a1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.SetKeyframe</definition>
+        <argsstring>(AnimationCurve curve, int keyframeIndex, Keyframe newValue)</argsstring>
+        <name>SetKeyframe</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <param>
+          <type>Keyframe</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="685" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="685" bodyend="697"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a60814ca45b07f2cfa2d9249e4b324963" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.EditMoveKeyframe</definition>
+        <argsstring>(AnimationCurve curve, Keyframe[] keys, int keyframeIndex)</argsstring>
+        <name>EditMoveKeyframe</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>Keyframe[]</type>
+          <declname>keys</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="699" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="699" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a1752c3a0977878ebdd7d123ab18065df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.CurveEditor.EditMoveTangent</definition>
+        <argsstring>(AnimationCurve curve, Keyframe[] keys, int keyframeIndex, Tangent targetTangent, bool linkTangents)</argsstring>
+        <name>EditMoveTangent</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>Keyframe[]</type>
+          <declname>keys</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>keyframeIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af0160a510fe33588a4fb9827dd4beda4" kindref="member">Tangent</ref></type>
+          <declname>targetTangent</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>linkTangents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="707" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="707" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ad75f917c81c41b5d84cb01e0fc832c19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.CurveEditor.CurveToCanvas</definition>
+        <argsstring>(Keyframe keyframe)</argsstring>
+        <name>CurveToCanvas</name>
+        <param>
+          <type>Keyframe</type>
+          <declname>keyframe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="744" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="744" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af5be0d84c60f6d2085dca15a058764fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.CurveEditor.CurveToCanvas</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>CurveToCanvas</name>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="749" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="749" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adad83d63a0dd6b8458cb315896d49ad6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.CurveEditor.CanvasToCurve</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>CanvasToCurve</name>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="758" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="758" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1acad5420c23f3094fe20ab9d6b6a1f7c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.CurveEditor.CurveTangentToCanvas</definition>
+        <argsstring>(float tangent)</argsstring>
+        <name>CurveTangentToCanvas</name>
+        <param>
+          <type>float</type>
+          <declname>tangent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="769" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="769" bodyend="779"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ae89da80b5420d192ce01259bccc0193d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.CurveEditor.BezierSegment</definition>
+        <argsstring>(Keyframe start, Keyframe end)</argsstring>
+        <name>BezierSegment</name>
+        <param>
+          <type>Keyframe</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>Keyframe</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="781" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="781" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ad74140d6a02722f07750426fff21e990" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.CurveEditor.HardSegment</definition>
+        <argsstring>(Keyframe start, Keyframe end)</argsstring>
+        <name>HardSegment</name>
+        <param>
+          <type>Keyframe</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>Keyframe</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="797" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="797" bodyend="806"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ae1e270b09c5f7ad750a402dd4fa1f087" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.CurveEditor.ProjectTangent</definition>
+        <argsstring>(float inPosition, float inValue, float inTangent, float projPosition)</argsstring>
+        <name>ProjectTangent</name>
+        <param>
+          <type>float</type>
+          <declname>inPosition</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inValue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inTangent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>projPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="808" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="808" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adda462f2607142de391018918033f513" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.CurveEditor.EvaluateTangent</definition>
+        <argsstring>(AnimationCurve curve, float time)</argsstring>
+        <name>EvaluateTangent</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="813" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="813" bodyend="843"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Utils/CurveEditor.cs" bodystart="7" bodyend="846"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a008cf73f592affeea3d1ce10cd354922" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>Add</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a209e3d94b83e305ea74d5dc37556175d" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>Add</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a967137bc3b57068e17ba0278b09edeb8" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>Add</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adbb58f379bc3183abe496632bd09e05f" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>AddKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ae89da80b5420d192ce01259bccc0193d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>BezierSegment</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adad83d63a0dd6b8458cb315896d49ad6" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>CanvasToCurve</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a187c3f1c4c970132ed866aaf85d18af5" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>ContextMenuAddKey</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a03f05a0467b7483c35341ce5e066f09d" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>CurveEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a4d7d4ea1c4c67f295ad69970907f52be" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>CurveEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1acad5420c23f3094fe20ab9d6b6a1f7c3" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>CurveTangentToCanvas</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ad75f917c81c41b5d84cb01e0fc832c19" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>CurveToCanvas</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af5be0d84c60f6d2085dca15a058764fc" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>CurveToCanvas</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ac7bf9cc7c1d86208b30bd5252281a472" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>EditCreateKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a02f3c40e8d9617d9754b63011b25af27" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>EditDeleteKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6db4c5ebaf5269344e7c4aa1bf3bd9bf" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>EditMode</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a60814ca45b07f2cfa2d9249e4b324963" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>EditMoveKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a1752c3a0977878ebdd7d123ab18065df" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>EditMoveTangent</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adda462f2607142de391018918033f513" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>EvaluateTangent</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a3307a1cacc6cf18d2c6016026995c985" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>GetCurveState</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1aa582a6afdd1d913fcf3f4487aad3aa23" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>GetSelection</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ad74140d6a02722f07750426fff21e990" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>HardSegment</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a4d0f5edafeb168196555b2e4e0293622" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>Invalidate</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a75306519798e628fd89a316bcb1d6f4f" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_CurveArea</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a6ea254ff1a04210c2f0dc6d9371bc7bf" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_Curves</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ab3267da4470907f7f7889ceda0a6db94" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_Dirty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a44705367f750cdc99eaa725ced2e2f94" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_EditMode</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a36de47c03952d15db6f5cff5dd504bde" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_SelectedCurve</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a876faf06602e8bd7370983eacd989a35" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_SelectedKeyframeIndex</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a0bbe29444f0cbd8504e3d4d5baac9c8d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>m_TangentEditMode</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a39f9acccbbcd196c0b19866c32c35cb2" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>OnCurveGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a51d3b4c9245596b4e4d515130a8575bb" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>OnGeneralUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1acdfe09e9ed98fd21d533de5b7b46f0a2" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ae1e270b09c5f7ad750a402dd4fa1f087" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>ProjectTangent</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1aca2fb79f32302e8c5cb1489634340cb1" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>Remove</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a1546c7c7e9da11e2ec68f5e0a255d692" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>RemoveAll</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1a3260950dca4d6d935579140cba52a233" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>RemoveKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ab5be794aa2fa17ea16ed33e67a5bbb2f" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>SaveCurve</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1aa2f6bae1e5c4cbc62ecf30d3ae2c32b8" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>SelectKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1adda8f9c24e3ca6427dc4925149eb335f" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>SetCurveState</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1ab7f943a6c54cfc8ac566368fd75f1ec3" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>SetKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af7c48e51a12779a74b4ec719ea831a1b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>SetKeyframe</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1abd5edf07120ac0632d77f9b6701311c0" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>settings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_curve_editor_1af0160a510fe33588a4fb9827dd4beda4" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::CurveEditor</scope><name>Tangent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

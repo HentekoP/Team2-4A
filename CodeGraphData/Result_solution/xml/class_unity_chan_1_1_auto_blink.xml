@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_auto_blink" kind="class" prot="public">
+    <compoundname>UnityChan::AutoBlink</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_chan_1_1_auto_blink_1a34e224a9fdefd2b5dbc2352cbb296e46" prot="private" static="no">
+        <name>Status</name>
+        <enumvalue id="class_unity_chan_1_1_auto_blink_1a34e224a9fdefd2b5dbc2352cbb296e46ad3d2e617335f08df83599665eef8a418" prot="public">
+          <name>Close</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_chan_1_1_auto_blink_1a34e224a9fdefd2b5dbc2352cbb296e46a47066b5a5848cbe7e83c993f38961473" prot="public">
+          <name>HalfClose</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_chan_1_1_auto_blink_1a34e224a9fdefd2b5dbc2352cbb296e46ac3bf447eabe632720a3aa1a7ce401274" prot="public">
+          <name>Open</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1a4a5080964c033d8a488abe0ac1f901ce" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.AutoBlink.isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" compoundref="_auto_blink_8cs" startline="85" endline="104">UnityChan.AutoBlink.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1ad2fd476f3c4c363a2e9abe1b00567eab" prot="public" static="no" mutable="no">
+        <type>SkinnedMeshRenderer</type>
+        <definition>SkinnedMeshRenderer UnityChan.AutoBlink.ref_SMR_EYE_DEF</definition>
+        <argsstring></argsstring>
+        <name>ref_SMR_EYE_DEF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1aee290c9c8b5ae53a24a483ad2f6bf6c8" prot="public" static="no" mutable="no">
+        <type>SkinnedMeshRenderer</type>
+        <definition>SkinnedMeshRenderer UnityChan.AutoBlink.ref_SMR_EL_DEF</definition>
+        <argsstring></argsstring>
+        <name>ref_SMR_EL_DEF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1ac3ee116d468970e7006f56939ddc9266" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.ratio_Close</definition>
+        <argsstring></argsstring>
+        <name>ratio_Close</name>
+        <initializer>= 85.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ae5f04da450db0e552b82654d19508204" compoundref="_auto_blink_8cs" startline="106" endline="110">UnityChan.AutoBlink.SetCloseEyes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1a655439c921b5baaf96102091e19a634b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.ratio_HalfClose</definition>
+        <argsstring></argsstring>
+        <name>ratio_HalfClose</name>
+        <initializer>= 20.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ae9abf39eebba218664737575d2a957cc" compoundref="_auto_blink_8cs" startline="112" endline="116">UnityChan.AutoBlink.SetHalfCloseEyes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1afffabc17a58e419ad558917f3c508ece" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.ratio_Open</definition>
+        <argsstring></argsstring>
+        <name>ratio_Open</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1af89506fe6eb8ccc448d3c9288535bd57" compoundref="_auto_blink_8cs" startline="118" endline="122">UnityChan.AutoBlink.SetOpenEyes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1ae849cffcfa63e5d299bf577777e38d99" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.timeBlink</definition>
+        <argsstring></argsstring>
+        <name>timeBlink</name>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" compoundref="_auto_blink_8cs" startline="61" endline="65">UnityChan.AutoBlink.ResetTimer</referencedby>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" compoundref="_auto_blink_8cs" startline="68" endline="83">UnityChan.AutoBlink.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1ada64b5fab29482eb67d20f64683e26c5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.threshold</definition>
+        <argsstring></argsstring>
+        <name>threshold</name>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1abeb983ca3662e16247a3706b89090996" compoundref="_auto_blink_8cs" startline="125" endline="139">UnityChan.AutoBlink.RandomChange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1a73c9db30b550d97575e5fed86a9b4bf9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.interval</definition>
+        <argsstring></argsstring>
+        <name>interval</name>
+        <initializer>= 3.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1abeb983ca3662e16247a3706b89090996" compoundref="_auto_blink_8cs" startline="125" endline="139">UnityChan.AutoBlink.RandomChange</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1a0e2499750582bd7fe2e52e732c3e4373" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.AutoBlink.timerStarted</definition>
+        <argsstring></argsstring>
+        <name>timerStarted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" compoundref="_auto_blink_8cs" startline="61" endline="65">UnityChan.AutoBlink.ResetTimer</referencedby>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" compoundref="_auto_blink_8cs" startline="68" endline="83">UnityChan.AutoBlink.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1ab38ab5dd0505d03858b3911af8e915d3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityChan.AutoBlink.isBlink</definition>
+        <argsstring></argsstring>
+        <name>isBlink</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" compoundref="_auto_blink_8cs" startline="85" endline="104">UnityChan.AutoBlink.LateUpdate</referencedby>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1abeb983ca3662e16247a3706b89090996" compoundref="_auto_blink_8cs" startline="125" endline="139">UnityChan.AutoBlink.RandomChange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1a75383ea0e4c6984d944f43fe1c9c4255" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.AutoBlink.timeRemining</definition>
+        <argsstring></argsstring>
+        <name>timeRemining</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" compoundref="_auto_blink_8cs" startline="61" endline="65">UnityChan.AutoBlink.ResetTimer</referencedby>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" compoundref="_auto_blink_8cs" startline="68" endline="83">UnityChan.AutoBlink.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_chan_1_1_auto_blink_1a8bbd381b539a80e7fafa5ecf88e25b21" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_chan_1_1_auto_blink_1a34e224a9fdefd2b5dbc2352cbb296e46" kindref="member">Status</ref></type>
+        <definition>Status UnityChan.AutoBlink.eyeStatus</definition>
+        <argsstring></argsstring>
+        <name>eyeStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" compoundref="_auto_blink_8cs" startline="85" endline="104">UnityChan.AutoBlink.LateUpdate</referencedby>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" compoundref="_auto_blink_8cs" startline="68" endline="83">UnityChan.AutoBlink.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1aff6f01ab133bbfc6e2babf145d3f1c8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1a76f1cf8369590b9b0d4f1ef740764855" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="53" bodyend="58"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" compoundref="_auto_blink_8cs" startline="61" endline="65">UnityChan.AutoBlink.ResetTimer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.ResetTimer</definition>
+        <argsstring>()</argsstring>
+        <name>ResetTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="61" bodyend="65"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1ae849cffcfa63e5d299bf577777e38d99" compoundref="_auto_blink_8cs" startline="26">UnityChan.AutoBlink.timeBlink</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1a75383ea0e4c6984d944f43fe1c9c4255" compoundref="_auto_blink_8cs" startline="27">UnityChan.AutoBlink.timeRemining</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1a0e2499750582bd7fe2e52e732c3e4373" compoundref="_auto_blink_8cs" startline="23">UnityChan.AutoBlink.timerStarted</references>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a76f1cf8369590b9b0d4f1ef740764855" compoundref="_auto_blink_8cs" startline="53" endline="58">UnityChan.AutoBlink.Start</referencedby>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" compoundref="_auto_blink_8cs" startline="68" endline="83">UnityChan.AutoBlink.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="68" bodyend="83"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1a8bbd381b539a80e7fafa5ecf88e25b21" compoundref="_auto_blink_8cs" startline="42">UnityChan.AutoBlink.eyeStatus</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" compoundref="_auto_blink_8cs" startline="61" endline="65">UnityChan.AutoBlink.ResetTimer</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ae849cffcfa63e5d299bf577777e38d99" compoundref="_auto_blink_8cs" startline="26">UnityChan.AutoBlink.timeBlink</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1a75383ea0e4c6984d944f43fe1c9c4255" compoundref="_auto_blink_8cs" startline="27">UnityChan.AutoBlink.timeRemining</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1a0e2499750582bd7fe2e52e732c3e4373" compoundref="_auto_blink_8cs" startline="23">UnityChan.AutoBlink.timerStarted</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="85" bodyend="104"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1a8bbd381b539a80e7fafa5ecf88e25b21" compoundref="_auto_blink_8cs" startline="42">UnityChan.AutoBlink.eyeStatus</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1a4a5080964c033d8a488abe0ac1f901ce" compoundref="_auto_blink_8cs" startline="15">UnityChan.AutoBlink.isActive</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ab38ab5dd0505d03858b3911af8e915d3" compoundref="_auto_blink_8cs" startline="24">UnityChan.AutoBlink.isBlink</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ae5f04da450db0e552b82654d19508204" compoundref="_auto_blink_8cs" startline="106" endline="110">UnityChan.AutoBlink.SetCloseEyes</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ae9abf39eebba218664737575d2a957cc" compoundref="_auto_blink_8cs" startline="112" endline="116">UnityChan.AutoBlink.SetHalfCloseEyes</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1af89506fe6eb8ccc448d3c9288535bd57" compoundref="_auto_blink_8cs" startline="118" endline="122">UnityChan.AutoBlink.SetOpenEyes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1ae5f04da450db0e552b82654d19508204" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.SetCloseEyes</definition>
+        <argsstring>()</argsstring>
+        <name>SetCloseEyes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="106" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="106" bodyend="110"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1ac3ee116d468970e7006f56939ddc9266" compoundref="_auto_blink_8cs" startline="18">UnityChan.AutoBlink.ratio_Close</references>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" compoundref="_auto_blink_8cs" startline="85" endline="104">UnityChan.AutoBlink.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1ae9abf39eebba218664737575d2a957cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.SetHalfCloseEyes</definition>
+        <argsstring>()</argsstring>
+        <name>SetHalfCloseEyes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="112" bodyend="116"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1a655439c921b5baaf96102091e19a634b" compoundref="_auto_blink_8cs" startline="19">UnityChan.AutoBlink.ratio_HalfClose</references>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" compoundref="_auto_blink_8cs" startline="85" endline="104">UnityChan.AutoBlink.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1af89506fe6eb8ccc448d3c9288535bd57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.AutoBlink.SetOpenEyes</definition>
+        <argsstring>()</argsstring>
+        <name>SetOpenEyes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="118" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="118" bodyend="122"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1afffabc17a58e419ad558917f3c508ece" compoundref="_auto_blink_8cs" startline="22">UnityChan.AutoBlink.ratio_Open</references>
+        <referencedby refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" compoundref="_auto_blink_8cs" startline="85" endline="104">UnityChan.AutoBlink.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_chan_1_1_auto_blink_1abeb983ca3662e16247a3706b89090996" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator UnityChan.AutoBlink.RandomChange</definition>
+        <argsstring>()</argsstring>
+        <name>RandomChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="125" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="125" bodyend="139"/>
+        <references refid="class_unity_chan_1_1_auto_blink_1a73c9db30b550d97575e5fed86a9b4bf9" compoundref="_auto_blink_8cs" startline="30">UnityChan.AutoBlink.interval</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ab38ab5dd0505d03858b3911af8e915d3" compoundref="_auto_blink_8cs" startline="24">UnityChan.AutoBlink.isBlink</references>
+        <references refid="class_unity_chan_1_1_auto_blink_1ada64b5fab29482eb67d20f64683e26c5" compoundref="_auto_blink_8cs" startline="29">UnityChan.AutoBlink.threshold</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="159">
+        <label>UnityChan.AutoBlink</label>
+        <link refid="class_unity_chan_1_1_auto_blink"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="161">
+        <label>UnityChan.AutoBlink</label>
+        <link refid="class_unity_chan_1_1_auto_blink"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" bodystart="12" bodyend="140"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_auto_blink_1aff6f01ab133bbfc6e2babf145d3f1c8a" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>Awake</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a8bbd381b539a80e7fafa5ecf88e25b21" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>eyeStatus</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a73c9db30b550d97575e5fed86a9b4bf9" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>interval</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a4a5080964c033d8a488abe0ac1f901ce" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>isActive</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ab38ab5dd0505d03858b3911af8e915d3" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>isBlink</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a43965328ddf8b511889fed9fb933b748" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>LateUpdate</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1abeb983ca3662e16247a3706b89090996" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>RandomChange</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ac3ee116d468970e7006f56939ddc9266" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>ratio_Close</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a655439c921b5baaf96102091e19a634b" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>ratio_HalfClose</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1afffabc17a58e419ad558917f3c508ece" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>ratio_Open</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1aee290c9c8b5ae53a24a483ad2f6bf6c8" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>ref_SMR_EL_DEF</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ad2fd476f3c4c363a2e9abe1b00567eab" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>ref_SMR_EYE_DEF</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ae166c05642552f224695168e51547aff" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>ResetTimer</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ae5f04da450db0e552b82654d19508204" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>SetCloseEyes</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ae9abf39eebba218664737575d2a957cc" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>SetHalfCloseEyes</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1af89506fe6eb8ccc448d3c9288535bd57" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>SetOpenEyes</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a76f1cf8369590b9b0d4f1ef740764855" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>Start</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a34e224a9fdefd2b5dbc2352cbb296e46" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>Status</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ada64b5fab29482eb67d20f64683e26c5" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>threshold</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ae849cffcfa63e5d299bf577777e38d99" prot="public" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>timeBlink</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a75383ea0e4c6984d944f43fe1c9c4255" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>timeRemining</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1a0e2499750582bd7fe2e52e732c3e4373" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>timerStarted</name></member>
+      <member refid="class_unity_chan_1_1_auto_blink_1ad42b5daf1409a12a7e0aa97f10b0d986" prot="private" virt="non-virtual"><scope>UnityChan::AutoBlink</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

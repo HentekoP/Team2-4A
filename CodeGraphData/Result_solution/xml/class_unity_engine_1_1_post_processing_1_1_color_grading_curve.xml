@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ColorGradingCurve</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a9d614d239251bd42db12ad55b509f316" prot="public" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve UnityEngine.PostProcessing.ColorGradingCurve.curve</definition>
+        <argsstring></argsstring>
+        <name>curve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a10f5a3b0bf04d3eecc7c358cc665c7be" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.ColorGradingCurve.m_Loop</definition>
+        <argsstring></argsstring>
+        <name>m_Loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a4b9f07704fc1a0ec3ef1707b3d392535" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.ColorGradingCurve.m_ZeroValue</definition>
+        <argsstring></argsstring>
+        <name>m_ZeroValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a508942ac7032e9fd1fd213c555fdebac" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.ColorGradingCurve.m_Range</definition>
+        <argsstring></argsstring>
+        <name>m_Range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a08f926ba46c42d1e3af0fdafa4d73467" prot="private" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve UnityEngine.PostProcessing.ColorGradingCurve.m_InternalLoopingCurve</definition>
+        <argsstring></argsstring>
+        <name>m_InternalLoopingCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1ac68ca4da61fb2f9b5621f380319f43c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.PostProcessing.ColorGradingCurve.ColorGradingCurve</definition>
+        <argsstring>(AnimationCurve curve, float zeroValue, bool loop, Vector2 bounds)</argsstring>
+        <name>ColorGradingCurve</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zeroValue</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loop</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a819bbd63f105f12ed7f341715088bf9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.ColorGradingCurve.Cache</definition>
+        <argsstring>()</argsstring>
+        <name>Cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="31" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1af89e9253ac0366e5094cd59edc6933cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.ColorGradingCurve.Evaluate</definition>
+        <argsstring>(float t)</argsstring>
+        <name>Evaluate</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="53" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" bodystart="8" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a819bbd63f105f12ed7f341715088bf9b" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>Cache</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1ac68ca4da61fb2f9b5621f380319f43c3" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>ColorGradingCurve</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a9d614d239251bd42db12ad55b509f316" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>curve</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1af89e9253ac0366e5094cd59edc6933cb" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>Evaluate</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a08f926ba46c42d1e3af0fdafa4d73467" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>m_InternalLoopingCurve</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a10f5a3b0bf04d3eecc7c358cc665c7be" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>m_Loop</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a508942ac7032e9fd1fd213c555fdebac" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>m_Range</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_color_grading_curve_1a4b9f07704fc1a0ec3ef1707b3d392535" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingCurve</scope><name>m_ZeroValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

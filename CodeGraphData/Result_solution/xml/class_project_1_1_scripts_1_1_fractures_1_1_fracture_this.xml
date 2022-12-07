@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this" kind="class" prot="public">
+    <compoundname>Project::Scripts::Fractures::FractureThis</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a2d6f963d710d76d12e1d302dcca36c92" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_project_1_1_scripts_1_1_fractures_1a533cc629d3a7156bf76b4aee4e5fd19b" kindref="member">Anchor</ref></type>
+        <definition>Anchor Project.Scripts.Fractures.FractureThis.anchor</definition>
+        <argsstring></argsstring>
+        <name>anchor</name>
+        <initializer>= Anchor.Bottom</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1ad43b54da71a9017aef27efec436d1e6f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Project.Scripts.Fractures.FractureThis.chunks</definition>
+        <argsstring></argsstring>
+        <name>chunks</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a08298edd25e3678b992e3e4d2dd429c7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Project.Scripts.Fractures.FractureThis.density</definition>
+        <argsstring></argsstring>
+        <name>density</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1aca049cad63b34bb7ec2c1cb07cf9992c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Project.Scripts.Fractures.FractureThis.internalStrength</definition>
+        <argsstring></argsstring>
+        <name>internalStrength</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a000f9535a7b9647261af6a387f28ed5a" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material Project.Scripts.Fractures.FractureThis.insideMaterial</definition>
+        <argsstring></argsstring>
+        <name>insideMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a101c954184f0e5eecce837706068c6ec" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material Project.Scripts.Fractures.FractureThis.outsideMaterial</definition>
+        <argsstring></argsstring>
+        <name>outsideMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a8fed31727345071c34c11770af8b37ca" prot="private" static="no" mutable="no">
+        <type><ref refid="_fracture_this_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref></type>
+        <definition>Random Project.Scripts.Fractures.FractureThis.rng</definition>
+        <argsstring></argsstring>
+        <name>rng</name>
+        <initializer>= new <ref refid="_fracture_this_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1aef4be5afd6ae3d3517a70aae22c813cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Project.Scripts.Fractures.FractureThis.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a4bef5e9edfde2ecdee0a9f65dca3ea19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_chunk_graph_manager" kindref="compound">ChunkGraphManager</ref></type>
+        <definition>ChunkGraphManager Project.Scripts.Fractures.FractureThis.FractureGameobject</definition>
+        <argsstring>()</argsstring>
+        <name>FractureGameobject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="24" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1117">
+        <label>Project.Scripts.Fractures.FractureThis</label>
+        <link refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this"/>
+        <childnode refid="1118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1118">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1119">
+        <label>Project.Scripts.Fractures.FractureThis</label>
+        <link refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this"/>
+        <childnode refid="1120" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1121" relation="usage">
+          <edgelabel>rng</edgelabel>
+        </childnode>
+      </node>
+      <node id="1121">
+        <label>System</label>
+      </node>
+      <node id="1120">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/Scripts/FractureThis.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a2d6f963d710d76d12e1d302dcca36c92" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>anchor</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1ad43b54da71a9017aef27efec436d1e6f" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>chunks</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a08298edd25e3678b992e3e4d2dd429c7" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>density</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a4bef5e9edfde2ecdee0a9f65dca3ea19" prot="public" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>FractureGameobject</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a000f9535a7b9647261af6a387f28ed5a" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>insideMaterial</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1aca049cad63b34bb7ec2c1cb07cf9992c" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>internalStrength</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a101c954184f0e5eecce837706068c6ec" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>outsideMaterial</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1a8fed31727345071c34c11770af8b37ca" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>rng</name></member>
+      <member refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this_1aef4be5afd6ae3d3517a70aae22c813cd" prot="private" virt="non-virtual"><scope>Project::Scripts::Fractures::FractureThis</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

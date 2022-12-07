@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hammer_attack" kind="class" prot="public">
+    <compoundname>HammerAttack</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hammer_attack_1a788d215241b0614740b7065473e2b8be" prot="private" static="no" mutable="no">
+        <type>Animation</type>
+        <definition>Animation HammerAttack.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_hammer_attack_1aa0df8f304f5f6715d78a3c792f46abc4" compoundref="_hammer_attack_8cs" startline="13" endline="22">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_hammer_attack_1a07ba935dce643cd4cbe92af15bf3bc4b" prot="private" static="no" mutable="no">
+        <type>CapsuleCollider</type>
+        <definition>CapsuleCollider HammerAttack.capsule</definition>
+        <argsstring></argsstring>
+        <name>capsule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_hammer_attack_1aa0df8f304f5f6715d78a3c792f46abc4" compoundref="_hammer_attack_8cs" startline="13" endline="22">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_hammer_attack_1a36425a0a16a7c95fbdc8035a5c889afb" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource HammerAttack.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_hammer_attack_1aa0df8f304f5f6715d78a3c792f46abc4" compoundref="_hammer_attack_8cs" startline="13" endline="22">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_hammer_attack_1ab731c32f50d6fc256f0d75c905993495" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip HammerAttack.swingSE</definition>
+        <argsstring></argsstring>
+        <name>swingSE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_hammer_attack_1a8093ee3b8246de156422971657910a3c" compoundref="_hammer_attack_8cs" startline="45" endline="48">SE</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hammer_attack_1aa0df8f304f5f6715d78a3c792f46abc4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="13" bodyend="22"/>
+        <references refid="class_hammer_attack_1a788d215241b0614740b7065473e2b8be" compoundref="_hammer_attack_8cs" startline="7">anim</references>
+        <references refid="class_hammer_attack_1a36425a0a16a7c95fbdc8035a5c889afb" compoundref="_hammer_attack_8cs" startline="11">audioSource</references>
+        <references refid="class_hammer_attack_1a07ba935dce643cd4cbe92af15bf3bc4b" compoundref="_hammer_attack_8cs" startline="8">capsule</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hammer_attack_1a14612d3d6ab503e085db8a717043af79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hammer_attack_1a63aa05fe446d97664fc186fc6d7ffa1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.SwingStart</definition>
+        <argsstring>()</argsstring>
+        <name>SwingStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hammer_attack_1ae5ce56c2f38896f8aeb39b60b60dc1af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.SwingEnd</definition>
+        <argsstring>()</argsstring>
+        <name>SwingEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hammer_attack_1a8093ee3b8246de156422971657910a3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.SE</definition>
+        <argsstring>()</argsstring>
+        <name>SE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="45" bodyend="48"/>
+        <references refid="class_hammer_attack_1ab731c32f50d6fc256f0d75c905993495" compoundref="_hammer_attack_8cs" startline="10">swingSE</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hammer_attack_1a2c90685416f2a8de9ed72a5824e091eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.hakaikaisi</definition>
+        <argsstring>()</argsstring>
+        <name>hakaikaisi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hammer_attack_1a79be9989a4730075b99af06a93de369c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HammerAttack.hakaiowari</definition>
+        <argsstring>()</argsstring>
+        <name>hakaiowari</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1278">
+        <label>HammerAttack</label>
+        <link refid="class_hammer_attack"/>
+        <childnode refid="1279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1279">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1280">
+        <label>HammerAttack</label>
+        <link refid="class_hammer_attack"/>
+        <childnode refid="1281" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1281">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/HammerAttack.cs" bodystart="5" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_hammer_attack_1a788d215241b0614740b7065473e2b8be" prot="private" virt="non-virtual"><scope>HammerAttack</scope><name>anim</name></member>
+      <member refid="class_hammer_attack_1a36425a0a16a7c95fbdc8035a5c889afb" prot="private" virt="non-virtual"><scope>HammerAttack</scope><name>audioSource</name></member>
+      <member refid="class_hammer_attack_1a07ba935dce643cd4cbe92af15bf3bc4b" prot="private" virt="non-virtual"><scope>HammerAttack</scope><name>capsule</name></member>
+      <member refid="class_hammer_attack_1a2c90685416f2a8de9ed72a5824e091eb" prot="public" virt="non-virtual"><scope>HammerAttack</scope><name>hakaikaisi</name></member>
+      <member refid="class_hammer_attack_1a79be9989a4730075b99af06a93de369c" prot="public" virt="non-virtual"><scope>HammerAttack</scope><name>hakaiowari</name></member>
+      <member refid="class_hammer_attack_1a8093ee3b8246de156422971657910a3c" prot="public" virt="non-virtual"><scope>HammerAttack</scope><name>SE</name></member>
+      <member refid="class_hammer_attack_1aa0df8f304f5f6715d78a3c792f46abc4" prot="private" virt="non-virtual"><scope>HammerAttack</scope><name>Start</name></member>
+      <member refid="class_hammer_attack_1ae5ce56c2f38896f8aeb39b60b60dc1af" prot="public" virt="non-virtual"><scope>HammerAttack</scope><name>SwingEnd</name></member>
+      <member refid="class_hammer_attack_1ab731c32f50d6fc256f0d75c905993495" prot="public" virt="non-virtual"><scope>HammerAttack</scope><name>swingSE</name></member>
+      <member refid="class_hammer_attack_1a63aa05fe446d97664fc186fc6d7ffa1b" prot="public" virt="non-virtual"><scope>HammerAttack</scope><name>SwingStart</name></member>
+      <member refid="class_hammer_attack_1a14612d3d6ab503e085db8a717043af79" prot="private" virt="non-virtual"><scope>HammerAttack</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

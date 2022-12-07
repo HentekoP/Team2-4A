@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_s_n_a_p_1_1_package_checker" kind="class" prot="public">
+    <compoundname>SNAP::PackageChecker</compoundname>
+    <innerclass refid="class_s_n_a_p_1_1_package_checker_1_1_package_entry" prot="public">SNAP::PackageChecker::PackageEntry</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_s_n_a_p_1_1_package_checker_1a16d0b6a383fc64f2980aae7d09400204" prot="private" static="yes" mutable="no">
+        <type>ListRequest</type>
+        <definition>ListRequest SNAP.PackageChecker.listRequest</definition>
+        <argsstring></argsstring>
+        <name>listRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_n_a_p_1_1_package_checker_1afb8ee615081adda1b25e8a7aaa4cd38e" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_s_n_a_p_1_1_package_checker_1_1_package_entry" kindref="compound">PackageEntry</ref> &gt;</type>
+        <definition>List&lt;PackageEntry&gt; SNAP.PackageChecker.packageToAdd</definition>
+        <argsstring></argsstring>
+        <name>packageToAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_n_a_p_1_1_package_checker_1ac18ff36770889bb2502a47dff8ee3b0e" prot="private" static="yes" mutable="no">
+        <type>AddRequest[]</type>
+        <definition>AddRequest [] SNAP.PackageChecker.addRequests</definition>
+        <argsstring></argsstring>
+        <name>addRequests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_n_a_p_1_1_package_checker_1ab4c5efb8b3744f41242c1dccb1612aa2" prot="private" static="yes" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] SNAP.PackageChecker.installRequired</definition>
+        <argsstring></argsstring>
+        <name>installRequired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_n_a_p_1_1_package_checker_1a96b64f2d92f610102d3abdb7f3e5520a" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SNAP.PackageChecker.PackageKeyword</definition>
+        <argsstring></argsstring>
+        <name>PackageKeyword</name>
+        <initializer>= &quot;Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a5322f4736e8c766cb68ac8580ad5f559" compoundref="_package_checker_8cs" startline="145" endline="151">SNAP.PackageChecker.ReimportPackagesByKeyword</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SNAP.PackageChecker.CheckPackage</definition>
+        <argsstring>()</argsstring>
+        <name>CheckPackage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="26" bodyend="119"/>
+        <references refid="class_s_n_a_p_1_1_package_checker_1ac18ff36770889bb2502a47dff8ee3b0e" compoundref="_package_checker_8cs" startline="19">SNAP.PackageChecker.addRequests</references>
+        <references refid="class_s_n_a_p_1_1_package_checker_1a5043f5ff0db465388bfb849a069b2a8f" compoundref="_package_checker_8cs" startline="155" endline="193">SNAP.PackageChecker.GreaterThan</references>
+        <references refid="class_s_n_a_p_1_1_package_checker_1ab4c5efb8b3744f41242c1dccb1612aa2" compoundref="_package_checker_8cs" startline="20">SNAP.PackageChecker.installRequired</references>
+        <references refid="class_s_n_a_p_1_1_package_checker_1aef6d337267d50ca70d30cecac35455f9" compoundref="_package_checker_8cs" startline="122" endline="141">SNAP.PackageChecker.InstallSelectedPackage</references>
+        <references refid="class_s_n_a_p_1_1_package_checker_1a16d0b6a383fc64f2980aae7d09400204" compoundref="_package_checker_8cs" startline="16">SNAP.PackageChecker.listRequest</references>
+        <references refid="class_s_n_a_p_1_1_package_checker_1afb8ee615081adda1b25e8a7aaa4cd38e" compoundref="_package_checker_8cs" startline="17">SNAP.PackageChecker.packageToAdd</references>
+        <references refid="class_s_n_a_p_1_1_package_checker_1a5322f4736e8c766cb68ac8580ad5f559" compoundref="_package_checker_8cs" startline="145" endline="151">SNAP.PackageChecker.ReimportPackagesByKeyword</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_n_a_p_1_1_package_checker_1aef6d337267d50ca70d30cecac35455f9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AddRequest</type>
+        <definition>static AddRequest SNAP.PackageChecker.InstallSelectedPackage</definition>
+        <argsstring>(string packageName, string packageVersion)</argsstring>
+        <name>InstallSelectedPackage</name>
+        <param>
+          <type>string</type>
+          <declname>packageName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>packageVersion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="122" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="122" bodyend="141"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_s_n_a_p_1_1_package_checker_1a5322f4736e8c766cb68ac8580ad5f559" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SNAP.PackageChecker.ReimportPackagesByKeyword</definition>
+        <argsstring>()</argsstring>
+        <name>ReimportPackagesByKeyword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="145" bodyend="151"/>
+        <references refid="class_s_n_a_p_1_1_package_checker_1a96b64f2d92f610102d3abdb7f3e5520a" compoundref="_package_checker_8cs" startline="22">SNAP.PackageChecker.PackageKeyword</references>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_s_n_a_p_1_1_package_checker_1a5043f5ff0db465388bfb849a069b2a8f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SNAP.PackageChecker.GreaterThan</definition>
+        <argsstring>(string versionA, string versionB)</argsstring>
+        <name>GreaterThan</name>
+        <param>
+          <type>string</type>
+          <declname>versionA</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>versionB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="155" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="155" bodyend="193"/>
+        <referencedby refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" compoundref="_package_checker_8cs" startline="26" endline="119">SNAP.PackageChecker.CheckPackage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs" bodystart="13" bodyend="204"/>
+    <listofallmembers>
+      <member refid="class_s_n_a_p_1_1_package_checker_1ac18ff36770889bb2502a47dff8ee3b0e" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>addRequests</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1a7bdc82295bb881499417537a3c038f34" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>CheckPackage</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1a5043f5ff0db465388bfb849a069b2a8f" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>GreaterThan</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1ab4c5efb8b3744f41242c1dccb1612aa2" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>installRequired</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1aef6d337267d50ca70d30cecac35455f9" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>InstallSelectedPackage</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1a16d0b6a383fc64f2980aae7d09400204" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>listRequest</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1a96b64f2d92f610102d3abdb7f3e5520a" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>PackageKeyword</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1afb8ee615081adda1b25e8a7aaa4cd38e" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>packageToAdd</name></member>
+      <member refid="class_s_n_a_p_1_1_package_checker_1a5322f4736e8c766cb68ac8580ad5f559" prot="private" virt="non-virtual"><scope>SNAP::PackageChecker</scope><name>ReimportPackagesByKeyword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

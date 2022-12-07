@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor" kind="class" prot="public" abstract="yes">
+    <compoundname>UnityEditor::PostProcessing::PostProcessingMonitor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.HistogramMonitor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.ParadeMonitor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.VectorscopeMonitor</derivedcompoundref>
+    <derivedcompoundref refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.WaveformMonitor</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1aafb8128cac56dbe0e784e1f55f8525a9" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_unity_editor_1_1_post_processing_1a1406720dd4f22de1ae4d53487f0701d9" kindref="member">MonitorSettings</ref></type>
+        <definition>MonitorSettings UnityEditor.PostProcessing.PostProcessingMonitor.m_MonitorSettings</definition>
+        <argsstring></argsstring>
+        <name>m_MonitorSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a2553b93b6efa7231ed205cc06d6495f8" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector" kindref="compound">PostProcessingInspector</ref></type>
+        <definition>PostProcessingInspector UnityEditor.PostProcessing.PostProcessingMonitor.m_BaseEditor</definition>
+        <argsstring></argsstring>
+        <name>m_BaseEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a7772670b4fd34e76a0cb35d372ed1718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.PostProcessingMonitor.Init</definition>
+        <argsstring>(MonitorSettings monitorSettings, PostProcessingInspector baseEditor)</argsstring>
+        <name>Init</name>
+        <param>
+          <type><ref refid="namespace_unity_editor_1_1_post_processing_1a1406720dd4f22de1ae4d53487f0701d9" kindref="member">MonitorSettings</ref></type>
+          <declname>monitorSettings</declname>
+        </param>
+        <param>
+          <type><ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector" kindref="compound">PostProcessingInspector</ref></type>
+          <declname>baseEditor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1ab308a1c99994f4708f5502ddc640dc0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool UnityEditor.PostProcessing.PostProcessingMonitor.IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1aa2c30e921275f59d61d0f50d3804a306">IsSupported</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a463538bb61faf99a1507ac9501eb7de1">IsSupported</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a2dd290573b4cffc742c71023f6cf8e96">IsSupported</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a63e9ff70b84ba8443d2429359a103b02">IsSupported</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a4fb67dcd17b84d422c69f98159e20545" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract GUIContent</type>
+        <definition>abstract GUIContent UnityEditor.PostProcessing.PostProcessingMonitor.GetMonitorTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetMonitorTitle</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a71cc6ab9e9d57a73451cdb0e86d25b79">GetMonitorTitle</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1aaab4f236c863002855bf65f364e981ea">GetMonitorTitle</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a6cc2ec9d06d49a5449f5bff20e43d27d">GetMonitorTitle</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1ac727fbd3d56355c5a3b03f47ec230cb2">GetMonitorTitle</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a40e1d68334826b54634a87837cc4ef89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEditor.PostProcessing.PostProcessingMonitor.OnMonitorSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnMonitorSettings</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a68311f67e6546f64f01f825bd0cdff5a">OnMonitorSettings</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1af640d93cb043401ba229796ac3803c1e">OnMonitorSettings</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1acd49021b355e14e3fe60feefe350a504">OnMonitorSettings</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aa9ca26fe0daab044d6871dfb423bbbbf">OnMonitorSettings</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a51ecfadbfa10eb105e8c708b4d7064c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UnityEditor.PostProcessing.PostProcessingMonitor.OnMonitorGUI</definition>
+        <argsstring>(Rect r)</argsstring>
+        <name>OnMonitorGUI</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1add0c2d3325871b1df9e4e49302f0a426">OnMonitorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a587ac5ca6c538b090329c9cd7dafca39">OnMonitorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1acb7862e8e86f2eb6cd33d8b2c89be22e">OnMonitorGUI</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1acdc2fa129a9020c11b49e4ed3c47f80d">OnMonitorGUI</reimplementedby>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a490e202a0b1d45fdbc073d6000a7e220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEditor.PostProcessing.PostProcessingMonitor.OnFrameData</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>OnFrameData</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1aad2a91361031b9b19ad81a7b72f9b695">OnFrameData</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a8e49f6f541ec218ac719b87773deaae6">OnFrameData</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a8a2597c0eedeeb0f5451ca10edc1c241">OnFrameData</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1ae33e556cd3f2386e34562c9cda059da6">OnFrameData</reimplementedby>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a89c45fe9fe5a185eb55ef522cba5dec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UnityEditor.PostProcessing.PostProcessingMonitor.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1aa30204365ee9ccf878ecd5e5dafd06d8">Dispose</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a005eed06f524b178cf20c653a065e4b8">Dispose</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor_1a44b7cab29094f27567876326ed95532b">Dispose</reimplementedby>
+        <reimplementedby refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a9240b5721430577251b39b7070c14ed4">Dispose</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="31" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2028">
+        <label>UnityEditor.PostProcessing.WaveformMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor"/>
+        <childnode refid="2023" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2027">
+        <label>UnityEditor.PostProcessing.VectorscopeMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor"/>
+        <childnode refid="2023" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2024">
+        <label>IDisposable</label>
+      </node>
+      <node id="2026">
+        <label>UnityEditor.PostProcessing.ParadeMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_parade_monitor"/>
+        <childnode refid="2023" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2025">
+        <label>UnityEditor.PostProcessing.HistogramMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor"/>
+        <childnode refid="2023" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2023">
+        <label>UnityEditor.PostProcessing.PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="2024" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2033">
+        <label>Editor</label>
+      </node>
+      <node id="2031">
+        <label>UnityEngine</label>
+      </node>
+      <node id="2030">
+        <label>IDisposable</label>
+      </node>
+      <node id="2032">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="2033" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2029">
+        <label>UnityEditor.PostProcessing.PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="2030" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2031" relation="usage">
+          <edgelabel>m_MonitorSettings</edgelabel>
+        </childnode>
+        <childnode refid="2032" relation="usage">
+          <edgelabel>m_BaseEditor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/PostProcessingMonitor.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a89c45fe9fe5a185eb55ef522cba5dec5" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>Dispose</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a4fb67dcd17b84d422c69f98159e20545" prot="public" virt="pure-virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>GetMonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a7772670b4fd34e76a0cb35d372ed1718" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>Init</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1ab308a1c99994f4708f5502ddc640dc0a" prot="public" virt="pure-virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>IsSupported</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a2553b93b6efa7231ed205cc06d6495f8" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>m_BaseEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1aafb8128cac56dbe0e784e1f55f8525a9" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>m_MonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a490e202a0b1d45fdbc073d6000a7e220" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>OnFrameData</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a51ecfadbfa10eb105e8c708b4d7064c4" prot="public" virt="pure-virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>OnMonitorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a40e1d68334826b54634a87837cc4ef89" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::PostProcessingMonitor</scope><name>OnMonitorSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pool" kind="class" prot="public">
+    <compoundname>Pool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pool_1a7cff18bf27c014880537fff2a724d365" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Pool.prefab</definition>
+        <argsstring></argsstring>
+        <name>prefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_pool_1ae80a149ccc08d09f2d7833d91395bcfe" compoundref="_pool_8cs" startline="66" endline="89">GetInstance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pool_1ad2b9fe57ee911f2152e7179c2f75cd2f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pool.maxCount</definition>
+        <argsstring></argsstring>
+        <name>maxCount</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_pool_1ae80a149ccc08d09f2d7833d91395bcfe" compoundref="_pool_8cs" startline="66" endline="89">GetInstance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pool_1a6b6feba27adcc5193c78ee5aace4949c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pool.prepareCount</definition>
+        <argsstring></argsstring>
+        <name>prepareCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_pool_1ab17739da0e121573b010e86ce93c3920" compoundref="_pool_8cs" startline="91" endline="98">RemoveObjectCheck</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pool_1abcca01321236139726fbf405ab372d5e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pool.interval</definition>
+        <argsstring></argsstring>
+        <name>interval</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_pool_1ab18b3a53f5e9bb7f7e0c6d784f80dc36" compoundref="_pool_8cs" startline="15" endline="19">OnEnable</referencedby>
+        <referencedby refid="class_pool_1ab17739da0e121573b010e86ce93c3920" compoundref="_pool_8cs" startline="91" endline="98">RemoveObjectCheck</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pool_1ae331880216b315ca29e0812eeb6cfb1e" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; Pool.pooledObjectList</definition>
+        <argsstring></argsstring>
+        <name>pooledObjectList</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_pool_1ae80a149ccc08d09f2d7833d91395bcfe" compoundref="_pool_8cs" startline="66" endline="89">GetInstance</referencedby>
+        <referencedby refid="class_pool_1a5f71154d873c81fa70da98486f86feb6" compoundref="_pool_8cs" startline="26" endline="40">OnDestroy</referencedby>
+        <referencedby refid="class_pool_1a2cdf10ac6a15a8f2b1fd91c63271ac44" compoundref="_pool_8cs" startline="100" endline="119">RemoveObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pool_1a5b1dc6674657c4db6d61bffd4d6dac7c" prot="private" static="yes" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Pool.poolAttachedObject</definition>
+        <argsstring></argsstring>
+        <name>poolAttachedObject</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_pool_1a01cd309eda7fc53b6a448d4aae6be745" compoundref="_pool_8cs" startline="121" endline="151">GetObjectPool</referencedby>
+        <referencedby refid="class_pool_1a5f71154d873c81fa70da98486f86feb6" compoundref="_pool_8cs" startline="26" endline="40">OnDestroy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_pool_1abf04c9038b66cb2b520977a20c276cd0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Pool.Interval</definition>
+        <argsstring></argsstring>
+        <name>Interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pool_1ab18b3a53f5e9bb7f7e0c6d784f80dc36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pool.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="15" bodyend="19"/>
+        <references refid="class_pool_1abcca01321236139726fbf405ab372d5e" compoundref="_pool_8cs" startline="11">interval</references>
+        <references refid="class_pool_1ab17739da0e121573b010e86ce93c3920" compoundref="_pool_8cs" startline="91" endline="98">RemoveObjectCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pool_1ad03a4bdb65909529c0bec768cbaefd24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pool.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pool_1ab17739da0e121573b010e86ce93c3920" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Pool.RemoveObjectCheck</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveObjectCheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="91" bodyend="98"/>
+        <references refid="class_pool_1abcca01321236139726fbf405ab372d5e" compoundref="_pool_8cs" startline="11">interval</references>
+        <references refid="class_pool_1a6b6feba27adcc5193c78ee5aace4949c" compoundref="_pool_8cs" startline="9">prepareCount</references>
+        <references refid="class_pool_1a2cdf10ac6a15a8f2b1fd91c63271ac44" compoundref="_pool_8cs" startline="100" endline="119">RemoveObject</references>
+        <referencedby refid="class_pool_1ab18b3a53f5e9bb7f7e0c6d784f80dc36" compoundref="_pool_8cs" startline="15" endline="19">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pool_1a5f71154d873c81fa70da98486f86feb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pool.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="26" bodyend="40"/>
+        <references refid="class_pool_1a5b1dc6674657c4db6d61bffd4d6dac7c" compoundref="_pool_8cs" startline="13">poolAttachedObject</references>
+        <references refid="class_pool_1ae331880216b315ca29e0812eeb6cfb1e" compoundref="_pool_8cs" startline="12">pooledObjectList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pool_1a3129d3c427ec89aaa99011cbcccd3c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject Pool.GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pool_1ae80a149ccc08d09f2d7833d91395bcfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject Pool.GetInstance</definition>
+        <argsstring>(Transform parent)</argsstring>
+        <name>GetInstance</name>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="66" bodyend="89"/>
+        <references refid="class_pool_1ad2b9fe57ee911f2152e7179c2f75cd2f" compoundref="_pool_8cs" startline="8">maxCount</references>
+        <references refid="class_pool_1ae331880216b315ca29e0812eeb6cfb1e" compoundref="_pool_8cs" startline="12">pooledObjectList</references>
+        <references refid="class_pool_1a7cff18bf27c014880537fff2a724d365" compoundref="_pool_8cs" startline="7">prefab</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pool_1a2cdf10ac6a15a8f2b1fd91c63271ac44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pool.RemoveObject</definition>
+        <argsstring>(int max)</argsstring>
+        <name>RemoveObject</name>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="100" bodyend="119"/>
+        <references refid="class_pool_1ae331880216b315ca29e0812eeb6cfb1e" compoundref="_pool_8cs" startline="12">pooledObjectList</references>
+        <referencedby refid="class_pool_1ab17739da0e121573b010e86ce93c3920" compoundref="_pool_8cs" startline="91" endline="98">RemoveObjectCheck</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pool_1a01cd309eda7fc53b6a448d4aae6be745" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pool" kindref="compound">Pool</ref></type>
+        <definition>static Pool Pool.GetObjectPool</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>GetObjectPool</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="121" bodyend="151"/>
+        <references refid="class_pool_1a5b1dc6674657c4db6d61bffd4d6dac7c" compoundref="_pool_8cs" startline="13">poolAttachedObject</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1706">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1705">
+        <label>Pool</label>
+        <link refid="class_pool"/>
+        <childnode refid="1706" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1708">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1707">
+        <label>Pool</label>
+        <link refid="class_pool"/>
+        <childnode refid="1708" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Pool.cs" bodystart="5" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_pool_1a3129d3c427ec89aaa99011cbcccd3c6d" prot="public" virt="non-virtual"><scope>Pool</scope><name>GetInstance</name></member>
+      <member refid="class_pool_1ae80a149ccc08d09f2d7833d91395bcfe" prot="public" virt="non-virtual"><scope>Pool</scope><name>GetInstance</name></member>
+      <member refid="class_pool_1a01cd309eda7fc53b6a448d4aae6be745" prot="public" virt="non-virtual"><scope>Pool</scope><name>GetObjectPool</name></member>
+      <member refid="class_pool_1abcca01321236139726fbf405ab372d5e" prot="private" virt="non-virtual"><scope>Pool</scope><name>interval</name></member>
+      <member refid="class_pool_1abf04c9038b66cb2b520977a20c276cd0" prot="public" virt="non-virtual"><scope>Pool</scope><name>Interval</name></member>
+      <member refid="class_pool_1ad2b9fe57ee911f2152e7179c2f75cd2f" prot="public" virt="non-virtual"><scope>Pool</scope><name>maxCount</name></member>
+      <member refid="class_pool_1a5f71154d873c81fa70da98486f86feb6" prot="public" virt="non-virtual"><scope>Pool</scope><name>OnDestroy</name></member>
+      <member refid="class_pool_1ad03a4bdb65909529c0bec768cbaefd24" prot="private" virt="non-virtual"><scope>Pool</scope><name>OnDisable</name></member>
+      <member refid="class_pool_1ab18b3a53f5e9bb7f7e0c6d784f80dc36" prot="private" virt="non-virtual"><scope>Pool</scope><name>OnEnable</name></member>
+      <member refid="class_pool_1a5b1dc6674657c4db6d61bffd4d6dac7c" prot="private" virt="non-virtual"><scope>Pool</scope><name>poolAttachedObject</name></member>
+      <member refid="class_pool_1ae331880216b315ca29e0812eeb6cfb1e" prot="private" virt="non-virtual"><scope>Pool</scope><name>pooledObjectList</name></member>
+      <member refid="class_pool_1a7cff18bf27c014880537fff2a724d365" prot="public" virt="non-virtual"><scope>Pool</scope><name>prefab</name></member>
+      <member refid="class_pool_1a6b6feba27adcc5193c78ee5aace4949c" prot="public" virt="non-virtual"><scope>Pool</scope><name>prepareCount</name></member>
+      <member refid="class_pool_1a2cdf10ac6a15a8f2b1fd91c63271ac44" prot="public" virt="non-virtual"><scope>Pool</scope><name>RemoveObject</name></member>
+      <member refid="class_pool_1ab17739da0e121573b010e86ce93c3920" prot="private" virt="non-virtual"><scope>Pool</scope><name>RemoveObjectCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

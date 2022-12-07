@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bomb_explosion" kind="class" prot="public">
+    <compoundname>BombExplosion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bomb_explosion_1a0f33e6470e8d077fdad1a933de5603de" prot="private" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem BombExplosion.particle</definition>
+        <argsstring></argsstring>
+        <name>particle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_bomb_explosion_1a9ec92c0deb941c17d4299afd86f41c4a" compoundref="_bomb_explosion_8cs" startline="8" endline="11">Start</referencedby>
+        <referencedby refid="class_bomb_explosion_1a5acc070a1b96d3c67cf7b096d721f4c0" compoundref="_bomb_explosion_8cs" startline="13" endline="19">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bomb_explosion_1a9ec92c0deb941c17d4299afd86f41c4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BombExplosion.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_bomb_explosion_1a0f33e6470e8d077fdad1a933de5603de" compoundref="_bomb_explosion_8cs" startline="7">particle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bomb_explosion_1a5acc070a1b96d3c67cf7b096d721f4c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BombExplosion.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" bodystart="13" bodyend="19"/>
+        <references refid="class_bomb_explosion_1a0f33e6470e8d077fdad1a933de5603de" compoundref="_bomb_explosion_8cs" startline="7">particle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="307">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="306">
+        <label>BombExplosion</label>
+        <link refid="class_bomb_explosion"/>
+        <childnode refid="307" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="309">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="308">
+        <label>BombExplosion</label>
+        <link refid="class_bomb_explosion"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/BombExplosion.cs" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_bomb_explosion_1a0f33e6470e8d077fdad1a933de5603de" prot="private" virt="non-virtual"><scope>BombExplosion</scope><name>particle</name></member>
+      <member refid="class_bomb_explosion_1a9ec92c0deb941c17d4299afd86f41c4a" prot="private" virt="non-virtual"><scope>BombExplosion</scope><name>Start</name></member>
+      <member refid="class_bomb_explosion_1a5acc070a1b96d3c67cf7b096d721f4c0" prot="private" virt="non-virtual"><scope>BombExplosion</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

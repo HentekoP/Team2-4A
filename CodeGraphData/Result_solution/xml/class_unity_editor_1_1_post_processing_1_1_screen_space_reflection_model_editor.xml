@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingModelEditor</basecompoundref>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_intensity_settings" prot="private">UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor::IntensitySettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_reflection_settings" prot="private">UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor::ReflectionSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_screen_edge_mask" prot="private">UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor::ScreenEdgeMask</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a0f387dac15ee3977afca7d7689021a3b" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_intensity_settings" kindref="compound">IntensitySettings</ref></type>
+        <definition>IntensitySettings UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.m_Intensity</definition>
+        <argsstring></argsstring>
+        <name>m_Intensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a4863e5e1ed2265ec1d455bae8639ee9c" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_reflection_settings" kindref="compound">ReflectionSettings</ref></type>
+        <definition>ReflectionSettings UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.m_Reflection</definition>
+        <argsstring></argsstring>
+        <name>m_Reflection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a33845a6d430ae0bf10a6477769a952a6" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_screen_edge_mask" kindref="compound">ScreenEdgeMask</ref></type>
+        <definition>ScreenEdgeMask UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.m_ScreenEdgeMask</definition>
+        <argsstring></argsstring>
+        <name>m_ScreenEdgeMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a82b863023f5322483c601ce1bcc254d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" bodystart="40" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1afa95d659e07fb98f2c08129dc2a51ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850">OnInspectorGUI</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" bodystart="68" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2192">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+      </node>
+      <node id="2191">
+        <label>UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor"/>
+        <childnode refid="2192" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2214">
+        <label>Editor</label>
+      </node>
+      <node id="2200">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2217">
+        <label>UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.ScreenEdgeMask</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_screen_edge_mask"/>
+      </node>
+      <node id="2194">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+        <childnode refid="2195" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="2213" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+      </node>
+      <node id="2210">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2208">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2202">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2203">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2212">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2206">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2196">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2213">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="2214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2195">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2196" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2197" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="2200" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="2201" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="2202" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="2203" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="2204" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="2205" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="2206" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="2207" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="2208" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="2209" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="2210" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="2211" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="2212" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2193">
+        <label>UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor"/>
+        <childnode refid="2194" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2215" relation="usage">
+          <edgelabel>m_Intensity</edgelabel>
+        </childnode>
+        <childnode refid="2216" relation="usage">
+          <edgelabel>m_Reflection</edgelabel>
+        </childnode>
+        <childnode refid="2217" relation="usage">
+          <edgelabel>m_ScreenEdgeMask</edgelabel>
+        </childnode>
+      </node>
+      <node id="2215">
+        <label>UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.IntensitySettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_intensity_settings"/>
+      </node>
+      <node id="2198">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2211">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2201">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2216">
+        <label>UnityEditor.PostProcessing.ScreenSpaceReflectionModelEditor.ReflectionSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1_1_reflection_settings"/>
+      </node>
+      <node id="2209">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2199">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2205">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2197">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2207">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2204">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2199" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" bodystart="9" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>alwaysEnabled</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>inspector</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>m_EnabledProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a0f387dac15ee3977afca7d7689021a3b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>m_Intensity</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a4863e5e1ed2265ec1d455bae8639ee9c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>m_Reflection</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a33845a6d430ae0bf10a6477769a952a6" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>m_ScreenEdgeMask</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>m_SettingsProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1a82b863023f5322483c601ce1bcc254d1" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_screen_space_reflection_model_editor_1afa95d659e07fb98f2c08129dc2a51ca1" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>OnPreEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>Repaint</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>serializedProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ScreenSpaceReflectionModelEditor</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

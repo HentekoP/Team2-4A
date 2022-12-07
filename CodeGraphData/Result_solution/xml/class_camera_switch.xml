@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_switch" kind="class" prot="public">
+    <compoundname>CameraSwitch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] CameraSwitch.objects</definition>
+        <argsstring></argsstring>
+        <name>objects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_camera_switch_1ac83bb226cfbf6c5cfc89a4b69a6935b6" compoundref="_camera_switch_8cs" startline="19" endline="30">NextCamera</referencedby>
+        <referencedby refid="class_camera_switch_1abc567cfbb3e122ac433d1cac7d781430" compoundref="_camera_switch_8cs" startline="13" endline="16">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_switch_1a30a949eb90a53466e83ebf30bf2adb0c" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text CameraSwitch.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CameraSwitch.m_CurrentActiveObject</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentActiveObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_camera_switch_1ac83bb226cfbf6c5cfc89a4b69a6935b6" compoundref="_camera_switch_8cs" startline="19" endline="30">NextCamera</referencedby>
+        <referencedby refid="class_camera_switch_1abc567cfbb3e122ac433d1cac7d781430" compoundref="_camera_switch_8cs" startline="13" endline="16">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_switch_1abc567cfbb3e122ac433d1cac7d781430" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraSwitch.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" compoundref="_camera_switch_8cs" startline="10">m_CurrentActiveObject</references>
+        <references refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" compoundref="_camera_switch_8cs" startline="7">objects</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_switch_1ac83bb226cfbf6c5cfc89a4b69a6935b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraSwitch.NextCamera</definition>
+        <argsstring>()</argsstring>
+        <name>NextCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" bodystart="19" bodyend="30"/>
+        <references refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" compoundref="_camera_switch_8cs" startline="10">m_CurrentActiveObject</references>
+        <references refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" compoundref="_camera_switch_8cs" startline="7">objects</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="413">
+        <label>CameraSwitch</label>
+        <link refid="class_camera_switch"/>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="415">
+        <label>CameraSwitch</label>
+        <link refid="class_camera_switch"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+        <childnode refid="417" relation="usage">
+          <edgelabel>text</edgelabel>
+        </childnode>
+      </node>
+      <node id="417">
+        <label>Text</label>
+      </node>
+      <node id="416">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/CameraSwitch.cs" bodystart="5" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_camera_switch_1ab5b352393c3bd109fc6209feafb561b9" prot="private" virt="non-virtual"><scope>CameraSwitch</scope><name>m_CurrentActiveObject</name></member>
+      <member refid="class_camera_switch_1ac83bb226cfbf6c5cfc89a4b69a6935b6" prot="public" virt="non-virtual"><scope>CameraSwitch</scope><name>NextCamera</name></member>
+      <member refid="class_camera_switch_1a84f8ea7f9ee4aa41a7233fa13ee95ad5" prot="public" virt="non-virtual"><scope>CameraSwitch</scope><name>objects</name></member>
+      <member refid="class_camera_switch_1abc567cfbb3e122ac433d1cac7d781430" prot="private" virt="non-virtual"><scope>CameraSwitch</scope><name>OnEnable</name></member>
+      <member refid="class_camera_switch_1a30a949eb90a53466e83ebf30bf2adb0c" prot="public" virt="non-virtual"><scope>CameraSwitch</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

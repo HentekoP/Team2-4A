@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_debug_cut_interaction" kind="class" prot="public">
+    <compoundname>DebugCutInteraction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_debug_cut_interaction_1a75f76790126796a5f530f8ceda86dd99" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject DebugCutInteraction.vrHand</definition>
+        <argsstring></argsstring>
+        <name>vrHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_debug_cut_interaction_1ad59b2e4a58707b2b833c32aaeecdb08e" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody DebugCutInteraction.projectile</definition>
+        <argsstring></argsstring>
+        <name>projectile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_debug_cut_interaction_1a3674d3802378bfce7b30eb007e6cf0da" compoundref="_debug_cut_interaction_8cs" startline="11" endline="56">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_debug_cut_interaction_1a3674d3802378bfce7b30eb007e6cf0da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugCutInteraction.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" bodystart="11" bodyend="56"/>
+        <references refid="class_debug_cut_interaction_1ad59b2e4a58707b2b833c32aaeecdb08e" compoundref="_debug_cut_interaction_8cs" startline="8">projectile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="682">
+        <label>DebugCutInteraction</label>
+        <link refid="class_debug_cut_interaction"/>
+        <childnode refid="683" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="683">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="684">
+        <label>DebugCutInteraction</label>
+        <link refid="class_debug_cut_interaction"/>
+        <childnode refid="685" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/DebugCutInteraction.cs" bodystart="5" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_debug_cut_interaction_1ad59b2e4a58707b2b833c32aaeecdb08e" prot="private" virt="non-virtual"><scope>DebugCutInteraction</scope><name>projectile</name></member>
+      <member refid="class_debug_cut_interaction_1a3674d3802378bfce7b30eb007e6cf0da" prot="private" virt="non-virtual"><scope>DebugCutInteraction</scope><name>Update</name></member>
+      <member refid="class_debug_cut_interaction_1a75f76790126796a5f530f8ceda86dd99" prot="private" virt="non-virtual"><scope>DebugCutInteraction</scope><name>vrHand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

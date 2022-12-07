@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mesh_data" kind="class" prot="public">
+    <compoundname>MeshData</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mesh_data_1afb7003edac2072b12875bf39ad5f9475" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; MeshData.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <initializer>= new List&lt;Vector3&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" compoundref="_mesh_data_8cs" startline="36" endline="51">AsUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_data_1ab1969ed6f867b14f2e773174021a9865" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; MeshData.normals</definition>
+        <argsstring></argsstring>
+        <name>normals</name>
+        <initializer>= new List&lt;Vector3&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" compoundref="_mesh_data_8cs" startline="36" endline="51">AsUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; MeshData.uvs</definition>
+        <argsstring></argsstring>
+        <name>uvs</name>
+        <initializer>= new List&lt;Vector2&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" compoundref="_mesh_data_8cs" startline="36" endline="51">AsUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" prot="private" static="no" mutable="no">
+        <type>List&lt; List&lt; int &gt; &gt;</type>
+        <definition>List&lt;List&lt;int&gt; &gt; MeshData.submeshIndices</definition>
+        <argsstring></argsstring>
+        <name>submeshIndices</name>
+        <initializer>= new List&lt;List&lt;int&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_mesh_data_1a3e19ec0c45916a82ded9748d0b16ee58" compoundref="_mesh_data_8cs" startline="13" endline="33">AddTriangle</referencedby>
+        <referencedby refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" compoundref="_mesh_data_8cs" startline="36" endline="51">AsUnityMesh</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mesh_data_1a3e19ec0c45916a82ded9748d0b16ee58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshData.AddTriangle</definition>
+        <argsstring>(Triangle triangle)</argsstring>
+        <name>AddTriangle</name>
+        <param>
+          <type><ref refid="class_triangle" kindref="compound">Triangle</ref></type>
+          <declname>triangle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="13" bodyend="33"/>
+        <references refid="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" compoundref="_triangle_8cs" startline="10">Triangle.submeshIndex</references>
+        <references refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" compoundref="_mesh_data_8cs" startline="10">submeshIndices</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>Mesh MeshData.AsUnityMesh</definition>
+        <argsstring>()</argsstring>
+        <name>AsUnityMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="36" bodyend="51"/>
+        <references refid="class_mesh_data_1ab1969ed6f867b14f2e773174021a9865" compoundref="_mesh_data_8cs" startline="8">normals</references>
+        <references refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" compoundref="_mesh_data_8cs" startline="10">submeshIndices</references>
+        <references refid="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" compoundref="_mesh_data_8cs" startline="9">uvs</references>
+        <references refid="class_mesh_data_1afb7003edac2072b12875bf39ad5f9475" compoundref="_mesh_data_8cs" startline="7">vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs" bodystart="5" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_mesh_data_1a3e19ec0c45916a82ded9748d0b16ee58" prot="public" virt="non-virtual"><scope>MeshData</scope><name>AddTriangle</name></member>
+      <member refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" prot="public" virt="non-virtual"><scope>MeshData</scope><name>AsUnityMesh</name></member>
+      <member refid="class_mesh_data_1ab1969ed6f867b14f2e773174021a9865" prot="private" virt="non-virtual"><scope>MeshData</scope><name>normals</name></member>
+      <member refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" prot="private" virt="non-virtual"><scope>MeshData</scope><name>submeshIndices</name></member>
+      <member refid="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" prot="private" virt="non-virtual"><scope>MeshData</scope><name>uvs</name></member>
+      <member refid="class_mesh_data_1afb7003edac2072b12875bf39ad5f9475" prot="private" virt="non-virtual"><scope>MeshData</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

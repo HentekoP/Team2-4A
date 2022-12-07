@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a9501a867b6f6be54b80e7952d3f47aab" prot="private" static="no" mutable="no">
+        <type>RenderTextureFormat</type>
+        <definition>RenderTextureFormat UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.m_VectorRTFormat</definition>
+        <argsstring></argsstring>
+        <name>m_VectorRTFormat</name>
+        <initializer>= RenderTextureFormat.RGHalf</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a7710b4697385239b8fbfc38b129088d4" prot="private" static="no" mutable="no">
+        <type>RenderTextureFormat</type>
+        <definition>RenderTextureFormat UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.m_PackedRTFormat</definition>
+        <argsstring></argsstring>
+        <name>m_PackedRTFormat</name>
+        <initializer>= RenderTextureFormat.ARGB2101010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1ae9b95b23b6e09486fc64ac5b3dba4672" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.ReconstructionFilter</definition>
+        <argsstring>()</argsstring>
+        <name>ReconstructionFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a1ae5385e2ce35105c89b09d668d08cb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a10805735f3c20028314f16e0bc6e06b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.ProcessImage</definition>
+        <argsstring>(PostProcessingContext context, CommandBuffer cb, ref Settings settings, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material)</argsstring>
+        <name>ProcessImage</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context" kindref="compound">PostProcessingContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="namespace_unity_engine_1_1_post_processing_1a03001cf2f893137ef8a9a57054900164" kindref="member">Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>RenderTargetIdentifier</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>RenderTargetIdentifier</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="80" bodyend="149"/>
+        <references refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context_1ab1c293d501b4437e15c58d98b07c8b4b" compoundref="_post_processing_context_8cs" startline="50">UnityEngine.PostProcessing.PostProcessingContext.height</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a47e9e106b3b0e581ed3d9f3b444fddc3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter.CheckTextureFormatSupport</definition>
+        <argsstring>()</argsstring>
+        <name>CheckTextureFormatSupport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="55" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a47e9e106b3b0e581ed3d9f3b444fddc3" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</scope><name>CheckTextureFormatSupport</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a1ae5385e2ce35105c89b09d668d08cb5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</scope><name>IsSupported</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a7710b4697385239b8fbfc38b129088d4" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</scope><name>m_PackedRTFormat</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a9501a867b6f6be54b80e7952d3f47aab" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</scope><name>m_VectorRTFormat</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1a10805735f3c20028314f16e0bc6e06b5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</scope><name>ProcessImage</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter_1ae9b95b23b6e09486fc64ac5b3dba4672" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</scope><name>ReconstructionFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

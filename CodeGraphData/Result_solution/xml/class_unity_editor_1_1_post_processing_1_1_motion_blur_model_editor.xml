@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::MotionBlurModelEditor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingModelEditor</basecompoundref>
+    <innerclass refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer" prot="private">UnityEditor::PostProcessing::MotionBlurModelEditor::GraphDrawer</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a8971598b51aade8888273ed34cbd41c4" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.MotionBlurModelEditor.m_ShutterAngle</definition>
+        <argsstring></argsstring>
+        <name>m_ShutterAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1af6591ad5bd48220a93255576aa105371" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.MotionBlurModelEditor.m_SampleCount</definition>
+        <argsstring></argsstring>
+        <name>m_SampleCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a71fcbc99722e28f94295ab274af65436" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.PostProcessing.MotionBlurModelEditor.m_FrameBlending</definition>
+        <argsstring></argsstring>
+        <name>m_FrameBlending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1aa1875a8330ad6e855a15b28fd9816d51" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer" kindref="compound">GraphDrawer</ref></type>
+        <definition>GraphDrawer UnityEditor.PostProcessing.MotionBlurModelEditor.m_GraphDrawer</definition>
+        <argsstring></argsstring>
+        <name>m_GraphDrawer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a3cc4895e7a3e5aa942b94c6f4ff1126a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.MotionBlurModelEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="163" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1ab747616bf4f9492da7e18ea96f9f0360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.MotionBlurModelEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850">OnInspectorGUI</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="170" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="170" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1514">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+      </node>
+      <node id="1513">
+        <label>UnityEditor.PostProcessing.MotionBlurModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor"/>
+        <childnode refid="1514" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1536">
+        <label>Editor</label>
+      </node>
+      <node id="1522">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1537">
+        <label>UnityEditor.PostProcessing.MotionBlurModelEditor.GraphDrawer</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1_1_graph_drawer"/>
+      </node>
+      <node id="1516">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+        <childnode refid="1517" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="1535" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+      </node>
+      <node id="1532">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1530">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1524">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1515">
+        <label>UnityEditor.PostProcessing.MotionBlurModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor"/>
+        <childnode refid="1516" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1537" relation="usage">
+          <edgelabel>m_GraphDrawer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1525">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1534">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1528">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1518">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1535">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="1536" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1517">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="1518" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1519" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="1522" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="1523" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="1524" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="1525" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="1526" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="1527" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="1528" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="1529" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="1530" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="1531" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="1532" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="1533" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="1534" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="1520">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1533">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1523">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1531">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1521">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1527">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1519">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1529">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1526">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1521" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" bodystart="9" bodyend="196"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>alwaysEnabled</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>inspector</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>m_EnabledProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a71fcbc99722e28f94295ab274af65436" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>m_FrameBlending</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1aa1875a8330ad6e855a15b28fd9816d51" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>m_GraphDrawer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1af6591ad5bd48220a93255576aa105371" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>m_SampleCount</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>m_SettingsProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a8971598b51aade8888273ed34cbd41c4" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>m_ShutterAngle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1a3cc4895e7a3e5aa942b94c6f4ff1126a" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_motion_blur_model_editor_1ab747616bf4f9492da7e18ea96f9f0360" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>OnPreEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>Repaint</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>serializedProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::MotionBlurModelEditor</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

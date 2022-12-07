@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x___demo___rotate_camera" kind="class" prot="public">
+    <compoundname>CFX_Demo_RotateCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_c_f_x___demo___rotate_camera_1a42f72529c7722e6ef17df8177b972fee" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_Demo_RotateCamera.rotating</definition>
+        <argsstring></argsstring>
+        <name>rotating</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo___new_1a9d9416407ab9fb7d2ab14f68092b4dbb" compoundref="_w_f_x___demo___new_8cs" startline="121" endline="128">WFX_Demo_New.OnToggleCamera</referencedby>
+        <referencedby refid="class_c_f_x___demo___rotate_camera_1a44df287db6187fd13f31c96fd79c0294" compoundref="_c_f_x___demo___rotate_camera_8cs" startline="11" endline="15">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_f_x___demo___rotate_camera_1a6b22f41ef87b135a99a88f5f0f6e8718" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CFX_Demo_RotateCamera.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 30.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___rotate_camera_1a44df287db6187fd13f31c96fd79c0294" compoundref="_c_f_x___demo___rotate_camera_8cs" startline="11" endline="15">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___demo___rotate_camera_1ade15634137d9b43fd3b2e16edb47d53f" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CFX_Demo_RotateCamera.rotationCenter</definition>
+        <argsstring></argsstring>
+        <name>rotationCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x___demo___rotate_camera_1a44df287db6187fd13f31c96fd79c0294" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_Demo_RotateCamera.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" bodystart="11" bodyend="15"/>
+        <references refid="class_c_f_x___demo___rotate_camera_1a42f72529c7722e6ef17df8177b972fee" compoundref="_c_f_x___demo___rotate_camera_8cs" startline="6">rotating</references>
+        <references refid="class_c_f_x___demo___rotate_camera_1a6b22f41ef87b135a99a88f5f0f6e8718" compoundref="_c_f_x___demo___rotate_camera_8cs" startline="8">speed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="457">
+        <label>CFX_Demo_RotateCamera</label>
+        <link refid="class_c_f_x___demo___rotate_camera"/>
+        <childnode refid="458" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="459">
+        <label>CFX_Demo_RotateCamera</label>
+        <link refid="class_c_f_x___demo___rotate_camera"/>
+        <childnode refid="460" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_c_f_x___demo___rotate_camera_1a42f72529c7722e6ef17df8177b972fee" prot="public" virt="non-virtual"><scope>CFX_Demo_RotateCamera</scope><name>rotating</name></member>
+      <member refid="class_c_f_x___demo___rotate_camera_1ade15634137d9b43fd3b2e16edb47d53f" prot="public" virt="non-virtual"><scope>CFX_Demo_RotateCamera</scope><name>rotationCenter</name></member>
+      <member refid="class_c_f_x___demo___rotate_camera_1a6b22f41ef87b135a99a88f5f0f6e8718" prot="public" virt="non-virtual"><scope>CFX_Demo_RotateCamera</scope><name>speed</name></member>
+      <member refid="class_c_f_x___demo___rotate_camera_1a44df287db6187fd13f31c96fd79c0294" prot="private" virt="non-virtual"><scope>CFX_Demo_RotateCamera</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

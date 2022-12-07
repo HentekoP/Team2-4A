@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::HistogramMonitor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingMonitor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a9a710fa69b9e0c628dcc7e5d1c5ee14e" prot="private" static="yes" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEditor.PostProcessing.HistogramMonitor.s_MonitorTitle</definition>
+        <argsstring></argsstring>
+        <name>s_MonitorTitle</name>
+        <initializer>= new GUIContent(&quot;Histogram&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aabfefda9e2464db8c8704ec9a41f7eff" prot="private" static="no" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader UnityEditor.PostProcessing.HistogramMonitor.m_ComputeShader</definition>
+        <argsstring></argsstring>
+        <name>m_ComputeShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a44f733570fde32cd0302ac3354aba674" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer UnityEditor.PostProcessing.HistogramMonitor.m_Buffer</definition>
+        <argsstring></argsstring>
+        <name>m_Buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a7c8680cefb79bea39c612cdea3a4948f" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityEditor.PostProcessing.HistogramMonitor.m_Material</definition>
+        <argsstring></argsstring>
+        <name>m_Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a8b80c5b591b6272719fadb9207a2bc9e" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEditor.PostProcessing.HistogramMonitor.m_HistogramTexture</definition>
+        <argsstring></argsstring>
+        <name>m_HistogramTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a8b3e53f73290cad55baf20f983d88c29" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.HistogramMonitor.m_MonitorAreaRect</definition>
+        <argsstring></argsstring>
+        <name>m_MonitorAreaRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a6be846aa5e78d2dee73217d15d3f3c14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.HistogramMonitor.HistogramMonitor</definition>
+        <argsstring>()</argsstring>
+        <name>HistogramMonitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a9240b5721430577251b39b7070c14ed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.HistogramMonitor.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a89c45fe9fe5a185eb55ef522cba5dec5">Dispose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="24" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a63e9ff70b84ba8443d2429359a103b02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool UnityEditor.PostProcessing.HistogramMonitor.IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1ab308a1c99994f4708f5502ddc640dc0a">IsSupported</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1ac727fbd3d56355c5a3b03f47ec230cb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override GUIContent</type>
+        <definition>override GUIContent UnityEditor.PostProcessing.HistogramMonitor.GetMonitorTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetMonitorTitle</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a4fb67dcd17b84d422c69f98159e20545">GetMonitorTitle</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aa9ca26fe0daab044d6871dfb423bbbbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.HistogramMonitor.OnMonitorSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnMonitorSettings</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a40e1d68334826b54634a87837cc4ef89">OnMonitorSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="47" bodyend="64"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1ad5293b51f5f04334286514d676de5475" compoundref="_fx_styles_8cs" startline="28">UnityEditor.PostProcessing.FxStyles.playIcon</references>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1ae95ee5f68bd8890dec3ea6f4bb88b20a" compoundref="_fx_styles_8cs" startline="14">UnityEditor.PostProcessing.FxStyles.preDropdown</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a587ac5ca6c538b090329c9cd7dafca39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.HistogramMonitor.OnMonitorGUI</definition>
+        <argsstring>(Rect r)</argsstring>
+        <name>OnMonitorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a51ecfadbfa10eb105e8c708b4d7064c4">OnMonitorGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="66" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1ae33e556cd3f2386e34562c9cda059da6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.HistogramMonitor.OnFrameData</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>OnFrameData</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a490e202a0b1d45fdbc073d6000a7e220">OnFrameData</reimplements>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="241" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="241" bodyend="258"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1af2ca8a5aa6031a58bb583730e129f925" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.HistogramMonitor.CreateBuffer</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>CreateBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="260" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aa24b95dab957fda7f291e91369b07ad9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.HistogramMonitor.ComputeHistogram</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>ComputeHistogram</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="265" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="265" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1310">
+        <label>IDisposable</label>
+      </node>
+      <node id="1309">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="1310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1308">
+        <label>UnityEditor.PostProcessing.HistogramMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor"/>
+        <childnode refid="1309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1316">
+        <label>Editor</label>
+      </node>
+      <node id="1314">
+        <label>UnityEngine</label>
+      </node>
+      <node id="1313">
+        <label>IDisposable</label>
+      </node>
+      <node id="1315">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="1316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1312">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="1313" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1314" relation="usage">
+          <edgelabel>m_MonitorSettings</edgelabel>
+        </childnode>
+        <childnode refid="1315" relation="usage">
+          <edgelabel>m_BaseEditor</edgelabel>
+        </childnode>
+      </node>
+      <node id="1311">
+        <label>UnityEditor.PostProcessing.HistogramMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor"/>
+        <childnode refid="1312" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/HistogramMonitor.cs" bodystart="9" bodyend="337"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aa24b95dab957fda7f291e91369b07ad9" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>ComputeHistogram</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1af2ca8a5aa6031a58bb583730e129f925" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>CreateBuffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a9240b5721430577251b39b7070c14ed4" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>Dispose</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1ac727fbd3d56355c5a3b03f47ec230cb2" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>GetMonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a6be846aa5e78d2dee73217d15d3f3c14" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>HistogramMonitor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a7772670b4fd34e76a0cb35d372ed1718" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>Init</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a63e9ff70b84ba8443d2429359a103b02" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>IsSupported</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a2553b93b6efa7231ed205cc06d6495f8" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_BaseEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a44f733570fde32cd0302ac3354aba674" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_Buffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aabfefda9e2464db8c8704ec9a41f7eff" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_ComputeShader</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a8b80c5b591b6272719fadb9207a2bc9e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_HistogramTexture</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a7c8680cefb79bea39c612cdea3a4948f" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_Material</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a8b3e53f73290cad55baf20f983d88c29" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_MonitorAreaRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1aafb8128cac56dbe0e784e1f55f8525a9" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>m_MonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1ae33e556cd3f2386e34562c9cda059da6" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>OnFrameData</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a587ac5ca6c538b090329c9cd7dafca39" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>OnMonitorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1aa9ca26fe0daab044d6871dfb423bbbbf" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>OnMonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_histogram_monitor_1a9a710fa69b9e0c628dcc7e5d1c5ee14e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::HistogramMonitor</scope><name>s_MonitorTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

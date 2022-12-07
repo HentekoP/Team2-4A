@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_chan_1_1_spring_collider" kind="class" prot="public">
+    <compoundname>UnityChan::SpringCollider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_chan_1_1_spring_collider_1a30414e5220da9e34534785a1a86d4f7c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityChan.SpringCollider.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_unity_chan_1_1_spring_collider_1a72d0ac0d79361a45e9aab6f70dcd903d" compoundref="_spring_collider_8cs" startline="19" endline="23">UnityChan.SpringCollider.OnDrawGizmosSelected</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_chan_1_1_spring_collider_1a72d0ac0d79361a45e9aab6f70dcd903d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityChan.SpringCollider.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" bodystart="19" bodyend="23"/>
+        <references refid="class_unity_chan_1_1_spring_collider_1a30414e5220da9e34534785a1a86d4f7c" compoundref="_spring_collider_8cs" startline="17">UnityChan.SpringCollider.radius</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2367">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2366">
+        <label>UnityChan.SpringCollider</label>
+        <link refid="class_unity_chan_1_1_spring_collider"/>
+        <childnode refid="2367" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2369">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2368">
+        <label>UnityChan.SpringCollider</label>
+        <link refid="class_unity_chan_1_1_spring_collider"/>
+        <childnode refid="2369" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_unity_chan_1_1_spring_collider_1a72d0ac0d79361a45e9aab6f70dcd903d" prot="private" virt="non-virtual"><scope>UnityChan::SpringCollider</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_unity_chan_1_1_spring_collider_1a30414e5220da9e34534785a1a86d4f7c" prot="public" virt="non-virtual"><scope>UnityChan::SpringCollider</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

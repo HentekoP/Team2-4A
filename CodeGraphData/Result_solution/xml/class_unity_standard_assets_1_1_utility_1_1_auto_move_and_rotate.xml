@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::AutoMoveAndRotate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" prot="public">UnityStandardAssets::Utility::AutoMoveAndRotate::Vector3andSpace</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ac1c663ec1f1d0f5f3659506a9738bd32" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" kindref="compound">Vector3andSpace</ref></type>
+        <definition>Vector3andSpace UnityStandardAssets.Utility.AutoMoveAndRotate.moveUnitsPerSecond</definition>
+        <argsstring></argsstring>
+        <name>moveUnitsPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a44e784fd8e9253c3ae420024be95b0e2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space" kindref="compound">Vector3andSpace</ref></type>
+        <definition>Vector3andSpace UnityStandardAssets.Utility.AutoMoveAndRotate.rotateDegreesPerSecond</definition>
+        <argsstring></argsstring>
+        <name>rotateDegreesPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a976e08503afdbe2ecc8167b224bc63de" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Utility.AutoMoveAndRotate.ignoreTimescale</definition>
+        <argsstring></argsstring>
+        <name>ignoreTimescale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a6cbd6fae7fee37df42072e3b8e1ebb9c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.AutoMoveAndRotate.m_LastRealTime</definition>
+        <argsstring></argsstring>
+        <name>m_LastRealTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ae9dbefc1930f3f071a52e64dabff8189" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.AutoMoveAndRotate.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a291401d868f8dc0cb1c89b2318b69822" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.AutoMoveAndRotate.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="21" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="177">
+        <label>UnityStandardAssets.Utility.AutoMoveAndRotate</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="181">
+        <label>UnityStandardAssets.Utility.AutoMoveAndRotate.Vector3andSpace</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space"/>
+      </node>
+      <node id="179">
+        <label>UnityStandardAssets.Utility.AutoMoveAndRotate</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+        <childnode refid="181" relation="usage">
+          <edgelabel>moveUnitsPerSecond</edgelabel>
+          <edgelabel>rotateDegreesPerSecond</edgelabel>
+        </childnode>
+      </node>
+      <node id="180">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AutoMoveAndRotate.cs" bodystart="6" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a976e08503afdbe2ecc8167b224bc63de" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMoveAndRotate</scope><name>ignoreTimescale</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a6cbd6fae7fee37df42072e3b8e1ebb9c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMoveAndRotate</scope><name>m_LastRealTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ac1c663ec1f1d0f5f3659506a9738bd32" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMoveAndRotate</scope><name>moveUnitsPerSecond</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a44e784fd8e9253c3ae420024be95b0e2" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMoveAndRotate</scope><name>rotateDegreesPerSecond</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1ae9dbefc1930f3f071a52e64dabff8189" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMoveAndRotate</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1a291401d868f8dc0cb1c89b2318b69822" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::AutoMoveAndRotate</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

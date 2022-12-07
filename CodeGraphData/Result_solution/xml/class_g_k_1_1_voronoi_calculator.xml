@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_g_k_1_1_voronoi_calculator" kind="class" prot="public">
+    <compoundname>GK::VoronoiCalculator</compoundname>
+    <innerclass refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" prot="private">GK::VoronoiCalculator::PointTriangle</innerclass>
+    <innerclass refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer" prot="private">GK::VoronoiCalculator::PTComparer</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_calculator_1a684a1f30ff7c4b469d956cd3260e9fdf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_g_k_1_1_delaunay_calculator" kindref="compound">DelaunayCalculator</ref></type>
+        <definition>DelaunayCalculator GK.VoronoiCalculator.delCalc</definition>
+        <argsstring></argsstring>
+        <name>delCalc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a9fea03874f092343f90714294f8fda2f" compoundref="_voronoi_calculator_8cs" startline="39" endline="43">GK.VoronoiCalculator.VoronoiCalculator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_calculator_1a1f4006c4074c8fa5a4490588c12e895b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer" kindref="compound">PTComparer</ref></type>
+        <definition>PTComparer GK.VoronoiCalculator.cmp</definition>
+        <argsstring></argsstring>
+        <name>cmp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a81999f0e466d1cacff09d3582ea3cb32" compoundref="_voronoi_calculator_8cs" startline="61" endline="228">GK.VoronoiCalculator.CalculateDiagram</referencedby>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a9fea03874f092343f90714294f8fda2f" compoundref="_voronoi_calculator_8cs" startline="39" endline="43">GK.VoronoiCalculator.VoronoiCalculator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_k_1_1_voronoi_calculator_1aa667b4983ed30591b8971848bd2a657d" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_g_k_1_1_voronoi_calculator_1_1_point_triangle" kindref="compound">PointTriangle</ref> &gt;</type>
+        <definition>List&lt;PointTriangle&gt; GK.VoronoiCalculator.pts</definition>
+        <argsstring></argsstring>
+        <name>pts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a81999f0e466d1cacff09d3582ea3cb32" compoundref="_voronoi_calculator_8cs" startline="61" endline="228">GK.VoronoiCalculator.CalculateDiagram</referencedby>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a9fea03874f092343f90714294f8fda2f" compoundref="_voronoi_calculator_8cs" startline="39" endline="43">GK.VoronoiCalculator.VoronoiCalculator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1a9fea03874f092343f90714294f8fda2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GK.VoronoiCalculator.VoronoiCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>VoronoiCalculator</name>
+        <briefdescription>
+<para>Create new Voronoi calculator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="39" bodyend="43"/>
+        <references refid="class_g_k_1_1_voronoi_calculator_1a1f4006c4074c8fa5a4490588c12e895b" compoundref="_voronoi_calculator_8cs" startline="33">GK.VoronoiCalculator.cmp</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1a684a1f30ff7c4b469d956cd3260e9fdf" compoundref="_voronoi_calculator_8cs" startline="32">GK.VoronoiCalculator.delCalc</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1aa667b4983ed30591b8971848bd2a657d" compoundref="_voronoi_calculator_8cs" startline="34">GK.VoronoiCalculator.pts</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1aab2fc280081230f613786189ec671efc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_k_1_1_voronoi_diagram" kindref="compound">VoronoiDiagram</ref></type>
+        <definition>VoronoiDiagram GK.VoronoiCalculator.CalculateDiagram</definition>
+        <argsstring>(IList&lt; Vector2 &gt; inputVertices)</argsstring>
+        <name>CalculateDiagram</name>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>inputVertices</declname>
+        </param>
+        <briefdescription>
+<para>Calculate a voronoi diagram and return it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1a81999f0e466d1cacff09d3582ea3cb32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GK.VoronoiCalculator.CalculateDiagram</definition>
+        <argsstring>(IList&lt; Vector2 &gt; inputVertices, ref VoronoiDiagram result)</argsstring>
+        <name>CalculateDiagram</name>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>inputVertices</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_g_k_1_1_voronoi_diagram" kindref="compound">VoronoiDiagram</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>Non-allocating version of CalculateDiagram. </para>        </briefdescription>
+        <detaileddescription>
+<para>I guess it&apos;s not strictly true that it generates NO garbage, because it might if it has to resize internal buffers, but all buffers are reused from invocation to invocation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="61" bodyend="228"/>
+        <references refid="class_g_k_1_1_geom_1aaa44b0e8d79cc11c7a57376d795587f8" compoundref="_geom_8cs" startline="34" endline="36">GK.Geom.AreCoincident</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1a1f4006c4074c8fa5a4490588c12e895b" compoundref="_voronoi_calculator_8cs" startline="33">GK.VoronoiCalculator.cmp</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1aa667b4983ed30591b8971848bd2a657d" compoundref="_voronoi_calculator_8cs" startline="34">GK.VoronoiCalculator.pts</references>
+        <references refid="class_g_k_1_1_voronoi_calculator_1abc898ffcf164e91ace22f9a83dd552fc" compoundref="_voronoi_calculator_8cs" startline="253" endline="271">GK.VoronoiCalculator.SharesEdge</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1a21620d6ffaeb3900ce3edc03368d3304" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GK.VoronoiCalculator.NonSharedPoint</definition>
+        <argsstring>(List&lt; int &gt; tris, int ti0, int ti1)</argsstring>
+        <name>NonSharedPoint</name>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>tris</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ti0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ti1</declname>
+        </param>
+        <briefdescription>
+<para>Assuming ti0 and ti1 shares an edge, which point of ti0 is not on ti1? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="234" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="234" bodyend="251"/>
+        <references refid="class_g_k_1_1_voronoi_calculator_1abc898ffcf164e91ace22f9a83dd552fc" compoundref="_voronoi_calculator_8cs" startline="253" endline="271">GK.VoronoiCalculator.SharesEdge</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_k_1_1_voronoi_calculator_1abc898ffcf164e91ace22f9a83dd552fc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GK.VoronoiCalculator.SharesEdge</definition>
+        <argsstring>(List&lt; int &gt; tris, int ti0, int ti1)  </argsstring>
+        <name>SharesEdge</name>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>tris</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ti0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ti1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="253" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="253" bodyend="271"/>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a81999f0e466d1cacff09d3582ea3cb32" compoundref="_voronoi_calculator_8cs" startline="61" endline="228">GK.VoronoiCalculator.CalculateDiagram</referencedby>
+        <referencedby refid="class_g_k_1_1_voronoi_calculator_1a21620d6ffaeb3900ce3edc03368d3304" compoundref="_voronoi_calculator_8cs" startline="234" endline="251">GK.VoronoiCalculator.NonSharedPoint</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2796">
+        <label>GK.VoronoiCalculator.PTComparer</label>
+        <link refid="class_g_k_1_1_voronoi_calculator_1_1_p_t_comparer"/>
+        <childnode refid="2797" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2795">
+        <label>GK.DelaunayCalculator</label>
+        <link refid="class_g_k_1_1_delaunay_calculator"/>
+      </node>
+      <node id="2797">
+        <label>IComparer&lt; PointTriangle &gt;</label>
+      </node>
+      <node id="2794">
+        <label>GK.VoronoiCalculator</label>
+        <link refid="class_g_k_1_1_voronoi_calculator"/>
+        <childnode refid="2795" relation="usage">
+          <edgelabel>delCalc</edgelabel>
+        </childnode>
+        <childnode refid="2796" relation="usage">
+          <edgelabel>cmp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiCalculator.cs" bodystart="30" bodyend="347"/>
+    <listofallmembers>
+      <member refid="class_g_k_1_1_voronoi_calculator_1aab2fc280081230f613786189ec671efc" prot="public" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>CalculateDiagram</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1a81999f0e466d1cacff09d3582ea3cb32" prot="public" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>CalculateDiagram</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1a1f4006c4074c8fa5a4490588c12e895b" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>cmp</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1a684a1f30ff7c4b469d956cd3260e9fdf" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>delCalc</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1a21620d6ffaeb3900ce3edc03368d3304" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>NonSharedPoint</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1aa667b4983ed30591b8971848bd2a657d" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>pts</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1abc898ffcf164e91ace22f9a83dd552fc" prot="private" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>SharesEdge</name></member>
+      <member refid="class_g_k_1_1_voronoi_calculator_1a9fea03874f092343f90714294f8fda2f" prot="public" virt="non-virtual"><scope>GK::VoronoiCalculator</scope><name>VoronoiCalculator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::ColorGradingModelEditor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingModelEditor</basecompoundref>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_basic_settings" prot="private">UnityEditor::PostProcessing::ColorGradingModelEditor::BasicSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_channel_mixer_settings" prot="private">UnityEditor::PostProcessing::ColorGradingModelEditor::ChannelMixerSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_color_wheels_settings" prot="private">UnityEditor::PostProcessing::ColorGradingModelEditor::ColorWheelsSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_curves_settings" prot="private">UnityEditor::PostProcessing::ColorGradingModelEditor::CurvesSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_tonemapping_settings" prot="private">UnityEditor::PostProcessing::ColorGradingModelEditor::TonemappingSettings</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ab0c132fcde3b3c384cfa4210ac3bc558" prot="private" static="yes" mutable="no">
+        <type>GUIContent[]</type>
+        <definition>GUIContent [] UnityEditor.PostProcessing.ColorGradingModelEditor.s_Tonemappers</definition>
+        <argsstring></argsstring>
+        <name>s_Tonemappers</name>
+        <initializer>=
+        {
+            new GUIContent(&quot;None&quot;),
+            new GUIContent(&quot;Filmic (ACES)&quot;),
+            new GUIContent(&quot;Neutral&quot;)
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9937de232005ef761d2151738870ce5a" prot="private" static="yes" mutable="no">
+        <type>GUIContent[]</type>
+        <definition>GUIContent [] UnityEditor.PostProcessing.ColorGradingModelEditor.s_Curves</definition>
+        <argsstring></argsstring>
+        <name>s_Curves</name>
+        <initializer>=
+        {
+            new GUIContent(&quot;YRGB&quot;),
+            new GUIContent(&quot;Hue VS Hue&quot;),
+            new GUIContent(&quot;Hue VS Sat&quot;),
+            new GUIContent(&quot;Sat VS Sat&quot;),
+            new GUIContent(&quot;Lum VS Sat&quot;)
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a237cf219a6166621cab988a47986e6ac" prot="private" static="yes" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityEditor.PostProcessing.ColorGradingModelEditor.s_MaterialSpline</definition>
+        <argsstring></argsstring>
+        <name>s_MaterialSpline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="466" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ab7aaf10230f5b0382e7d08af2a37b6ec" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_tonemapping_settings" kindref="compound">TonemappingSettings</ref></type>
+        <definition>TonemappingSettings UnityEditor.PostProcessing.ColorGradingModelEditor.m_Tonemapping</definition>
+        <argsstring></argsstring>
+        <name>m_Tonemapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a3b581a8964a3a11dadd1e9061d61cbd1" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_basic_settings" kindref="compound">BasicSettings</ref></type>
+        <definition>BasicSettings UnityEditor.PostProcessing.ColorGradingModelEditor.m_Basic</definition>
+        <argsstring></argsstring>
+        <name>m_Basic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa7fe5d6340600cd80291716fa267658c" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_channel_mixer_settings" kindref="compound">ChannelMixerSettings</ref></type>
+        <definition>ChannelMixerSettings UnityEditor.PostProcessing.ColorGradingModelEditor.m_ChannelMixer</definition>
+        <argsstring></argsstring>
+        <name>m_ChannelMixer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a36804616c791b5f9b18ce783e26c41b9" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_color_wheels_settings" kindref="compound">ColorWheelsSettings</ref></type>
+        <definition>ColorWheelsSettings UnityEditor.PostProcessing.ColorGradingModelEditor.m_ColorWheels</definition>
+        <argsstring></argsstring>
+        <name>m_ColorWheels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="88" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1afba17cf4593043c5bfc80391278dd85b" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_curves_settings" kindref="compound">CurvesSettings</ref></type>
+        <definition>CurvesSettings UnityEditor.PostProcessing.ColorGradingModelEditor.m_Curves</definition>
+        <argsstring></argsstring>
+        <name>m_Curves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9112f75ca4adf6e8beb09bc01dd1e579" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_post_processing_1_1_curve_editor" kindref="compound">CurveEditor</ref></type>
+        <definition>CurveEditor UnityEditor.PostProcessing.ColorGradingModelEditor.m_CurveEditor</definition>
+        <argsstring></argsstring>
+        <name>m_CurveEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa75080985c56364f73757d132b81880a" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; SerializedProperty, Color &gt;</type>
+        <definition>Dictionary&lt;SerializedProperty, Color&gt; UnityEditor.PostProcessing.ColorGradingModelEditor.m_CurveDict</definition>
+        <argsstring></argsstring>
+        <name>m_CurveDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a08937213be27f4ae94bdb1b4fc92577c" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEditor.PostProcessing.ColorGradingModelEditor.k_CurveResolution</definition>
+        <argsstring></argsstring>
+        <name>k_CurveResolution</name>
+        <initializer>= 24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a45a31e15a6cf629a6acd44b3de346392" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityEditor.PostProcessing.ColorGradingModelEditor.k_NeutralRangeX</definition>
+        <argsstring></argsstring>
+        <name>k_NeutralRangeX</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a37adc3af59bcb99c81b7fa955c3159b1" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityEditor.PostProcessing.ColorGradingModelEditor.k_NeutralRangeY</definition>
+        <argsstring></argsstring>
+        <name>k_NeutralRangeY</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aaf7da5c394db75c576f05d5c6f31b90b" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.ColorGradingModelEditor.m_RectVertices</definition>
+        <argsstring></argsstring>
+        <name>m_RectVertices</name>
+        <initializer>= new Vector3[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a67cba20cce96ed7a2806d09462d32707" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.ColorGradingModelEditor.m_LineVertices</definition>
+        <argsstring></argsstring>
+        <name>m_LineVertices</name>
+        <initializer>= new Vector3[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a909c2368109db961e7b6bd4130360752" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.ColorGradingModelEditor.m_CurveVertices</definition>
+        <argsstring></argsstring>
+        <name>m_CurveVertices</name>
+        <initializer>= new Vector3[<ref refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a08937213be27f4ae94bdb1b4fc92577c" kindref="member">k_CurveResolution</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a7ad4db5fded8b1b7f87ee5d5fee83cd7" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.ColorGradingModelEditor.m_NeutralCurveRect</definition>
+        <argsstring></argsstring>
+        <name>m_NeutralCurveRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9304ac2ec59d4c192e9783635da1592e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ColorGradingModelEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="103" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aab4148dee7ad4938498e7f12556ebac6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ColorGradingModelEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8">OnDisable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="197" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a72e18f9836c9d26b8ee326d7f9e0f855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.ColorGradingModelEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850">OnInspectorGUI</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="202" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="202" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a6a155a500587d1375dfe4b999f8e1110" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.AddCurve</definition>
+        <argsstring>(SerializedProperty prop, Color color, uint minPointCount, bool loop)</argsstring>
+        <name>AddCurve</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>minPointCount</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="184" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ad308784858d913a248bfad7c1589f2f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DoGUIFor</definition>
+        <argsstring>(string title, Action func)</argsstring>
+        <name>DoGUIFor</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="215" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="215" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a879a95a03c66bd33ad29292184bece50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DoTonemappingGUI</definition>
+        <argsstring>()</argsstring>
+        <name>DoTonemappingGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="223" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="223" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ae93319f337bd49aea677729ec4d1b575" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DrawNeutralTonemappingCurve</definition>
+        <argsstring>()</argsstring>
+        <name>DrawNeutralTonemappingCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="242" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="242" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a4d3b36da5a557e7778c40c6142a8aa20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DrawLine</definition>
+        <argsstring>(float x1, float y1, float x2, float y2, float grayscale)</argsstring>
+        <name>DrawLine</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>grayscale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="330" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="330" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa99e05d459fbb9fc5686eba1c732d878" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.ColorGradingModelEditor.PointInRect</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>PointInRect</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="338" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="338" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa438674a84e1b555e4b1354a021e948e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.ColorGradingModelEditor.NeutralCurve</definition>
+        <argsstring>(float x, float a, float b, float c, float d, float e, float f)</argsstring>
+        <name>NeutralCurve</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="345" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="345" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a87b14e6dca2df7118635d58d27836196" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.ColorGradingModelEditor.NeutralTonemap</definition>
+        <argsstring>(float x, float a, float b, float c, float d, float e, float f, float whiteLevel, float whiteClip)</argsstring>
+        <name>NeutralTonemap</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>whiteLevel</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>whiteClip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="350" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="350" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a7f05966115cbe2b35e04af4f99a7e315" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DoBasicGUI</definition>
+        <argsstring>()</argsstring>
+        <name>DoBasicGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="365" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="365" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa65b499335c8d92d0f7a5c9a3cdee4b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DoChannelMixerGUI</definition>
+        <argsstring>()</argsstring>
+        <name>DoChannelMixerGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="375" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="375" bodyend="402"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_editor_g_u_i_helper_1a15328ec30b8a62245b7afcecadebb77e" compoundref="_editor_g_u_i_helper_8cs" startline="21" endline="40">UnityEditor.PostProcessing.EditorGUIHelper.GetContent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a033cdc58307a182ccf59897060ff094e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DoColorWheelsGUI</definition>
+        <argsstring>()</argsstring>
+        <name>DoColorWheelsGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="404" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="404" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ad03c2e80c64099dc8f2828166b862488" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.ResetVisibleCurves</definition>
+        <argsstring>()</argsstring>
+        <name>ResetVisibleCurves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="439" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="439" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1acc3b74043cfc9975a0bc3b25ae7bd9c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.SetCurveVisible</definition>
+        <argsstring>(SerializedProperty prop)</argsstring>
+        <name>SetCurveVisible</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="449" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="449" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa13cc60c085b1282df05077c5dedaee8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEditor.PostProcessing.ColorGradingModelEditor.SpecialToggle</definition>
+        <argsstring>(bool value, string name, out bool rightClicked)</argsstring>
+        <name>SpecialToggle</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>rightClicked</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="456" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="456" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a0ddf0edd4f583c6b98b24b195ed98c3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DoCurvesGUI</definition>
+        <argsstring>()</argsstring>
+        <name>DoCurvesGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="468" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="468" bodyend="654"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1a6de8d137bce135f3690063f8bd005790" compoundref="_fx_styles_8cs" startline="16">UnityEditor.PostProcessing.FxStyles.preLabel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a2626dc29f3a978c149d921717daee940" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.ColorGradingModelEditor.DrawBackgroundTexture</definition>
+        <argsstring>(Rect rect, int pass)</argsstring>
+        <name>DrawBackgroundTexture</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="656" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="656" bodyend="670"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ac66ca2e0870cc15eb92e4971cd02c931" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.PostProcessing.ColorGradingModelEditor.WheelSetTitle</definition>
+        <argsstring>(Rect position, string label)</argsstring>
+        <name>WheelSetTitle</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="430" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="430" bodyend="437"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_trackball_group_drawer_1aa66fc1246cd1e8e665fff0f6b4815c2f" compoundref="_trackball_group_drawer_8cs" startline="22">UnityEditor.PostProcessing.TrackballGroupDrawer.m_Size</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="606">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+      </node>
+      <node id="605">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor"/>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="632">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor.ChannelMixerSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_channel_mixer_settings"/>
+      </node>
+      <node id="628">
+        <label>Editor</label>
+      </node>
+      <node id="614">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="608">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+        <childnode refid="609" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="627" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+      </node>
+      <node id="624">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="622">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="616">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="617">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="626">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="620">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="610">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="627">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="628" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="609">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+        <childnode refid="611" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="614" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="615" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="616" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="617" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="618" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="619" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="620" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="621" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="622" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="623" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="624" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="625" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="626" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="629">
+        <label>UnityEditor.PostProcessing.CurveEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_curve_editor"/>
+      </node>
+      <node id="612">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="633">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor.TonemappingSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_tonemapping_settings"/>
+      </node>
+      <node id="625">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="607">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor"/>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+        <childnode refid="629" relation="usage">
+          <edgelabel>m_CurveEditor</edgelabel>
+        </childnode>
+        <childnode refid="630" relation="usage">
+          <edgelabel>m_Curves</edgelabel>
+        </childnode>
+        <childnode refid="631" relation="usage">
+          <edgelabel>m_Basic</edgelabel>
+        </childnode>
+        <childnode refid="632" relation="usage">
+          <edgelabel>m_ChannelMixer</edgelabel>
+        </childnode>
+        <childnode refid="633" relation="usage">
+          <edgelabel>m_Tonemapping</edgelabel>
+        </childnode>
+        <childnode refid="634" relation="usage">
+          <edgelabel>m_ColorWheels</edgelabel>
+        </childnode>
+      </node>
+      <node id="615">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="634">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor.ColorWheelsSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_color_wheels_settings"/>
+      </node>
+      <node id="623">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="613">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="619">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="611">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="630">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor.CurvesSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_curves_settings"/>
+      </node>
+      <node id="631">
+        <label>UnityEditor.PostProcessing.ColorGradingModelEditor.BasicSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1_1_basic_settings"/>
+      </node>
+      <node id="621">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="618">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" bodystart="14" bodyend="671"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a6a155a500587d1375dfe4b999f8e1110" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>AddCurve</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>alwaysEnabled</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a7f05966115cbe2b35e04af4f99a7e315" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DoBasicGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa65b499335c8d92d0f7a5c9a3cdee4b0" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DoChannelMixerGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a033cdc58307a182ccf59897060ff094e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DoColorWheelsGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a0ddf0edd4f583c6b98b24b195ed98c3b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DoCurvesGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ad308784858d913a248bfad7c1589f2f2" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DoGUIFor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a879a95a03c66bd33ad29292184bece50" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DoTonemappingGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a2626dc29f3a978c149d921717daee940" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DrawBackgroundTexture</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a4d3b36da5a557e7778c40c6142a8aa20" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DrawLine</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ae93319f337bd49aea677729ec4d1b575" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>DrawNeutralTonemappingCurve</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>inspector</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a08937213be27f4ae94bdb1b4fc92577c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>k_CurveResolution</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a45a31e15a6cf629a6acd44b3de346392" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>k_NeutralRangeX</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a37adc3af59bcb99c81b7fa955c3159b1" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>k_NeutralRangeY</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a3b581a8964a3a11dadd1e9061d61cbd1" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_Basic</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa7fe5d6340600cd80291716fa267658c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_ChannelMixer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a36804616c791b5f9b18ce783e26c41b9" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_ColorWheels</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa75080985c56364f73757d132b81880a" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_CurveDict</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9112f75ca4adf6e8beb09bc01dd1e579" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_CurveEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1afba17cf4593043c5bfc80391278dd85b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_Curves</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a909c2368109db961e7b6bd4130360752" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_CurveVertices</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_EnabledProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a67cba20cce96ed7a2806d09462d32707" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_LineVertices</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a7ad4db5fded8b1b7f87ee5d5fee83cd7" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_NeutralCurveRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aaf7da5c394db75c576f05d5c6f31b90b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_RectVertices</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_SettingsProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ab7aaf10230f5b0382e7d08af2a37b6ec" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>m_Tonemapping</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa438674a84e1b555e4b1354a021e948e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>NeutralCurve</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a87b14e6dca2df7118635d58d27836196" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>NeutralTonemap</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aab4148dee7ad4938498e7f12556ebac6" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9304ac2ec59d4c192e9783635da1592e" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a72e18f9836c9d26b8ee326d7f9e0f855" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>OnPreEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa99e05d459fbb9fc5686eba1c732d878" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>PointInRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>Repaint</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ad03c2e80c64099dc8f2828166b862488" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>ResetVisibleCurves</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a9937de232005ef761d2151738870ce5a" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>s_Curves</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1a237cf219a6166621cab988a47986e6ac" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>s_MaterialSpline</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ab0c132fcde3b3c384cfa4210ac3bc558" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>s_Tonemappers</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>serializedProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1acc3b74043cfc9975a0bc3b25ae7bd9c2" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>SetCurveVisible</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1aa13cc60c085b1282df05077c5dedaee8" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>SpecialToggle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>target</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_color_grading_model_editor_1ac66ca2e0870cc15eb92e4971cd02c931" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::ColorGradingModelEditor</scope><name>WheelSetTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Cameras::AutoCam</compoundname>
+    <basecompoundref refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig" prot="public" virt="non-virtual">UnityStandardAssets.Cameras.PivotBasedCameraRig</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1afc83a5da070c04c277d03570f3720c7b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_MoveSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_MoveSpeed</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a8cf3fbfdd0f435b9e031a6dce2752373" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_TurnSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_TurnSpeed</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a1d888b6f9131e4961e1632ddbb02da2e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_RollSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_RollSpeed</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a3ac9ffbf5eb25b573cb190570b05b236" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Cameras.AutoCam.m_FollowVelocity</definition>
+        <argsstring></argsstring>
+        <name>m_FollowVelocity</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a3051940740b4c51fe5a5afada75faff5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Cameras.AutoCam.m_FollowTilt</definition>
+        <argsstring></argsstring>
+        <name>m_FollowTilt</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a079632de1fa73c20eea7bcc3ffc6c873" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_SpinTurnLimit</definition>
+        <argsstring></argsstring>
+        <name>m_SpinTurnLimit</name>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1ab9f6805f937271aeca2e7a13201524c7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_TargetVelocityLowerLimit</definition>
+        <argsstring></argsstring>
+        <name>m_TargetVelocityLowerLimit</name>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a5bb790f35f64b1053e284d0befd1e044" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_SmoothTurnTime</definition>
+        <argsstring></argsstring>
+        <name>m_SmoothTurnTime</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a61e555e94cb71147339a03a2fb1912ee" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_LastFlatAngle</definition>
+        <argsstring></argsstring>
+        <name>m_LastFlatAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a584190712218c200799b8f4a600d6326" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_CurrentTurnAmount</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentTurnAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a64fa757b57700810503751af3f033fc6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Cameras.AutoCam.m_TurnSpeedVelocityChange</definition>
+        <argsstring></argsstring>
+        <name>m_TurnSpeedVelocityChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1aac06399f201ae1b4e61f8315b80702ec" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Cameras.AutoCam.m_RollUp</definition>
+        <argsstring></argsstring>
+        <name>m_RollUp</name>
+        <initializer>= Vector3.up</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1aaeccf7be91a8717e4e362d1791914b35" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Cameras.AutoCam.FollowTarget</definition>
+        <argsstring>(float deltaTime)</argsstring>
+        <name>FollowTarget</name>
+        <reimplements refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a4b771e65860831b007dc5d9baa7c0c47">FollowTarget</reimplements>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="27" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>PivotBasedCameraRig</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>UnityStandardAssets.Cameras.AutoCam</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>AbstractTargetFollower</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="168">
+        <label>PivotBasedCameraRig</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>UnityStandardAssets.Cameras.AutoCam</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>AbstractTargetFollower</label>
+        <link refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/AutoCam.cs" bodystart="10" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1ac8e9628df34b82b51c1cafd45d2b3938" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1ab8d9909f4d7e38889612fa737e2fde73" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>FindAndTargetPlayer</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1aaeccf7be91a8717e4e362d1791914b35" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>FollowTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a48ffcd4e624ccd875d0afe28dbcf1a89" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_Cam</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a584190712218c200799b8f4a600d6326" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_CurrentTurnAmount</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a3051940740b4c51fe5a5afada75faff5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_FollowTilt</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a3ac9ffbf5eb25b573cb190570b05b236" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_FollowVelocity</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a61e555e94cb71147339a03a2fb1912ee" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_LastFlatAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a3afd3be379d765725cb5bddf410256cf" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_LastTargetPosition</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1afc83a5da070c04c277d03570f3720c7b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_MoveSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a49301e21fdd2d263c8693d64cbff705e" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_Pivot</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a1d888b6f9131e4961e1632ddbb02da2e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_RollSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1aac06399f201ae1b4e61f8315b80702ec" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_RollUp</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a5bb790f35f64b1053e284d0befd1e044" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_SmoothTurnTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a079632de1fa73c20eea7bcc3ffc6c873" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_SpinTurnLimit</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1aeca3a0ae0619e4809688f4e64de27660" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1ab9f6805f937271aeca2e7a13201524c7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_TargetVelocityLowerLimit</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a8cf3fbfdd0f435b9e031a6dce2752373" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_TurnSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_auto_cam_1a64fa757b57700810503751af3f033fc6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>m_TurnSpeedVelocityChange</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1adf84672b616fcb6d90838537fbe17887" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>ManualUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a0d6288d9e007d7a5285ee5c6f9f68636" prot="public" virt="virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>SetTarget</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1ad3381a39deed7c88e7bf42be6f61a554" prot="protected" virt="virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a1a762e4e9ced2e4cd68425a7df67496e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a92f7183b7eeef7706e72c258de60f543" prot="protected" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>targetRigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower_1a0a966f5d855a7db490f2583c9771b837" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Cameras::AutoCam</scope><name>UpdateType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

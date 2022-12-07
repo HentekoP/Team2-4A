@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mesh_cutter_manager" kind="class" prot="public">
+    <compoundname>MeshCutterManager</compoundname>
+    <basecompoundref refid="class_mono_singleton_3_01_t_01_4" prot="public" virt="non-virtual">MonoSingleton&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mesh_cutter_manager_1ae4531cb3cb3d32c47713b8a61e93e95b" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; MeshCutterManager.CutTrackerS1</definition>
+        <argsstring></argsstring>
+        <name>CutTrackerS1</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" compoundref="_mesh_cutter_manager_8cs" startline="29" endline="37">RecursivelyCutCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_cutter_manager_1a9f2f6433874b21962713f451ac0e0b46" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; MeshCutterManager.CutTrackerS2</definition>
+        <argsstring></argsstring>
+        <name>CutTrackerS2</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" compoundref="_mesh_cutter_manager_8cs" startline="29" endline="37">RecursivelyCutCoroutine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mesh_cutter_manager_1a6145bfbae3f07acd4d1212562cc7da8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutterManager.DamageMesh</definition>
+        <argsstring>(GameObject toDamage, float impactForce)</argsstring>
+        <name>DamageMesh</name>
+        <param>
+          <type>GameObject</type>
+          <declname>toDamage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>impactForce</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="12" bodyend="26"/>
+        <references refid="class_mono_singleton_3_01_t_01_4_1a5637ba1f44359d4610b5eba552ef5f57" compoundref="_mono_singleton_8cs" startline="8">MonoSingleton&lt; T &gt;.Instance</references>
+        <references refid="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" compoundref="_mesh_cutter_manager_8cs" startline="29" endline="37">RecursivelyCutCoroutine</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MeshCutterManager.RecursivelyCutCoroutine</definition>
+        <argsstring>(GameObject toCut, int MaxCuts)</argsstring>
+        <name>RecursivelyCutCoroutine</name>
+        <param>
+          <type>GameObject</type>
+          <declname>toCut</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxCuts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="29" bodyend="37"/>
+        <references refid="class_mesh_cutter_manager_1ae4531cb3cb3d32c47713b8a61e93e95b" compoundref="_mesh_cutter_manager_8cs" startline="8">CutTrackerS1</references>
+        <references refid="class_mesh_cutter_manager_1a9f2f6433874b21962713f451ac0e0b46" compoundref="_mesh_cutter_manager_8cs" startline="9">CutTrackerS2</references>
+        <references refid="class_mesh_cutter_manager_1aa79d400d80590384e5c8e76001f7cec3" compoundref="_mesh_cutter_manager_8cs" startline="60" endline="67">RandomCut</references>
+        <references refid="class_mesh_cutter_manager_1af0f2cda6ddc7768079b22c95b5213cb2" compoundref="_mesh_cutter_manager_8cs" startline="38" endline="42">RecursivelyCutSubCoroutine</references>
+        <referencedby refid="class_mesh_cutter_manager_1a6145bfbae3f07acd4d1212562cc7da8b" compoundref="_mesh_cutter_manager_8cs" startline="12" endline="26">DamageMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_manager_1af0f2cda6ddc7768079b22c95b5213cb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MeshCutterManager.RecursivelyCutSubCoroutine</definition>
+        <argsstring>(GameObject toCut, int MaxCuts, List&lt; GameObject &gt; CutTracker)</argsstring>
+        <name>RecursivelyCutSubCoroutine</name>
+        <param>
+          <type>GameObject</type>
+          <declname>toCut</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxCuts</declname>
+        </param>
+        <param>
+          <type>List&lt; GameObject &gt;</type>
+          <declname>CutTracker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="38" bodyend="42"/>
+        <references refid="class_mesh_cutter_manager_1ac8eb89620b7ee9fe81b8dfc6d34b813a" compoundref="_mesh_cutter_manager_8cs" startline="43" endline="57">RecursivelyCut</references>
+        <referencedby refid="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" compoundref="_mesh_cutter_manager_8cs" startline="29" endline="37">RecursivelyCutCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_manager_1ac8eb89620b7ee9fe81b8dfc6d34b813a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutterManager.RecursivelyCut</definition>
+        <argsstring>(GameObject toCut, int MaxCuts, List&lt; GameObject &gt; CutTracker)</argsstring>
+        <name>RecursivelyCut</name>
+        <param>
+          <type>GameObject</type>
+          <declname>toCut</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxCuts</declname>
+        </param>
+        <param>
+          <type>List&lt; GameObject &gt;</type>
+          <declname>CutTracker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="43" bodyend="57"/>
+        <references refid="class_mesh_cutter_manager_1aa79d400d80590384e5c8e76001f7cec3" compoundref="_mesh_cutter_manager_8cs" startline="60" endline="67">RandomCut</references>
+        <referencedby refid="class_mesh_cutter_manager_1af0f2cda6ddc7768079b22c95b5213cb2" compoundref="_mesh_cutter_manager_8cs" startline="38" endline="42">RecursivelyCutSubCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_manager_1aa79d400d80590384e5c8e76001f7cec3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject MeshCutterManager.RandomCut</definition>
+        <argsstring>(GameObject toCut)</argsstring>
+        <name>RandomCut</name>
+        <param>
+          <type>GameObject</type>
+          <declname>toCut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="60" bodyend="67"/>
+        <referencedby refid="class_mesh_cutter_manager_1ac8eb89620b7ee9fe81b8dfc6d34b813a" compoundref="_mesh_cutter_manager_8cs" startline="43" endline="57">RecursivelyCut</referencedby>
+        <referencedby refid="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" compoundref="_mesh_cutter_manager_8cs" startline="29" endline="37">RecursivelyCutCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_cutter_manager_1af61ac373ff9cd92d9d0c2cd7ecb77b10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeshCutterManager.DeleteTriangle</definition>
+        <argsstring>(int index, GameObject obj)</argsstring>
+        <name>DeleteTriangle</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="70" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1431">
+        <label>MeshCutterManager</label>
+        <link refid="class_mesh_cutter_manager"/>
+        <childnode refid="1432" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1432">
+        <label>MonoSingleton&lt; MeshCutterManager &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1433">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1434">
+        <label>MeshCutterManager</label>
+        <link refid="class_mesh_cutter_manager"/>
+        <childnode refid="1435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1435">
+        <label>MonoSingleton&lt; MeshCutterManager &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1436">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshCutterManager.cs" bodystart="6" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_mono_singleton_3_01_t_01_4_1aaee06c1dcfb60affd662840154379394" prot="public" virt="non-virtual"><scope>MeshCutterManager</scope><name>AssertIsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a04acead2ed3d970430f4c8c7716071f1" prot="protected" virt="virtual"><scope>MeshCutterManager</scope><name>Awake</name></member>
+      <member refid="class_mesh_cutter_manager_1ae4531cb3cb3d32c47713b8a61e93e95b" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>CutTrackerS1</name></member>
+      <member refid="class_mesh_cutter_manager_1a9f2f6433874b21962713f451ac0e0b46" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>CutTrackerS2</name></member>
+      <member refid="class_mesh_cutter_manager_1a6145bfbae3f07acd4d1212562cc7da8b" prot="public" virt="non-virtual"><scope>MeshCutterManager</scope><name>DamageMesh</name></member>
+      <member refid="class_mesh_cutter_manager_1af61ac373ff9cd92d9d0c2cd7ecb77b10" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>DeleteTriangle</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a5637ba1f44359d4610b5eba552ef5f57" prot="public" virt="non-virtual"><scope>MeshCutterManager</scope><name>Instance</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a736249026f44cf1f3f4ab805e89bba47" prot="public" virt="non-virtual"><scope>MeshCutterManager</scope><name>IsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1af585390f9256dfc8be7c969ca9fb4d88" prot="protected" virt="virtual"><scope>MeshCutterManager</scope><name>OnDestroy</name></member>
+      <member refid="class_mesh_cutter_manager_1aa79d400d80590384e5c8e76001f7cec3" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>RandomCut</name></member>
+      <member refid="class_mesh_cutter_manager_1ac8eb89620b7ee9fe81b8dfc6d34b813a" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>RecursivelyCut</name></member>
+      <member refid="class_mesh_cutter_manager_1a5d7466fb2ed5176adebe94ae81ecccfc" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>RecursivelyCutCoroutine</name></member>
+      <member refid="class_mesh_cutter_manager_1af0f2cda6ddc7768079b22c95b5213cb2" prot="private" virt="non-virtual"><scope>MeshCutterManager</scope><name>RecursivelyCutSubCoroutine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Characters::FirstPerson::HeadBob</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ab8ae1d7a4c6fc74392fb54ba2a15eb7a" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera UnityStandardAssets.Characters.FirstPerson.HeadBob.Camera</definition>
+        <argsstring></argsstring>
+        <name>Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1aa09c552529f3bea10d2e1d34b35ad63d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob" kindref="compound">CurveControlledBob</ref></type>
+        <definition>CurveControlledBob UnityStandardAssets.Characters.FirstPerson.HeadBob.motionBob</definition>
+        <argsstring></argsstring>
+        <name>motionBob</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob" kindref="compound">CurveControlledBob</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1accca4686b585cfc2e158391c69e718eb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob" kindref="compound">LerpControlledBob</ref></type>
+        <definition>LerpControlledBob UnityStandardAssets.Characters.FirstPerson.HeadBob.jumpAndLandingBob</definition>
+        <argsstring></argsstring>
+        <name>jumpAndLandingBob</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob" kindref="compound">LerpControlledBob</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ab30e3da52038c7b50abf3d976a7d3a03" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller" kindref="compound">RigidbodyFirstPersonController</ref></type>
+        <definition>RigidbodyFirstPersonController UnityStandardAssets.Characters.FirstPerson.HeadBob.rigidbodyFirstPersonController</definition>
+        <argsstring></argsstring>
+        <name>rigidbodyFirstPersonController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ad4af20f1362d1c8e49546fbf53af734d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Characters.FirstPerson.HeadBob.StrideInterval</definition>
+        <argsstring></argsstring>
+        <name>StrideInterval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1a11b4a0b69043268a22dcd3ed9e436d9c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Characters.FirstPerson.HeadBob.RunningStrideLengthen</definition>
+        <argsstring></argsstring>
+        <name>RunningStrideLengthen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ad52bb8df3f7932de44de8d29a6374ed3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Characters.FirstPerson.HeadBob.m_PreviouslyGrounded</definition>
+        <argsstring></argsstring>
+        <name>m_PreviouslyGrounded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1a4e7d02d902ceaccc67e278ba5e50d980" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Characters.FirstPerson.HeadBob.m_OriginalCameraPosition</definition>
+        <argsstring></argsstring>
+        <name>m_OriginalCameraPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1a247c2eec72fbdbddfc8b25f3952c129b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.HeadBob.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ab349c46e7ead58a38dd370703c903245" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Characters.FirstPerson.HeadBob.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="29" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1290">
+        <label>UnityStandardAssets.Characters.FirstPerson.HeadBob</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob"/>
+        <childnode refid="1291" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1296">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller"/>
+        <childnode refid="1293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1297" relation="usage">
+          <edgelabel>movementSettings</edgelabel>
+        </childnode>
+        <childnode refid="1298" relation="usage">
+          <edgelabel>mouseLook</edgelabel>
+        </childnode>
+        <childnode refid="1299" relation="usage">
+          <edgelabel>advancedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1292">
+        <label>UnityStandardAssets.Characters.FirstPerson.HeadBob</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob"/>
+        <childnode refid="1293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1294" relation="usage">
+          <edgelabel>jumpAndLandingBob</edgelabel>
+        </childnode>
+        <childnode refid="1295" relation="usage">
+          <edgelabel>motionBob</edgelabel>
+        </childnode>
+        <childnode refid="1296" relation="usage">
+          <edgelabel>rigidbodyFirstPersonController</edgelabel>
+        </childnode>
+      </node>
+      <node id="1298">
+        <label>UnityStandardAssets.Characters.FirstPerson.MouseLook</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look"/>
+      </node>
+      <node id="1297">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.MovementSettings</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings"/>
+      </node>
+      <node id="1299">
+        <label>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.AdvancedSettings</label>
+        <link refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_advanced_settings"/>
+      </node>
+      <node id="1293">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1295">
+        <label>UnityStandardAssets.Utility.CurveControlledBob</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob"/>
+      </node>
+      <node id="1294">
+        <label>UnityStandardAssets.Utility.LerpControlledBob</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" bodystart="7" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ab8ae1d7a4c6fc74392fb54ba2a15eb7a" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>Camera</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1accca4686b585cfc2e158391c69e718eb" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>jumpAndLandingBob</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1a4e7d02d902ceaccc67e278ba5e50d980" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>m_OriginalCameraPosition</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ad52bb8df3f7932de44de8d29a6374ed3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>m_PreviouslyGrounded</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1aa09c552529f3bea10d2e1d34b35ad63d" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>motionBob</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ab30e3da52038c7b50abf3d976a7d3a03" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>rigidbodyFirstPersonController</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1a11b4a0b69043268a22dcd3ed9e436d9c" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>RunningStrideLengthen</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1a247c2eec72fbdbddfc8b25f3952c129b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ad4af20f1362d1c8e49546fbf53af734d" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>StrideInterval</name></member>
+      <member refid="class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob_1ab349c46e7ead58a38dd370703c903245" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Characters::FirstPerson::HeadBob</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

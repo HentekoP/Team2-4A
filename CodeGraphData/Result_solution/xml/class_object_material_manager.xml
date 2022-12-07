@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_object_material_manager" kind="class" prot="public">
+    <compoundname>ObjectMaterialManager</compoundname>
+    <basecompoundref refid="class_mono_singleton_3_01_t_01_4" prot="public" virt="non-virtual">MonoSingleton&lt; T &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" prot="private" static="no" mutable="no">
+        <type><ref refid="class_material_definitions" kindref="compound">MaterialDefinitions</ref></type>
+        <definition>MaterialDefinitions ObjectMaterialManager.materialData</definition>
+        <argsstring></argsstring>
+        <name>materialData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_object_material_manager_1ac671b118cb7ac7a760a0b013b25615a5" compoundref="_object_material_manager_8cs" startline="17" endline="28">CanMaterialBreak</referencedby>
+        <referencedby refid="class_object_material_manager_1af84abd5efaf1d37ca163432d2a160e41" compoundref="_object_material_manager_8cs" startline="50" endline="66">GetMaterialDensity</referencedby>
+        <referencedby refid="class_object_material_manager_1a0925ae469eb52c5f3e8f086cebfdfb16" compoundref="_object_material_manager_8cs" startline="31" endline="47">GetMaterialStrength</referencedby>
+        <referencedby refid="class_object_material_manager_1a1cfdc56df85cf143d074dfef751e65b9" compoundref="_object_material_manager_8cs" startline="11" endline="14">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_object_material_manager_1a1cfdc56df85cf143d074dfef751e65b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectMaterialManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" compoundref="_object_material_manager_8cs" startline="8">materialData</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_object_material_manager_1ac671b118cb7ac7a760a0b013b25615a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ObjectMaterialManager.CanMaterialBreak</definition>
+        <argsstring>(MaterialTypes type)</argsstring>
+        <name>CanMaterialBreak</name>
+        <param>
+          <type><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="17" bodyend="28"/>
+        <references refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" compoundref="_object_material_manager_8cs" startline="8">materialData</references>
+        <references refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" compoundref="_object_material_manager_8cs" startline="73">MaterialDefinitions.materials</references>
+        <references refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" compoundref="_object_material_manager_8cs" startline="78">MaterialDefinition.type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_object_material_manager_1a0925ae469eb52c5f3e8f086cebfdfb16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjectMaterialManager.GetMaterialStrength</definition>
+        <argsstring>(MaterialTypes type)</argsstring>
+        <name>GetMaterialStrength</name>
+        <param>
+          <type><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="31" bodyend="47"/>
+        <references refid="class_material_definition_1aa188ef171d78c1d8eaef6b46cfce89e3" compoundref="_object_material_manager_8cs" startline="79">MaterialDefinition.can_shatter</references>
+        <references refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" compoundref="_object_material_manager_8cs" startline="8">materialData</references>
+        <references refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" compoundref="_object_material_manager_8cs" startline="73">MaterialDefinitions.materials</references>
+        <references refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" compoundref="_object_material_manager_8cs" startline="78">MaterialDefinition.type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_object_material_manager_1af84abd5efaf1d37ca163432d2a160e41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjectMaterialManager.GetMaterialDensity</definition>
+        <argsstring>(MaterialTypes type)</argsstring>
+        <name>GetMaterialDensity</name>
+        <param>
+          <type><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="50" bodyend="66"/>
+        <references refid="class_material_definition_1aa188ef171d78c1d8eaef6b46cfce89e3" compoundref="_object_material_manager_8cs" startline="79">MaterialDefinition.can_shatter</references>
+        <references refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" compoundref="_object_material_manager_8cs" startline="8">materialData</references>
+        <references refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" compoundref="_object_material_manager_8cs" startline="73">MaterialDefinitions.materials</references>
+        <references refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" compoundref="_object_material_manager_8cs" startline="78">MaterialDefinition.type</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1600">
+        <label>MonoSingleton&lt; ObjectMaterialManager &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1601" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1599">
+        <label>ObjectMaterialManager</label>
+        <link refid="class_object_material_manager"/>
+        <childnode refid="1600" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1601">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1603">
+        <label>MonoSingleton&lt; ObjectMaterialManager &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1602">
+        <label>ObjectMaterialManager</label>
+        <link refid="class_object_material_manager"/>
+        <childnode refid="1603" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1605" relation="usage">
+          <edgelabel>materialData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1605">
+        <label>MaterialDefinitions</label>
+        <link refid="class_material_definitions"/>
+      </node>
+      <node id="1604">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="6" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_mono_singleton_3_01_t_01_4_1aaee06c1dcfb60affd662840154379394" prot="public" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>AssertIsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a04acead2ed3d970430f4c8c7716071f1" prot="protected" virt="virtual"><scope>ObjectMaterialManager</scope><name>Awake</name></member>
+      <member refid="class_object_material_manager_1ac671b118cb7ac7a760a0b013b25615a5" prot="public" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>CanMaterialBreak</name></member>
+      <member refid="class_object_material_manager_1af84abd5efaf1d37ca163432d2a160e41" prot="public" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>GetMaterialDensity</name></member>
+      <member refid="class_object_material_manager_1a0925ae469eb52c5f3e8f086cebfdfb16" prot="public" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>GetMaterialStrength</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a5637ba1f44359d4610b5eba552ef5f57" prot="public" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>Instance</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a736249026f44cf1f3f4ab805e89bba47" prot="public" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>IsInitialized</name></member>
+      <member refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" prot="private" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>materialData</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1af585390f9256dfc8be7c969ca9fb4d88" prot="protected" virt="virtual"><scope>ObjectMaterialManager</scope><name>OnDestroy</name></member>
+      <member refid="class_object_material_manager_1a1cfdc56df85cf143d074dfef751e65b9" prot="private" virt="non-virtual"><scope>ObjectMaterialManager</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

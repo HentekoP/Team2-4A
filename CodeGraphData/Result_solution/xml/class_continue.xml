@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_continue" kind="class" prot="public">
+    <compoundname>Continue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_continue_1a2916ac8afbe151303045d8debee0b499" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text Continue.Yes</definition>
+        <argsstring></argsstring>
+        <name>Yes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1a7fbc6bb0fee97d6340e7c18597a7f622" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text Continue.No</definition>
+        <argsstring></argsstring>
+        <name>No</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1a2bbc29e183ff8355607d751954771758" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip Continue.Select</definition>
+        <argsstring></argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1ae49d2831a804717666c09c95ed1d098d" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip Continue.Decision</definition>
+        <argsstring></argsstring>
+        <name>Decision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_continue_1ad399c6156f2d3db0c82ee8eb90697c60" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Continue.ContinueNumber</definition>
+        <argsstring></argsstring>
+        <name>ContinueNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1abfede17d5099a4672230b01e561c3011" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Continue.pushflg</definition>
+        <argsstring></argsstring>
+        <name>pushflg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_continue_1acdbcf86f81d38259282d2669e1377421" compoundref="_continue_8cs" startline="21" endline="28">Start</referencedby>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1a79d54cd07a72406a6fc0447cf6c5c889" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Continue.Buttonflg</definition>
+        <argsstring></argsstring>
+        <name>Buttonflg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_continue_1acdbcf86f81d38259282d2669e1377421" compoundref="_continue_8cs" startline="21" endline="28">Start</referencedby>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1a770c1edb2c5b60173230d0ef56901a8f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Continue.CFlg</definition>
+        <argsstring></argsstring>
+        <name>CFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1a851d3cf64b86e7f01c2ccadbd79af5c6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Continue.SEflg</definition>
+        <argsstring></argsstring>
+        <name>SEflg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_continue_1acdbcf86f81d38259282d2669e1377421" compoundref="_continue_8cs" startline="21" endline="28">Start</referencedby>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_continue_1a7281406c9436a848c12d7c7db44e25ca" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Continue.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_continue_1acdbcf86f81d38259282d2669e1377421" compoundref="_continue_8cs" startline="21" endline="28">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_continue_1acdbcf86f81d38259282d2669e1377421" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Continue.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="21" bodyend="28"/>
+        <references refid="class_continue_1a7281406c9436a848c12d7c7db44e25ca" compoundref="_continue_8cs" startline="18">audioSource</references>
+        <references refid="class_continue_1a79d54cd07a72406a6fc0447cf6c5c889" compoundref="_continue_8cs" startline="13">Buttonflg</references>
+        <references refid="class_continue_1abfede17d5099a4672230b01e561c3011" compoundref="_continue_8cs" startline="12">pushflg</references>
+        <references refid="class_continue_1a851d3cf64b86e7f01c2ccadbd79af5c6" compoundref="_continue_8cs" startline="15">SEflg</references>
+      </memberdef>
+      <memberdef kind="function" id="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Continue.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="31" bodyend="92"/>
+        <references refid="class_continue_1a79d54cd07a72406a6fc0447cf6c5c889" compoundref="_continue_8cs" startline="13">Buttonflg</references>
+        <references refid="class_continue_1a770c1edb2c5b60173230d0ef56901a8f" compoundref="_continue_8cs" startline="14">CFlg</references>
+        <references refid="class_continue_1ad399c6156f2d3db0c82ee8eb90697c60" compoundref="_continue_8cs" startline="11">ContinueNumber</references>
+        <references refid="class_continue_1ae49d2831a804717666c09c95ed1d098d" compoundref="_continue_8cs" startline="17">Decision</references>
+        <references refid="class_continue_1a443faa5a6e04239096720550f7db97c6" compoundref="_continue_8cs" startline="93" endline="106">gameCoroutine</references>
+        <references refid="class_continue_1a664158b4e53dccf5a0373e9ef05d1989" compoundref="_continue_8cs" startline="107" endline="112">MenuCoroutine</references>
+        <references refid="class_continue_1abfede17d5099a4672230b01e561c3011" compoundref="_continue_8cs" startline="12">pushflg</references>
+        <references refid="class_continue_1a851d3cf64b86e7f01c2ccadbd79af5c6" compoundref="_continue_8cs" startline="15">SEflg</references>
+        <references refid="class_continue_1a2bbc29e183ff8355607d751954771758" compoundref="_continue_8cs" startline="16">Select</references>
+      </memberdef>
+      <memberdef kind="function" id="class_continue_1a443faa5a6e04239096720550f7db97c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Continue.gameCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>gameCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="93" bodyend="106"/>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_continue_1a664158b4e53dccf5a0373e9ef05d1989" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Continue.MenuCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>MenuCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="107" bodyend="112"/>
+        <referencedby refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" compoundref="_continue_8cs" startline="31" endline="92">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="641">
+        <label>Continue</label>
+        <link refid="class_continue"/>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="643">
+        <label>Continue</label>
+        <link refid="class_continue"/>
+        <childnode refid="644" relation="public-inheritance">
+        </childnode>
+        <childnode refid="645" relation="usage">
+          <edgelabel>Yes</edgelabel>
+          <edgelabel>No</edgelabel>
+        </childnode>
+      </node>
+      <node id="645">
+        <label>Text</label>
+      </node>
+      <node id="644">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/Continue.cs" bodystart="7" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_continue_1a7281406c9436a848c12d7c7db44e25ca" prot="private" virt="non-virtual"><scope>Continue</scope><name>audioSource</name></member>
+      <member refid="class_continue_1a79d54cd07a72406a6fc0447cf6c5c889" prot="private" virt="non-virtual"><scope>Continue</scope><name>Buttonflg</name></member>
+      <member refid="class_continue_1a770c1edb2c5b60173230d0ef56901a8f" prot="private" virt="non-virtual"><scope>Continue</scope><name>CFlg</name></member>
+      <member refid="class_continue_1ad399c6156f2d3db0c82ee8eb90697c60" prot="private" virt="non-virtual"><scope>Continue</scope><name>ContinueNumber</name></member>
+      <member refid="class_continue_1ae49d2831a804717666c09c95ed1d098d" prot="public" virt="non-virtual"><scope>Continue</scope><name>Decision</name></member>
+      <member refid="class_continue_1a443faa5a6e04239096720550f7db97c6" prot="private" virt="non-virtual"><scope>Continue</scope><name>gameCoroutine</name></member>
+      <member refid="class_continue_1a664158b4e53dccf5a0373e9ef05d1989" prot="private" virt="non-virtual"><scope>Continue</scope><name>MenuCoroutine</name></member>
+      <member refid="class_continue_1a7fbc6bb0fee97d6340e7c18597a7f622" prot="public" virt="non-virtual"><scope>Continue</scope><name>No</name></member>
+      <member refid="class_continue_1abfede17d5099a4672230b01e561c3011" prot="private" virt="non-virtual"><scope>Continue</scope><name>pushflg</name></member>
+      <member refid="class_continue_1a851d3cf64b86e7f01c2ccadbd79af5c6" prot="private" virt="non-virtual"><scope>Continue</scope><name>SEflg</name></member>
+      <member refid="class_continue_1a2bbc29e183ff8355607d751954771758" prot="public" virt="non-virtual"><scope>Continue</scope><name>Select</name></member>
+      <member refid="class_continue_1acdbcf86f81d38259282d2669e1377421" prot="private" virt="non-virtual"><scope>Continue</scope><name>Start</name></member>
+      <member refid="class_continue_1ab98543d9b49cdaf610567a2626ca10f5" prot="private" virt="non-virtual"><scope>Continue</scope><name>Update</name></member>
+      <member refid="class_continue_1a2916ac8afbe151303045d8debee0b499" prot="public" virt="non-virtual"><scope>Continue</scope><name>Yes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

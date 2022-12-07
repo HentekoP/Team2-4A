@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::VectorscopeMonitor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingMonitor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a1cd797a773a957de3b065a5dffb0c71b" prot="private" static="yes" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEditor.PostProcessing.VectorscopeMonitor.s_MonitorTitle</definition>
+        <argsstring></argsstring>
+        <name>s_MonitorTitle</name>
+        <initializer>= new GUIContent(&quot;Vectorscope&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a138bf5d4c88bbfa2d2ffc213897ed4ca" prot="private" static="no" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader UnityEditor.PostProcessing.VectorscopeMonitor.m_ComputeShader</definition>
+        <argsstring></argsstring>
+        <name>m_ComputeShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1ae17bc0a4b07af47807162e28de3d70fb" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer UnityEditor.PostProcessing.VectorscopeMonitor.m_Buffer</definition>
+        <argsstring></argsstring>
+        <name>m_Buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a82752010b24170e8321725b5507e81d6" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityEditor.PostProcessing.VectorscopeMonitor.m_Material</definition>
+        <argsstring></argsstring>
+        <name>m_Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a4cf435f0bd11ca99b8247716e5afc1df" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEditor.PostProcessing.VectorscopeMonitor.m_VectorscopeTexture</definition>
+        <argsstring></argsstring>
+        <name>m_VectorscopeTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a4f6b0fc900a68c3f04fe70470df605ce" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.VectorscopeMonitor.m_MonitorAreaRect</definition>
+        <argsstring></argsstring>
+        <name>m_MonitorAreaRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1ab87c732f4555f2a87389157c9a65090c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.VectorscopeMonitor.VectorscopeMonitor</definition>
+        <argsstring>()</argsstring>
+        <name>VectorscopeMonitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a005eed06f524b178cf20c653a065e4b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.VectorscopeMonitor.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a89c45fe9fe5a185eb55ef522cba5dec5">Dispose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a463538bb61faf99a1507ac9501eb7de1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool UnityEditor.PostProcessing.VectorscopeMonitor.IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1ab308a1c99994f4708f5502ddc640dc0a">IsSupported</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1aaab4f236c863002855bf65f364e981ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override GUIContent</type>
+        <definition>override GUIContent UnityEditor.PostProcessing.VectorscopeMonitor.GetMonitorTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetMonitorTitle</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a4fb67dcd17b84d422c69f98159e20545">GetMonitorTitle</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1af640d93cb043401ba229796ac3803c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.VectorscopeMonitor.OnMonitorSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnMonitorSettings</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a40e1d68334826b54634a87837cc4ef89">OnMonitorSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="45" bodyend="65"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1a978f864c0af96f3cbd263e5831d9349c" compoundref="_fx_styles_8cs" startline="29">UnityEditor.PostProcessing.FxStyles.checkerIcon</references>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1ad5293b51f5f04334286514d676de5475" compoundref="_fx_styles_8cs" startline="28">UnityEditor.PostProcessing.FxStyles.playIcon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1acb7862e8e86f2eb6cd33d8b2c89be22e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.VectorscopeMonitor.OnMonitorGUI</definition>
+        <argsstring>(Rect r)</argsstring>
+        <name>OnMonitorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a51ecfadbfa10eb105e8c708b4d7064c4">OnMonitorGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="67" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1aad2a91361031b9b19ad81a7b72f9b695" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.VectorscopeMonitor.OnFrameData</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>OnFrameData</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a490e202a0b1d45fdbc073d6000a7e220">OnFrameData</reimplements>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="173" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="173" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1ad6ac12eb124b8aba8377a0e6dfd2331d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.VectorscopeMonitor.CreateBuffer</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>CreateBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="192" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a8ed2b20a182be70ba996d658ae6934ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.VectorscopeMonitor.ComputeVectorscope</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>ComputeVectorscope</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="197" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2691">
+        <label>UnityEditor.PostProcessing.VectorscopeMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor"/>
+        <childnode refid="2692" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2693">
+        <label>IDisposable</label>
+      </node>
+      <node id="2692">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="2693" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2699">
+        <label>Editor</label>
+      </node>
+      <node id="2697">
+        <label>UnityEngine</label>
+      </node>
+      <node id="2694">
+        <label>UnityEditor.PostProcessing.VectorscopeMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor"/>
+        <childnode refid="2695" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2696">
+        <label>IDisposable</label>
+      </node>
+      <node id="2698">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="2699" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2695">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="2696" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2697" relation="usage">
+          <edgelabel>m_MonitorSettings</edgelabel>
+        </childnode>
+        <childnode refid="2698" relation="usage">
+          <edgelabel>m_BaseEditor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" bodystart="7" bodyend="240"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a8ed2b20a182be70ba996d658ae6934ce" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>ComputeVectorscope</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1ad6ac12eb124b8aba8377a0e6dfd2331d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>CreateBuffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a005eed06f524b178cf20c653a065e4b8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>Dispose</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1aaab4f236c863002855bf65f364e981ea" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>GetMonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a7772670b4fd34e76a0cb35d372ed1718" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>Init</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a463538bb61faf99a1507ac9501eb7de1" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>IsSupported</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a2553b93b6efa7231ed205cc06d6495f8" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_BaseEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1ae17bc0a4b07af47807162e28de3d70fb" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_Buffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a138bf5d4c88bbfa2d2ffc213897ed4ca" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_ComputeShader</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a82752010b24170e8321725b5507e81d6" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_Material</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a4f6b0fc900a68c3f04fe70470df605ce" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_MonitorAreaRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1aafb8128cac56dbe0e784e1f55f8525a9" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_MonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a4cf435f0bd11ca99b8247716e5afc1df" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>m_VectorscopeTexture</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1aad2a91361031b9b19ad81a7b72f9b695" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>OnFrameData</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1acb7862e8e86f2eb6cd33d8b2c89be22e" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>OnMonitorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1af640d93cb043401ba229796ac3803c1e" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>OnMonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1a1cd797a773a957de3b065a5dffb0c71b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>s_MonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_vectorscope_monitor_1ab87c732f4555f2a87389157c9a65090c" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::VectorscopeMonitor</scope><name>VectorscopeMonitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

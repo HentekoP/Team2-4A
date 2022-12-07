@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bom" kind="class" prot="public">
+    <compoundname>Bom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bom_1a198f91f6d25475bb943dcc266b1995f2" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem Bom.exp</definition>
+        <argsstring></argsstring>
+        <name>exp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_bom_1a98939b859d5e29a20fa0d5135d07ae58" compoundref="_bom_8cs" startline="42" endline="46">Exprosion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_bom_1a16ad7ebd7e128c1aa811012e5a217674" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Bom.obj</definition>
+        <argsstring></argsstring>
+        <name>obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_bom_1a98939b859d5e29a20fa0d5135d07ae58" compoundref="_bom_8cs" startline="42" endline="46">Exprosion</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bom_1aa59f5d95f0ea8b7f379f6e5c223a3973" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Bom.ExprosionFlg</definition>
+        <argsstring></argsstring>
+        <name>ExprosionFlg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_bom_1a8dd5359608aa7448e56faa81c5a41556" compoundref="_bom_8cs" startline="47" endline="50">ExpFlg</referencedby>
+        <referencedby refid="class_bom_1af34e95e1f425446e4fd944701886536d" compoundref="_bom_8cs" startline="15" endline="32">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bom_1aaa6430d8752d721eebd9770cf532f6ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bom.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bom_1af34e95e1f425446e4fd944701886536d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bom.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="15" bodyend="32"/>
+        <references refid="class_bom_1a98939b859d5e29a20fa0d5135d07ae58" compoundref="_bom_8cs" startline="42" endline="46">Exprosion</references>
+        <references refid="class_bom_1aa59f5d95f0ea8b7f379f6e5c223a3973" compoundref="_bom_8cs" startline="9">ExprosionFlg</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bom_1ad74331ea3cc32a344c07022fd8311120" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bom.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="34" bodyend="40"/>
+        <references refid="class_bom_1a98939b859d5e29a20fa0d5135d07ae58" compoundref="_bom_8cs" startline="42" endline="46">Exprosion</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bom_1a98939b859d5e29a20fa0d5135d07ae58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Bom.Exprosion</definition>
+        <argsstring>()</argsstring>
+        <name>Exprosion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="42" bodyend="46"/>
+        <references refid="class_bom_1a198f91f6d25475bb943dcc266b1995f2" compoundref="_bom_8cs" startline="7">exp</references>
+        <references refid="class_bom_1a16ad7ebd7e128c1aa811012e5a217674" compoundref="_bom_8cs" startline="8">obj</references>
+        <referencedby refid="class_bom_1ad74331ea3cc32a344c07022fd8311120" compoundref="_bom_8cs" startline="34" endline="40">OnCollisionEnter</referencedby>
+        <referencedby refid="class_bom_1af34e95e1f425446e4fd944701886536d" compoundref="_bom_8cs" startline="15" endline="32">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bom_1a8dd5359608aa7448e56faa81c5a41556" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Bom.ExpFlg</definition>
+        <argsstring>()</argsstring>
+        <name>ExpFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_bom_1aa59f5d95f0ea8b7f379f6e5c223a3973" compoundref="_bom_8cs" startline="9">ExprosionFlg</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="302">
+        <label>Bom</label>
+        <link refid="class_bom"/>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="304">
+        <label>Bom</label>
+        <link refid="class_bom"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Bom.cs" bodystart="5" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_bom_1a198f91f6d25475bb943dcc266b1995f2" prot="public" virt="non-virtual"><scope>Bom</scope><name>exp</name></member>
+      <member refid="class_bom_1a8dd5359608aa7448e56faa81c5a41556" prot="public" virt="non-virtual"><scope>Bom</scope><name>ExpFlg</name></member>
+      <member refid="class_bom_1a98939b859d5e29a20fa0d5135d07ae58" prot="private" virt="non-virtual"><scope>Bom</scope><name>Exprosion</name></member>
+      <member refid="class_bom_1aa59f5d95f0ea8b7f379f6e5c223a3973" prot="private" virt="non-virtual"><scope>Bom</scope><name>ExprosionFlg</name></member>
+      <member refid="class_bom_1a16ad7ebd7e128c1aa811012e5a217674" prot="public" virt="non-virtual"><scope>Bom</scope><name>obj</name></member>
+      <member refid="class_bom_1ad74331ea3cc32a344c07022fd8311120" prot="private" virt="non-virtual"><scope>Bom</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_bom_1aaa6430d8752d721eebd9770cf532f6ba" prot="private" virt="non-virtual"><scope>Bom</scope><name>Start</name></member>
+      <member refid="class_bom_1af34e95e1f425446e4fd944701886536d" prot="private" virt="non-virtual"><scope>Bom</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

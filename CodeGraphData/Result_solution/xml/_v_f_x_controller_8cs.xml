@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_v_f_x_controller_8cs" kind="file">
+    <compoundname>VFXController.cs</compoundname>
+    <innerclass refid="class_v_f_x_controller" prot="public">VFXController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_v_f_x_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_v_f_x_controller" kindref="compound">VFXController</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_v_f_x_controller_1a50d31ea9cc40536ac9c3256a9b804079" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_v_f_x_controller_1a50d31ea9cc40536ac9c3256a9b804079" kindref="member">dust_cloud</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_v_f_x_controller" kindref="compound">VFXController</ref><sp/><ref refid="class_v_f_x_controller_1ac8c0fe4cfe7bf66e26543bf7c52b481f" kindref="member">Instance</ref></highlight></codeline>
+<codeline lineno="9" refid="class_v_f_x_controller_1ac8c0fe4cfe7bf66e26543bf7c52b481f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" kindref="member">_instance</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" kindref="member">_instance</ref><sp/>=<sp/>FindObjectOfType&lt;VFXController&gt;();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" kindref="member">_instance</ref>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogError(</highlight><highlight class="stringliteral">&quot;No<sp/>VFXController<sp/>in<sp/>scene&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" kindref="member">_instance</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20" refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_v_f_x_controller" kindref="compound">VFXController</ref><sp/><ref refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" kindref="member">_instance</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="class_v_f_x_controller_1a9b8620f4b92a8c6b483b122415210a61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_f_x_controller_1a9b8620f4b92a8c6b483b122415210a61" kindref="member">spawn_dust_cloud</ref>(Vector3<sp/>position)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Instantiate(<ref refid="class_v_f_x_controller_1a50d31ea9cc40536ac9c3256a9b804079" kindref="member">dust_cloud</ref>,<sp/>position,<sp/>Quaternion.identity);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_scene_and_u_r_l_loader" kind="class" prot="public">
+    <compoundname>SceneAndURLLoader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_and_u_r_l_loader_1a90b239ed2846f66cc67dbabe736c0fbe" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pause_menu" kindref="compound">PauseMenu</ref></type>
+        <definition>PauseMenu SceneAndURLLoader.m_PauseMenu</definition>
+        <argsstring></argsstring>
+        <name>m_PauseMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_scene_and_u_r_l_loader_1a154ace6e3b03aaba3e2712ec99e8770e" compoundref="_scene_and_u_r_l_loader_8cs" startline="10" endline="13">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_and_u_r_l_loader_1a154ace6e3b03aaba3e2712ec99e8770e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAndURLLoader.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_scene_and_u_r_l_loader_1a90b239ed2846f66cc67dbabe736c0fbe" compoundref="_scene_and_u_r_l_loader_8cs" startline="7">m_PauseMenu</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_and_u_r_l_loader_1a710d02a3aaf277ca0789f6e337c5fbbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAndURLLoader.SceneLoad</definition>
+        <argsstring>(string sceneName)</argsstring>
+        <name>SceneLoad</name>
+        <param>
+          <type>string</type>
+          <declname>sceneName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_and_u_r_l_loader_1af539c063bb35406a362e7f7a4307a7f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneAndURLLoader.LoadURL</definition>
+        <argsstring>(string url)</argsstring>
+        <name>LoadURL</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2139">
+        <label>SceneAndURLLoader</label>
+        <link refid="class_scene_and_u_r_l_loader"/>
+        <childnode refid="2140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2140">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2141">
+        <label>SceneAndURLLoader</label>
+        <link refid="class_scene_and_u_r_l_loader"/>
+        <childnode refid="2142" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2143" relation="usage">
+          <edgelabel>m_PauseMenu</edgelabel>
+        </childnode>
+      </node>
+      <node id="2143">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="2142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2142">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" bodystart="5" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_scene_and_u_r_l_loader_1a154ace6e3b03aaba3e2712ec99e8770e" prot="private" virt="non-virtual"><scope>SceneAndURLLoader</scope><name>Awake</name></member>
+      <member refid="class_scene_and_u_r_l_loader_1af539c063bb35406a362e7f7a4307a7f6" prot="public" virt="non-virtual"><scope>SceneAndURLLoader</scope><name>LoadURL</name></member>
+      <member refid="class_scene_and_u_r_l_loader_1a90b239ed2846f66cc67dbabe736c0fbe" prot="private" virt="non-virtual"><scope>SceneAndURLLoader</scope><name>m_PauseMenu</name></member>
+      <member refid="class_scene_and_u_r_l_loader_1a710d02a3aaf277ca0789f6e337c5fbbc" prot="public" virt="non-virtual"><scope>SceneAndURLLoader</scope><name>SceneLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

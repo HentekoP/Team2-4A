@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_taa_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::TaaComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::TaaComponent::Uniforms</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a207cefcaa1f39a3ed7303a60d17b29e6" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UnityEngine.PostProcessing.TaaComponent.k_ShaderString</definition>
+        <argsstring></argsstring>
+        <name>k_ShaderString</name>
+        <initializer>= &quot;Hidden/Post FX/Temporal Anti-aliasing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a4e722ab40f3793a419aedbff885f5c71" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEngine.PostProcessing.TaaComponent.k_SampleCount</definition>
+        <argsstring></argsstring>
+        <name>k_SampleCount</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1aafbe159c8f3c646bc167d9fd5e7547f3" prot="private" static="no" mutable="no">
+        <type>readonly RenderBuffer[]</type>
+        <definition>readonly RenderBuffer [] UnityEngine.PostProcessing.TaaComponent.m_MRT</definition>
+        <argsstring></argsstring>
+        <name>m_MRT</name>
+        <initializer>= new RenderBuffer[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a480aa66771218e22a32a05fb76541208" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.PostProcessing.TaaComponent.m_SampleIndex</definition>
+        <argsstring></argsstring>
+        <name>m_SampleIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a3f259591fb3fd6deaa45918559f326d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.TaaComponent.m_ResetHistory</definition>
+        <argsstring></argsstring>
+        <name>m_ResetHistory</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a706d4f067e0dc03b16eedc691344a707" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.TaaComponent.m_HistoryTexture</definition>
+        <argsstring></argsstring>
+        <name>m_HistoryTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1aadb855573680151dae4900d12af520b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.TaaComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1ad7a44ec209bac50e7f42e10784462019" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 UnityEngine.PostProcessing.TaaComponent.jitterVector</definition>
+        <argsstring></argsstring>
+        <name>jitterVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1acdb6cc8b86f8792042c7d57579db1e4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.TaaComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18">GetCameraFlags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a338933e1af86c58cfcd016994651b5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.TaaComponent.ResetHistory</definition>
+        <argsstring>()</argsstring>
+        <name>ResetHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1ac388a6ff1c2b47604772d4a18e6e8d24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.TaaComponent.SetProjectionMatrix</definition>
+        <argsstring>(Func&lt; Vector2, Matrix4x4 &gt; jitteredFunc)</argsstring>
+        <name>SetProjectionMatrix</name>
+        <param>
+          <type>Func&lt; Vector2, Matrix4x4 &gt;</type>
+          <declname>jitteredFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="50" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a84a55cff0051067183e6e2daa8cfe317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.TaaComponent.Render</definition>
+        <argsstring>(RenderTexture source, RenderTexture destination)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="83" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1aae1a9b2df8e23593b75e7eb2c9cc6b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.TaaComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c">OnDisable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="206" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="206" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a52f3e07778893dbda232406a14963471" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.TaaComponent.GetHaltonValue</definition>
+        <argsstring>(int index, int radix)</argsstring>
+        <name>GetHaltonValue</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="122" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="122" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a6d010d7cefe4fe2b6a53ae8be9d80717" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 UnityEngine.PostProcessing.TaaComponent.GenerateRandomOffset</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateRandomOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="138" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1a5e3bfb75e11150ced64c681cc4ba3eae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>Matrix4x4 UnityEngine.PostProcessing.TaaComponent.GetPerspectiveProjectionMatrix</definition>
+        <argsstring>(Vector2 offset)</argsstring>
+        <name>GetPerspectiveProjectionMatrix</name>
+        <param>
+          <type>Vector2</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="152" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="152" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_taa_component_1aca66e3898265851f2a8ef711866c760f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>Matrix4x4 UnityEngine.PostProcessing.TaaComponent.GetOrthographicProjectionMatrix</definition>
+        <argsstring>(Vector2 offset)</argsstring>
+        <name>GetOrthographicProjectionMatrix</name>
+        <param>
+          <type>Vector2</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="190" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2391">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="2389">
+        <label>PostProcessingComponentRenderTexture&lt; AntialiasingModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="2390" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2388">
+        <label>UnityEngine.PostProcessing.TaaComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_taa_component"/>
+        <childnode refid="2389" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2390">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="2391" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2395">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="2396" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="2417">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="2398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2393">
+        <label>PostProcessingComponentRenderTexture&lt; AntialiasingModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4"/>
+        <childnode refid="2394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2404">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2414">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2412">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2392">
+        <label>UnityEngine.PostProcessing.TaaComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_taa_component"/>
+        <childnode refid="2393" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2398">
+        <label>IDisposable</label>
+      </node>
+      <node id="2406">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2394">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="2395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2407">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2416">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2410">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2400">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2399">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="2400" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2401" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="2404" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="2405" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="2406" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="2407" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="2408" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="2409" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="2410" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="2411" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="2412" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="2413" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="2414" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="2415" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="2416" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2402">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="2396">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="2397" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="2399" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="2417" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="2415">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2397">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="2398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2405">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2413">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2403">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2409">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2401">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2411">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2408">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2403" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/TaaComponent.cs" bodystart="5" bodyend="215"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1aadb855573680151dae4900d12af520b2" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a6d010d7cefe4fe2b6a53ae8be9d80717" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>GenerateRandomOffset</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1acdb6cc8b86f8792042c7d57579db1e4a" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a52f3e07778893dbda232406a14963471" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>GetHaltonValue</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1aca66e3898265851f2a8ef711866c760f" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>GetOrthographicProjectionMatrix</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a5e3bfb75e11150ced64c681cc4ba3eae" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>GetPerspectiveProjectionMatrix</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1ad7a44ec209bac50e7f42e10784462019" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>jitterVector</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a4e722ab40f3793a419aedbff885f5c71" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>k_SampleCount</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a207cefcaa1f39a3ed7303a60d17b29e6" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>k_ShaderString</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a706d4f067e0dc03b16eedc691344a707" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>m_HistoryTexture</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1aafbe159c8f3c646bc167d9fd5e7547f3" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>m_MRT</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a3f259591fb3fd6deaa45918559f326d2" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>m_ResetHistory</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a480aa66771218e22a32a05fb76541208" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>m_SampleIndex</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1aae1a9b2df8e23593b75e7eb2c9cc6b4c" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_render_texture_3_01_t_01_4_1adcf0697959b318bf65a96ce47ee26732" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>Prepare</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a84a55cff0051067183e6e2daa8cfe317" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>Render</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1a338933e1af86c58cfcd016994651b5d8" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>ResetHistory</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_taa_component_1ac388a6ff1c2b47604772d4a18e6e8d24" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::TaaComponent</scope><name>SetProjectionMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

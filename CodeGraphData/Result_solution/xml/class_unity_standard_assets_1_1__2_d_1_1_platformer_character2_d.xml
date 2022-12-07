@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::_2D::PlatformerCharacter2D</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a5eeb1f7fe442b6e8f8fef7bd8a1aace5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.PlatformerCharacter2D.m_MaxSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_MaxSpeed</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a9c77d68bd4a86775532b77065b9a3ade" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.PlatformerCharacter2D.m_JumpForce</definition>
+        <argsstring></argsstring>
+        <name>m_JumpForce</name>
+        <initializer>= 400f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1aee15aa5a12f6500d586ae3a98b017b50" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets._2D.PlatformerCharacter2D.m_CrouchSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_CrouchSpeed</name>
+        <initializer>= .36f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a51adc589f09bb7835f9f9fbb32f06847" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets._2D.PlatformerCharacter2D.m_AirControl</definition>
+        <argsstring></argsstring>
+        <name>m_AirControl</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1aacbf1e8811911965677032a383b60e40" prot="private" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask UnityStandardAssets._2D.PlatformerCharacter2D.m_WhatIsGround</definition>
+        <argsstring></argsstring>
+        <name>m_WhatIsGround</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a1d1ff6d4efb8e045a3dd45294e77e0fd" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets._2D.PlatformerCharacter2D.m_GroundCheck</definition>
+        <argsstring></argsstring>
+        <name>m_GroundCheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a909d1a3f596e267631be38cb7d23d187" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets._2D.PlatformerCharacter2D.k_GroundedRadius</definition>
+        <argsstring></argsstring>
+        <name>k_GroundedRadius</name>
+        <initializer>= .2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a44a67a3c78d57668db40a789b8f5c03f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets._2D.PlatformerCharacter2D.m_Grounded</definition>
+        <argsstring></argsstring>
+        <name>m_Grounded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a07990c7a98ecadf976240bdfd8ba679f" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets._2D.PlatformerCharacter2D.m_CeilingCheck</definition>
+        <argsstring></argsstring>
+        <name>m_CeilingCheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a0515f08d436b08eb84d4166bc744f223" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets._2D.PlatformerCharacter2D.k_CeilingRadius</definition>
+        <argsstring></argsstring>
+        <name>k_CeilingRadius</name>
+        <initializer>= .01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a686fabdf284389a55e490de807fb3c2f" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator UnityStandardAssets._2D.PlatformerCharacter2D.m_Anim</definition>
+        <argsstring></argsstring>
+        <name>m_Anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1aa0c78ddef594c989c06a36e4f5f7e4a6" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D UnityStandardAssets._2D.PlatformerCharacter2D.m_Rigidbody2D</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a798a9a24669f612a23f2fc63301206c9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets._2D.PlatformerCharacter2D.m_FacingRight</definition>
+        <argsstring></argsstring>
+        <name>m_FacingRight</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1ab08545ea1f77b02f2bdc0942db144705" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets._2D.PlatformerCharacter2D.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a144d67b9a544f361a5cb326ad17d0ff4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets._2D.PlatformerCharacter2D.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="34" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a1e70088f1707e97f547f5fd8a0fe5cc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets._2D.PlatformerCharacter2D.Flip</definition>
+        <argsstring>()</argsstring>
+        <name>Flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="104" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a75228fb1971608ef19482f43db3c04a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets._2D.PlatformerCharacter2D.Move</definition>
+        <argsstring>(float move, bool crouch, bool jump)</argsstring>
+        <name>Move</name>
+        <param>
+          <type>float</type>
+          <declname>move</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>crouch</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>jump</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="53" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1686">
+        <label>UnityStandardAssets._2D.PlatformerCharacter2D</label>
+        <link refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d"/>
+        <childnode refid="1687" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1687">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1688">
+        <label>UnityStandardAssets._2D.PlatformerCharacter2D</label>
+        <link refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d"/>
+        <childnode refid="1689" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1689">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" bodystart="7" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1ab08545ea1f77b02f2bdc0942db144705" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a144d67b9a544f361a5cb326ad17d0ff4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a1e70088f1707e97f547f5fd8a0fe5cc5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>Flip</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a0515f08d436b08eb84d4166bc744f223" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>k_CeilingRadius</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a909d1a3f596e267631be38cb7d23d187" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>k_GroundedRadius</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a51adc589f09bb7835f9f9fbb32f06847" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_AirControl</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a686fabdf284389a55e490de807fb3c2f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_Anim</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a07990c7a98ecadf976240bdfd8ba679f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_CeilingCheck</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1aee15aa5a12f6500d586ae3a98b017b50" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_CrouchSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a798a9a24669f612a23f2fc63301206c9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_FacingRight</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a1d1ff6d4efb8e045a3dd45294e77e0fd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_GroundCheck</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a44a67a3c78d57668db40a789b8f5c03f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_Grounded</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a9c77d68bd4a86775532b77065b9a3ade" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_JumpForce</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a5eeb1f7fe442b6e8f8fef7bd8a1aace5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_MaxSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1aa0c78ddef594c989c06a36e4f5f7e4a6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_Rigidbody2D</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1aacbf1e8811911965677032a383b60e40" prot="private" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>m_WhatIsGround</name></member>
+      <member refid="class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d_1a75228fb1971608ef19482f43db3c04a9" prot="public" virt="non-virtual"><scope>UnityStandardAssets::_2D::PlatformerCharacter2D</scope><name>Move</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

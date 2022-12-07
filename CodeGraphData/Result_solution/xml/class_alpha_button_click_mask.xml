@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_alpha_button_click_mask" kind="class" prot="public">
+    <compoundname>AlphaButtonClickMask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ICanvasRaycastFilter</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alpha_button_click_mask_1a7664c7c76f1b1f74341a0d1a1174c873" prot="protected" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image AlphaButtonClickMask._image</definition>
+        <argsstring></argsstring>
+        <name>_image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_alpha_button_click_mask_1a4eeb27cc5c817d232326e141ba301ae7" compoundref="_alpha_button_click_mask_8cs" startline="39" endline="57">IsRaycastLocationValid</referencedby>
+        <referencedby refid="class_alpha_button_click_mask_1ad514a69b8627767212f3f71bd247dad4" compoundref="_alpha_button_click_mask_8cs" startline="9" endline="37">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alpha_button_click_mask_1ad514a69b8627767212f3f71bd247dad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AlphaButtonClickMask.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" bodystart="9" bodyend="37"/>
+        <references refid="class_alpha_button_click_mask_1a7664c7c76f1b1f74341a0d1a1174c873" compoundref="_alpha_button_click_mask_8cs" startline="7">_image</references>
+      </memberdef>
+      <memberdef kind="function" id="class_alpha_button_click_mask_1a4eeb27cc5c817d232326e141ba301ae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AlphaButtonClickMask.IsRaycastLocationValid</definition>
+        <argsstring>(Vector2 sp, Camera eventCamera)</argsstring>
+        <name>IsRaycastLocationValid</name>
+        <param>
+          <type>Vector2</type>
+          <declname>sp</declname>
+        </param>
+        <param>
+          <type>Camera</type>
+          <declname>eventCamera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" bodystart="39" bodyend="57"/>
+        <references refid="class_alpha_button_click_mask_1a7664c7c76f1b1f74341a0d1a1174c873" compoundref="_alpha_button_click_mask_8cs" startline="7">_image</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>ICanvasRaycastFilter</label>
+      </node>
+      <node id="63">
+        <label>AlphaButtonClickMask</label>
+        <link refid="class_alpha_button_click_mask"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>ICanvasRaycastFilter</label>
+      </node>
+      <node id="66">
+        <label>AlphaButtonClickMask</label>
+        <link refid="class_alpha_button_click_mask"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/AlphaButtonClickMask.cs" bodystart="5" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_alpha_button_click_mask_1a7664c7c76f1b1f74341a0d1a1174c873" prot="protected" virt="non-virtual"><scope>AlphaButtonClickMask</scope><name>_image</name></member>
+      <member refid="class_alpha_button_click_mask_1a4eeb27cc5c817d232326e141ba301ae7" prot="public" virt="non-virtual"><scope>AlphaButtonClickMask</scope><name>IsRaycastLocationValid</name></member>
+      <member refid="class_alpha_button_click_mask_1ad514a69b8627767212f3f71bd247dad4" prot="public" virt="non-virtual"><scope>AlphaButtonClickMask</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

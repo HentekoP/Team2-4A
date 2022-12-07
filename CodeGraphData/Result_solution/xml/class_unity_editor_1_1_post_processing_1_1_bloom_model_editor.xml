@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::BloomModelEditor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingModelEditor</basecompoundref>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1_1_bloom_settings" prot="private">UnityEditor::PostProcessing::BloomModelEditor::BloomSettings</innerclass>
+    <innerclass refid="struct_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1_1_lens_dirt_settings" prot="private">UnityEditor::PostProcessing::BloomModelEditor::LensDirtSettings</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1afcf630d34d38579f27a7fe779bfcd47e" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1_1_bloom_settings" kindref="compound">BloomSettings</ref></type>
+        <definition>BloomSettings UnityEditor.PostProcessing.BloomModelEditor.m_Bloom</definition>
+        <argsstring></argsstring>
+        <name>m_Bloom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a714a665ab25b5143bb9373d69cbd5ae4" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1_1_lens_dirt_settings" kindref="compound">LensDirtSettings</ref></type>
+        <definition>LensDirtSettings UnityEditor.PostProcessing.BloomModelEditor.m_LensDirt</definition>
+        <argsstring></argsstring>
+        <name>m_LensDirt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a8dccb55e7ba44d24834441b263e48a02" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.BloomModelEditor.m_GraphThreshold</definition>
+        <argsstring></argsstring>
+        <name>m_GraphThreshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a44b60ff617488fae34b67bf5ac91f615" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.BloomModelEditor.m_GraphKnee</definition>
+        <argsstring></argsstring>
+        <name>m_GraphKnee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a13e4ca4582476e8ad3822716a0746667" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.BloomModelEditor.m_GraphIntensity</definition>
+        <argsstring></argsstring>
+        <name>m_GraphIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1ac27a2a9069a5a5149e05a14175c28b3b" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UnityEditor.PostProcessing.BloomModelEditor.k_CurveResolution</definition>
+        <argsstring></argsstring>
+        <name>k_CurveResolution</name>
+        <initializer>= 48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a6ac0e974cc5cb126d940febf2a815f46" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.BloomModelEditor.m_RectVertices</definition>
+        <argsstring></argsstring>
+        <name>m_RectVertices</name>
+        <initializer>= new Vector3[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1ab39d78057e975eccdda23dcb39be5521" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.BloomModelEditor.m_LineVertices</definition>
+        <argsstring></argsstring>
+        <name>m_LineVertices</name>
+        <initializer>= new Vector3[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a9dd07b6cfe5861f5d5884b0703149506" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityEditor.PostProcessing.BloomModelEditor.m_CurveVertices</definition>
+        <argsstring></argsstring>
+        <name>m_CurveVertices</name>
+        <initializer>= new Vector3[<ref refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1ac27a2a9069a5a5149e05a14175c28b3b" kindref="member">k_CurveResolution</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a75783c68263576565b98281570c0308b" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.BloomModelEditor.m_RectGraph</definition>
+        <argsstring></argsstring>
+        <name>m_RectGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a80fd54922c0811f647c1b4919909406e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.BloomModelEditor.m_RangeX</definition>
+        <argsstring></argsstring>
+        <name>m_RangeX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a69ee2e27acc06cac4a4f3aef00cc6d75" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.BloomModelEditor.m_RangeY</definition>
+        <argsstring></argsstring>
+        <name>m_RangeY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a9e243b49c284dfd0018e7eb8c03b0076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.BloomModelEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1afc8898be3e15186a93a79ec38739988c">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="29" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a8ae605305e02f59af174837e93ff5b02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.BloomModelEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a925d6beb73dfef3d52311a08027d5850">OnInspectorGUI</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="47" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1aef1c3035ae1a315f947e7a9a142bafd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.BloomModelEditor.PrepareGraph</definition>
+        <argsstring>()</argsstring>
+        <name>PrepareGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="126" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a53d75ccee84ca82e213efc09700fdffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.BloomModelEditor.DrawGraph</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="140" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="140" bodyend="200"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a7a2c43e6b990a050d36930b5f31df491" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEditor.PostProcessing.BloomModelEditor.ResponseFunction</definition>
+        <argsstring>(float x)</argsstring>
+        <name>ResponseFunction</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a479ba47c64d0ace6f888703b7339f0ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEditor.PostProcessing.BloomModelEditor.PointInRect</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>PointInRect</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a850ec240e784fac04c1821001f76467c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.BloomModelEditor.DrawLine</definition>
+        <argsstring>(float x1, float y1, float x2, float y2, float grayscale)</argsstring>
+        <name>DrawLine</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>grayscale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="102" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a0fd887bf71f04510055cc00024646167" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.BloomModelEditor.DrawRect</definition>
+        <argsstring>(float x1, float y1, float x2, float y2, float fill, float line)</argsstring>
+        <name>DrawRect</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fill</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="111" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="272">
+        <label>UnityEditor.PostProcessing.BloomModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="297">
+        <label>UnityEditor.PostProcessing.BloomModelEditor.BloomSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1_1_bloom_settings"/>
+      </node>
+      <node id="274">
+        <label>UnityEditor.PostProcessing.BloomModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>m_LensDirt</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>m_Bloom</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>Editor</label>
+      </node>
+      <node id="281">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="275">
+        <label>PostProcessingModelEditor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor"/>
+        <childnode refid="276" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="294" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+      </node>
+      <node id="291">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="289">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="283">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="284">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="293">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="287">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="277">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="294">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="281" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="282" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="283" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="285" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="286" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="288" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="290" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="291" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="293" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="279">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="292">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="282">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="296">
+        <label>UnityEditor.PostProcessing.BloomModelEditor.LensDirtSettings</label>
+        <link refid="struct_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1_1_lens_dirt_settings"/>
+      </node>
+      <node id="290">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="280">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="286">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="278">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="288">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="285">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/BloomModelEditor.cs" bodystart="9" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ad1f2ffdaa4c20002561aa00e0fcfdf62" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>alwaysEnabled</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a53d75ccee84ca82e213efc09700fdffd" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>DrawGraph</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a850ec240e784fac04c1821001f76467c" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>DrawLine</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a0fd887bf71f04510055cc00024646167" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>DrawRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a7281fe55fc7ff7f54608cf7a8b9162f2" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a381e2adb0ae7f6320a3bcab6f4b68249" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>FindSetting&lt; T, TValue &gt;</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1af3cd6a41edc15f851782a51051535e85" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>inspector</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1ac27a2a9069a5a5149e05a14175c28b3b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>k_CurveResolution</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1afcf630d34d38579f27a7fe779bfcd47e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_Bloom</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a9dd07b6cfe5861f5d5884b0703149506" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_CurveVertices</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a1cb2826825c2c94ba93b07c74bacb36d" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_EnabledProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a13e4ca4582476e8ad3822716a0746667" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_GraphIntensity</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a44b60ff617488fae34b67bf5ac91f615" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_GraphKnee</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a8dccb55e7ba44d24834441b263e48a02" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_GraphThreshold</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a714a665ab25b5143bb9373d69cbd5ae4" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_LensDirt</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1ab39d78057e975eccdda23dcb39be5521" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_LineVertices</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a80fd54922c0811f647c1b4919909406e" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_RangeX</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a69ee2e27acc06cac4a4f3aef00cc6d75" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_RangeY</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a75783c68263576565b98281570c0308b" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_RectGraph</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a6ac0e974cc5cb126d940febf2a815f46" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_RectVertices</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a4c15114294b905462f55c9cca5a9fae3" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>m_SettingsProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a65506dbbea144f02d2c0f90fa016a4f8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a9e243b49c284dfd0018e7eb8c03b0076" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a72d01ff4d61dd633a51dae4fdf8e56b3" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>OnGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a8ae605305e02f59af174837e93ff5b02" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1ab8f1f9ca89133883b536dd92693d35ba" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>OnPreEnable</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a479ba47c64d0ace6f888703b7339f0ee" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>PointInRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1aef1c3035ae1a315f947e7a9a142bafd8" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>PrepareGraph</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a406b6d8f579e7e1ae2811b874577f984" prot="package" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>profile</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a3309ef89e31c184e80444ddf0bef8b86" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>Repaint</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_bloom_model_editor_1a7a2c43e6b990a050d36930b5f31df491" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>ResponseFunction</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a64e8869152a0ca85df60e69ba1033e16" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>serializedProperty</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor_1a53c7a213e12f6be0712a6cb752bf61ec" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::BloomModelEditor</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

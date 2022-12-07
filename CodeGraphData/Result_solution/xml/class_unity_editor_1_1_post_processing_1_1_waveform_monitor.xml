@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor" kind="class" prot="public">
+    <compoundname>UnityEditor::PostProcessing::WaveformMonitor</compoundname>
+    <basecompoundref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor" prot="public" virt="non-virtual">UnityEditor.PostProcessing.PostProcessingMonitor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a2c4079582d8f390c8aea3bdc570de4d6" prot="private" static="yes" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent UnityEditor.PostProcessing.WaveformMonitor.s_MonitorTitle</definition>
+        <argsstring></argsstring>
+        <name>s_MonitorTitle</name>
+        <initializer>= new GUIContent(&quot;Waveform&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a4ca7acb5938bcd29c15a37de0191df15" prot="private" static="no" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader UnityEditor.PostProcessing.WaveformMonitor.m_ComputeShader</definition>
+        <argsstring></argsstring>
+        <name>m_ComputeShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a9d823eab4cb62b2123b6c4dfef6d807d" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer UnityEditor.PostProcessing.WaveformMonitor.m_Buffer</definition>
+        <argsstring></argsstring>
+        <name>m_Buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a1a9f1c35aba50fdd8a9a31e8d466e045" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityEditor.PostProcessing.WaveformMonitor.m_Material</definition>
+        <argsstring></argsstring>
+        <name>m_Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a7733558bc710c34093065f431fa3bde2" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEditor.PostProcessing.WaveformMonitor.m_WaveformTexture</definition>
+        <argsstring></argsstring>
+        <name>m_WaveformTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1ae0d755a74c2b355f37b18612c072fc75" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect UnityEditor.PostProcessing.WaveformMonitor.m_MonitorAreaRect</definition>
+        <argsstring></argsstring>
+        <name>m_MonitorAreaRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a3ca96579787f543b2e2ed143e3b485bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEditor.PostProcessing.WaveformMonitor.WaveformMonitor</definition>
+        <argsstring>()</argsstring>
+        <name>WaveformMonitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1aa30204365ee9ccf878ecd5e5dafd06d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.WaveformMonitor.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a89c45fe9fe5a185eb55ef522cba5dec5">Dispose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1aa2c30e921275f59d61d0f50d3804a306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool UnityEditor.PostProcessing.WaveformMonitor.IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1ab308a1c99994f4708f5502ddc640dc0a">IsSupported</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a71cc6ab9e9d57a73451cdb0e86d25b79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override GUIContent</type>
+        <definition>override GUIContent UnityEditor.PostProcessing.WaveformMonitor.GetMonitorTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetMonitorTitle</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a4fb67dcd17b84d422c69f98159e20545">GetMonitorTitle</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a68311f67e6546f64f01f825bd0cdff5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.WaveformMonitor.OnMonitorSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnMonitorSettings</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a40e1d68334826b54634a87837cc4ef89">OnMonitorSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="45" bodyend="94"/>
+        <references refid="class_unity_editor_1_1_post_processing_1_1_fx_styles_1ad5293b51f5f04334286514d676de5475" compoundref="_fx_styles_8cs" startline="28">UnityEditor.PostProcessing.FxStyles.playIcon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1acdc2fa129a9020c11b49e4ed3c47f80d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.WaveformMonitor.OnMonitorGUI</definition>
+        <argsstring>(Rect r)</argsstring>
+        <name>OnMonitorGUI</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a51ecfadbfa10eb105e8c708b4d7064c4">OnMonitorGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="96" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a8a2597c0eedeeb0f5451ca10edc1c241" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.PostProcessing.WaveformMonitor.OnFrameData</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>OnFrameData</name>
+        <reimplements refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a490e202a0b1d45fdbc073d6000a7e220">OnFrameData</reimplements>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="208" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="208" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a231d458632678a14b479dee94ce7c274" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.WaveformMonitor.CreateBuffer</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>CreateBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="227" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="227" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a5362ee75bf8b2e9116125d6e33d61acd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.PostProcessing.WaveformMonitor.ComputeWaveform</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>ComputeWaveform</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="232" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="232" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2841">
+        <label>UnityEditor.PostProcessing.WaveformMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor"/>
+        <childnode refid="2842" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2843">
+        <label>IDisposable</label>
+      </node>
+      <node id="2842">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="2843" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2849">
+        <label>Editor</label>
+      </node>
+      <node id="2847">
+        <label>UnityEngine</label>
+      </node>
+      <node id="2844">
+        <label>UnityEditor.PostProcessing.WaveformMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor"/>
+        <childnode refid="2845" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2846">
+        <label>IDisposable</label>
+      </node>
+      <node id="2848">
+        <label>UnityEditor.PostProcessing.PostProcessingInspector</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_inspector"/>
+        <childnode refid="2849" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2845">
+        <label>PostProcessingMonitor</label>
+        <link refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor"/>
+        <childnode refid="2846" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2847" relation="usage">
+          <edgelabel>m_MonitorSettings</edgelabel>
+        </childnode>
+        <childnode refid="2848" relation="usage">
+          <edgelabel>m_BaseEditor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Monitors/WaveformMonitor.cs" bodystart="7" bodyend="279"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a5362ee75bf8b2e9116125d6e33d61acd" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>ComputeWaveform</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a231d458632678a14b479dee94ce7c274" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>CreateBuffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1aa30204365ee9ccf878ecd5e5dafd06d8" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>Dispose</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a71cc6ab9e9d57a73451cdb0e86d25b79" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>GetMonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a7772670b4fd34e76a0cb35d372ed1718" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>Init</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1aa2c30e921275f59d61d0f50d3804a306" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>IsSupported</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1a2553b93b6efa7231ed205cc06d6495f8" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_BaseEditor</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a9d823eab4cb62b2123b6c4dfef6d807d" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_Buffer</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a4ca7acb5938bcd29c15a37de0191df15" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_ComputeShader</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a1a9f1c35aba50fdd8a9a31e8d466e045" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_Material</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1ae0d755a74c2b355f37b18612c072fc75" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_MonitorAreaRect</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_post_processing_monitor_1aafb8128cac56dbe0e784e1f55f8525a9" prot="protected" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_MonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a7733558bc710c34093065f431fa3bde2" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>m_WaveformTexture</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a8a2597c0eedeeb0f5451ca10edc1c241" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>OnFrameData</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1acdc2fa129a9020c11b49e4ed3c47f80d" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>OnMonitorGUI</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a68311f67e6546f64f01f825bd0cdff5a" prot="public" virt="virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>OnMonitorSettings</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a2c4079582d8f390c8aea3bdc570de4d6" prot="private" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>s_MonitorTitle</name></member>
+      <member refid="class_unity_editor_1_1_post_processing_1_1_waveform_monitor_1a3ca96579787f543b2e2ed143e3b485bc" prot="public" virt="non-virtual"><scope>UnityEditor::PostProcessing::WaveformMonitor</scope><name>WaveformMonitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

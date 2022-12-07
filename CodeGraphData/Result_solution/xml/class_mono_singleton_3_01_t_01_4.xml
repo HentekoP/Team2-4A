@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mono_singleton_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>MonoSingleton&lt; T &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_mesh_cutter" prot="public" virt="non-virtual">MeshCutter</derivedcompoundref>
+    <derivedcompoundref refid="class_mesh_cutter_manager" prot="public" virt="non-virtual">MeshCutterManager</derivedcompoundref>
+    <derivedcompoundref refid="class_object_material_manager" prot="public" virt="non-virtual">ObjectMaterialManager</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mono_singleton_3_01_t_01_4_1a288ee84660801f79a54dcdc5c8b58e31" prot="private" static="yes" mutable="no">
+        <type>T</type>
+        <definition>T MonoSingleton&lt; T &gt;.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mono_singleton_3_01_t_01_4_1abb0b03eb90e33a296d04e45118595af1" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool MonoSingleton&lt; T &gt;.searchForInstance</definition>
+        <argsstring></argsstring>
+        <name>searchForInstance</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mono_singleton_3_01_t_01_4_1a5637ba1f44359d4610b5eba552ef5f57" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>T</type>
+        <definition>T MonoSingleton&lt; T &gt;.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_mesh_cutter_manager_1a6145bfbae3f07acd4d1212562cc7da8b" compoundref="_mesh_cutter_manager_8cs" startline="12" endline="26">MeshCutterManager.DamageMesh</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mono_singleton_3_01_t_01_4_1a736249026f44cf1f3f4ab805e89bba47" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool MonoSingleton&lt; T &gt;.IsInitialized</definition>
+        <argsstring></argsstring>
+        <name>IsInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_mono_singleton_3_01_t_01_4_1aaee06c1dcfb60affd662840154379394" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MonoSingleton&lt; T &gt;.AssertIsInitialized</definition>
+        <argsstring>()</argsstring>
+        <name>AssertIsInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_mono_singleton_3_01_t_01_4_1a04acead2ed3d970430f4c8c7716071f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MonoSingleton&lt; T &gt;.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="48" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mono_singleton_3_01_t_01_4_1af585390f9256dfc8be7c969ca9fb4d88" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MonoSingleton&lt; T &gt;.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="70" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1472">
+        <label>MeshCutterManager</label>
+        <link refid="class_mesh_cutter_manager"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1473">
+        <label>ObjectMaterialManager</label>
+        <link refid="class_object_material_manager"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1469">
+        <label>MonoSingleton&lt; T &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1470" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1471">
+        <label>MeshCutter</label>
+        <link refid="class_mesh_cutter"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1470">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1474">
+        <label>MonoSingleton&lt; T &gt;</label>
+        <link refid="class_mono_singleton_3_01_t_01_4"/>
+        <childnode refid="1475" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1475">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MonoSingleton.cs" bodystart="3" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_mono_singleton_3_01_t_01_4_1aaee06c1dcfb60affd662840154379394" prot="public" virt="non-virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>AssertIsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a04acead2ed3d970430f4c8c7716071f1" prot="protected" virt="virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>Awake</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a288ee84660801f79a54dcdc5c8b58e31" prot="private" virt="non-virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>instance</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a5637ba1f44359d4610b5eba552ef5f57" prot="public" virt="non-virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>Instance</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1a736249026f44cf1f3f4ab805e89bba47" prot="public" virt="non-virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>IsInitialized</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1af585390f9256dfc8be7c969ca9fb4d88" prot="protected" virt="virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>OnDestroy</name></member>
+      <member refid="class_mono_singleton_3_01_t_01_4_1abb0b03eb90e33a296d04e45118595af1" prot="private" virt="non-virtual"><scope>MonoSingleton&lt; T &gt;</scope><name>searchForInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

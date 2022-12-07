@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x___demo___random_dir" kind="class" prot="public">
+    <compoundname>CFX_Demo_RandomDir</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_f_x___demo___random_dir_1a99ffbeee1496b2e9810cbe273f044aa2" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CFX_Demo_RandomDir.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <initializer>= new Vector3(0,0,0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___random_dir_1a802326e5f4df631400cbbfa643e5b7c5" compoundref="_c_f_x___demo___random_dir_8cs" startline="9" endline="12">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___demo___random_dir_1a99317fb2c9a84ed3569486f65ee045a8" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CFX_Demo_RandomDir.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <initializer>= new Vector3(0,360,0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___demo___random_dir_1a802326e5f4df631400cbbfa643e5b7c5" compoundref="_c_f_x___demo___random_dir_8cs" startline="9" endline="12">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x___demo___random_dir_1a802326e5f4df631400cbbfa643e5b7c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_Demo_RandomDir.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_c_f_x___demo___random_dir_1a99317fb2c9a84ed3569486f65ee045a8" compoundref="_c_f_x___demo___random_dir_8cs" startline="7">max</references>
+        <references refid="class_c_f_x___demo___random_dir_1a99ffbeee1496b2e9810cbe273f044aa2" compoundref="_c_f_x___demo___random_dir_8cs" startline="6">min</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="453">
+        <label>CFX_Demo_RandomDir</label>
+        <link refid="class_c_f_x___demo___random_dir"/>
+        <childnode refid="454" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="455">
+        <label>CFX_Demo_RandomDir</label>
+        <link refid="class_c_f_x___demo___random_dir"/>
+        <childnode refid="456" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="456">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RandomDir.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_c_f_x___demo___random_dir_1a802326e5f4df631400cbbfa643e5b7c5" prot="private" virt="non-virtual"><scope>CFX_Demo_RandomDir</scope><name>Awake</name></member>
+      <member refid="class_c_f_x___demo___random_dir_1a99317fb2c9a84ed3569486f65ee045a8" prot="public" virt="non-virtual"><scope>CFX_Demo_RandomDir</scope><name>max</name></member>
+      <member refid="class_c_f_x___demo___random_dir_1a99ffbeee1496b2e9810cbe273f044aa2" prot="public" virt="non-virtual"><scope>CFX_Demo_RandomDir</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

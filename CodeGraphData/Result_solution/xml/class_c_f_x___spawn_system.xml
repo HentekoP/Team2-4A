@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x___spawn_system" kind="class" prot="public">
+    <compoundname>CFX_SpawnSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_f_x___spawn_system_1a70afe5814d4ad119534458b7e99378cb" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool CFX_SpawnSystem.AllObjectsLoaded</definition>
+        <argsstring></argsstring>
+        <name>AllObjectsLoaded</name>
+        <briefdescription>
+<para>Gets a value indicating whether all objects defined in the Editor are loaded or not. </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if all objects are loaded; otherwise, <computeroutput>false</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1afd646b6dd100b8bf7dde3df347ef7de4" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_c_f_x___spawn_system" kindref="compound">CFX_SpawnSystem</ref></type>
+        <definition>CFX_SpawnSystem CFX_SpawnSystem.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="121" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a1eaaa00552bb8c741841f5290094871e" compoundref="_c_f_x___spawn_system_8cs" startline="209" endline="215">Awake</referencedby>
+        <referencedby refid="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" compoundref="_c_f_x___spawn_system_8cs" startline="25" endline="78">GetNextObject</referencedby>
+        <referencedby refid="class_c_f_x___spawn_system_1ac33179c330a5f857adf44c2be3f63e3f" compoundref="_c_f_x___spawn_system_8cs" startline="198" endline="205">increasePoolCursor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1a925ee7abfe4141b822564ce367974e65" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] CFX_SpawnSystem.objectsToPreload</definition>
+        <argsstring></argsstring>
+        <name>objectsToPreload</name>
+        <initializer>= new GameObject[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="123" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="123" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a9c373733e051c22f9b9cd4faa72eb86d" compoundref="_c_f_x___spawn_system_8cs" startline="217" endline="227">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1af72a91b3f655ad90f1e352de8baa7e20" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] CFX_SpawnSystem.objectsToPreloadTimes</definition>
+        <argsstring></argsstring>
+        <name>objectsToPreloadTimes</name>
+        <initializer>= new int[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="124" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="124" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a9c373733e051c22f9b9cd4faa72eb86d" compoundref="_c_f_x___spawn_system_8cs" startline="217" endline="227">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1a65ef0296adcc617f570736186d156481" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_SpawnSystem.hideObjectsInHierarchy</definition>
+        <argsstring></argsstring>
+        <name>hideObjectsInHierarchy</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="125" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="125" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a8d42bb157e97ee491a3e0664780bf333" compoundref="_c_f_x___spawn_system_8cs" startline="134" endline="173">addObjectToPool</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1a1eb98e823d25b04b3b36f33042ad5e74" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_SpawnSystem.spawnAsChildren</definition>
+        <argsstring></argsstring>
+        <name>spawnAsChildren</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="126" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a8d42bb157e97ee491a3e0664780bf333" compoundref="_c_f_x___spawn_system_8cs" startline="134" endline="173">addObjectToPool</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1a3ba6e1019497b47ede1ccfeb956b9ea7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_SpawnSystem.onlyGetInactiveObjects</definition>
+        <argsstring></argsstring>
+        <name>onlyGetInactiveObjects</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="127" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" compoundref="_c_f_x___spawn_system_8cs" startline="25" endline="78">GetNextObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1ad3fec871887761471bf418af7129bcdc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_SpawnSystem.instantiateIfNeeded</definition>
+        <argsstring></argsstring>
+        <name>instantiateIfNeeded</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="128" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" compoundref="_c_f_x___spawn_system_8cs" startline="25" endline="78">GetNextObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1a8d06418d710a48280b1e1d03c49365a4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_SpawnSystem.allObjectsLoaded</definition>
+        <argsstring></argsstring>
+        <name>allObjectsLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="130" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a9c373733e051c22f9b9cd4faa72eb86d" compoundref="_c_f_x___spawn_system_8cs" startline="217" endline="227">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1aa025122c96efc78b2a0803245f06ba89" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, List&lt; GameObject &gt; &gt;</type>
+        <definition>Dictionary&lt;int,List&lt;GameObject&gt; &gt; CFX_SpawnSystem.instantiatedObjects</definition>
+        <argsstring></argsstring>
+        <name>instantiatedObjects</name>
+        <initializer>= new Dictionary&lt;int, List&lt;GameObject&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1a8d42bb157e97ee491a3e0664780bf333" compoundref="_c_f_x___spawn_system_8cs" startline="134" endline="173">addObjectToPool</referencedby>
+        <referencedby refid="class_c_f_x___spawn_system_1ac33179c330a5f857adf44c2be3f63e3f" compoundref="_c_f_x___spawn_system_8cs" startline="198" endline="205">increasePoolCursor</referencedby>
+        <referencedby refid="class_c_f_x___spawn_system_1a4cffe96c49b1ec97967ae1df684be1bc" compoundref="_c_f_x___spawn_system_8cs" startline="175" endline="196">removeObjectsFromPool</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_f_x___spawn_system_1aeb74c1929b0b18a5306a2e91bd5d363a" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>Dictionary&lt;int,int&gt; CFX_SpawnSystem.poolCursors</definition>
+        <argsstring></argsstring>
+        <name>poolCursors</name>
+        <initializer>= new Dictionary&lt;int, int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="132" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" compoundref="_c_f_x___spawn_system_8cs" startline="25" endline="78">GetNextObject</referencedby>
+        <referencedby refid="class_c_f_x___spawn_system_1ac33179c330a5f857adf44c2be3f63e3f" compoundref="_c_f_x___spawn_system_8cs" startline="198" endline="205">increasePoolCursor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject CFX_SpawnSystem.GetNextObject</definition>
+        <argsstring>(GameObject sourceObj, bool activateObject=true)</argsstring>
+        <name>GetNextObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>sourceObj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>activateObject</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Get the next available preloaded Object. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The next available preloaded Object. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceObj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source Object from which to get a preloaded copy. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>activateObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Activates the object before returning it. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="25" bodyend="78"/>
+        <references refid="class_c_f_x___spawn_system_1afd646b6dd100b8bf7dde3df347ef7de4" compoundref="_c_f_x___spawn_system_8cs" startline="121">instance</references>
+        <references refid="class_c_f_x___spawn_system_1ad3fec871887761471bf418af7129bcdc" compoundref="_c_f_x___spawn_system_8cs" startline="128">instantiateIfNeeded</references>
+        <references refid="class_c_f_x___spawn_system_1a3ba6e1019497b47ede1ccfeb956b9ea7" compoundref="_c_f_x___spawn_system_8cs" startline="127">onlyGetInactiveObjects</references>
+        <references refid="class_c_f_x___spawn_system_1aeb74c1929b0b18a5306a2e91bd5d363a" compoundref="_c_f_x___spawn_system_8cs" startline="132">poolCursors</references>
+        <references refid="class_c_f_x___spawn_system_1a63727c834f40e065cefd9886bb2bc2eb" compoundref="_c_f_x___spawn_system_8cs" startline="89" endline="92">PreloadObject</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1a63727c834f40e065cefd9886bb2bc2eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CFX_SpawnSystem.PreloadObject</definition>
+        <argsstring>(GameObject sourceObj, int poolSize=1)</argsstring>
+        <name>PreloadObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>sourceObj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>poolSize</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Preloads an object a number of times in the pool. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceObj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source Object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>poolSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of times it will be instantiated in the pool (i.e. the max number of same object that would appear simultaneously in your Scene). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="89" bodyend="92"/>
+        <referencedby refid="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" compoundref="_c_f_x___spawn_system_8cs" startline="25" endline="78">GetNextObject</referencedby>
+        <referencedby refid="class_c_f_x___spawn_system_1a9c373733e051c22f9b9cd4faa72eb86d" compoundref="_c_f_x___spawn_system_8cs" startline="217" endline="227">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1a48ba24c754ce33436b10cc842f924cf0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CFX_SpawnSystem.UnloadObjects</definition>
+        <argsstring>(GameObject sourceObj)</argsstring>
+        <name>UnloadObjects</name>
+        <param>
+          <type>GameObject</type>
+          <declname>sourceObj</declname>
+        </param>
+        <briefdescription>
+<para>Unloads all the preloaded objects from a source Object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceObj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source object. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1a8d42bb157e97ee491a3e0664780bf333" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_SpawnSystem.addObjectToPool</definition>
+        <argsstring>(GameObject sourceObject, int number)</argsstring>
+        <name>addObjectToPool</name>
+        <param>
+          <type>GameObject</type>
+          <declname>sourceObject</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="134" bodyend="173"/>
+        <references refid="class_c_f_x___spawn_system_1a65ef0296adcc617f570736186d156481" compoundref="_c_f_x___spawn_system_8cs" startline="125">hideObjectsInHierarchy</references>
+        <references refid="class_c_f_x___spawn_system_1aa025122c96efc78b2a0803245f06ba89" compoundref="_c_f_x___spawn_system_8cs" startline="131">instantiatedObjects</references>
+        <references refid="class_c_f_x___spawn_system_1a1eb98e823d25b04b3b36f33042ad5e74" compoundref="_c_f_x___spawn_system_8cs" startline="126">spawnAsChildren</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1a4cffe96c49b1ec97967ae1df684be1bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_SpawnSystem.removeObjectsFromPool</definition>
+        <argsstring>(GameObject sourceObject)</argsstring>
+        <name>removeObjectsFromPool</name>
+        <param>
+          <type>GameObject</type>
+          <declname>sourceObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="175" bodyend="196"/>
+        <references refid="class_c_f_x___spawn_system_1aa025122c96efc78b2a0803245f06ba89" compoundref="_c_f_x___spawn_system_8cs" startline="131">instantiatedObjects</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1ac33179c330a5f857adf44c2be3f63e3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_SpawnSystem.increasePoolCursor</definition>
+        <argsstring>(int uniqueId)</argsstring>
+        <name>increasePoolCursor</name>
+        <param>
+          <type>int</type>
+          <declname>uniqueId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="198" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="198" bodyend="205"/>
+        <references refid="class_c_f_x___spawn_system_1afd646b6dd100b8bf7dde3df347ef7de4" compoundref="_c_f_x___spawn_system_8cs" startline="121">instance</references>
+        <references refid="class_c_f_x___spawn_system_1aa025122c96efc78b2a0803245f06ba89" compoundref="_c_f_x___spawn_system_8cs" startline="131">instantiatedObjects</references>
+        <references refid="class_c_f_x___spawn_system_1aeb74c1929b0b18a5306a2e91bd5d363a" compoundref="_c_f_x___spawn_system_8cs" startline="132">poolCursors</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1a1eaaa00552bb8c741841f5290094871e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_SpawnSystem.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="209" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="209" bodyend="215"/>
+        <references refid="class_c_f_x___spawn_system_1afd646b6dd100b8bf7dde3df347ef7de4" compoundref="_c_f_x___spawn_system_8cs" startline="121">instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___spawn_system_1a9c373733e051c22f9b9cd4faa72eb86d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_SpawnSystem.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="217" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="217" bodyend="227"/>
+        <references refid="class_c_f_x___spawn_system_1a8d06418d710a48280b1e1d03c49365a4" compoundref="_c_f_x___spawn_system_8cs" startline="130">allObjectsLoaded</references>
+        <references refid="class_c_f_x___spawn_system_1a925ee7abfe4141b822564ce367974e65" compoundref="_c_f_x___spawn_system_8cs" startline="123">objectsToPreload</references>
+        <references refid="class_c_f_x___spawn_system_1af72a91b3f655ad90f1e352de8baa7e20" compoundref="_c_f_x___spawn_system_8cs" startline="124">objectsToPreloadTimes</references>
+        <references refid="class_c_f_x___spawn_system_1a63727c834f40e065cefd9886bb2bc2eb" compoundref="_c_f_x___spawn_system_8cs" startline="89" endline="92">PreloadObject</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="469">
+        <label>CFX_SpawnSystem</label>
+        <link refid="class_c_f_x___spawn_system"/>
+        <childnode refid="470" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="471">
+        <label>CFX_SpawnSystem</label>
+        <link refid="class_c_f_x___spawn_system"/>
+        <childnode refid="472" relation="public-inheritance">
+        </childnode>
+        <childnode refid="471" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="472">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" bodystart="11" bodyend="228"/>
+    <listofallmembers>
+      <member refid="class_c_f_x___spawn_system_1a8d42bb157e97ee491a3e0664780bf333" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>addObjectToPool</name></member>
+      <member refid="class_c_f_x___spawn_system_1a8d06418d710a48280b1e1d03c49365a4" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>allObjectsLoaded</name></member>
+      <member refid="class_c_f_x___spawn_system_1a70afe5814d4ad119534458b7e99378cb" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>AllObjectsLoaded</name></member>
+      <member refid="class_c_f_x___spawn_system_1a1eaaa00552bb8c741841f5290094871e" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>Awake</name></member>
+      <member refid="class_c_f_x___spawn_system_1afdc71ca4072a8dbfa96e9ff8da5c2106" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>GetNextObject</name></member>
+      <member refid="class_c_f_x___spawn_system_1a65ef0296adcc617f570736186d156481" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>hideObjectsInHierarchy</name></member>
+      <member refid="class_c_f_x___spawn_system_1ac33179c330a5f857adf44c2be3f63e3f" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>increasePoolCursor</name></member>
+      <member refid="class_c_f_x___spawn_system_1afd646b6dd100b8bf7dde3df347ef7de4" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>instance</name></member>
+      <member refid="class_c_f_x___spawn_system_1aa025122c96efc78b2a0803245f06ba89" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>instantiatedObjects</name></member>
+      <member refid="class_c_f_x___spawn_system_1ad3fec871887761471bf418af7129bcdc" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>instantiateIfNeeded</name></member>
+      <member refid="class_c_f_x___spawn_system_1a925ee7abfe4141b822564ce367974e65" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>objectsToPreload</name></member>
+      <member refid="class_c_f_x___spawn_system_1af72a91b3f655ad90f1e352de8baa7e20" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>objectsToPreloadTimes</name></member>
+      <member refid="class_c_f_x___spawn_system_1a3ba6e1019497b47ede1ccfeb956b9ea7" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>onlyGetInactiveObjects</name></member>
+      <member refid="class_c_f_x___spawn_system_1aeb74c1929b0b18a5306a2e91bd5d363a" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>poolCursors</name></member>
+      <member refid="class_c_f_x___spawn_system_1a63727c834f40e065cefd9886bb2bc2eb" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>PreloadObject</name></member>
+      <member refid="class_c_f_x___spawn_system_1a4cffe96c49b1ec97967ae1df684be1bc" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>removeObjectsFromPool</name></member>
+      <member refid="class_c_f_x___spawn_system_1a1eb98e823d25b04b3b36f33042ad5e74" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>spawnAsChildren</name></member>
+      <member refid="class_c_f_x___spawn_system_1a9c373733e051c22f9b9cd4faa72eb86d" prot="private" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>Start</name></member>
+      <member refid="class_c_f_x___spawn_system_1a48ba24c754ce33436b10cc842f924cf0" prot="public" virt="non-virtual"><scope>CFX_SpawnSystem</scope><name>UnloadObjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

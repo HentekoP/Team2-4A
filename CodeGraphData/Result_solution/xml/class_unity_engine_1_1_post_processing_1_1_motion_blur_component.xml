@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::MotionBlurComponent</compoundname>
+    <basecompoundref refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4" prot="public" virt="non-virtual">UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" prot="public">UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter</innerclass>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" prot="public">UnityEngine::PostProcessing::MotionBlurComponent::ReconstructionFilter</innerclass>
+    <innerclass refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_uniforms" prot="private">UnityEngine::PostProcessing::MotionBlurComponent::Uniforms</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72" prot="private" static="no">
+        <name>Pass</name>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a8160496624feed9b3ee4514f7525466f" prot="public">
+          <name>VelocitySetup</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a98ec28c5a667021bb63b3ce60db4e978" prot="public">
+          <name>TileMax1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72acf4326a3c610f4ffaec8d0b54c163ed7" prot="public">
+          <name>TileMax2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a5b907ab5f95df0c824de66cb6bf5a398" prot="public">
+          <name>TileMaxV</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a529feee54a29c16a469a49bf644cf4ee" prot="public">
+          <name>NeighborMax</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a2d4907781ee5dad928d4c2f39d4d4848" prot="public">
+          <name>Reconstruction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a157552dfa282c1e0cfd3a225203fc9d5" prot="public">
+          <name>FrameCompression</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72a5c4e5c6c309f03d321d0a71c8dac5107" prot="public">
+          <name>FrameBlendingChroma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72aa85786aa5394bd6e6f535e88234a5c0a" prot="public">
+          <name>FrameBlendingRaw</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="42" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3b19c244dccf16b77d72bab6fb541e8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" kindref="compound">ReconstructionFilter</ref></type>
+        <definition>ReconstructionFilter UnityEngine.PostProcessing.MotionBlurComponent.m_ReconstructionFilter</definition>
+        <argsstring></argsstring>
+        <name>m_ReconstructionFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="317" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1afe769fdbff3b2b14f5a4f3dcbe6c9434" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" kindref="compound">FrameBlendingFilter</ref></type>
+        <definition>FrameBlendingFilter UnityEngine.PostProcessing.MotionBlurComponent.m_FrameBlendingFilter</definition>
+        <argsstring></argsstring>
+        <name>m_FrameBlendingFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="329" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ab5e206496b1bb49aa6222cd080169c9b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.PostProcessing.MotionBlurComponent.m_FirstFrame</definition>
+        <argsstring></argsstring>
+        <name>m_FirstFrame</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="341" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter" kindref="compound">ReconstructionFilter</ref></type>
+        <definition>ReconstructionFilter UnityEngine.PostProcessing.MotionBlurComponent.reconstructionFilter</definition>
+        <argsstring></argsstring>
+        <name>reconstructionFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="318" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter" kindref="compound">FrameBlendingFilter</ref></type>
+        <definition>FrameBlendingFilter UnityEngine.PostProcessing.MotionBlurComponent.frameBlendingFilter</definition>
+        <argsstring></argsstring>
+        <name>frameBlendingFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="330" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aef85ae6ce557465b097ed27e23f0a27e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.PostProcessing.MotionBlurComponent.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="343" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.PostProcessing.MotionBlurComponent.GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a7ea25da2189feccdbe69a0e2cafbda12">GetName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="355" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.ResetHistory</definition>
+        <argsstring>()</argsstring>
+        <name>ResetHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="360" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="360" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3733dff98d8b6d020c5f494607a6bebd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override DepthTextureMode</type>
+        <definition>override DepthTextureMode UnityEngine.PostProcessing.MotionBlurComponent.GetCameraFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraFlags</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1ac381619e1d1a3781fb4183badc0e7b18">GetCameraFlags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="368" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override CameraEvent</type>
+        <definition>override CameraEvent UnityEngine.PostProcessing.MotionBlurComponent.GetCameraEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraEvent</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a762bd618a8e857e1b484ab8748fc6ab5">GetCameraEvent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="373" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="373" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aa48148ebf17e8302a7952a49f7034247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.MotionBlurComponent.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1aff2b95b21422cfffb5a0542d2cd23e08">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="378" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="378" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.MotionBlurComponent.PopulateCommandBuffer</definition>
+        <argsstring>(CommandBuffer cb)</argsstring>
+        <name>PopulateCommandBuffer</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4_1a2ebd8748a9a219b4bf95d9a0e2056f3c">PopulateCommandBuffer</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="383" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="383" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a61167340f6855f661eed95d30c8528b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UnityEngine.PostProcessing.MotionBlurComponent.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <reimplements refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a66da5b84f9e06315b95183a12cc2f10c">OnDisable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="438" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="438" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1477">
+        <label>PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="1478" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1479">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+      </node>
+      <node id="1476">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component"/>
+        <childnode refid="1477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1478">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="1479" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1481">
+        <label>PostProcessingComponentCommandBuffer&lt; MotionBlurModel &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_command_buffer_3_01_t_01_4"/>
+        <childnode refid="1482" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1483">
+        <label>PostProcessingComponentBase</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base"/>
+        <childnode refid="1484" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="1505">
+        <label>UnityEngine.PostProcessing.MaterialFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_material_factory"/>
+        <childnode refid="1486" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1507">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame"/>
+      </node>
+      <node id="1492">
+        <label>UnityEngine.PostProcessing.GrainModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_grain_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1508">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent.ReconstructionFilter</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_reconstruction_filter"/>
+      </node>
+      <node id="1506">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter"/>
+        <childnode refid="1507" relation="usage">
+          <edgelabel>m_FrameList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1502">
+        <label>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_screen_space_reflection_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1500">
+        <label>UnityEngine.PostProcessing.DepthOfFieldModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_depth_of_field_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1486">
+        <label>IDisposable</label>
+      </node>
+      <node id="1480">
+        <label>UnityEngine.PostProcessing.MotionBlurComponent</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component"/>
+        <childnode refid="1481" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1506" relation="usage">
+          <edgelabel>m_FrameBlendingFilter</edgelabel>
+        </childnode>
+        <childnode refid="1508" relation="usage">
+          <edgelabel>m_ReconstructionFilter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1494">
+        <label>UnityEngine.PostProcessing.AmbientOcclusionModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_ambient_occlusion_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1482">
+        <label>PostProcessingComponent&lt; T &gt;</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4"/>
+        <childnode refid="1483" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1495">
+        <label>UnityEngine.PostProcessing.UserLutModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_user_lut_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1504">
+        <label>UnityEngine.PostProcessing.AntialiasingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1498">
+        <label>UnityEngine.PostProcessing.FogModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_fog_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1488">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1487">
+        <label>UnityEngine.PostProcessing.PostProcessingProfile</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_profile"/>
+        <childnode refid="1488" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1489" relation="usage">
+          <edgelabel>chromaticAberration</edgelabel>
+        </childnode>
+        <childnode refid="1492" relation="usage">
+          <edgelabel>grain</edgelabel>
+        </childnode>
+        <childnode refid="1493" relation="usage">
+          <edgelabel>colorGrading</edgelabel>
+        </childnode>
+        <childnode refid="1494" relation="usage">
+          <edgelabel>ambientOcclusion</edgelabel>
+        </childnode>
+        <childnode refid="1495" relation="usage">
+          <edgelabel>userLut</edgelabel>
+        </childnode>
+        <childnode refid="1496" relation="usage">
+          <edgelabel>dithering</edgelabel>
+        </childnode>
+        <childnode refid="1497" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+        <childnode refid="1498" relation="usage">
+          <edgelabel>fog</edgelabel>
+        </childnode>
+        <childnode refid="1499" relation="usage">
+          <edgelabel>eyeAdaptation</edgelabel>
+        </childnode>
+        <childnode refid="1500" relation="usage">
+          <edgelabel>depthOfField</edgelabel>
+        </childnode>
+        <childnode refid="1501" relation="usage">
+          <edgelabel>debugViews</edgelabel>
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>motionBlur</edgelabel>
+        </childnode>
+        <childnode refid="1502" relation="usage">
+          <edgelabel>screenSpaceReflection</edgelabel>
+        </childnode>
+        <childnode refid="1503" relation="usage">
+          <edgelabel>vignette</edgelabel>
+        </childnode>
+        <childnode refid="1504" relation="usage">
+          <edgelabel>antialiasing</edgelabel>
+        </childnode>
+      </node>
+      <node id="1490">
+        <label>PostProcessingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_model"/>
+      </node>
+      <node id="1484">
+        <label>UnityEngine.PostProcessing.PostProcessingContext</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_post_processing_context"/>
+        <childnode refid="1485" relation="usage">
+          <edgelabel>renderTextureFactory</edgelabel>
+        </childnode>
+        <childnode refid="1487" relation="usage">
+          <edgelabel>profile</edgelabel>
+        </childnode>
+        <childnode refid="1505" relation="usage">
+          <edgelabel>materialFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="1503">
+        <label>UnityEngine.PostProcessing.VignetteModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_vignette_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1485">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="1486" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1493">
+        <label>UnityEngine.PostProcessing.ColorGradingModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1501">
+        <label>UnityEngine.PostProcessing.BuiltinDebugViewsModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_builtin_debug_views_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1491">
+        <label>UnityEngine.PostProcessing.MotionBlurModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1497">
+        <label>UnityEngine.PostProcessing.BloomModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_bloom_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1489">
+        <label>UnityEngine.PostProcessing.ChromaticAberrationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_chromatic_aberration_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1499">
+        <label>UnityEngine.PostProcessing.EyeAdaptationModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_eye_adaptation_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="1496">
+        <label>UnityEngine.PostProcessing.DitheringModel</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_dithering_model"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1491" relation="usage">
+          <edgelabel>m_Settings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="7" bodyend="443"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aef85ae6ce557465b097ed27e23f0a27e" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>active</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_base_1a2253833defff1ca009222538992a92fd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>context</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a21f0734301f3bd60e1454df1540c3a79" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>frameBlendingFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ad3a58d6a79a3e0205cbf63b2312cd68a" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetCameraEvent</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3733dff98d8b6d020c5f494607a6bebd" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetCameraFlags</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1ac946ffb514e0ebb0141e87777459ffc9" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetModel</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a9ffec424dc428506c72254c3b7d5ce19" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>GetName</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a982348916489395b61300b2ed37784a3" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>Init</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1ab5e206496b1bb49aa6222cd080169c9b" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>m_FirstFrame</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1afe769fdbff3b2b14f5a4f3dcbe6c9434" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>m_FrameBlendingFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a3b19c244dccf16b77d72bab6fb541e8d" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>m_ReconstructionFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_post_processing_component_3_01_t_01_4_1a7af78d4436d104b01373d1bf0f7bcedf" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>model</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a61167340f6855f661eed95d30c8528b4" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aa48148ebf17e8302a7952a49f7034247" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1acd834d7220d121f6270f964a1891dc72" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>Pass</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a05817ecea251897db84ddaa616955934" prot="public" virt="virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>PopulateCommandBuffer</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1aea13feeae21a2323a05a78650f761594" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>reconstructionFilter</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_motion_blur_component_1a796e8f0b76f16076e83b95d302560f95" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent</scope><name>ResetHistory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

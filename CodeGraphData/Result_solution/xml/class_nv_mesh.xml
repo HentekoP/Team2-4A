@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_nv_mesh" kind="class" prot="public">
+    <compoundname>NvMesh</compoundname>
+    <basecompoundref refid="class_disposable_ptr" prot="public" virt="non-virtual">DisposablePtr</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_nv_mesh_1a261b02ee98634065a2a66f6a27f8be2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvMesh._Mesh_Release</definition>
+        <argsstring>(IntPtr mesh)</argsstring>
+        <name>_Mesh_Release</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="37" column="1"/>
+        <referencedby refid="class_nv_mesh_1a29a23a1cd7c28b181ea598aa51b0ce05" compoundref="_nv_blast_ext_unity_8cs" startline="107" endline="111">Release</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1ad10d7989fd39d09f9624c4fe3533bf68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvMesh._Mesh_getVertices</definition>
+        <argsstring>(IntPtr mesh, [In, Out] Vector3[] arr)</argsstring>
+        <name>_Mesh_getVertices</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <attributes>[In, Out]</attributes>
+          <type>Vector3[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="40" column="1"/>
+        <referencedby refid="class_nv_mesh_1a7bd0058fa2169436f671ea33433e7cbe" compoundref="_nv_blast_ext_unity_8cs" startline="72" endline="77">getVertices</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a5a503fec3c57033e4467cdbdbce78688" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvMesh._Mesh_getNormals</definition>
+        <argsstring>(IntPtr mesh, [In, Out] Vector3[] arr)</argsstring>
+        <name>_Mesh_getNormals</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <attributes>[In, Out]</attributes>
+          <type>Vector3[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="43" column="1"/>
+        <referencedby refid="class_nv_mesh_1af8b029980d13b40853dc3e9daceb2410" compoundref="_nv_blast_ext_unity_8cs" startline="78" endline="83">getNormals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1ab97d2edbcd0fde09ace55edfdd9872a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvMesh._Mesh_getIndexes</definition>
+        <argsstring>(IntPtr mesh, [In, Out] int[] arr)</argsstring>
+        <name>_Mesh_getIndexes</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <attributes>[In, Out]</attributes>
+          <type>int[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="46" column="1"/>
+        <referencedby refid="class_nv_mesh_1ab21749ad8459b78464fcd48eebe9f9d1" compoundref="_nv_blast_ext_unity_8cs" startline="90" endline="95">getIndexes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1af05211433db0db8e33c8d27cc2145e3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvMesh._Mesh_getUVs</definition>
+        <argsstring>(IntPtr mesh, [In, Out] Vector2[] arr)</argsstring>
+        <name>_Mesh_getUVs</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <attributes>[In, Out]</attributes>
+          <type>Vector2[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="49" column="1"/>
+        <referencedby refid="class_nv_mesh_1a2d6e30a499ba7afa2e3dbb8c00d35a60" compoundref="_nv_blast_ext_unity_8cs" startline="84" endline="89">getUVs</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a09f485ec2e9075dd89801f41b5cf7477" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int NvMesh._Mesh_getVerticesCount</definition>
+        <argsstring>(IntPtr mesh)</argsstring>
+        <name>_Mesh_getVerticesCount</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="52" column="1"/>
+        <referencedby refid="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" compoundref="_nv_blast_ext_unity_8cs" startline="97" endline="100">getVerticesCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a07c3a9f784616c8854ed1df2962def99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int NvMesh._Mesh_getIndexesCount</definition>
+        <argsstring>(IntPtr mesh)</argsstring>
+        <name>_Mesh_getIndexesCount</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="55" column="1"/>
+        <referencedby refid="class_nv_mesh_1a9f9aaeb2599c1a18865520675eac8fa8" compoundref="_nv_blast_ext_unity_8cs" startline="102" endline="105">getIndexesCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a373e9c069513bc10ffe4d32917235507" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvMesh.NvBlastExtAuthoringCreateMesh</definition>
+        <argsstring>(Vector3[] positions, Vector3[] normals, Vector2[] uv, Int32 verticesCount, Int32[] indices, Int32 indicesCount)</argsstring>
+        <name>NvBlastExtAuthoringCreateMesh</name>
+        <param>
+          <type>Vector3[]</type>
+          <declname>positions</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>Vector2[]</type>
+          <declname>uv</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>verticesCount</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>indicesCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="58" column="1"/>
+        <referencedby refid="class_nv_mesh_1a31753a33a5caea36963c84f182c56841" compoundref="_nv_blast_ext_unity_8cs" startline="66" endline="70">NvMesh</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_nv_mesh_1a9c1118f33089744df61c283e6e99ac4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NvMesh.NvMesh</definition>
+        <argsstring>(IntPtr mesh)</argsstring>
+        <name>NvMesh</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="60" bodyend="64"/>
+        <references refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" compoundref="_nv_blast_8cs" startline="9" endline="13">DisposablePtr.Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a31753a33a5caea36963c84f182c56841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NvMesh.NvMesh</definition>
+        <argsstring>(Vector3[] positions, Vector3[] normals, Vector2[] uv, Int32 verticesCount, Int32[] indices, Int32 indicesCount)</argsstring>
+        <name>NvMesh</name>
+        <param>
+          <type>Vector3[]</type>
+          <declname>positions</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>Vector2[]</type>
+          <declname>uv</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>verticesCount</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>indicesCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="66" bodyend="70"/>
+        <references refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" compoundref="_nv_blast_8cs" startline="9" endline="13">DisposablePtr.Initialize</references>
+        <references refid="class_nv_mesh_1a373e9c069513bc10ffe4d32917235507">NvBlastExtAuthoringCreateMesh</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a7bd0058fa2169436f671ea33433e7cbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] NvMesh.getVertices</definition>
+        <argsstring>()</argsstring>
+        <name>getVertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="72" bodyend="77"/>
+        <references refid="class_nv_mesh_1ad10d7989fd39d09f9624c4fe3533bf68">_Mesh_getVertices</references>
+        <references refid="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" compoundref="_nv_blast_ext_unity_8cs" startline="97" endline="100">getVerticesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_mesh_1a93a82e2390656dd635423c92d03da1a3" compoundref="_nv_blast_ext_unity_8cs" startline="114" endline="122">toUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1af8b029980d13b40853dc3e9daceb2410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] NvMesh.getNormals</definition>
+        <argsstring>()</argsstring>
+        <name>getNormals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="78" bodyend="83"/>
+        <references refid="class_nv_mesh_1a5a503fec3c57033e4467cdbdbce78688">_Mesh_getNormals</references>
+        <references refid="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" compoundref="_nv_blast_ext_unity_8cs" startline="97" endline="100">getVerticesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_mesh_1a93a82e2390656dd635423c92d03da1a3" compoundref="_nv_blast_ext_unity_8cs" startline="114" endline="122">toUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a2d6e30a499ba7afa2e3dbb8c00d35a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] NvMesh.getUVs</definition>
+        <argsstring>()</argsstring>
+        <name>getUVs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="84" bodyend="89"/>
+        <references refid="class_nv_mesh_1af05211433db0db8e33c8d27cc2145e3f">_Mesh_getUVs</references>
+        <references refid="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" compoundref="_nv_blast_ext_unity_8cs" startline="97" endline="100">getVerticesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_mesh_1a93a82e2390656dd635423c92d03da1a3" compoundref="_nv_blast_ext_unity_8cs" startline="114" endline="122">toUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1ab21749ad8459b78464fcd48eebe9f9d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int [] NvMesh.getIndexes</definition>
+        <argsstring>()</argsstring>
+        <name>getIndexes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="90" bodyend="95"/>
+        <references refid="class_nv_mesh_1ab97d2edbcd0fde09ace55edfdd9872a9">_Mesh_getIndexes</references>
+        <references refid="class_nv_mesh_1a9f9aaeb2599c1a18865520675eac8fa8" compoundref="_nv_blast_ext_unity_8cs" startline="102" endline="105">getIndexesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_mesh_1a93a82e2390656dd635423c92d03da1a3" compoundref="_nv_blast_ext_unity_8cs" startline="114" endline="122">toUnityMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NvMesh.getVerticesCount</definition>
+        <argsstring>()</argsstring>
+        <name>getVerticesCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="97" bodyend="100"/>
+        <references refid="class_nv_mesh_1a09f485ec2e9075dd89801f41b5cf7477">_Mesh_getVerticesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_mesh_1af8b029980d13b40853dc3e9daceb2410" compoundref="_nv_blast_ext_unity_8cs" startline="78" endline="83">getNormals</referencedby>
+        <referencedby refid="class_nv_mesh_1a2d6e30a499ba7afa2e3dbb8c00d35a60" compoundref="_nv_blast_ext_unity_8cs" startline="84" endline="89">getUVs</referencedby>
+        <referencedby refid="class_nv_mesh_1a7bd0058fa2169436f671ea33433e7cbe" compoundref="_nv_blast_ext_unity_8cs" startline="72" endline="77">getVertices</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a9f9aaeb2599c1a18865520675eac8fa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NvMesh.getIndexesCount</definition>
+        <argsstring>()</argsstring>
+        <name>getIndexesCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="102" bodyend="105"/>
+        <references refid="class_nv_mesh_1a07c3a9f784616c8854ed1df2962def99">_Mesh_getIndexesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_mesh_1ab21749ad8459b78464fcd48eebe9f9d1" compoundref="_nv_blast_ext_unity_8cs" startline="90" endline="95">getIndexes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_mesh_1a93a82e2390656dd635423c92d03da1a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>Mesh NvMesh.toUnityMesh</definition>
+        <argsstring>()</argsstring>
+        <name>toUnityMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="114" bodyend="122"/>
+        <references refid="class_nv_mesh_1ab21749ad8459b78464fcd48eebe9f9d1" compoundref="_nv_blast_ext_unity_8cs" startline="90" endline="95">getIndexes</references>
+        <references refid="class_nv_mesh_1af8b029980d13b40853dc3e9daceb2410" compoundref="_nv_blast_ext_unity_8cs" startline="78" endline="83">getNormals</references>
+        <references refid="class_nv_mesh_1a2d6e30a499ba7afa2e3dbb8c00d35a60" compoundref="_nv_blast_ext_unity_8cs" startline="84" endline="89">getUVs</references>
+        <references refid="class_nv_mesh_1a7bd0058fa2169436f671ea33433e7cbe" compoundref="_nv_blast_ext_unity_8cs" startline="72" endline="77">getVertices</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_nv_mesh_1a29a23a1cd7c28b181ea598aa51b0ce05" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void NvMesh.Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <reimplements refid="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06">Release</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="107" bodyend="111"/>
+        <references refid="class_nv_mesh_1a261b02ee98634065a2a66f6a27f8be2e">_Mesh_Release</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1579">
+        <label>IDisposable</label>
+      </node>
+      <node id="1578">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1579" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1577">
+        <label>NvMesh</label>
+        <link refid="class_nv_mesh"/>
+        <childnode refid="1578" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1582">
+        <label>IDisposable</label>
+      </node>
+      <node id="1581">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1580">
+        <label>NvMesh</label>
+        <link refid="class_nv_mesh"/>
+        <childnode refid="1581" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="34" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_nv_mesh_1ab97d2edbcd0fde09ace55edfdd9872a9" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_getIndexes</name></member>
+      <member refid="class_nv_mesh_1a07c3a9f784616c8854ed1df2962def99" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_getIndexesCount</name></member>
+      <member refid="class_nv_mesh_1a5a503fec3c57033e4467cdbdbce78688" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_getNormals</name></member>
+      <member refid="class_nv_mesh_1af05211433db0db8e33c8d27cc2145e3f" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_getUVs</name></member>
+      <member refid="class_nv_mesh_1ad10d7989fd39d09f9624c4fe3533bf68" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_getVertices</name></member>
+      <member refid="class_nv_mesh_1a09f485ec2e9075dd89801f41b5cf7477" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_getVerticesCount</name></member>
+      <member refid="class_nv_mesh_1a261b02ee98634065a2a66f6a27f8be2e" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>_Mesh_Release</name></member>
+      <member refid="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" prot="protected" virt="virtual"><scope>NvMesh</scope><name>Dispose</name></member>
+      <member refid="class_nv_mesh_1ab21749ad8459b78464fcd48eebe9f9d1" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>getIndexes</name></member>
+      <member refid="class_nv_mesh_1a9f9aaeb2599c1a18865520675eac8fa8" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>getIndexesCount</name></member>
+      <member refid="class_nv_mesh_1af8b029980d13b40853dc3e9daceb2410" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>getNormals</name></member>
+      <member refid="class_nv_mesh_1a2d6e30a499ba7afa2e3dbb8c00d35a60" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>getUVs</name></member>
+      <member refid="class_nv_mesh_1a7bd0058fa2169436f671ea33433e7cbe" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>getVertices</name></member>
+      <member refid="class_nv_mesh_1a0628e3d92ef7bbcf7df054fd9f35fe11" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>getVerticesCount</name></member>
+      <member refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" prot="protected" virt="non-virtual"><scope>NvMesh</scope><name>Initialize</name></member>
+      <member refid="class_nv_mesh_1a373e9c069513bc10ffe4d32917235507" prot="private" virt="non-virtual"><scope>NvMesh</scope><name>NvBlastExtAuthoringCreateMesh</name></member>
+      <member refid="class_nv_mesh_1a9c1118f33089744df61c283e6e99ac4a" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>NvMesh</name></member>
+      <member refid="class_nv_mesh_1a31753a33a5caea36963c84f182c56841" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>NvMesh</name></member>
+      <member refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>ptr</name></member>
+      <member refid="class_nv_mesh_1a29a23a1cd7c28b181ea598aa51b0ce05" prot="protected" virt="virtual"><scope>NvMesh</scope><name>Release</name></member>
+      <member refid="class_disposable_ptr_1af8ea9eba3fee0b77b6e2162c94f1816c" prot="protected" virt="non-virtual"><scope>NvMesh</scope><name>ResetPtr</name></member>
+      <member refid="class_nv_mesh_1a93a82e2390656dd635423c92d03da1a3" prot="public" virt="non-virtual"><scope>NvMesh</scope><name>toUnityMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

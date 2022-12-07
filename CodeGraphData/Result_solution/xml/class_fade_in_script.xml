@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fade_in_script" kind="class" prot="public">
+    <compoundname>FadeInScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fade_in_script_1a4e1eab804de5175ffe0a87a05db9882f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FadeInScript.fadeInTime</definition>
+        <argsstring></argsstring>
+        <name>fadeInTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_fade_in_script_1a1485b48de0d93e0cb70135bd78dcd4a1" compoundref="_fade_in_script_8cs" startline="22" endline="32">FadeIn</referencedby>
+        <referencedby refid="class_fade_in_script_1ac35af9e92d0ced4b26c817fd927ade1b" compoundref="_fade_in_script_8cs" startline="14" endline="20">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fade_in_script_1a03326183f51ebc3ff0662eca20b03e3a" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image FadeInScript.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_fade_in_script_1ac35af9e92d0ced4b26c817fd927ade1b" compoundref="_fade_in_script_8cs" startline="14" endline="20">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_fade_in_script_1ac35af9e92d0ced4b26c817fd927ade1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FadeInScript.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" bodystart="14" bodyend="20"/>
+        <references refid="class_fade_in_script_1a4e1eab804de5175ffe0a87a05db9882f" compoundref="_fade_in_script_8cs" startline="10">fadeInTime</references>
+        <references refid="class_fade_in_script_1a03326183f51ebc3ff0662eca20b03e3a" compoundref="_fade_in_script_8cs" startline="12">image</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fade_in_script_1a1485b48de0d93e0cb70135bd78dcd4a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator FadeInScript.FadeIn</definition>
+        <argsstring>()</argsstring>
+        <name>FadeIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" bodystart="22" bodyend="32"/>
+        <references refid="class_fade_in_script_1a4e1eab804de5175ffe0a87a05db9882f" compoundref="_fade_in_script_8cs" startline="10">fadeInTime</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1009">
+        <label>FadeInScript</label>
+        <link refid="class_fade_in_script"/>
+        <childnode refid="1010" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1010">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1011">
+        <label>FadeInScript</label>
+        <link refid="class_fade_in_script"/>
+        <childnode refid="1012" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1012">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/FadeInScript.cs" bodystart="5" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_fade_in_script_1a1485b48de0d93e0cb70135bd78dcd4a1" prot="private" virt="non-virtual"><scope>FadeInScript</scope><name>FadeIn</name></member>
+      <member refid="class_fade_in_script_1a4e1eab804de5175ffe0a87a05db9882f" prot="private" virt="non-virtual"><scope>FadeInScript</scope><name>fadeInTime</name></member>
+      <member refid="class_fade_in_script_1a03326183f51ebc3ff0662eca20b03e3a" prot="private" virt="non-virtual"><scope>FadeInScript</scope><name>image</name></member>
+      <member refid="class_fade_in_script_1ac35af9e92d0ced4b26c817fd927ade1b" prot="private" virt="non-virtual"><scope>FadeInScript</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

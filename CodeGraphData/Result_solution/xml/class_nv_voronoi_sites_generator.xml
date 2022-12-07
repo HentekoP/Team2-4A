@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_nv_voronoi_sites_generator" kind="class" prot="public">
+    <compoundname>NvVoronoiSitesGenerator</compoundname>
+    <basecompoundref refid="class_disposable_ptr" prot="public" virt="non-virtual">DisposablePtr</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a10d527e7d3ae9786daa7429de7bed202" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvVoronoiSitesGenerator._VoronoiSitesGenerator_Release</definition>
+        <argsstring>(IntPtr site)</argsstring>
+        <name>_VoronoiSitesGenerator_Release</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>site</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="234" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1afde5930eb4fa46bf1d7103dfe1aa784f" compoundref="_nv_blast_ext_unity_8cs" startline="287" endline="291">Release</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a591c06d4f5041b371059d325f0cdc535" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvVoronoiSitesGenerator._VoronoiSitesGenerator_Create</definition>
+        <argsstring>(IntPtr mesh)</argsstring>
+        <name>_VoronoiSitesGenerator_Create</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="237" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a4bebc76e5ad174fe23f8fe7f993cf4e9" compoundref="_nv_blast_ext_unity_8cs" startline="254" endline="258">NvVoronoiSitesGenerator</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1aa90b6ae42d14288bdf4e9efa587588c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvVoronoiSitesGenerator._NvVoronoiSitesGenerator_uniformlyGenerateSitesInMesh</definition>
+        <argsstring>(IntPtr tool, int count)</argsstring>
+        <name>_NvVoronoiSitesGenerator_uniformlyGenerateSitesInMesh</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="240" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a547681e3dfa5fadce8b5c90a1a627738" compoundref="_nv_blast_ext_unity_8cs" startline="260" endline="263">uniformlyGenerateSitesInMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1af9045c9b7f7cd48b41d8b6448a880eac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr NvVoronoiSitesGenerator._NvVoronoiSitesGenerator_addSite</definition>
+        <argsstring>(IntPtr tool, [In] Vector3 site)</argsstring>
+        <name>_NvVoronoiSitesGenerator_addSite</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <attributes>[In]</attributes>
+          <type>Vector3</type>
+          <declname>site</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="243" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a17abcfeac900a891a45100f4eff218e3" compoundref="_nv_blast_ext_unity_8cs" startline="265" endline="268">addSite</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a054dca1611377e075c78cc95f6f534c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool NvVoronoiSitesGenerator._NvVoronoiSitesGenerator_clusteredSitesGeneration</definition>
+        <argsstring>(IntPtr tool, int numberOfClusters, int sitesPerCluster, float clusterRadius)</argsstring>
+        <name>_NvVoronoiSitesGenerator_clusteredSitesGeneration</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numberOfClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sitesPerCluster</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>clusterRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="246" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a525873f560729d7b6f3dbf31bc91af30" compoundref="_nv_blast_ext_unity_8cs" startline="270" endline="273">clusteredSitesGeneration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a7c8209e42c33d13cf13e3a527fc64e8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int NvVoronoiSitesGenerator._NvVoronoiSitesGenerator_getSitesCount</definition>
+        <argsstring>(IntPtr tool)</argsstring>
+        <name>_NvVoronoiSitesGenerator_getSitesCount</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="249" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1aabebfb4d33577076d5934117babfd93a" compoundref="_nv_blast_ext_unity_8cs" startline="282" endline="285">getSitesCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a8fb971ac613a86d76cf72577c565d016" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NvVoronoiSitesGenerator._NvVoronoiSitesGenerator_getSites</definition>
+        <argsstring>(IntPtr tool, [In, Out] Vector3[] arr)</argsstring>
+        <name>_NvVoronoiSitesGenerator_getSites</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>tool</declname>
+        </param>
+        <param>
+          <attributes>[In, Out]</attributes>
+          <type>Vector3[]</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="252" column="1"/>
+        <referencedby refid="class_nv_voronoi_sites_generator_1ae4e01c67dac742f809fe52fd2c061095" compoundref="_nv_blast_ext_unity_8cs" startline="275" endline="280">getSites</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a4bebc76e5ad174fe23f8fe7f993cf4e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NvVoronoiSitesGenerator.NvVoronoiSitesGenerator</definition>
+        <argsstring>(NvMesh mesh)</argsstring>
+        <name>NvVoronoiSitesGenerator</name>
+        <param>
+          <type><ref refid="class_nv_mesh" kindref="compound">NvMesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="254" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="254" bodyend="258"/>
+        <references refid="class_nv_voronoi_sites_generator_1a591c06d4f5041b371059d325f0cdc535">_VoronoiSitesGenerator_Create</references>
+        <references refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" compoundref="_nv_blast_8cs" startline="9" endline="13">DisposablePtr.Initialize</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a547681e3dfa5fadce8b5c90a1a627738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvVoronoiSitesGenerator.uniformlyGenerateSitesInMesh</definition>
+        <argsstring>(int count)</argsstring>
+        <name>uniformlyGenerateSitesInMesh</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="260" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="260" bodyend="263"/>
+        <references refid="class_nv_voronoi_sites_generator_1aa90b6ae42d14288bdf4e9efa587588c6">_NvVoronoiSitesGenerator_uniformlyGenerateSitesInMesh</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a17abcfeac900a891a45100f4eff218e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvVoronoiSitesGenerator.addSite</definition>
+        <argsstring>(Vector3 site)</argsstring>
+        <name>addSite</name>
+        <param>
+          <type>Vector3</type>
+          <declname>site</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="265" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="265" bodyend="268"/>
+        <references refid="class_nv_voronoi_sites_generator_1af9045c9b7f7cd48b41d8b6448a880eac">_NvVoronoiSitesGenerator_addSite</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_voronoi_sites_generator_1a66b5ddd9006069874f3522b7aafbcacf" compoundref="_nv_blast_ext_unity_8cs" startline="294" endline="339">boneSiteGeneration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a525873f560729d7b6f3dbf31bc91af30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvVoronoiSitesGenerator.clusteredSitesGeneration</definition>
+        <argsstring>(int numberOfClusters, int sitesPerCluster, float clusterRadius)</argsstring>
+        <name>clusteredSitesGeneration</name>
+        <param>
+          <type>int</type>
+          <declname>numberOfClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sitesPerCluster</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>clusterRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="270" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="270" bodyend="273"/>
+        <references refid="class_nv_voronoi_sites_generator_1a054dca1611377e075c78cc95f6f534c7">_NvVoronoiSitesGenerator_clusteredSitesGeneration</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1ae4e01c67dac742f809fe52fd2c061095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] NvVoronoiSitesGenerator.getSites</definition>
+        <argsstring>()</argsstring>
+        <name>getSites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="275" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="275" bodyend="280"/>
+        <references refid="class_nv_voronoi_sites_generator_1a8fb971ac613a86d76cf72577c565d016">_NvVoronoiSitesGenerator_getSites</references>
+        <references refid="class_nv_voronoi_sites_generator_1aabebfb4d33577076d5934117babfd93a" compoundref="_nv_blast_ext_unity_8cs" startline="282" endline="285">getSitesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1aabebfb4d33577076d5934117babfd93a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NvVoronoiSitesGenerator.getSitesCount</definition>
+        <argsstring>()</argsstring>
+        <name>getSitesCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="282" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="282" bodyend="285"/>
+        <references refid="class_nv_voronoi_sites_generator_1a7c8209e42c33d13cf13e3a527fc64e8b">_NvVoronoiSitesGenerator_getSitesCount</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+        <referencedby refid="class_nv_voronoi_sites_generator_1ae4e01c67dac742f809fe52fd2c061095" compoundref="_nv_blast_ext_unity_8cs" startline="275" endline="280">getSites</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1a66b5ddd9006069874f3522b7aafbcacf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NvVoronoiSitesGenerator.boneSiteGeneration</definition>
+        <argsstring>(SkinnedMeshRenderer smr)</argsstring>
+        <name>boneSiteGeneration</name>
+        <param>
+          <type>SkinnedMeshRenderer</type>
+          <declname>smr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="294" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="294" bodyend="339"/>
+        <references refid="class_nv_voronoi_sites_generator_1a17abcfeac900a891a45100f4eff218e3" compoundref="_nv_blast_ext_unity_8cs" startline="265" endline="268">addSite</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_nv_voronoi_sites_generator_1afde5930eb4fa46bf1d7103dfe1aa784f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void NvVoronoiSitesGenerator.Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <reimplements refid="class_disposable_ptr_1a09a0ba857267c677fa30a6409bee3b06">Release</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="287" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="287" bodyend="291"/>
+        <references refid="class_nv_voronoi_sites_generator_1a10d527e7d3ae9786daa7429de7bed202">_VoronoiSitesGenerator_Release</references>
+        <references refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" compoundref="_nv_blast_8cs" startline="23">DisposablePtr.ptr</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1591">
+        <label>IDisposable</label>
+      </node>
+      <node id="1590">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1591" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>NvVoronoiSitesGenerator</label>
+        <link refid="class_nv_voronoi_sites_generator"/>
+        <childnode refid="1590" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1594">
+        <label>IDisposable</label>
+      </node>
+      <node id="1593">
+        <label>DisposablePtr</label>
+        <link refid="class_disposable_ptr"/>
+        <childnode refid="1594" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1592">
+        <label>NvVoronoiSitesGenerator</label>
+        <link refid="class_nv_voronoi_sites_generator"/>
+        <childnode refid="1593" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="232" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="231" bodyend="340"/>
+    <listofallmembers>
+      <member refid="class_nv_voronoi_sites_generator_1af9045c9b7f7cd48b41d8b6448a880eac" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_NvVoronoiSitesGenerator_addSite</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a054dca1611377e075c78cc95f6f534c7" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_NvVoronoiSitesGenerator_clusteredSitesGeneration</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a8fb971ac613a86d76cf72577c565d016" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_NvVoronoiSitesGenerator_getSites</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a7c8209e42c33d13cf13e3a527fc64e8b" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_NvVoronoiSitesGenerator_getSitesCount</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1aa90b6ae42d14288bdf4e9efa587588c6" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_NvVoronoiSitesGenerator_uniformlyGenerateSitesInMesh</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a591c06d4f5041b371059d325f0cdc535" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_VoronoiSitesGenerator_Create</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a10d527e7d3ae9786daa7429de7bed202" prot="private" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>_VoronoiSitesGenerator_Release</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a17abcfeac900a891a45100f4eff218e3" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>addSite</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a66b5ddd9006069874f3522b7aafbcacf" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>boneSiteGeneration</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a525873f560729d7b6f3dbf31bc91af30" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>clusteredSitesGeneration</name></member>
+      <member refid="class_disposable_ptr_1a5aa285f311f90d1c048ab5bbdcb26cb7" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>Dispose</name></member>
+      <member refid="class_disposable_ptr_1afcdee3239b862f727b6804d902eba76c" prot="protected" virt="virtual"><scope>NvVoronoiSitesGenerator</scope><name>Dispose</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1ae4e01c67dac742f809fe52fd2c061095" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>getSites</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1aabebfb4d33577076d5934117babfd93a" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>getSitesCount</name></member>
+      <member refid="class_disposable_ptr_1a547a2817f3ee0cca6b9c8f46eb85b33a" prot="protected" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>Initialize</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a4bebc76e5ad174fe23f8fe7f993cf4e9" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>NvVoronoiSitesGenerator</name></member>
+      <member refid="class_disposable_ptr_1ab3630d5d41d8302b816e294b29871d14" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>ptr</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1afde5930eb4fa46bf1d7103dfe1aa784f" prot="protected" virt="virtual"><scope>NvVoronoiSitesGenerator</scope><name>Release</name></member>
+      <member refid="class_disposable_ptr_1af8ea9eba3fee0b77b6e2162c94f1816c" prot="protected" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>ResetPtr</name></member>
+      <member refid="class_nv_voronoi_sites_generator_1a547681e3dfa5fadce8b5c90a1a627738" prot="public" virt="non-virtual"><scope>NvVoronoiSitesGenerator</scope><name>uniformlyGenerateSitesInMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

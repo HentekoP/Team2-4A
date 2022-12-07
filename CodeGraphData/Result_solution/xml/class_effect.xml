@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_effect" kind="class" prot="public">
+    <compoundname>Effect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_effect_1af9009b40fe8e9b2bf5aec738e59dc0e7" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Effect.particleObject</definition>
+        <argsstring></argsstring>
+        <name>particleObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_effect_1a3656dbb25a68b711d6d05875738618e7" compoundref="_effect_8cs" startline="17" endline="22">Playeffect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_effect_1a667124d4a8dea6276b40969a4f4c7bdc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Effect.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" bodystart="9" bodyend="15"/>
+        <references refid="class_effect_1a3656dbb25a68b711d6d05875738618e7" compoundref="_effect_8cs" startline="17" endline="22">Playeffect</references>
+      </memberdef>
+      <memberdef kind="function" id="class_effect_1a3656dbb25a68b711d6d05875738618e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Effect.Playeffect</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>Playeffect</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" bodystart="17" bodyend="22"/>
+        <references refid="class_effect_1af9009b40fe8e9b2bf5aec738e59dc0e7" compoundref="_effect_8cs" startline="8">particleObject</references>
+        <referencedby refid="class_effect_1a667124d4a8dea6276b40969a4f4c7bdc" compoundref="_effect_8cs" startline="9" endline="15">OnCollisionEnter</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="903">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="902">
+        <label>Effect</label>
+        <link refid="class_effect"/>
+        <childnode refid="903" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="905">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="904">
+        <label>Effect</label>
+        <link refid="class_effect"/>
+        <childnode refid="905" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Effect.cs" bodystart="5" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_effect_1a667124d4a8dea6276b40969a4f4c7bdc" prot="private" virt="non-virtual"><scope>Effect</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_effect_1af9009b40fe8e9b2bf5aec738e59dc0e7" prot="public" virt="non-virtual"><scope>Effect</scope><name>particleObject</name></member>
+      <member refid="class_effect_1a3656dbb25a68b711d6d05875738618e7" prot="private" virt="non-virtual"><scope>Effect</scope><name>Playeffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory" kind="class" prot="public">
+    <compoundname>UnityEngine::PostProcessing::RenderTextureFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a4140f3f51b13ed640264ff4dd0e0caf8" prot="private" static="no" mutable="no">
+        <type>HashSet&lt; RenderTexture &gt;</type>
+        <definition>HashSet&lt;RenderTexture&gt; UnityEngine.PostProcessing.RenderTextureFactory.m_TemporaryRTs</definition>
+        <argsstring></argsstring>
+        <name>m_TemporaryRTs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a856ac633e2065c6ed7cf78d8d99c9a10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.PostProcessing.RenderTextureFactory.RenderTextureFactory</definition>
+        <argsstring>()</argsstring>
+        <name>RenderTextureFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a66f2ee62b9248b0d50c8c4792b893cbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.RenderTextureFactory.Get</definition>
+        <argsstring>(RenderTexture baseRenderTexture)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>baseRenderTexture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="15" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aaf1c6deb2c4bdc1cc30f9c22243f5ab8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.RenderTextureFactory.Get</definition>
+        <argsstring>(int width, int height, int depthBuffer=0, RenderTextureFormat format=RenderTextureFormat.ARGBHalf, RenderTextureReadWrite rw=RenderTextureReadWrite.Default, FilterMode filterMode=FilterMode.Bilinear, TextureWrapMode wrapMode=TextureWrapMode.Clamp, string name=&quot;FactoryTempTexture&quot;)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depthBuffer</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>RenderTextureFormat</type>
+          <declname>format</declname>
+          <defval>RenderTextureFormat.ARGBHalf</defval>
+        </param>
+        <param>
+          <type>RenderTextureReadWrite</type>
+          <declname>rw</declname>
+          <defval>RenderTextureReadWrite.Default</defval>
+        </param>
+        <param>
+          <type>FilterMode</type>
+          <declname>filterMode</declname>
+          <defval>FilterMode.Bilinear</defval>
+        </param>
+        <param>
+          <type>TextureWrapMode</type>
+          <declname>wrapMode</declname>
+          <defval>TextureWrapMode.Clamp</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+          <defval>&quot;FactoryTempTexture&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a056c901a6186ae99274acbbd099ee76a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.RenderTextureFactory.Release</definition>
+        <argsstring>(RenderTexture rt)</argsstring>
+        <name>Release</name>
+        <param>
+          <type>RenderTexture</type>
+          <declname>rt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a6f5d4a6beda0674159c229f8b3a9a116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.RenderTextureFactory.ReleaseAll</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aff8e64c17598aa2633a075e3975b0efc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.RenderTextureFactory.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2096">
+        <label>IDisposable</label>
+      </node>
+      <node id="2095">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="2096" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2098">
+        <label>IDisposable</label>
+      </node>
+      <node id="2097">
+        <label>UnityEngine.PostProcessing.RenderTextureFactory</label>
+        <link refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory"/>
+        <childnode refid="2098" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" bodystart="6" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aff8e64c17598aa2633a075e3975b0efc" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>Dispose</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a66f2ee62b9248b0d50c8c4792b893cbd" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>Get</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1aaf1c6deb2c4bdc1cc30f9c22243f5ab8" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>Get</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a4140f3f51b13ed640264ff4dd0e0caf8" prot="private" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>m_TemporaryRTs</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a056c901a6186ae99274acbbd099ee76a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>Release</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a6f5d4a6beda0674159c229f8b3a9a116" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>ReleaseAll</name></member>
+      <member refid="class_unity_engine_1_1_post_processing_1_1_render_texture_factory_1a856ac633e2065c6ed7cf78d8d99c9a10" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::RenderTextureFactory</scope><name>RenderTextureFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

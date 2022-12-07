@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_f_x___auto_destruct_shuriken" kind="class" prot="public">
+    <compoundname>CFX_AutoDestructShuriken</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_f_x___auto_destruct_shuriken_1af933c2afeb229b6b610b542751580e36" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CFX_AutoDestructShuriken.OnlyDeactivate</definition>
+        <argsstring></argsstring>
+        <name>OnlyDeactivate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_c_f_x___auto_destruct_shuriken_1abfd04e5b2b3a5da35a40d07d16827282" compoundref="_c_f_x___auto_destruct_shuriken_8cs" startline="14" endline="34">CheckIfAlive</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_f_x___auto_destruct_shuriken_1ac4d9ac089af7a4b618e92b6f2c59ce33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CFX_AutoDestructShuriken.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_f_x___auto_destruct_shuriken_1abfd04e5b2b3a5da35a40d07d16827282" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CFX_AutoDestructShuriken.CheckIfAlive</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" bodystart="14" bodyend="34"/>
+        <references refid="class_c_f_x___auto_destruct_shuriken_1af933c2afeb229b6b610b542751580e36" compoundref="_c_f_x___auto_destruct_shuriken_8cs" startline="7">OnlyDeactivate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="445">
+        <label>CFX_AutoDestructShuriken</label>
+        <link refid="class_c_f_x___auto_destruct_shuriken"/>
+        <childnode refid="446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="447">
+        <label>CFX_AutoDestructShuriken</label>
+        <link refid="class_c_f_x___auto_destruct_shuriken"/>
+        <childnode refid="448" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="448">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" bodystart="5" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_c_f_x___auto_destruct_shuriken_1abfd04e5b2b3a5da35a40d07d16827282" prot="private" virt="non-virtual"><scope>CFX_AutoDestructShuriken</scope><name>CheckIfAlive</name></member>
+      <member refid="class_c_f_x___auto_destruct_shuriken_1ac4d9ac089af7a4b618e92b6f2c59ce33" prot="private" virt="non-virtual"><scope>CFX_AutoDestructShuriken</scope><name>OnEnable</name></member>
+      <member refid="class_c_f_x___auto_destruct_shuriken_1af933c2afeb229b6b610b542751580e36" prot="public" virt="non-virtual"><scope>CFX_AutoDestructShuriken</scope><name>OnlyDeactivate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

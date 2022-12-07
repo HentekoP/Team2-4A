@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_small___cube" kind="class" prot="public">
+    <compoundname>Small_Cube</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_small___cube_1_1_game_object_utils" prot="public">Small_Cube::GameObjectUtils</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_small___cube_1aca41e849c03e1f43ee77c1cef92d9bad" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Small_Cube.Cube</definition>
+        <argsstring></argsstring>
+        <name>Cube</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_small___cube_1a746b9795fd910ea4a16eb12549e3d125" compoundref="_small___cube_8cs" startline="10" endline="30">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_small___cube_1aebd8e20a554796d7fa4afc355202ac84" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Small_Cube.increase</definition>
+        <argsstring></argsstring>
+        <name>increase</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_small___cube_1a27fdd30cbc96db1f3459d944a5c5a555" compoundref="_small___cube_8cs" startline="46" endline="53">OnCollisionEnter</referencedby>
+        <referencedby refid="class_small___cube_1a746b9795fd910ea4a16eb12549e3d125" compoundref="_small___cube_8cs" startline="10" endline="30">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_small___cube_1a746b9795fd910ea4a16eb12549e3d125" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Small_Cube.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" bodystart="10" bodyend="30"/>
+        <references refid="class_small___cube_1aca41e849c03e1f43ee77c1cef92d9bad" compoundref="_small___cube_8cs" startline="7">Cube</references>
+        <references refid="class_small___cube_1aebd8e20a554796d7fa4afc355202ac84" compoundref="_small___cube_8cs" startline="8">increase</references>
+      </memberdef>
+      <memberdef kind="function" id="class_small___cube_1a27fdd30cbc96db1f3459d944a5c5a555" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Small_Cube.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" bodystart="46" bodyend="53"/>
+        <references refid="class_small___cube_1aebd8e20a554796d7fa4afc355202ac84" compoundref="_small___cube_8cs" startline="8">increase</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2332">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2331">
+        <label>Small_Cube</label>
+        <link refid="class_small___cube"/>
+        <childnode refid="2332" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2334">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2333">
+        <label>Small_Cube</label>
+        <link refid="class_small___cube"/>
+        <childnode refid="2334" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Small_Cube.cs" bodystart="5" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_small___cube_1aca41e849c03e1f43ee77c1cef92d9bad" prot="public" virt="non-virtual"><scope>Small_Cube</scope><name>Cube</name></member>
+      <member refid="class_small___cube_1aebd8e20a554796d7fa4afc355202ac84" prot="private" virt="non-virtual"><scope>Small_Cube</scope><name>increase</name></member>
+      <member refid="class_small___cube_1a27fdd30cbc96db1f3459d944a5c5a555" prot="private" virt="non-virtual"><scope>Small_Cube</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_small___cube_1a746b9795fd910ea4a16eb12549e3d125" prot="private" virt="non-virtual"><scope>Small_Cube</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

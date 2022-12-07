@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_w_f_x___demo___random_dir_8cs" kind="file">
+    <compoundname>WFX_Demo_RandomDir.cs</compoundname>
+    <innerclass refid="class_w_f_x___demo___random_dir" prot="public">WFX_Demo_RandomDir</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_w_f_x___demo___random_dir" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_w_f_x___demo___random_dir" kindref="compound">WFX_Demo_RandomDir</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_w_f_x___demo___random_dir_1ad8b62461835173da2023170f3109bd3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_w_f_x___demo___random_dir_1ad8b62461835173da2023170f3109bd3a" kindref="member">min</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0,0,0);</highlight></codeline>
+<codeline lineno="7" refid="class_w_f_x___demo___random_dir_1ae728f5da633aed77856302e2f68e5711" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_w_f_x___demo___random_dir_1ae728f5da633aed77856302e2f68e5711" kindref="member">max</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0,360,0);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="class_w_f_x___demo___random_dir_1a8f39a1d9d7d478f55f37be22768f8d63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_w_f_x___demo___random_dir_1a8f39a1d9d7d478f55f37be22768f8d63" kindref="member">Awake</ref><sp/>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.eulerAngles<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(<ref refid="_fracture_this_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref>.Range(<ref refid="class_w_f_x___demo___random_dir_1ad8b62461835173da2023170f3109bd3a" kindref="member">min</ref>.x,<ref refid="class_w_f_x___demo___random_dir_1ae728f5da633aed77856302e2f68e5711" kindref="member">max</ref>.x),Random.Range(min.y,max.y),<ref refid="_fracture_this_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref>.Range(<ref refid="class_w_f_x___demo___random_dir_1ad8b62461835173da2023170f3109bd3a" kindref="member">min</ref>.z,<ref refid="class_w_f_x___demo___random_dir_1ae728f5da633aed77856302e2f68e5711" kindref="member">max</ref>.z));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_RandomDir.cs"/>
+  </compounddef>
+</doxygen>
