@@ -4,108 +4,48 @@
     <compoundname>BGM</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" prot="public" static="no" mutable="no">
-        <type>AudioClip</type>
-        <definition>AudioClip BGM.BGM_title</definition>
+      <memberdef kind="variable" id="class_b_g_m_1aa30a9eb88bb63211ec234190d1645532" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BGM.Pause_Panel</definition>
         <argsstring></argsstring>
-        <name>BGM_title</name>
+        <name>Pause_Panel</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="9" bodyend="-1"/>
-        <referencedby refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" compoundref="_b_g_m_8cs" startline="35" endline="58">OnActiveSceneChanged</referencedby>
-        <referencedby refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" compoundref="_b_g_m_8cs" startline="18" endline="32">Start</referencedby>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_b_g_m_1a2c46037ba753f3830c25cd1111adb101" compoundref="_b_g_m_8cs" startline="11" endline="21">Update</referencedby>
       </memberdef>
-      <memberdef kind="variable" id="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" prot="public" static="no" mutable="no">
-        <type>AudioClip</type>
-        <definition>AudioClip BGM.BGM_main</definition>
-        <argsstring></argsstring>
-        <name>BGM_main</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="10" bodyend="-1"/>
-        <referencedby refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" compoundref="_b_g_m_8cs" startline="35" endline="58">OnActiveSceneChanged</referencedby>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="class_b_g_m_1ab29df1bf74408e15a8e586ebe6948d8b" prot="public" static="no" mutable="no">
         <type>AudioSource</type>
-        <definition>AudioSource BGM.source</definition>
+        <definition>AudioSource BGM.audioSource</definition>
         <argsstring></argsstring>
-        <name>source</name>
+        <name>audioSource</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="13" bodyend="-1"/>
-        <referencedby refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" compoundref="_b_g_m_8cs" startline="18" endline="32">Start</referencedby>
-      </memberdef>
-      <memberdef kind="variable" id="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string BGM.beforeScene</definition>
-        <argsstring></argsstring>
-        <name>beforeScene</name>
-        <initializer>= &quot;Title&quot;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="16" bodyend="-1"/>
-        <referencedby refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" compoundref="_b_g_m_8cs" startline="35" endline="58">OnActiveSceneChanged</referencedby>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_b_g_m_1a2c46037ba753f3830c25cd1111adb101" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void BGM.Start</definition>
+        <definition>void BGM.Update</definition>
         <argsstring>()</argsstring>
-        <name>Start</name>
+        <name>Update</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="18" bodyend="32"/>
-        <references refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" compoundref="_b_g_m_8cs" startline="9">BGM_title</references>
-        <references refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" compoundref="_b_g_m_8cs" startline="35" endline="58">OnActiveSceneChanged</references>
-        <references refid="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" compoundref="_b_g_m_8cs" startline="13">source</references>
-      </memberdef>
-      <memberdef kind="function" id="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void BGM.OnActiveSceneChanged</definition>
-        <argsstring>(Scene prevScene, Scene nextScene)</argsstring>
-        <name>OnActiveSceneChanged</name>
-        <param>
-          <type>Scene</type>
-          <declname>prevScene</declname>
-        </param>
-        <param>
-          <type>Scene</type>
-          <declname>nextScene</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="35" bodyend="58"/>
-        <references refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" compoundref="_b_g_m_8cs" startline="16">beforeScene</references>
-        <references refid="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" compoundref="_b_g_m_8cs" startline="10">BGM_main</references>
-        <references refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" compoundref="_b_g_m_8cs" startline="9">BGM_title</references>
-        <referencedby refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" compoundref="_b_g_m_8cs" startline="18" endline="32">Start</referencedby>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" bodystart="11" bodyend="21"/>
+        <references refid="class_b_g_m_1aa30a9eb88bb63211ec234190d1645532" compoundref="_b_g_m_8cs" startline="8">Pause_Panel</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -113,35 +53,32 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1">
+      <node id="230">
         <label>MonoBehaviour</label>
       </node>
-      <node id="0">
+      <node id="229">
         <label>BGM</label>
         <link refid="class_b_g_m"/>
-        <childnode refid="1" relation="public-inheritance">
+        <childnode refid="230" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="3">
+      <node id="232">
         <label>MonoBehaviour</label>
       </node>
-      <node id="2">
+      <node id="231">
         <label>BGM</label>
         <link refid="class_b_g_m"/>
-        <childnode refid="3" relation="public-inheritance">
+        <childnode refid="232" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs" bodystart="6" bodyend="59"/>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs" bodystart="6" bodyend="22"/>
     <listofallmembers>
-      <member refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" prot="private" virt="non-virtual"><scope>BGM</scope><name>beforeScene</name></member>
-      <member refid="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" prot="public" virt="non-virtual"><scope>BGM</scope><name>BGM_main</name></member>
-      <member refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" prot="public" virt="non-virtual"><scope>BGM</scope><name>BGM_title</name></member>
-      <member refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" prot="private" virt="non-virtual"><scope>BGM</scope><name>OnActiveSceneChanged</name></member>
-      <member refid="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" prot="private" virt="non-virtual"><scope>BGM</scope><name>source</name></member>
-      <member refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" prot="private" virt="non-virtual"><scope>BGM</scope><name>Start</name></member>
+      <member refid="class_b_g_m_1ab29df1bf74408e15a8e586ebe6948d8b" prot="public" virt="non-virtual"><scope>BGM</scope><name>audioSource</name></member>
+      <member refid="class_b_g_m_1aa30a9eb88bb63211ec234190d1645532" prot="public" virt="non-virtual"><scope>BGM</scope><name>Pause_Panel</name></member>
+      <member refid="class_b_g_m_1a2c46037ba753f3830c25cd1111adb101" prot="private" virt="non-virtual"><scope>BGM</scope><name>Update</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

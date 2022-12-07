@@ -3,7 +3,6 @@
   <compounddef id="_b_g_m_8cs" kind="file">
     <compoundname>BGM.cs</compoundname>
     <innerclass refid="class_b_g_m" prot="public">BGM</innerclass>
-    <innernamespace refid="namespace_unity_engine_1_1_scene_management">UnityEngine::SceneManagement</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -16,59 +15,22 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6" refid="class_b_g_m" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_b_g_m" kindref="compound">BGM</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ヒエラルキーからD&amp;Dしておく</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioClip<sp/><ref refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" kindref="member">BGM_title</ref>;</highlight></codeline>
-<codeline lineno="10" refid="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioClip<sp/><ref refid="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" kindref="member">BGM_main</ref>;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//使用するAudioSource</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>AudioSource<sp/><ref refid="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" kindref="member">source</ref>;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//１つ前のシーン名</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" kindref="member">beforeScene</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Title&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_g_m_1acc0599bf808f8e7bdb50f24cfd9d0907" kindref="member">Start</ref>()</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//自分をシーン切り替え時も破棄しないようにする</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DontDestroyOnLoad(gameObject);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//使用するAudioSource取得</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_b_g_m_1a6eddb6121a211289289e2a81a87c7f18" kindref="member">source</ref><sp/>=<sp/>GetComponent&lt;AudioSource&gt;();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//タイトル時</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.clip<sp/>=<sp/><ref refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" kindref="member">BGM_title</ref>;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.Play();</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//シーンが切り替わった時に呼ばれるメソッドを登録</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.activeSceneChanged<sp/>+=<sp/><ref refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" kindref="member">OnActiveSceneChanged</ref>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//シーンが切り替わった時に呼ばれるメソッド</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_g_m_1a2bc2ddd7cd975d99eab99f8c299dcab5" kindref="member">OnActiveSceneChanged</ref>(Scene<sp/>prevScene,<sp/>Scene<sp/>nextScene)</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//シーンがどう変わったかで判定</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//メニューからメインへ</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" kindref="member">beforeScene</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Menu&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>nextScene.name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Main&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.Stop();</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.clip<sp/>=<sp/><ref refid="class_b_g_m_1ac2f4f7e341087e5d5cc93fab95507fab" kindref="member">BGM_main</ref>;<sp/></highlight><highlight class="comment">//流すクリップを切り替える</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.Play();</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//メインからメニューへ</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" kindref="member">beforeScene</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Main&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>nextScene.name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Menu&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.Stop();</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.clip<sp/>=<sp/><ref refid="class_b_g_m_1a9a5b7aa24f8069dccb976e6c3df8e6c7" kindref="member">BGM_title</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//流すクリップを切り替える</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.Play();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//遷移後のシーン名を「１つ前のシーン名」として保持</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_b_g_m_1a190a6e1c217a196933d5130604ab96f5" kindref="member">beforeScene</ref><sp/>=<sp/>nextScene.name;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8" refid="class_b_g_m_1aa30a9eb88bb63211ec234190d1645532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_b_g_m_1aa30a9eb88bb63211ec234190d1645532" kindref="member">Pause_Panel</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_b_g_m_1ab29df1bf74408e15a8e586ebe6948d8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>AudioSource<sp/><ref refid="class_b_g_m_1ab29df1bf74408e15a8e586ebe6948d8b" kindref="member">audioSource</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_b_g_m_1a2c46037ba753f3830c25cd1111adb101" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_g_m_1a2c46037ba753f3830c25cd1111adb101" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_b_g_m_1aa30a9eb88bb63211ec234190d1645532" kindref="member">Pause_Panel</ref>.activeSelf<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audioSource.Stop();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>audioSource.Play();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/Script/BGM.cs"/>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/BGM.cs"/>
   </compounddef>
 </doxygen>

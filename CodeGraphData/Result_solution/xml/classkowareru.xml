@@ -3,6 +3,24 @@
   <compounddef id="classkowareru" kind="class" prot="public">
     <compoundname>kowareru</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classkowareru_1a3e18ca48863b4be0e96ca328ea0df94f" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody kowareru.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="classkowareru_1a9e0df9b69f382432b8346f0cc8c0a8cf" compoundref="kowareru_8cs" startline="25" endline="34">HAKAI</referencedby>
+        <referencedby refid="classkowareru_1a5e160834cc870a152e1f73c475500a71" compoundref="kowareru_8cs" startline="9" endline="13">Start</referencedby>
+        <referencedby refid="classkowareru_1aee2519b385fb600d1aade82736ba45f0" compoundref="kowareru_8cs" startline="15" endline="23">Update</referencedby>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="private-func">
       <memberdef kind="function" id="classkowareru_1a5e160834cc870a152e1f73c475500a71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -15,7 +33,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/kowareru.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/kowareru.cs" bodystart="8" bodyend="11"/>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" bodystart="9" bodyend="13"/>
+        <references refid="classkowareru_1a3e18ca48863b4be0e96ca328ea0df94f" compoundref="kowareru_8cs" startline="6">rb</references>
       </memberdef>
       <memberdef kind="function" id="classkowareru_1aee2519b385fb600d1aade82736ba45f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -28,7 +47,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/kowareru.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/kowareru.cs" bodystart="14" bodyend="20"/>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" bodystart="15" bodyend="23"/>
+        <references refid="classkowareru_1a3e18ca48863b4be0e96ca328ea0df94f" compoundref="kowareru_8cs" startline="6">rb</references>
+      </memberdef>
+      <memberdef kind="function" id="classkowareru_1a9e0df9b69f382432b8346f0cc8c0a8cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator kowareru.HAKAI</definition>
+        <argsstring>()</argsstring>
+        <name>HAKAI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" bodystart="25" bodyend="34"/>
+        <references refid="class_win_1ab3cc5e2b43be3f92d33598a7df263836" compoundref="_win_8cs" startline="44" endline="47">Win.GetClearFlg</references>
+        <references refid="classkowareru_1a3e18ca48863b4be0e96ca328ea0df94f" compoundref="kowareru_8cs" startline="6">rb</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -36,29 +71,31 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="12">
+      <node id="1369">
         <label>kowareru</label>
         <link refid="classkowareru"/>
-        <childnode refid="13" relation="public-inheritance">
+        <childnode refid="1370" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="13">
+      <node id="1370">
         <label>MonoBehaviour</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="14">
+      <node id="1371">
         <label>kowareru</label>
         <link refid="classkowareru"/>
-        <childnode refid="15" relation="public-inheritance">
+        <childnode refid="1372" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="15">
+      <node id="1372">
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Noguc/Documents/Team2-4A/Assets/kowareru.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4A/Assets/kowareru.cs" bodystart="5" bodyend="21"/>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/kowareru.cs" bodystart="4" bodyend="35"/>
     <listofallmembers>
+      <member refid="classkowareru_1a9e0df9b69f382432b8346f0cc8c0a8cf" prot="private" virt="non-virtual"><scope>kowareru</scope><name>HAKAI</name></member>
+      <member refid="classkowareru_1a3e18ca48863b4be0e96ca328ea0df94f" prot="private" virt="non-virtual"><scope>kowareru</scope><name>rb</name></member>
       <member refid="classkowareru_1a5e160834cc870a152e1f73c475500a71" prot="private" virt="non-virtual"><scope>kowareru</scope><name>Start</name></member>
       <member refid="classkowareru_1aee2519b385fb600d1aade82736ba45f0" prot="private" virt="non-virtual"><scope>kowareru</scope><name>Update</name></member>
     </listofallmembers>
