@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_grain_model_editor_8cs" kind="file">
+    <compoundname>GrainModelEditor.cs</compoundname>
+    <innerclass refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor" prot="public">UnityEditor::PostProcessing::GrainModelEditor</innerclass>
+    <innernamespace refid="namespace_unity_editor_1_1_post_processing">UnityEditor::PostProcessing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.PostProcessing;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityEditor.PostProcessing</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine_1_1_post_processing_1a03001cf2f893137ef8a9a57054900164" kindref="member">Settings</ref><sp/>=<sp/><ref refid="namespace_unity_engine_1_1_post_processing_1a03001cf2f893137ef8a9a57054900164" kindref="member">GrainModel.Settings</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[PostProcessingModelEditor(typeof(<ref refid="class_unity_engine_1_1_post_processing_1_1_grain_model" kindref="compound">GrainModel</ref>))]</highlight></codeline>
+<codeline lineno="8" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor" kindref="compound">GrainModelEditor</ref><sp/>:<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_post_processing_model_editor" kindref="compound">PostProcessingModelEditor</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a91efddf056a83b2a800025a0147536bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a91efddf056a83b2a800025a0147536bc" kindref="member">m_Colored</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1ae40e87abf2a62867b1901ba7138a4ea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1ae40e87abf2a62867b1901ba7138a4ea1" kindref="member">m_Intensity</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a166c22de15055d16b078c568b1b62dec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a166c22de15055d16b078c568b1b62dec" kindref="member">m_Size</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a95dcdfbf1ffab07467ca29fb1c383b9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a95dcdfbf1ffab07467ca29fb1c383b9d" kindref="member">m_LuminanceContribution</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1aecebb5c4de2fcd7df84dfa52ca8f6e4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1aecebb5c4de2fcd7df84dfa52ca8f6e4d" kindref="member">OnEnable</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Colored<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.colored);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Intensity<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.intensity);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Size<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.size);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_LuminanceContribution<sp/>=<sp/>FindSetting((<ref refid="namespace_unity_editor_1_1_post_processing_1abfac3d58569d065a2f5ed324ff557308" kindref="member">Settings</ref><sp/>x)<sp/>=&gt;<sp/>x.luminanceContribution);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a89570fe2538ade6f875dac77284e76c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_post_processing_1_1_grain_model_editor_1a89570fe2538ade6f875dac77284e76c4" kindref="member">OnInspectorGUI</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_Intensity);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_LuminanceContribution);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_Size);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_Colored);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Editor/Models/GrainModelEditor.cs"/>
+  </compounddef>
+</doxygen>

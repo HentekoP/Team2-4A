@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_suspension_8cs" kind="file">
+    <compoundname>Suspension.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension" prot="public">UnityStandardAssets::Vehicles::Car::Suspension</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_vehicles_1_1_car">UnityStandardAssets::Vehicles::Car</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.Vehicles.Car</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>script<sp/>is<sp/>specific<sp/>to<sp/>the<sp/>car<sp/>supplied<sp/>in<sp/>the<sp/>the<sp/>assets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it<sp/>controls<sp/>the<sp/>suspension<sp/>hub<sp/>to<sp/>make<sp/>it<sp/>move<sp/>with<sp/>the<sp/>wheel<sp/>are<sp/>it<sp/>goes<sp/>over<sp/>bumps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension" kindref="compound">Suspension</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1ae6a6679af1e36950917d11b42b0567d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1ae6a6679af1e36950917d11b42b0567d6" kindref="member">wheel</ref>;<sp/></highlight><highlight class="comment">//<sp/>The<sp/>wheel<sp/>that<sp/>the<sp/>script<sp/>needs<sp/>to<sp/>referencing<sp/>to<sp/>get<sp/>the<sp/>postion<sp/>for<sp/>the<sp/>suspension</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a5c1e3cc055cc9e10e680e9201703a6f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a5c1e3cc055cc9e10e680e9201703a6f0" kindref="member">m_TargetOriginalPosition</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a4ca6ea5153afe8dd3297733e48fb597a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a4ca6ea5153afe8dd3297733e48fb597a" kindref="member">m_Origin</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a9b928c7622ac9dbf1adf6701222b2c19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a9b928c7622ac9dbf1adf6701222b2c19" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TargetOriginalPosition<sp/>=<sp/>wheel.transform.localPosition;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Origin<sp/>=<sp/>transform.localPosition;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a800a249bb7ced7ccb5f739a359c352db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension_1a800a249bb7ced7ccb5f739a359c352db" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.localPosition<sp/>=<sp/>m_Origin<sp/>+<sp/>(wheel.transform.localPosition<sp/>-<sp/>m_TargetOriginalPosition);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Suspension.cs"/>
+  </compounddef>
+</doxygen>

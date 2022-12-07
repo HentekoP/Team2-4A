@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pivot_based_camera_rig_8cs" kind="file">
+    <compoundname>PivotBasedCameraRig.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig" prot="public">UnityStandardAssets::Cameras::PivotBasedCameraRig</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_cameras">UnityStandardAssets::Cameras</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.Cameras</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig" kindref="compound">PivotBasedCameraRig</ref><sp/>:<sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower" kindref="compound">AbstractTargetFollower</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>script<sp/>is<sp/>designed<sp/>to<sp/>be<sp/>placed<sp/>on<sp/>the<sp/>root<sp/>object<sp/>of<sp/>a<sp/>camera<sp/>rig,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>comprising<sp/>3<sp/>gameobjects,<sp/>each<sp/>parented<sp/>to<sp/>the<sp/>next:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Camera<sp/>Rig</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Pivot</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Camera</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a48ffcd4e624ccd875d0afe28dbcf1a89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a48ffcd4e624ccd875d0afe28dbcf1a89" kindref="member">m_Cam</ref>;<sp/></highlight><highlight class="comment">//<sp/>the<sp/>transform<sp/>of<sp/>the<sp/>camera</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a49301e21fdd2d263c8693d64cbff705e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a49301e21fdd2d263c8693d64cbff705e" kindref="member">m_Pivot</ref>;<sp/></highlight><highlight class="comment">//<sp/>the<sp/>point<sp/>at<sp/>which<sp/>the<sp/>camera<sp/>pivots<sp/>around</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a3afd3be379d765725cb5bddf410256cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1a3afd3be379d765725cb5bddf410256cf" kindref="member">m_LastTargetPosition</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1ac8e9628df34b82b51c1cafd45d2b3938" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig_1ac8e9628df34b82b51c1cafd45d2b3938" kindref="member">Awake</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>find<sp/>the<sp/>camera<sp/>in<sp/>the<sp/>object<sp/>hierarchy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Cam<sp/>=<sp/>GetComponentInChildren&lt;Camera&gt;().transform;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Pivot<sp/>=<sp/>m_Cam.parent;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs"/>
+  </compounddef>
+</doxygen>

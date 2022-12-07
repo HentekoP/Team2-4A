@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_select_mesh_8cs" kind="file">
+    <compoundname>SelectMesh.cs</compoundname>
+    <innerclass refid="class_project_1_1_select_mesh" prot="public">Project::SelectMesh</innerclass>
+    <innerclass refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair" prot="private">Project::SelectMesh::KeyCodeFractureThisPair</innerclass>
+    <innernamespace refid="namespace_project">Project</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Project.Scripts.Fractures;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Project</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_project_1_1_select_mesh" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_project_1_1_select_mesh" kindref="compound">SelectMesh</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="class_project_1_1_select_mesh_1a3530743cd4e88bd1e261a15d9f595498" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair" kindref="compound">KeyCodeFractureThisPair</ref>[]<sp/><ref refid="class_project_1_1_select_mesh_1a3530743cd4e88bd1e261a15d9f595498" kindref="member">keyCodeFractureThisPairs</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="12" refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair" kindref="compound">KeyCodeFractureThisPair</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1ab513325da29a44fa13ec3b8c1564600d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1ab513325da29a44fa13ec3b8c1564600d" kindref="member">KeyCode</ref><sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1ab513325da29a44fa13ec3b8c1564600d" kindref="member">KeyCode</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1a34bc0a3ceaa18412a49c6a286c461404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this" kindref="compound">FractureThis</ref><sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1a34bc0a3ceaa18412a49c6a286c461404" kindref="member">FractureThis</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1aba9c975e160d8382fddb971ce0a39dc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1aba9c975e160d8382fddb971ce0a39dc2" kindref="member">Deconstruct</ref>(out<sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1ab513325da29a44fa13ec3b8c1564600d" kindref="member">KeyCode</ref><sp/>keyCode,<sp/>out<sp/><ref refid="class_project_1_1_scripts_1_1_fractures_1_1_fracture_this" kindref="compound">FractureThis</ref><sp/>fractureThis)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyCode<sp/>=<sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1ab513325da29a44fa13ec3b8c1564600d" kindref="member">KeyCode</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fractureThis<sp/>=<sp/><ref refid="class_project_1_1_select_mesh_1_1_key_code_fracture_this_pair_1a34bc0a3ceaa18412a49c6a286c461404" kindref="member">FractureThis</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_project_1_1_select_mesh_1a5a94a6bba17842607889d4049b7f23e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_project_1_1_select_mesh_1a5a94a6bba17842607889d4049b7f23e0" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>(keyCode,<sp/>fractureThis)<sp/>in<sp/><ref refid="class_project_1_1_select_mesh_1a3530743cd4e88bd1e261a15d9f595498" kindref="member">keyCodeFractureThisPairs</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetKeyDown(keyCode))</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>chunkGraphManager<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>FindObjectsOfType&lt;ChunkGraphManager&gt;())</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DestroyImmediate(chunkGraphManager.gameObject);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fractureThis.FractureGameobject();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Project/SelectMesh.cs"/>
+  </compounddef>
+</doxygen>

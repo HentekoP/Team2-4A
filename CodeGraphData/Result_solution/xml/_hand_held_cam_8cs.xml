@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_hand_held_cam_8cs" kind="file">
+    <compoundname>HandHeldCam.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam" prot="public">UnityStandardAssets::Cameras::HandHeldCam</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_cameras">UnityStandardAssets::Cameras</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.Cameras</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam" kindref="compound">HandHeldCam</ref><sp/>:<sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_lookat_target" kindref="compound">LookatTarget</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam_1a6803d72a6b80046bbb9f388d7d748ae2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m_SwaySpeed<sp/>=<sp/>.5f;</highlight></codeline>
+<codeline lineno="9" refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam_1aba0b90aa1e2c37801140dac7d1bbc0fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m_BaseSwayAmount<sp/>=<sp/>.5f;</highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam_1afaec913764a82fd5646e9ca1b5dac104" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m_TrackingSwayAmount<sp/>=<sp/>.5f;</highlight></codeline>
+<codeline lineno="11" refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam_1aa8cd46885a464b1587bc875797766887" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[Range(-1,<sp/>1)]<sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m_TrackingBias<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam_1a2c75c2112b785666e0b7ca826377c63a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam_1a2c75c2112b785666e0b7ca826377c63a" kindref="member">FollowTarget</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaTime)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.FollowTarget(deltaTime);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bx<sp/>=<sp/>(Mathf.PerlinNoise(0,<sp/>Time.time*m_SwaySpeed)<sp/>-<sp/>0.5f);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>by<sp/>=<sp/>(Mathf.PerlinNoise(0,<sp/>(Time.time*m_SwaySpeed)<sp/>+<sp/>100))<sp/>-<sp/>0.5f;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bx<sp/>*=<sp/>m_BaseSwayAmount;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>by<sp/>*=<sp/>m_BaseSwayAmount;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>tx<sp/>=<sp/>(Mathf.PerlinNoise(0,<sp/>Time.time*m_SwaySpeed)<sp/>-<sp/>0.5f)<sp/>+<sp/>m_TrackingBias;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ty<sp/>=<sp/>((Mathf.PerlinNoise(0,<sp/>(Time.time*m_SwaySpeed)<sp/>+<sp/>100))<sp/>-<sp/>0.5f)<sp/>+<sp/>m_TrackingBias;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tx<sp/>*=<sp/>-m_TrackingSwayAmount*m_FollowVelocity.x;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ty<sp/>*=<sp/>m_TrackingSwayAmount*m_FollowVelocity.y;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.Rotate(bx<sp/>+<sp/>tx,<sp/>by<sp/>+<sp/>ty,<sp/>0);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Cameras/Scripts/HandHeldCam.cs"/>
+  </compounddef>
+</doxygen>

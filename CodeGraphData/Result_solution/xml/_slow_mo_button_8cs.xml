@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_slow_mo_button_8cs" kind="file">
+    <compoundname>SlowMoButton.cs</compoundname>
+    <innerclass refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button" prot="public">UnityStandardAssets::SceneUtils::SlowMoButton</innerclass>
+    <innernamespace refid="namespace_unity_standard_assets_1_1_scene_utils">UnityStandardAssets::SceneUtils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityStandardAssets.SceneUtils</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button" kindref="compound">SlowMoButton</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a8b70304ac4a5d5216a6eb3895996b325" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Sprite<sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a8b70304ac4a5d5216a6eb3895996b325" kindref="member">FullSpeedTex</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>ui<sp/>texture<sp/>for<sp/>full<sp/>speed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1ad55c4d28ac85f32fae96d7062f9fc1ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Sprite<sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1ad55c4d28ac85f32fae96d7062f9fc1ee" kindref="member">SlowSpeedTex</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>ui<sp/>texture<sp/>for<sp/>slow<sp/>motion<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a88a6a56d7dbdbe26e2665869da65aaef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fullSpeed<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="12" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1aba6f6719a8b087f25b3b09554ab7439e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>slowSpeed<sp/>=<sp/>0.3f;</highlight></codeline>
+<codeline lineno="13" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a1c3e2c0220756f1dbebbe7ac51e89747" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Button<sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a1c3e2c0220756f1dbebbe7ac51e89747" kindref="member">button</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>reference<sp/>to<sp/>the<sp/>ui<sp/>texture<sp/>that<sp/>will<sp/>be<sp/>changed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1ae3179a9f94dc6de5638ae43dd1e9240f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1ae3179a9f94dc6de5638ae43dd1e9240f" kindref="member">m_SlowMo</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a316a5ca7fda0ef2405e25bf3b2ca28a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a316a5ca7fda0ef2405e25bf3b2ca28a7" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SlowMo<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a811ba3d4850d11c8e03da67de8b36f3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a811ba3d4850d11c8e03da67de8b36f3b" kindref="member">OnDestroy</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Time.timeScale<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a0fd65ad7a722dac3820a988c4c06baa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button_1a0fd65ad7a722dac3820a988c4c06baa5" kindref="member">ChangeSpeed</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>toggle<sp/>slow<sp/>motion<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SlowMo<sp/>=<sp/>!m_SlowMo;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>update<sp/>button<sp/>texture</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>image<sp/>=<sp/>button.targetGraphic<sp/>as<sp/>Image;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(image<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>image.sprite<sp/>=<sp/>m_SlowMo<sp/>?<sp/>SlowSpeedTex<sp/>:<sp/>FullSpeedTex;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>button.targetGraphic<sp/>=<sp/>image;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Time.timeScale<sp/>=<sp/>m_SlowMo<sp/>?<sp/>slowSpeed<sp/>:<sp/>fullSpeed;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/SampleScenes/Scripts/SlowMoButton.cs"/>
+  </compounddef>
+</doxygen>

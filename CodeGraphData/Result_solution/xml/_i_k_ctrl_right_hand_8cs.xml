@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_k_ctrl_right_hand_8cs" kind="file">
+    <compoundname>IKCtrlRightHand.cs</compoundname>
+    <innerclass refid="class_unity_chan_1_1_i_k_ctrl_right_hand" prot="public">UnityChan::IKCtrlRightHand</innerclass>
+    <innernamespace refid="namespace_unity_chan">UnityChan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//IKCtrlRightHand.cs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//Sample<sp/>script<sp/>for<sp/>IK<sp/>Control<sp/>of<sp/>Unity-Chan&apos;s<sp/>right<sp/>hand.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//2014/06/20<sp/>N.Kobayashi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityChan</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[RequireComponent(typeof(Animator))]</highlight></codeline>
+<codeline lineno="14" refid="class_unity_chan_1_1_i_k_ctrl_right_hand" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand" kindref="compound">IKCtrlRightHand</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a3220c3993ad5894c4088be46c9513bdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Animator<sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a3220c3993ad5894c4088be46c9513bdb" kindref="member">anim</ref>;</highlight></codeline>
+<codeline lineno="18" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a0b789233b849bac03e66a2f9e24deba1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a0b789233b849bac03e66a2f9e24deba1" kindref="member">targetObj</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="19" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" kindref="member">isIkActive</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref><sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ab1b9e7ed5b5683fb3d1e1b0096948ab4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ab1b9e7ed5b5683fb3d1e1b0096948ab4" kindref="member">Awake</ref><sp/>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a3220c3993ad5894c4088be46c9513bdb" kindref="member">anim</ref><sp/>=<sp/>GetComponent&lt;Animator&gt;<sp/>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a285884b10d3d742292222bee0a113685" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1a285884b10d3d742292222bee0a113685" kindref="member">Update</ref><sp/>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Kobayashi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref><sp/>&gt;=<sp/>1.0f)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref><sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref><sp/>&lt;=<sp/>0.0f)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1afc734d8d848e35512602b55a944b00a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1afc734d8d848e35512602b55a944b00a2" kindref="member">OnAnimatorIK</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerIndex)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" kindref="member">isIkActive</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>anim.SetIKPositionWeight<sp/>(AvatarIKGoal.RightHand,<sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>anim.SetIKRotationWeight<sp/>(AvatarIKGoal.RightHand,<sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1aa81b7229d6dddd594e5b9bfd92ea39d7" kindref="member">mixWeight</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>anim.SetIKPosition<sp/>(AvatarIKGoal.RightHand,<sp/>targetObj.position);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>anim.SetIKRotation<sp/>(AvatarIKGoal.RightHand,<sp/>targetObj.rotation);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ac8dae3d9eaccc6ccbd194913623aa79f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ac8dae3d9eaccc6ccbd194913623aa79f" kindref="member">OnGUI</ref><sp/>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Rect<sp/>rect1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rect<sp/>(10,<sp/>Screen.height<sp/>-<sp/>20,<sp/>400,<sp/>30);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" kindref="member">isIkActive</ref><sp/>=<sp/>GUI.Toggle<sp/>(rect1,<sp/><ref refid="class_unity_chan_1_1_i_k_ctrl_right_hand_1ae85af8a67bec8b70d90a99f8bb952a1f" kindref="member">isIkActive</ref>,<sp/></highlight><highlight class="stringliteral">&quot;IK<sp/>Active&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_item_h_p_bar_8cs" kind="file">
+    <compoundname>ItemHPBar.cs</compoundname>
+    <innerclass refid="class_item_h_p_bar" prot="public">ItemHPBar</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//UI使うときは忘れずに。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_item_h_p_bar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_item_h_p_bar" kindref="compound">ItemHPBar</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//最大HPと現在のHP。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" kindref="member">maxHp</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12" refid="class_item_h_p_bar_1a0eb7e8dc9438ea8a4aefbf2673ff69ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_item_h_p_bar_1a0eb7e8dc9438ea8a4aefbf2673ff69ca" kindref="member">Item</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sliderを入れる</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_item_h_p_bar_1a37b1e129e0fdea3eaaa17815f71d8b8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Slider<sp/><ref refid="class_item_h_p_bar_1a37b1e129e0fdea3eaaa17815f71d8b8a" kindref="member">slider</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_item_h_p_bar_1abf5f7bc8277a6bcb1ee3ee2bd86e4de3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_item_h_p_bar_1abf5f7bc8277a6bcb1ee3ee2bd86e4de3" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sliderを満タンにする。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slider.value<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//現在のHPを最大HPと同じに。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>hp<sp/>=<sp/>Item.gameObject.GetComponent&lt;<ref refid="classhamaaa" kindref="compound">hamaaa</ref>&gt;();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" kindref="member">maxHp</ref><sp/>=<sp/>hp.objectHP;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref><sp/>=<sp/><ref refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" kindref="member">maxHp</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Start<sp/>currentHp<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ColliderオブジェクトのIsTriggerにチェック入れること。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_item_h_p_bar_1a39b9065a26e5997f063c8cdfb9715cb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_item_h_p_bar_1a39b9065a26e5997f063c8cdfb9715cb3" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>hp<sp/>=<sp/>Item.gameObject.GetComponent&lt;<ref refid="classhamaaa" kindref="compound">hamaaa</ref>&gt;();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetButtonDown(</highlight><highlight class="stringliteral">&quot;X&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref><sp/>=<sp/><ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref><sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;currentHp<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//最大HPにおける現在のHPをSliderに反映。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int同士の割り算は小数点以下は0になるので、</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(float)をつけてfloatの変数として振舞わせる。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slider.value<sp/>=<sp/>(float)<ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref><sp/>/<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)<ref refid="class_item_h_p_bar_1ac193b2b8cddd592fe258fe1a259424dd" kindref="member">maxHp</ref>;<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;slider.value<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>slider.value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_item_h_p_bar_1ab29d78d1fcf0d5bce408be0c8096e53d" kindref="member">currentHp</ref><sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slider.gameObject.SetActive(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/UI_Scripts/ItemHPBar.cs"/>
+  </compounddef>
+</doxygen>

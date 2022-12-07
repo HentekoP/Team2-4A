@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_readme_8cs" kind="file">
+    <compoundname>Readme.cs</compoundname>
+    <innerclass refid="class_readme" prot="public">Readme</innerclass>
+    <innerclass refid="class_readme_1_1_section" prot="public">Readme::Section</innerclass>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_readme" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_readme" kindref="compound">Readme</ref><sp/>:<sp/>ScriptableObject<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_readme_1afb1dac08d4516f9bb4b60c403a31cb68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Texture2D<sp/><ref refid="class_readme_1afb1dac08d4516f9bb4b60c403a31cb68" kindref="member">icon</ref>;</highlight></codeline>
+<codeline lineno="6" refid="class_readme_1a5a0341025bb9c4cfa77c03024a3797ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_readme_1a5a0341025bb9c4cfa77c03024a3797ef" kindref="member">iconMaxWidth</ref><sp/>=<sp/>128f;</highlight></codeline>
+<codeline lineno="7" refid="class_readme_1a5d06a945d74a34026b56a6d2ddd65d24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_readme_1a5d06a945d74a34026b56a6d2ddd65d24" kindref="member">title</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_readme_1a3fcfeb50a710a5c910afc5043976635e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_readme_1a3fcfeb50a710a5c910afc5043976635e" kindref="member">titlesub</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_readme_1af02800ff1d374e5942fc0bc86f0c1c4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_readme_1_1_section" kindref="compound">Section</ref>[]<sp/><ref refid="class_readme_1af02800ff1d374e5942fc0bc86f0c1c4e" kindref="member">sections</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_readme_1a4ac0c7dc3f5e6ec524c5a4168ddede40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_readme_1a4ac0c7dc3f5e6ec524c5a4168ddede40" kindref="member">loadedLayout</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="13" refid="class_readme_1_1_section" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_readme_1_1_section" kindref="compound">Section</ref><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_readme_1_1_section_1add7e4ec0d0b73f06cb6f96322da2ad31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_readme_1_1_section_1a9a4437c2b9891dec98d2e569051abd77" kindref="member">heading</ref>,<sp/><ref refid="class_readme_1_1_section_1af0d255cd90169e5ac237a4baf13c9785" kindref="member">text</ref>,<sp/><ref refid="class_readme_1_1_section_1a2b8565a637dd65de08e5d8631d360178" kindref="member">linkText</ref>,<sp/><ref refid="class_readme_1_1_section_1add7e4ec0d0b73f06cb6f96322da2ad31" kindref="member">url</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_mesh_data_8cs" kind="file">
+    <compoundname>MeshData.cs</compoundname>
+    <innerclass refid="class_mesh_data" prot="public">MeshData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>A<sp/>way<sp/>to<sp/>hold<sp/>mesh<sp/>data<sp/>separate<sp/>to<sp/>Unity&apos;s<sp/>mesh<sp/>object<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_mesh_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_mesh_data" kindref="compound">MeshData</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_mesh_data_1afb7003edac2072b12875bf39ad5f9475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;<sp/><ref refid="class_mesh_data_1afb7003edac2072b12875bf39ad5f9475" kindref="member">vertices</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;();</highlight></codeline>
+<codeline lineno="8" refid="class_mesh_data_1ab1969ed6f867b14f2e773174021a9865" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;<sp/><ref refid="class_mesh_data_1ab1969ed6f867b14f2e773174021a9865" kindref="member">normals</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;();</highlight></codeline>
+<codeline lineno="9" refid="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;Vector2&gt;<sp/><ref refid="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" kindref="member">uvs</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Vector2&gt;();</highlight></codeline>
+<codeline lineno="10" refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;List&lt;int&gt;&gt;<sp/><ref refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" kindref="member">submeshIndices</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;List&lt;int&gt;&gt;();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Add<sp/>a<sp/>triangle<sp/>object<sp/>to<sp/>this<sp/>mesh<sp/>holder<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_mesh_data_1a3e19ec0c45916a82ded9748d0b16ee58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mesh_data_1a3e19ec0c45916a82ded9748d0b16ee58" kindref="member">AddTriangle</ref>(<ref refid="class_triangle" kindref="compound">Triangle</ref><sp/>triangle)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vertices.AddRange(triangle.vertices);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>normals.AddRange(triangle.normals);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uvs.AddRange(triangle.uvs);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Make<sp/>sure<sp/>the<sp/>submesh<sp/>indices<sp/>array<sp/>is<sp/>the<sp/>right<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" kindref="member">submeshIndices</ref>.Count<sp/>&lt;<sp/>triangle.<ref refid="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" kindref="member">submeshIndex</ref><sp/>+<sp/>1)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/><ref refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" kindref="member">submeshIndices</ref>.Count;<sp/>i<sp/>&lt;<sp/>triangle.<ref refid="class_triangle_1ad1e3c6f02e68ffb49d1342c91e7fa00d" kindref="member">submeshIndex</ref><sp/>+<sp/>1;<sp/>i++)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>submeshIndices.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;int&gt;());</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Update<sp/>the<sp/>index<sp/>count<sp/>for<sp/>this<sp/>triangle&apos;s<sp/>submesh</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>i++)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" kindref="member">submeshIndices</ref>[triangle.submeshIndex].Add(vertices.Count<sp/>-<sp/>triangle.vertices.Count<sp/>+<sp/>i);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Convert<sp/>this<sp/>mesh<sp/>holder<sp/>into<sp/>a<sp/>Uunity<sp/>mesh<sp/>object<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Mesh<sp/><ref refid="class_mesh_data_1ab8cfa0cee725f6f58c2878766c72533a" kindref="member">AsUnityMesh</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mesh<sp/>mesh<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Mesh();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesh.SetVertices(<ref refid="class_mesh_data_1afb7003edac2072b12875bf39ad5f9475" kindref="member">vertices</ref>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesh.SetNormals(<ref refid="class_mesh_data_1ab1969ed6f867b14f2e773174021a9865" kindref="member">normals</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesh.SetUVs(0,<sp/><ref refid="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" kindref="member">uvs</ref>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesh.SetUVs(1,<sp/><ref refid="class_mesh_data_1ac64c20a9adff31acb033766b739afc64" kindref="member">uvs</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Populate<sp/>indicies<sp/>appropriately<sp/>by<sp/>submesh</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesh.subMeshCount<sp/>=<sp/>submeshIndices.Count;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>submeshIndices.Count;<sp/>i++)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesh.SetTriangles(<ref refid="class_mesh_data_1a69cae3f93e71beb9f363cbc7bcf3974c" kindref="member">submeshIndices</ref>[i],<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mesh;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//Triangleを使ってオブジェクトのMeshを読み込んでいる。オブジェクトの破壊に使っているため、とても大切</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/MeshData.cs"/>
+  </compounddef>
+</doxygen>

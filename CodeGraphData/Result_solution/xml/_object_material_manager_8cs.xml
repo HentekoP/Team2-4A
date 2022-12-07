@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_object_material_manager_8cs" kind="file">
+    <compoundname>ObjectMaterialManager.cs</compoundname>
+    <innerclass refid="class_object_material_manager" prot="public">ObjectMaterialManager</innerclass>
+    <innerclass refid="class_material_definitions" prot="public">MaterialDefinitions</innerclass>
+    <innerclass refid="class_material_definition" prot="public">MaterialDefinition</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" prot="public" static="no">
+        <name>MaterialTypes</name>
+        <enumvalue id="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790a99754bd8a4582cec06660aa8880e23e5" prot="public">
+          <name>BEDROCK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790a03e3196dfeec934c86f3d82ee384b4a5" prot="public">
+          <name>GLASS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790aef4e7445ec9bbbfc8d25d92a16042f88" prot="public">
+          <name>CONCRETE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs" bodystart="85" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Material<sp/>manager<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_object_material_manager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_object_material_manager" kindref="compound">ObjectMaterialManager</ref><sp/>:<sp/>MonoSingleton&lt;ObjectMaterialManager&gt;<sp/><sp/><sp/></highlight><highlight class="comment">//MonoSingletionの情報を継承している</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_material_definitions" kindref="compound">MaterialDefinitions</ref><sp/><ref refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" kindref="member">materialData</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pull<sp/>material<sp/>data<sp/>from<sp/>json<sp/>on<sp/>startup<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_object_material_manager_1a1cfdc56df85cf143d074dfef751e65b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1a1cfdc56df85cf143d074dfef751e65b9" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" kindref="member">materialData</ref><sp/>=<sp/>(<ref refid="class_material_definitions" kindref="compound">MaterialDefinitions</ref>)JsonUtility.FromJson(System.IO.File.ReadAllText(Application.streamingAssetsPath<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/material_types.json&quot;</highlight><highlight class="normal">),<sp/>typeof(<ref refid="class_material_definitions" kindref="compound">MaterialDefinitions</ref>));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Can<sp/>the<sp/>requested<sp/>material<sp/>break?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_object_material_manager_1ac671b118cb7ac7a760a0b013b25615a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1ac671b118cb7ac7a760a0b013b25615a5" kindref="member">CanMaterialBreak</ref>(<ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref><sp/>type)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="class_material_definition" kindref="compound">MaterialDefinition</ref><sp/>material<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" kindref="member">materialData</ref>.<ref refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" kindref="member">materials</ref>)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(material.<ref refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" kindref="member">type</ref><sp/>==<sp/>type.ToString())</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>material.can_shatter;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogError(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>access<sp/>data<sp/>for<sp/>non-existant<sp/>material<sp/>(&quot;</highlight><highlight class="normal"><sp/>+<sp/>type<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;)!<sp/>DO<sp/>NOT<sp/>MANUALLY<sp/>EDIT<sp/>THE<sp/>FILES!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>What<sp/>is<sp/>the<sp/>strength<sp/>of<sp/>the<sp/>requested<sp/>material?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_object_material_manager_1a0925ae469eb52c5f3e8f086cebfdfb16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1a0925ae469eb52c5f3e8f086cebfdfb16" kindref="member">GetMaterialStrength</ref>(<ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref><sp/>type)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="class_material_definition" kindref="compound">MaterialDefinition</ref><sp/>material<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" kindref="member">materialData</ref>.<ref refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" kindref="member">materials</ref>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(material.<ref refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" kindref="member">type</ref><sp/>==<sp/>type.ToString())</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!material.<ref refid="class_material_definition_1aa188ef171d78c1d8eaef6b46cfce89e3" kindref="member">can_shatter</ref>)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogError(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>access<sp/>strength<sp/>value<sp/>of<sp/>non-breakable<sp/>material<sp/>(&quot;</highlight><highlight class="normal"><sp/>+<sp/>type<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;).<sp/>Always<sp/>call<sp/>CanMaterialBreak<sp/>first!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>material.strength;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogError(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>access<sp/>data<sp/>for<sp/>non-existant<sp/>material<sp/>(&quot;</highlight><highlight class="normal"><sp/>+<sp/>type<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;)!<sp/>DO<sp/>NOT<sp/>MANUALLY<sp/>EDIT<sp/>THE<sp/>FILES!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>What<sp/>is<sp/>the<sp/>density<sp/>of<sp/>the<sp/>requested<sp/>material?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_object_material_manager_1af84abd5efaf1d37ca163432d2a160e41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1af84abd5efaf1d37ca163432d2a160e41" kindref="member">GetMaterialDensity</ref>(<ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref><sp/>type)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="class_material_definition" kindref="compound">MaterialDefinition</ref><sp/>material<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_object_material_manager_1a19471d06e6592e966bcfecd0fef5de65" kindref="member">materialData</ref>.<ref refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" kindref="member">materials</ref>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(material.<ref refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" kindref="member">type</ref><sp/>==<sp/>type.ToString())</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!material.<ref refid="class_material_definition_1aa188ef171d78c1d8eaef6b46cfce89e3" kindref="member">can_shatter</ref>)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogError(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>access<sp/>density<sp/>value<sp/>of<sp/>non-breakable<sp/>material<sp/>(&quot;</highlight><highlight class="normal"><sp/>+<sp/>type<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;).<sp/>Always<sp/>call<sp/>CanMaterialBreak<sp/>first!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>material.density;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogError(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>access<sp/>data<sp/>for<sp/>non-existant<sp/>material<sp/>(&quot;</highlight><highlight class="normal"><sp/>+<sp/>type<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;)!<sp/>DO<sp/>NOT<sp/>MANUALLY<sp/>EDIT<sp/>THE<sp/>FILES!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Material<sp/>json<sp/>setup<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">[System.Serializable]</highlight></codeline>
+<codeline lineno="71" refid="class_material_definitions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_material_definitions" kindref="compound">MaterialDefinitions</ref></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73" refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;MaterialDefinition&gt;<sp/><ref refid="class_material_definitions_1abfbcf12953fb3faf740be5b58ba0340a" kindref="member">materials</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">[System.Serializable]</highlight></codeline>
+<codeline lineno="76" refid="class_material_definition" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_material_definition" kindref="compound">MaterialDefinition</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78" refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_material_definition_1a46c7a0cfc6a5a46c54bb5d2fec71145f" kindref="member">type</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>name<sp/>of<sp/>the<sp/>material</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_material_definition_1aa188ef171d78c1d8eaef6b46cfce89e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_material_definition_1aa188ef171d78c1d8eaef6b46cfce89e3" kindref="member">can_shatter</ref>;<sp/></highlight><highlight class="comment">//If<sp/>this<sp/>material<sp/>is<sp/>breakable<sp/>or<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_material_definition_1a0ed41a74867cdf5cdbea71d15445e366" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_material_definition_1a0ed41a74867cdf5cdbea71d15445e366" kindref="member">strength</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>strength<sp/>of<sp/>this<sp/>material<sp/>(how<sp/>hard<sp/>does<sp/>it<sp/>need<sp/>to<sp/>be<sp/>hit/dropped<sp/>to<sp/>break)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_material_definition_1a5790e1c411b8cd64f05e6c28a9f09c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_material_definition_1a5790e1c411b8cd64f05e6c28a9f09c12" kindref="member">density</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>density<sp/>of<sp/>this<sp/>material<sp/>(how<sp/>much<sp/>it<sp/>should<sp/>shatter<sp/>when<sp/>broken)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>enum<sp/>is<sp/>auto-populated...<sp/>do<sp/>not<sp/>edit<sp/>anything<sp/>below<sp/>this<sp/>line!<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790" kindref="member">MaterialTypes</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*START*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790a99754bd8a4582cec06660aa8880e23e5" kindref="member">BEDROCK</ref>,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790a03e3196dfeec934c86f3d82ee384b4a5" kindref="member">GLASS</ref>,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_object_material_manager_8cs_1a46afe620c022498862e5f593a9661790aef4e7445ec9bbbfc8d25d92a16042f88" kindref="member">CONCRETE</ref>,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*END*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//オブジェクトの素材を決めている。めっちゃ大切。</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/ObjectMaterialManager.cs"/>
+  </compounddef>
+</doxygen>
