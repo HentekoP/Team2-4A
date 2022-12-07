@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_w_f_x___demo___wall" kind="class" prot="public">
+    <compoundname>WFX_Demo_Wall</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_w_f_x___demo___wall_1a430f2994de97f7369d33b2bb1830eafd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_w_f_x___demo___new" kindref="compound">WFX_Demo_New</ref></type>
+        <definition>WFX_Demo_New WFX_Demo_Wall.demo</definition>
+        <argsstring></argsstring>
+        <name>demo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_w_f_x___demo___wall_1a891bc588485298ffe5dbbb550318f4dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo_Wall.OnMouseDown</definition>
+        <argsstring>()</argsstring>
+        <name>OnMouseDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" bodystart="16" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Demo Scene Script for WAR FX</para><para>(c) 2015, Jean Moreno </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2887">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2886">
+        <label>WFX_Demo_Wall</label>
+        <link refid="class_w_f_x___demo___wall"/>
+        <childnode refid="2887" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2890">
+        <label>WFX_Demo_New</label>
+        <link refid="class_w_f_x___demo___new"/>
+        <childnode refid="2889" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2891" relation="usage">
+          <edgelabel>slowMoLabel</edgelabel>
+          <edgelabel>groundLabel</edgelabel>
+          <edgelabel>camRotLabel</edgelabel>
+          <edgelabel>EffectIndexLabel</edgelabel>
+          <edgelabel>EffectLabel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2891">
+        <label>Text</label>
+      </node>
+      <node id="2889">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2888">
+        <label>WFX_Demo_Wall</label>
+        <link refid="class_w_f_x___demo___wall"/>
+        <childnode refid="2889" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2890" relation="usage">
+          <edgelabel>demo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" bodystart="12" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_w_f_x___demo___wall_1a430f2994de97f7369d33b2bb1830eafd" prot="public" virt="non-virtual"><scope>WFX_Demo_Wall</scope><name>demo</name></member>
+      <member refid="class_w_f_x___demo___wall_1a891bc588485298ffe5dbbb550318f4dc" prot="private" virt="non-virtual"><scope>WFX_Demo_Wall</scope><name>OnMouseDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

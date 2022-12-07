@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::CarAudio</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7dd189bb3441676fce6ee35fb90a6b37" prot="public" static="no">
+        <name>EngineAudioOptions</name>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7dd189bb3441676fce6ee35fb90a6b37a1fbb1e3943c2c6c560247ac8f9289780" prot="public">
+          <name>Simple</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7dd189bb3441676fce6ee35fb90a6b37a0f8141e9dafcae8d4ef2634a7acd14b4" prot="public">
+          <name>FourChannel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a5949320bd7282bbfee973e2134d3bc0e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7dd189bb3441676fce6ee35fb90a6b37" kindref="member">EngineAudioOptions</ref></type>
+        <definition>EngineAudioOptions UnityStandardAssets.Vehicles.Car.CarAudio.engineSoundStyle</definition>
+        <argsstring></argsstring>
+        <name>engineSoundStyle</name>
+        <initializer>= EngineAudioOptions.FourChannel</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a3f0526e9068ee623953c97a49d6cbe25" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip UnityStandardAssets.Vehicles.Car.CarAudio.lowAccelClip</definition>
+        <argsstring></argsstring>
+        <name>lowAccelClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a42d6b1d535cf83a73df7336eca8fc165" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip UnityStandardAssets.Vehicles.Car.CarAudio.lowDecelClip</definition>
+        <argsstring></argsstring>
+        <name>lowDecelClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a3858a3e28784b0ee5cdfc25aac4c9686" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip UnityStandardAssets.Vehicles.Car.CarAudio.highAccelClip</definition>
+        <argsstring></argsstring>
+        <name>highAccelClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ae15d8e33e4e32ec2624c3ab35fa19c05" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip UnityStandardAssets.Vehicles.Car.CarAudio.highDecelClip</definition>
+        <argsstring></argsstring>
+        <name>highDecelClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ae6a1bef338710be60a394dd3a8327894" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAudio.pitchMultiplier</definition>
+        <argsstring></argsstring>
+        <name>pitchMultiplier</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7ffd1d91c6551dc7704039b9037c1978" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAudio.lowPitchMin</definition>
+        <argsstring></argsstring>
+        <name>lowPitchMin</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a0793791fcc4b455676c8b31a65beba71" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAudio.lowPitchMax</definition>
+        <argsstring></argsstring>
+        <name>lowPitchMax</name>
+        <initializer>= 6f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a95b4286b5d269a70a7f14cf0e0111f21" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAudio.highPitchMultiplier</definition>
+        <argsstring></argsstring>
+        <name>highPitchMultiplier</name>
+        <initializer>= 0.25f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ace721aa62d9fad33d883c57fb2ba8c02" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAudio.maxRolloffDistance</definition>
+        <argsstring></argsstring>
+        <name>maxRolloffDistance</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ad5992f4218d05e08cb50ad6cc8b9069f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAudio.dopplerLevel</definition>
+        <argsstring></argsstring>
+        <name>dopplerLevel</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1aa3e6d77e354499e685267fa766c7a6be" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Car.CarAudio.useDoppler</definition>
+        <argsstring></argsstring>
+        <name>useDoppler</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a4acab23e46920fd0c1b7899237458fb2" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource UnityStandardAssets.Vehicles.Car.CarAudio.m_LowAccel</definition>
+        <argsstring></argsstring>
+        <name>m_LowAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a9a2e7a49f21ba78d3bac8b94b2a55ce0" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource UnityStandardAssets.Vehicles.Car.CarAudio.m_LowDecel</definition>
+        <argsstring></argsstring>
+        <name>m_LowDecel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a105014fe0c9b5a4c678486df2782ebae" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource UnityStandardAssets.Vehicles.Car.CarAudio.m_HighAccel</definition>
+        <argsstring></argsstring>
+        <name>m_HighAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a6428b4022927624de4778f4038d1ddc4" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource UnityStandardAssets.Vehicles.Car.CarAudio.m_HighDecel</definition>
+        <argsstring></argsstring>
+        <name>m_HighDecel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1af42efc97b617ee91aadd734a71b7563d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Car.CarAudio.m_StartedSound</definition>
+        <argsstring></argsstring>
+        <name>m_StartedSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a2dc5792f29d122c928c0f741b3e4548a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" kindref="compound">CarController</ref></type>
+        <definition>CarController UnityStandardAssets.Vehicles.Car.CarAudio.m_CarController</definition>
+        <argsstring></argsstring>
+        <name>m_CarController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1abc8d5bba05322c8189ff364277acd79e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAudio.StartSound</definition>
+        <argsstring>()</argsstring>
+        <name>StartSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="53" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1addec8a6eca13c6fc569bddfd790890b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAudio.StopSound</definition>
+        <argsstring>()</argsstring>
+        <name>StopSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="74" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a22c56adc7144d0c96b9d0905bb5cdcac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAudio.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="87" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1aa5acd7964a5fe420b1c50273da954318" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AudioSource</type>
+        <definition>AudioSource UnityStandardAssets.Vehicles.Car.CarAudio.SetUpEngineAudioSource</definition>
+        <argsstring>(AudioClip clip)</argsstring>
+        <name>SetUpEngineAudioSource</name>
+        <param>
+          <type>AudioClip</type>
+          <declname>clip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="160" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="160" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a5583639e4a1c88016de2acc5290297ab" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float UnityStandardAssets.Vehicles.Car.CarAudio.ULerp</definition>
+        <argsstring>(float from, float to, float value)</argsstring>
+        <name>ULerp</name>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="179" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="179" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="424">
+        <label>UnityStandardAssets.Vehicles.Car.CarAudio</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="426">
+        <label>UnityStandardAssets.Vehicles.Car.CarAudio</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="428" relation="usage">
+          <edgelabel>m_CarController</edgelabel>
+        </childnode>
+      </node>
+      <node id="429">
+        <label>UnityStandardAssets.Vehicles.Car.WheelEffects</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="428">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>m_WheelEffects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" bodystart="8" bodyend="183"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ad5992f4218d05e08cb50ad6cc8b9069f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>dopplerLevel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7dd189bb3441676fce6ee35fb90a6b37" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>EngineAudioOptions</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a5949320bd7282bbfee973e2134d3bc0e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>engineSoundStyle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a3858a3e28784b0ee5cdfc25aac4c9686" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>highAccelClip</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ae15d8e33e4e32ec2624c3ab35fa19c05" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>highDecelClip</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a95b4286b5d269a70a7f14cf0e0111f21" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>highPitchMultiplier</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a3f0526e9068ee623953c97a49d6cbe25" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>lowAccelClip</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a42d6b1d535cf83a73df7336eca8fc165" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>lowDecelClip</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a0793791fcc4b455676c8b31a65beba71" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>lowPitchMax</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a7ffd1d91c6551dc7704039b9037c1978" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>lowPitchMin</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a2dc5792f29d122c928c0f741b3e4548a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>m_CarController</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a105014fe0c9b5a4c678486df2782ebae" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>m_HighAccel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a6428b4022927624de4778f4038d1ddc4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>m_HighDecel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a4acab23e46920fd0c1b7899237458fb2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>m_LowAccel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a9a2e7a49f21ba78d3bac8b94b2a55ce0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>m_LowDecel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1af42efc97b617ee91aadd734a71b7563d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>m_StartedSound</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ace721aa62d9fad33d883c57fb2ba8c02" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>maxRolloffDistance</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1ae6a1bef338710be60a394dd3a8327894" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>pitchMultiplier</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1aa5acd7964a5fe420b1c50273da954318" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>SetUpEngineAudioSource</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1abc8d5bba05322c8189ff364277acd79e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>StartSound</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1addec8a6eca13c6fc569bddfd790890b5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>StopSound</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a5583639e4a1c88016de2acc5290297ab" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>ULerp</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1a22c56adc7144d0c96b9d0905bb5cdcac" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>Update</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio_1aa3e6d77e354499e685267fa766c7a6be" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAudio</scope><name>useDoppler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

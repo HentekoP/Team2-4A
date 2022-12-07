@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_water_1_1_water_base_editor" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Water::WaterBaseEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a4302e625fd90d2dee8564015204a25cf" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UnityStandardAssets.Water.WaterBaseEditor.oceanBase</definition>
+        <argsstring></argsstring>
+        <name>oceanBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1ac01a74c431a4ee898b205af200f49db8" prot="public" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityStandardAssets.Water.WaterBaseEditor.waterQuality</definition>
+        <argsstring></argsstring>
+        <name>waterQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1acb6babed59269457579dc26583fa7a6b" prot="public" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityStandardAssets.Water.WaterBaseEditor.edgeBlend</definition>
+        <argsstring></argsstring>
+        <name>edgeBlend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1abcb7f930b0a4e11e400ae80a13b16a97" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_water_1_1_water_base" kindref="compound">WaterBase</ref></type>
+        <definition>WaterBase UnityStandardAssets.Water.WaterBaseEditor.waterBase</definition>
+        <argsstring></argsstring>
+        <name>waterBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a43e06173664c8b3250bd9356dceef184" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityStandardAssets.Water.WaterBaseEditor.oceanMaterial</definition>
+        <argsstring></argsstring>
+        <name>oceanMaterial</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a4e95feea74a47b40465796f9c81d4387" prot="private" static="no" mutable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject UnityStandardAssets.Water.WaterBaseEditor.serObj</definition>
+        <argsstring></argsstring>
+        <name>serObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a10c8b9f28014324418bcf65e150e1d64" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityStandardAssets.Water.WaterBaseEditor.sharedMaterial</definition>
+        <argsstring></argsstring>
+        <name>sharedMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1aab6c757b37f4ed71d693fb94a0b79cb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.WaterBaseEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a9ef874a675b222857739be2bb118d7e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Water.WaterBaseEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="29" bodyend="193"/>
+        <references refid="class_water_editor_utility_1ab1ea814c527fc45bd7337e6e06cc3547" compoundref="_water_editor_utility_8cs" startline="27" endline="29">WaterEditorUtility.GetMaterialTexture</references>
+        <references refid="class_water_editor_utility_1a0b90e27441bd1abef7f378ee4dd92cea" compoundref="_water_editor_utility_8cs" startline="34" endline="44">WaterEditorUtility.LocateValidWaterMaterial</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2820">
+        <label>Editor</label>
+      </node>
+      <node id="2819">
+        <label>UnityStandardAssets.Water.WaterBaseEditor</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor"/>
+        <childnode refid="2820" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2822">
+        <label>Editor</label>
+      </node>
+      <node id="2823">
+        <label>UnityStandardAssets.Water.WaterBase</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water_base"/>
+        <childnode refid="2824" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2821">
+        <label>UnityStandardAssets.Water.WaterBaseEditor</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor"/>
+        <childnode refid="2822" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2823" relation="usage">
+          <edgelabel>waterBase</edgelabel>
+        </childnode>
+      </node>
+      <node id="2824">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" bodystart="8" bodyend="195"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1acb6babed59269457579dc26583fa7a6b" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>edgeBlend</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a4302e625fd90d2dee8564015204a25cf" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>oceanBase</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a43e06173664c8b3250bd9356dceef184" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>oceanMaterial</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1aab6c757b37f4ed71d693fb94a0b79cb0" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a9ef874a675b222857739be2bb118d7e0" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a4e95feea74a47b40465796f9c81d4387" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>serObj</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1a10c8b9f28014324418bcf65e150e1d64" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>sharedMaterial</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1abcb7f930b0a4e11e400ae80a13b16a97" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>waterBase</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_editor_1ac01a74c431a4ee898b205af200f49db8" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBaseEditor</scope><name>waterQuality</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

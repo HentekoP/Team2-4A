@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classcreatecube" kind="class" prot="public">
+    <compoundname>createcube</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcreatecube_1af58e25cb220e15f08465d8c0756e72b6" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject createcube.prefabObj</definition>
+        <argsstring></argsstring>
+        <name>prefabObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" compoundref="createcube_8cs" startline="25" endline="73">CreateBlockObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcreatecube_1af837f321035f229a51f2eddf64757a24" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform createcube.parentTran</definition>
+        <argsstring></argsstring>
+        <name>parentTran</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" compoundref="createcube_8cs" startline="25" endline="73">CreateBlockObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcreatecube_1a0825d9deafafa6dc46d9bf842b48ef07" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material createcube.matCyan</definition>
+        <argsstring></argsstring>
+        <name>matCyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" compoundref="createcube_8cs" startline="25" endline="73">CreateBlockObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcreatecube_1a4c5aa773d8f25e31ed0325cd673b6f47" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material createcube.matYellow</definition>
+        <argsstring></argsstring>
+        <name>matYellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" compoundref="createcube_8cs" startline="25" endline="73">CreateBlockObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcreatecube_1af41157240caba447fe57d4f15088ef05" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material createcube.matBulue</definition>
+        <argsstring></argsstring>
+        <name>matBulue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" compoundref="createcube_8cs" startline="25" endline="73">CreateBlockObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcreatecube_1a66124b661fe6f42d5ed58c4d0be26fca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createcube.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="16" bodyend="19"/>
+        <references refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" compoundref="createcube_8cs" startline="25" endline="73">CreateBlockObject</references>
+      </memberdef>
+      <memberdef kind="function" id="classcreatecube_1a8074f3fe86283550ce8d60a9e5398223" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createcube.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createcube.CreateBlockObject</definition>
+        <argsstring>()</argsstring>
+        <name>CreateBlockObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="25" bodyend="73"/>
+        <references refid="classcreatecube_1af41157240caba447fe57d4f15088ef05" compoundref="createcube_8cs" startline="13">matBulue</references>
+        <references refid="classcreatecube_1a0825d9deafafa6dc46d9bf842b48ef07" compoundref="createcube_8cs" startline="11">matCyan</references>
+        <references refid="classcreatecube_1a4c5aa773d8f25e31ed0325cd673b6f47" compoundref="createcube_8cs" startline="12">matYellow</references>
+        <references refid="classcreatecube_1af837f321035f229a51f2eddf64757a24" compoundref="createcube_8cs" startline="9">parentTran</references>
+        <references refid="classcreatecube_1af58e25cb220e15f08465d8c0756e72b6" compoundref="createcube_8cs" startline="7">prefabObj</references>
+        <referencedby refid="classcreatecube_1a66124b661fe6f42d5ed58c4d0be26fca" compoundref="createcube_8cs" startline="16" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="653">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="652">
+        <label>createcube</label>
+        <link refid="classcreatecube"/>
+        <childnode refid="653" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="655">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="654">
+        <label>createcube</label>
+        <link refid="classcreatecube"/>
+        <childnode refid="655" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/createcube.cs" bodystart="5" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classcreatecube_1a7035bfbe91983a2125ce4b1410d2b6e7" prot="private" virt="non-virtual"><scope>createcube</scope><name>CreateBlockObject</name></member>
+      <member refid="classcreatecube_1af41157240caba447fe57d4f15088ef05" prot="public" virt="non-virtual"><scope>createcube</scope><name>matBulue</name></member>
+      <member refid="classcreatecube_1a0825d9deafafa6dc46d9bf842b48ef07" prot="public" virt="non-virtual"><scope>createcube</scope><name>matCyan</name></member>
+      <member refid="classcreatecube_1a4c5aa773d8f25e31ed0325cd673b6f47" prot="public" virt="non-virtual"><scope>createcube</scope><name>matYellow</name></member>
+      <member refid="classcreatecube_1af837f321035f229a51f2eddf64757a24" prot="public" virt="non-virtual"><scope>createcube</scope><name>parentTran</name></member>
+      <member refid="classcreatecube_1af58e25cb220e15f08465d8c0756e72b6" prot="public" virt="non-virtual"><scope>createcube</scope><name>prefabObj</name></member>
+      <member refid="classcreatecube_1a66124b661fe6f42d5ed58c4d0be26fca" prot="private" virt="non-virtual"><scope>createcube</scope><name>Start</name></member>
+      <member refid="classcreatecube_1a8074f3fe86283550ce8d60a9e5398223" prot="private" virt="non-virtual"><scope>createcube</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classhamaa2" kind="class" prot="public">
+    <compoundname>hamaa2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhamaa2_1ab90ec70586c624cdf058e8db4b8e148f" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 hamaa2.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaa2_1aee580978cf64d77a1ccdb988720baa09" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool hamaa2.isHit</definition>
+        <argsstring></argsstring>
+        <name>isHit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classhamaa2_1a0a56290ff2c9c3f9040bc68cf6ad2a68" compoundref="hamaa2_8cs" startline="17" endline="21">Start</referencedby>
+        <referencedby refid="classhamaa2_1a857a8d58098ca06929df9d3faca635a0" compoundref="hamaa2_8cs" startline="23" endline="33">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhamaa2_1a6b77f0aa2fb4ec5e4e21ef27787cda3c" prot="public" static="no" mutable="no">
+        <type>SphereCollider</type>
+        <definition>SphereCollider hamaa2.bc</definition>
+        <argsstring></argsstring>
+        <name>bc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaa2_1a58a77bebbfccce523b9c3fcead10f86b" prot="public" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody hamaa2.rig</definition>
+        <argsstring></argsstring>
+        <name>rig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classhamaa2_1ad79fcbac35093a9819e37a5097f4c8f0" compoundref="hamaa2_8cs" startline="66" endline="77">OnCollisionEnter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaa2_1abb480880db5f020b8888ac97185016b4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float hamaa2.forceHeight</definition>
+        <argsstring></argsstring>
+        <name>forceHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaa2_1aef88f6e973d3617637602c63632a2574" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float hamaa2.forcePower</definition>
+        <argsstring></argsstring>
+        <name>forcePower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhamaa2_1a0a56290ff2c9c3f9040bc68cf6ad2a68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaa2.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="17" bodyend="21"/>
+        <references refid="classhamaa2_1aee580978cf64d77a1ccdb988720baa09" compoundref="hamaa2_8cs" startline="9">isHit</references>
+      </memberdef>
+      <memberdef kind="function" id="classhamaa2_1a857a8d58098ca06929df9d3faca635a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaa2.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="23" bodyend="33"/>
+        <references refid="classhamaa2_1aee580978cf64d77a1ccdb988720baa09" compoundref="hamaa2_8cs" startline="9">isHit</references>
+      </memberdef>
+      <memberdef kind="function" id="classhamaa2_1ad79fcbac35093a9819e37a5097f4c8f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaa2.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="66" bodyend="77"/>
+        <references refid="classhamaa2_1a58a77bebbfccce523b9c3fcead10f86b" compoundref="hamaa2_8cs" startline="13">rig</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1266">
+        <label>hamaa2</label>
+        <link refid="classhamaa2"/>
+        <childnode refid="1267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1267">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1268">
+        <label>hamaa2</label>
+        <link refid="classhamaa2"/>
+        <childnode refid="1269" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1269">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaa2.cs" bodystart="5" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classhamaa2_1a6b77f0aa2fb4ec5e4e21ef27787cda3c" prot="public" virt="non-virtual"><scope>hamaa2</scope><name>bc</name></member>
+      <member refid="classhamaa2_1abb480880db5f020b8888ac97185016b4" prot="public" virt="non-virtual"><scope>hamaa2</scope><name>forceHeight</name></member>
+      <member refid="classhamaa2_1aef88f6e973d3617637602c63632a2574" prot="public" virt="non-virtual"><scope>hamaa2</scope><name>forcePower</name></member>
+      <member refid="classhamaa2_1aee580978cf64d77a1ccdb988720baa09" prot="private" virt="non-virtual"><scope>hamaa2</scope><name>isHit</name></member>
+      <member refid="classhamaa2_1ad79fcbac35093a9819e37a5097f4c8f0" prot="private" virt="non-virtual"><scope>hamaa2</scope><name>OnCollisionEnter</name></member>
+      <member refid="classhamaa2_1a58a77bebbfccce523b9c3fcead10f86b" prot="public" virt="non-virtual"><scope>hamaa2</scope><name>rig</name></member>
+      <member refid="classhamaa2_1a0a56290ff2c9c3f9040bc68cf6ad2a68" prot="private" virt="non-virtual"><scope>hamaa2</scope><name>Start</name></member>
+      <member refid="classhamaa2_1ab90ec70586c624cdf058e8db4b8e148f" prot="private" virt="non-virtual"><scope>hamaa2</scope><name>target</name></member>
+      <member refid="classhamaa2_1a857a8d58098ca06929df9d3faca635a0" prot="private" virt="non-virtual"><scope>hamaa2</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

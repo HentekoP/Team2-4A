@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classmeshrig" kind="class" prot="public">
+    <compoundname>meshrig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmeshrig_1a806fdedcef652015ee060a7208fca004" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 meshrig.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmeshrig_1a13495dadfe512a5437a3a482c15c3680" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool meshrig.isHit</definition>
+        <argsstring></argsstring>
+        <name>isHit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmeshrig_1aa15e6136af835078bd1dd144af78b33d" prot="public" static="no" mutable="no">
+        <type>SphereCollider</type>
+        <definition>SphereCollider meshrig.bc</definition>
+        <argsstring></argsstring>
+        <name>bc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmeshrig_1a3c02a66e10239575049d1bb6ade3127f" prot="public" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody meshrig.rig</definition>
+        <argsstring></argsstring>
+        <name>rig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classmeshrig_1a0920148b6e88fa6cf8d8e307e15aad46" compoundref="meshrig_8cs" startline="31" endline="67">OnCollisionEnter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmeshrig_1ad88bebf82ac44ba12b4cdc2545a7d903" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void meshrig.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classmeshrig_1a6b9c056c2180c053ad87baf477c82c88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void meshrig.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classmeshrig_1a0920148b6e88fa6cf8d8e307e15aad46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void meshrig.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="31" bodyend="67"/>
+        <references refid="classmeshrig_1a3c02a66e10239575049d1bb6ade3127f" compoundref="meshrig_8cs" startline="13">rig</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1440">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1439">
+        <label>meshrig</label>
+        <link refid="classmeshrig"/>
+        <childnode refid="1440" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1442">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1441">
+        <label>meshrig</label>
+        <link refid="classmeshrig"/>
+        <childnode refid="1442" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/meshrig.cs" bodystart="5" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classmeshrig_1aa15e6136af835078bd1dd144af78b33d" prot="public" virt="non-virtual"><scope>meshrig</scope><name>bc</name></member>
+      <member refid="classmeshrig_1a6b9c056c2180c053ad87baf477c82c88" prot="private" virt="non-virtual"><scope>meshrig</scope><name>FixedUpdate</name></member>
+      <member refid="classmeshrig_1a13495dadfe512a5437a3a482c15c3680" prot="private" virt="non-virtual"><scope>meshrig</scope><name>isHit</name></member>
+      <member refid="classmeshrig_1a0920148b6e88fa6cf8d8e307e15aad46" prot="private" virt="non-virtual"><scope>meshrig</scope><name>OnCollisionEnter</name></member>
+      <member refid="classmeshrig_1a3c02a66e10239575049d1bb6ade3127f" prot="public" virt="non-virtual"><scope>meshrig</scope><name>rig</name></member>
+      <member refid="classmeshrig_1ad88bebf82ac44ba12b4cdc2545a7d903" prot="private" virt="non-virtual"><scope>meshrig</scope><name>Start</name></member>
+      <member refid="classmeshrig_1a806fdedcef652015ee060a7208fca004" prot="private" virt="non-virtual"><scope>meshrig</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

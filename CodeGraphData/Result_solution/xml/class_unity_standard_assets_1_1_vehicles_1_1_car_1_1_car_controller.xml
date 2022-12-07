@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::CarController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1ad158febc2be9391c3677d6c359e905e4" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_unity_standard_assets_1_1_vehicles_1_1_car_1afc7f48427e71ddbd895c7d85172bd58d" kindref="member">CarDriveType</ref></type>
+        <definition>CarDriveType UnityStandardAssets.Vehicles.Car.CarController.m_CarDriveType</definition>
+        <argsstring></argsstring>
+        <name>m_CarDriveType</name>
+        <initializer>= CarDriveType.FourWheelDrive</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a93ebbeb503a77553d34741254b2d6d94" prot="private" static="no" mutable="no">
+        <type>WheelCollider[]</type>
+        <definition>WheelCollider [] UnityStandardAssets.Vehicles.Car.CarController.m_WheelColliders</definition>
+        <argsstring></argsstring>
+        <name>m_WheelColliders</name>
+        <initializer>= new WheelCollider[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1abb4a0587c0b2a9a074a5e5219184e1d0" prot="private" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] UnityStandardAssets.Vehicles.Car.CarController.m_WheelMeshes</definition>
+        <argsstring></argsstring>
+        <name>m_WheelMeshes</name>
+        <initializer>= new GameObject[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a202c04423eee663ff7c0392237db9a6e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects" kindref="compound">WheelEffects</ref>[]</type>
+        <definition>WheelEffects [] UnityStandardAssets.Vehicles.Car.CarController.m_WheelEffects</definition>
+        <argsstring></argsstring>
+        <name>m_WheelEffects</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects" kindref="compound">WheelEffects</ref>[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1afb5ff211671fbaa2a20f337834be3001" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Vehicles.Car.CarController.m_CentreOfMassOffset</definition>
+        <argsstring></argsstring>
+        <name>m_CentreOfMassOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a174a767997aa3f76793c060bd8f9f717" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_MaximumSteerAngle</definition>
+        <argsstring></argsstring>
+        <name>m_MaximumSteerAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a378e37f48dbf1ccd2b70e8c8f8081be8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_SteerHelper</definition>
+        <argsstring></argsstring>
+        <name>m_SteerHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aa189ab42ca86ce0d6c8181b1f04f86a9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_TractionControl</definition>
+        <argsstring></argsstring>
+        <name>m_TractionControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a280c7fe985f0c784b64b7be8f43ab617" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_FullTorqueOverAllWheels</definition>
+        <argsstring></argsstring>
+        <name>m_FullTorqueOverAllWheels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a946b54589ceec23efdd978ead0ff86ff" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_ReverseTorque</definition>
+        <argsstring></argsstring>
+        <name>m_ReverseTorque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a60808167c3c50a3e4712f10c0d948069" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_MaxHandbrakeTorque</definition>
+        <argsstring></argsstring>
+        <name>m_MaxHandbrakeTorque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a91a92c4fb3155fce108d21e111585cad" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_Downforce</definition>
+        <argsstring></argsstring>
+        <name>m_Downforce</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1af4f3001de4ec66ca7a465c4e8f18e3a0" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_unity_standard_assets_1_1_vehicles_1_1_car_1aabd5a01409620cc4c426e7b92b102ba4" kindref="member">SpeedType</ref></type>
+        <definition>SpeedType UnityStandardAssets.Vehicles.Car.CarController.m_SpeedType</definition>
+        <argsstring></argsstring>
+        <name>m_SpeedType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a03b6734ad6c17fea1dbda609229a6096" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_Topspeed</definition>
+        <argsstring></argsstring>
+        <name>m_Topspeed</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aedcb52457d9112f27ae9b8824c32e53d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_RevRangeBoundary</definition>
+        <argsstring></argsstring>
+        <name>m_RevRangeBoundary</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aefba83893251840b8038d24c14474300" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_SlipLimit</definition>
+        <argsstring></argsstring>
+        <name>m_SlipLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1abd963f623b3ffd6adba038fa48dfe406" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_BrakeTorque</definition>
+        <argsstring></argsstring>
+        <name>m_BrakeTorque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a98d93fc9729e6665283011e060a81793" prot="private" static="no" mutable="no">
+        <type>Quaternion[]</type>
+        <definition>Quaternion [] UnityStandardAssets.Vehicles.Car.CarController.m_WheelMeshLocalRotations</definition>
+        <argsstring></argsstring>
+        <name>m_WheelMeshLocalRotations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a928140d40b1418b1fb5cfe5fba304902" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Vehicles.Car.CarController.m_Prevpos</definition>
+        <argsstring></argsstring>
+        <name>m_Prevpos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aff2adeb2842c1bf385bb800cace4db89" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Vehicles.Car.CarController.m_Pos</definition>
+        <argsstring></argsstring>
+        <name>m_Pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a53780f32e99fbfbefd5d083290c4e7d3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_SteerAngle</definition>
+        <argsstring></argsstring>
+        <name>m_SteerAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1af85f4faa3c23baa872894c4628463071" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Vehicles.Car.CarController.m_GearNum</definition>
+        <argsstring></argsstring>
+        <name>m_GearNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a873a992584798073cb0caad48ea174af" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_GearFactor</definition>
+        <argsstring></argsstring>
+        <name>m_GearFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1ab9da9bc6c9b793b5afb97f97910455fb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_OldRotation</definition>
+        <argsstring></argsstring>
+        <name>m_OldRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a2fd594c0965b3558a5a3d717756c920b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.m_CurrentTorque</definition>
+        <argsstring></argsstring>
+        <name>m_CurrentTorque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a33826fb44ead9ec2c3a40cd058ffef35" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Vehicles.Car.CarController.m_Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a23d41f35f9a1a3f6b39489edb36a833c" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Vehicles.Car.CarController.k_ReversingThreshold</definition>
+        <argsstring></argsstring>
+        <name>k_ReversingThreshold</name>
+        <initializer>= 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a31ca4ccc7d48a2b53a2a5e549730b2c5" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Vehicles.Car.CarController.NoOfGears</definition>
+        <argsstring></argsstring>
+        <name>NoOfGears</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aa0b5358bd226df3a27a094fcb5f06b7e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Car.CarController.Skidding</definition>
+        <argsstring></argsstring>
+        <name>Skidding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a08a42e26489212850b73233f8dafa64e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.BrakeInput</definition>
+        <argsstring></argsstring>
+        <name>BrakeInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a7e96e83d8b16669c032f6e8325f86a5a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.CurrentSteerAngle</definition>
+        <argsstring></argsstring>
+        <name>CurrentSteerAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a79306babf4b15acea18565e550f35250" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.CurrentSpeed</definition>
+        <argsstring></argsstring>
+        <name>CurrentSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1af55dac29a62618f0396397864b68f3d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.MaxSpeed</definition>
+        <argsstring></argsstring>
+        <name>MaxSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1afc20383fee54c532b7b062d73536e10b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.Revs</definition>
+        <argsstring></argsstring>
+        <name>Revs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a61fc994842fefaac267c158e82583253" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarController.AccelInput</definition>
+        <argsstring></argsstring>
+        <name>AccelInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1acf288b4348f669323341b32adcbc078d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="60" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a08e97b9494d231d8907f23d24c34c703" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.GearChanging</definition>
+        <argsstring>()</argsstring>
+        <name>GearChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="76" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1ad6f65cb2fea74a486ef64800aa5a92f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.CalculateGearFactor</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateGearFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="108" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aa11c5d41b901b8b4cb09ada5a982858e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.CalculateRevs</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateRevs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="118" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="118" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a7f7198db1b10875c5a6d0e3159a255bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.CapSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>CapSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="176" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="176" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1adf134c815335146d945b7adbcda5cf86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.ApplyDrive</definition>
+        <argsstring>(float accel, float footbrake)</argsstring>
+        <name>ApplyDrive</name>
+        <param>
+          <type>float</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>footbrake</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="197" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a2974a8618fbd461802498d92850d64ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.SteerHelper</definition>
+        <argsstring>()</argsstring>
+        <name>SteerHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="238" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="238" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a4f3b179f7ee26e0f553c43e8440d329c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.AddDownForce</definition>
+        <argsstring>()</argsstring>
+        <name>AddDownForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="260" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="260" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a90c05e2e12bc74a1d6f65a0daa1cf845" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.CheckForWheelSpin</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForWheelSpin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="272" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="272" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1add80bdf3af1a01c8203e5f579ae98fd0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.TractionControl</definition>
+        <argsstring>()</argsstring>
+        <name>TractionControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="305" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="305" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a7066724ab4ec11cd07252c0a1f459fa3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.AdjustTorque</definition>
+        <argsstring>(float forwardSlip)</argsstring>
+        <name>AdjustTorque</name>
+        <param>
+          <type>float</type>
+          <declname>forwardSlip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="339" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="339" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a8f767203fb546c828d8ca4484a5048df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Car.CarController.AnySkidSoundPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>AnySkidSoundPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="356" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="356" bodyend="366"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a3bde27faff05e3f7785b4f99b2e68897" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float UnityStandardAssets.Vehicles.Car.CarController.CurveFactor</definition>
+        <argsstring>(float factor)</argsstring>
+        <name>CurveFactor</name>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a2f6d09994620e982f344e7a9ac97b86a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float UnityStandardAssets.Vehicles.Car.CarController.ULerp</definition>
+        <argsstring>(float from, float to, float value)</argsstring>
+        <name>ULerp</name>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aea41a63b6548d7683cc325ea605c6370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarController.Move</definition>
+        <argsstring>(float steering, float accel, float footbrake, float handbrake)</argsstring>
+        <name>Move</name>
+        <param>
+          <type>float</type>
+          <declname>steering</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>footbrake</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>handbrake</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="130" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="431">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="430">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="434">
+        <label>UnityStandardAssets.Vehicles.Car.WheelEffects</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="432">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+        <childnode refid="434" relation="usage">
+          <edgelabel>m_WheelEffects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarController.cs" bodystart="20" bodyend="367"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a61fc994842fefaac267c158e82583253" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>AccelInput</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a4f3b179f7ee26e0f553c43e8440d329c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>AddDownForce</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a7066724ab4ec11cd07252c0a1f459fa3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>AdjustTorque</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a8f767203fb546c828d8ca4484a5048df" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>AnySkidSoundPlaying</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1adf134c815335146d945b7adbcda5cf86" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>ApplyDrive</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a08a42e26489212850b73233f8dafa64e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>BrakeInput</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1ad6f65cb2fea74a486ef64800aa5a92f4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CalculateGearFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aa11c5d41b901b8b4cb09ada5a982858e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CalculateRevs</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a7f7198db1b10875c5a6d0e3159a255bb" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CapSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a90c05e2e12bc74a1d6f65a0daa1cf845" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CheckForWheelSpin</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a79306babf4b15acea18565e550f35250" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CurrentSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a7e96e83d8b16669c032f6e8325f86a5a" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CurrentSteerAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a3bde27faff05e3f7785b4f99b2e68897" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>CurveFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a08e97b9494d231d8907f23d24c34c703" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>GearChanging</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a23d41f35f9a1a3f6b39489edb36a833c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>k_ReversingThreshold</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1abd963f623b3ffd6adba038fa48dfe406" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_BrakeTorque</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1ad158febc2be9391c3677d6c359e905e4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_CarDriveType</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1afb5ff211671fbaa2a20f337834be3001" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_CentreOfMassOffset</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a2fd594c0965b3558a5a3d717756c920b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_CurrentTorque</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a91a92c4fb3155fce108d21e111585cad" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_Downforce</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a280c7fe985f0c784b64b7be8f43ab617" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_FullTorqueOverAllWheels</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a873a992584798073cb0caad48ea174af" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_GearFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1af85f4faa3c23baa872894c4628463071" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_GearNum</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a60808167c3c50a3e4712f10c0d948069" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_MaxHandbrakeTorque</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a174a767997aa3f76793c060bd8f9f717" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_MaximumSteerAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1ab9da9bc6c9b793b5afb97f97910455fb" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_OldRotation</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aff2adeb2842c1bf385bb800cace4db89" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_Pos</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a928140d40b1418b1fb5cfe5fba304902" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_Prevpos</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a946b54589ceec23efdd978ead0ff86ff" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_ReverseTorque</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aedcb52457d9112f27ae9b8824c32e53d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_RevRangeBoundary</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a33826fb44ead9ec2c3a40cd058ffef35" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_Rigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aefba83893251840b8038d24c14474300" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_SlipLimit</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1af4f3001de4ec66ca7a465c4e8f18e3a0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_SpeedType</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a53780f32e99fbfbefd5d083290c4e7d3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_SteerAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a378e37f48dbf1ccd2b70e8c8f8081be8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_SteerHelper</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a03b6734ad6c17fea1dbda609229a6096" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_Topspeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aa189ab42ca86ce0d6c8181b1f04f86a9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_TractionControl</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a93ebbeb503a77553d34741254b2d6d94" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_WheelColliders</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a202c04423eee663ff7c0392237db9a6e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_WheelEffects</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1abb4a0587c0b2a9a074a5e5219184e1d0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_WheelMeshes</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a98d93fc9729e6665283011e060a81793" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>m_WheelMeshLocalRotations</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1af55dac29a62618f0396397864b68f3d8" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>MaxSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aea41a63b6548d7683cc325ea605c6370" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>Move</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a31ca4ccc7d48a2b53a2a5e549730b2c5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>NoOfGears</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1afc20383fee54c532b7b062d73536e10b" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>Revs</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1aa0b5358bd226df3a27a094fcb5f06b7e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>Skidding</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1acf288b4348f669323341b32adcbc078d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a2974a8618fbd461802498d92850d64ed" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>SteerHelper</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1add80bdf3af1a01c8203e5f579ae98fd0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>TractionControl</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller_1a2f6d09994620e982f344e7a9ac97b86a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarController</scope><name>ULerp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

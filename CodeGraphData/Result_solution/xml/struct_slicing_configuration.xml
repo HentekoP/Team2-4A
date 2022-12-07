@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_slicing_configuration" kind="struct" prot="public">
+    <compoundname>SlicingConfiguration</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_slicing_configuration_1a200e4a54b125e6d426534c4d5b34dc70" prot="public" static="no" mutable="no">
+        <type>Vector3Int</type>
+        <definition>Vector3Int SlicingConfiguration.slices</definition>
+        <argsstring></argsstring>
+        <name>slices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_slicing_configuration_1ad2345e548b4a8854a7f0fcc7fe66d5ab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SlicingConfiguration.offset_variations</definition>
+        <argsstring></argsstring>
+        <name>offset_variations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_slicing_configuration_1a2384bbe14a10b28e497e40b92060f106" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SlicingConfiguration.angle_variations</definition>
+        <argsstring></argsstring>
+        <name>angle_variations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_slicing_configuration_1a7290157d97856cd44fab30788328a270" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_noise_configuration" kindref="compound">NoiseConfiguration</ref></type>
+        <definition>NoiseConfiguration SlicingConfiguration.noise</definition>
+        <argsstring></argsstring>
+        <name>noise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2322">
+        <label>NoiseConfiguration</label>
+        <link refid="struct_noise_configuration"/>
+      </node>
+      <node id="2321">
+        <label>SlicingConfiguration</label>
+        <link refid="struct_slicing_configuration"/>
+        <childnode refid="2322" relation="usage">
+          <edgelabel>noise</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/NvBlast/Plugins/NvBlastExtUnity.cs" bodystart="26" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct_slicing_configuration_1a2384bbe14a10b28e497e40b92060f106" prot="public" virt="non-virtual"><scope>SlicingConfiguration</scope><name>angle_variations</name></member>
+      <member refid="struct_slicing_configuration_1a7290157d97856cd44fab30788328a270" prot="public" virt="non-virtual"><scope>SlicingConfiguration</scope><name>noise</name></member>
+      <member refid="struct_slicing_configuration_1ad2345e548b4a8854a7f0fcc7fe66d5ab" prot="public" virt="non-virtual"><scope>SlicingConfiguration</scope><name>offset_variations</name></member>
+      <member refid="struct_slicing_configuration_1a200e4a54b125e6d426534c4d5b34dc70" prot="public" virt="non-virtual"><scope>SlicingConfiguration</scope><name>slices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

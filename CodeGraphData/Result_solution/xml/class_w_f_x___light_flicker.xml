@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_w_f_x___light_flicker" kind="class" prot="public">
+    <compoundname>WFX_LightFlicker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_LightFlicker.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___light_flicker_1a3087ab9c6b5649336a4c94cefa7d920f" compoundref="_w_f_x___light_flicker_8cs" startline="23" endline="37">Flicker</referencedby>
+        <referencedby refid="class_w_f_x___light_flicker_1afed26852ed8c227f22afac26b37ed729" compoundref="_w_f_x___light_flicker_8cs" startline="17" endline="21">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_LightFlicker.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___light_flicker_1a3087ab9c6b5649336a4c94cefa7d920f" compoundref="_w_f_x___light_flicker_8cs" startline="23" endline="37">Flicker</referencedby>
+        <referencedby refid="class_w_f_x___light_flicker_1afed26852ed8c227f22afac26b37ed729" compoundref="_w_f_x___light_flicker_8cs" startline="17" endline="21">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_w_f_x___light_flicker_1afed26852ed8c227f22afac26b37ed729" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_LightFlicker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" bodystart="17" bodyend="21"/>
+        <references refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" compoundref="_w_f_x___light_flicker_8cs" startline="13">time</references>
+        <references refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" compoundref="_w_f_x___light_flicker_8cs" startline="15">timer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___light_flicker_1a3087ab9c6b5649336a4c94cefa7d920f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator WFX_LightFlicker.Flicker</definition>
+        <argsstring>()</argsstring>
+        <name>Flicker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" bodystart="23" bodyend="37"/>
+        <references refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" compoundref="_w_f_x___light_flicker_8cs" startline="13">time</references>
+        <references refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" compoundref="_w_f_x___light_flicker_8cs" startline="15">timer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Rapidly sets a light on/off.</para><para>(c) 2015, Jean Moreno </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2892">
+        <label>WFX_LightFlicker</label>
+        <link refid="class_w_f_x___light_flicker"/>
+        <childnode refid="2893" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2893">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2894">
+        <label>WFX_LightFlicker</label>
+        <link refid="class_w_f_x___light_flicker"/>
+        <childnode refid="2895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2895">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_w_f_x___light_flicker_1a3087ab9c6b5649336a4c94cefa7d920f" prot="private" virt="non-virtual"><scope>WFX_LightFlicker</scope><name>Flicker</name></member>
+      <member refid="class_w_f_x___light_flicker_1afed26852ed8c227f22afac26b37ed729" prot="private" virt="non-virtual"><scope>WFX_LightFlicker</scope><name>Start</name></member>
+      <member refid="class_w_f_x___light_flicker_1a2acf3c4ab507c2cecc4f53383c4cf6fa" prot="public" virt="non-virtual"><scope>WFX_LightFlicker</scope><name>time</name></member>
+      <member refid="class_w_f_x___light_flicker_1a6e9acfa9db092bad4b0c3bc337afb368" prot="private" virt="non-virtual"><scope>WFX_LightFlicker</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_water_1_1_water" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Water::Water</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379e" prot="public" static="no">
+        <name>WaterMode</name>
+        <enumvalue id="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379ea1fbb1e3943c2c6c560247ac8f9289780" prot="public">
+          <name>Simple</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379ea3889e081f93c67991c06d95705cee7e6" prot="public">
+          <name>Reflective</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379eadced932db1d01033f77c380f76362e2f" prot="public">
+          <name>Refractive</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a88a2cf28e2e546607d17e7be84a6e046" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379e" kindref="member">WaterMode</ref></type>
+        <definition>WaterMode UnityStandardAssets.Water.Water.waterMode</definition>
+        <argsstring></argsstring>
+        <name>waterMode</name>
+        <initializer>= WaterMode.Refractive</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a40942de7999cdabaf093aa8e981a758e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Water.Water.disablePixelLights</definition>
+        <argsstring></argsstring>
+        <name>disablePixelLights</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1ad71f94b850d1446efe7e07daa8d4f23f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Water.Water.textureSize</definition>
+        <argsstring></argsstring>
+        <name>textureSize</name>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a8d9ffae2bf38f3c267e9b40f29bee899" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Water.Water.clipPlaneOffset</definition>
+        <argsstring></argsstring>
+        <name>clipPlaneOffset</name>
+        <initializer>= 0.07f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1ad8e5b877f3c4268919a4b815c495a897" prot="public" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask UnityStandardAssets.Water.Water.reflectLayers</definition>
+        <argsstring></argsstring>
+        <name>reflectLayers</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a25798989345280626fe9a2f9167ee80e" prot="public" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask UnityStandardAssets.Water.Water.refractLayers</definition>
+        <argsstring></argsstring>
+        <name>refractLayers</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1ace12d4a58812258a36bdcbd8b82a2056" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Camera, Camera &gt;</type>
+        <definition>Dictionary&lt;Camera, Camera&gt; UnityStandardAssets.Water.Water.m_ReflectionCameras</definition>
+        <argsstring></argsstring>
+        <name>m_ReflectionCameras</name>
+        <initializer>= new Dictionary&lt;Camera, Camera&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1ac22a26f5f78443cda3225434b8bf5a3a" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Camera, Camera &gt;</type>
+        <definition>Dictionary&lt;Camera, Camera&gt; UnityStandardAssets.Water.Water.m_RefractionCameras</definition>
+        <argsstring></argsstring>
+        <name>m_RefractionCameras</name>
+        <initializer>= new Dictionary&lt;Camera, Camera&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a5813c011dc569b3ffee69a0b26acdc0b" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityStandardAssets.Water.Water.m_ReflectionTexture</definition>
+        <argsstring></argsstring>
+        <name>m_ReflectionTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a789c4fe067e53d51cea9ea8234c886c3" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityStandardAssets.Water.Water.m_RefractionTexture</definition>
+        <argsstring></argsstring>
+        <name>m_RefractionTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1aaf1dd3af1aa39b271c4bf616c3d2c9ad" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379e" kindref="member">WaterMode</ref></type>
+        <definition>WaterMode UnityStandardAssets.Water.Water.m_HardwareWaterSupport</definition>
+        <argsstring></argsstring>
+        <name>m_HardwareWaterSupport</name>
+        <initializer>= WaterMode.Refractive</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a0bee61bc9d31b2d6325f7fa3ff745a54" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Water.Water.m_OldReflectionTextureSize</definition>
+        <argsstring></argsstring>
+        <name>m_OldReflectionTextureSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1aa9d294b9fe918d86d9b1ee7f26b812f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Water.Water.m_OldRefractionTextureSize</definition>
+        <argsstring></argsstring>
+        <name>m_OldRefractionTextureSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_1a38eaabbdda0838bd91002475570c2b9b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Water.Water.s_InsideWater</definition>
+        <argsstring></argsstring>
+        <name>s_InsideWater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1acb0ccefbe5352b8cee30e3f5412a0984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.Water.OnWillRenderObject</definition>
+        <argsstring>()</argsstring>
+        <name>OnWillRenderObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="40" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1a2fab61fcca7c0927ff459448cf780c8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.Water.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="170" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="170" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1a4e1717243dffe16020b08de8d6a197e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.Water.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="197" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1ac0dafef2a2b684fe5a295a9bdcd1c2ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.Water.UpdateCameraModes</definition>
+        <argsstring>(Camera src, Camera dest)</argsstring>
+        <name>UpdateCameraModes</name>
+        <param>
+          <type>Camera</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Camera</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="226" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="226" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1a6dc262cf4b8ce35028a6ac912c7743ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.Water.CreateWaterObjects</definition>
+        <argsstring>(Camera currentCamera, out Camera reflectionCamera, out Camera refractionCamera)</argsstring>
+        <name>CreateWaterObjects</name>
+        <param>
+          <type>Camera</type>
+          <declname>currentCamera</declname>
+        </param>
+        <param>
+          <type>out Camera</type>
+          <declname>reflectionCamera</declname>
+        </param>
+        <param>
+          <type>out Camera</type>
+          <declname>refractionCamera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="262" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="262" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1ab81aaeb52022d1f6194621f2a921ac96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379e" kindref="member">WaterMode</ref></type>
+        <definition>WaterMode UnityStandardAssets.Water.Water.GetWaterMode</definition>
+        <argsstring>()</argsstring>
+        <name>GetWaterMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="334" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="334" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1a1f924ca46a4a79f8fb5f2cc2d28d18ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379e" kindref="member">WaterMode</ref></type>
+        <definition>WaterMode UnityStandardAssets.Water.Water.FindHardwareWaterSupport</definition>
+        <argsstring>()</argsstring>
+        <name>FindHardwareWaterSupport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="343" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="343" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1a2632fe5ea87541a25e8b6e782248b701" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>Vector4 UnityStandardAssets.Water.Water.CameraSpacePlane</definition>
+        <argsstring>(Camera cam, Vector3 pos, Vector3 normal, float sideSign)</argsstring>
+        <name>CameraSpacePlane</name>
+        <param>
+          <type>Camera</type>
+          <declname>cam</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sideSign</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="370" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="370" bodyend="377"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_1a4ff0dbf5b122111e3abf436f0d3cf285" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityStandardAssets.Water.Water.CalculateReflectionMatrix</definition>
+        <argsstring>(ref Matrix4x4 reflectionMat, Vector4 plane)</argsstring>
+        <name>CalculateReflectionMatrix</name>
+        <param>
+          <type>ref Matrix4x4</type>
+          <declname>reflectionMat</declname>
+        </param>
+        <param>
+          <type>Vector4</type>
+          <declname>plane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="380" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="380" bodyend="401"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2811">
+        <label>UnityStandardAssets.Water.Water</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water"/>
+        <childnode refid="2812" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2812">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2813">
+        <label>UnityStandardAssets.Water.Water</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water"/>
+        <childnode refid="2814" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2814">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/Water.cs" bodystart="8" bodyend="402"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a4ff0dbf5b122111e3abf436f0d3cf285" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>CalculateReflectionMatrix</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a2632fe5ea87541a25e8b6e782248b701" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>CameraSpacePlane</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a8d9ffae2bf38f3c267e9b40f29bee899" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>clipPlaneOffset</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a6dc262cf4b8ce35028a6ac912c7743ee" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>CreateWaterObjects</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a40942de7999cdabaf093aa8e981a758e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>disablePixelLights</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a1f924ca46a4a79f8fb5f2cc2d28d18ac" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>FindHardwareWaterSupport</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1ab81aaeb52022d1f6194621f2a921ac96" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>GetWaterMode</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1aaf1dd3af1aa39b271c4bf616c3d2c9ad" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_HardwareWaterSupport</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a0bee61bc9d31b2d6325f7fa3ff745a54" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_OldReflectionTextureSize</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1aa9d294b9fe918d86d9b1ee7f26b812f8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_OldRefractionTextureSize</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1ace12d4a58812258a36bdcbd8b82a2056" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_ReflectionCameras</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a5813c011dc569b3ffee69a0b26acdc0b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_ReflectionTexture</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1ac22a26f5f78443cda3225434b8bf5a3a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_RefractionCameras</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a789c4fe067e53d51cea9ea8234c886c3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>m_RefractionTexture</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a2fab61fcca7c0927ff459448cf780c8e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>OnDisable</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1acb0ccefbe5352b8cee30e3f5412a0984" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>OnWillRenderObject</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1ad8e5b877f3c4268919a4b815c495a897" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>reflectLayers</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a25798989345280626fe9a2f9167ee80e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>refractLayers</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a38eaabbdda0838bd91002475570c2b9b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>s_InsideWater</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1ad71f94b850d1446efe7e07daa8d4f23f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>textureSize</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a4e1717243dffe16020b08de8d6a197e2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>Update</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1ac0dafef2a2b684fe5a295a9bdcd1c2ec" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>UpdateCameraModes</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a88a2cf28e2e546607d17e7be84a6e046" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>waterMode</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_1a9e5d3bf13fa82b48b85d9f90f707379e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::Water</scope><name>WaterMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Ball::BallUserControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1aacc1ae2f1add71744111ea6214734cd1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball" kindref="compound">Ball</ref></type>
+        <definition>Ball UnityStandardAssets.Vehicles.Ball.BallUserControl.ball</definition>
+        <argsstring></argsstring>
+        <name>ball</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a2f46fc55b925fbda50fe088636cca5cb" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Vehicles.Ball.BallUserControl.move</definition>
+        <argsstring></argsstring>
+        <name>move</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1ad1427e27c22f88d1569336c73e9650a1" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Vehicles.Ball.BallUserControl.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a5fabf0a106ce92d5a9cdc88d0b7faf98" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Vehicles.Ball.BallUserControl.camForward</definition>
+        <argsstring></argsstring>
+        <name>camForward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1ac696a9d4d86f28c039d2b93f84431976" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Ball.BallUserControl.jump</definition>
+        <argsstring></argsstring>
+        <name>jump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a1b365b1fb3e1157e977341e1873717cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Ball.BallUserControl.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="19" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a7fd4c4bc29ac18aa2545b4cb98e55866" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Ball.BallUserControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="39" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a080b86b755c98d5fa23a1c53abe77bc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Ball.BallUserControl.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="198">
+        <label>UnityStandardAssets.Vehicles.Ball.BallUserControl</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="200">
+        <label>UnityStandardAssets.Vehicles.Ball.BallUserControl</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+        <childnode refid="202" relation="usage">
+          <edgelabel>ball</edgelabel>
+        </childnode>
+      </node>
+      <node id="202">
+        <label>UnityStandardAssets.Vehicles.Ball.Ball</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" bodystart="7" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a1b365b1fb3e1157e977341e1873717cf" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1aacc1ae2f1add71744111ea6214734cd1" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>ball</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1ad1427e27c22f88d1569336c73e9650a1" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>cam</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a5fabf0a106ce92d5a9cdc88d0b7faf98" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>camForward</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a080b86b755c98d5fa23a1c53abe77bc1" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1ac696a9d4d86f28c039d2b93f84431976" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>jump</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a2f46fc55b925fbda50fe088636cca5cb" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>move</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control_1a7fd4c4bc29ac18aa2545b4cb98e55866" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Ball::BallUserControl</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

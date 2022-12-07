@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings" kind="struct" prot="public">
+    <compoundname>UnityEngine::PostProcessing::BloomModel::Settings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings_1a67ea8696d631446369685adfd283cc6a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings" kindref="compound">BloomSettings</ref></type>
+        <definition>BloomSettings UnityEngine.PostProcessing.BloomModel.Settings.bloom</definition>
+        <argsstring></argsstring>
+        <name>bloom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings_1a5da17f7be340ea4ea3b7bcde312d5953" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_lens_dirt_settings" kindref="compound">LensDirtSettings</ref></type>
+        <definition>LensDirtSettings UnityEngine.PostProcessing.BloomModel.Settings.lensDirt</definition>
+        <argsstring></argsstring>
+        <name>lensDirt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings_1a97ac6c2e2540e9df3929e0fc0d754aa7" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.BloomModel.Settings.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2269">
+        <label>UnityEngine.PostProcessing.BloomModel.BloomSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_bloom_settings"/>
+      </node>
+      <node id="2267">
+        <label>UnityEngine.PostProcessing.BloomModel.Settings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings"/>
+        <childnode refid="2268" relation="usage">
+          <edgelabel>lensDirt</edgelabel>
+        </childnode>
+        <childnode refid="2269" relation="usage">
+          <edgelabel>bloom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2268">
+        <label>UnityEngine.PostProcessing.BloomModel.LensDirtSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_lens_dirt_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/BloomModel.cs" bodystart="71" bodyend="87"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings_1a67ea8696d631446369685adfd283cc6a" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BloomModel::Settings</scope><name>bloom</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings_1a97ac6c2e2540e9df3929e0fc0d754aa7" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BloomModel::Settings</scope><name>defaultSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_bloom_model_1_1_settings_1a5da17f7be340ea4ea3b7bcde312d5953" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::BloomModel::Settings</scope><name>lensDirt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

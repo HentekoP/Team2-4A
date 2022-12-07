@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::WaypointProgressTracker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ab40f5f8ef7056c806da2080c360bca96" prot="public" static="no">
+        <name>ProgressStyle</name>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ab40f5f8ef7056c806da2080c360bca96abc0049ea8e56ad21378fa97cee371747" prot="public">
+          <name>SmoothAlongRoute</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ab40f5f8ef7056c806da2080c360bca96acabf254f8195fce8d901b3cce7092ea9" prot="public">
+          <name>PointToPoint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aecc35d67bb8763bc4ce7855c15976211" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit" kindref="compound">WaypointCircuit</ref></type>
+        <definition>WaypointCircuit UnityStandardAssets.Utility.WaypointProgressTracker.circuit</definition>
+        <argsstring></argsstring>
+        <name>circuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aebac5aad853db186eaac832a94fa55c0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.lookAheadForTargetOffset</definition>
+        <argsstring></argsstring>
+        <name>lookAheadForTargetOffset</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a7a43e7482b96826d782b98216c88d992" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.lookAheadForTargetFactor</definition>
+        <argsstring></argsstring>
+        <name>lookAheadForTargetFactor</name>
+        <initializer>= .1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1abc2c9eea0d665c8af56559ee9e01fc8d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.lookAheadForSpeedOffset</definition>
+        <argsstring></argsstring>
+        <name>lookAheadForSpeedOffset</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a4dad442229dfb6e0bc0c4959890298b4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.lookAheadForSpeedFactor</definition>
+        <argsstring></argsstring>
+        <name>lookAheadForSpeedFactor</name>
+        <initializer>= .2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1af5ba010339010a7f50ef2335aaf4ab26" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ab40f5f8ef7056c806da2080c360bca96" kindref="member">ProgressStyle</ref></type>
+        <definition>ProgressStyle UnityStandardAssets.Utility.WaypointProgressTracker.progressStyle</definition>
+        <argsstring></argsstring>
+        <name>progressStyle</name>
+        <initializer>= ProgressStyle.SmoothAlongRoute</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ae2fa890729cb14d0987a7e07001d55cf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.pointToPointThreshold</definition>
+        <argsstring></argsstring>
+        <name>pointToPointThreshold</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a34a6826e4a17cfa3f8361ec57749b6b0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.progressDistance</definition>
+        <argsstring></argsstring>
+        <name>progressDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a900ac272c6f896c0fae7943aa8b1483e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.WaypointProgressTracker.progressNum</definition>
+        <argsstring></argsstring>
+        <name>progressNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a711a2896f1f1a6fee72b7b289d8f4fb4" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointProgressTracker.lastPosition</definition>
+        <argsstring></argsstring>
+        <name>lastPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a1ee0112da3ead12141e2c9876dbb743e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointProgressTracker.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ae0311c3935f8f193235e9e5120a57c47" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point" kindref="compound">WaypointCircuit.RoutePoint</ref></type>
+        <definition>WaypointCircuit.RoutePoint UnityStandardAssets.Utility.WaypointProgressTracker.targetPoint</definition>
+        <argsstring></argsstring>
+        <name>targetPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a12ee022c9a87d5d34ecc7c7fba75ef73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point" kindref="compound">WaypointCircuit.RoutePoint</ref></type>
+        <definition>WaypointCircuit.RoutePoint UnityStandardAssets.Utility.WaypointProgressTracker.speedPoint</definition>
+        <argsstring></argsstring>
+        <name>speedPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a30133b0c8ffb941a78a549133c1e3767" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point" kindref="compound">WaypointCircuit.RoutePoint</ref></type>
+        <definition>WaypointCircuit.RoutePoint UnityStandardAssets.Utility.WaypointProgressTracker.progressPoint</definition>
+        <argsstring></argsstring>
+        <name>progressPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aba34da851e821dd889429b06aaca0c3a" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Utility.WaypointProgressTracker.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a6c151a557e373be608134e6d2a8b8dc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointProgressTracker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="54" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aa3090e51ddda422f43f5784b7a06cbd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointProgressTracker.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="84" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a4ec807834b1153f37e8149087d2553cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointProgressTracker.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="141" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="141" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1acb8d4867869050d7453fa0e51fee3547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointProgressTracker.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="72" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2859">
+        <label>UnityStandardAssets.Utility.WaypointProgressTracker</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker"/>
+        <childnode refid="2860" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2860">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2861">
+        <label>UnityStandardAssets.Utility.WaypointProgressTracker</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker"/>
+        <childnode refid="2862" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2863" relation="usage">
+          <edgelabel>circuit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2863">
+        <label>UnityStandardAssets.Utility.WaypointCircuit</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit"/>
+        <childnode refid="2862" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2864" relation="usage">
+          <edgelabel>waypointList</edgelabel>
+        </childnode>
+      </node>
+      <node id="2864">
+        <label>UnityStandardAssets.Utility.WaypointCircuit.WaypointList</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list"/>
+        <childnode refid="2863" relation="usage">
+          <edgelabel>circuit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2862">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointProgressTracker.cs" bodystart="7" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aecc35d67bb8763bc4ce7855c15976211" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>circuit</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a711a2896f1f1a6fee72b7b289d8f4fb4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>lastPosition</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a4dad442229dfb6e0bc0c4959890298b4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>lookAheadForSpeedFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1abc2c9eea0d665c8af56559ee9e01fc8d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>lookAheadForSpeedOffset</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a7a43e7482b96826d782b98216c88d992" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>lookAheadForTargetFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aebac5aad853db186eaac832a94fa55c0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>lookAheadForTargetOffset</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a4ec807834b1153f37e8149087d2553cd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ae2fa890729cb14d0987a7e07001d55cf" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>pointToPointThreshold</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a34a6826e4a17cfa3f8361ec57749b6b0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>progressDistance</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a900ac272c6f896c0fae7943aa8b1483e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>progressNum</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a30133b0c8ffb941a78a549133c1e3767" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>progressPoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ab40f5f8ef7056c806da2080c360bca96" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>ProgressStyle</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1af5ba010339010a7f50ef2335aaf4ab26" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>progressStyle</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1acb8d4867869050d7453fa0e51fee3547" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>Reset</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a1ee0112da3ead12141e2c9876dbb743e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>speed</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a12ee022c9a87d5d34ecc7c7fba75ef73" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>speedPoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1a6c151a557e373be608134e6d2a8b8dc8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aba34da851e821dd889429b06aaca0c3a" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>target</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1ae0311c3935f8f193235e9e5120a57c47" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>targetPoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker_1aa3090e51ddda422f43f5784b7a06cbd9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointProgressTracker</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

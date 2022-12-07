@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_f_x_controller" kind="class" prot="public">
+    <compoundname>VFXController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_f_x_controller_1a50d31ea9cc40536ac9c3256a9b804079" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject VFXController.dust_cloud</definition>
+        <argsstring></argsstring>
+        <name>dust_cloud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_v_f_x_controller_1a9b8620f4b92a8c6b483b122415210a61" compoundref="_v_f_x_controller_8cs" startline="23" endline="26">spawn_dust_cloud</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_f_x_controller_1ac8c0fe4cfe7bf66e26543bf7c52b481f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_v_f_x_controller" kindref="compound">VFXController</ref></type>
+        <definition>VFXController VFXController.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_v_f_x_controller" kindref="compound">VFXController</ref></type>
+        <definition>VFXController VFXController._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_f_x_controller_1a9b8620f4b92a8c6b483b122415210a61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VFXController.spawn_dust_cloud</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>spawn_dust_cloud</name>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" bodystart="23" bodyend="26"/>
+        <references refid="class_v_f_x_controller_1a50d31ea9cc40536ac9c3256a9b804079" compoundref="_v_f_x_controller_8cs" startline="7">dust_cloud</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2722">
+        <label>VFXController</label>
+        <link refid="class_v_f_x_controller"/>
+        <childnode refid="2723" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2723">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2724">
+        <label>VFXController</label>
+        <link refid="class_v_f_x_controller"/>
+        <childnode refid="2725" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2724" relation="usage">
+          <edgelabel>_instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2725">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Scripts/HAKAI/Scripts/VFXController.cs" bodystart="5" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_v_f_x_controller_1aa5ebf828614f724c77fcb1c406033921" prot="private" virt="non-virtual"><scope>VFXController</scope><name>_instance</name></member>
+      <member refid="class_v_f_x_controller_1a50d31ea9cc40536ac9c3256a9b804079" prot="public" virt="non-virtual"><scope>VFXController</scope><name>dust_cloud</name></member>
+      <member refid="class_v_f_x_controller_1ac8c0fe4cfe7bf66e26543bf7c52b481f" prot="public" virt="non-virtual"><scope>VFXController</scope><name>Instance</name></member>
+      <member refid="class_v_f_x_controller_1a9b8620f4b92a8c6b483b122415210a61" prot="public" virt="non-virtual"><scope>VFXController</scope><name>spawn_dust_cloud</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

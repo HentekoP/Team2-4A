@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classhamaaa" kind="class" prot="public">
+    <compoundname>hamaaa</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhamaaa_1a22f4a8a8b31179f6160911dc244424cb" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject hamaaa.effectPrefab</definition>
+        <argsstring></argsstring>
+        <name>effectPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classhamaaa_1af30acb3ec10ca2848045d1cad85ebf60" compoundref="hamaaa_8cs" startline="76" endline="80">Playeffect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaaa_1a9cffeaa942a79dd9994c0c26ea9e006e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject hamaaa.effectPrefab2</definition>
+        <argsstring></argsstring>
+        <name>effectPrefab2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaaa_1af10fe064dbe2243f82aa23cc4eaacec7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int hamaaa.objectHP</definition>
+        <argsstring></argsstring>
+        <name>objectHP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_break_s_e_1a80c54678b15567a049d5c5a5959a7852" compoundref="_break_s_e_8cs" startline="22" endline="40">BreakSE.Update</referencedby>
+        <referencedby refid="classhamaaa_1a5fbcf4ed0be0427679ebb29f2a523664" compoundref="hamaaa_8cs" startline="23" endline="61">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaaa_1a0880ad90096ce8d5ce63d44e9fcddf17" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip hamaaa.wall</definition>
+        <argsstring></argsstring>
+        <name>wall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classhamaaa_1a5cdf789e22b4c9e32c623bc95307f83c" compoundref="hamaaa_8cs" startline="63" endline="74">OnCollisionEnter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhamaaa_1ae67096f1103ad9b8983d1c467712069c" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip hamaaa.glass</definition>
+        <argsstring></argsstring>
+        <name>glass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classhamaaa_1a5cdf789e22b4c9e32c623bc95307f83c" compoundref="hamaaa_8cs" startline="63" endline="74">OnCollisionEnter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhamaaa_1a719bae466f602be426edd67326fd61ed" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool hamaaa.HammerFlg</definition>
+        <argsstring></argsstring>
+        <name>HammerFlg</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classhamaaa_1a2c41c54829c87503dfac0cf302cb0335" compoundref="hamaaa_8cs" startline="82" endline="85">GetHammerFlag</referencedby>
+        <referencedby refid="class_break_s_e_1a80c54678b15567a049d5c5a5959a7852" compoundref="_break_s_e_8cs" startline="22" endline="40">BreakSE.Update</referencedby>
+        <referencedby refid="classhamaaa_1a5fbcf4ed0be0427679ebb29f2a523664" compoundref="hamaaa_8cs" startline="23" endline="61">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhamaaa_1ab2917c95186ba6c1c57f03ecabd3b945" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource hamaaa.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classhamaaa_1aeac7bcf01127c6c96dc73efefa024bff" compoundref="hamaaa_8cs" startline="18" endline="21">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhamaaa_1aeac7bcf01127c6c96dc73efefa024bff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaaa.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="18" bodyend="21"/>
+        <references refid="classhamaaa_1ab2917c95186ba6c1c57f03ecabd3b945" compoundref="hamaaa_8cs" startline="14">audioSource</references>
+      </memberdef>
+      <memberdef kind="function" id="classhamaaa_1a5fbcf4ed0be0427679ebb29f2a523664" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaaa.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="23" bodyend="61"/>
+        <references refid="classhamaaa_1a719bae466f602be426edd67326fd61ed" compoundref="hamaaa_8cs" startline="10">HammerFlg</references>
+        <references refid="classhamaaa_1af10fe064dbe2243f82aa23cc4eaacec7" compoundref="hamaaa_8cs" startline="9">objectHP</references>
+      </memberdef>
+      <memberdef kind="function" id="classhamaaa_1a5cdf789e22b4c9e32c623bc95307f83c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaaa.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="63" bodyend="74"/>
+        <references refid="class_demo_controller_1af0feb995c568f183b2cb396f7d602dab" compoundref="_demo_controller_8cs" startline="14">DemoController.flg</references>
+        <references refid="classhamaaa_1ae67096f1103ad9b8983d1c467712069c" compoundref="hamaaa_8cs" startline="16">glass</references>
+        <references refid="classhamaaa_1af30acb3ec10ca2848045d1cad85ebf60" compoundref="hamaaa_8cs" startline="76" endline="80">Playeffect</references>
+        <references refid="classhamaaa_1a0880ad90096ce8d5ce63d44e9fcddf17" compoundref="hamaaa_8cs" startline="15">wall</references>
+      </memberdef>
+      <memberdef kind="function" id="classhamaaa_1af30acb3ec10ca2848045d1cad85ebf60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void hamaaa.Playeffect</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>Playeffect</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="76" bodyend="80"/>
+        <references refid="classhamaaa_1a22f4a8a8b31179f6160911dc244424cb" compoundref="hamaaa_8cs" startline="5">effectPrefab</references>
+        <referencedby refid="classhamaaa_1a5cdf789e22b4c9e32c623bc95307f83c" compoundref="hamaaa_8cs" startline="63" endline="74">OnCollisionEnter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhamaaa_1a2c41c54829c87503dfac0cf302cb0335" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool hamaaa.GetHammerFlag</definition>
+        <argsstring>()</argsstring>
+        <name>GetHammerFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="82" bodyend="85"/>
+        <references refid="classhamaaa_1a719bae466f602be426edd67326fd61ed" compoundref="hamaaa_8cs" startline="10">HammerFlg</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1270">
+        <label>hamaaa</label>
+        <link refid="classhamaaa"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1271">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1272">
+        <label>hamaaa</label>
+        <link refid="classhamaaa"/>
+        <childnode refid="1273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1273">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/hamaaa.cs" bodystart="3" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classhamaaa_1ab2917c95186ba6c1c57f03ecabd3b945" prot="private" virt="non-virtual"><scope>hamaaa</scope><name>audioSource</name></member>
+      <member refid="classhamaaa_1a22f4a8a8b31179f6160911dc244424cb" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>effectPrefab</name></member>
+      <member refid="classhamaaa_1a9cffeaa942a79dd9994c0c26ea9e006e" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>effectPrefab2</name></member>
+      <member refid="classhamaaa_1a2c41c54829c87503dfac0cf302cb0335" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>GetHammerFlag</name></member>
+      <member refid="classhamaaa_1ae67096f1103ad9b8983d1c467712069c" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>glass</name></member>
+      <member refid="classhamaaa_1a719bae466f602be426edd67326fd61ed" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>HammerFlg</name></member>
+      <member refid="classhamaaa_1af10fe064dbe2243f82aa23cc4eaacec7" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>objectHP</name></member>
+      <member refid="classhamaaa_1a5cdf789e22b4c9e32c623bc95307f83c" prot="private" virt="non-virtual"><scope>hamaaa</scope><name>OnCollisionEnter</name></member>
+      <member refid="classhamaaa_1af30acb3ec10ca2848045d1cad85ebf60" prot="private" virt="non-virtual"><scope>hamaaa</scope><name>Playeffect</name></member>
+      <member refid="classhamaaa_1aeac7bcf01127c6c96dc73efefa024bff" prot="private" virt="non-virtual"><scope>hamaaa</scope><name>Start</name></member>
+      <member refid="classhamaaa_1a5fbcf4ed0be0427679ebb29f2a523664" prot="private" virt="non-virtual"><scope>hamaaa</scope><name>Update</name></member>
+      <member refid="classhamaaa_1a0880ad90096ce8d5ce63d44e9fcddf17" prot="public" virt="non-virtual"><scope>hamaaa</scope><name>wall</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface" prot="public">UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator::ControlSurface</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1af6c7349133a4af4b02fc0fb87eaa76c3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.m_Smoothing</definition>
+        <argsstring></argsstring>
+        <name>m_Smoothing</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1a07518b374ed78802ad5f6e0443957649" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface" kindref="compound">ControlSurface</ref>[]</type>
+        <definition>ControlSurface [] UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.m_ControlSurfaces</definition>
+        <argsstring></argsstring>
+        <name>m_ControlSurfaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1a2d7dd30bcc5dbcab180819107b1c3946" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller" kindref="compound">AeroplaneController</ref></type>
+        <definition>AeroplaneController UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.m_Plane</definition>
+        <argsstring></argsstring>
+        <name>m_Plane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1a61b9bdf1595d4aac97acb380a5af08cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="15" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1ae6eaeecec2134c976a85d445bee08c37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="28" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1ac9c352adec4a310f53700cf8f33807e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.RotateSurface</definition>
+        <argsstring>(ControlSurface surface, Quaternion rotation)</argsstring>
+        <name>RotateSurface</name>
+        <param>
+          <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface" kindref="compound">ControlSurface</ref></type>
+          <declname>surface</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="34">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="38">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.ControlSurface</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface"/>
+      </node>
+      <node id="39">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="36">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>m_ControlSurfaces</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>m_Plane</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" bodystart="7" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1a07518b374ed78802ad5f6e0443957649" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</scope><name>m_ControlSurfaces</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1a2d7dd30bcc5dbcab180819107b1c3946" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</scope><name>m_Plane</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1af6c7349133a4af4b02fc0fb87eaa76c3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</scope><name>m_Smoothing</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1ac9c352adec4a310f53700cf8f33807e6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</scope><name>RotateSurface</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1a61b9bdf1595d4aac97acb380a5af08cf" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1ae6eaeecec2134c976a85d445bee08c37" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneControlSurfaceAnimator</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame" kind="struct" prot="private">
+    <compoundname>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a7e96e52b4d104039aafc3545589d5f73" prot="public" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.lumaTexture</definition>
+        <argsstring></argsstring>
+        <name>lumaTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a5e509a40892dc903d548adc2d17d1b90" prot="public" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.chromaTexture</definition>
+        <argsstring></argsstring>
+        <name>chromaTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="157" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a5cba2ae57fc59a8438d9bbdcabedca1d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.m_Time</definition>
+        <argsstring></argsstring>
+        <name>m_Time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1af58428ff9489cd2d1a87700f6800718f" prot="public" static="no" mutable="no">
+        <type>RenderTargetIdentifier[]</type>
+        <definition>RenderTargetIdentifier [] UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.m_MRT</definition>
+        <argsstring></argsstring>
+        <name>m_MRT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="160" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a8ac9a979f44aa0348657b88f5afb73e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.CalculateWeight</definition>
+        <argsstring>(float strength, float currentTime)</argsstring>
+        <name>CalculateWeight</name>
+        <param>
+          <type>float</type>
+          <declname>strength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>currentTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="162" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a8b8816199f3a58a1720dd67af9d39a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="171" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="171" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1aea8c8736b5a3b0be40fbdd2df99b682d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.MakeRecord</definition>
+        <argsstring>(CommandBuffer cb, RenderTargetIdentifier source, int width, int height, Material material)</argsstring>
+        <name>MakeRecord</name>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>RenderTargetIdentifier</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="183" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="183" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1ad0676c06fc730e6276d2e5f9d9d6593e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.PostProcessing.MotionBlurComponent.FrameBlendingFilter.Frame.MakeRecordRaw</definition>
+        <argsstring>(CommandBuffer cb, RenderTargetIdentifier source, int width, int height, RenderTextureFormat format)</argsstring>
+        <name>MakeRecordRaw</name>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>RenderTargetIdentifier</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>RenderTextureFormat</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="206" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="206" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" line="155" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Components/MotionBlurComponent.cs" bodystart="154" bodyend="218"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a8ac9a979f44aa0348657b88f5afb73e4" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>CalculateWeight</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a5e509a40892dc903d548adc2d17d1b90" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>chromaTexture</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a7e96e52b4d104039aafc3545589d5f73" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>lumaTexture</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1af58428ff9489cd2d1a87700f6800718f" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>m_MRT</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a5cba2ae57fc59a8438d9bbdcabedca1d" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>m_Time</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1aea8c8736b5a3b0be40fbdd2df99b682d" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>MakeRecord</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1ad0676c06fc730e6276d2e5f9d9d6593e" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>MakeRecordRaw</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_motion_blur_component_1_1_frame_blending_filter_1_1_frame_1a8b8816199f3a58a1720dd67af9d39a24" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::MotionBlurComponent::FrameBlendingFilter::Frame</scope><name>Release</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

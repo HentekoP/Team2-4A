@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_w_f_x___demo" kind="class" prot="public">
+    <compoundname>WFX_Demo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_w_f_x___demo_1a1f849ff63b927f869cb95be054b3c8d6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_Demo.cameraSpeed</definition>
+        <argsstring></argsstring>
+        <name>cameraSpeed</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" compoundref="_w_f_x___demo_8cs" startline="196" endline="215">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1ab493fd7e443967d0d36bc9cb776133f7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_Demo.orderedSpawns</definition>
+        <argsstring></argsstring>
+        <name>orderedSpawns</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" compoundref="_w_f_x___demo_8cs" startline="177" endline="194">RandomSpawnsCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a8f43fbf1671ad00be429da02933ea9ed" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_Demo.step</definition>
+        <argsstring></argsstring>
+        <name>step</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" compoundref="_w_f_x___demo_8cs" startline="177" endline="194">RandomSpawnsCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a2ca7732663cd63ec7f61116cf6da30a4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_Demo.range</definition>
+        <argsstring></argsstring>
+        <name>range</name>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" compoundref="_w_f_x___demo_8cs" startline="177" endline="194">RandomSpawnsCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a69600c0024e70f5d3d18cc69b3727c05" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WFX_Demo.walls</definition>
+        <argsstring></argsstring>
+        <name>walls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1acdadd9db6dbfc37049b327272fb48c74" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WFX_Demo.bulletholes</definition>
+        <argsstring></argsstring>
+        <name>bulletholes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a84e3e087df95bb4933dabc46a6e653e6" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] WFX_Demo.ParticleExamples</definition>
+        <argsstring></argsstring>
+        <name>ParticleExamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" compoundref="_w_f_x___demo_8cs" startline="278" endline="284">nextParticle</referencedby>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+        <referencedby refid="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" compoundref="_w_f_x___demo_8cs" startline="49" endline="67">spawnParticle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a556009fdaf4cb9850fa5ddf799e8d23a" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.wood</definition>
+        <argsstring></argsstring>
+        <name>wood</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a03bcb37d3e8feb492dd9373ff3a2cb3d" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.woodWall</definition>
+        <argsstring></argsstring>
+        <name>woodWall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a43ca72549b5130e7111b57ba9dd6d919" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WFX_Demo.m4</definition>
+        <argsstring></argsstring>
+        <name>m4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="174" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="174" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_f_x___demo_1a7b09d5dc64ffd6b8d73be838fede4161" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_Demo.order</definition>
+        <argsstring></argsstring>
+        <name>order</name>
+        <initializer>= -5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" compoundref="_w_f_x___demo_8cs" startline="177" endline="194">RandomSpawnsCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WFX_Demo.exampleIndex</definition>
+        <argsstring></argsstring>
+        <name>exampleIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" compoundref="_w_f_x___demo_8cs" startline="278" endline="284">nextParticle</referencedby>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a6c4d6c7cd9a4f5d11e5d2f55213a45d9" compoundref="_w_f_x___demo_8cs" startline="271" endline="277">prevParticle</referencedby>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+        <referencedby refid="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" compoundref="_w_f_x___demo_8cs" startline="49" endline="67">spawnParticle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a89253fe4a462d92f264b2debc82ef37c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WFX_Demo.randomSpawnsDelay</definition>
+        <argsstring></argsstring>
+        <name>randomSpawnsDelay</name>
+        <initializer>= &quot;0.5&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" compoundref="_w_f_x___demo_8cs" startline="177" endline="194">RandomSpawnsCoroutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a61df29470fe23d6e17156a267ba2714d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_Demo.randomSpawns</definition>
+        <argsstring></argsstring>
+        <name>randomSpawns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1aa49edd3d76f8b2ea792b20beb0b683ab" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_Demo.slowMo</definition>
+        <argsstring></argsstring>
+        <name>slowMo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a0719d8b87db7b9616454b4044e52f309" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_Demo.rotateCam</definition>
+        <argsstring></argsstring>
+        <name>rotateCam</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" compoundref="_w_f_x___demo_8cs" startline="196" endline="215">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a9ed1521b99e4cb1a1d4fbeee748fec76" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.concrete</definition>
+        <argsstring></argsstring>
+        <name>concrete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1aed57d85ffcf6d75f61d039996674065d" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.metal</definition>
+        <argsstring></argsstring>
+        <name>metal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a6505b2669350c2a7fc87ea6aa805a9f9" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.checker</definition>
+        <argsstring></argsstring>
+        <name>checker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a81cfb04fd3e1e53b88ec04d07c3cc167" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.concreteWall</definition>
+        <argsstring></argsstring>
+        <name>concreteWall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a6afc3290ee4ccfc870d2715d4cfd000d" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.metalWall</definition>
+        <argsstring></argsstring>
+        <name>metalWall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1ae9bdb9bbbb4f97871853f4f2133daebb" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WFX_Demo.checkerWall</definition>
+        <argsstring></argsstring>
+        <name>checkerWall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WFX_Demo.groundTextureStr</definition>
+        <argsstring></argsstring>
+        <name>groundTextureStr</name>
+        <initializer>= &quot;Checker&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a1dd184f58a16823d0a0ab7df7192aa1f" compoundref="_w_f_x___demo_8cs" startline="229" endline="239">nextTexture</referencedby>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a34afada8a7bd50988b94e43621e2a511" compoundref="_w_f_x___demo_8cs" startline="217" endline="228">prevTexture</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</referencedby>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a4ad121a6818cc5d42a9bd85ae3a8f078" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; WFX_Demo.groundTextures</definition>
+        <argsstring></argsstring>
+        <name>groundTextures</name>
+        <initializer>= new List&lt;string&gt;(new string[]{&quot;Concrete&quot;,&quot;Wood&quot;,&quot;Metal&quot;,&quot;Checker&quot;})</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1a1dd184f58a16823d0a0ab7df7192aa1f" compoundref="_w_f_x___demo_8cs" startline="229" endline="239">nextTexture</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a34afada8a7bd50988b94e43621e2a511" compoundref="_w_f_x___demo_8cs" startline="217" endline="228">prevTexture</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a4b29b5bad24e13f1431c34e3fd1d4bb6" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WFX_Demo.m4fps</definition>
+        <argsstring></argsstring>
+        <name>m4fps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="174" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="174" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___demo_1a9a662e95a2b96b9877790abb14c7f6e7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_Demo.rotate_m4</definition>
+        <argsstring></argsstring>
+        <name>rotate_m4</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="175" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" compoundref="_w_f_x___demo_8cs" startline="196" endline="215">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_w_f_x___demo_1a498318f3310520b185ef837c974046e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.OnMouseDown</definition>
+        <argsstring>()</argsstring>
+        <name>OnMouseDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="38" bodyend="47"/>
+        <references refid="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" compoundref="_w_f_x___demo_8cs" startline="49" endline="67">spawnParticle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a1e674d31c14590591234cbb7a0d8ffa1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.SetActiveCrossVersions</definition>
+        <argsstring>(GameObject obj, bool active)</argsstring>
+        <name>SetActiveCrossVersions</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="69" bodyend="78"/>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+        <referencedby refid="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" compoundref="_w_f_x___demo_8cs" startline="49" endline="67">spawnParticle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="80" bodyend="172"/>
+        <references refid="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" compoundref="_w_f_x___demo_8cs" startline="26">exampleIndex</references>
+        <references refid="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" compoundref="_w_f_x___demo_8cs" startline="35">groundTextureStr</references>
+        <references refid="class_w_f_x___demo_1a43ca72549b5130e7111b57ba9dd6d919" compoundref="_w_f_x___demo_8cs" startline="174">m4</references>
+        <references refid="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" compoundref="_w_f_x___demo_8cs" startline="278" endline="284">nextParticle</references>
+        <references refid="class_w_f_x___demo_1a1dd184f58a16823d0a0ab7df7192aa1f" compoundref="_w_f_x___demo_8cs" startline="229" endline="239">nextTexture</references>
+        <references refid="class_w_f_x___demo_1a84e3e087df95bb4933dabc46a6e653e6" compoundref="_w_f_x___demo_8cs" startline="24">ParticleExamples</references>
+        <references refid="class_w_f_x___demo_1a6c4d6c7cd9a4f5d11e5d2f55213a45d9" compoundref="_w_f_x___demo_8cs" startline="271" endline="277">prevParticle</references>
+        <references refid="class_w_f_x___demo_1a34afada8a7bd50988b94e43621e2a511" compoundref="_w_f_x___demo_8cs" startline="217" endline="228">prevTexture</references>
+        <references refid="class_w_f_x___demo_1a9a662e95a2b96b9877790abb14c7f6e7" compoundref="_w_f_x___demo_8cs" startline="175">rotate_m4</references>
+        <references refid="class_w_f_x___demo_1a0719d8b87db7b9616454b4044e52f309" compoundref="_w_f_x___demo_8cs" startline="31">rotateCam</references>
+        <references refid="class_w_f_x___demo_1aa49edd3d76f8b2ea792b20beb0b683ab" compoundref="_w_f_x___demo_8cs" startline="30">slowMo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator WFX_Demo.RandomSpawnsCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>RandomSpawnsCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="177" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="177" bodyend="194"/>
+        <references refid="class_w_f_x___demo_1a7b09d5dc64ffd6b8d73be838fede4161" compoundref="_w_f_x___demo_8cs" startline="19">order</references>
+        <references refid="class_w_f_x___demo_1ab493fd7e443967d0d36bc9cb776133f7" compoundref="_w_f_x___demo_8cs" startline="16">orderedSpawns</references>
+        <references refid="class_w_f_x___demo_1a89253fe4a462d92f264b2debc82ef37c" compoundref="_w_f_x___demo_8cs" startline="27">randomSpawnsDelay</references>
+        <references refid="class_w_f_x___demo_1a2ca7732663cd63ec7f61116cf6da30a4" compoundref="_w_f_x___demo_8cs" startline="18">range</references>
+        <references refid="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" compoundref="_w_f_x___demo_8cs" startline="49" endline="67">spawnParticle</references>
+        <references refid="class_w_f_x___demo_1a8f43fbf1671ad00be429da02933ea9ed" compoundref="_w_f_x___demo_8cs" startline="17">step</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="196" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="196" bodyend="215"/>
+        <references refid="class_w_f_x___demo_1a1f849ff63b927f869cb95be054b3c8d6" compoundref="_w_f_x___demo_8cs" startline="14">cameraSpeed</references>
+        <references refid="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" compoundref="_w_f_x___demo_8cs" startline="278" endline="284">nextParticle</references>
+        <references refid="class_w_f_x___demo_1a6c4d6c7cd9a4f5d11e5d2f55213a45d9" compoundref="_w_f_x___demo_8cs" startline="271" endline="277">prevParticle</references>
+        <references refid="class_w_f_x___demo_1a9a662e95a2b96b9877790abb14c7f6e7" compoundref="_w_f_x___demo_8cs" startline="175">rotate_m4</references>
+        <references refid="class_w_f_x___demo_1a0719d8b87db7b9616454b4044e52f309" compoundref="_w_f_x___demo_8cs" startline="31">rotateCam</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a34afada8a7bd50988b94e43621e2a511" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.prevTexture</definition>
+        <argsstring>()</argsstring>
+        <name>prevTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="217" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="217" bodyend="228"/>
+        <references refid="class_w_f_x___demo_1a4ad121a6818cc5d42a9bd85ae3a8f078" compoundref="_w_f_x___demo_8cs" startline="36">groundTextures</references>
+        <references refid="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" compoundref="_w_f_x___demo_8cs" startline="35">groundTextureStr</references>
+        <references refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</references>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a1dd184f58a16823d0a0ab7df7192aa1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.nextTexture</definition>
+        <argsstring>()</argsstring>
+        <name>nextTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="229" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="229" bodyend="239"/>
+        <references refid="class_w_f_x___demo_1a4ad121a6818cc5d42a9bd85ae3a8f078" compoundref="_w_f_x___demo_8cs" startline="36">groundTextures</references>
+        <references refid="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" compoundref="_w_f_x___demo_8cs" startline="35">groundTextureStr</references>
+        <references refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</references>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.selectMaterial</definition>
+        <argsstring>()</argsstring>
+        <name>selectMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="241" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="241" bodyend="269"/>
+        <references refid="class_w_f_x___demo_1a6505b2669350c2a7fc87ea6aa805a9f9" compoundref="_w_f_x___demo_8cs" startline="33">checker</references>
+        <references refid="class_w_f_x___demo_1ae9bdb9bbbb4f97871853f4f2133daebb" compoundref="_w_f_x___demo_8cs" startline="34">checkerWall</references>
+        <references refid="class_w_f_x___demo_1a9ed1521b99e4cb1a1d4fbeee748fec76" compoundref="_w_f_x___demo_8cs" startline="33">concrete</references>
+        <references refid="class_w_f_x___demo_1a81cfb04fd3e1e53b88ec04d07c3cc167" compoundref="_w_f_x___demo_8cs" startline="34">concreteWall</references>
+        <references refid="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" compoundref="_w_f_x___demo_8cs" startline="35">groundTextureStr</references>
+        <references refid="class_w_f_x___demo_1aed57d85ffcf6d75f61d039996674065d" compoundref="_w_f_x___demo_8cs" startline="33">metal</references>
+        <references refid="class_w_f_x___demo_1a6afc3290ee4ccfc870d2715d4cfd000d" compoundref="_w_f_x___demo_8cs" startline="34">metalWall</references>
+        <references refid="class_w_f_x___demo_1a556009fdaf4cb9850fa5ddf799e8d23a" compoundref="_w_f_x___demo_8cs" startline="33">wood</references>
+        <references refid="class_w_f_x___demo_1a03bcb37d3e8feb492dd9373ff3a2cb3d" compoundref="_w_f_x___demo_8cs" startline="34">woodWall</references>
+        <referencedby refid="class_w_f_x___demo_1a1dd184f58a16823d0a0ab7df7192aa1f" compoundref="_w_f_x___demo_8cs" startline="229" endline="239">nextTexture</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a34afada8a7bd50988b94e43621e2a511" compoundref="_w_f_x___demo_8cs" startline="217" endline="228">prevTexture</referencedby>
+        <referencedby refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a6c4d6c7cd9a4f5d11e5d2f55213a45d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.prevParticle</definition>
+        <argsstring>()</argsstring>
+        <name>prevParticle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="271" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="271" bodyend="277"/>
+        <references refid="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" compoundref="_w_f_x___demo_8cs" startline="26">exampleIndex</references>
+        <references refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</references>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" compoundref="_w_f_x___demo_8cs" startline="196" endline="215">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.nextParticle</definition>
+        <argsstring>()</argsstring>
+        <name>nextParticle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="278" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="278" bodyend="284"/>
+        <references refid="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" compoundref="_w_f_x___demo_8cs" startline="26">exampleIndex</references>
+        <references refid="class_w_f_x___demo_1a84e3e087df95bb4933dabc46a6e653e6" compoundref="_w_f_x___demo_8cs" startline="24">ParticleExamples</references>
+        <references refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" compoundref="_w_f_x___demo_8cs" startline="286" endline="345">showHideStuff</references>
+        <referencedby refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" compoundref="_w_f_x___demo_8cs" startline="80" endline="172">OnGUI</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" compoundref="_w_f_x___demo_8cs" startline="196" endline="215">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_Demo.showHideStuff</definition>
+        <argsstring>()</argsstring>
+        <name>showHideStuff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="286" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="286" bodyend="345"/>
+        <references refid="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" compoundref="_w_f_x___demo_8cs" startline="26">exampleIndex</references>
+        <references refid="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" compoundref="_w_f_x___demo_8cs" startline="35">groundTextureStr</references>
+        <references refid="class_w_f_x___demo_1a43ca72549b5130e7111b57ba9dd6d919" compoundref="_w_f_x___demo_8cs" startline="174">m4</references>
+        <references refid="class_w_f_x___demo_1a4b29b5bad24e13f1431c34e3fd1d4bb6" compoundref="_w_f_x___demo_8cs" startline="174">m4fps</references>
+        <references refid="class_w_f_x___demo_1a84e3e087df95bb4933dabc46a6e653e6" compoundref="_w_f_x___demo_8cs" startline="24">ParticleExamples</references>
+        <references refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" compoundref="_w_f_x___demo_8cs" startline="241" endline="269">selectMaterial</references>
+        <references refid="class_w_f_x___demo_1a1e674d31c14590591234cbb7a0d8ffa1" compoundref="_w_f_x___demo_8cs" startline="69" endline="78">SetActiveCrossVersions</references>
+        <references refid="class_w_f_x___demo_1a69600c0024e70f5d3d18cc69b3727c05" compoundref="_w_f_x___demo_8cs" startline="21">walls</references>
+        <referencedby refid="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" compoundref="_w_f_x___demo_8cs" startline="278" endline="284">nextParticle</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a6c4d6c7cd9a4f5d11e5d2f55213a45d9" compoundref="_w_f_x___demo_8cs" startline="271" endline="277">prevParticle</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject WFX_Demo.spawnParticle</definition>
+        <argsstring>()</argsstring>
+        <name>spawnParticle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="49" bodyend="67"/>
+        <references refid="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" compoundref="_w_f_x___demo_8cs" startline="26">exampleIndex</references>
+        <references refid="class_w_f_x___demo_1a84e3e087df95bb4933dabc46a6e653e6" compoundref="_w_f_x___demo_8cs" startline="24">ParticleExamples</references>
+        <references refid="class_w_f_x___demo_1a1e674d31c14590591234cbb7a0d8ffa1" compoundref="_w_f_x___demo_8cs" startline="69" endline="78">SetActiveCrossVersions</references>
+        <referencedby refid="class_w_f_x___demo_1a498318f3310520b185ef837c974046e3" compoundref="_w_f_x___demo_8cs" startline="38" endline="47">OnMouseDown</referencedby>
+        <referencedby refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" compoundref="_w_f_x___demo_8cs" startline="177" endline="194">RandomSpawnsCoroutine</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Demo Scene Script for WAR FX</para><para>(c) 2015, Jean Moreno </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2870">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2869">
+        <label>WFX_Demo</label>
+        <link refid="class_w_f_x___demo"/>
+        <childnode refid="2870" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2872">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2871">
+        <label>WFX_Demo</label>
+        <link refid="class_w_f_x___demo"/>
+        <childnode refid="2872" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo.cs" bodystart="12" bodyend="346"/>
+    <listofallmembers>
+      <member refid="class_w_f_x___demo_1acdadd9db6dbfc37049b327272fb48c74" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>bulletholes</name></member>
+      <member refid="class_w_f_x___demo_1a1f849ff63b927f869cb95be054b3c8d6" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>cameraSpeed</name></member>
+      <member refid="class_w_f_x___demo_1a6505b2669350c2a7fc87ea6aa805a9f9" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>checker</name></member>
+      <member refid="class_w_f_x___demo_1ae9bdb9bbbb4f97871853f4f2133daebb" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>checkerWall</name></member>
+      <member refid="class_w_f_x___demo_1a9ed1521b99e4cb1a1d4fbeee748fec76" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>concrete</name></member>
+      <member refid="class_w_f_x___demo_1a81cfb04fd3e1e53b88ec04d07c3cc167" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>concreteWall</name></member>
+      <member refid="class_w_f_x___demo_1aa27bc752050f8813c22f43ef9cb74cfe" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>exampleIndex</name></member>
+      <member refid="class_w_f_x___demo_1a4ad121a6818cc5d42a9bd85ae3a8f078" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>groundTextures</name></member>
+      <member refid="class_w_f_x___demo_1ad2907b663c2e3d5b6dd2881e4fb46ebb" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>groundTextureStr</name></member>
+      <member refid="class_w_f_x___demo_1a43ca72549b5130e7111b57ba9dd6d919" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>m4</name></member>
+      <member refid="class_w_f_x___demo_1a4b29b5bad24e13f1431c34e3fd1d4bb6" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>m4fps</name></member>
+      <member refid="class_w_f_x___demo_1aed57d85ffcf6d75f61d039996674065d" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>metal</name></member>
+      <member refid="class_w_f_x___demo_1a6afc3290ee4ccfc870d2715d4cfd000d" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>metalWall</name></member>
+      <member refid="class_w_f_x___demo_1a7b8252b587e7ce60c72113094909ef79" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>nextParticle</name></member>
+      <member refid="class_w_f_x___demo_1a1dd184f58a16823d0a0ab7df7192aa1f" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>nextTexture</name></member>
+      <member refid="class_w_f_x___demo_1ab733d9d9ca73cca161ffa4516b13625e" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>OnGUI</name></member>
+      <member refid="class_w_f_x___demo_1a498318f3310520b185ef837c974046e3" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>OnMouseDown</name></member>
+      <member refid="class_w_f_x___demo_1a7b09d5dc64ffd6b8d73be838fede4161" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>order</name></member>
+      <member refid="class_w_f_x___demo_1ab493fd7e443967d0d36bc9cb776133f7" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>orderedSpawns</name></member>
+      <member refid="class_w_f_x___demo_1a84e3e087df95bb4933dabc46a6e653e6" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>ParticleExamples</name></member>
+      <member refid="class_w_f_x___demo_1a6c4d6c7cd9a4f5d11e5d2f55213a45d9" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>prevParticle</name></member>
+      <member refid="class_w_f_x___demo_1a34afada8a7bd50988b94e43621e2a511" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>prevTexture</name></member>
+      <member refid="class_w_f_x___demo_1a61df29470fe23d6e17156a267ba2714d" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>randomSpawns</name></member>
+      <member refid="class_w_f_x___demo_1a6c50add2d801a733948010a24b345960" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>RandomSpawnsCoroutine</name></member>
+      <member refid="class_w_f_x___demo_1a89253fe4a462d92f264b2debc82ef37c" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>randomSpawnsDelay</name></member>
+      <member refid="class_w_f_x___demo_1a2ca7732663cd63ec7f61116cf6da30a4" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>range</name></member>
+      <member refid="class_w_f_x___demo_1a9a662e95a2b96b9877790abb14c7f6e7" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>rotate_m4</name></member>
+      <member refid="class_w_f_x___demo_1a0719d8b87db7b9616454b4044e52f309" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>rotateCam</name></member>
+      <member refid="class_w_f_x___demo_1a474806ecc54b8509253f7649edd6040c" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>selectMaterial</name></member>
+      <member refid="class_w_f_x___demo_1a1e674d31c14590591234cbb7a0d8ffa1" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>SetActiveCrossVersions</name></member>
+      <member refid="class_w_f_x___demo_1abee92c430501a81f1ff90554416ec36d" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>showHideStuff</name></member>
+      <member refid="class_w_f_x___demo_1aa49edd3d76f8b2ea792b20beb0b683ab" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>slowMo</name></member>
+      <member refid="class_w_f_x___demo_1ace6ded98ac6d11aa82416a12213087c7" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>spawnParticle</name></member>
+      <member refid="class_w_f_x___demo_1a8f43fbf1671ad00be429da02933ea9ed" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>step</name></member>
+      <member refid="class_w_f_x___demo_1a54e7f32f6342a6dd70b48ec837d61569" prot="private" virt="non-virtual"><scope>WFX_Demo</scope><name>Update</name></member>
+      <member refid="class_w_f_x___demo_1a69600c0024e70f5d3d18cc69b3727c05" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>walls</name></member>
+      <member refid="class_w_f_x___demo_1a556009fdaf4cb9850fa5ddf799e8d23a" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>wood</name></member>
+      <member refid="class_w_f_x___demo_1a03bcb37d3e8feb492dd9373ff3a2cb3d" prot="public" virt="non-virtual"><scope>WFX_Demo</scope><name>woodWall</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,737 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a63b6b81a4334a5d3a30387bcae6331b2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_MaxEnginePower</definition>
+        <argsstring></argsstring>
+        <name>m_MaxEnginePower</name>
+        <initializer>= 40f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a5dfcd3c3c91decc9956c39aac14842d9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_Lift</definition>
+        <argsstring></argsstring>
+        <name>m_Lift</name>
+        <initializer>= 0.002f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a17ea2c6f5cd06134c2ee89383c87d47a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_ZeroLiftSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_ZeroLiftSpeed</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a728903f53a6378d891b9f64fe9dcd073" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_RollEffect</definition>
+        <argsstring></argsstring>
+        <name>m_RollEffect</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1abd90c5cd12f95fecd0196b5c394e887a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_PitchEffect</definition>
+        <argsstring></argsstring>
+        <name>m_PitchEffect</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a43d6735ceb4d683e4b28842b72e302ce" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_YawEffect</definition>
+        <argsstring></argsstring>
+        <name>m_YawEffect</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1aeb106d9261ac1cf5f42351a81e46b8e4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_BankedTurnEffect</definition>
+        <argsstring></argsstring>
+        <name>m_BankedTurnEffect</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a0e09a77b8ef939b07095cd2690a7dbd0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_AerodynamicEffect</definition>
+        <argsstring></argsstring>
+        <name>m_AerodynamicEffect</name>
+        <initializer>= 0.02f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a74251ee7668abc78730fd1a0439e969d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_AutoTurnPitch</definition>
+        <argsstring></argsstring>
+        <name>m_AutoTurnPitch</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a6e7fd8856ee6801a8fee05588aa4374a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_AutoRollLevel</definition>
+        <argsstring></argsstring>
+        <name>m_AutoRollLevel</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a282d4346ab3c4963d969f6d8623d9598" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_AutoPitchLevel</definition>
+        <argsstring></argsstring>
+        <name>m_AutoPitchLevel</name>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ad0dbc585dc50e05f23ca84af4071bb3a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_AirBrakesEffect</definition>
+        <argsstring></argsstring>
+        <name>m_AirBrakesEffect</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ac974b7479e963ad7277cd32dedaa9575" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_ThrottleChangeSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_ThrottleChangeSpeed</name>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a081416f7661ddfb55e52af77023be4d3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_DragIncreaseFactor</definition>
+        <argsstring></argsstring>
+        <name>m_DragIncreaseFactor</name>
+        <initializer>= 0.001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ab8bd75e540a3b6a5d0a146cbc364eef8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_OriginalDrag</definition>
+        <argsstring></argsstring>
+        <name>m_OriginalDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a5429941b19a150b9767435ca38d70d94" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_OriginalAngularDrag</definition>
+        <argsstring></argsstring>
+        <name>m_OriginalAngularDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1addcd7fdc6d3bde0b18430db80b11ec97" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_AeroFactor</definition>
+        <argsstring></argsstring>
+        <name>m_AeroFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a287c9d597b06279cb37624758a97fa37" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_Immobilized</definition>
+        <argsstring></argsstring>
+        <name>m_Immobilized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a20e6c00301ba4cddc171edd15e824b2d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_BankedTurnAmount</definition>
+        <argsstring></argsstring>
+        <name>m_BankedTurnAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ac70a7307fdfbf13b682c41ff6a27d0a4" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ae352484ff2942123b78a377c26092726" prot="private" static="no" mutable="no">
+        <type>WheelCollider[]</type>
+        <definition>WheelCollider [] UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.m_WheelColliders</definition>
+        <argsstring></argsstring>
+        <name>m_WheelColliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a6435ae6fece421b31d20bab521beeabe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.Altitude</definition>
+        <argsstring></argsstring>
+        <name>Altitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1acb3fb231228928635db95f4377c5f2c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.Throttle</definition>
+        <argsstring></argsstring>
+        <name>Throttle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a37d10eefefb55c2012899ab9b7768ab6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.AirBrakes</definition>
+        <argsstring></argsstring>
+        <name>AirBrakes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1aa223b38089c73fdf550473d2f849ea7f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.ForwardSpeed</definition>
+        <argsstring></argsstring>
+        <name>ForwardSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a6a13fdfcdc3bf9f9c40aeef3c3070173" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.EnginePower</definition>
+        <argsstring></argsstring>
+        <name>EnginePower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a06f81e55f3a60c537e1be190a02efb4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.MaxEnginePower</definition>
+        <argsstring></argsstring>
+        <name>MaxEnginePower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1acce85273e9f97bba4084b8b7731e74c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.RollAngle</definition>
+        <argsstring></argsstring>
+        <name>RollAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a71175e5e0e5c0c67aa595d0aabaa46d2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.PitchAngle</definition>
+        <argsstring></argsstring>
+        <name>PitchAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a2f0b542ea336aa40891d96cfd6de62a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.RollInput</definition>
+        <argsstring></argsstring>
+        <name>RollInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ab569d0eee3467aeaf4faa5a6c4faed02" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.PitchInput</definition>
+        <argsstring></argsstring>
+        <name>PitchInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a2be31654f652959ed398d64b766560e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.YawInput</definition>
+        <argsstring></argsstring>
+        <name>YawInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a4d7b47867a04d7b8861f25f50b93990b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.ThrottleInput</definition>
+        <argsstring></argsstring>
+        <name>ThrottleInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a56ec5509fa9a0a31363f888f514a3327" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="46" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ad1d47f684cb88550cb975d4f8ed605a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.ClampInputs</definition>
+        <argsstring>()</argsstring>
+        <name>ClampInputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ae0d68b5d2d82392c3e29badb7d575b76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CalculateRollAndPitchAngles</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateRollAndPitchAngles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="104" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1add4427c05eed20ea15781c169bb72b14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.AutoLevel</definition>
+        <argsstring>()</argsstring>
+        <name>AutoLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="125" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="125" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a4c29e104a6720556a420e59747be1480" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CalculateForwardSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateForwardSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="145" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a08653ce8e5f94361f79fd382fd8a16b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.ControlThrottle</definition>
+        <argsstring>()</argsstring>
+        <name>ControlThrottle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="153" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="153" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a8e22aa1c555e0f91349234676594cc09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CalculateDrag</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="169" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="169" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a9e3a959b4c276f14a471c3e0cf58f605" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CaluclateAerodynamicEffect</definition>
+        <argsstring>()</argsstring>
+        <name>CaluclateAerodynamicEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="180" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="180" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1af4debbbe8de212ff831606571a905618" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CalculateLinearForces</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateLinearForces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="206" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="206" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ad2be1f97c5203d3a9df0f6d2be684174" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CalculateTorque</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateTorque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="227" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="227" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a44cea74f31af0cce1c113b6a58f71973" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.CalculateAltitude</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateAltitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="246" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="246" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ae7ee66707c5c7e5a5a1134698c2b50bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.Move</definition>
+        <argsstring>(float rollInput, float pitchInput, float yawInput, float throttleInput, bool airBrakes)</argsstring>
+        <name>Move</name>
+        <param>
+          <type>float</type>
+          <declname>rollInput</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitchInput</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yawInput</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>throttleInput</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>airBrakes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="63" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1af3a8c19679d94e8a51d512cba57677f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.Immobilize</definition>
+        <argsstring>()</argsstring>
+        <name>Immobilize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="257" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="257" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1aa042ed7aa467b33952a2e8a4f793109f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="264" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="264" bodyend="267"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" bodystart="7" bodyend="268"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a37d10eefefb55c2012899ab9b7768ab6" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>AirBrakes</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a6435ae6fece421b31d20bab521beeabe" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>Altitude</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1add4427c05eed20ea15781c169bb72b14" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>AutoLevel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a44cea74f31af0cce1c113b6a58f71973" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CalculateAltitude</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a8e22aa1c555e0f91349234676594cc09" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CalculateDrag</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a4c29e104a6720556a420e59747be1480" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CalculateForwardSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1af4debbbe8de212ff831606571a905618" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CalculateLinearForces</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ae0d68b5d2d82392c3e29badb7d575b76" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CalculateRollAndPitchAngles</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ad2be1f97c5203d3a9df0f6d2be684174" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CalculateTorque</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a9e3a959b4c276f14a471c3e0cf58f605" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>CaluclateAerodynamicEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ad1d47f684cb88550cb975d4f8ed605a4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>ClampInputs</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a08653ce8e5f94361f79fd382fd8a16b7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>ControlThrottle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a6a13fdfcdc3bf9f9c40aeef3c3070173" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>EnginePower</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1aa223b38089c73fdf550473d2f849ea7f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>ForwardSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1af3a8c19679d94e8a51d512cba57677f8" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>Immobilize</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a0e09a77b8ef939b07095cd2690a7dbd0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_AerodynamicEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1addcd7fdc6d3bde0b18430db80b11ec97" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_AeroFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ad0dbc585dc50e05f23ca84af4071bb3a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_AirBrakesEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a282d4346ab3c4963d969f6d8623d9598" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_AutoPitchLevel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a6e7fd8856ee6801a8fee05588aa4374a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_AutoRollLevel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a74251ee7668abc78730fd1a0439e969d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_AutoTurnPitch</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a20e6c00301ba4cddc171edd15e824b2d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_BankedTurnAmount</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1aeb106d9261ac1cf5f42351a81e46b8e4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_BankedTurnEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a081416f7661ddfb55e52af77023be4d3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_DragIncreaseFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a287c9d597b06279cb37624758a97fa37" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_Immobilized</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a5dfcd3c3c91decc9956c39aac14842d9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_Lift</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a63b6b81a4334a5d3a30387bcae6331b2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_MaxEnginePower</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a5429941b19a150b9767435ca38d70d94" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_OriginalAngularDrag</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ab8bd75e540a3b6a5d0a146cbc364eef8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_OriginalDrag</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1abd90c5cd12f95fecd0196b5c394e887a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_PitchEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ac70a7307fdfbf13b682c41ff6a27d0a4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_Rigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a728903f53a6378d891b9f64fe9dcd073" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_RollEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ac974b7479e963ad7277cd32dedaa9575" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_ThrottleChangeSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ae352484ff2942123b78a377c26092726" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_WheelColliders</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a43d6735ceb4d683e4b28842b72e302ce" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_YawEffect</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a17ea2c6f5cd06134c2ee89383c87d47a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>m_ZeroLiftSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a06f81e55f3a60c537e1be190a02efb4d" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>MaxEnginePower</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ae7ee66707c5c7e5a5a1134698c2b50bd" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>Move</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a71175e5e0e5c0c67aa595d0aabaa46d2" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>PitchAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1ab569d0eee3467aeaf4faa5a6c4faed02" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>PitchInput</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1aa042ed7aa467b33952a2e8a4f793109f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>Reset</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1acce85273e9f97bba4084b8b7731e74c8" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>RollAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a2f0b542ea336aa40891d96cfd6de62a4" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>RollInput</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a56ec5509fa9a0a31363f888f514a3327" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1acb3fb231228928635db95f4377c5f2c9" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>Throttle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a4d7b47867a04d7b8861f25f50b93990b" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>ThrottleInput</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller_1a2be31654f652959ed398d64b766560e4" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneController</scope><name>YawInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

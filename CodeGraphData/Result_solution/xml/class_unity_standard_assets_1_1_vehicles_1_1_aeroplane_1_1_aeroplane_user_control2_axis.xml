@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1ac3e403a9682db6b09e4582344df51c12" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis.maxRollAngle</definition>
+        <argsstring></argsstring>
+        <name>maxRollAngle</name>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a94047222692c421a596b4a3cea332c6c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis.maxPitchAngle</definition>
+        <argsstring></argsstring>
+        <name>maxPitchAngle</name>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a6a43f8df3839b8607f0b829d231995a9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller" kindref="compound">AeroplaneController</ref></type>
+        <definition>AeroplaneController UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis.m_Aeroplane</definition>
+        <argsstring></argsstring>
+        <name>m_Aeroplane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1aec3240bc505bfb05288ebdfff534c27b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a628f807b37b5f6125df287b9c0756ea2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="25" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a88c6b1165632be55cc455549645e612d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis.AdjustInputForMobileControls</definition>
+        <argsstring>(ref float roll, ref float pitch, ref float throttle)</argsstring>
+        <name>AdjustInputForMobileControls</name>
+        <param>
+          <type>ref float</type>
+          <declname>roll</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>throttle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="42" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="45">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="47">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>m_Aeroplane</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" bodystart="8" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a88c6b1165632be55cc455549645e612d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</scope><name>AdjustInputForMobileControls</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1aec3240bc505bfb05288ebdfff534c27b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a628f807b37b5f6125df287b9c0756ea2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a6a43f8df3839b8607f0b829d231995a9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</scope><name>m_Aeroplane</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1a94047222692c421a596b4a3cea332c6c" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</scope><name>maxPitchAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis_1ac3e403a9682db6b09e4582344df51c12" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplaneUserControl2Axis</scope><name>maxRollAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::Mudguard</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1ac47e6ae7fede7ec215c2fba343072906" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" kindref="compound">CarController</ref></type>
+        <definition>CarController UnityStandardAssets.Vehicles.Car.Mudguard.carController</definition>
+        <argsstring></argsstring>
+        <name>carController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1a098eac4cd69f8772f4da6a1bf9d75e0d" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion UnityStandardAssets.Vehicles.Car.Mudguard.m_OriginalRotation</definition>
+        <argsstring></argsstring>
+        <name>m_OriginalRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1aa80664f957940eba79bfbd2b31fbada5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.Mudguard.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1ab4f5da1a84f8e9b3fdf317c62c01c4bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.Mudguard.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1551">
+        <label>UnityStandardAssets.Vehicles.Car.Mudguard</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1552">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1553">
+        <label>UnityStandardAssets.Vehicles.Car.Mudguard</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard"/>
+        <childnode refid="1554" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1555" relation="usage">
+          <edgelabel>carController</edgelabel>
+        </childnode>
+      </node>
+      <node id="1556">
+        <label>UnityStandardAssets.Vehicles.Car.WheelEffects</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects"/>
+        <childnode refid="1554" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1554">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1555">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="1554" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1556" relation="usage">
+          <edgelabel>m_WheelEffects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1ac47e6ae7fede7ec215c2fba343072906" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::Mudguard</scope><name>carController</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1a098eac4cd69f8772f4da6a1bf9d75e0d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::Mudguard</scope><name>m_OriginalRotation</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1aa80664f957940eba79bfbd2b31fbada5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::Mudguard</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard_1ab4f5da1a84f8e9b3fdf317c62c01c4bc" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::Mudguard</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::CarSelfRighting</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ae996d811cde750debe65ba9934442083" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarSelfRighting.m_WaitTime</definition>
+        <argsstring></argsstring>
+        <name>m_WaitTime</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a0f3c7c3b27b3d41f39aacb6be8bf8877" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarSelfRighting.m_VelocityThreshold</definition>
+        <argsstring></argsstring>
+        <name>m_VelocityThreshold</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a2b193fca7d04d16bddb0d9eae53be890" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarSelfRighting.m_LastOkTime</definition>
+        <argsstring></argsstring>
+        <name>m_LastOkTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a216aabdca915b91fe3c585afc5325e23" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Vehicles.Car.CarSelfRighting.m_Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ad3ebe7a28d609d087e9c9b505135439d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarSelfRighting.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a8fd732fd85a2d502e07fc06fc8c71ff7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarSelfRighting.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="22" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a85928236aa20e15a257ce54ad9359263" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarSelfRighting.RightCar</definition>
+        <argsstring>()</argsstring>
+        <name>RightCar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="436">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="435">
+        <label>UnityStandardAssets.Vehicles.Car.CarSelfRighting</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="438">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="437">
+        <label>UnityStandardAssets.Vehicles.Car.CarSelfRighting</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting"/>
+        <childnode refid="438" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a2b193fca7d04d16bddb0d9eae53be890" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>m_LastOkTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a216aabdca915b91fe3c585afc5325e23" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>m_Rigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a0f3c7c3b27b3d41f39aacb6be8bf8877" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>m_VelocityThreshold</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ae996d811cde750debe65ba9934442083" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>m_WaitTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a85928236aa20e15a257ce54ad9359263" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>RightCar</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1ad3ebe7a28d609d087e9c9b505135439d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting_1a8fd732fd85a2d502e07fc06fc8c71ff7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarSelfRighting</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

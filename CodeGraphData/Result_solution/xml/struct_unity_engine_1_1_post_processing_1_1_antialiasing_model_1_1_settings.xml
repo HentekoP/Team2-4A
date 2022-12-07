@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings" kind="struct" prot="public">
+    <compoundname>UnityEngine::PostProcessing::AntialiasingModel::Settings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1a290930e87c63130ce62f3329d892ef30" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_antialiasing_model_1ab5cf39cfa77f367f530971a77518e89f" kindref="member">Method</ref></type>
+        <definition>Method UnityEngine.PostProcessing.AntialiasingModel.Settings.method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" line="211" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1ae69900a58d52b60e6bd31feb3cccb3e5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_settings" kindref="compound">FxaaSettings</ref></type>
+        <definition>FxaaSettings UnityEngine.PostProcessing.AntialiasingModel.Settings.fxaaSettings</definition>
+        <argsstring></argsstring>
+        <name>fxaaSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" line="212" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1aa4ac4787db6aca3c7a806212e9f88e68" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_taa_settings" kindref="compound">TaaSettings</ref></type>
+        <definition>TaaSettings UnityEngine.PostProcessing.AntialiasingModel.Settings.taaSettings</definition>
+        <argsstring></argsstring>
+        <name>taaSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" line="213" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1a4a4c39cef618cb3485000208fe831295" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings UnityEngine.PostProcessing.AntialiasingModel.Settings.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" line="215" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2275">
+        <label>UnityEngine.PostProcessing.AntialiasingModel.FxaaSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_fxaa_settings"/>
+      </node>
+      <node id="2273">
+        <label>UnityEngine.PostProcessing.AntialiasingModel.Settings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings"/>
+        <childnode refid="2274" relation="usage">
+          <edgelabel>taaSettings</edgelabel>
+        </childnode>
+        <childnode refid="2275" relation="usage">
+          <edgelabel>fxaaSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2274">
+        <label>UnityEngine.PostProcessing.AntialiasingModel.TaaSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_taa_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" line="210" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/AntialiasingModel.cs" bodystart="209" bodyend="227"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1a4a4c39cef618cb3485000208fe831295" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AntialiasingModel::Settings</scope><name>defaultSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1ae69900a58d52b60e6bd31feb3cccb3e5" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AntialiasingModel::Settings</scope><name>fxaaSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1a290930e87c63130ce62f3329d892ef30" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AntialiasingModel::Settings</scope><name>method</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_antialiasing_model_1_1_settings_1aa4ac4787db6aca3c7a806212e9f88e68" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::AntialiasingModel::Settings</scope><name>taaSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::CarAIControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a76e8647190ba28220e6e283fa0e3cdd5" prot="public" static="no">
+        <name>BrakeCondition</name>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a76e8647190ba28220e6e283fa0e3cdd5a986eb879482e43e0bfb26147db183629" prot="public">
+          <name>NeverBrake</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a76e8647190ba28220e6e283fa0e3cdd5a182aedf4d660e345f60252d91777334b" prot="public">
+          <name>TargetDirectionDifference</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a76e8647190ba28220e6e283fa0e3cdd5ac94e362a7847fbf92be53d4cd55b6603" prot="public">
+          <name>TargetDistance</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a9d2ac2a1cd5daf21007803d1dd4b11f5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_CautiousSpeedFactor</definition>
+        <argsstring></argsstring>
+        <name>m_CautiousSpeedFactor</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1abaf084b0e7878e0c483d3621be2eacb0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_CautiousMaxAngle</definition>
+        <argsstring></argsstring>
+        <name>m_CautiousMaxAngle</name>
+        <initializer>= 50f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1aaa9c9993078d916d3ebf1fd78e1c4c71" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_CautiousMaxDistance</definition>
+        <argsstring></argsstring>
+        <name>m_CautiousMaxDistance</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a52c031e8761a5a97f070265c57f90528" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_CautiousAngularVelocityFactor</definition>
+        <argsstring></argsstring>
+        <name>m_CautiousAngularVelocityFactor</name>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a7145067699c673508b070f61b9a75f0c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_SteerSensitivity</definition>
+        <argsstring></argsstring>
+        <name>m_SteerSensitivity</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a64d8983f9d56c02f05dad531afd1dbee" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_AccelSensitivity</definition>
+        <argsstring></argsstring>
+        <name>m_AccelSensitivity</name>
+        <initializer>= 0.04f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a33ac3c9fd45d5ad3b10427a655ca6f0f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_BrakeSensitivity</definition>
+        <argsstring></argsstring>
+        <name>m_BrakeSensitivity</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a1d4993c71e61aa3b2d6880bc4c5190a0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_LateralWanderDistance</definition>
+        <argsstring></argsstring>
+        <name>m_LateralWanderDistance</name>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a588af9c9651bd528675a0c11a0e4c294" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_LateralWanderSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_LateralWanderSpeed</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a35869ca17ae69cf07b46e1da7508daf9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_AccelWanderAmount</definition>
+        <argsstring></argsstring>
+        <name>m_AccelWanderAmount</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ade626e710131ad40ccbc8292a3687480" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_AccelWanderSpeed</definition>
+        <argsstring></argsstring>
+        <name>m_AccelWanderSpeed</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a9091d5525c3992711626becfabd382ec" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a76e8647190ba28220e6e283fa0e3cdd5" kindref="member">BrakeCondition</ref></type>
+        <definition>BrakeCondition UnityStandardAssets.Vehicles.Car.CarAIControl.m_BrakeCondition</definition>
+        <argsstring></argsstring>
+        <name>m_BrakeCondition</name>
+        <initializer>= BrakeCondition.TargetDistance</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a4bd68dc194327d936f5893b681b7012d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Car.CarAIControl.m_Driving</definition>
+        <argsstring></argsstring>
+        <name>m_Driving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1af0e0fbab1349507af71ce98ebaea7c41" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Vehicles.Car.CarAIControl.m_Target</definition>
+        <argsstring></argsstring>
+        <name>m_Target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a257975f2adddee9653be8dbce89b81dd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Vehicles.Car.CarAIControl.m_StopWhenTargetReached</definition>
+        <argsstring></argsstring>
+        <name>m_StopWhenTargetReached</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ab45af517704852e4ac0b3ace51d8afdc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_ReachTargetThreshold</definition>
+        <argsstring></argsstring>
+        <name>m_ReachTargetThreshold</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a541aa7b5277fea9927848c8e17376e64" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_RandomPerlin</definition>
+        <argsstring></argsstring>
+        <name>m_RandomPerlin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ac16992f862d45051c4d43db957469df9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" kindref="compound">CarController</ref></type>
+        <definition>CarController UnityStandardAssets.Vehicles.Car.CarAIControl.m_CarController</definition>
+        <argsstring></argsstring>
+        <name>m_CarController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1af4af5b8719346999bacfbb91ecc2c8de" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_AvoidOtherCarTime</definition>
+        <argsstring></argsstring>
+        <name>m_AvoidOtherCarTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ac1f09490e13faa4c83c57ba2316416a7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_AvoidOtherCarSlowdown</definition>
+        <argsstring></argsstring>
+        <name>m_AvoidOtherCarSlowdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1abdc404f84a8179a82ed8337fed4536d5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Car.CarAIControl.m_AvoidPathOffset</definition>
+        <argsstring></argsstring>
+        <name>m_AvoidPathOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a9890dfd5fd4adca44b6e4794192daa9b" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Vehicles.Car.CarAIControl.m_Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1aedf060a63e7cd9fb07ec62ba95dfaa35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAIControl.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a7ded22cffe4b5edbf85e1120701cc4ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAIControl.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="62" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1aefdf6ea339626400fa320f0a929a9590" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAIControl.OnCollisionStay</definition>
+        <argsstring>(Collision col)</argsstring>
+        <name>OnCollisionStay</name>
+        <param>
+          <type>Collision</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="183" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="183" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a3bebae69a881903e8d0e4ef486bb84cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarAIControl.SetTarget</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>SetTarget</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="216" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="216" bodyend="220"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="418">
+        <label>UnityStandardAssets.Vehicles.Car.CarAIControl</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="420">
+        <label>UnityStandardAssets.Vehicles.Car.CarAIControl</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+        <childnode refid="422" relation="usage">
+          <edgelabel>m_CarController</edgelabel>
+        </childnode>
+      </node>
+      <node id="423">
+        <label>UnityStandardAssets.Vehicles.Car.WheelEffects</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="422">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+        <childnode refid="423" relation="usage">
+          <edgelabel>m_WheelEffects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" bodystart="9" bodyend="221"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1aedf060a63e7cd9fb07ec62ba95dfaa35" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a76e8647190ba28220e6e283fa0e3cdd5" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>BrakeCondition</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a7ded22cffe4b5edbf85e1120701cc4ac" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a64d8983f9d56c02f05dad531afd1dbee" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_AccelSensitivity</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a35869ca17ae69cf07b46e1da7508daf9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_AccelWanderAmount</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ade626e710131ad40ccbc8292a3687480" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_AccelWanderSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ac1f09490e13faa4c83c57ba2316416a7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_AvoidOtherCarSlowdown</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1af4af5b8719346999bacfbb91ecc2c8de" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_AvoidOtherCarTime</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1abdc404f84a8179a82ed8337fed4536d5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_AvoidPathOffset</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a9091d5525c3992711626becfabd382ec" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_BrakeCondition</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a33ac3c9fd45d5ad3b10427a655ca6f0f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_BrakeSensitivity</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ac16992f862d45051c4d43db957469df9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_CarController</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a52c031e8761a5a97f070265c57f90528" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_CautiousAngularVelocityFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1abaf084b0e7878e0c483d3621be2eacb0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_CautiousMaxAngle</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1aaa9c9993078d916d3ebf1fd78e1c4c71" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_CautiousMaxDistance</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a9d2ac2a1cd5daf21007803d1dd4b11f5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_CautiousSpeedFactor</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a4bd68dc194327d936f5893b681b7012d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_Driving</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a1d4993c71e61aa3b2d6880bc4c5190a0" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_LateralWanderDistance</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a588af9c9651bd528675a0c11a0e4c294" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_LateralWanderSpeed</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a541aa7b5277fea9927848c8e17376e64" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_RandomPerlin</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1ab45af517704852e4ac0b3ace51d8afdc" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_ReachTargetThreshold</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a9890dfd5fd4adca44b6e4794192daa9b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_Rigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a7145067699c673508b070f61b9a75f0c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_SteerSensitivity</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a257975f2adddee9653be8dbce89b81dd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_StopWhenTargetReached</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1af0e0fbab1349507af71ce98ebaea7c41" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>m_Target</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1aefdf6ea339626400fa320f0a929a9590" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>OnCollisionStay</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control_1a3bebae69a881903e8d0e4ef486bb84cc" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarAIControl</scope><name>SetTarget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

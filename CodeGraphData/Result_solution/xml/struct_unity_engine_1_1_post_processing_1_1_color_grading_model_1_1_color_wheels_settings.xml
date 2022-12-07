@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings" kind="struct" prot="public">
+    <compoundname>UnityEngine::PostProcessing::ColorGradingModel::ColorWheelsSettings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a1585463b103bd02972e8d8f1a22e3bf1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_post_processing_1_1_color_grading_model_1a57da7f62b07b7109f15758571a852586" kindref="member">ColorWheelMode</ref></type>
+        <definition>ColorWheelMode UnityEngine.PostProcessing.ColorGradingModel.ColorWheelsSettings.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" line="193" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a4e850e98ea6605f15205c1c570c70ef8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_log_wheels_settings" kindref="compound">LogWheelsSettings</ref></type>
+        <definition>LogWheelsSettings UnityEngine.PostProcessing.ColorGradingModel.ColorWheelsSettings.log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" line="196" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a854d17dcc8e666c1b2d83c929f51d60e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_linear_wheels_settings" kindref="compound">LinearWheelsSettings</ref></type>
+        <definition>LinearWheelsSettings UnityEngine.PostProcessing.ColorGradingModel.ColorWheelsSettings.linear</definition>
+        <argsstring></argsstring>
+        <name>linear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" line="199" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a33abb6c6ab3bff855b18c53f85bf392b" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings" kindref="compound">ColorWheelsSettings</ref></type>
+        <definition>ColorWheelsSettings UnityEngine.PostProcessing.ColorGradingModel.ColorWheelsSettings.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" line="201" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="639">
+        <label>UnityEngine.PostProcessing.ColorGradingModel.LogWheelsSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_log_wheels_settings"/>
+      </node>
+      <node id="640">
+        <label>UnityEngine.PostProcessing.ColorGradingModel.LinearWheelsSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_linear_wheels_settings"/>
+      </node>
+      <node id="638">
+        <label>UnityEngine.PostProcessing.ColorGradingModel.ColorWheelsSettings</label>
+        <link refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings"/>
+        <childnode refid="639" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+        <childnode refid="640" relation="usage">
+          <edgelabel>linear</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" line="192" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/PostProcessing/Runtime/Models/ColorGradingModel.cs" bodystart="191" bodyend="213"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a33abb6c6ab3bff855b18c53f85bf392b" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingModel::ColorWheelsSettings</scope><name>defaultSettings</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a854d17dcc8e666c1b2d83c929f51d60e" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingModel::ColorWheelsSettings</scope><name>linear</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a4e850e98ea6605f15205c1c570c70ef8" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingModel::ColorWheelsSettings</scope><name>log</name></member>
+      <member refid="struct_unity_engine_1_1_post_processing_1_1_color_grading_model_1_1_color_wheels_settings_1a1585463b103bd02972e8d8f1a22e3bf1" prot="public" virt="non-virtual"><scope>UnityEngine::PostProcessing::ColorGradingModel::ColorWheelsSettings</scope><name>mode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

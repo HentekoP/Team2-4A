@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classreticle_color" kind="class" prot="public">
+    <compoundname>reticleColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classreticle_color_1ac783f7623b8f3fd87ea581acd2cd1a28" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image reticleColor.aimPointImage</definition>
+        <argsstring></argsstring>
+        <name>aimPointImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1aa636cc370976fa653ee2092b5fe42599" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 reticleColor.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1aa654ea4799db98cf24d6a81934d1ff09" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject reticleColor.bombPrefab</definition>
+        <argsstring></argsstring>
+        <name>bombPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1ad222b0ab3c365312eac244bc52713efd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int reticleColor.ItemNumber</definition>
+        <argsstring></argsstring>
+        <name>ItemNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a19e5b05846971664d43dd22b095af681" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float reticleColor.Raycastlength</definition>
+        <argsstring></argsstring>
+        <name>Raycastlength</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a76e13d6ee2637b5d57fb2d1e8292f274" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float reticleColor.ColorTP</definition>
+        <argsstring></argsstring>
+        <name>ColorTP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a6e80f7dd6b54b5f397f17950568c66ac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool reticleColor.pushcount</definition>
+        <argsstring></argsstring>
+        <name>pushcount</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a8a52f4ebbaabf7fb0bf77b8526e66e48" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject reticleColor.cd</definition>
+        <argsstring></argsstring>
+        <name>cd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1ac874f8fa5178f499e2d1ac71c50f2d33" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject reticleColor.cd2</definition>
+        <argsstring></argsstring>
+        <name>cd2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1ac742c8b12ea0db7da05b10987c99c237" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject reticleColor.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a9152a5939ba8f66149999b0e44a1bbc3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool reticleColor.ExpFlg</definition>
+        <argsstring></argsstring>
+        <name>ExpFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classreticle_color_1ade1d9e7944d35a2a7e74e8734d3265fc" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool reticleColor.bomb1Flg</definition>
+        <argsstring></argsstring>
+        <name>bomb1Flg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a462054220e00cc46c8e881eca4a6cb83" compoundref="reticle_color_8cs" startline="152" endline="155">GetBombFlg</referencedby>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a9e63a8a7c7e008072c2d06a4898d4bab" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool reticleColor.BombIns</definition>
+        <argsstring></argsstring>
+        <name>BombIns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a629c393be44c3a7e9b4ba4583f1e8ae5" compoundref="reticle_color_8cs" startline="164" endline="167">BombInstantiate</referencedby>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classreticle_color_1ac1c4c0a3ab6267167e30119e1b3f04bb" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text reticleColor.TextFrame</definition>
+        <argsstring></argsstring>
+        <name>TextFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1ae4b60b5ed751d8dafaf170db73de02d8" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject reticleColor.BombButton</definition>
+        <argsstring></argsstring>
+        <name>BombButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a0bd2d57adc116bd774d9920493c9507e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject reticleColor.KaisyuText</definition>
+        <argsstring></argsstring>
+        <name>KaisyuText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classreticle_color_1a42fcacd5e59363e87e841ebd0e2c9709" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int reticleColor.bombcount</definition>
+        <argsstring></argsstring>
+        <name>bombcount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1a64faceb8d1245e9d53eed586aa5377c0" compoundref="reticle_color_8cs" startline="160" endline="163">GetbombCount</referencedby>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classreticle_color_1a20b72d3dce1e5c553f2d0ab9dbe2e557" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool reticleColor.buttonFlg</definition>
+        <argsstring></argsstring>
+        <name>buttonFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classreticle_color_1ab13341e3f8ba4eac2d0e5157a92ed9ca" compoundref="reticle_color_8cs" startline="156" endline="159">GetButtonFlg</referencedby>
+        <referencedby refid="classreticle_color_1a447bb26a91893890cf057e2323597072" compoundref="reticle_color_8cs" startline="31" endline="41">Start</referencedby>
+        <referencedby refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" compoundref="reticle_color_8cs" startline="44" endline="151">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classreticle_color_1a447bb26a91893890cf057e2323597072" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void reticleColor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="31" bodyend="41"/>
+        <references refid="classreticle_color_1ade1d9e7944d35a2a7e74e8734d3265fc" compoundref="reticle_color_8cs" startline="15">bomb1Flg</references>
+        <references refid="classreticle_color_1a42fcacd5e59363e87e841ebd0e2c9709" compoundref="reticle_color_8cs" startline="20">bombcount</references>
+        <references refid="classreticle_color_1a9e63a8a7c7e008072c2d06a4898d4bab" compoundref="reticle_color_8cs" startline="27">BombIns</references>
+        <references refid="classreticle_color_1a20b72d3dce1e5c553f2d0ab9dbe2e557" compoundref="reticle_color_8cs" startline="26">buttonFlg</references>
+        <references refid="classreticle_color_1a8a52f4ebbaabf7fb0bf77b8526e66e48" compoundref="reticle_color_8cs" startline="22">cd</references>
+        <references refid="classreticle_color_1ac874f8fa5178f499e2d1ac71c50f2d33" compoundref="reticle_color_8cs" startline="23">cd2</references>
+        <references refid="classreticle_color_1ac742c8b12ea0db7da05b10987c99c237" compoundref="reticle_color_8cs" startline="24">Player</references>
+      </memberdef>
+      <memberdef kind="function" id="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void reticleColor.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="44" bodyend="151"/>
+        <references refid="classreticle_color_1ade1d9e7944d35a2a7e74e8734d3265fc" compoundref="reticle_color_8cs" startline="15">bomb1Flg</references>
+        <references refid="classreticle_color_1ae4b60b5ed751d8dafaf170db73de02d8" compoundref="reticle_color_8cs" startline="25">BombButton</references>
+        <references refid="classreticle_color_1a42fcacd5e59363e87e841ebd0e2c9709" compoundref="reticle_color_8cs" startline="20">bombcount</references>
+        <references refid="classreticle_color_1a9e63a8a7c7e008072c2d06a4898d4bab" compoundref="reticle_color_8cs" startline="27">BombIns</references>
+        <references refid="classreticle_color_1aa654ea4799db98cf24d6a81934d1ff09" compoundref="reticle_color_8cs" startline="14">bombPrefab</references>
+        <references refid="classreticle_color_1a20b72d3dce1e5c553f2d0ab9dbe2e557" compoundref="reticle_color_8cs" startline="26">buttonFlg</references>
+        <references refid="classreticle_color_1a8a52f4ebbaabf7fb0bf77b8526e66e48" compoundref="reticle_color_8cs" startline="22">cd</references>
+        <references refid="classreticle_color_1ac874f8fa5178f499e2d1ac71c50f2d33" compoundref="reticle_color_8cs" startline="23">cd2</references>
+        <references refid="classreticle_color_1a76e13d6ee2637b5d57fb2d1e8292f274" compoundref="reticle_color_8cs" startline="19">ColorTP</references>
+        <references refid="classreticle_color_1a9152a5939ba8f66149999b0e44a1bbc3" compoundref="reticle_color_8cs" startline="28">ExpFlg</references>
+        <references refid="classreticle_color_1ad222b0ab3c365312eac244bc52713efd" compoundref="reticle_color_8cs" startline="17">ItemNumber</references>
+        <references refid="classreticle_color_1ac742c8b12ea0db7da05b10987c99c237" compoundref="reticle_color_8cs" startline="24">Player</references>
+        <references refid="classreticle_color_1aa636cc370976fa653ee2092b5fe42599" compoundref="reticle_color_8cs" startline="11">pos</references>
+        <references refid="classreticle_color_1a6e80f7dd6b54b5f397f17950568c66ac" compoundref="reticle_color_8cs" startline="21">pushcount</references>
+        <references refid="classreticle_color_1a19e5b05846971664d43dd22b095af681" compoundref="reticle_color_8cs" startline="18">Raycastlength</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classreticle_color_1a462054220e00cc46c8e881eca4a6cb83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool reticleColor.GetBombFlg</definition>
+        <argsstring>()</argsstring>
+        <name>GetBombFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="152" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="152" bodyend="155"/>
+        <references refid="classreticle_color_1ade1d9e7944d35a2a7e74e8734d3265fc" compoundref="reticle_color_8cs" startline="15">bomb1Flg</references>
+      </memberdef>
+      <memberdef kind="function" id="classreticle_color_1ab13341e3f8ba4eac2d0e5157a92ed9ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool reticleColor.GetButtonFlg</definition>
+        <argsstring>()</argsstring>
+        <name>GetButtonFlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="156" bodyend="159"/>
+        <references refid="classreticle_color_1a20b72d3dce1e5c553f2d0ab9dbe2e557" compoundref="reticle_color_8cs" startline="26">buttonFlg</references>
+      </memberdef>
+      <memberdef kind="function" id="classreticle_color_1a64faceb8d1245e9d53eed586aa5377c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int reticleColor.GetbombCount</definition>
+        <argsstring>()</argsstring>
+        <name>GetbombCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="160" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="160" bodyend="163"/>
+        <references refid="classreticle_color_1a42fcacd5e59363e87e841ebd0e2c9709" compoundref="reticle_color_8cs" startline="20">bombcount</references>
+      </memberdef>
+      <memberdef kind="function" id="classreticle_color_1a629c393be44c3a7e9b4ba4583f1e8ae5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool reticleColor.BombInstantiate</definition>
+        <argsstring>()</argsstring>
+        <name>BombInstantiate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="164" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="164" bodyend="167"/>
+        <references refid="classreticle_color_1a9e63a8a7c7e008072c2d06a4898d4bab" compoundref="reticle_color_8cs" startline="27">BombIns</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2121">
+        <label>reticleColor</label>
+        <link refid="classreticle_color"/>
+        <childnode refid="2122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2122">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2123">
+        <label>reticleColor</label>
+        <link refid="classreticle_color"/>
+        <childnode refid="2124" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2125" relation="usage">
+          <edgelabel>TextFrame</edgelabel>
+        </childnode>
+      </node>
+      <node id="2125">
+        <label>Text</label>
+      </node>
+      <node id="2124">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/reticleColor.cs" bodystart="6" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classreticle_color_1ac783f7623b8f3fd87ea581acd2cd1a28" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>aimPointImage</name></member>
+      <member refid="classreticle_color_1ade1d9e7944d35a2a7e74e8734d3265fc" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>bomb1Flg</name></member>
+      <member refid="classreticle_color_1ae4b60b5ed751d8dafaf170db73de02d8" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>BombButton</name></member>
+      <member refid="classreticle_color_1a42fcacd5e59363e87e841ebd0e2c9709" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>bombcount</name></member>
+      <member refid="classreticle_color_1a9e63a8a7c7e008072c2d06a4898d4bab" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>BombIns</name></member>
+      <member refid="classreticle_color_1a629c393be44c3a7e9b4ba4583f1e8ae5" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>BombInstantiate</name></member>
+      <member refid="classreticle_color_1aa654ea4799db98cf24d6a81934d1ff09" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>bombPrefab</name></member>
+      <member refid="classreticle_color_1a20b72d3dce1e5c553f2d0ab9dbe2e557" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>buttonFlg</name></member>
+      <member refid="classreticle_color_1a8a52f4ebbaabf7fb0bf77b8526e66e48" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>cd</name></member>
+      <member refid="classreticle_color_1ac874f8fa5178f499e2d1ac71c50f2d33" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>cd2</name></member>
+      <member refid="classreticle_color_1a76e13d6ee2637b5d57fb2d1e8292f274" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>ColorTP</name></member>
+      <member refid="classreticle_color_1a9152a5939ba8f66149999b0e44a1bbc3" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>ExpFlg</name></member>
+      <member refid="classreticle_color_1a64faceb8d1245e9d53eed586aa5377c0" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>GetbombCount</name></member>
+      <member refid="classreticle_color_1a462054220e00cc46c8e881eca4a6cb83" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>GetBombFlg</name></member>
+      <member refid="classreticle_color_1ab13341e3f8ba4eac2d0e5157a92ed9ca" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>GetButtonFlg</name></member>
+      <member refid="classreticle_color_1ad222b0ab3c365312eac244bc52713efd" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>ItemNumber</name></member>
+      <member refid="classreticle_color_1a0bd2d57adc116bd774d9920493c9507e" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>KaisyuText</name></member>
+      <member refid="classreticle_color_1ac742c8b12ea0db7da05b10987c99c237" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>Player</name></member>
+      <member refid="classreticle_color_1aa636cc370976fa653ee2092b5fe42599" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>pos</name></member>
+      <member refid="classreticle_color_1a6e80f7dd6b54b5f397f17950568c66ac" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>pushcount</name></member>
+      <member refid="classreticle_color_1a19e5b05846971664d43dd22b095af681" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>Raycastlength</name></member>
+      <member refid="classreticle_color_1a447bb26a91893890cf057e2323597072" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>Start</name></member>
+      <member refid="classreticle_color_1ac1c4c0a3ab6267167e30119e1b3f04bb" prot="public" virt="non-virtual"><scope>reticleColor</scope><name>TextFrame</name></member>
+      <member refid="classreticle_color_1a99556fc54e88ed33e1e11c97dfa54c9d" prot="private" virt="non-virtual"><scope>reticleColor</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

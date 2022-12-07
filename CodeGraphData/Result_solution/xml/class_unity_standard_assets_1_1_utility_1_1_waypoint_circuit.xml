@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::WaypointCircuit</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point" prot="public">UnityStandardAssets::Utility::WaypointCircuit::RoutePoint</innerclass>
+    <innerclass refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list" prot="public">UnityStandardAssets::Utility::WaypointCircuit::WaypointList</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7cef14c77ae5197606ba1aade971ed3d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list" kindref="compound">WaypointList</ref></type>
+        <definition>WaypointList UnityStandardAssets.Utility.WaypointCircuit.waypointList</definition>
+        <argsstring></argsstring>
+        <name>waypointList</name>
+        <initializer>= new <ref refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list" kindref="compound">WaypointList</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a8d79a68fb7501d467e45990cd38c0de0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointCircuit.editorVisualisationSubsteps</definition>
+        <argsstring></argsstring>
+        <name>editorVisualisationSubsteps</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1adec5467c486e4fde3e9b88dac6b5507a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Utility.WaypointCircuit.smoothRoute</definition>
+        <argsstring></argsstring>
+        <name>smoothRoute</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1ab87c014bfa695eb629f128f3239d1dde" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.WaypointCircuit.numPoints</definition>
+        <argsstring></argsstring>
+        <name>numPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1acfed9df38162fc8812beddccc7d2ec67" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] UnityStandardAssets.Utility.WaypointCircuit.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a2087ecd5bb4f6dba43363f1305b2b29c" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] UnityStandardAssets.Utility.WaypointCircuit.distances</definition>
+        <argsstring></argsstring>
+        <name>distances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a9304e554b20920838151191fc8a1b7fd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.WaypointCircuit.p0n</definition>
+        <argsstring></argsstring>
+        <name>p0n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aed56d95ff79f36da58387c275560139c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.WaypointCircuit.p1n</definition>
+        <argsstring></argsstring>
+        <name>p1n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a687cf91eda182a3d8a51d94208b9213a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.WaypointCircuit.p2n</definition>
+        <argsstring></argsstring>
+        <name>p2n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7e2ac91270dc430f7d09c2d9f7a51510" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Utility.WaypointCircuit.p3n</definition>
+        <argsstring></argsstring>
+        <name>p3n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a8290cf3abcaffd39e5d984b7f1e324c3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointCircuit.i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aab5ca00123610644bda31940045a6f3b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointCircuit.P0</definition>
+        <argsstring></argsstring>
+        <name>P0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a93521562647a586983ff8d98d61c72a7" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointCircuit.P1</definition>
+        <argsstring></argsstring>
+        <name>P1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7162457d330297598e305093f7cd7c0b" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointCircuit.P2</definition>
+        <argsstring></argsstring>
+        <name>P2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1abd8b3ce769b0e8f70d91be2ab6f073ee" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointCircuit.P3</definition>
+        <argsstring></argsstring>
+        <name>P3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a0cb31df6885aa3bd8924ece61343c529" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.WaypointCircuit.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1abdceee908c241b0568f6b7545c0f677a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Transform[]</type>
+        <definition>Transform [] UnityStandardAssets.Utility.WaypointCircuit.Waypoints</definition>
+        <argsstring></argsstring>
+        <name>Waypoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aab5562ec7d393d158ccd1ef1c0149ba1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointCircuit.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a261cd06b90b6bd32e69087d151164a28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointCircuit.CatmullRom</definition>
+        <argsstring>(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float i)</argsstring>
+        <name>CatmullRom</name>
+        <param>
+          <type>Vector3</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="119" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="119" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1ac8607bf9d7b81db94596a37a2a0fc221" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointCircuit.CachePositionsAndDistances</definition>
+        <argsstring>()</argsstring>
+        <name>CachePositionsAndDistances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="129" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a4c184ccb373517c3451f5216e980e092" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointCircuit.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="153" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1ac5f4f91cfcf388d25fe8be7581a7383a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointCircuit.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a1efd557e8483fe60bf221a2594a47099" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.WaypointCircuit.DrawGizmos</definition>
+        <argsstring>(bool selected)</argsstring>
+        <name>DrawGizmos</name>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="165" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="165" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aac0437d6b641a9dd1cb32db4170a115f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point" kindref="compound">RoutePoint</ref></type>
+        <definition>RoutePoint UnityStandardAssets.Utility.WaypointCircuit.GetRoutePoint</definition>
+        <argsstring>(float dist)</argsstring>
+        <name>GetRoutePoint</name>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7f3f7803b415864a93ae5c51829a2bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 UnityStandardAssets.Utility.WaypointCircuit.GetRoutePosition</definition>
+        <argsstring>(float dist)</argsstring>
+        <name>GetRoutePosition</name>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="60" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2850">
+        <label>UnityStandardAssets.Utility.WaypointCircuit</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit"/>
+        <childnode refid="2851" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2851">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2852">
+        <label>UnityStandardAssets.Utility.WaypointCircuit</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit"/>
+        <childnode refid="2853" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2854" relation="usage">
+          <edgelabel>waypointList</edgelabel>
+        </childnode>
+      </node>
+      <node id="2854">
+        <label>UnityStandardAssets.Utility.WaypointCircuit.WaypointList</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list"/>
+        <childnode refid="2852" relation="usage">
+          <edgelabel>circuit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2853">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/WaypointCircuit.cs" bodystart="11" bodyend="219"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aab5562ec7d393d158ccd1ef1c0149ba1" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1ac8607bf9d7b81db94596a37a2a0fc221" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>CachePositionsAndDistances</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a261cd06b90b6bd32e69087d151164a28" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>CatmullRom</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a2087ecd5bb4f6dba43363f1305b2b29c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>distances</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a1efd557e8483fe60bf221a2594a47099" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>DrawGizmos</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a8d79a68fb7501d467e45990cd38c0de0" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>editorVisualisationSubsteps</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aac0437d6b641a9dd1cb32db4170a115f" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>GetRoutePoint</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7f3f7803b415864a93ae5c51829a2bcd" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>GetRoutePosition</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a8290cf3abcaffd39e5d984b7f1e324c3" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>i</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a0cb31df6885aa3bd8924ece61343c529" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>Length</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1ab87c014bfa695eb629f128f3239d1dde" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>numPoints</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a4c184ccb373517c3451f5216e980e092" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1ac5f4f91cfcf388d25fe8be7581a7383a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aab5ca00123610644bda31940045a6f3b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>P0</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a9304e554b20920838151191fc8a1b7fd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>p0n</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a93521562647a586983ff8d98d61c72a7" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>P1</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1aed56d95ff79f36da58387c275560139c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>p1n</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7162457d330297598e305093f7cd7c0b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>P2</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a687cf91eda182a3d8a51d94208b9213a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>p2n</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1abd8b3ce769b0e8f70d91be2ab6f073ee" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>P3</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7e2ac91270dc430f7d09c2d9f7a51510" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>p3n</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1acfed9df38162fc8812beddccc7d2ec67" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>points</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1adec5467c486e4fde3e9b88dac6b5507a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>smoothRoute</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1a7cef14c77ae5197606ba1aade971ed3d" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>waypointList</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1abdceee908c241b0568f6b7545c0f677a" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Utility::WaypointCircuit</scope><name>Waypoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

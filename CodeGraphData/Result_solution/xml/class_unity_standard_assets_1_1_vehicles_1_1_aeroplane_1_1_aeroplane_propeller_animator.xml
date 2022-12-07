@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a81e3c50ba5c1ac96dd5ce57eba7de4cd" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_PropellorModel</definition>
+        <argsstring></argsstring>
+        <name>m_PropellorModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a9b4980175c374e6796ce694ddf053564" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_PropellorBlur</definition>
+        <argsstring></argsstring>
+        <name>m_PropellorBlur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1ac813d1c2ca89e8cbe03e9a2a182716a9" prot="private" static="no" mutable="no">
+        <type>Texture2D[]</type>
+        <definition>Texture2D [] UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_PropellorBlurTextures</definition>
+        <argsstring></argsstring>
+        <name>m_PropellorBlurTextures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1adf326d552799bb63029ac412d212d901" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_ThrottleBlurStart</definition>
+        <argsstring></argsstring>
+        <name>m_ThrottleBlurStart</name>
+        <initializer>= 0.25f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a8bf7d19d334d8e4b9b7067f643ccab71" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_ThrottleBlurEnd</definition>
+        <argsstring></argsstring>
+        <name>m_ThrottleBlurEnd</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a3d612000dc9f5abf6980b05e635dc06e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_MaxRpm</definition>
+        <argsstring></argsstring>
+        <name>m_MaxRpm</name>
+        <initializer>= 2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a9201697883e740ae8d41423272772543" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller" kindref="compound">AeroplaneController</ref></type>
+        <definition>AeroplaneController UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_Plane</definition>
+        <argsstring></argsstring>
+        <name>m_Plane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a8abe8ea8787f9ba15d050e4807d1d87a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_PropellorBlurState</definition>
+        <argsstring></argsstring>
+        <name>m_PropellorBlurState</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a1a97163096674f581fd6f33ea8956c2c" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.k_RpmToDps</definition>
+        <argsstring></argsstring>
+        <name>k_RpmToDps</name>
+        <initializer>= 60f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1ab1b44099c13f70e5aefa872f2ae1a5bf" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_PropellorModelRenderer</definition>
+        <argsstring></argsstring>
+        <name>m_PropellorModelRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1afaf6a99189a885f6d1634e6413f431b5" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.m_PropellorBlurRenderer</definition>
+        <argsstring></argsstring>
+        <name>m_PropellorBlurRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a8355bfb649987fdbcd5c57f5ee28907c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1af96ec5fa836bff086985aae0af8ed8d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="36" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="41">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="40">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="44">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="42">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+        <childnode refid="44" relation="usage">
+          <edgelabel>m_Plane</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" bodystart="7" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a8355bfb649987fdbcd5c57f5ee28907c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a1a97163096674f581fd6f33ea8956c2c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>k_RpmToDps</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a3d612000dc9f5abf6980b05e635dc06e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_MaxRpm</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a9201697883e740ae8d41423272772543" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_Plane</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a9b4980175c374e6796ce694ddf053564" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_PropellorBlur</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1afaf6a99189a885f6d1634e6413f431b5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_PropellorBlurRenderer</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a8abe8ea8787f9ba15d050e4807d1d87a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_PropellorBlurState</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1ac813d1c2ca89e8cbe03e9a2a182716a9" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_PropellorBlurTextures</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a81e3c50ba5c1ac96dd5ce57eba7de4cd" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_PropellorModel</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1ab1b44099c13f70e5aefa872f2ae1a5bf" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_PropellorModelRenderer</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1a8bf7d19d334d8e4b9b7067f643ccab71" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_ThrottleBlurEnd</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1adf326d552799bb63029ac412d212d901" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>m_ThrottleBlurStart</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator_1af96ec5fa836bff086985aae0af8ed8d4" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::AeroplanePropellerAnimator</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

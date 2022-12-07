@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_water_1_1_specular_lighting" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Water::SpecularLighting</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1a715795cec47659a254638d071c0c9c51" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UnityStandardAssets.Water.SpecularLighting.specularLight</definition>
+        <argsstring></argsstring>
+        <name>specularLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1ad7a48a6eb345a29d85bbd1720d7dd15c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_water_1_1_water_base" kindref="compound">WaterBase</ref></type>
+        <definition>WaterBase UnityStandardAssets.Water.SpecularLighting.m_WaterBase</definition>
+        <argsstring></argsstring>
+        <name>m_WaterBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1a07ab47d7f4b7e70150aed7dd5b4d5757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.SpecularLighting.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1a1c0024700a30bd767d5cd78552c96e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.SpecularLighting.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2347">
+        <label>UnityStandardAssets.Water.SpecularLighting</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting"/>
+        <childnode refid="2348" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2348">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2349">
+        <label>UnityStandardAssets.Water.SpecularLighting</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting"/>
+        <childnode refid="2350" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2351" relation="usage">
+          <edgelabel>m_WaterBase</edgelabel>
+        </childnode>
+      </node>
+      <node id="2351">
+        <label>UnityStandardAssets.Water.WaterBase</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water_base"/>
+        <childnode refid="2350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2350">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1ad7a48a6eb345a29d85bbd1720d7dd15c" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLighting</scope><name>m_WaterBase</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1a715795cec47659a254638d071c0c9c51" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLighting</scope><name>specularLight</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1a07ab47d7f4b7e70150aed7dd5b4d5757" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLighting</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_1a1c0024700a30bd767d5cd78552c96e0b" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLighting</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_water_1_1_water_base" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Water::WaterBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_1a7aff509c9ae54c5a455fa2056111dc4d" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UnityStandardAssets.Water.WaterBase.sharedMaterial</definition>
+        <argsstring></argsstring>
+        <name>sharedMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a594f6b90edf4b87a8662cba1ef0c3471" compoundref="_specular_lighting_editor_8cs" startline="18" endline="49">UnityStandardAssets.Water.SpecularLightingEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_1a55893c3ad6b86eef9d154125f16abc08" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_unity_standard_assets_1_1_water_1ac23a9da55bc8ba734d644ff4cc1f15f5" kindref="member">WaterQuality</ref></type>
+        <definition>WaterQuality UnityStandardAssets.Water.WaterBase.waterQuality</definition>
+        <argsstring></argsstring>
+        <name>waterQuality</name>
+        <initializer>= WaterQuality.High</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_water_base_1a23c9f9595d0fa2ab78192d0fa014d61e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Water.WaterBase.edgeBlend</definition>
+        <argsstring></argsstring>
+        <name>edgeBlend</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_base_1a042c631313c1ec111b50ba4be3ee4c49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.WaterBase.UpdateShader</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="21" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_base_1a9496cf672bf0909b0496521aaa1c9029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.WaterBase.WaterTileBeingRendered</definition>
+        <argsstring>(Transform tr, Camera currentCam)</argsstring>
+        <name>WaterTileBeingRendered</name>
+        <param>
+          <type>Transform</type>
+          <declname>tr</declname>
+        </param>
+        <param>
+          <type>Camera</type>
+          <declname>currentCam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_water_base_1a08a8f68c9598589516d153ab6c9fd5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.WaterBase.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2815">
+        <label>UnityStandardAssets.Water.WaterBase</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water_base"/>
+        <childnode refid="2816" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2816">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2817">
+        <label>UnityStandardAssets.Water.WaterBase</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_water_base"/>
+        <childnode refid="2818" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2818">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" bodystart="14" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a23c9f9595d0fa2ab78192d0fa014d61e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBase</scope><name>edgeBlend</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a7aff509c9ae54c5a455fa2056111dc4d" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBase</scope><name>sharedMaterial</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a08a8f68c9598589516d153ab6c9fd5eb" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBase</scope><name>Update</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a042c631313c1ec111b50ba4be3ee4c49" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBase</scope><name>UpdateShader</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a55893c3ad6b86eef9d154125f16abc08" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBase</scope><name>waterQuality</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a9496cf672bf0909b0496521aaa1c9029" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::WaterBase</scope><name>WaterTileBeingRendered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

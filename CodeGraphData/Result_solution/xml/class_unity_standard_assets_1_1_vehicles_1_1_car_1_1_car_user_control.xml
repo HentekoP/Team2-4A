@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::CarUserControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control_1a43607c14a3f77f2df7ebff40ae3efe9f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" kindref="compound">CarController</ref></type>
+        <definition>CarController UnityStandardAssets.Vehicles.Car.CarUserControl.m_Car</definition>
+        <argsstring></argsstring>
+        <name>m_Car</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control_1ad5092ee8f251dbec376600a19ab7bee2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarUserControl.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control_1a6a91ad29483f387c3b555500ef6c6e21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="439">
+        <label>UnityStandardAssets.Vehicles.Car.CarUserControl</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control"/>
+        <childnode refid="440" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="440">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="444">
+        <label>UnityStandardAssets.Vehicles.Car.WheelEffects</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects"/>
+        <childnode refid="442" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>UnityStandardAssets.Vehicles.Car.CarUserControl</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control"/>
+        <childnode refid="442" relation="public-inheritance">
+        </childnode>
+        <childnode refid="443" relation="usage">
+          <edgelabel>m_Car</edgelabel>
+        </childnode>
+      </node>
+      <node id="442">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="443">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="442" relation="public-inheritance">
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>m_WheelEffects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control_1ad5092ee8f251dbec376600a19ab7bee2" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarUserControl</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control_1a6a91ad29483f387c3b555500ef6c6e21" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarUserControl</scope><name>FixedUpdate</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control_1a43607c14a3f77f2df7ebff40ae3efe9f" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::CarUserControl</scope><name>m_Car</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

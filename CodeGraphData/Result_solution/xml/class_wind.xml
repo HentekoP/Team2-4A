@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_wind" kind="class" prot="public">
+    <compoundname>Wind</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wind_1aadfa797717603d7564b430d528b646eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Wind.coefficient</definition>
+        <argsstring></argsstring>
+        <name>coefficient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_wind_1ae70a544ac11c326da0bc5cfaad9a8bc6" compoundref="_wind_8cs" startline="15" endline="28">OnTriggerStay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wind_1ac9f7359a0ca9664c325cd3adbc721797" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Wind.velocity</definition>
+        <argsstring></argsstring>
+        <name>velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_wind_1ae70a544ac11c326da0bc5cfaad9a8bc6" compoundref="_wind_8cs" startline="15" endline="28">OnTriggerStay</referencedby>
+        <referencedby refid="class_wind_1aca06175c53fc3497c4d8dd47d7ae86ea" compoundref="_wind_8cs" startline="10" endline="13">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wind_1aca06175c53fc3497c4d8dd47d7ae86ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Wind.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_wind_1ac9f7359a0ca9664c325cd3adbc721797" compoundref="_wind_8cs" startline="8">velocity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wind_1ae70a544ac11c326da0bc5cfaad9a8bc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Wind.OnTriggerStay</definition>
+        <argsstring>(Collider col)</argsstring>
+        <name>OnTriggerStay</name>
+        <param>
+          <type>Collider</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" bodystart="15" bodyend="28"/>
+        <references refid="class_wind_1aadfa797717603d7564b430d528b646eb" compoundref="_wind_8cs" startline="7">coefficient</references>
+        <references refid="class_wind_1ac9f7359a0ca9664c325cd3adbc721797" compoundref="_wind_8cs" startline="8">velocity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2904">
+        <label>Wind</label>
+        <link refid="class_wind"/>
+        <childnode refid="2905" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2905">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2906">
+        <label>Wind</label>
+        <link refid="class_wind"/>
+        <childnode refid="2907" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2907">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Wind.cs" bodystart="5" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_wind_1aadfa797717603d7564b430d528b646eb" prot="public" virt="non-virtual"><scope>Wind</scope><name>coefficient</name></member>
+      <member refid="class_wind_1ae70a544ac11c326da0bc5cfaad9a8bc6" prot="private" virt="non-virtual"><scope>Wind</scope><name>OnTriggerStay</name></member>
+      <member refid="class_wind_1aca06175c53fc3497c4d8dd47d7ae86ea" prot="private" virt="non-virtual"><scope>Wind</scope><name>Update</name></member>
+      <member refid="class_wind_1ac9f7359a0ca9664c325cd3adbc721797" prot="public" virt="non-virtual"><scope>Wind</scope><name>velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

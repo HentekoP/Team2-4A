@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_w_f_x___bullet_hole_decal" kind="class" prot="public">
+    <compoundname>WFX_BulletHoleDecal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1a5bbd98c3daaa09eeb101147c150affe7" prot="private" static="yes" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] WFX_BulletHoleDecal.quadUVs</definition>
+        <argsstring></argsstring>
+        <name>quadUVs</name>
+        <initializer>= new Vector2[]{new Vector2(0,0), new Vector2(0,1), new Vector2(1,0), new Vector2(1,1)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1aafd6f1773b31dd1fac6f3f13e3cbd057" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_BulletHoleDecal.lifetime</definition>
+        <argsstring></argsstring>
+        <name>lifetime</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1a015cf3781479de752e39b62abd925faa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_BulletHoleDecal.fadeoutpercent</definition>
+        <argsstring></argsstring>
+        <name>fadeoutpercent</name>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1aeaa0f3322c4dda3de8b555ef8d8997e7" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 WFX_BulletHoleDecal.frames</definition>
+        <argsstring></argsstring>
+        <name>frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1a071b04702a8040e408323e8be1d654b1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_BulletHoleDecal.randomRotation</definition>
+        <argsstring></argsstring>
+        <name>randomRotation</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1a7e2f556f717f6c3c49bd4e35d3bd14c7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WFX_BulletHoleDecal.deactivate</definition>
+        <argsstring></argsstring>
+        <name>deactivate</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1abbebcd0fae31a2c8008877dec11f5ebe" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_BulletHoleDecal.life</definition>
+        <argsstring></argsstring>
+        <name>life</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1af4e62a0fef62ab7004a612da14245244" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="63" endline="76">holeUpdate</referencedby>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1aff3e8177e51c99ab5f5fdba2bb6af913" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_BulletHoleDecal.fadeout</definition>
+        <argsstring></argsstring>
+        <name>fadeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1af4e62a0fef62ab7004a612da14245244" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="63" endline="76">holeUpdate</referencedby>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1a463c82ed03224b6439f52f40038f2157" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color WFX_BulletHoleDecal.color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1add4523b3cac8114d5b83c17a3d80c7ec" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="29" endline="33">Awake</referencedby>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1af4e62a0fef62ab7004a612da14245244" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="63" endline="76">holeUpdate</referencedby>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_f_x___bullet_hole_decal_1af1f979e0acb42c5b24cf2be55f7aec4d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WFX_BulletHoleDecal.orgAlpha</definition>
+        <argsstring></argsstring>
+        <name>orgAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1add4523b3cac8114d5b83c17a3d80c7ec" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="29" endline="33">Awake</referencedby>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1af4e62a0fef62ab7004a612da14245244" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="63" endline="76">holeUpdate</referencedby>
+        <referencedby refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="35" endline="61">OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_w_f_x___bullet_hole_decal_1add4523b3cac8114d5b83c17a3d80c7ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_BulletHoleDecal.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="29" bodyend="33"/>
+        <references refid="class_w_f_x___bullet_hole_decal_1a463c82ed03224b6439f52f40038f2157" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="26">color</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1af1f979e0acb42c5b24cf2be55f7aec4d" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="27">orgAlpha</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WFX_BulletHoleDecal.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="35" bodyend="61"/>
+        <references refid="class_w_f_x___bullet_hole_decal_1a463c82ed03224b6439f52f40038f2157" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="26">color</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1aff3e8177e51c99ab5f5fdba2bb6af913" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="25">fadeout</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1a015cf3781479de752e39b62abd925faa" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="19">fadeoutpercent</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1aeaa0f3322c4dda3de8b555ef8d8997e7" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="20">frames</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1abbebcd0fae31a2c8008877dec11f5ebe" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="24">life</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1aafd6f1773b31dd1fac6f3f13e3cbd057" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="18">lifetime</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1af1f979e0acb42c5b24cf2be55f7aec4d" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="27">orgAlpha</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1a5bbd98c3daaa09eeb101147c150affe7" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="16">quadUVs</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1a071b04702a8040e408323e8be1d654b1" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="21">randomRotation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_w_f_x___bullet_hole_decal_1af4e62a0fef62ab7004a612da14245244" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator WFX_BulletHoleDecal.holeUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>holeUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="63" bodyend="76"/>
+        <references refid="class_w_f_x___bullet_hole_decal_1a463c82ed03224b6439f52f40038f2157" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="26">color</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1aff3e8177e51c99ab5f5fdba2bb6af913" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="25">fadeout</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1abbebcd0fae31a2c8008877dec11f5ebe" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="24">life</references>
+        <references refid="class_w_f_x___bullet_hole_decal_1af1f979e0acb42c5b24cf2be55f7aec4d" compoundref="_w_f_x___bullet_hole_decal_8cs" startline="27">orgAlpha</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Handles the bullet hole decals:<itemizedlist>
+<listitem><para>Sets a random frame</para></listitem><listitem><para>Fades the material according to the defined lifetime</para></listitem><listitem><para>Optionally rotates the decal</para></listitem></itemizedlist>
+</para><para>(c) 2015, Jean Moreno </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2865">
+        <label>WFX_BulletHoleDecal</label>
+        <link refid="class_w_f_x___bullet_hole_decal"/>
+        <childnode refid="2866" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2866">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2867">
+        <label>WFX_BulletHoleDecal</label>
+        <link refid="class_w_f_x___bullet_hole_decal"/>
+        <childnode refid="2868" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2868">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" bodystart="14" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_w_f_x___bullet_hole_decal_1add4523b3cac8114d5b83c17a3d80c7ec" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>Awake</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1a463c82ed03224b6439f52f40038f2157" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>color</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1a7e2f556f717f6c3c49bd4e35d3bd14c7" prot="public" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>deactivate</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1aff3e8177e51c99ab5f5fdba2bb6af913" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>fadeout</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1a015cf3781479de752e39b62abd925faa" prot="public" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>fadeoutpercent</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1aeaa0f3322c4dda3de8b555ef8d8997e7" prot="public" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>frames</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1af4e62a0fef62ab7004a612da14245244" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>holeUpdate</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1abbebcd0fae31a2c8008877dec11f5ebe" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>life</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1aafd6f1773b31dd1fac6f3f13e3cbd057" prot="public" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>lifetime</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1a51013bab832411a2aaf11398bbf62a28" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>OnEnable</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1af1f979e0acb42c5b24cf2be55f7aec4d" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>orgAlpha</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1a5bbd98c3daaa09eeb101147c150affe7" prot="private" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>quadUVs</name></member>
+      <member refid="class_w_f_x___bullet_hole_decal_1a071b04702a8040e408323e8be1d654b1" prot="public" virt="non-virtual"><scope>WFX_BulletHoleDecal</scope><name>randomRotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

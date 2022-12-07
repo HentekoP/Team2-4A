@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Car::BrakeLight</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1a9c9d01e7ac0fc413f739d06aef1a5d14" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" kindref="compound">CarController</ref></type>
+        <definition>CarController UnityStandardAssets.Vehicles.Car.BrakeLight.car</definition>
+        <argsstring></argsstring>
+        <name>car</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1ae41c8a83a1b611e440024ed78ebcdff8" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer UnityStandardAssets.Vehicles.Car.BrakeLight.m_Renderer</definition>
+        <argsstring></argsstring>
+        <name>m_Renderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1a944c9ea15714c41d0f2b2127a9f7c40b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.BrakeLight.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1a8e7ed90f458b62464b3605f7e9c0845e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Car.BrakeLight.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="310">
+        <label>UnityStandardAssets.Vehicles.Car.BrakeLight</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light"/>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="312">
+        <label>UnityStandardAssets.Vehicles.Car.BrakeLight</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+        <childnode refid="314" relation="usage">
+          <edgelabel>car</edgelabel>
+        </childnode>
+      </node>
+      <node id="315">
+        <label>UnityStandardAssets.Vehicles.Car.WheelEffects</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="314">
+        <label>UnityStandardAssets.Vehicles.Car.CarController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>m_WheelEffects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1a9c9d01e7ac0fc413f739d06aef1a5d14" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::BrakeLight</scope><name>car</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1ae41c8a83a1b611e440024ed78ebcdff8" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::BrakeLight</scope><name>m_Renderer</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1a944c9ea15714c41d0f2b2127a9f7c40b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::BrakeLight</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light_1a8e7ed90f458b62464b3605f7e9c0845e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Car::BrakeLight</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

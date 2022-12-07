@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_g_k_1_1_voronoi_diagram_1_1_edge" kind="struct" prot="public">
+    <compoundname>GK::VoronoiDiagram::Edge</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a7fba545fdf59d46354fa0d45118acb35" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36" kindref="member">EdgeType</ref></type>
+        <definition>readonly EdgeType GK.VoronoiDiagram.Edge.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>The type of edge, line, ray or segment. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="99" bodyend="-1"/>
+        <referencedby refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" compoundref="_voronoi_diagram_8cs" startline="145" endline="156">GK.VoronoiDiagram.Edge.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a2c6e7536de18598a5789232f2ce5c059" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int GK.VoronoiDiagram.Edge.Site</definition>
+        <argsstring></argsstring>
+        <name>Site</name>
+        <briefdescription>
+<para>The site associted with the edge (indexed to the &quot;Sites&quot; array in the parent <ref refid="class_g_k_1_1_voronoi_diagram" kindref="compound">VoronoiDiagram</ref> object) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="105" bodyend="-1"/>
+        <referencedby refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" compoundref="_voronoi_diagram_8cs" startline="145" endline="156">GK.VoronoiDiagram.Edge.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a6b1a28c7e3f3fbfd53454cc96a2463f3" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int GK.VoronoiDiagram.Edge.Vert0</definition>
+        <argsstring></argsstring>
+        <name>Vert0</name>
+        <briefdescription>
+<para>The first vertex of the voronoi edge. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the edge is a line, it&apos;s a point on that line. If the edge is a ray, it&apos;s the point where the ray originates. If the edge is a line segment, it&apos;s one of the two endpoints. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="114" bodyend="-1"/>
+        <referencedby refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" compoundref="_voronoi_diagram_8cs" startline="145" endline="156">GK.VoronoiDiagram.Edge.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1abcc71a20249dbcc1308cb3cf2a2ad493" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int GK.VoronoiDiagram.Edge.Vert1</definition>
+        <argsstring></argsstring>
+        <name>Vert1</name>
+        <briefdescription>
+<para>The second vertex of the voronoi edge. </para>        </briefdescription>
+        <detaileddescription>
+<para>Only defined for segment edge types, otherwise equal to -1 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="121" bodyend="-1"/>
+        <referencedby refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" compoundref="_voronoi_diagram_8cs" startline="145" endline="156">GK.VoronoiDiagram.Edge.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a64088223436181868042d1f5c000b533" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 GK.VoronoiDiagram.Edge.Direction</definition>
+        <argsstring></argsstring>
+        <name>Direction</name>
+        <briefdescription>
+<para>The direction vector of a line or ray segment. Not normalized. </para>        </briefdescription>
+        <detaileddescription>
+<para>For segment edge types this is equal to a vector with both components equal to NaN. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="129" bodyend="-1"/>
+        <referencedby refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" compoundref="_voronoi_diagram_8cs" startline="145" endline="156">GK.VoronoiDiagram.Edge.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a6b44e559dab84a42b33c6d025d79c123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GK.VoronoiDiagram.Edge.Edge</definition>
+        <argsstring>(EdgeType type, int site, int vert0, int vert1, Vector2 direction)</argsstring>
+        <name>Edge</name>
+        <param>
+          <type><ref refid="class_g_k_1_1_voronoi_diagram_1ad779ad03ddc7126eca5d4de97818ca36" kindref="member">EdgeType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>site</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vert0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vert1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+<para>Construct the edge. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="134" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GK.VoronoiDiagram.Edge.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>For debugging purposes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="145" bodyend="156"/>
+        <references refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a64088223436181868042d1f5c000b533" compoundref="_voronoi_diagram_8cs" startline="129">GK.VoronoiDiagram.Edge.Direction</references>
+        <references refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a2c6e7536de18598a5789232f2ce5c059" compoundref="_voronoi_diagram_8cs" startline="105">GK.VoronoiDiagram.Edge.Site</references>
+        <references refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a7fba545fdf59d46354fa0d45118acb35" compoundref="_voronoi_diagram_8cs" startline="99">GK.VoronoiDiagram.Edge.Type</references>
+        <references refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a6b1a28c7e3f3fbfd53454cc96a2463f3" compoundref="_voronoi_diagram_8cs" startline="114">GK.VoronoiDiagram.Edge.Vert0</references>
+        <references refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1abcc71a20249dbcc1308cb3cf2a2ad493" compoundref="_voronoi_diagram_8cs" startline="121">GK.VoronoiDiagram.Edge.Vert1</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An edge in the voronoi diagram. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Plugin/VoronoiDiagram.cs" bodystart="94" bodyend="157"/>
+    <listofallmembers>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a64088223436181868042d1f5c000b533" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>Direction</name></member>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a6b44e559dab84a42b33c6d025d79c123" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>Edge</name></member>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a2c6e7536de18598a5789232f2ce5c059" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>Site</name></member>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1ac02b59a7edf233850e19f21a79dea8e7" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>ToString</name></member>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a7fba545fdf59d46354fa0d45118acb35" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>Type</name></member>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1a6b1a28c7e3f3fbfd53454cc96a2463f3" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>Vert0</name></member>
+      <member refid="struct_g_k_1_1_voronoi_diagram_1_1_edge_1abcc71a20249dbcc1308cb3cf2a2ad493" prot="public" virt="non-virtual"><scope>GK::VoronoiDiagram::Edge</scope><name>Vert1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

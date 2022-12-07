@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_walk" kind="class" prot="public">
+    <compoundname>Walk</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_walk_1abad91e179639eef42ac470a1e1a02c3a" prot="private" static="no" mutable="no">
+        <type>AudioClip[]</type>
+        <definition>AudioClip [] Walk.clips</definition>
+        <argsstring></argsstring>
+        <name>clips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_walk_1a53e41ca0b7118d0bf314019950389b86" compoundref="_walk_8cs" startline="21" endline="27">Playwalk</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_walk_1a995d373943b01a327f869fd1097b9d98" prot="private" static="no" mutable="no">
+        <type>AudioClip[]</type>
+        <definition>AudioClip [] Walk.se</definition>
+        <argsstring></argsstring>
+        <name>se</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_walk_1af1f3445a5f28962c580d75a67a57f577" compoundref="_walk_8cs" startline="29" endline="36">OnControllerColliderHit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_walk_1a399512a230581b275939bb2846c852a1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Walk.randomizePitch</definition>
+        <argsstring></argsstring>
+        <name>randomizePitch</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_walk_1a53e41ca0b7118d0bf314019950389b86" compoundref="_walk_8cs" startline="21" endline="27">Playwalk</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Walk.pitchRange</definition>
+        <argsstring></argsstring>
+        <name>pitchRange</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_walk_1a53e41ca0b7118d0bf314019950389b86" compoundref="_walk_8cs" startline="21" endline="27">Playwalk</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_walk_1ac2e627dbb2cec8f57ddb77cf1033b2ab" prot="protected" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Walk.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_walk_1a5a80630e1f943e9549ebfd8d05ba869b" compoundref="_walk_8cs" startline="15" endline="19">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_walk_1a5a80630e1f943e9549ebfd8d05ba869b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Walk.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="15" bodyend="19"/>
+        <references refid="class_walk_1ac2e627dbb2cec8f57ddb77cf1033b2ab" compoundref="_walk_8cs" startline="13">source</references>
+      </memberdef>
+      <memberdef kind="function" id="class_walk_1af1f3445a5f28962c580d75a67a57f577" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Walk.OnControllerColliderHit</definition>
+        <argsstring>(ControllerColliderHit hit)</argsstring>
+        <name>OnControllerColliderHit</name>
+        <param>
+          <type>ControllerColliderHit</type>
+          <declname>hit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="29" bodyend="36"/>
+        <references refid="class_player_controller_1acc21d66c40b1935dd7dc64f592276175" compoundref="_player_controller_8cs" startline="210" endline="213">PlayerController.GetjumpFlg</references>
+        <references refid="class_walk_1a995d373943b01a327f869fd1097b9d98" compoundref="_walk_8cs" startline="9">se</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_walk_1a53e41ca0b7118d0bf314019950389b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Walk.Playwalk</definition>
+        <argsstring>()</argsstring>
+        <name>Playwalk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="21" bodyend="27"/>
+        <references refid="class_walk_1abad91e179639eef42ac470a1e1a02c3a" compoundref="_walk_8cs" startline="8">clips</references>
+        <references refid="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" compoundref="_walk_8cs" startline="11">pitchRange</references>
+        <references refid="class_walk_1a399512a230581b275939bb2846c852a1" compoundref="_walk_8cs" startline="10">randomizePitch</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2803">
+        <label>Walk</label>
+        <link refid="class_walk"/>
+        <childnode refid="2804" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2804">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2805">
+        <label>Walk</label>
+        <link refid="class_walk"/>
+        <childnode refid="2806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2806">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Script/Walk.cs" bodystart="6" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_walk_1a5a80630e1f943e9549ebfd8d05ba869b" prot="private" virt="non-virtual"><scope>Walk</scope><name>Awake</name></member>
+      <member refid="class_walk_1abad91e179639eef42ac470a1e1a02c3a" prot="private" virt="non-virtual"><scope>Walk</scope><name>clips</name></member>
+      <member refid="class_walk_1af1f3445a5f28962c580d75a67a57f577" prot="private" virt="non-virtual"><scope>Walk</scope><name>OnControllerColliderHit</name></member>
+      <member refid="class_walk_1ac4fe73db19b7ebd46ea4da50aff9b063" prot="private" virt="non-virtual"><scope>Walk</scope><name>pitchRange</name></member>
+      <member refid="class_walk_1a53e41ca0b7118d0bf314019950389b86" prot="public" virt="non-virtual"><scope>Walk</scope><name>Playwalk</name></member>
+      <member refid="class_walk_1a399512a230581b275939bb2846c852a1" prot="private" virt="non-virtual"><scope>Walk</scope><name>randomizePitch</name></member>
+      <member refid="class_walk_1a995d373943b01a327f869fd1097b9d98" prot="private" virt="non-virtual"><scope>Walk</scope><name>se</name></member>
+      <member refid="class_walk_1ac2e627dbb2cec8f57ddb77cf1033b2ab" prot="protected" virt="non-virtual"><scope>Walk</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

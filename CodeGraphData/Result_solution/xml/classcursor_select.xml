@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classcursor_select" kind="class" prot="public">
+    <compoundname>cursorSelect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcursor_select_1ac8dd719d036420cf2f6087707fb1a50c" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int cursorSelect.ItemNumber</definition>
+        <argsstring></argsstring>
+        <name>ItemNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classcursor_select_1a44e62164e40c6a27812fe3db63a25922" compoundref="cursor_select_8cs" startline="15" endline="49">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcursor_select_1af403ce13eae37d22b038160093cf3f5a" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform cursorSelect.rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classcursor_select_1ae58b725468f7fe1be2d50bc38f406346" compoundref="cursor_select_8cs" startline="10" endline="13">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcursor_select_1a6afbee082670b05bba4924152180f9f5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool cursorSelect.pushflg</definition>
+        <argsstring></argsstring>
+        <name>pushflg</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classcursor_select_1a44e62164e40c6a27812fe3db63a25922" compoundref="cursor_select_8cs" startline="15" endline="49">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcursor_select_1ae58b725468f7fe1be2d50bc38f406346" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cursorSelect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" bodystart="10" bodyend="13"/>
+        <references refid="classcursor_select_1af403ce13eae37d22b038160093cf3f5a" compoundref="cursor_select_8cs" startline="8">rect</references>
+      </memberdef>
+      <memberdef kind="function" id="classcursor_select_1a44e62164e40c6a27812fe3db63a25922" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void cursorSelect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" bodystart="15" bodyend="49"/>
+        <references refid="classcursor_select_1ac8dd719d036420cf2f6087707fb1a50c" compoundref="cursor_select_8cs" startline="7">ItemNumber</references>
+        <references refid="classcursor_select_1a6afbee082670b05bba4924152180f9f5" compoundref="cursor_select_8cs" startline="9">pushflg</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="668">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="667">
+        <label>cursorSelect</label>
+        <link refid="classcursor_select"/>
+        <childnode refid="668" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="670">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="669">
+        <label>cursorSelect</label>
+        <link refid="classcursor_select"/>
+        <childnode refid="670" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/PlayerScript/cursorSelect.cs" bodystart="5" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classcursor_select_1ac8dd719d036420cf2f6087707fb1a50c" prot="public" virt="non-virtual"><scope>cursorSelect</scope><name>ItemNumber</name></member>
+      <member refid="classcursor_select_1a6afbee082670b05bba4924152180f9f5" prot="private" virt="non-virtual"><scope>cursorSelect</scope><name>pushflg</name></member>
+      <member refid="classcursor_select_1af403ce13eae37d22b038160093cf3f5a" prot="public" virt="non-virtual"><scope>cursorSelect</scope><name>rect</name></member>
+      <member refid="classcursor_select_1ae58b725468f7fe1be2d50bc38f406346" prot="private" virt="non-virtual"><scope>cursorSelect</scope><name>Start</name></member>
+      <member refid="classcursor_select_1a44e62164e40c6a27812fe3db63a25922" prot="private" virt="non-virtual"><scope>cursorSelect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

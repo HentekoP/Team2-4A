@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Utility::TimedObjectDestructor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1afa9519153d48cc5299965ae404f3e076" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Utility.TimedObjectDestructor.m_TimeOut</definition>
+        <argsstring></argsstring>
+        <name>m_TimeOut</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1ab413188ce9b61d64244811e70041c22e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityStandardAssets.Utility.TimedObjectDestructor.m_DetachChildren</definition>
+        <argsstring></argsstring>
+        <name>m_DetachChildren</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1a5ba763e4638d26e1633986885269dd03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.TimedObjectDestructor.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1a6c791fbd427b8cf06c1d65425c98aa77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Utility.TimedObjectDestructor.DestroyNow</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyNow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2469">
+        <label>UnityStandardAssets.Utility.TimedObjectDestructor</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor"/>
+        <childnode refid="2470" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2470">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2471">
+        <label>UnityStandardAssets.Utility.TimedObjectDestructor</label>
+        <link refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor"/>
+        <childnode refid="2472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Utility/TimedObjectDestructor.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1a5ba763e4638d26e1633986885269dd03" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectDestructor</scope><name>Awake</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1a6c791fbd427b8cf06c1d65425c98aa77" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectDestructor</scope><name>DestroyNow</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1ab413188ce9b61d64244811e70041c22e" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectDestructor</scope><name>m_DetachChildren</name></member>
+      <member refid="class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor_1afa9519153d48cc5299965ae404f3e076" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Utility::TimedObjectDestructor</scope><name>m_TimeOut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

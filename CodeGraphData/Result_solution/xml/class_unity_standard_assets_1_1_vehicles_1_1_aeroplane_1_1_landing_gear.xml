@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ad7f52735cdea00af60ddbb1f768c3117" prot="private" static="no">
+        <name>GearState</name>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ad7f52735cdea00af60ddbb1f768c3117ab1f30139cb5d78ab38b46771b0490345" prot="public">
+          <name>Raised</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ad7f52735cdea00af60ddbb1f768c3117ada35f5b05d6fb252d9c67a202cc319b0" prot="public">
+          <name>Lowered</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a37f18925a3f9d01587d84f5a931805da" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.LandingGear.raiseAtAltitude</definition>
+        <argsstring></argsstring>
+        <name>raiseAtAltitude</name>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ac2ee07ff9788dc90b42df3dcf0d0ebe0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityStandardAssets.Vehicles.Aeroplane.LandingGear.lowerAtAltitude</definition>
+        <argsstring></argsstring>
+        <name>lowerAtAltitude</name>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a8c0268243fef9d7a11d4478951c5a55b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ad7f52735cdea00af60ddbb1f768c3117" kindref="member">GearState</ref></type>
+        <definition>GearState UnityStandardAssets.Vehicles.Aeroplane.LandingGear.m_State</definition>
+        <argsstring></argsstring>
+        <name>m_State</name>
+        <initializer>= GearState.Lowered</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ae26c872f90ebcdc9cefee878571ce932" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator UnityStandardAssets.Vehicles.Aeroplane.LandingGear.m_Animator</definition>
+        <argsstring></argsstring>
+        <name>m_Animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a59fa91e14cb3c3d455de7580e6e12ef5" prot="private" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody UnityStandardAssets.Vehicles.Aeroplane.LandingGear.m_Rigidbody</definition>
+        <argsstring></argsstring>
+        <name>m_Rigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a6a11d2261c062f5d20476c42d334ec5a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller" kindref="compound">AeroplaneController</ref></type>
+        <definition>AeroplaneController UnityStandardAssets.Vehicles.Aeroplane.LandingGear.m_Plane</definition>
+        <argsstring></argsstring>
+        <name>m_Plane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a0e0fb4a15bdc2478493e340d526a790d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.LandingGear.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a3da60b92b7b53460131e2fef3ed485e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Vehicles.Aeroplane.LandingGear.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="39" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1373">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.LandingGear</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear"/>
+        <childnode refid="1374" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1374">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1375">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.LandingGear</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1377" relation="usage">
+          <edgelabel>m_Plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="1377">
+        <label>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</label>
+        <link refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1376">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" bodystart="6" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ad7f52735cdea00af60ddbb1f768c3117" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>GearState</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ac2ee07ff9788dc90b42df3dcf0d0ebe0" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>lowerAtAltitude</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1ae26c872f90ebcdc9cefee878571ce932" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>m_Animator</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a6a11d2261c062f5d20476c42d334ec5a" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>m_Plane</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a59fa91e14cb3c3d455de7580e6e12ef5" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>m_Rigidbody</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a8c0268243fef9d7a11d4478951c5a55b" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>m_State</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a37f18925a3f9d01587d84f5a931805da" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>raiseAtAltitude</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a0e0fb4a15bdc2478493e340d526a790d" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>Start</name></member>
+      <member refid="class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear_1a3da60b92b7b53460131e2fef3ed485e6" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Vehicles::Aeroplane::LandingGear</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor" kind="class" prot="public">
+    <compoundname>UnityStandardAssets::Water::SpecularLightingEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a40de36eab76d6e22b4eeb3a3db499199" prot="private" static="no" mutable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject UnityStandardAssets.Water.SpecularLightingEditor.serObj</definition>
+        <argsstring></argsstring>
+        <name>serObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a2f8e7c6522f2010b03abdd0566be4364" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityStandardAssets.Water.SpecularLightingEditor.specularLight</definition>
+        <argsstring></argsstring>
+        <name>specularLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1afb33b2cd9e216e360b31d67991c24f3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityStandardAssets.Water.SpecularLightingEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a594f6b90edf4b87a8662cba1ef0c3471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityStandardAssets.Water.SpecularLightingEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" bodystart="18" bodyend="49"/>
+        <references refid="class_water_editor_utility_1a54d98514839c67b732eed897ff6f1993" compoundref="_water_editor_utility_8cs" startline="15" endline="17">WaterEditorUtility.GetMaterialColor</references>
+        <references refid="class_water_editor_utility_1a424b4fc328b7370bd1f90a1516268982" compoundref="_water_editor_utility_8cs" startline="8" endline="10">WaterEditorUtility.GetMaterialFloat</references>
+        <references refid="class_water_editor_utility_1ac3c2023f74d4f0ac5062f1c8d1ff4d3e" compoundref="_water_editor_utility_8cs" startline="18" endline="20">WaterEditorUtility.SetMaterialColor</references>
+        <references refid="class_water_editor_utility_1aeee82ae8c53e1f505220b3576b0bc5c6" compoundref="_water_editor_utility_8cs" startline="11" endline="13">WaterEditorUtility.SetMaterialFloat</references>
+        <references refid="class_unity_standard_assets_1_1_water_1_1_water_base_1a7aff509c9ae54c5a455fa2056111dc4d" compoundref="_water_base_8cs" startline="16">UnityStandardAssets.Water.WaterBase.sharedMaterial</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2353">
+        <label>Editor</label>
+      </node>
+      <node id="2352">
+        <label>UnityStandardAssets.Water.SpecularLightingEditor</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor"/>
+        <childnode refid="2353" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2355">
+        <label>Editor</label>
+      </node>
+      <node id="2354">
+        <label>UnityStandardAssets.Water.SpecularLightingEditor</label>
+        <link refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor"/>
+        <childnode refid="2355" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Downloads/Team2-4A-Yoshi/Team2-4A-Yoshi/Assets/Tools/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1afb33b2cd9e216e360b31d67991c24f3e" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLightingEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a594f6b90edf4b87a8662cba1ef0c3471" prot="public" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLightingEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a40de36eab76d6e22b4eeb3a3db499199" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLightingEditor</scope><name>serObj</name></member>
+      <member refid="class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor_1a2f8e7c6522f2010b03abdd0566be4364" prot="private" virt="non-virtual"><scope>UnityStandardAssets::Water::SpecularLightingEditor</scope><name>specularLight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
