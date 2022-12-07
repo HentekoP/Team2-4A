@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private float walkSpeed = 3.5f;
     [SerializeField]
     private float runSpeed = 6.5f;
-    public static bool runFlag = false;
+    private bool runFlag = false;
     private Transform myCamera;
     [SerializeField]
     private float cameraRotateLimit = 75f;
@@ -73,9 +73,8 @@ public class PlayerController : MonoBehaviour
         RotateChara();
         RotateCamera();
 
-        velocity = Vector3.zero;
-
         velocity = new Vector3(Input.GetAxis("Horizontal1"), 0f, (Input.GetAxis("Vertical1")));
+        velocity = transform.TransformDirection(velocity);
 
         float speed = 0f;
         if (Input.GetButton("Run"))
@@ -104,22 +103,31 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("speed", 0f);
         }
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //    jump = true;
-        //    if (runFlag && velocity.magnitude > 0f)
-        //    {
-        //        rb.velocity = Vector3.up * dashJumpPower;
-        //    }
-        //    else
-        //    {
-        //        rb.velocity = Vector3.up * jumpPower;
-        //    }
-        //}
-        //if (jump == true)
-        //{
-        //    animator.SetBool("jump", true);
-        //}
+        if (Input.GetButton("Jump"))
+        {
+            jump = true;
+            if (runFlag && velocity.magnitude > 0f)
+            {
+                velocity.y += dashJumpPower;
+            }
+            else
+            {
+                velocity.y += jumpPower;
+            }
+
+        }
+        else
+        {
+            jump = false;
+        }
+        if (jump == true)
+        {
+            animator.SetBool("jump", true);
+        }
+        else
+        {
+            animator.SetBool("jump", false);
+        }
 
         velocity.y += Physics.gravity.y * Time.deltaTime;
         cCon.Move(velocity * Time.deltaTime);
@@ -128,35 +136,30 @@ public class PlayerController : MonoBehaviour
     
     void RotateChara()
     {
-        if (Input.GetAxis("Horizontal2") != 0)
+        float yRotate = Input.GetAxis("Horizontal2") * RstickSpeed;
+        charaRotate *= Quaternion.Euler(0f, yRotate, 0f);
+        if (yRotate != 0f)
         {
-            float yRotate = Input.GetAxis("Horizontal2") * RstickSpeed;
-            charaRotate *= Quaternion.Euler(0f, yRotate, 0f);
-            if (yRotate != 0f)
-            {
-                charaRotFlag = true;
-            }
-            else
-            {
-                charaRotFlag = false;
-            }
-            transform.localRotation = Quaternion.RotateTowards(transform.localRotation, charaRotate, rotateSpeed * Time.deltaTime);
+            charaRotFlag = true;
         }
+        else
+        {
+            charaRotFlag = false;
+        }
+        transform.localRotation = Quaternion.RotateTowards(transform.localRotation, charaRotate, rotateSpeed * Time.deltaTime);
+
     }
     void RotateCamera()
     {
-        if (Input.GetAxis("Vertical2") != 0)
+        float xRotate = Input.GetAxis("Vertical2") * RstickSpeed;
+        if (cameraRotForward)
         {
-            float xRotate = Input.GetAxis("Vertical2") * RstickSpeed;
-            if (cameraRotForward)
-            {
-                xRotate *= -1;
-            }
-            cameraRotate *= Quaternion.Euler(xRotate, 0f, 0f);
-            var resultYRot = Mathf.Clamp(Mathf.DeltaAngle(initCameraRot.eulerAngles.x, cameraRotate.eulerAngles.x), -cameraRotateLimit, cameraRotateLimit);
-            cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
-            myCamera.localRotation = Quaternion.RotateTowards(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
+            xRotate *= -1;
         }
+        cameraRotate *= Quaternion.Euler(xRotate, 0f, 0f);
+        var resultYRot = Mathf.Clamp(Mathf.DeltaAngle(initCameraRot.eulerAngles.x, cameraRotate.eulerAngles.x), -cameraRotateLimit, cameraRotateLimit);
+        cameraRotate = Quaternion.Euler(resultYRot, cameraRotate.eulerAngles.y, cameraRotate.eulerAngles.z);
+        myCamera.localRotation = Quaternion.RotateTowards(myCamera.localRotation, cameraRotate, rotateSpeed * Time.deltaTime);
     }
     void OnParticleCollision(GameObject other)
     {
@@ -207,10 +210,6 @@ public class PlayerController : MonoBehaviour
     public static bool GetjumpFlg()
     {
         return jumpFlg;
-    }
-    public static bool GetRunFlg()
-    {
-        return runFlag;
     }
 }
 

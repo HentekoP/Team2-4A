@@ -34,7 +34,7 @@ public class BreakSE : MonoBehaviour
             {
                 audioSource.PlayOneShot(HammerDestroyed);
                 hamaaa.HammerFlg = true;
-                hamaa.HammarFlg = false;
+
             }
         }
     }

@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Animations;
-using UnityEngine.VFX;
+﻿using UnityEngine;
 
 
 [System.Runtime.InteropServices.Guid("AF60DA75-A174-48B8-B6FA-60D9127A836F")]
@@ -26,7 +22,7 @@ public class DemoController : MonoBehaviour
     {
         f = Input.GetAxis("RT");
 
-        
+
         if (f == 1.0)
         {
             bakuhatu();
@@ -38,7 +34,7 @@ public class DemoController : MonoBehaviour
         {
 
             hakai();
-               
+
         }
 
 
@@ -58,7 +54,7 @@ public class DemoController : MonoBehaviour
             }
         }
 
-       
+
 
 
 
@@ -77,7 +73,7 @@ public class DemoController : MonoBehaviour
 
             }
         }
-    }    
+    }
 }
 
 

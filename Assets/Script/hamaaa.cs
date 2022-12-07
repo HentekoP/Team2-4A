@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class hamaaa : MonoBehaviour
 {
@@ -27,7 +25,7 @@ public class hamaaa : MonoBehaviour
         if (HammerFlg == true)
         {
             if (Input.GetButtonDown("X"))
-            {      
+            {
 
                 Debug.Log("Xボタンを押してるよ");
                 if (GameObject.FindGameObjectWithTag("hammer"))
@@ -36,7 +34,7 @@ public class hamaaa : MonoBehaviour
                     // ★★追加
                     // オブジェクトのHPを１ずつ減少させる。
                     objectHP -= 1;
-                    
+
                     // ★★追加
                     // もしもHPが0よりも大きい場合には（条件）
                     if (objectHP > 0)
@@ -64,7 +62,7 @@ public class hamaaa : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Block" && DemoController.flg == true)
+        if (collision.gameObject.tag == "Block" && DemoController.flg == true)
         {
             Playeffect(collision);
             audioSource.PlayOneShot(wall);
